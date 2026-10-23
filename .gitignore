@@ -59,6 +59,3 @@ __pycache__/
 !/source_art/r4/checkpoints/candidate_08/docs/r4_build_manifest.json
 !/source_art/r4/checkpoints/candidate_09/docs/r4_build_manifest.json
 !/source_art/r4/checkpoints/candidate_10/docs/r4_build_manifest.json
-
-# Local planning scratch, kept separately from the delivered project.
-/temp.md
