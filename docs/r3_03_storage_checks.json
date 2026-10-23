@@ -1,0 +1,328 @@
+{
+	"all_passed": true,
+	"checks": [
+		{
+			"detail": null,
+			"name": "default schema2 inventory and ledger",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "kill before quest records pending loot",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "first death position persists",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "practice reset leaves pending receipt unchanged",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "accept uses recorded kill after practice reset",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "pickup atomically claims ledger and inventory1",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "pickup cannot repeat",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "second practice victory cannot mint another item",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "quest reward coexists with claimed item",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "reload claimed item and completed quest",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "earned drop load seeds absent cleared session",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "reload cannot repeat item or coins",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "active setup accepts quest",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "active clear saves quest receipt and loot in one bundle",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "item may be picked before quest acceptance",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "claimed item history can later satisfy quest",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "v1 migrates in memory available",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "v1 load does not rewrite available",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "first mutation retains exact v1 backup available",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "v1 migrates in memory active",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "v1 load does not rewrite active",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "first mutation retains exact v1 backup active",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "v1 migrates in memory return",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "v1 load does not rewrite return",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "first mutation retains exact v1 backup return",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "v1 migrates in memory completed",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "v1 load does not rewrite completed",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "first mutation retains exact v1 backup completed",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger1",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger2",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger3",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger4",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger5",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger6",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger7",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger8",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger9",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger10",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger11",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger12",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger13",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger14",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger15",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger16",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger17",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger18",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "schema2 rejects invalid ledger19",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "invalid v2 is preserved and write-blocked",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "failed clear setup",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "failed kill transaction stays in memory only",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "failed kill write does not loop",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "new quest and pickup cannot replace pending transaction",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "retry after R preserves original kill location and quest receipt",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "failed pickup keeps visible pending item and zero inventory",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "repeated pickup cannot overlay failed pickup transaction",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "save_progress prioritizes exact pending pickup",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "failed pickup recovery reloads exactly one item",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "valid v1 backup recovers migrated pending item",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "backup recovery pickup commits one item",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "corrupt source remains exact archive and v1 backup retained",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "human primary presence and bytes unchanged",
+			"passed": true
+		}
+	],
+	"controller_sha256": "e10ff614466ea79723fd25ced29d43a18bd6870a740726a363b9564c89632e8e",
+	"count": 62,
+	"created_at": "2026-10-23T07:47:29",
+	"failed": [],
+	"godot": "4.7.2-stable (official)",
+	"human_primary_exists_after": false,
+	"human_primary_exists_before": false,
+	"human_primary_sha256_after": "",
+	"human_primary_sha256_before": "",
+	"isolated_storage_prefix": "user://qa/first_route_loot_1792741649_05292_128934",
+	"quest_data_sha256": "00ed1ae288ba778d9b1df51064135d3d1883894c11079903db530bf39a64d6ea",
+	"schema": 1,
+	"test_script_sha256": "a31b5bdd5623400d5b257e13ef79e010f44271acf72ab7ab6cc0116081a728f7"
+}

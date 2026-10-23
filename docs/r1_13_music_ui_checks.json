@@ -1,0 +1,61 @@
+{
+  "candidate": "R1/13",
+  "checks": [
+    {
+      "check": "actual_f9_updates_music_menu_and_keeps_effects",
+      "music": {
+        "gain": 0.0,
+        "muted": true,
+        "play_starts": 1,
+        "player_id": 72645348071,
+        "position": 6.30380964279175,
+        "stream_paused": true,
+        "tag": "M_WESTCOAST",
+        "target_gain": 0.0,
+        "volume": 0.2
+      },
+      "pass": true
+    },
+    {
+      "check": "actual_f9_restores_twenty_percent_without_restart",
+      "pass": true
+    },
+    {
+      "check": "actual_mouse_opens_music_popup_and_blocks_actor",
+      "focused_item": -1,
+      "pass": true,
+      "popup_visible": true
+    },
+    {
+      "check": "actual_keyboard_music_mute_does_not_jump",
+      "pass": true
+    },
+    {
+      "check": "actual_keyboard_selects_music_forty_without_jump",
+      "jump_phase": "grounded",
+      "music_volume": 0.4,
+      "pass": true
+    },
+    {
+      "check": "actual_f8_keeps_music_forty_playing",
+      "pass": true
+    },
+    {
+      "check": "actual_music_ten_keeps_effects_muted_and_actor_grounded",
+      "pass": true
+    },
+    {
+      "check": "actual_f4_r0_keeps_music_and_independent_mutes",
+      "pass": true
+    },
+    {
+      "check": "actual_f4_r1_keeps_music_and_independent_mutes",
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "method": "Godot MCP game_manage mouse and keyboard events, verified with live popup focus and runtime state; no menu signals invoked directly.",
+  "music_play_starts": 1,
+  "music_player_id": 72645348071,
+  "note": "Initial keyboard focus assumption is retained in r1_13_music_ui_initial_checks.json; final selection uses observed focus and the corresponding Down sequence."
+}

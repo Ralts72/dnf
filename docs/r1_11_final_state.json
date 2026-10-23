@@ -1,0 +1,24 @@
+{
+  "actor_disk_sha256": "a3348e8dbb12ff868dbc919dedf46448fca42a15bda7bdc1b74b538165fad56c",
+  "actor_loaded_sha256": "a3348e8dbb12ff868dbc919dedf46448fca42a15bda7bdc1b74b538165fad56c",
+  "build": "R1   /   11",
+  "candidate": "R1/11",
+  "glb_sha256": "74c2b2497b41112c691fcb8a8abe991894bee8314a9a38d2cca0844ccf9cf3c9",
+  "jump_active": false,
+  "lamp_meshes": 42,
+  "markers": false,
+  "meshes": 302,
+  "muted": false,
+  "paused": false,
+  "preview": false,
+  "probe_disabled": true,
+  "render_scale": 2,
+  "root_children": [
+    "_mcp_game_helper",
+    "WestCoastR1"
+  ],
+  "scene": "WestCoastR1",
+  "ui_input_blocked": false,
+  "volume": 0.6,
+  "run_id": "r15506162-38"
+}

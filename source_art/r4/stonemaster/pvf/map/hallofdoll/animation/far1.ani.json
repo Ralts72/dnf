@@ -1,0 +1,35 @@
+{
+  "path": "map/hallofdoll/animation/far1.ani",
+  "crc": {
+    "expected": 2418580715,
+    "actual_seed_file_number": 2418580715,
+    "actual_seed_zero": 3181081599
+  },
+  "decoded": {
+    "frames_count": 1,
+    "resources": [
+      "map/act2/amon/far.img"
+    ],
+    "globals": [
+      {
+        "type": 1,
+        "value": 0
+      }
+    ],
+    "frames": [
+      {
+        "resource": "map/act2/amon/far.img",
+        "image_frame": 0,
+        "x": 0,
+        "y": -80,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      }
+    ]
+  }
+}

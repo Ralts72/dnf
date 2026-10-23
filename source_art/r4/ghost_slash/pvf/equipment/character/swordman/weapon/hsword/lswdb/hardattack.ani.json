@@ -1,0 +1,255 @@
+{
+  "path": "equipment/character/swordman/weapon/hsword/lswdb/hardattack.ani",
+  "sha256_decoded_bytes": "0303417c5346cd255abae632ceb93c3f9db2204f809af5bbbdd6f82920f2c15a",
+  "bytes": 464,
+  "crc": {
+    "expected": 475206618,
+    "actual_seed_file_number": 475206618,
+    "actual_seed_zero": 1931325294
+  },
+  "crc_matches": true,
+  "decoded": {
+    "frames_count": 18,
+    "resources": [
+      "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 139,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 140,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 141,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 142,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 143,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 144,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 145,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 146,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 147,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 148,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 149,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 500
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 150,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 500
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 151,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 500
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 152,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 500
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 153,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 500
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 154,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 500
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 155,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 500
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 156,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 500
+          }
+        ]
+      }
+    ]
+  },
+  "raw_reference": "source_art/r4/ghost_slash/pvf/equipment/character/swordman/weapon/hsword/lswdb/hardattack.ani.bin"
+}

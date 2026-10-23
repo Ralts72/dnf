@@ -1,0 +1,708 @@
+{
+  "facade": [
+    {
+      "name": "Curved_Plaster_Facade",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -14.037082077780411,
+      "depth_phase_max_pixels": 4.843909421364018e-07
+    },
+    {
+      "name": "Gate_Dark_Recess",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -4.986858214351074,
+      "depth_phase_max_pixels": -2.0316826483969717
+    },
+    {
+      "name": "Blue_Gate_Plank_00",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.1398733480186967,
+      "depth_phase_max_pixels": -0.9234919487752464
+    },
+    {
+      "name": "Blue_Gate_Plank_01",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.1398733480186967,
+      "depth_phase_max_pixels": -0.9234919487752464
+    },
+    {
+      "name": "Blue_Gate_Plank_02",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.1398733480186967,
+      "depth_phase_max_pixels": -0.9234919487752464
+    },
+    {
+      "name": "Blue_Gate_Plank_03",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.1398733480186967,
+      "depth_phase_max_pixels": -0.9234919487752464
+    },
+    {
+      "name": "Blue_Gate_Plank_04",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.1398733480186967,
+      "depth_phase_max_pixels": -0.9234919487752464
+    },
+    {
+      "name": "Blue_Gate_Plank_05",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.1398733480186967,
+      "depth_phase_max_pixels": -0.9234919487752464
+    },
+    {
+      "name": "Blue_Gate_Plank_06",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.1398733480186967,
+      "depth_phase_max_pixels": -0.9234919487752464
+    },
+    {
+      "name": "Blue_Gate_Plank_07",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.1398733480186967,
+      "depth_phase_max_pixels": -0.9234919487752464
+    },
+    {
+      "name": "Blue_Gate_Plank_08",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.1398733480186967,
+      "depth_phase_max_pixels": -0.9234919487752464
+    },
+    {
+      "name": "Blue_Gate_Plank_09",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.1398733480186967,
+      "depth_phase_max_pixels": -0.9234919487752464
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_00",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_01",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_02",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_03",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_04",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_05",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_06",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_07",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_08",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_09",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_10",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_11",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_12",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_13",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_14",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_15",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_keystone_16",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_jamb_-1_0",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_jamb_-1_1",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_jamb_-1_2",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_jamb_-1_3",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_jamb_-1_4",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_jamb_-1_5",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_jamb_-1_6",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_jamb_1_0",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_jamb_1_1",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_jamb_1_2",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_jamb_1_3",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_jamb_1_4",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_jamb_1_5",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Gate_Stone_Arch_jamb_1_6",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -3.8786664138408424,
+      "depth_phase_max_pixels": 2.0316825162903496
+    },
+    {
+      "name": "Small_Arch_Window_Shadow",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -0.22163809588880534,
+      "depth_phase_max_pixels": 0.3324567034778041
+    },
+    {
+      "name": "Small_Window_Stone_keystone_00",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_01",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_02",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_03",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_04",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_05",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_06",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_07",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_08",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_09",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_10",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_11",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_12",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_13",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_14",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_15",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_keystone_16",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_jamb_-1_0",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_jamb_-1_1",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_jamb_-1_2",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_jamb_-1_3",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_jamb_-1_4",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_jamb_-1_5",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_jamb_-1_6",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_jamb_1_0",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_jamb_1_1",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_jamb_1_2",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_jamb_1_3",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_jamb_1_4",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_jamb_1_5",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Small_Window_Stone_jamb_1_6",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -1.108190215230783,
+      "depth_phase_max_pixels": 2.9551749494565382
+    },
+    {
+      "name": "Window_Sill",
+      "active": true,
+      "layers": [
+        "Source_Facade_Projection"
+      ],
+      "depth_phase_min_pixels": -0.5540954158641734,
+      "depth_phase_max_pixels": 7.942033097754301
+    }
+  ],
+  "dock": [
+    {
+      "name": "Dock_Mooring_Core",
+      "active": false,
+      "layers": [
+        "UVMap",
+        "Source_Dock_Masonry"
+      ],
+      "max_world_mapping_error": 3.5538456256573028
+    },
+    {
+      "name": "Dock_Mooring_Limestone_Cap",
+      "active": false,
+      "layers": [
+        "UVMap",
+        "Source_Dock_Masonry"
+      ],
+      "max_world_mapping_error": 1.3928574153355182
+    }
+  ]
+}

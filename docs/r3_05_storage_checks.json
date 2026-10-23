@@ -1,0 +1,595 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "details": null,
+      "name": "default schema3 preserves practice appearance and zero bonus",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "configure false emits one committed progress signal",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "missing-file load succeeds and signals without writing",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "unknown and unowned equips rejected without save or signal",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "practice equip is an idempotent no-op",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "quest acceptance still commits active state",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "clear atomically records quest receipt and pending drop before reward",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "claim atomically grants40 and weapon without auto-equip",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "claim primary contains one complete schema3 bundle",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "claim backup is complete previous unowned return state",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "reward cannot duplicate coins or ownership",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "pickup after reward retains equipment ownership",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "equip saves ownership plus key and derives catalog bonus4",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "bonus is not persisted in equipment",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "reload keeps owned and equipped key with bonus4",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "practice reset observation cannot revoke quest loot or equipment",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "switch back to practice persists bonus0 and retains ownership",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 available migration owns only legitimate completed and keeps practice",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 available load never rewrites original",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 available next save retains exact old backup",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 active migration owns only legitimate completed and keeps practice",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 active load never rewrites original",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 active next save retains exact old backup",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 return migration owns only legitimate completed and keeps practice",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 return load never rewrites original",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 return next save retains exact old backup",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 completed migration owns only legitimate completed and keeps practice",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 completed load never rewrites original",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 completed next save retains exact old backup",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 available migration owns only legitimate completed and keeps practice",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 available load never rewrites original",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 available inventory and drop values remain exact",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 available next save retains exact old backup",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 active migration owns only legitimate completed and keeps practice",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 active load never rewrites original",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 active inventory and drop values remain exact",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 active next save retains exact old backup",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 return migration owns only legitimate completed and keeps practice",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 return load never rewrites original",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 return inventory and drop values remain exact",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 return next save retains exact old backup",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 completed migration owns only legitimate completed and keeps practice",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 completed load never rewrites original",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 completed inventory and drop values remain exact",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 completed next save retains exact old backup",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "kill before accepting creates material receipt without weapon",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "early pickup and later accept do not replay clear or erase material",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "early route reward remains one atomic grant",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "numeric truthy encounter flag still cannot grant reward or weapon",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "failed equip leaves committed state bonus and primary unchanged",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "pending equipment transaction contains owned key but no bonus",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "new operations cannot overwrite failed equip transaction",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "pending equip is not retried or replaced by frame clear observation",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "retry success commits exact equip and emits once",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "equip retry backup remains exact old committed state",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "failed unequip preserves old appearance key and bonus4",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "unequip retry alone applies practice bonus0",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "failed reward rolls back both40 coins and weapon ownership",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "failed reward candidate includes both grants and unchanged default appearance",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "reset and equip cannot steal pending reward candidate",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "reward retry grants exactly once after reset",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "schema3 failed clear retains old active unearned and unowned state",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "failed clear is not repeated and cannot be replaced by equipment",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "clear retry after reset preserves historical receipt and drop position",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "schema3 failed pickup leaves pending loot and zero material",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "pending pickup cannot be replaced by claim or equip",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "pickup retry commits exactly one material without granting equipment",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "later reward and equip preserve recovered material receipt",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 0",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 1",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 2",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 3",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 4",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 5",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 6",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 7",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 8",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 9",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 10",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 11",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 12",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 13",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 14",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 15",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 16",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 17",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 18",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 19",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 or legacy rejected without repair 20",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid v3 primary falls back to strict v2 backup in memory",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "backup migration equip writes one complete v3 bundle",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "corrupt primary archived exactly and old backup retained",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "new primary reload keeps equipment material quest and bonus",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "strict v1 backup restores correct appearance policy",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 backup bytes survive successful recovery save",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "strict v3 backup restores correct appearance policy",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v3 backup bytes survive successful recovery save",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "both invalid copies block writes and signal while preserving files",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "catalog rejects non-whitelist bonus 4",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "catalog rejects non-whitelist bonus 72",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "catalog rejects non-whitelist bonus -4",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "catalog rejects non-whitelist bonus 4.5",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "catalog rejects non-whitelist bonus inf",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "catalog rejects non-whitelist bonus []",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "catalog rejects non-whitelist bonus {  }",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "catalog numeric4 accepted without reading source attack72",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "non-QA configuration remains forbidden",
+      "passed": true
+    }
+  ],
+  "controller_sha256": "114445dc2e92c9897d87fe67abb0a33ca65dd43f4a40172e05dffeb6b141372a",
+  "count": 107,
+  "created_at": "2026-10-23T08:23:55",
+  "default_storage_initialized_or_written": false,
+  "equipment_data_sha256": "c22692564a0dcd5e483d6c5cfa38d79f6e7b714a855def5a02c5895bea8a1c99",
+  "failed": [],
+  "godot": "4.7.2-stable (official)",
+  "isolated_storage_prefix": "user://qa/first_equipment_182463",
+  "quest_data_sha256": "e2f8e30826e4d76500f3db0bf8f0ef4c0726b337f21ebdb8084b6e5bf3fcb975",
+  "schema": 1,
+  "scope": "Isolated headless SceneTree, no main scene/autoload/visual/runtime input. Induced temporary-directory write failures are expected fixtures.",
+  "test_script": "res://tools/r3/equipment_storage_checks.gd",
+  "test_script_sha256": "e8a68af088a744c415c370281d4bafb27186ce194cc04723c01136f8fc2dca58",
+  "isolation": {
+    "scratch_project": "/var/folders/8w/qkg_4djn7wv2zndv43xkt5c00000gn/T/dnf-equipment-storage-dwcgphpz",
+    "autoloads": false,
+    "main_scene": false,
+    "human_files_before": {
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json": {
+        "exists": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak": {
+        "exists": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "sha256": null
+      }
+    },
+    "human_files_after": {
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json": {
+        "exists": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak": {
+        "exists": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "sha256": null
+      }
+    },
+    "human_profile_bytes_unchanged": true
+  }
+}

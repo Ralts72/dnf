@@ -1,0 +1,64 @@
+{
+  "build": {
+    "path": "Interface/Build",
+    "properties": [
+      {
+        "name": "size",
+        "type": "Vector2",
+        "value": {
+          "x": 63,
+          "y": 19
+        }
+      },
+      {
+        "name": "position",
+        "type": "Vector2",
+        "value": {
+          "x": 856,
+          "y": 17
+        }
+      },
+      {
+        "name": "text",
+        "type": "String",
+        "value": "R1   /   25"
+      }
+    ]
+  },
+  "walk_toggle": {
+    "path": "Interface/WalkToggle",
+    "properties": [
+      {
+        "name": "size",
+        "type": "Vector2",
+        "value": {
+          "x": 158,
+          "y": 30
+        }
+      },
+      {
+        "name": "position",
+        "type": "Vector2",
+        "value": {
+          "x": 490,
+          "y": 506
+        }
+      },
+      {
+        "name": "disabled",
+        "type": "bool",
+        "value": false
+      },
+      {
+        "name": "button_pressed",
+        "type": "bool",
+        "value": true
+      },
+      {
+        "name": "text",
+        "type": "String",
+        "value": "步态 F5"
+      }
+    ]
+  }
+}

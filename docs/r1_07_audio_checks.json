@@ -1,0 +1,500 @@
+{
+  "candidate": "R1/07",
+  "checks": [
+    {
+      "check": "R1_no_sound_before_takeoff",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_takeoff_voice_and_ground_sound_once",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_air_voice_once",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_air_swing_waits_for_pose",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_air_swing_at_source_box_pose",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_landing_once_and_no_pending_tail",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_long_tick_does_not_lose_or_duplicate_jump_cues",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_paused_action_and_audio_clocks_stay_together",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_single_step_consumes_cue_silently",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_raw_pose_previews_are_silent",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_attack1_voice_precedes_swing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_attack1_swing_on_visible_stroke",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_attack1_completion_has_no_replay",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_attack2_voice_precedes_swing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_attack2_swing_on_visible_stroke",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_attack2_completion_has_no_replay",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_attack3_voice_precedes_swing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_attack3_swing_on_visible_stroke",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_attack3_completion_has_no_replay",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_preview_cancels_pending_swing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_escape_cancels_ground_swing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_escape_in_air_keeps_landing_cue",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_frame_seek_cancels_audio",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_late_air_attack_does_not_swing_after_touchdown",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_reset_clears_timeline",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_no_sound_before_takeoff",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_takeoff_voice_and_ground_sound_once",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_air_voice_once",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_air_swing_waits_for_pose",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_air_swing_at_source_box_pose",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_landing_once_and_no_pending_tail",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_long_tick_does_not_lose_or_duplicate_jump_cues",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_paused_action_and_audio_clocks_stay_together",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_single_step_consumes_cue_silently",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_raw_pose_previews_are_silent",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_attack1_voice_precedes_swing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_attack1_swing_on_visible_stroke",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_attack1_completion_has_no_replay",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_attack2_voice_precedes_swing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_attack2_swing_on_visible_stroke",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_attack2_completion_has_no_replay",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_attack3_voice_precedes_swing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_attack3_swing_on_visible_stroke",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_attack3_completion_has_no_replay",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_preview_cancels_pending_swing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_escape_cancels_ground_swing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_escape_in_air_keeps_landing_cue",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_frame_seek_cancels_audio",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_late_air_attack_does_not_swing_after_touchdown",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_reset_clears_timeline",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_offscreen_scene_is_inaudible",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "F4_r1_to_r0_transfers_pending_audio_once",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "F4_r0_to_r1_transfers_audio_clock",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "F4_only_future_swing_plays",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "audio_menu_fits_header",
+      "details": {
+        "rect": "[P: (211.0, 17.0), S: (111.0, 27.0)]"
+      },
+      "pass": true
+    },
+    {
+      "check": "mixer_decodes_SM_ATK_01",
+      "details": {
+        "frames": 34816,
+        "peak": 0.478982090950012
+      },
+      "pass": true
+    },
+    {
+      "check": "mixer_decodes_SM_ATK_02",
+      "details": {
+        "frames": 57344,
+        "peak": 0.557455003261566
+      },
+      "pass": true
+    },
+    {
+      "check": "mixer_decodes_SM_ATK_03",
+      "details": {
+        "frames": 65024,
+        "peak": 0.48729333281517
+      },
+      "pass": true
+    },
+    {
+      "check": "mixer_decodes_SM_JUMP",
+      "details": {
+        "frames": 34816,
+        "peak": 0.324614942073822
+      },
+      "pass": true
+    },
+    {
+      "check": "mixer_decodes_SM_JUMP_ATK_01",
+      "details": {
+        "frames": 65024,
+        "peak": 0.537779629230499
+      },
+      "pass": true
+    },
+    {
+      "check": "mixer_decodes_SM_JUMP_ATK_02",
+      "details": {
+        "frames": 65024,
+        "peak": 0.598224580287933
+      },
+      "pass": true
+    },
+    {
+      "check": "mixer_decodes_JUMP_START",
+      "details": {
+        "frames": 53248,
+        "peak": 0.230638727545738
+      },
+      "pass": true
+    },
+    {
+      "check": "mixer_decodes_JUMP_END",
+      "details": {
+        "frames": 55296,
+        "peak": 0.357962071895599
+      },
+      "pass": true
+    },
+    {
+      "check": "mixer_decodes_SQUARESWDA_01",
+      "details": {
+        "frames": 65024,
+        "peak": 0.30195426940918
+      },
+      "pass": true
+    },
+    {
+      "check": "mixer_decodes_SQUARESWDA_02",
+      "details": {
+        "frames": 65024,
+        "peak": 0.293319940567017
+      },
+      "pass": true
+    },
+    {
+      "check": "mixer_decodes_SQUARESWDB",
+      "details": {
+        "frames": 65024,
+        "peak": 0.339992135763168
+      },
+      "pass": true
+    },
+    {
+      "check": "mixer_decodes_SQUARESWDC_01",
+      "details": {
+        "frames": 65024,
+        "peak": 0.375902444124222
+      },
+      "pass": true
+    },
+    {
+      "check": "mixer_pause_is_silent",
+      "details": {
+        "peak": 0.0
+      },
+      "pass": true
+    },
+    {
+      "check": "mixer_resumes_existing_voice",
+      "details": {
+        "peak": 0.598224580287933
+      },
+      "pass": true
+    },
+    {
+      "check": "mute_stops_existing_voices",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "muted_actions_consume_cues_without_playing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "unmute_does_not_replay_consumed_cues",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "volume_preset_1",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "volume_preset_2",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "volume_preset_3",
+      "details": {},
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "mix_rate": 48000.0,
+  "mixer_captures": [
+    {
+      "frames": 34816,
+      "length": 0.272834479808807,
+      "peak": 0.478982090950012,
+      "tag": "SM_ATK_01"
+    },
+    {
+      "frames": 57344,
+      "length": 0.240907028317451,
+      "peak": 0.557455003261566,
+      "tag": "SM_ATK_02"
+    },
+    {
+      "frames": 65024,
+      "length": 0.478911578655243,
+      "peak": 0.48729333281517,
+      "tag": "SM_ATK_03"
+    },
+    {
+      "frames": 34816,
+      "length": 0.140045344829559,
+      "peak": 0.324614942073822,
+      "tag": "SM_JUMP"
+    },
+    {
+      "frames": 65024,
+      "length": 0.583401381969452,
+      "peak": 0.537779629230499,
+      "tag": "SM_JUMP_ATK_01"
+    },
+    {
+      "frames": 65024,
+      "length": 0.629841268062592,
+      "peak": 0.598224580287933,
+      "tag": "SM_JUMP_ATK_02"
+    },
+    {
+      "frames": 53248,
+      "length": 0.236916095018387,
+      "peak": 0.230638727545738,
+      "tag": "JUMP_START"
+    },
+    {
+      "frames": 55296,
+      "length": 0.240907028317451,
+      "peak": 0.357962071895599,
+      "tag": "JUMP_END"
+    },
+    {
+      "frames": 65024,
+      "length": 0.481814056634903,
+      "peak": 0.30195426940918,
+      "tag": "SQUARESWDA_01"
+    },
+    {
+      "frames": 65024,
+      "length": 0.416507929563522,
+      "peak": 0.293319940567017,
+      "tag": "SQUARESWDA_02"
+    },
+    {
+      "frames": 65024,
+      "length": 0.394739240407944,
+      "peak": 0.339992135763168,
+      "tag": "SQUARESWDB"
+    },
+    {
+      "frames": 65024,
+      "length": 0.413741499185562,
+      "peak": 0.375902444124222,
+      "tag": "SQUARESWDC_01"
+    }
+  ],
+  "note": "Real Godot mixer capture; audio QA bus fader -80 dB. Speaker hardware/listening not certified.",
+  "source_script_sha256": "24aef7527b0a1dd7697f6a245fd78a8f47ea2c71625ac7597eafbefe613e9b97"
+}

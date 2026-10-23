@@ -1,0 +1,33 @@
+{
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "build": "R1   /   13",
+  "architecture_meshes": 302,
+  "hierarchy_complete": true,
+  "music_menu": {
+    "children_count": 0,
+    "name": "MusicMenu",
+    "path": "/WestCoastR1/Interface/MusicMenu",
+    "type": "OptionButton"
+  },
+  "autoloads": [
+    {
+      "name": "_mcp_game_helper",
+      "path": "res://addons/godot_ai/runtime/game_helper.gd",
+      "singleton": true
+    },
+    {
+      "name": "PortMusic",
+      "path": "res://scripts/port_music.gd",
+      "singleton": true
+    }
+  ],
+  "preserved_scenes": [
+    "res://work/r1_13_editor_r0_before_reload.tscn",
+    "res://work/r1_13_editor_r1_before_reload.tscn"
+  ],
+  "note": "The disk configuration already launched PortMusic, while the editor still listed only the helper. Registered the same music singleton through the native autoload tool, then reloaded both scenes.",
+  "preserved_scene_sha256": {
+    "res://work/r1_13_editor_r0_before_reload.tscn": "a957877512ed48b6147925bbff947c388d11c503a7b0124648e649a47f648eaf",
+    "res://work/r1_13_editor_r1_before_reload.tscn": "87fcb7daf6bb742c6920131b5adb60918dd95eb95720b26f39ddd738bde94378"
+  }
+}

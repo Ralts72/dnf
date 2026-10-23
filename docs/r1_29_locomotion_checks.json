@@ -1,0 +1,1145 @@
+{
+  "boundary_cases": [
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_00.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_00.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_00_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_00_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_00_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_00_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_01.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_01.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_01_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_01_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_01_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_01_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_02.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_02.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_02_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_02_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_02_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_02_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_03.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_03.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_03_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_03_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_03_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_03_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_04.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_04.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_04_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_04_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_04_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_04_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_05.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_05.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_05_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_05_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_05_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_05_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_06.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_06.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_06_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_06_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_06_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_06_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_07.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_07.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_07_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_07_1.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_07_2.png"
+    },
+    {
+      "action": "move",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_07_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_00.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_00.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_00_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_00_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_00_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_00_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_01.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_01.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_01_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_01_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_01_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_01_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_02.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_02.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_02_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_02_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_02_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_02_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_03.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_03.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_03_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_03_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_03_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_03_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_04.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_04.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_04_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_04_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_04_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_04_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_05.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_05.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_05_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_05_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_05_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_05_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_06.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_06.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_06_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_06_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_06_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_06_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 0.0,
+      "expected_subframe": 0,
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_07.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 0,
+      "elapsed_ms": 33.32,
+      "expected_subframe": 0,
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/dash_07.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 33.334,
+      "expected_subframe": 1,
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_07_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 1,
+      "elapsed_ms": 66.65,
+      "expected_subframe": 1,
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_07_1.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 66.668,
+      "expected_subframe": 2,
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_07_2.png"
+    },
+    {
+      "action": "dash",
+      "actual_subframe": 2,
+      "elapsed_ms": 99.999,
+      "expected_subframe": 2,
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_dash/dash_07_2.png"
+    }
+  ],
+  "candidate": "R1/29",
+  "checks": [
+    {
+      "check": "default_R1_enabled",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "both_clips_preload16_each",
+      "details": {
+        "counts": {
+          "dash": 16.0,
+          "move": 16.0
+        }
+      },
+      "pass": true
+    },
+    {
+      "check": "all32_imported_RGBA_buffers_exact",
+      "details": {
+        "pixels": 2293760,
+        "textures": 32
+      },
+      "pass": true
+    },
+    {
+      "check": "derived_imports_no_mipmaps_or_VRAM_compression",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_48_boundaries_preserve_clock",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_F5_restores_raw_without_clock_change",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_F5_restores_same_derived_phase",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_native_pointer_toggles_both_directions",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_F2_freezes_phase_and_clock",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_F3_steps_source_frame",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_F7_retains_phase_and_texture",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_scrub_selects_original_frame",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_F4_R0_preserves_clock_and_choice",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_R0_remains_raw_without_derived_loads",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_R0_F5_does_not_change_R1_choice",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_R0_cadence_stays_raw",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_F4_restores_exact_derived_image",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_disabled_choice_survives_F4",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "move_F12_distinguishes10_and30Hz",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_48_boundaries_preserve_clock",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_F5_restores_raw_without_clock_change",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_F5_restores_same_derived_phase",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_native_pointer_toggles_both_directions",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_F2_freezes_phase_and_clock",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_F3_steps_source_frame",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_F7_retains_phase_and_texture",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_scrub_selects_original_frame",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_F4_R0_preserves_clock_and_choice",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_R0_remains_raw_without_derived_loads",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_R0_F5_does_not_change_R1_choice",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_R0_cadence_stays_raw",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_F4_restores_exact_derived_image",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_disabled_choice_survives_F4",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_F12_distinguishes10_and30Hz",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "raw_stay",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "raw_attack1",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "raw_hopsmash",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "raw_jump",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "raw_jumpattack",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "actual_walk_uses_move_samples",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "actual_shift_switches_to_dash_samples",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "actual_run_jump_disables_samples",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "run_jump_keeps_source_air_launch_speed",
+      "details": {
+        "actual": 180.5,
+        "expected": 180.5
+      },
+      "pass": true
+    },
+    {
+      "check": "airborne_F5_preserves_jump_clock",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "landing_returns_to_walking_samples",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dash_to_attack_uses_raw_source",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "attack_completion_returns_to_dash_samples",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "release_returns_to_raw_idle",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "footer_controls_fit",
+      "details": {},
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "helper_sha256": "e617e5cd68a66235a7c7f450829fb6fcf9c1c5c2b3e65b79f4f4795f70af795f",
+  "note": "Native key/mouse events, both clips and actual walk/run/jump/attack transitions. No QA texture substitution; source clocks and raw R0 retained.",
+  "pointer_cases": [
+    {
+      "action": "move",
+      "logical_center": "(569.0, 521.0)",
+      "off": true,
+      "on": true
+    },
+    {
+      "action": "dash",
+      "logical_center": "(569.0, 521.0)",
+      "off": true,
+      "on": true
+    }
+  ],
+  "qa_source_sha256": "fc866ed24e92c28cb7dae703a937dd45d2497ccc5d328df30dd3dcd46d93c130"
+}

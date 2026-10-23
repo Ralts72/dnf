@@ -1,0 +1,227 @@
+{
+  "candidate": "R4/03",
+  "visual": {
+    "game": {
+      "source": "game",
+      "lines": [
+        {
+          "level": "info",
+          "run_id": "r52412437-129",
+          "source": "game",
+          "text": "[godot_ai game_helper] registered mcp capture (debugger active=true, logger=true)\n"
+        }
+      ],
+      "total_count": 1,
+      "returned_count": 1,
+      "offset": 0,
+      "limit": 25,
+      "has_more": false,
+      "run_id": "r52412437-129",
+      "is_running": true,
+      "dropped_count": 13756,
+      "stale_run_id": false,
+      "current_run_id": "r52412437-129",
+      "helper_live": true,
+      "session_active": true,
+      "game_status": {
+        "active": true,
+        "editor_log_cursor": 17,
+        "elapsed_msec": 73532,
+        "helper_expected": true,
+        "helper_live": true,
+        "ready": true,
+        "ready_wait_msec": 20000,
+        "run_started_msec": 52412437,
+        "run_token": 129,
+        "session_active": true,
+        "status": "live"
+      }
+    },
+    "editor": {
+      "source": "editor",
+      "lines": [],
+      "total_count": 17,
+      "returned_count": 0,
+      "offset": 0,
+      "limit": 25,
+      "has_more": false,
+      "run_id": "",
+      "is_running": false,
+      "dropped_count": 0,
+      "stale_run_id": false,
+      "cursor": 17,
+      "oldest_cursor": 0,
+      "next_cursor": 17,
+      "appended_total": 17,
+      "truncated": false
+    }
+  },
+  "sharan_validation_interval": {
+    "game": {
+      "source": "game",
+      "lines": [
+        {
+          "level": "info",
+          "run_id": "r52621946-131",
+          "source": "game",
+          "text": "[godot_ai game_helper] registered mcp capture (debugger active=true, logger=true)\n"
+        }
+      ],
+      "total_count": 1,
+      "returned_count": 1,
+      "offset": 0,
+      "limit": 25,
+      "has_more": false,
+      "run_id": "r52621946-131",
+      "is_running": true,
+      "dropped_count": 13761,
+      "stale_run_id": false,
+      "current_run_id": "r52621946-131",
+      "helper_live": true,
+      "session_active": true,
+      "game_status": {
+        "active": true,
+        "editor_log_cursor": 17,
+        "elapsed_msec": 155138,
+        "helper_expected": true,
+        "helper_live": true,
+        "ready": true,
+        "ready_wait_msec": 20000,
+        "run_started_msec": 52621945,
+        "run_token": 131,
+        "session_active": true,
+        "status": "live"
+      }
+    },
+    "editor": {
+      "source": "editor",
+      "lines": [],
+      "total_count": 17,
+      "returned_count": 0,
+      "offset": 0,
+      "limit": 25,
+      "has_more": false,
+      "run_id": "",
+      "is_running": false,
+      "dropped_count": 0,
+      "stale_run_id": false,
+      "cursor": 17,
+      "oldest_cursor": 0,
+      "next_cursor": 17,
+      "appended_total": 17,
+      "truncated": false
+    }
+  },
+  "quest": {
+    "game": {
+      "source": "game",
+      "lines": [
+        {
+          "level": "info",
+          "run_id": "r52814913-132",
+          "source": "game",
+          "text": "[godot_ai game_helper] registered mcp capture (debugger active=true, logger=true)\n"
+        }
+      ],
+      "total_count": 1,
+      "returned_count": 1,
+      "offset": 0,
+      "limit": 25,
+      "has_more": false,
+      "run_id": "r52814913-132",
+      "is_running": true,
+      "dropped_count": 13763,
+      "stale_run_id": false,
+      "current_run_id": "r52814913-132",
+      "helper_live": true,
+      "session_active": true,
+      "game_status": {
+        "active": true,
+        "editor_log_cursor": 17,
+        "elapsed_msec": 273036,
+        "helper_expected": true,
+        "helper_live": true,
+        "ready": true,
+        "ready_wait_msec": 20000,
+        "run_started_msec": 52814913,
+        "run_token": 132,
+        "session_active": true,
+        "status": "live"
+      }
+    },
+    "editor": {
+      "source": "editor",
+      "lines": [],
+      "total_count": 17,
+      "returned_count": 0,
+      "offset": 0,
+      "limit": 25,
+      "has_more": false,
+      "run_id": "",
+      "is_running": false,
+      "dropped_count": 0,
+      "stale_run_id": false,
+      "cursor": 17,
+      "oldest_cursor": 0,
+      "next_cursor": 17,
+      "appended_total": 17,
+      "truncated": false
+    }
+  },
+  "fresh": {
+    "game": {
+      "source": "game",
+      "lines": [
+        {
+          "level": "info",
+          "run_id": "r53088141-133",
+          "source": "game",
+          "text": "[godot_ai game_helper] registered mcp capture (debugger active=true, logger=true)\n"
+        }
+      ],
+      "total_count": 1,
+      "returned_count": 1,
+      "offset": 0,
+      "limit": 25,
+      "has_more": false,
+      "run_id": "r53088141-133",
+      "is_running": true,
+      "dropped_count": 13764,
+      "stale_run_id": false,
+      "current_run_id": "r53088141-133",
+      "helper_live": true,
+      "session_active": true,
+      "game_status": {
+        "active": true,
+        "editor_log_cursor": 17,
+        "elapsed_msec": 37646,
+        "helper_expected": true,
+        "helper_live": true,
+        "ready": true,
+        "ready_wait_msec": 20000,
+        "run_started_msec": 53088141,
+        "run_token": 133,
+        "session_active": true,
+        "status": "live"
+      }
+    },
+    "editor": {
+      "source": "editor",
+      "lines": [],
+      "total_count": 17,
+      "returned_count": 0,
+      "offset": 0,
+      "limit": 25,
+      "has_more": false,
+      "run_id": "",
+      "is_running": false,
+      "dropped_count": 0,
+      "stale_run_id": false,
+      "cursor": 17,
+      "oldest_cursor": 0,
+      "next_cursor": 17,
+      "appended_total": 17,
+      "truncated": false
+    }
+  }
+}

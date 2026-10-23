@@ -1,0 +1,4 @@
+{
+  "run": "r52271749-128",
+  "scope": "Actual walk/E dialogue successfully inspected; a subsequent screenshot-record eval had one stray closing brace, causing an eval parser break before executing the save. No production code or profile changed. Stop/relaunch129 and repeat the small visual read using separate short evals. Initial actual walk183.5312.27, portrait visible, full-health Continue button and skill input-blocked freeze were observed. No failed eval is counted as a clean validation run."
+}

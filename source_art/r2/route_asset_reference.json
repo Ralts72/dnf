@@ -1,0 +1,33 @@
+{
+  "manifest": "docs/r2_asset_manifest.json",
+  "manifest_sha256": "277e3e806fa1567bc847ee1362bf3a545521698fb5ee7f9fe9e71fbfa151072e",
+  "source_images": 19,
+  "derived_subrects": 2,
+  "preview_sheets": [
+    "work/r2_asset_sheet.png",
+    "work/r2_asset_sheet_second.png"
+  ],
+  "roles": {
+    "approach/bridge_0": "res://assets/r2/approach/bridge_0.png",
+    "approach/bridge_1": "res://assets/r2/approach/bridge_1.png",
+    "approach/bridge_2": "res://assets/r2/approach/bridge_2.png",
+    "approach/bridge_3": "res://assets/r2/approach/bridge_3.png",
+    "approach/sea": "res://assets/r2/approach/sea.png",
+    "approach/wall": "res://assets/r2/approach/wall.png",
+    "entrance/tower": "res://assets/r2/entrance/tower.png",
+    "entrance/gate": "res://assets/r2/entrance/gate.png",
+    "entrance/far": "res://assets/r2/entrance/far.png",
+    "interior/far": "res://assets/r2/interior/far.png",
+    "interior/wall_0": "res://assets/r2/interior/wall_0.png",
+    "interior/wall_1": "res://assets/r2/interior/wall_1.png",
+    "interior/wall_2": "res://assets/r2/interior/wall_2.png",
+    "interior/wall_3": "res://assets/r2/interior/wall_3.png",
+    "interior/wall_4": "res://assets/r2/interior/wall_4.png",
+    "interior/wall_5": "res://assets/r2/interior/wall_5.png",
+    "interior/floor": "res://assets/r2/interior/floor.png",
+    "interior/banner": "res://assets/r2/interior/banner.png",
+    "interior/column": "res://assets/r2/interior/column.png",
+    "approach/paving": "res://assets/r2/approach/paving.png",
+    "interior/paving": "res://assets/r2/interior/paving.png"
+  }
+}

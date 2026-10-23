@@ -1,0 +1,200 @@
+{
+  "path": "monster/draconian/dmani/movefoward.ani",
+  "sha256": "6fc89f1c7c016d98805353d4d1017b72458a3afaee847be17975e37240313d1d",
+  "bytes": 384,
+  "crc": {
+    "expected": 507666333,
+    "actual_seed_file_number": 507666333,
+    "actual_seed_zero": 2451425056
+  },
+  "raw_reference": "source_art/r3/pvf/monster/draconian/dmani/movefoward.ani.bin",
+  "decoded": {
+    "frames_count": 7,
+    "resources": [
+      "monster/draconian/draco_mirkius.img"
+    ],
+    "globals": [
+      {
+        "type": 0,
+        "value": 1
+      }
+    ],
+    "frames": [
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 16,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -8,
+              -20,
+              -2,
+              61,
+              36,
+              103
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 17,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -8,
+              -20,
+              -2,
+              61,
+              36,
+              103
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 18,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -8,
+              -20,
+              -2,
+              61,
+              36,
+              103
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 19,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -8,
+              -20,
+              -2,
+              61,
+              36,
+              103
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 20,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -8,
+              -20,
+              -2,
+              61,
+              36,
+              103
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 21,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -8,
+              -20,
+              -2,
+              61,
+              36,
+              103
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 22,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -8,
+              -20,
+              -2,
+              61,
+              36,
+              103
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      }
+    ]
+  }
+}

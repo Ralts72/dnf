@@ -1,0 +1,121 @@
+{
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "build": "R1   /   12",
+  "architecture_meshes": 302,
+  "hierarchy_complete": true,
+  "water_node": {
+    "children_count": 0,
+    "name": "Water",
+    "path": "/WestCoastR1/PortClip/ViewportContainer/Viewport/World/Water",
+    "type": "MeshInstance3D"
+  },
+  "water_properties": {
+    "count": 3,
+    "node_type": "MeshInstance3D",
+    "path": "/WestCoastR1/PortClip/ViewportContainer/Viewport/World/Water",
+    "properties": [
+      {
+        "name": "position",
+        "type": "Vector3",
+        "value": {
+          "x": 0,
+          "y": -0.300000011920929,
+          "z": -0.899999976158142
+        }
+      },
+      {
+        "name": "mesh",
+        "type": "Object",
+        "value": "res://scenes/west_coast_r1.tscn::Mesh_water"
+      },
+      {
+        "name": "script",
+        "type": "Object",
+        "value": "res://scripts/harbor_water.gd"
+      }
+    ],
+    "total_count": 38,
+    "unknown_fields": []
+  },
+  "preserved_scene": "res://work/r1_12_editor_r1_before_reload.tscn",
+  "native_water_resource_graph": {
+    "resources": [
+      {
+        "id": "r1",
+        "path": "res://scenes/west_coast_r1.tscn::Mesh_water",
+        "properties": {
+          "add_uv2": false,
+          "center_offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "custom_aabb": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "flip_faces": false,
+          "lightmap_size_hint": {
+            "x": 0,
+            "y": 0
+          },
+          "material": {
+            "ref": "r2"
+          },
+          "orientation": 1,
+          "resource_local_to_scene": false,
+          "resource_name": "",
+          "resource_path": "res://scenes/west_coast_r1.tscn::Mesh_water",
+          "size": {
+            "x": 18,
+            "y": 4.09999990463257
+          },
+          "subdivide_depth": 0,
+          "subdivide_width": 0,
+          "uv2_padding": 2
+        },
+        "type": "PlaneMesh"
+      },
+      {
+        "id": "r2",
+        "path": "res://scenes/west_coast_r1.tscn::Material_water",
+        "properties": {
+          "next_pass": null,
+          "render_priority": 0,
+          "resource_local_to_scene": false,
+          "resource_name": "",
+          "resource_path": "res://scenes/west_coast_r1.tscn::Material_water",
+          "shader": {
+            "ref": "r3"
+          }
+        },
+        "type": "ShaderMaterial"
+      },
+      {
+        "id": "r3",
+        "omitted": "unsupported_resource",
+        "path": "res://shaders/harbor_water.gdshader",
+        "properties": {},
+        "type": "Shader"
+      }
+    ],
+    "root": {
+      "ref": "r1"
+    },
+    "truncations": [
+      {
+        "location": "r3",
+        "reason": "unsupported_resource"
+      }
+    ]
+  },
+  "preserved_scene_sha256": "6e9cf1eb88bc9ff1e2f4f55a2f63f3726c4867b2bcede02eb35c8edb8e5b4786"
+}

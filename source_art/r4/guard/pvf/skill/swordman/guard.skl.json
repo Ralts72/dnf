@@ -1,0 +1,1815 @@
+{
+  "pvf_path": "skill/swordman/guard.skl",
+  "crc": {
+    "expected": 2525883932,
+    "actual_seed_file_number": 2525883932,
+    "actual_seed_zero": 2540062346
+  },
+  "decoded": [
+    {
+      "type": 5,
+      "index": 18406,
+      "text": "[name2]"
+    },
+    {
+      "type": 7,
+      "index": 597678,
+      "text": "The Guard"
+    },
+    {
+      "type": 5,
+      "index": 371543,
+      "text": "[purchase cost]"
+    },
+    {
+      "type": 2,
+      "value": 20
+    },
+    {
+      "type": 5,
+      "index": 371544,
+      "text": "[/purchase cost]"
+    },
+    {
+      "type": 5,
+      "index": 241483,
+      "text": "[required level]"
+    },
+    {
+      "type": 2,
+      "value": 5
+    },
+    {
+      "type": 5,
+      "index": 371545,
+      "text": "[required level range]"
+    },
+    {
+      "type": 2,
+      "value": 5
+    },
+    {
+      "type": 5,
+      "index": 5978,
+      "text": "[type]"
+    },
+    {
+      "type": 7,
+      "index": 12350,
+      "text": "[active]"
+    },
+    {
+      "type": 5,
+      "index": 371546,
+      "text": "[skill class]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 18696,
+      "text": "[maximum level]"
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 5,
+      "index": 371547,
+      "text": "[growtype maximum level]"
+    },
+    {
+      "type": 2,
+      "value": 5
+    },
+    {
+      "type": 2,
+      "value": 5
+    },
+    {
+      "type": 2,
+      "value": 5
+    },
+    {
+      "type": 2,
+      "value": 5
+    },
+    {
+      "type": 2,
+      "value": 5
+    },
+    {
+      "type": 2,
+      "value": 5
+    },
+    {
+      "type": 5,
+      "index": 371549,
+      "text": "[skill fitness growtype]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 2,
+      "value": 3
+    },
+    {
+      "type": 2,
+      "value": 4
+    },
+    {
+      "type": 5,
+      "index": 371550,
+      "text": "[/skill fitness growtype]"
+    },
+    {
+      "type": 5,
+      "index": 18419,
+      "text": "[icon]"
+    },
+    {
+      "type": 7,
+      "index": 374604,
+      "text": "Character/Swordman/Effect/SkillIcon.img"
+    },
+    {
+      "type": 2,
+      "value": 24
+    },
+    {
+      "type": 7,
+      "index": 374604,
+      "text": "Character/Swordman/Effect/SkillIcon.img"
+    },
+    {
+      "type": 2,
+      "value": 25
+    },
+    {
+      "type": 5,
+      "index": 2095,
+      "text": "[command]"
+    },
+    {
+      "type": 6,
+      "index": 102357,
+      "text": "(DOWN)"
+    },
+    {
+      "type": 8,
+      "index": 4453,
+      "text": ","
+    },
+    {
+      "type": 6,
+      "index": 102357,
+      "text": "(DOWN)"
+    },
+    {
+      "type": 8,
+      "index": 4453,
+      "text": ","
+    },
+    {
+      "type": 6,
+      "index": 371910,
+      "text": "(ATTACK)"
+    },
+    {
+      "type": 5,
+      "index": 102359,
+      "text": "[/command]"
+    },
+    {
+      "type": 5,
+      "index": 371571,
+      "text": "[command key explain]"
+    },
+    {
+      "type": 7,
+      "index": 597679,
+      "text": "操作指令 : ↓↓ + X"
+    },
+    {
+      "type": 5,
+      "index": 3783,
+      "text": "[dungeon]"
+    },
+    {
+      "type": 5,
+      "index": 18429,
+      "text": "[cool time]"
+    },
+    {
+      "type": 2,
+      "value": 2000
+    },
+    {
+      "type": 2,
+      "value": 2000
+    },
+    {
+      "type": 5,
+      "index": 371574,
+      "text": "[consume MP]"
+    },
+    {
+      "type": 2,
+      "value": 3
+    },
+    {
+      "type": 2,
+      "value": 4
+    },
+    {
+      "type": 5,
+      "index": 371575,
+      "text": "[static data]"
+    },
+    {
+      "type": 2,
+      "value": 500
+    },
+    {
+      "type": 2,
+      "value": 400
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 400
+    },
+    {
+      "type": 2,
+      "value": 3000
+    },
+    {
+      "type": 5,
+      "index": 371576,
+      "text": "[/static data]"
+    },
+    {
+      "type": 5,
+      "index": 241547,
+      "text": "[level info]"
+    },
+    {
+      "type": 2,
+      "value": 5
+    },
+    {
+      "type": 2,
+      "value": 200
+    },
+    {
+      "type": 2,
+      "value": 200
+    },
+    {
+      "type": 2,
+      "value": 40
+    },
+    {
+      "type": 2,
+      "value": 15
+    },
+    {
+      "type": 2,
+      "value": 10
+    },
+    {
+      "type": 2,
+      "value": 250
+    },
+    {
+      "type": 2,
+      "value": 180
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 2,
+      "value": 20
+    },
+    {
+      "type": 2,
+      "value": 20
+    },
+    {
+      "type": 2,
+      "value": 300
+    },
+    {
+      "type": 2,
+      "value": 160
+    },
+    {
+      "type": 2,
+      "value": 60
+    },
+    {
+      "type": 2,
+      "value": 25
+    },
+    {
+      "type": 2,
+      "value": 30
+    },
+    {
+      "type": 2,
+      "value": 350
+    },
+    {
+      "type": 2,
+      "value": 140
+    },
+    {
+      "type": 2,
+      "value": 70
+    },
+    {
+      "type": 2,
+      "value": 30
+    },
+    {
+      "type": 2,
+      "value": 40
+    },
+    {
+      "type": 2,
+      "value": 400
+    },
+    {
+      "type": 2,
+      "value": 120
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 35
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 2,
+      "value": 450
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 40
+    },
+    {
+      "type": 2,
+      "value": 60
+    },
+    {
+      "type": 2,
+      "value": 500
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 45
+    },
+    {
+      "type": 2,
+      "value": 70
+    },
+    {
+      "type": 2,
+      "value": 550
+    },
+    {
+      "type": 2,
+      "value": 60
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 600
+    },
+    {
+      "type": 2,
+      "value": 40
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 55
+    },
+    {
+      "type": 2,
+      "value": 90
+    },
+    {
+      "type": 2,
+      "value": 650
+    },
+    {
+      "type": 2,
+      "value": 20
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 60
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 65
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 70
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 75
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 790
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 795
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 801
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 807
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 813
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 818
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 824
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 830
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 835
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 841
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 847
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 852
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 858
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 864
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 869
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 875
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 881
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 886
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 892
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 898
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 5,
+      "index": 241592,
+      "text": "[/level info]"
+    },
+    {
+      "type": 5,
+      "index": 242271,
+      "text": "[/dungeon]"
+    },
+    {
+      "type": 5,
+      "index": 7415,
+      "text": "[pvp]"
+    },
+    {
+      "type": 5,
+      "index": 7416,
+      "text": "[/pvp]"
+    },
+    {
+      "type": 5,
+      "index": 371554,
+      "text": "[death tower]"
+    },
+    {
+      "type": 5,
+      "index": 371555,
+      "text": "[/death tower]"
+    },
+    {
+      "type": 5,
+      "index": 278557,
+      "text": "[warroom]"
+    },
+    {
+      "type": 5,
+      "index": 371556,
+      "text": "[/warroom]"
+    },
+    {
+      "type": 5,
+      "index": 11429,
+      "text": "[name]"
+    },
+    {
+      "type": 7,
+      "index": 597680,
+      "text": "格擋"
+    },
+    {
+      "type": 5,
+      "index": 16857,
+      "text": "[explain]"
+    },
+    {
+      "type": 7,
+      "index": 597681,
+      "text": "吸收來自前方的攻擊傷害， [格擋]施放狀態下被攻擊， 會被擊退一定距離和時間。\r\n    按住技能鍵可以持續[格擋]動作， 且MP只在[格擋]開始時消耗一次。"
+    },
+    {
+      "type": 5,
+      "index": 18432,
+      "text": "[basic explain]"
+    },
+    {
+      "type": 7,
+      "index": 597682,
+      "text": "吸收來自前方的攻擊傷害。"
+    },
+    {
+      "type": 5,
+      "index": 371557,
+      "text": "[level property]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 99
+    },
+    {
+      "type": 7,
+      "index": 597683,
+      "text": "吸收物理傷害 : <int>%%\r\n吸收魔法傷害 : <int>%%\r\n被擊退的時間 : <float2>秒"
+    },
+    {
+      "type": 2,
+      "value": -1
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 2,
+      "value": -1
+    },
+    {
+      "type": 2,
+      "value": 3
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 2,
+      "value": -1
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 4,
+      "value": 0.0010000000474974513
+    },
+    {
+      "type": 5,
+      "index": 371559,
+      "text": "[/level property]"
+    },
+    {
+      "type": 5,
+      "index": 371657,
+      "text": "[feature skill index]"
+    },
+    {
+      "type": 2,
+      "value": 163
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "actor": {
+    "action": "stay",
+    "action_count": 16,
+    "blocked": false,
+    "guard_active": false,
+    "manifest": "res://data/swordman_upper_practice_r1.json",
+    "paused": false,
+    "position": "(440.0, 320.0)",
+    "preview": false
+  },
+  "boss_meta": false,
+  "first_meta": false,
+  "formal": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "framing": {
+    "offset_x": 0.0,
+    "pan_max": 152.0,
+    "pan_min": -152.0
+  },
+  "gallery_meta": false,
+  "guard": {
+    "accepted_begins": 0,
+    "active": false,
+    "actor_guard_active": false,
+    "actor_id": 75816241781,
+    "blocked_hits": 0,
+    "can_begin": true,
+    "cooldown_remaining": 0.0,
+    "end_count": 0,
+    "freeze_reason": "",
+    "frozen": false,
+    "guard_property_available": true,
+    "hud_text": "C 格挡 · 就绪",
+    "hud_visible": true,
+    "last_end_reason": "",
+    "last_hit": {},
+    "last_reject_reason": "",
+    "locked_facing": 1,
+    "needs_release": false,
+    "reaction_remaining": 0.0,
+    "rejected_begins": 0,
+    "release_pending": false,
+    "reset_count": 0,
+    "scene": "res://scenes/west_coast_r1.tscn",
+    "uncovered_hits": 0
+  },
+  "hp_meta": false,
+  "loaded_scripts": {
+    "res://scripts/adventure_progress.gd": {
+      "disk": "7f68bddb4002ee60628927f799001ac463b386148cf442d5452139906eee3772",
+      "loaded": "7f68bddb4002ee60628927f799001ac463b386148cf442d5452139906eee3772",
+      "matches": true
+    },
+    "res://scripts/first_loot.gd": {
+      "disk": "7634197e4edd4123dfcdc82087a685ccb98bd6c2a6449ba0196199f8fbef3a20",
+      "loaded": "7634197e4edd4123dfcdc82087a685ccb98bd6c2a6449ba0196199f8fbef3a20",
+      "matches": true
+    },
+    "res://scripts/guard_runtime.gd": {
+      "disk": "6001d0ce3fc10cb82d847240c5af4de805168b4fbba525195d7f08bbe408bd1c",
+      "loaded": "6001d0ce3fc10cb82d847240c5af4de805168b4fbba525195d7f08bbe408bd1c",
+      "matches": true
+    },
+    "res://scripts/hp_potion_runtime.gd": {
+      "disk": "8355dac0d2b7259b3877ff043291f1956a4afef1649fbef27aa3f1441b71f9f2",
+      "loaded": "8355dac0d2b7259b3877ff043291f1956a4afef1649fbef27aa3f1441b71f9f2",
+      "matches": true
+    },
+    "res://scripts/source_actor_3d.gd": {
+      "disk": "0be416bd0823eed5de53ad878dbb42fee1cba1bdc17afa6400779380458660ed",
+      "loaded": "0be416bd0823eed5de53ad878dbb42fee1cba1bdc17afa6400779380458660ed",
+      "matches": true
+    },
+    "res://scripts/source_actor_audio.gd": {
+      "disk": "8edcc9a611650e36a9ae80c2163f87dc29b6f66c6da406267d96d8c4babeb6d3",
+      "loaded": "8edcc9a611650e36a9ae80c2163f87dc29b6f66c6da406267d96d8c4babeb6d3",
+      "matches": true
+    },
+    "res://scripts/source_framing.gd": {
+      "disk": "9d47974355f993fa57d05f7a05f922bff824ddc8614522d2e35cb25bcd3c8072",
+      "loaded": "9d47974355f993fa57d05f7a05f922bff824ddc8614522d2e35cb25bcd3c8072",
+      "matches": true
+    },
+    "res://scripts/source_skill_runtime.gd": {
+      "disk": "60fa9e1ad3fcb8bd9d7621a5a60d03d8ede311b1a343f65fe86ea77aa57f7d3d",
+      "loaded": "60fa9e1ad3fcb8bd9d7621a5a60d03d8ede311b1a343f65fe86ea77aa57f7d3d",
+      "matches": true
+    },
+    "res://scripts/upper_slash_runtime.gd": {
+      "disk": "628fab23626abf8b60079dffb51a0f1dd85f62b5bea6397d5f6389845e618e62",
+      "loaded": "628fab23626abf8b60079dffb51a0f1dd85f62b5bea6397d5f6389845e618e62",
+      "matches": true
+    },
+    "res://scripts/west_coast_r1.gd": {
+      "disk": "949e277fb7be8e33a911de95d2b5f2e98e8204c3d3a876f5fbdb0abf7038f414",
+      "loaded": "949e277fb7be8e33a911de95d2b5f2e98e8204c3d3a876f5fbdb0abf7038f414",
+      "matches": true
+    },
+    "res://scripts/world_travel.gd": {
+      "disk": "8c2e644de5904eefc78e0e966479aa0aec3b3b6b9ded9372a5f2a558813011ed",
+      "loaded": "8c2e644de5904eefc78e0e966479aa0aec3b3b6b9ded9372a5f2a558813011ed",
+      "matches": true
+    }
+  },
+  "physics_tps": 60,
+  "potion": {
+    "accepted_uses": 0,
+    "actor_id": 75816241781,
+    "can_use": false,
+    "cooldown_remaining": 0.0,
+    "cooldown_seconds": 10.0,
+    "count": 0,
+    "freeze_reason": "",
+    "frozen": false,
+    "heal_hp": 35,
+    "hud_text": "H 药剂×0 · 就绪",
+    "hud_visible": false,
+    "item_id": 1106,
+    "last_heal": {},
+    "last_reject_reason": "",
+    "player_hp": 100,
+    "ready": true,
+    "rejected_uses": 0,
+    "reset_count": 0,
+    "scene": "res://scenes/west_coast_r1.tscn"
+  },
+  "profile": {
+    "dialog_open": false,
+    "encounter_cleared": false,
+    "last_error": "",
+    "loaded_from_backup": false,
+    "pending_save": false,
+    "progress": {
+      "chapter_flags": {
+        "lakius_cleared": false
+      },
+      "coins": 0,
+      "equipment": {
+        "equipped_key": "practice_lswd0000",
+        "owned": {
+          "27304": false
+        }
+      },
+      "first_drop": {
+        "id": "mirkius_first_eye_v1",
+        "position": [
+          640,
+          300
+        ],
+        "region": "hall",
+        "state": "unearned"
+      },
+      "inventory": {
+        "1106": 0,
+        "3128": 0
+      },
+      "objective_cleared": false,
+      "quest_stage": "available",
+      "reward_granted": false,
+      "schema": 5
+    },
+    "region_scene": "res://scenes/west_coast_r1.tscn",
+    "save_attempts": 0,
+    "storage_path": "user://adventure/first_route_v1.json",
+    "storage_ready": true
+  },
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "shop": {
+    "buy_text": "购买 1 瓶 · 10 金币",
+    "can_buy": false,
+    "capacity": 4,
+    "coins": 0,
+    "dialog_open": false,
+    "pending_save": false,
+    "potion_count": 0,
+    "price": 10
+  },
+  "skill": {
+    "accepted_casts": 0,
+    "action": "hardattack",
+    "actor_id": 75816241781,
+    "can_cast": true,
+    "cooldown_remaining": 0.0,
+    "cooldown_seconds": 6.0,
+    "freeze_reason": "",
+    "frozen": false,
+    "hud_text": "Z 鬼斩 · 就绪",
+    "hud_visible": true,
+    "last_reject_reason": "",
+    "ready": true,
+    "rejected_casts": 0,
+    "reset_count": 0,
+    "scene": "res://scenes/west_coast_r1.tscn"
+  },
+  "statue_meta": false,
+  "upper": {
+    "accepted_casts": 0,
+    "action": "upperslash",
+    "actor_id": 75816241781,
+    "can_cast": true,
+    "cooldown_remaining": 0.0,
+    "cooldown_seconds": 2.0,
+    "freeze_reason": "",
+    "frozen": false,
+    "hud_text": "V 上挑 · 就绪",
+    "hud_visible": true,
+    "last_reject_reason": "",
+    "ready": true,
+    "rejected_casts": 0,
+    "reset_count": 0,
+    "scene": "res://scenes/west_coast_r1.tscn"
+  }
+}

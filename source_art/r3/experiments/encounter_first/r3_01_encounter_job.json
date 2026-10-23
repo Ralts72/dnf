@@ -1,0 +1,86 @@
+{
+  "check_script": "res://tools/r3/encounter_checks.gd",
+  "elapsed_seconds": 20.9974,
+  "qa_source_sha256": "8fe8cd2058b455b9bdecda6d956d4f559c69cc0c96ef502eec9a0325b46b0c7f",
+  "render_cases_completed": 21,
+  "result": {
+    "checks": 21,
+    "failed": [
+      {
+        "check": "actual_controls_defeat_enemy_without_final_health_writes",
+        "details": {
+          "after": {
+            "cleared": false,
+            "combat_blocked": false,
+            "enemy_action_elapsed_ms": 241.657,
+            "enemy_attack_instance": 13,
+            "enemy_cooldown": 0.566666666666666,
+            "enemy_hit_used": false,
+            "enemy_hp": 32,
+            "enemy_hurt_remaining": 0.0,
+            "enemy_mode": "attack",
+            "enemy_source_position": "(483.6671, 315.0)",
+            "enemy_visible": true,
+            "event_counters": {
+              "defeats": 1,
+              "enemy_attacks": 13,
+              "enemy_hits": 9,
+              "hero_hits": 8,
+              "resets": 16,
+              "victories": 0
+            },
+            "hero_attack_instance": 14,
+            "hero_hit_used": false,
+            "hero_hurt_remaining": 0.0,
+            "hero_lock": false,
+            "player_hp": 16,
+            "player_source_position": "(413.9998, 315.0)",
+            "qa_freeze_enemy": false,
+            "release_pending": false
+          },
+          "before": {
+            "cleared": false,
+            "combat_blocked": false,
+            "enemy_action_elapsed_ms": 0.0,
+            "enemy_attack_instance": 3,
+            "enemy_cooldown": 0.35,
+            "enemy_hit_used": false,
+            "enemy_hp": 90,
+            "enemy_hurt_remaining": 0.0,
+            "enemy_mode": "idle",
+            "enemy_source_position": "(500.0, 315.0)",
+            "enemy_visible": true,
+            "event_counters": {
+              "defeats": 1,
+              "enemy_attacks": 3,
+              "enemy_hits": 2,
+              "hero_hits": 5,
+              "resets": 16,
+              "victories": 0
+            },
+            "hero_attack_instance": 8,
+            "hero_hit_used": false,
+            "hero_hurt_remaining": 0.0,
+            "hero_lock": false,
+            "player_hp": 100,
+            "player_source_position": "(430.0, 315.0)",
+            "qa_freeze_enemy": false,
+            "release_pending": false
+          },
+          "enemy_AI_enabled": true
+        },
+        "pass": false
+      },
+      {
+        "check": "cleared_encounter_persists_after_actual_retreat_and_return",
+        "details": {
+          "returned_state": {}
+        },
+        "pass": false
+      }
+    ],
+    "recorded_rows": 2500,
+    "render_cases": 21
+  },
+  "status": "complete"
+}

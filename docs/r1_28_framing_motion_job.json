@@ -1,0 +1,13 @@
+{
+  "check_script": "res://tools/r1/framing_motion_checks.gd",
+  "elapsed_seconds": 10.771753,
+  "qa_source_sha256": "9971079e717deaa5a4674edaaeb89722215cd41a036640babc46d2d9f9b77fbe",
+  "render_cases_completed": 0,
+  "result": {
+    "checks": 8,
+    "elapsed_seconds": 10.751702,
+    "failed": [],
+    "rendered_rows": 1227
+  },
+  "status": "complete"
+}

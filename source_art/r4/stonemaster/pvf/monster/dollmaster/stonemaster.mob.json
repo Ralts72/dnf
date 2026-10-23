@@ -1,0 +1,690 @@
+{
+  "path": "monster/dollmaster/stonemaster.mob",
+  "crc": {
+    "expected": 4018497684,
+    "actual_seed_file_number": 4018497684,
+    "actual_seed_zero": 3071873288
+  },
+  "decoded": [
+    {
+      "type": 5,
+      "index": 7431,
+      "text": "[width]"
+    },
+    {
+      "type": 2,
+      "value": 40
+    },
+    {
+      "type": 2,
+      "value": 10
+    },
+    {
+      "type": 5,
+      "index": 12121,
+      "text": "[floating height]"
+    },
+    {
+      "type": 2,
+      "value": 40
+    },
+    {
+      "type": 5,
+      "index": 305256,
+      "text": "[ability category]"
+    },
+    {
+      "type": 7,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 7,
+      "index": 305258,
+      "text": "[EQUIPMENT_PHYSICAL_ATTACK]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 70
+    },
+    {
+      "type": 7,
+      "index": 89605,
+      "text": "[EQUIPMENT_PHYSICAL_DEFENSE]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 7,
+      "index": 305259,
+      "text": "[EQUIPMENT_MAGICAL_ATTACK]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 90
+    },
+    {
+      "type": 7,
+      "index": 88347,
+      "text": "[EQUIPMENT_MAGICAL_DEFENSE]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 120
+    },
+    {
+      "type": 5,
+      "index": 305260,
+      "text": "[/ability category]"
+    },
+    {
+      "type": 5,
+      "index": 278490,
+      "text": "[category]"
+    },
+    {
+      "type": 7,
+      "index": 305261,
+      "text": "[human]"
+    },
+    {
+      "type": 7,
+      "index": 306509,
+      "text": "[range combat]"
+    },
+    {
+      "type": 7,
+      "index": 306854,
+      "text": "[close-passive]"
+    },
+    {
+      "type": 5,
+      "index": 305263,
+      "text": "[/category]"
+    },
+    {
+      "type": 5,
+      "index": 6037,
+      "text": "[level]"
+    },
+    {
+      "type": 2,
+      "value": 20
+    },
+    {
+      "type": 2,
+      "value": 29
+    },
+    {
+      "type": 5,
+      "index": 2861,
+      "text": "[move speed]"
+    },
+    {
+      "type": 2,
+      "value": 400
+    },
+    {
+      "type": 2,
+      "value": 400
+    },
+    {
+      "type": 5,
+      "index": 2860,
+      "text": "[attack speed]"
+    },
+    {
+      "type": 2,
+      "value": 400
+    },
+    {
+      "type": 2,
+      "value": 400
+    },
+    {
+      "type": 5,
+      "index": 7442,
+      "text": "[cast speed]"
+    },
+    {
+      "type": 2,
+      "value": 800
+    },
+    {
+      "type": 2,
+      "value": 900
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 2,
+      "value": 600
+    },
+    {
+      "type": 2,
+      "value": 600
+    },
+    {
+      "type": 5,
+      "index": 7444,
+      "text": "[weight]"
+    },
+    {
+      "type": 2,
+      "value": 30000
+    },
+    {
+      "type": 2,
+      "value": 30000
+    },
+    {
+      "type": 5,
+      "index": 306513,
+      "text": "[sight]"
+    },
+    {
+      "type": 2,
+      "value": 300
+    },
+    {
+      "type": 5,
+      "index": 306512,
+      "text": "[targeting time term]"
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 5,
+      "index": 306542,
+      "text": "[targeting nearest]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 555,
+      "text": "[warlike]"
+    },
+    {
+      "type": 2,
+      "value": 30
+    },
+    {
+      "type": 5,
+      "index": 306543,
+      "text": "[attack delay]"
+    },
+    {
+      "type": 2,
+      "value": 2000
+    },
+    {
+      "type": 5,
+      "index": 305265,
+      "text": "[stuckbonus on damage]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 6176,
+      "text": "[item]"
+    },
+    {
+      "type": 2,
+      "value": 1063
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 2,
+      "value": 1002
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 1047
+    },
+    {
+      "type": 2,
+      "value": 200
+    },
+    {
+      "type": 2,
+      "value": 3122
+    },
+    {
+      "type": 2,
+      "value": 500
+    },
+    {
+      "type": 5,
+      "index": 6193,
+      "text": "[/item]"
+    },
+    {
+      "type": 5,
+      "index": 305266,
+      "text": "[common champion drop item]"
+    },
+    {
+      "type": 5,
+      "index": 305267,
+      "text": "[/common champion drop item]"
+    },
+    {
+      "type": 5,
+      "index": 306514,
+      "text": "[attack kind]"
+    },
+    {
+      "type": 4,
+      "value": 40.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 4,
+      "value": 40.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 306515,
+      "text": "[/attack kind]"
+    },
+    {
+      "type": 5,
+      "index": 305421,
+      "text": "[die effect]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 10
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 305245,
+      "text": "[face image]"
+    },
+    {
+      "type": 7,
+      "index": 305246,
+      "text": "Monster/MonsterFace.img"
+    },
+    {
+      "type": 2,
+      "value": 34
+    },
+    {
+      "type": 5,
+      "index": 7465,
+      "text": "[waiting motion]"
+    },
+    {
+      "type": 7,
+      "index": 307424,
+      "text": "StoneAnimation/Stay.ani"
+    },
+    {
+      "type": 5,
+      "index": 7467,
+      "text": "[move motion]"
+    },
+    {
+      "type": 7,
+      "index": 307425,
+      "text": "StoneAnimation/Move.ani"
+    },
+    {
+      "type": 5,
+      "index": 7469,
+      "text": "[sit motion]"
+    },
+    {
+      "type": 7,
+      "index": 307426,
+      "text": "StoneAnimation/Sit.ani"
+    },
+    {
+      "type": 5,
+      "index": 7471,
+      "text": "[damage motion 1]"
+    },
+    {
+      "type": 7,
+      "index": 307427,
+      "text": "StoneAnimation/Damage1.ani"
+    },
+    {
+      "type": 5,
+      "index": 7473,
+      "text": "[damage motion 2]"
+    },
+    {
+      "type": 7,
+      "index": 307428,
+      "text": "StoneAnimation/Damage2.ani"
+    },
+    {
+      "type": 5,
+      "index": 7475,
+      "text": "[down motion]"
+    },
+    {
+      "type": 7,
+      "index": 307429,
+      "text": "StoneAnimation/Down.ani"
+    },
+    {
+      "type": 5,
+      "index": 7477,
+      "text": "[overturn motion]"
+    },
+    {
+      "type": 7,
+      "index": 307430,
+      "text": "StoneAnimation/Overturn.ani"
+    },
+    {
+      "type": 5,
+      "index": 7511,
+      "text": "[attack motion]"
+    },
+    {
+      "type": 7,
+      "index": 307431,
+      "text": "StoneAnimation/Attack.ani"
+    },
+    {
+      "type": 7,
+      "index": 307431,
+      "text": "StoneAnimation/Attack.ani"
+    },
+    {
+      "type": 5,
+      "index": 7516,
+      "text": "[/attack motion]"
+    },
+    {
+      "type": 5,
+      "index": 7521,
+      "text": "[etc motion]"
+    },
+    {
+      "type": 7,
+      "index": 307432,
+      "text": "StoneAnimation/Cast.ani"
+    },
+    {
+      "type": 7,
+      "index": 307433,
+      "text": "StoneAnimation/CastAct1.ani"
+    },
+    {
+      "type": 7,
+      "index": 307434,
+      "text": "StoneAnimation/CastAct2.ani"
+    },
+    {
+      "type": 7,
+      "index": 307435,
+      "text": "StoneAnimation/CastActStoner.ani"
+    },
+    {
+      "type": 5,
+      "index": 7647,
+      "text": "[/etc motion]"
+    },
+    {
+      "type": 5,
+      "index": 7652,
+      "text": "[attack info]"
+    },
+    {
+      "type": 7,
+      "index": 307369,
+      "text": "AttackInfo/StoneAttackPunch.atk"
+    },
+    {
+      "type": 7,
+      "index": 307436,
+      "text": "AttackInfo/StoneAttackGem.atk"
+    },
+    {
+      "type": 5,
+      "index": 7657,
+      "text": "[/attack info]"
+    },
+    {
+      "type": 5,
+      "index": 4493,
+      "text": "[int data]"
+    },
+    {
+      "type": 2,
+      "value": 25
+    },
+    {
+      "type": 2,
+      "value": 5000
+    },
+    {
+      "type": 2,
+      "value": 31
+    },
+    {
+      "type": 2,
+      "value": 5
+    },
+    {
+      "type": 2,
+      "value": 5
+    },
+    {
+      "type": 2,
+      "value": 18
+    },
+    {
+      "type": 2,
+      "value": 23
+    },
+    {
+      "type": 5,
+      "index": 4494,
+      "text": "[/int data]"
+    },
+    {
+      "type": 5,
+      "index": 760,
+      "text": "[speech on situation]"
+    },
+    {
+      "type": 7,
+      "index": 306528,
+      "text": "[on etc]"
+    },
+    {
+      "type": 9,
+      "value": 7
+    },
+    {
+      "type": 10,
+      "index": 307437,
+      "text": "speech_on_situation_1873"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 769,
+      "text": "[/speech on situation]"
+    },
+    {
+      "type": 5,
+      "index": 11429,
+      "text": "[name]"
+    },
+    {
+      "type": 9,
+      "value": 7
+    },
+    {
+      "type": 10,
+      "index": 17038,
+      "text": "name_510"
+    }
+  ]
+}

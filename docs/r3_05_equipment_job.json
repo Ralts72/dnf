@@ -1,0 +1,13 @@
+{
+  "check_script": "res://tools/r3/equipment_checks.gd",
+  "elapsed_seconds": 25.341369,
+  "qa_source_sha256": "1177f227835748f6da6df103dd3edcec0f1224b97614839cb8b63eb7022a2fcc",
+  "render_cases_completed": 20,
+  "result": {
+    "checks": 20,
+    "failed": [],
+    "recorded_rows": 2865,
+    "render_cases": 20
+  },
+  "status": "complete"
+}

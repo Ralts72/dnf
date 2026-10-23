@@ -1,0 +1,81 @@
+{
+	"action": "move",
+	"bake_complete": true,
+	"bake_source_reference": "docs/r3_05_weapon_bake_checks.json",
+	"canvas_size": [
+		320.0,
+		224.0
+	],
+	"cycle_ms": 800.0,
+	"foot_anchor": [
+		133.0,
+		167.0
+	],
+	"frames": [
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_00_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_00_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/move_00.png"
+		},
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_01_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_01_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/move_01.png"
+		},
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_02_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_02_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/move_02.png"
+		},
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_03_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_03_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/move_03.png"
+		},
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_04_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_04_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/move_04.png"
+		},
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_05_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_05_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/move_05.png"
+		},
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_06_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_06_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/move_06.png"
+		},
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_07_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/walk/move_07_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/move_07.png"
+		}
+	],
+	"lower_body_sample_rate_hz": 30.0,
+	"notes": [
+		"Output paths reserved; run newnativebaker before runtimeintegration.",
+		"Lower apparel adaptation; original character and weapon masterclock unchanged."
+	],
+	"schema": 1.0,
+	"source_frame_ms": 100.0,
+	"subframes": 3.0,
+	"upper_body_source_rate_hz": 10.0
+}

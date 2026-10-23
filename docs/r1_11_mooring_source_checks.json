@@ -1,0 +1,54 @@
+{
+  "candidate": "R1/11",
+  "failed": [],
+  "crops": [
+    {
+      "crop": "assets/r1/dock_wood.png",
+      "exact_rgba": true,
+      "pixels": 117
+    },
+    {
+      "crop": "assets/r1/dock_metal.png",
+      "exact_rgba": true,
+      "pixels": 60
+    },
+    {
+      "crop": "assets/r1/dock_rope.png",
+      "exact_rgba": true,
+      "pixels": 92
+    },
+    {
+      "crop": "assets/r1/dock_stone.png",
+      "exact_rgba": true,
+      "pixels": 196
+    }
+  ],
+  "embedded_images": [
+    {
+      "material": "Source_Dock_Wood",
+      "exact_rgba": true,
+      "pixels": 117
+    },
+    {
+      "material": "Source_Dock_Metal",
+      "exact_rgba": true,
+      "pixels": 60
+    },
+    {
+      "material": "Source_Dock_Rope",
+      "exact_rgba": true,
+      "pixels": 92
+    },
+    {
+      "material": "Source_Dock_Stone",
+      "exact_rgba": true,
+      "pixels": 196
+    }
+  ],
+  "source_blend_sha256": "44e4d1ee758dd762d658f4c4999170eb8824f8f0503b5051e4e987ee2bf4918a",
+  "glb_sha256": "74c2b2497b41112c691fcb8a8abe991894bee8314a9a38d2cca0844ccf9cf3c9",
+  "source_script_sha256": "75f279d893bacafa8321719d8578965c83e26e18e5b68396163b81f05a7dfb9e",
+  "mesh_objects": 302,
+  "packed_images": 27,
+  "note": "Visible layout and palette follow source art; volumes and the ship depth shift are new interpretation."
+}

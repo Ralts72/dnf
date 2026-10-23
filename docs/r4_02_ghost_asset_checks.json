@@ -1,0 +1,3564 @@
+{
+  "all_passed": true,
+  "candidate": "R4/02",
+  "checks": [
+    {
+      "detail": null,
+      "name": "all and only246 new PNG paths",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "source master retains18 records and950ms",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "15 actions110 records and unchanged old14: data/swordman_ghost_practice_r0.json",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "new action preserves original950ms indices properties boxes: data/swordman_ghost_practice_r0.json",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "15 actions110 records and unchanged old14: data/swordman_ghost_practice_r1.json",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "new action preserves original950ms indices properties boxes: data/swordman_ghost_practice_r1.json",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "fixed320x224 foot133167: data/swordman_ghost_practice_r1.json",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "15 actions110 records and unchanged old14: data/swordman_ghost_great_r0.json",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "new action preserves original950ms indices properties boxes: data/swordman_ghost_great_r0.json",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "15 actions110 records and unchanged old14: data/swordman_ghost_great_r1.json",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "new action preserves original950ms indices properties boxes: data/swordman_ghost_great_r1.json",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "fixed320x224 foot133167: data/swordman_ghost_great_r1.json",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "36 composite records reference exact nine source layers and offsets",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "four legacy manifests and all1086 retained PNG bytes untouched",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "retained10 PVF and13 canonical IMG payload source SHA",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "normal/add tracks retain source ANI properties offsets and150ms/550ms clocks",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "pose-zero attachment and unbound audio retained",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "helper merges only hardattack and keeps old HopSmash objects",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "2D track materials use MIX and ADD separately",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "3D separate blend_mix/add shaders retain nearest alpha and old default",
+      "passed": true
+    }
+  ],
+  "current_effect_data_sha256": "6bdcfd19218853ba25d677bdfb1b44df4a86ca32d097cf79564a18688ca1e4f8",
+  "effect_helper_sha256": "6e7af9872bd1e69f94d8797663c88aca5f1c7c0ed848038bcaba82238eaa9a50",
+  "export_effect_output_sha256": "9d13c08986891bc4b99d0449ecb857aaa459e8eb368a0147fcb712013b5211e4",
+  "failed": [],
+  "native_exact_rgba_pixels": 3057430,
+  "normal_shader_sha256": "7d729278d60c9e32cd026664376c8e87876e4d9c54fc4df8ad7890305512e2f9",
+  "note": "Actual imported Texture2D RGBA readback includes transparent RGB. Four15-action/110-frame manifests, old14 objects,950ms master,36 fixed canvases, source hashes, and normal/add material construction are checked without playing or mutating a scene. Nine-layer PNG composition is independently verified by the source exporter; blend rendering/actual skill timing belongs to live QA.",
+  "qa_source_sha256": "37306d63792a38a4a98994b74db1eb850341b2810b9c7df0c508aac317a4e40b",
+  "records": [
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/139.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "561e63117969292dfddac024c594e4bad4231e3bcc2c73553f7315f2b773ac97",
+      "rgba_sha_matches_source": true,
+      "size": [
+        35,
+        50
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/139.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "9c8c2b158f0774d8a9c26c073e48aefa7ed17aec906c71ca3d66898aaba365d9",
+      "rgba_sha_matches_source": true,
+      "size": [
+        71,
+        107
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/139.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/139.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/139.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "3a920468c22a812d8992b82944b2f329261bb9dbd865bfda414ff7685b582e79",
+      "rgba_sha_matches_source": true,
+      "size": [
+        55,
+        57
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/139.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "c60ab701098d1d642db00d6c110e24bd7496f887d164ff7a1b16bc2567ecaf1a",
+      "rgba_sha_matches_source": true,
+      "size": [
+        67,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/139.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "3b825c9e97e7d4322e630d576de553d91e112e0cf8f47e2cd236c820d9b7a711",
+      "rgba_sha_matches_source": true,
+      "size": [
+        32,
+        27
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/139.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "3a510c77d5230146e2ffc940f13ada8fc73599747c3099dfcdfd4ee1facd3301",
+      "rgba_sha_matches_source": true,
+      "size": [
+        19,
+        15
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/139.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/140.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "561e63117969292dfddac024c594e4bad4231e3bcc2c73553f7315f2b773ac97",
+      "rgba_sha_matches_source": true,
+      "size": [
+        35,
+        50
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/140.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7f7d2fa0360230a357e438a078061705fcef02df4b4b5102c29c48b1ad0a3821",
+      "rgba_sha_matches_source": true,
+      "size": [
+        71,
+        107
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/140.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/140.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/140.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "f617d4d328925fec3267a7a97aa20651ccb23f21b9256d3dfa02c50d7621062d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        55,
+        57
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/140.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "c60ab701098d1d642db00d6c110e24bd7496f887d164ff7a1b16bc2567ecaf1a",
+      "rgba_sha_matches_source": true,
+      "size": [
+        67,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/140.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "eca618daa73738a331bb1994b82c015e083491a547da859af6c1420d8d0fd41f",
+      "rgba_sha_matches_source": true,
+      "size": [
+        33,
+        27
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/140.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "3a510c77d5230146e2ffc940f13ada8fc73599747c3099dfcdfd4ee1facd3301",
+      "rgba_sha_matches_source": true,
+      "size": [
+        19,
+        15
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/140.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/141.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "e50edc1d0988ce2dcead7f644c0a95c2e633bbda9bd60df35efbc56f484abf8c",
+      "rgba_sha_matches_source": true,
+      "size": [
+        60,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/141.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "94f2138f9aa0d1893ef7f6306adf0ad97a55f57d1a088f93a34d3d7fc0339974",
+      "rgba_sha_matches_source": true,
+      "size": [
+        68,
+        107
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/141.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/141.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/141.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "911b5cecc93a20f0b0481aebef455fadb6ffd9527ef8bec202297e3edfeb073f",
+      "rgba_sha_matches_source": true,
+      "size": [
+        56,
+        57
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/141.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "9c32041ed360e691117151696e14bca39d1c9d3ccc922eea0fd527dd4def6198",
+      "rgba_sha_matches_source": true,
+      "size": [
+        65,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/141.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "1acf3ad60f1c6df4d41a388c33fd3582a00e254987d3802198e770f9772332ee",
+      "rgba_sha_matches_source": true,
+      "size": [
+        32,
+        27
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/141.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "b616ed3b414de0a790f97dd3e3e555e5ba0d6cea6cec37c0ffa7cb0398cdea2f",
+      "rgba_sha_matches_source": true,
+      "size": [
+        18,
+        15
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/141.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/142.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/142.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "f92aac356352de558151dd52eabfdb8279b7da2b5312b586eb3fb7c7963ce304",
+      "rgba_sha_matches_source": true,
+      "size": [
+        91,
+        68
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/142.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/142.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/142.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/142.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/142.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "44fd2c251054ae5683e08100f75b0f485b4461ac34ed8ba51da28f769789a0cf",
+      "rgba_sha_matches_source": true,
+      "size": [
+        34,
+        24
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/142.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "639cce92c20b35bfadeca35a5c6f5e8de0c420bea3a4f16713a8b8a4b980bd27",
+      "rgba_sha_matches_source": true,
+      "size": [
+        17,
+        15
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/142.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/143.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/143.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "4b17359862b834e94810ac203851e36673681c8657de51ed01fff7ed14e70522",
+      "rgba_sha_matches_source": true,
+      "size": [
+        88,
+        71
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/143.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/143.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/143.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/143.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/143.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "dc053536c5f8102fd6c634c2b996793af94b27ef284b9645200e56b911f98774",
+      "rgba_sha_matches_source": true,
+      "size": [
+        34,
+        25
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/143.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a67b3cccc3d32e41cee45da26ed8144592650a629a6e1838f0050227028ac848",
+      "rgba_sha_matches_source": true,
+      "size": [
+        16,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/143.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/144.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/144.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "42418fbbaf7306c543cb6f1d1c171b201e9e2f659f47d826adcb1aeeefbacbb0",
+      "rgba_sha_matches_source": true,
+      "size": [
+        88,
+        71
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/144.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/144.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/144.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/144.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/144.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "87e13abf6c806c023f613e1c539e2e42aa97b19894f49d285f948e3b2d5daea4",
+      "rgba_sha_matches_source": true,
+      "size": [
+        35,
+        26
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/144.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a67b3cccc3d32e41cee45da26ed8144592650a629a6e1838f0050227028ac848",
+      "rgba_sha_matches_source": true,
+      "size": [
+        16,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/144.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/145.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "43f3ad73b48d1fce0b1413b0294e00f3992a19c66388f52167fe0420dfeb6d2a",
+      "rgba_sha_matches_source": true,
+      "size": [
+        99,
+        35
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/145.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "2029ffe222d9390997ba70f96951dcac3cb2cfb7371b0ab65162b42aadf06dc0",
+      "rgba_sha_matches_source": true,
+      "size": [
+        88,
+        71
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/145.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/145.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/145.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/145.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/145.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "c03bebb8723543041c148bc4c14f339f5bfdf5aea783b102f9e24841d37c842d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        34,
+        27
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/145.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a67b3cccc3d32e41cee45da26ed8144592650a629a6e1838f0050227028ac848",
+      "rgba_sha_matches_source": true,
+      "size": [
+        16,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/145.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/146.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "d95639d5ca3ce41f9225d5b4b568ff250018e02d02dc7f63901e3dab4188b07d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        89,
+        30
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/146.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "99fea89b2892acc3ae9b2325a2f816ee0c373b86a4f25ccc994cddabdfa8176e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        88,
+        71
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/146.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/146.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/146.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/146.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/146.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "09e44e552d09c89abb2af5dfcf0883c2f1bddf0369a4bfc98f3f0b8e38f122d7",
+      "rgba_sha_matches_source": true,
+      "size": [
+        34,
+        27
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/146.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a67b3cccc3d32e41cee45da26ed8144592650a629a6e1838f0050227028ac848",
+      "rgba_sha_matches_source": true,
+      "size": [
+        16,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/146.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/147.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "d95639d5ca3ce41f9225d5b4b568ff250018e02d02dc7f63901e3dab4188b07d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        89,
+        30
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/147.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "d9a5574f06e63f56f56240c07aa711785bdde121e67af9bf9839841f4a574554",
+      "rgba_sha_matches_source": true,
+      "size": [
+        88,
+        71
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/147.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/147.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/147.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/147.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/147.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "c03bebb8723543041c148bc4c14f339f5bfdf5aea783b102f9e24841d37c842d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        34,
+        27
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/147.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a67b3cccc3d32e41cee45da26ed8144592650a629a6e1838f0050227028ac848",
+      "rgba_sha_matches_source": true,
+      "size": [
+        16,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/147.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/148.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "d95639d5ca3ce41f9225d5b4b568ff250018e02d02dc7f63901e3dab4188b07d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        89,
+        30
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/148.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "4c14ab749af829217a80265e0ff81eae30ca5dbfaad4dc42167f59609cd21358",
+      "rgba_sha_matches_source": true,
+      "size": [
+        88,
+        71
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/148.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/148.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/148.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/148.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/148.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "c251d2f27f1d98af901d95748dae4450d92866e6513c7d0370ae5310e51c147c",
+      "rgba_sha_matches_source": true,
+      "size": [
+        35,
+        26
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/148.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a67b3cccc3d32e41cee45da26ed8144592650a629a6e1838f0050227028ac848",
+      "rgba_sha_matches_source": true,
+      "size": [
+        16,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/148.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/149.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "d95639d5ca3ce41f9225d5b4b568ff250018e02d02dc7f63901e3dab4188b07d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        89,
+        30
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/149.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "d5154413c88001d1d5df4a1ed5324df5aaf71665949636e50d23d66cc4cd67ac",
+      "rgba_sha_matches_source": true,
+      "size": [
+        88,
+        71
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/149.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/149.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/149.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/149.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/149.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "dc053536c5f8102fd6c634c2b996793af94b27ef284b9645200e56b911f98774",
+      "rgba_sha_matches_source": true,
+      "size": [
+        34,
+        25
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/149.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a67b3cccc3d32e41cee45da26ed8144592650a629a6e1838f0050227028ac848",
+      "rgba_sha_matches_source": true,
+      "size": [
+        16,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/149.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/150.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "d95639d5ca3ce41f9225d5b4b568ff250018e02d02dc7f63901e3dab4188b07d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        89,
+        30
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/150.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "f8b645272ace463073068f1edeff581e766d1cd62326f50b9eb0f54eecc7ed93",
+      "rgba_sha_matches_source": true,
+      "size": [
+        88,
+        71
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/150.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/150.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/150.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/150.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/150.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "dc053536c5f8102fd6c634c2b996793af94b27ef284b9645200e56b911f98774",
+      "rgba_sha_matches_source": true,
+      "size": [
+        34,
+        25
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/150.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a67b3cccc3d32e41cee45da26ed8144592650a629a6e1838f0050227028ac848",
+      "rgba_sha_matches_source": true,
+      "size": [
+        16,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/150.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/151.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "d95639d5ca3ce41f9225d5b4b568ff250018e02d02dc7f63901e3dab4188b07d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        89,
+        30
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/151.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "f8b645272ace463073068f1edeff581e766d1cd62326f50b9eb0f54eecc7ed93",
+      "rgba_sha_matches_source": true,
+      "size": [
+        88,
+        71
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/151.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/151.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/151.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/151.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/151.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "dc053536c5f8102fd6c634c2b996793af94b27ef284b9645200e56b911f98774",
+      "rgba_sha_matches_source": true,
+      "size": [
+        34,
+        25
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/151.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a67b3cccc3d32e41cee45da26ed8144592650a629a6e1838f0050227028ac848",
+      "rgba_sha_matches_source": true,
+      "size": [
+        16,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/151.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/152.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "d95639d5ca3ce41f9225d5b4b568ff250018e02d02dc7f63901e3dab4188b07d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        89,
+        30
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/152.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "f8b645272ace463073068f1edeff581e766d1cd62326f50b9eb0f54eecc7ed93",
+      "rgba_sha_matches_source": true,
+      "size": [
+        88,
+        71
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/152.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/152.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/152.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/152.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/152.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "dc053536c5f8102fd6c634c2b996793af94b27ef284b9645200e56b911f98774",
+      "rgba_sha_matches_source": true,
+      "size": [
+        34,
+        25
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/152.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a67b3cccc3d32e41cee45da26ed8144592650a629a6e1838f0050227028ac848",
+      "rgba_sha_matches_source": true,
+      "size": [
+        16,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/152.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/153.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "d95639d5ca3ce41f9225d5b4b568ff250018e02d02dc7f63901e3dab4188b07d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        89,
+        30
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/153.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "f8b645272ace463073068f1edeff581e766d1cd62326f50b9eb0f54eecc7ed93",
+      "rgba_sha_matches_source": true,
+      "size": [
+        88,
+        71
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/153.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/153.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/153.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/153.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/153.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "dc053536c5f8102fd6c634c2b996793af94b27ef284b9645200e56b911f98774",
+      "rgba_sha_matches_source": true,
+      "size": [
+        34,
+        25
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/153.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a67b3cccc3d32e41cee45da26ed8144592650a629a6e1838f0050227028ac848",
+      "rgba_sha_matches_source": true,
+      "size": [
+        16,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/153.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/154.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "d95639d5ca3ce41f9225d5b4b568ff250018e02d02dc7f63901e3dab4188b07d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        89,
+        30
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/154.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "f8b645272ace463073068f1edeff581e766d1cd62326f50b9eb0f54eecc7ed93",
+      "rgba_sha_matches_source": true,
+      "size": [
+        88,
+        71
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/154.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/154.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/154.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/154.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/154.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "dc053536c5f8102fd6c634c2b996793af94b27ef284b9645200e56b911f98774",
+      "rgba_sha_matches_source": true,
+      "size": [
+        34,
+        25
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/154.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a67b3cccc3d32e41cee45da26ed8144592650a629a6e1838f0050227028ac848",
+      "rgba_sha_matches_source": true,
+      "size": [
+        16,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/154.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/155.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "d95639d5ca3ce41f9225d5b4b568ff250018e02d02dc7f63901e3dab4188b07d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        89,
+        30
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/155.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "f8b645272ace463073068f1edeff581e766d1cd62326f50b9eb0f54eecc7ed93",
+      "rgba_sha_matches_source": true,
+      "size": [
+        88,
+        71
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/155.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/155.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/155.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/155.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/155.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "dc053536c5f8102fd6c634c2b996793af94b27ef284b9645200e56b911f98774",
+      "rgba_sha_matches_source": true,
+      "size": [
+        34,
+        25
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/155.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a67b3cccc3d32e41cee45da26ed8144592650a629a6e1838f0050227028ac848",
+      "rgba_sha_matches_source": true,
+      "size": [
+        16,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/155.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_back/156.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "d95639d5ca3ce41f9225d5b4b568ff250018e02d02dc7f63901e3dab4188b07d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        89,
+        30
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/body/156.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "f8b645272ace463073068f1edeff581e766d1cd62326f50b9eb0f54eecc7ed93",
+      "rgba_sha_matches_source": true,
+      "size": [
+        88,
+        71
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants_back/156.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes_back/156.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/pants/156.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a6e406305955fd98754c8e7d3f3fead85fe845274fe7be59accca6b2b3d95874",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        40
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/shoes/156.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "7e8d2de2b020f386e9a6bfeb2d4ff9c2d00962d6874af2a11eef2ce71605d9f3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        79,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/coat/156.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "dc053536c5f8102fd6c634c2b996793af94b27ef284b9645200e56b911f98774",
+      "rgba_sha_matches_source": true,
+      "size": [
+        34,
+        25
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/shared/src/hair/156.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a67b3cccc3d32e41cee45da26ed8144592650a629a6e1838f0050227028ac848",
+      "rgba_sha_matches_source": true,
+      "size": [
+        16,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/src/weapon_front/156.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/139.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "15a1ef299f1cd62fe3609a8d9eeed1af1ef09ddcb5ecff4b732fd13d1bc6883c",
+      "rgba_sha_matches_source": true,
+      "size": [
+        28,
+        33
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/139.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/140.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "15a1ef299f1cd62fe3609a8d9eeed1af1ef09ddcb5ecff4b732fd13d1bc6883c",
+      "rgba_sha_matches_source": true,
+      "size": [
+        28,
+        33
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/140.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/141.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a98f66f5205edb270f88625a9e20f514a590c6ef11e0e80e6cf8108e13538001",
+      "rgba_sha_matches_source": true,
+      "size": [
+        51,
+        28
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/141.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/142.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/142.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/143.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/143.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/144.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/144.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/145.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "20396cb667ce4b87d263eb775f7806b16849605f4f68956ca11d3fdd42424e8e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        68,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/145.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/146.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "20396cb667ce4b87d263eb775f7806b16849605f4f68956ca11d3fdd42424e8e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        68,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/146.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/147.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "20396cb667ce4b87d263eb775f7806b16849605f4f68956ca11d3fdd42424e8e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        68,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/147.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/148.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "20396cb667ce4b87d263eb775f7806b16849605f4f68956ca11d3fdd42424e8e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        68,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/148.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/149.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "20396cb667ce4b87d263eb775f7806b16849605f4f68956ca11d3fdd42424e8e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        68,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/149.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/150.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "20396cb667ce4b87d263eb775f7806b16849605f4f68956ca11d3fdd42424e8e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        68,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/150.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/151.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "20396cb667ce4b87d263eb775f7806b16849605f4f68956ca11d3fdd42424e8e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        68,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/151.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/152.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "20396cb667ce4b87d263eb775f7806b16849605f4f68956ca11d3fdd42424e8e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        68,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/152.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/153.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "20396cb667ce4b87d263eb775f7806b16849605f4f68956ca11d3fdd42424e8e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        68,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/153.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/154.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "20396cb667ce4b87d263eb775f7806b16849605f4f68956ca11d3fdd42424e8e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        68,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/154.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/155.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "20396cb667ce4b87d263eb775f7806b16849605f4f68956ca11d3fdd42424e8e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        68,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/155.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_back/156.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "20396cb667ce4b87d263eb775f7806b16849605f4f68956ca11d3fdd42424e8e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        68,
+        22
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/src/weapon_front/156.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "rgba_sha_matches_source": true,
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/effects/hardattackblade1/000.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "beb8a1f2c2e366267bacab85a7cef1ca0131c11410efbd100feb0d2a4e2e39ef",
+      "rgba_sha_matches_source": true,
+      "size": [
+        160,
+        127
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/effects/hardattackblade1/001.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "d44347208f19ded233556ff8f6db321e168e4ed1ecdfc9cc2d48d3d3ce0f30d9",
+      "rgba_sha_matches_source": true,
+      "size": [
+        132,
+        116
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/effects/hardattackblade1/002.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "246f90915573ad1e834dda64273fd8648537dec03708efbbaaf98db8d962529f",
+      "rgba_sha_matches_source": true,
+      "size": [
+        170,
+        104
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/effects/hardattackblade1/003.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "4f5c90b02d17ef95833023e42922dc6c7f1c25217a7a47c97dd53e2510c4bba8",
+      "rgba_sha_matches_source": true,
+      "size": [
+        178,
+        83
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/effects/hardattackblade1/004.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "5895e05b49c7b1e8062e07fad120aa7ff197cec578e6e8991595d9576db47303",
+      "rgba_sha_matches_source": true,
+      "size": [
+        180,
+        66
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/effects/hardattackblade1/005.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "92297408bb8516a3828bd1103f47d98168702ad290cab4ba0bf366365d7ad0cf",
+      "rgba_sha_matches_source": true,
+      "size": [
+        62,
+        64
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/effects/hardattackblade2/000.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "6e438a34112f19c8d29fb8a684bbcccbfe089ebd763703564ee6421ef6c9ee93",
+      "rgba_sha_matches_source": true,
+      "size": [
+        175,
+        143
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/effects/hardattackblade2/001.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a91376cfa06a052c4ba87f2dde517864ee04d7db02eb9cb3a0e0d2eed850e37e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        148,
+        131
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/effects/hardattackblade2/002.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "ee3b1db51719219c565486f299a50edcb06a43897c9259f0031045c2713fc120",
+      "rgba_sha_matches_source": true,
+      "size": [
+        186,
+        129
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/effects/hardattackblade2/003.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "294bec732b40e8cc510c7975348c23efd9c4a71be6d924fa316e25cb4a3c8503",
+      "rgba_sha_matches_source": true,
+      "size": [
+        194,
+        108
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/effects/hardattackblade2/004.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "f11b2a2c0eda38f98771cb49b23edba0c7fd012525689060a037c85d4a0529a5",
+      "rgba_sha_matches_source": true,
+      "size": [
+        195,
+        80
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/effects/hardattackblade2/005.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "2cef52ef376833306d61e1ae4f9aadec1fdfe972c6e4006768afde0ad68d3039",
+      "rgba_sha_matches_source": true,
+      "size": [
+        77,
+        80
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_00.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "2dd0dac90fe7ddcfcc23dce0f67d911167bf6cc5c4ebabf47a4347b42d567c2e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_01.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "14bd3c47dff3b02ed450d48d52fa27b6d91a137c8c337844afd7259b153cfee9",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_02.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "dc2b4d92641825fc1acefb36c70de66b8696e174d0b926edebfd5f246820c539",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_03.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "64b5582b33765e1bd5e492f68688ca394ef11fbeb311361af55820f9d3818259",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_04.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "2278876a578147dcf5a893ece2a1672bf5a969cbee0e190e68142e7734dfe948",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_05.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "f01d590db294878226499726121e51342e78773f2252601557be0911f933140d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_06.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "99bcacbe1dedd6c10a2923eb333eeb01d5cafd145cbadff615ff8a933152b25a",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_07.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "44dd9b427ae290d5f3cf1ffd29f01f684163ba9db392c1f167ea6feb55133c4d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_08.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "e085e18ad4406c9d67a411a751c4b72add33a4304b517b348a95221c1f823904",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_09.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "60e6ecf59045ef996046942c631dda28b8bbca47c8300b9f24598d517a80ce78",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_10.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "554d2798b4d3ce07744379f45517a659574a4727a5a7380ab2aab508211cb97e",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_11.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "e38b627568f490e8db7fc5c9eab64687d7f054263f0ba8d11beaa4c726ad3bc4",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_12.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "e38b627568f490e8db7fc5c9eab64687d7f054263f0ba8d11beaa4c726ad3bc4",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_13.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "e38b627568f490e8db7fc5c9eab64687d7f054263f0ba8d11beaa4c726ad3bc4",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_14.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "e38b627568f490e8db7fc5c9eab64687d7f054263f0ba8d11beaa4c726ad3bc4",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_15.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "e38b627568f490e8db7fc5c9eab64687d7f054263f0ba8d11beaa4c726ad3bc4",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_16.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "e38b627568f490e8db7fc5c9eab64687d7f054263f0ba8d11beaa4c726ad3bc4",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/practice/frames/hardattack_17.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "e38b627568f490e8db7fc5c9eab64687d7f054263f0ba8d11beaa4c726ad3bc4",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_00.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "dbad6792da29a8549b1fe41fab696266b8f85960b9f5f6b156444bd526febce3",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_01.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "6ea336f835da601f8e843b42de618d4b07204285d7e1016e4ef04823f93a5c26",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_02.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "04e90a367ee37c90b87dd4d2b03b82ead5f4026300f06595f9fa6535217a0d35",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_03.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "64b5582b33765e1bd5e492f68688ca394ef11fbeb311361af55820f9d3818259",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_04.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "2278876a578147dcf5a893ece2a1672bf5a969cbee0e190e68142e7734dfe948",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_05.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "f01d590db294878226499726121e51342e78773f2252601557be0911f933140d",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_06.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "ea1117b903080b6253b4098dba8d19d83ccaea2c2a0040298ebd21e65d371068",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_07.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "b4edf19e08cc7ebe90a886980732bb9a8a25ba04092b6605370634e15c3314ce",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_08.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "a4a4d44e6a780eebe675a69efc7aab43206c4add213d4fc25020293b70a7dcf7",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_09.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "6ee6b7a2afb8c9669253f69f3146a0fa164d85424d6ce7bfeb93ba07484feb1c",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_10.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "05662d774dddddc91a306f90a100285f70c9f0ed3c95d248b99fc2b80b5f938f",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_11.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "1beb5be089d1792a7058cff4f2975655cfcd4f5fcf4cb40916f3ed8d5a46dca8",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_12.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "1beb5be089d1792a7058cff4f2975655cfcd4f5fcf4cb40916f3ed8d5a46dca8",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_13.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "1beb5be089d1792a7058cff4f2975655cfcd4f5fcf4cb40916f3ed8d5a46dca8",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_14.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "1beb5be089d1792a7058cff4f2975655cfcd4f5fcf4cb40916f3ed8d5a46dca8",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_15.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "1beb5be089d1792a7058cff4f2975655cfcd4f5fcf4cb40916f3ed8d5a46dca8",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_16.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "1beb5be089d1792a7058cff4f2975655cfcd4f5fcf4cb40916f3ed8d5a46dca8",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "lossless_settings": true,
+      "native_exact_rgba": true,
+      "passed": true,
+      "path": "res://assets/r4/ghost_slash/great/frames/hardattack_17.png",
+      "png_sha_matches_source": true,
+      "rgba_sha256": "1beb5be089d1792a7058cff4f2975655cfcd4f5fcf4cb40916f3ed8d5a46dca8",
+      "rgba_sha_matches_source": true,
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    }
+  ],
+  "seconds": 0.544239,
+  "source_manifest_sha256": "653dd6c4c2fe942ef0fd9beefea9d140cc5b91653ae23a6ba528ab5af8ec5e91",
+  "textures": 246,
+  "unchanged_add_shader_sha256": "13dfc50a77f07327df3beceaa5869a5faf1bf70353cc846c43f9479c7148b242"
+}

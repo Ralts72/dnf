@@ -1,0 +1,37 @@
+{
+  "check_script": "res://tools/r1/music_checks.gd",
+  "elapsed_seconds": 3.442179,
+  "qa_source_sha256": "ed07b7fb6a9452299c269db7a6608ec6ff6db5a796fa3afa0a5ebbb9fcdcdad7",
+  "render_cases_completed": 0,
+  "result": {
+    "capture_samples": [
+      {
+        "frames": 30720,
+        "label": "music_20_percent",
+        "peak": 0.102763794362545,
+        "rms": 0.0133201397887846
+      },
+      {
+        "frames": 32768,
+        "label": "music_muted",
+        "peak": 0.0,
+        "rms": 0.0
+      },
+      {
+        "frames": 30720,
+        "label": "music_resumed",
+        "peak": 0.14735010266304,
+        "rms": 0.0200316128265457
+      },
+      {
+        "frames": 30720,
+        "label": "after_native_loop",
+        "peak": 0.360846340656281,
+        "rms": 0.0450733217821508
+      }
+    ],
+    "checks": 27,
+    "failed": []
+  },
+  "status": "complete"
+}

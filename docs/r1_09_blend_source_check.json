@@ -1,0 +1,209 @@
+{
+  "blender": "5.2.2 LTS",
+  "source": "/Users/mac/project/game/dnf/source_art/r1/west_coast_port.blend",
+  "source_blend_sha256": "cbed3bd06e0511b4432136f143b1f695419429166899bcb1cae3e1ffbf6f5095",
+  "inspection_script_sha256": "59008dd5a3b98c0b1468bda47f49da780dd0b6526e1e72bd22d7cfd90f765b2d",
+  "scene": "WestCoast_R1_Architecture",
+  "mesh_objects": 285,
+  "images": [
+    {
+      "name": "000.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        224,
+        386
+      ],
+      "available": true
+    },
+    {
+      "name": "000.png.001",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        224,
+        277
+      ],
+      "available": true
+    },
+    {
+      "name": "000.png.002",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        443,
+        230
+      ],
+      "available": true
+    },
+    {
+      "name": "grove_bark.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        13,
+        48
+      ],
+      "available": true
+    },
+    {
+      "name": "grove_canopy.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        224,
+        140
+      ],
+      "available": true
+    },
+    {
+      "name": "grove_grass.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        24,
+        8
+      ],
+      "available": true
+    },
+    {
+      "name": "grove_path.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        40,
+        26
+      ],
+      "available": true
+    },
+    {
+      "name": "grove_plaster.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        26,
+        45
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_0.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_1.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_2.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_3.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_4.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_5.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_6.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_7.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "pier_face.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        100,
+        17
+      ],
+      "available": true
+    },
+    {
+      "name": "pier_top.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        100,
+        7
+      ],
+      "available": true
+    },
+    {
+      "name": "quay_coping.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        94,
+        18
+      ],
+      "available": true
+    }
+  ],
+  "missing_images": [],
+  "projected_uv_exists": true,
+  "paving_uv_exists": true,
+  "stall_uv_exists": true,
+  "shore_uv_exists": true,
+  "near_shore_diagonal_caps": 9,
+  "grove_canopy_uv_exists": true,
+  "grove_trunk_meshes": 9,
+  "source_modified": false
+}

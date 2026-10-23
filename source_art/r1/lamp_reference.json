@@ -1,0 +1,221 @@
+{
+  "candidate": "R1/11",
+  "source": "assets/r0/port/westile02/image/000.png",
+  "source_sha256": "d6a9ee58f8678512e0f8adb066c3e379013e84f112fbab8b9d77146696f8fd08",
+  "source_manifest": "docs/r0_asset_manifest.json",
+  "crops": [
+    {
+      "name": "blue",
+      "rect": [
+        179,
+        56,
+        193,
+        64
+      ],
+      "output": "assets/r1/lamp_blue.png",
+      "sha256": "35827ab04cab769abfcb7997193061661f396dac97bdcb1725ef43f26d5dc3a8",
+      "operation": "Exact rectangular RGBA crop; no recoloring or resampling"
+    },
+    {
+      "name": "glass",
+      "rect": [
+        178,
+        72,
+        193,
+        80
+      ],
+      "output": "assets/r1/lamp_glass.png",
+      "sha256": "1103849a87fce310d21123a15c1ccc7cfae055018eb0b08d9860ae2ad9c11050",
+      "operation": "Exact rectangular RGBA crop; no recoloring or resampling"
+    },
+    {
+      "name": "shaft",
+      "rect": [
+        182,
+        115,
+        189,
+        143
+      ],
+      "output": "assets/r1/lamp_shaft.png",
+      "sha256": "762f122dc6327781d5a0d039e16f255a51c212d557f9a5f6fb6023872b62b797",
+      "operation": "Exact rectangular RGBA crop; no recoloring or resampling"
+    },
+    {
+      "name": "collar",
+      "rect": [
+        181,
+        111,
+        192,
+        114
+      ],
+      "output": "assets/r1/lamp_collar.png",
+      "sha256": "6faf69f018a15c134d624b868bbb2cbdd6bfad541da0640dc6348d866ea00917",
+      "operation": "Exact rectangular RGBA crop; no recoloring or resampling"
+    }
+  ],
+  "source_profile_height_pixels": 137,
+  "radial_segments": 20,
+  "depth_to_width_ratio": 0.7,
+  "profiles": {
+    "Base": [
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        10,
+        6
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        19,
+        5
+      ]
+    ],
+    "Shaft": [
+      [
+        17,
+        5
+      ],
+      [
+        55,
+        5
+      ],
+      [
+        62,
+        4
+      ],
+      [
+        72,
+        4
+      ],
+      [
+        77,
+        1
+      ]
+    ],
+    "Collar": [
+      [
+        55,
+        5
+      ],
+      [
+        57,
+        8
+      ],
+      [
+        61,
+        8
+      ],
+      [
+        63,
+        4
+      ]
+    ],
+    "Glass": [
+      [
+        77,
+        1
+      ],
+      [
+        79,
+        4
+      ],
+      [
+        84,
+        8
+      ],
+      [
+        90,
+        11
+      ],
+      [
+        99,
+        11
+      ],
+      [
+        101,
+        9
+      ]
+    ],
+    "Glass_Rim": [
+      [
+        99,
+        11
+      ],
+      [
+        101,
+        12
+      ],
+      [
+        103,
+        11
+      ],
+      [
+        105,
+        12
+      ],
+      [
+        107,
+        10
+      ]
+    ],
+    "Hood": [
+      [
+        107,
+        10
+      ],
+      [
+        111,
+        11
+      ],
+      [
+        115,
+        8
+      ],
+      [
+        120,
+        3
+      ],
+      [
+        123,
+        1
+      ]
+    ],
+    "Spire": [
+      [
+        123,
+        1
+      ],
+      [
+        137,
+        0.5
+      ]
+    ]
+  },
+  "materials": {
+    "Base": "collar",
+    "Shaft": "shaft",
+    "Collar": "collar",
+    "Glass": "glass",
+    "Glass_Rim": "blue",
+    "Hood": "blue",
+    "Spire": "blue"
+  },
+  "notes": [
+    "The near lamp supplies source colors and stepped profile proportions; six lamp anchors/top heights retain shore_reference.json.",
+    "Rotational volume, flattened circular depth and cylindrical UV distribution are new interpretation.",
+    "Textures are lit and keep their original pixels; rendered RGB is not claimed identical to unlit source art."
+  ]
+}

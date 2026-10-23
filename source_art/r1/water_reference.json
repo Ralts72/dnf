@@ -1,0 +1,184 @@
+{
+  "candidate": "R1/12",
+  "source_manifest": "docs/r0_asset_manifest.json",
+  "palette": [
+    {
+      "name": "deep",
+      "source": "assets/r0/port/westile03/image/000.png",
+      "source_sha256": "9aef335f4e649a309308542b2ffde1c7cb67b0fed6d388a2dfc46c227515e0be",
+      "point": [
+        6,
+        60
+      ],
+      "rgba": [
+        0,
+        132,
+        197,
+        255
+      ]
+    },
+    {
+      "name": "shade",
+      "source": "assets/r0/port/westile03/image/000.png",
+      "source_sha256": "9aef335f4e649a309308542b2ffde1c7cb67b0fed6d388a2dfc46c227515e0be",
+      "point": [
+        6,
+        61
+      ],
+      "rgba": [
+        16,
+        156,
+        222,
+        255
+      ]
+    },
+    {
+      "name": "blue",
+      "source": "assets/r0/port/westile03/image/000.png",
+      "source_sha256": "9aef335f4e649a309308542b2ffde1c7cb67b0fed6d388a2dfc46c227515e0be",
+      "point": [
+        6,
+        62
+      ],
+      "rgba": [
+        33,
+        173,
+        230,
+        255
+      ]
+    },
+    {
+      "name": "body_dark",
+      "source": "assets/r0/port/westile03/image/000.png",
+      "source_sha256": "9aef335f4e649a309308542b2ffde1c7cb67b0fed6d388a2dfc46c227515e0be",
+      "point": [
+        6,
+        63
+      ],
+      "rgba": [
+        41,
+        181,
+        239,
+        255
+      ]
+    },
+    {
+      "name": "body",
+      "source": "assets/r0/port/westile03/image/000.png",
+      "source_sha256": "9aef335f4e649a309308542b2ffde1c7cb67b0fed6d388a2dfc46c227515e0be",
+      "point": [
+        6,
+        64
+      ],
+      "rgba": [
+        41,
+        189,
+        247,
+        255
+      ]
+    },
+    {
+      "name": "cyan",
+      "source": "assets/r0/port/westile02/image/000.png",
+      "source_sha256": "d6a9ee58f8678512e0f8adb066c3e379013e84f112fbab8b9d77146696f8fd08",
+      "point": [
+        164,
+        126
+      ],
+      "rgba": [
+        66,
+        206,
+        255,
+        255
+      ]
+    },
+    {
+      "name": "ripple",
+      "source": "assets/r0/port/westile02/image/000.png",
+      "source_sha256": "d6a9ee58f8678512e0f8adb066c3e379013e84f112fbab8b9d77146696f8fd08",
+      "point": [
+        153,
+        124
+      ],
+      "rgba": [
+        99,
+        230,
+        255,
+        255
+      ]
+    },
+    {
+      "name": "glint",
+      "source": "assets/r0/port/westile02/image/000.png",
+      "source_sha256": "d6a9ee58f8678512e0f8adb066c3e379013e84f112fbab8b9d77146696f8fd08",
+      "point": [
+        157,
+        123
+      ],
+      "rgba": [
+        156,
+        239,
+        255,
+        255
+      ]
+    },
+    {
+      "name": "foam",
+      "source": "assets/r0/port/westile02/image/000.png",
+      "source_sha256": "d6a9ee58f8678512e0f8adb066c3e379013e84f112fbab8b9d77146696f8fd08",
+      "point": [
+        155,
+        122
+      ],
+      "rgba": [
+        239,
+        255,
+        255,
+        255
+      ]
+    }
+  ],
+  "mapping": {
+    "pixels_per_meter": 60,
+    "camera_elevation_degrees": 38,
+    "source_origin": [
+      448,
+      159
+    ],
+    "source_depth_origin": -1.6,
+    "ground_height": 0.025,
+    "animation_steps_per_second": 8,
+    "near_shore_points": [
+      [
+        449,
+        190
+      ],
+      [
+        673,
+        254
+      ],
+      [
+        958,
+        254
+      ]
+    ],
+    "far_pier_bounds": [
+      510,
+      135,
+      958,
+      153
+    ],
+    "middle_pier_bounds": [
+      510,
+      175,
+      958,
+      187
+    ]
+  },
+  "notes": [
+    "Nine color values are unchanged source RGBA samples, not a recovered original water shader.",
+    "World-position pixel quantization, glint placement, shoreline bands and animation are adapted.",
+    "The native surface is unlit to keep the selected palette; no water mesh, navigation or ship animation changes.",
+    "Each water node owns its material and clock. Pause freezes it; F4 retains its phase."
+  ]
+}

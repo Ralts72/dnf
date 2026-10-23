@@ -1,0 +1,80 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"source\":\"game\",\"lines\":[{\"level\":\"info\",\"run_id\":\"r28429971-70\",\"source\":\"game\",\"text\":\"[godot_ai game_helper] registered mcp capture (debugger active=true, logger=true)\\n\"}],\"total_count\":1,\"returned_count\":1,\"offset\":0,\"limit\":20,\"has_more\":false,\"run_id\":\"r28429971-70\",\"is_running\":true,\"dropped_count\":13631,\"stale_run_id\":false,\"current_run_id\":\"r28429971-70\",\"helper_live\":true,\"session_active\":true,\"game_status\":{\"active\":true,\"editor_log_cursor\":15,\"elapsed_msec\":945592,\"helper_expected\":true,\"helper_live\":true,\"ready\":true,\"ready_wait_msec\":20000,\"run_started_msec\":28429970,\"run_token\":70,\"session_active\":true,\"status\":\"live\"}}"
+        }
+      ],
+      "structuredContent": {
+        "source": "game",
+        "lines": [
+          {
+            "level": "info",
+            "run_id": "r28429971-70",
+            "source": "game",
+            "text": "[godot_ai game_helper] registered mcp capture (debugger active=true, logger=true)\n"
+          }
+        ],
+        "total_count": 1,
+        "returned_count": 1,
+        "offset": 0,
+        "limit": 20,
+        "has_more": false,
+        "run_id": "r28429971-70",
+        "is_running": true,
+        "dropped_count": 13631,
+        "stale_run_id": false,
+        "current_run_id": "r28429971-70",
+        "helper_live": true,
+        "session_active": true,
+        "game_status": {
+          "active": true,
+          "editor_log_cursor": 15,
+          "elapsed_msec": 945592,
+          "helper_expected": true,
+          "helper_live": true,
+          "ready": true,
+          "ready_wait_msec": 20000,
+          "run_started_msec": 28429970,
+          "run_token": 70,
+          "session_active": true,
+          "status": "live"
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"source\":\"editor\",\"lines\":[],\"total_count\":15,\"returned_count\":0,\"offset\":0,\"limit\":20,\"has_more\":false,\"run_id\":\"\",\"is_running\":false,\"dropped_count\":0,\"stale_run_id\":false,\"cursor\":15,\"oldest_cursor\":0,\"next_cursor\":15,\"appended_total\":15,\"truncated\":false}"
+        }
+      ],
+      "structuredContent": {
+        "source": "editor",
+        "lines": [],
+        "total_count": 15,
+        "returned_count": 0,
+        "offset": 0,
+        "limit": 20,
+        "has_more": false,
+        "run_id": "",
+        "is_running": false,
+        "dropped_count": 0,
+        "stale_run_id": false,
+        "cursor": 15,
+        "oldest_cursor": 0,
+        "next_cursor": 15,
+        "appended_total": 15,
+        "truncated": false
+      },
+      "isError": false
+    }
+  }
+]

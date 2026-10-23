@@ -1,0 +1,406 @@
+{
+  "source": "editor",
+  "lines": [
+    {
+      "details": {
+        "code": "Parse Error: Cannot infer the type of \"expected\" variable because the value doesn't have a set type.",
+        "error_type": 2,
+        "error_type_name": "script",
+        "frames": [],
+        "message": "Parse Error: Cannot infer the type of \"expected\" variable because the value doesn't have a set type.",
+        "rationale": "",
+        "resolved": {
+          "function": "GDScript::reload",
+          "line": 68,
+          "path": "res://tools/r1/quality_checks.gd"
+        },
+        "source": {
+          "function": "GDScript::reload",
+          "line": 68,
+          "path": "res://tools/r1/quality_checks.gd"
+        }
+      },
+      "function": "GDScript::reload",
+      "level": "error",
+      "line": 68,
+      "path": "res://tools/r1/quality_checks.gd",
+      "source": "editor",
+      "text": "Parse Error: Cannot infer the type of \"expected\" variable because the value doesn't have a set type."
+    },
+    {
+      "details": {
+        "code": "Parse Error: Cannot infer the type of \"logical\" variable because the value doesn't have a set type.",
+        "error_type": 2,
+        "error_type_name": "script",
+        "frames": [],
+        "message": "Parse Error: Cannot infer the type of \"logical\" variable because the value doesn't have a set type.",
+        "rationale": "",
+        "resolved": {
+          "function": "GDScript::reload",
+          "line": 96,
+          "path": "res://tools/r1/quality_checks.gd"
+        },
+        "source": {
+          "function": "GDScript::reload",
+          "line": 96,
+          "path": "res://tools/r1/quality_checks.gd"
+        }
+      },
+      "function": "GDScript::reload",
+      "level": "error",
+      "line": 96,
+      "path": "res://tools/r1/quality_checks.gd",
+      "source": "editor",
+      "text": "Parse Error: Cannot infer the type of \"logical\" variable because the value doesn't have a set type."
+    },
+    {
+      "details": {
+        "code": "Failed to load script \"res://tools/r1/quality_checks.gd\" with error \"Parse error\".",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [],
+        "message": "Failed to load script \"res://tools/r1/quality_checks.gd\" with error \"Parse error\".",
+        "rationale": "",
+        "resolved": {
+          "function": "load",
+          "line": 0,
+          "path": "res://tools/r1/quality_checks.gd"
+        },
+        "source": {
+          "function": "load",
+          "line": 46,
+          "path": "modules/gdscript/gdscript_resource_format.cpp"
+        }
+      },
+      "function": "load",
+      "level": "error",
+      "line": 0,
+      "path": "res://tools/r1/quality_checks.gd",
+      "source": "editor",
+      "text": "Failed to load script \"res://tools/r1/quality_checks.gd\" with error \"Parse error\"."
+    },
+    {
+      "details": {
+        "code": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/jump_end.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "error_type": 1,
+        "error_type_name": "warning",
+        "frames": [],
+        "message": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/jump_end.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "rationale": "",
+        "resolved": {
+          "function": "maybe_update_info",
+          "line": 0,
+          "path": "res://assets/r0/audio/jump_end.ogg"
+        },
+        "source": {
+          "function": "maybe_update_info",
+          "line": 473,
+          "path": "modules/vorbis/audio_stream_ogg_vorbis.cpp"
+        }
+      },
+      "function": "maybe_update_info",
+      "level": "warn",
+      "line": 0,
+      "path": "res://assets/r0/audio/jump_end.ogg",
+      "source": "editor",
+      "text": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/jump_end.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\"."
+    },
+    {
+      "details": {
+        "code": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/jump_start.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "error_type": 1,
+        "error_type_name": "warning",
+        "frames": [],
+        "message": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/jump_start.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "rationale": "",
+        "resolved": {
+          "function": "maybe_update_info",
+          "line": 0,
+          "path": "res://assets/r0/audio/jump_start.ogg"
+        },
+        "source": {
+          "function": "maybe_update_info",
+          "line": 473,
+          "path": "modules/vorbis/audio_stream_ogg_vorbis.cpp"
+        }
+      },
+      "function": "maybe_update_info",
+      "level": "warn",
+      "line": 0,
+      "path": "res://assets/r0/audio/jump_start.ogg",
+      "source": "editor",
+      "text": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/jump_start.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\"."
+    },
+    {
+      "details": {
+        "code": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_atk_01.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "error_type": 1,
+        "error_type_name": "warning",
+        "frames": [],
+        "message": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_atk_01.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "rationale": "",
+        "resolved": {
+          "function": "maybe_update_info",
+          "line": 0,
+          "path": "res://assets/r0/audio/sm_atk_01.ogg"
+        },
+        "source": {
+          "function": "maybe_update_info",
+          "line": 473,
+          "path": "modules/vorbis/audio_stream_ogg_vorbis.cpp"
+        }
+      },
+      "function": "maybe_update_info",
+      "level": "warn",
+      "line": 0,
+      "path": "res://assets/r0/audio/sm_atk_01.ogg",
+      "source": "editor",
+      "text": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_atk_01.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\"."
+    },
+    {
+      "details": {
+        "code": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_atk_02.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "error_type": 1,
+        "error_type_name": "warning",
+        "frames": [],
+        "message": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_atk_02.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "rationale": "",
+        "resolved": {
+          "function": "maybe_update_info",
+          "line": 0,
+          "path": "res://assets/r0/audio/sm_atk_02.ogg"
+        },
+        "source": {
+          "function": "maybe_update_info",
+          "line": 473,
+          "path": "modules/vorbis/audio_stream_ogg_vorbis.cpp"
+        }
+      },
+      "function": "maybe_update_info",
+      "level": "warn",
+      "line": 0,
+      "path": "res://assets/r0/audio/sm_atk_02.ogg",
+      "source": "editor",
+      "text": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_atk_02.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\"."
+    },
+    {
+      "details": {
+        "code": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_atk_03.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "error_type": 1,
+        "error_type_name": "warning",
+        "frames": [],
+        "message": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_atk_03.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "rationale": "",
+        "resolved": {
+          "function": "maybe_update_info",
+          "line": 0,
+          "path": "res://assets/r0/audio/sm_atk_03.ogg"
+        },
+        "source": {
+          "function": "maybe_update_info",
+          "line": 473,
+          "path": "modules/vorbis/audio_stream_ogg_vorbis.cpp"
+        }
+      },
+      "function": "maybe_update_info",
+      "level": "warn",
+      "line": 0,
+      "path": "res://assets/r0/audio/sm_atk_03.ogg",
+      "source": "editor",
+      "text": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_atk_03.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\"."
+    },
+    {
+      "details": {
+        "code": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_jump.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "error_type": 1,
+        "error_type_name": "warning",
+        "frames": [],
+        "message": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_jump.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "rationale": "",
+        "resolved": {
+          "function": "maybe_update_info",
+          "line": 0,
+          "path": "res://assets/r0/audio/sm_jump.ogg"
+        },
+        "source": {
+          "function": "maybe_update_info",
+          "line": 473,
+          "path": "modules/vorbis/audio_stream_ogg_vorbis.cpp"
+        }
+      },
+      "function": "maybe_update_info",
+      "level": "warn",
+      "line": 0,
+      "path": "res://assets/r0/audio/sm_jump.ogg",
+      "source": "editor",
+      "text": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_jump.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\"."
+    },
+    {
+      "details": {
+        "code": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_jump_atk_01.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "error_type": 1,
+        "error_type_name": "warning",
+        "frames": [],
+        "message": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_jump_atk_01.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "rationale": "",
+        "resolved": {
+          "function": "maybe_update_info",
+          "line": 0,
+          "path": "res://assets/r0/audio/sm_jump_atk_01.ogg"
+        },
+        "source": {
+          "function": "maybe_update_info",
+          "line": 473,
+          "path": "modules/vorbis/audio_stream_ogg_vorbis.cpp"
+        }
+      },
+      "function": "maybe_update_info",
+      "level": "warn",
+      "line": 0,
+      "path": "res://assets/r0/audio/sm_jump_atk_01.ogg",
+      "source": "editor",
+      "text": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_jump_atk_01.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\"."
+    },
+    {
+      "details": {
+        "code": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_jump_atk_02.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "error_type": 1,
+        "error_type_name": "warning",
+        "frames": [],
+        "message": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_jump_atk_02.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "rationale": "",
+        "resolved": {
+          "function": "maybe_update_info",
+          "line": 0,
+          "path": "res://assets/r0/audio/sm_jump_atk_02.ogg"
+        },
+        "source": {
+          "function": "maybe_update_info",
+          "line": 473,
+          "path": "modules/vorbis/audio_stream_ogg_vorbis.cpp"
+        }
+      },
+      "function": "maybe_update_info",
+      "level": "warn",
+      "line": 0,
+      "path": "res://assets/r0/audio/sm_jump_atk_02.ogg",
+      "source": "editor",
+      "text": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/sm_jump_atk_02.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\"."
+    },
+    {
+      "details": {
+        "code": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/squareswda_01.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "error_type": 1,
+        "error_type_name": "warning",
+        "frames": [],
+        "message": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/squareswda_01.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "rationale": "",
+        "resolved": {
+          "function": "maybe_update_info",
+          "line": 0,
+          "path": "res://assets/r0/audio/squareswda_01.ogg"
+        },
+        "source": {
+          "function": "maybe_update_info",
+          "line": 473,
+          "path": "modules/vorbis/audio_stream_ogg_vorbis.cpp"
+        }
+      },
+      "function": "maybe_update_info",
+      "level": "warn",
+      "line": 0,
+      "path": "res://assets/r0/audio/squareswda_01.ogg",
+      "source": "editor",
+      "text": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/squareswda_01.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\"."
+    },
+    {
+      "details": {
+        "code": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/squareswda_02.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "error_type": 1,
+        "error_type_name": "warning",
+        "frames": [],
+        "message": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/squareswda_02.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "rationale": "",
+        "resolved": {
+          "function": "maybe_update_info",
+          "line": 0,
+          "path": "res://assets/r0/audio/squareswda_02.ogg"
+        },
+        "source": {
+          "function": "maybe_update_info",
+          "line": 473,
+          "path": "modules/vorbis/audio_stream_ogg_vorbis.cpp"
+        }
+      },
+      "function": "maybe_update_info",
+      "level": "warn",
+      "line": 0,
+      "path": "res://assets/r0/audio/squareswda_02.ogg",
+      "source": "editor",
+      "text": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/squareswda_02.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\"."
+    },
+    {
+      "details": {
+        "code": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/squareswdb.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "error_type": 1,
+        "error_type_name": "warning",
+        "frames": [],
+        "message": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/squareswdb.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "rationale": "",
+        "resolved": {
+          "function": "maybe_update_info",
+          "line": 0,
+          "path": "res://assets/r0/audio/squareswdb.ogg"
+        },
+        "source": {
+          "function": "maybe_update_info",
+          "line": 473,
+          "path": "modules/vorbis/audio_stream_ogg_vorbis.cpp"
+        }
+      },
+      "function": "maybe_update_info",
+      "level": "warn",
+      "line": 0,
+      "path": "res://assets/r0/audio/squareswdb.ogg",
+      "source": "editor",
+      "text": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/squareswdb.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\"."
+    },
+    {
+      "details": {
+        "code": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/squareswdc_01.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "error_type": 1,
+        "error_type_name": "warning",
+        "frames": [],
+        "message": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/squareswdc_01.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\".",
+        "rationale": "",
+        "resolved": {
+          "function": "maybe_update_info",
+          "line": 0,
+          "path": "res://assets/r0/audio/squareswdc_01.ogg"
+        },
+        "source": {
+          "function": "maybe_update_info",
+          "line": 473,
+          "path": "modules/vorbis/audio_stream_ogg_vorbis.cpp"
+        }
+      },
+      "function": "maybe_update_info",
+      "level": "warn",
+      "line": 0,
+      "path": "res://assets/r0/audio/squareswdc_01.ogg",
+      "source": "editor",
+      "text": "Invalid comment in Ogg Vorbis file \"res://assets/r0/audio/squareswdc_01.ogg\", should contain '=': \"Sony Ogg Vorbis 1.0 Final\"."
+    }
+  ],
+  "total_count": 26,
+  "returned_count": 15,
+  "offset": 0,
+  "limit": 15,
+  "has_more": true,
+  "run_id": "",
+  "is_running": false,
+  "dropped_count": 0,
+  "stale_run_id": false,
+  "next_cursor": 17,
+  "appended_total": 17
+}

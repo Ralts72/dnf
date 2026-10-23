@@ -1,0 +1,30 @@
+{
+  "candidate": "R1/17",
+  "verified_at_utc": "2026-10-23T01:08:22.643320+00:00",
+  "run_id": "r21606012-54",
+  "artifact_hashes_passed": 205,
+  "current_checks": {
+    "facade_after": 7,
+    "mooring": 29,
+    "runtime": 17,
+    "stall": 11,
+    "pose": 17,
+    "observation": 11
+  },
+  "total_current_checks": 92,
+  "failed": 0,
+  "completed_qa_jobs": 6,
+  "unchanged_runtime_files": 30,
+  "facade_rgb_samples_matching": 18666,
+  "facade_transparent_probes_matching": 3346,
+  "changed_uv_meshes": 78,
+  "glb_non_uv_bytes_unchanged": 6712636,
+  "fresh_run_texture_mismatches": 0,
+  "clean_current_run": true,
+  "quota_remaining_percent": 92,
+  "goal_status": "active",
+  "previews": {
+    "r1_17_window.png": "952babbc35f5568d4fe6781e632740e269a33d11bf7382047c25e3935e9157c4",
+    "r1_17_full1080.png": "82363e9946aa84a8f806dd0fb51883ed7b6aaf343544ac7527121ab504cb82fa"
+  }
+}

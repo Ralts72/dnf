@@ -1,0 +1,284 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "detail": null,
+      "name": "schema5 default and authoritative potion accessors",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "empty consume and unfunded purchase do not write",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "quest reward remains one40 coin and weapon bundle",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "purchase atomically saves30 coins and one potion with exact backup",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "second purchase spends another10 without changing other receipts",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "successful consume deducts one only and does not heal",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "four historical purchases exhaust40 even after one consumption",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "remaining potions consume exactly to zero without underflow",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "reload preserves depleted supplies and historical receipts",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "strict v1 migration adds zero potions without loading writes",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "strict v2 migration adds zero potions without loading writes",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "strict v3 migration adds zero potions without loading writes",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "strict v4 migration adds zero potions without loading writes",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "first mutation keeps all four exact legacy backups",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "rejects invalid potion count -1",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "rejects invalid potion count 5",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "rejects invalid potion count 1.5",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "rejects invalid potion count true",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "rejects invalid potion count 1",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "unrewarded profiles cannot own currency or potions",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "coins require finite0to40 multiples10 and reject bool",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "quantity cannot exceed historical spending but may be depleted",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "inventory requires exactly eye and potion keys",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "eye equipment and chapter constraints remain strict",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "legacy v4 spent balance is rejected rather than loosely migrated",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "legacy v4 two inventory keys are rejected even count zero",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "old v1v2v3 balance validators retain original40 rule",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "failed purchase keeps committed state and exact pending purchase",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "consume and other operations cannot replace pending purchase",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "generic retry commits purchase once and retains receipts",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "failed use retains no deduction candidate or signal and never heals",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "generic retry and later save cannot execute failed use",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "late use failure leaves valid temp but no pending or primary mutation",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "generic save overwrites stale failed-use temp without deduction",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "existing foreign pending survives both public and private nonretained use",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "foreign equip retry keeps potion count and applies only equip",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "genuine combined clear still retains default retry candidate",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "combined clear retry after R retains receipts and reward once",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "backup recovers complete supplies equipment flags and balance",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "recovery archives corrupt bytes and preserves exact backup",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "invalid legacy primary and invalid backup stay preserved write blocked",
+      "passed": true
+    }
+  ],
+  "controller_sha256": "ef068fd6d1222c9489fb62f5e2fc731eab5fa82448a4586852e2e7ce1038a1af",
+  "count": 41,
+  "created_at": "2026-10-23T10:03:12",
+  "default_storage_initialized_or_written": false,
+  "equipment_data_sha256": "49f8221055f229c26a0f6797fea1efdc9c6ff2cdca24b886094735957f219a5a",
+  "failed": [],
+  "godot": "4.7.2-stable (official)",
+  "isolated_storage_prefix": "user://qa/supplies_106382",
+  "quest_data_sha256": "8ae4c6d7761f75a526b1060d4ebe9aac12b4d27171b7c9c713c22e93c7067c64",
+  "schema": 1,
+  "scope": "Isolated storage transactions, no main scene/autoload/gameplay. Expected directory fixtures fail temp/backup writes. Profile never heals; the H controller must apply session healing synchronously only after a true consume result.",
+  "test_script_sha256": "4b2a77a14e9a304a60657ae15da84c3f48765a4d7c86f7196b7bc6d6e1946498",
+  "isolation": {
+    "scratch_project": "/var/folders/8w/qkg_4djn7wv2zndv43xkt5c00000gn/T/dnf-supplies-storage-uk6jhqec",
+    "autoloads": false,
+    "main_scene": false,
+    "copied_sources": {
+      "scripts/adventure_progress.gd": "ef068fd6d1222c9489fb62f5e2fc731eab5fa82448a4586852e2e7ce1038a1af",
+      "data/first_route_quest.json": "8ae4c6d7761f75a526b1060d4ebe9aac12b4d27171b7c9c713c22e93c7067c64",
+      "data/first_equipment.json": "49f8221055f229c26a0f6797fea1efdc9c6ff2cdca24b886094735957f219a5a",
+      "tools/r4/supplies_storage_checks.gd": "4b2a77a14e9a304a60657ae15da84c3f48765a4d7c86f7196b7bc6d6e1946498"
+    },
+    "sources_unchanged_after_test": true,
+    "human_files_before": {
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      }
+    },
+    "human_files_after": {
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      }
+    },
+    "human_profile_bytes_unchanged": true
+  },
+  "execution": {
+    "returncode": 0,
+    "stdout": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n{\"all_passed\":true,\"count\":41,\"failed\":0}\n",
+    "stderr": ""
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "study": "R1/24 complete authored walk cycle, integration readiness",
+  "status": "prototype_validated_not_yet_default",
+  "verified_at_utc": "2026-10-23T03:45:19.241809+00:00",
+  "production_candidate": "R1/22",
+  "production_artifacts_unchanged": 240,
+  "source_cycle_ms": 800,
+  "source_frames": 8,
+  "new_lower_body_samples": 16,
+  "total_unique_samples": 24,
+  "lower_body_sample_rate_hz": 30,
+  "upper_body_source_rate_hz": 10,
+  "original_assets_edited": false,
+  "new_RGB_colors": 0,
+  "source_palette_colors": 73,
+  "opaque_baked_pixels": 79461,
+  "binary_alpha": true,
+  "method": "Original upper apparel/head/weapon above hips retained; authored hip-to-ankle pants shear; nearest endpoint boot artwork translated by physical-foot paths; source6 two shoes split numerically; original clothing visibility removes hidden base-body legs.",
+  "gallery": {
+    "cases": 48,
+    "endpoints": 16,
+    "derived": 32,
+    "protected_samples": 126254,
+    "visible_front_boot_samples": 6366,
+    "weapon_over_boot_samples": 6,
+    "mismatches": 0,
+    "evidence": "docs/r1_24_cycle_checks.json"
+  },
+  "bake": {
+    "frames": 24,
+    "original_8_endpoint_full_RGBA_exact": true,
+    "original_endpoint_pixels": 573440,
+    "PNG_roundtrips_exact": true,
+    "evidence": "docs/r1_24_bake_checks.json"
+  },
+  "native_clock_review": {
+    "duration_s": 4.8,
+    "phase_transitions": 144,
+    "drawn_frames": 578,
+    "skipped": 0,
+    "checks": 5,
+    "max_observed_transition_lag_ms": 15.7979999999998,
+    "evidence": "docs/r1_24_playback_checks.json"
+  },
+  "real_R1_static": {
+    "cases": 96,
+    "facings": 2,
+    "render_scales": [
+      1,
+      2
+    ],
+    "interior_samples": 14852,
+    "mismatches": 0,
+    "max_RGB_distance": 0.0,
+    "occlusion": [
+      {
+        "check": "real_3d_box_in_front_preserves_cube",
+        "matching": 119,
+        "max_rgb_distance": 0.0,
+        "pass": true,
+        "samples": 119
+      },
+      {
+        "check": "real_3d_box_behind_preserves_actor",
+        "matching": 212,
+        "max_rgb_distance": 0.0,
+        "pass": true,
+        "samples": 212
+      }
+    ],
+    "evidence": "docs/r1_24_r1_checks.json"
+  },
+  "real_R1_walk": {
+    "duration_s": 6.4,
+    "checks": 7,
+    "GPU_cases": 32,
+    "GPU_interior_samples": 1244,
+    "GPU_mismatches": 0,
+    "max_RGB_distance": 0.0,
+    "all_16_derived_phases_and_both_facings": true,
+    "evidence": "docs/r1_24_live_r1_checks.json"
+  },
+  "preview": {
+    "path": "docs/previews/r1_24_walk_comparison.mp4",
+    "left": "original8source frames repeated at30Hz",
+    "right": "24sample source-layer cycle",
+    "duration_s": 4.8,
+    "video_frames": 144,
+    "width": 1280,
+    "height": 448,
+    "codec": "H264 yuv420p lossy preview; exact checks use raw PNGs"
+  },
+  "prototype_directory": "source_art/r1/experiments/walk_cycle_24",
+  "runtime_restored": true,
+  "runtime_state": "docs/r1_24_study_final_state.json",
+  "run_id": "r28429971-70",
+  "goal_status": "active",
+  "quota_remaining_percent": 88,
+  "quota_window_reset_at": 1793293820,
+  "previous_goal_turn_classification": "progress",
+  "next_action": "Candidate25: copy16derived PNGs to owned runtime assets; apply lossless/no-mipmap import; add a shared preference plus R1-only walk sampler, F5 comparison checkbox and F12 source/derived cadence text; verify pause/step/F4/real-input movement and source baseline. R0 stays raw for comparison.",
+  "limits": [
+    "This study is transient and restored. No default runtime actor or scene code has changed.",
+    "Only walking lower-body samples are increased; running, attacks and upper-body cadence remain source timings.",
+    "Numerical invariants do not replace human full visual acceptance. No Windows run or long-term performance claim.",
+    "Previous1016ms stall cause remains unknown."
+  ],
+  "lossless_preview": {
+    "path": "docs/previews/r1_24_walk_comparison.png",
+    "format": "APNG losslessRGB",
+    "frames": 144,
+    "size": [
+      1280,
+      448
+    ],
+    "total_duration_ms": 4800.0,
+    "duration_ms_each_cycle": [
+      800.0,
+      800.0,
+      800.0,
+      800.0,
+      800.0,
+      800.0
+    ],
+    "decoded_RGB_pixel_mismatches": 0,
+    "sha256": "e6e215400e009c0c8c24395b476c8dd52514ca13e7d3f7c9796701d5dbb69ffc",
+    "note": "Lossless preview assembled from actual native PNG captures, left8source/right24sample. Not a runtime character asset."
+  }
+}

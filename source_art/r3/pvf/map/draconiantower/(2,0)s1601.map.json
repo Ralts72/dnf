@@ -1,0 +1,278 @@
+{
+  "path": "map/draconiantower/(2,0)s1601.map",
+  "sha256": "be0737a1156a44c6b4d837d17f3924b2098d92c280ca9fa9f0d0ef9f37f54b30",
+  "bytes": 1402,
+  "crc": {
+    "expected": 4079465042,
+    "actual_seed_file_number": 4079465042,
+    "actual_seed_zero": 266960175
+  },
+  "raw_reference": "source_art/r3/pvf/map/draconiantower/(2,0)s1601.map.bin",
+  "decoded": {
+    "selection": "[monster] section only; complete bytes retained in .bin",
+    "tokens": [
+      {
+        "type": 5,
+        "index": 17123,
+        "text": "[monster]"
+      },
+      {
+        "type": 2,
+        "value": 70
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 2,
+        "value": 0
+      },
+      {
+        "type": 2,
+        "value": 516
+      },
+      {
+        "type": 2,
+        "value": 235
+      },
+      {
+        "type": 2,
+        "value": 0
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 7,
+        "index": 299221,
+        "text": "[fixed]"
+      },
+      {
+        "type": 7,
+        "index": 1565,
+        "text": "[normal]"
+      },
+      {
+        "type": 2,
+        "value": 72
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 2,
+        "value": 0
+      },
+      {
+        "type": 2,
+        "value": 988
+      },
+      {
+        "type": 2,
+        "value": 253
+      },
+      {
+        "type": 2,
+        "value": 0
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 7,
+        "index": 299221,
+        "text": "[fixed]"
+      },
+      {
+        "type": 7,
+        "index": 1565,
+        "text": "[normal]"
+      },
+      {
+        "type": 2,
+        "value": 70
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 2,
+        "value": 0
+      },
+      {
+        "type": 2,
+        "value": 632
+      },
+      {
+        "type": 2,
+        "value": 261
+      },
+      {
+        "type": 2,
+        "value": 0
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 7,
+        "index": 299221,
+        "text": "[fixed]"
+      },
+      {
+        "type": 7,
+        "index": 1565,
+        "text": "[normal]"
+      },
+      {
+        "type": 2,
+        "value": 72
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 2,
+        "value": 0
+      },
+      {
+        "type": 2,
+        "value": 786
+      },
+      {
+        "type": 2,
+        "value": 294
+      },
+      {
+        "type": 2,
+        "value": 0
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 7,
+        "index": 299221,
+        "text": "[fixed]"
+      },
+      {
+        "type": 7,
+        "index": 1565,
+        "text": "[normal]"
+      },
+      {
+        "type": 2,
+        "value": 70
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 2,
+        "value": 0
+      },
+      {
+        "type": 2,
+        "value": 512
+      },
+      {
+        "type": 2,
+        "value": 314
+      },
+      {
+        "type": 2,
+        "value": 0
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 7,
+        "index": 299221,
+        "text": "[fixed]"
+      },
+      {
+        "type": 7,
+        "index": 1565,
+        "text": "[normal]"
+      },
+      {
+        "type": 2,
+        "value": 72
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 2,
+        "value": 0
+      },
+      {
+        "type": 2,
+        "value": 991
+      },
+      {
+        "type": 2,
+        "value": 337
+      },
+      {
+        "type": 2,
+        "value": 0
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 2,
+        "value": 1
+      },
+      {
+        "type": 7,
+        "index": 299221,
+        "text": "[fixed]"
+      },
+      {
+        "type": 7,
+        "index": 1565,
+        "text": "[normal]"
+      },
+      {
+        "type": 5,
+        "index": 299222,
+        "text": "[/monster]"
+      }
+    ]
+  }
+}

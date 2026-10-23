@@ -1,0 +1,158 @@
+{
+  "candidate": "R1/08",
+  "source_manifest": "docs/r0_asset_manifest.json",
+  "measurements": {
+    "source02_origin": [
+      449,
+      84
+    ],
+    "source03_origin": [
+      673,
+      148
+    ],
+    "near_shore_outer_pixels": [
+      [
+        449,
+        190
+      ],
+      [
+        673,
+        254
+      ],
+      [
+        958,
+        254
+      ]
+    ],
+    "coping_width_source_pixels": 14,
+    "far_piers": [
+      {
+        "name": "Far",
+        "bounds": [
+          510,
+          135,
+          958,
+          153
+        ]
+      },
+      {
+        "name": "Middle",
+        "bounds": [
+          510,
+          175,
+          958,
+          187
+        ]
+      }
+    ],
+    "lamps": [
+      {
+        "name": "FarSmall0",
+        "foot": [
+          495,
+          141
+        ],
+        "top_y": 99
+      },
+      {
+        "name": "FarSmall1",
+        "foot": [
+          564,
+          141
+        ],
+        "top_y": 99
+      },
+      {
+        "name": "FarSmall2",
+        "foot": [
+          592,
+          148
+        ],
+        "top_y": 110
+      },
+      {
+        "name": "Middle0",
+        "foot": [
+          509,
+          188
+        ],
+        "top_y": 99
+      },
+      {
+        "name": "Middle1",
+        "foot": [
+          546,
+          178
+        ],
+        "top_y": 100
+      },
+      {
+        "name": "Near",
+        "foot": [
+          636,
+          253
+        ],
+        "top_y": 117
+      }
+    ]
+  },
+  "source_images": [
+    {
+      "path": "assets/r0/port/westile02/image/000.png",
+      "sha256": "d6a9ee58f8678512e0f8adb066c3e379013e84f112fbab8b9d77146696f8fd08"
+    },
+    {
+      "path": "assets/r0/port/westile03/image/000.png",
+      "sha256": "9aef335f4e649a309308542b2ffde1c7cb67b0fed6d388a2dfc46c227515e0be"
+    }
+  ],
+  "texture_crops": [
+    {
+      "name": "quay_coping",
+      "source": "assets/r0/port/westile03/image/000.png",
+      "source_sha256": "9aef335f4e649a309308542b2ffde1c7cb67b0fed6d388a2dfc46c227515e0be",
+      "rect": [
+        130,
+        101,
+        224,
+        119
+      ],
+      "output": "assets/r1/quay_coping.png",
+      "sha256": "06dc6074d92a2a58aab9dd1062d789262451f2a8135b31fd0400bfde4dc5e6ff",
+      "operation": "Exact rectangular RGBA crop; no resampling, recoloring or repair"
+    },
+    {
+      "name": "pier_top",
+      "source": "assets/r0/port/westile03/image/000.png",
+      "source_sha256": "9aef335f4e649a309308542b2ffde1c7cb67b0fed6d388a2dfc46c227515e0be",
+      "rect": [
+        4,
+        29,
+        104,
+        36
+      ],
+      "output": "assets/r1/pier_top.png",
+      "sha256": "b87cb20d2e3e2d2a5f40d3a9ec901a22867ff7cd6c91c2da4b4847841020260e",
+      "operation": "Exact rectangular RGBA crop; no resampling, recoloring or repair"
+    },
+    {
+      "name": "pier_face",
+      "source": "assets/r0/port/westile03/image/000.png",
+      "source_sha256": "9aef335f4e649a309308542b2ffde1c7cb67b0fed6d388a2dfc46c227515e0be",
+      "rect": [
+        4,
+        40,
+        104,
+        57
+      ],
+      "output": "assets/r1/pier_face.png",
+      "sha256": "25423f56aa1328530772111a78cec9dd8a806ea8615e6cd35987c264d4488980",
+      "operation": "Exact rectangular RGBA crop; no resampling, recoloring or repair"
+    }
+  ],
+  "notes": [
+    "Visible source contours are manually measured. Hidden pier extent, depths and lamp volumes are new geometry.",
+    "Far piers extend beneath the retained foreground ship; no new navigation area is opened.",
+    "Swatches exclude baked sacks, barrels and lamps; source props are not painted onto new slabs."
+  ]
+}

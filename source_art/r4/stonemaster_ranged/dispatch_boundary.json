@@ -1,0 +1,19 @@
+{
+  "original_independent_projectile_dispatch_proven": false,
+  "MOB_equipment_attachment_proven": false,
+  "direct_MOB_attack_info": [
+    "AttackInfo/StoneAttackPunch.atk",
+    "AttackInfo/StoneAttackGem.atk"
+  ],
+  "direct_EQU_attack_motions": [
+    "Animation/Punch.ani",
+    "Animation/Gem.ani"
+  ],
+  "direct_physical_ATK": "monster/dollmaster/attackinfo/stoneattackgem.atk",
+  "direct_Gem_ANI": "equipment/monster/dollmaster/animation/gem.ani",
+  "direct_Gem_IMG": "sprite/monster/dollmaster/dollmastergem.img",
+  "limit": "The second attack-info and equipment-animation slots are parallel references, not a recovered ID37 equipment attachment or projectile-create instruction. Canonical directories contain no ACT/AI/NUT. Cast ANI has no projectile-create event.",
+  "original_release_time_or_flight_speed_lifetime_collision_proven": false,
+  "future_prototype_policy": "Any emit after1000ms, independent flight speed/lifetime/collision/hit-once/guard direction is a new explicit prototype adaptation, not restored original behavior.",
+  "excluded": "SunkenRock passiveobject is magical; CastAct1/2/Stoner effects are not exported or substituted as physical-gem dispatch."
+}

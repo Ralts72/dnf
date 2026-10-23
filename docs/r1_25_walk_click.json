@@ -1,0 +1,10 @@
+{
+  "actor_state_unchanged": true,
+  "after_enabled": true,
+  "after_texture": "res://assets/r1/actors/swordman_walk/move_05_2.png",
+  "before_enabled": false,
+  "before_texture": "res://assets/r1/actors/swordman/move_05.png",
+  "center": "(852.3146, 779.5704)",
+  "checkbox": true,
+  "input": "actual InputEventMouseButton press/release in physical window coordinates"
+}

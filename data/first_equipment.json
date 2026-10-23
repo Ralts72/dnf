@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "default_appearance": {
+    "id": "practice_lswd0000",
+    "name": "练习长剑",
+    "r0_data": "res://data/swordman_upper_practice_r0.json",
+    "r1_data": "res://data/swordman_upper_practice_r1.json",
+    "walk_data": "res://data/swordman_walk_inbetweens.json",
+    "dash_data": "res://data/swordman_dash_inbetweens.json",
+    "prototype_damage_bonus": 0,
+    "official_item_id": null,
+    "note": "Prototype default appearance name. Existing lswd0000 visual is not assigned a unique official item ID."
+  },
+  "items": {
+    "27304": {
+      "item_id": 27304,
+      "name": "普通巨剑",
+      "source_name_big5": "普通巨劍",
+      "type": "weapon",
+      "icon_path": "res://assets/r3/equipment/ordinary_greatsword/icon.png",
+      "field_path": "res://assets/r3/equipment/ordinary_greatsword/field.png",
+      "appearance_id": "mswd0007",
+      "r0_data": "res://data/swordman_upper_great_r0.json",
+      "r1_data": "res://data/swordman_upper_great_r1.json",
+      "walk_data": "res://data/swordman_mswd0007_walk_inbetweens.json",
+      "dash_data": "res://data/swordman_mswd0007_dash_inbetweens.json",
+      "prototype_damage_bonus": 4,
+      "source_equipment_physical_attack": [
+        72,
+        72
+      ],
+      "source_stats_are_provenance_only": true,
+      "source_pvf": "equipment/character/swordman/weapon/hsword/lswd.equ"
+    }
+  },
+  "quest_reward": {
+    "quest_id": "first_route_v1",
+    "item_id": 27304,
+    "quantity": 1,
+    "receipt_id": "first_route_weapon_v1",
+    "once_only": true,
+    "adapted_reward": true,
+    "runtime_hook_implemented": true
+  },
+  "notes": [
+    "The +4 bonus and one-time quest grant are explicit prototype adaptations, not restored original item formulas/rewards.",
+    "Source physical attack72 is not direct HP damage. Existing default appearance and artifacts remain unchanged.",
+    "All variant F5 paths must have a successful native bake before equipping at runtime."
+  ]
+}

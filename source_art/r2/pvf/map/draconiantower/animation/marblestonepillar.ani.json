@@ -1,0 +1,36 @@
+{
+  "path": "map/draconiantower/animation/marblestonepillar.ani",
+  "sha256": "c56d2cb8c1b804e862168c407b07fd67a42299fdbe0492cd6a7b604b2ce60c35",
+  "crc": {
+    "expected": 3812886925,
+    "actual_seed_file_number": 3812886925,
+    "actual_seed_zero": 1285720971
+  },
+  "decoded": {
+    "frames_count": 1,
+    "resources": [
+      "map/act2/marblestonepillar.img"
+    ],
+    "globals": [
+      {
+        "type": 1,
+        "value": 0
+      }
+    ],
+    "frames": [
+      {
+        "resource": "map/act2/marblestonepillar.img",
+        "image_frame": 0,
+        "x": -15,
+        "y": -87,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      }
+    ]
+  }
+}

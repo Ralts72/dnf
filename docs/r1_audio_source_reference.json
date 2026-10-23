@@ -1,0 +1,466 @@
+{
+  "client": "/Users/mac/Downloads/天堂95起源单机客户端",
+  "audio_xml_sha256": "709e314f1b7be9864fa0f5bdfa133279d005b3ae83a17d8594563d003fe5c37d",
+  "packs": {
+    "sounds_char_swordman.npk": {
+      "sha256": "b594b12b1c48c8efca5845a32e5d6f49b735d4864a6dad2c04daa57be10a9613",
+      "bytes": 1536716
+    },
+    "sounds_effect.npk": {
+      "sha256": "f44848765ad6cc282f609b50a5ffe32b7077a186ad53b2ffa649db0160e4c764",
+      "bytes": 11338084
+    },
+    "sounds_char_swordman_weapon.npk": {
+      "sha256": "d50f55e545fc2cfacdc5ee0d746181d0f8385242ef299b77d6a6206921c2ed35",
+      "bytes": 557972
+    }
+  },
+  "sounds": {
+    "SM_ATK_01": {
+      "path": "res://assets/r0/audio/sm_atk_01.ogg",
+      "pack": "sounds_char_swordman.npk",
+      "entry": "sounds/char/swordman/sm_atk_01.ogg",
+      "offset": 47193,
+      "bytes": 7505,
+      "sha256": "1edce050783e4f1a49b77536f190bff5c5ff32f95aa1bafba59b6f909b298df2",
+      "xml_attributes": {
+        "ID": "SM_ATK_01",
+        "FILE": "sounds\\char\\swordman\\sm_atk_01.ogg",
+        "VOLUME_ADJUST": "0",
+        "PRIORITY": "0"
+      },
+      "retained_original": "source_art/audio/sm_atk_01.ogg",
+      "runtime_sha256": "4c9a856fd72fc4c26205da3b718bef970a7c6fa4f0566b40d98c980b554e281d",
+      "metadata_fix": {
+        "comments_fixed": 1,
+        "audio_packets": 15,
+        "audio_packet_sha256": "5c1c6c62e5c18bf22498c7db9c7341faa057f0984804a0f08e20482b1dffe478",
+        "all_noncomment_packets_identical": true
+      }
+    },
+    "SM_ATK_02": {
+      "path": "res://assets/r0/audio/sm_atk_02.ogg",
+      "pack": "sounds_char_swordman.npk",
+      "entry": "sounds/char/swordman/sm_atk_02.ogg",
+      "offset": 54698,
+      "bytes": 6351,
+      "sha256": "a461ca7bac6e1b0672259cbb811a56604cfdd11412f7873a33c4bcc4942c4ce2",
+      "xml_attributes": {
+        "ID": "SM_ATK_02",
+        "FILE": "sounds\\char\\swordman\\sm_atk_02.ogg"
+      },
+      "retained_original": "source_art/audio/sm_atk_02.ogg",
+      "runtime_sha256": "74b1aad65a539c834771b3cf67ba053d8fe3d377d152f173530c1af983a56e79",
+      "metadata_fix": {
+        "comments_fixed": 1,
+        "audio_packets": 13,
+        "audio_packet_sha256": "73938161b4746a368b485c480594fbf0cacb93a16bec69a5bfeda65bc9daf17a",
+        "all_noncomment_packets_identical": true
+      }
+    },
+    "SM_ATK_03": {
+      "path": "res://assets/r0/audio/sm_atk_03.ogg",
+      "pack": "sounds_char_swordman.npk",
+      "entry": "sounds/char/swordman/sm_atk_03.ogg",
+      "offset": 61049,
+      "bytes": 8798,
+      "sha256": "976148be2970bf4f5c864f2e36652d1f40f7a9c28fcb26cd7c27994d1ab7b2a5",
+      "xml_attributes": {
+        "ID": "SM_ATK_03",
+        "FILE": "sounds\\char\\swordman\\sm_atk_03.ogg"
+      },
+      "retained_original": "source_art/audio/sm_atk_03.ogg",
+      "runtime_sha256": "7ea2875014c270ce28bb9e34ea15ea3e1e1723c9133256a0fc62665f4ca72015",
+      "metadata_fix": {
+        "comments_fixed": 1,
+        "audio_packets": 32,
+        "audio_packet_sha256": "911b67bad9e074584cc88c82973e97e6bbe0b70a4793065eb56f8160353bd786",
+        "all_noncomment_packets_identical": true
+      }
+    },
+    "SM_JUMP": {
+      "path": "res://assets/r0/audio/sm_jump.ogg",
+      "pack": "sounds_char_swordman.npk",
+      "entry": "sounds/char/swordman/sm_jump.ogg",
+      "offset": 768625,
+      "bytes": 5763,
+      "sha256": "903e6926ff9616c091e9a310cb1c4ed2610d2045fe81aa7fca54145f90cc1379",
+      "xml_attributes": {
+        "ID": "SM_JUMP",
+        "FILE": "sounds\\char\\swordman\\sm_jump.ogg"
+      },
+      "retained_original": "source_art/audio/sm_jump.ogg",
+      "runtime_sha256": "5e5afcf513f6c9dae7d0297df4a1b753bfc0e17aeda6c14de945e5eb3698dfd8",
+      "metadata_fix": {
+        "comments_fixed": 1,
+        "audio_packets": 9,
+        "audio_packet_sha256": "04fbefbc42de7ca8f6bc305c87c028d357d6d2a4029204b91a687c832304142a",
+        "all_noncomment_packets_identical": true
+      }
+    },
+    "SM_JUMP_ATK_01": {
+      "path": "res://assets/r0/audio/sm_jump_atk_01.ogg",
+      "pack": "sounds_char_swordman.npk",
+      "entry": "sounds/char/swordman/sm_jumpatk_01.ogg",
+      "offset": 774388,
+      "bytes": 10275,
+      "sha256": "95b0db25a040daf70b0ed884fe33ec5e8506cce896a5068716d957e7d5cc0223",
+      "xml_attributes": {
+        "ID": "SM_JUMP_ATK_01",
+        "FILE": "sounds\\char\\swordman\\sm_jumpAtk_01.ogg"
+      },
+      "retained_original": "source_art/audio/sm_jump_atk_01.ogg",
+      "runtime_sha256": "712a1c611c96b7b3633275be31d5ce2656b70aa2a2ca1ada11a0919d92279bb7",
+      "metadata_fix": {
+        "comments_fixed": 1,
+        "audio_packets": 48,
+        "audio_packet_sha256": "2ee00f0d06909785c8bbc8ce3aba1e8dc746afc3e8f56b8c07d2d87a8ae33a4f",
+        "all_noncomment_packets_identical": true
+      }
+    },
+    "SM_JUMP_ATK_02": {
+      "path": "res://assets/r0/audio/sm_jump_atk_02.ogg",
+      "pack": "sounds_char_swordman.npk",
+      "entry": "sounds/char/swordman/sm_jumpatk_02.ogg",
+      "offset": 784663,
+      "bytes": 9835,
+      "sha256": "b96854635b67e6d3fe24a7e66284aac77a6ba10a9488c935009384654556057a",
+      "xml_attributes": {
+        "ID": "SM_JUMP_ATK_02",
+        "FILE": "sounds\\char\\swordman\\sm_jumpAtk_02.ogg"
+      },
+      "retained_original": "source_art/audio/sm_jump_atk_02.ogg",
+      "runtime_sha256": "fc2c3f4b8a6b38e58c5fc32e60cb385e16c25383f5102cb0580f5e5ce52614a8",
+      "metadata_fix": {
+        "comments_fixed": 1,
+        "audio_packets": 34,
+        "audio_packet_sha256": "565a3847adfd4915bdc1bc0d3e4b6cf9d78dbcb4cd0e14457f36b97a640d7ce7",
+        "all_noncomment_packets_identical": true
+      }
+    },
+    "JUMP_START": {
+      "path": "res://assets/r0/audio/jump_start.ogg",
+      "pack": "sounds_effect.npk",
+      "entry": "sounds/effect/pub_landing_01.ogg",
+      "offset": 6791149,
+      "bytes": 6820,
+      "sha256": "73b79de59f9ee4e0fd2efcf4895d9d144ad9bc483488658d4fecc6063741acc7",
+      "xml_attributes": {
+        "ID": "JUMP_START",
+        "FILE": "sounds\\effect\\pub_landing_01.ogg"
+      },
+      "retained_original": "source_art/audio/jump_start.ogg",
+      "runtime_sha256": "4cca7c6a637123a8dbd44c9f8ef3ab747c51b163358b5aa857499ba4f2828d54",
+      "metadata_fix": {
+        "comments_fixed": 1,
+        "audio_packets": 20,
+        "audio_packet_sha256": "373b8b0188e90f8d5e3e1677f7e15a8dc78d7e929ede2881088ebfd5dba2ad8a",
+        "all_noncomment_packets_identical": true
+      }
+    },
+    "JUMP_END": {
+      "path": "res://assets/r0/audio/jump_end.ogg",
+      "pack": "sounds_effect.npk",
+      "entry": "sounds/effect/pub_landing_02.ogg",
+      "offset": 6797969,
+      "bytes": 6887,
+      "sha256": "6b30e56fd55c603dff0e7891a47662d9d4043eaf8255feb6eb0662b7e1c36279",
+      "xml_attributes": {
+        "ID": "JUMP_END",
+        "FILE": "sounds\\effect\\pub_landing_02.ogg"
+      },
+      "retained_original": "source_art/audio/jump_end.ogg",
+      "runtime_sha256": "d20a8d983a4472a46768772547b40222ce008038c9df15fc7e6870458f20cef4",
+      "metadata_fix": {
+        "comments_fixed": 1,
+        "audio_packets": 28,
+        "audio_packet_sha256": "e555ecb20fd4af2df22a1697c5ddb6e524ff2aae4bff6bb0cc2eb92c6f8be5de",
+        "all_noncomment_packets_identical": true
+      }
+    },
+    "SQUARESWDA_01": {
+      "path": "res://assets/r0/audio/squareswda_01.ogg",
+      "pack": "sounds_char_swordman_weapon.npk",
+      "entry": "sounds/char/swordman/weapon/sqrswda_01.ogg",
+      "offset": 339540,
+      "bytes": 9555,
+      "sha256": "7b13ff1dcad71c0ee6078e1c497bb377de3fc0e3d3b6ec050996e9fec0ab61bf",
+      "xml_attributes": {
+        "ID": "SQUARESWDA_01",
+        "FILE": "sounds\\char\\swordman\\weapon\\sqrSwdA_01.ogg",
+        "VOLUME_ADJUST": "0",
+        "PRIORITY": "0"
+      },
+      "retained_original": "source_art/audio/squareswda_01.ogg",
+      "runtime_sha256": "019dccdcd114a431848e535924a4afff3cf623c54b1f814610a82aa64ef54bb2",
+      "metadata_fix": {
+        "comments_fixed": 1,
+        "audio_packets": 27,
+        "audio_packet_sha256": "d3f326813f4522e1524c9014384bcf23074cb36414aadded1f8be941ffee7a21",
+        "all_noncomment_packets_identical": true
+      }
+    },
+    "SQUARESWDA_02": {
+      "path": "res://assets/r0/audio/squareswda_02.ogg",
+      "pack": "sounds_char_swordman_weapon.npk",
+      "entry": "sounds/char/swordman/weapon/sqrswda_02.ogg",
+      "offset": 349095,
+      "bytes": 8979,
+      "sha256": "d2e5d047bc140fcb4a16909a48b0e64d26d05c307f65595ac98d4397ecbe69ce",
+      "xml_attributes": {
+        "ID": "SQUARESWDA_02",
+        "FILE": "sounds\\char\\swordman\\weapon\\sqrSwdA_02.ogg"
+      },
+      "retained_original": "source_art/audio/squareswda_02.ogg",
+      "runtime_sha256": "9a37c020e918b1c1a2dfd3e5962cae11c76fcee57785defe57c7a245c8ba05cb",
+      "metadata_fix": {
+        "comments_fixed": 1,
+        "audio_packets": 26,
+        "audio_packet_sha256": "109be1194e2afb68439ec3109dd44d75b86bbff1e0d82747d8aa7742cf70bb12",
+        "all_noncomment_packets_identical": true
+      }
+    },
+    "SQUARESWDB": {
+      "path": "res://assets/r0/audio/squareswdb.ogg",
+      "pack": "sounds_char_swordman_weapon.npk",
+      "entry": "sounds/char/swordman/weapon/sqrswdb.ogg",
+      "offset": 379466,
+      "bytes": 9006,
+      "sha256": "1a85a9fd952451be2507ce696fa4366f402a979299e809888e1374b29e6b8c4b",
+      "xml_attributes": {
+        "ID": "SQUARESWDB",
+        "FILE": "sounds\\char\\swordman\\weapon\\sqrSwdB.ogg"
+      },
+      "retained_original": "source_art/audio/squareswdb.ogg",
+      "runtime_sha256": "cfc7a387a67ea76147baba309ad367c35c8af95c13f5f7b0f009ed5921b94641",
+      "metadata_fix": {
+        "comments_fixed": 1,
+        "audio_packets": 29,
+        "audio_packet_sha256": "dab07d5447585f72eca77a0e4c4db9a941b9be5b2fb07f0be8c0cca610201fe4",
+        "all_noncomment_packets_identical": true
+      }
+    },
+    "SQUARESWDC_01": {
+      "path": "res://assets/r0/audio/squareswdc_01.ogg",
+      "pack": "sounds_char_swordman_weapon.npk",
+      "entry": "sounds/char/swordman/weapon/sqrswdc_01.ogg",
+      "offset": 396711,
+      "bytes": 8947,
+      "sha256": "039a9443e158a8fc09568258b827b48c05c45df0496b1ebd097464df0fb6b597",
+      "xml_attributes": {
+        "ID": "SQUARESWDC_01",
+        "FILE": "sounds\\char\\swordman\\weapon\\sqrSwdC_01.ogg"
+      },
+      "retained_original": "source_art/audio/squareswdc_01.ogg",
+      "runtime_sha256": "a97a373c9aa4fc64ae0c575bfecedfd9ecad484baa23407a8f7c5594cfdb8fbe",
+      "metadata_fix": {
+        "comments_fixed": 1,
+        "audio_packets": 21,
+        "audio_packet_sha256": "015540f54c71eaf699f0979239ed67efe3b2c65d311263361ae25aaae1a7ace3",
+        "all_noncomment_packets_identical": true
+      }
+    }
+  },
+  "groups": {
+    "R_SM_ATK": [
+      {
+        "tag": "SM_ATK_01",
+        "weight": 33
+      },
+      {
+        "tag": "SM_ATK_02",
+        "weight": 33
+      },
+      {
+        "tag": "SM_ATK_03",
+        "weight": 34
+      }
+    ],
+    "R_SM_JUMP_ATK": [
+      {
+        "tag": "SM_JUMP_ATK_01",
+        "weight": 50
+      },
+      {
+        "tag": "SM_JUMP_ATK_02",
+        "weight": 50
+      }
+    ],
+    "R_SQUARESWDA": [
+      {
+        "tag": "SQUARESWDA_01",
+        "weight": 50
+      },
+      {
+        "tag": "SQUARESWDA_02",
+        "weight": 50
+      }
+    ],
+    "R_SQUARESWDC": [
+      {
+        "tag": "SQUARESWDB",
+        "weight": 50
+      },
+      {
+        "tag": "SQUARESWDC_01",
+        "weight": 50
+      }
+    ]
+  },
+  "mapping": {
+    "schema": 1,
+    "sounds": {
+      "SM_ATK_01": {
+        "path": "res://assets/r0/audio/sm_atk_01.ogg"
+      },
+      "SM_ATK_02": {
+        "path": "res://assets/r0/audio/sm_atk_02.ogg"
+      },
+      "SM_ATK_03": {
+        "path": "res://assets/r0/audio/sm_atk_03.ogg"
+      },
+      "SM_JUMP": {
+        "path": "res://assets/r0/audio/sm_jump.ogg"
+      },
+      "SM_JUMP_ATK_01": {
+        "path": "res://assets/r0/audio/sm_jump_atk_01.ogg"
+      },
+      "SM_JUMP_ATK_02": {
+        "path": "res://assets/r0/audio/sm_jump_atk_02.ogg"
+      },
+      "JUMP_START": {
+        "path": "res://assets/r0/audio/jump_start.ogg"
+      },
+      "JUMP_END": {
+        "path": "res://assets/r0/audio/jump_end.ogg"
+      },
+      "SQUARESWDA_01": {
+        "path": "res://assets/r0/audio/squareswda_01.ogg"
+      },
+      "SQUARESWDA_02": {
+        "path": "res://assets/r0/audio/squareswda_02.ogg"
+      },
+      "SQUARESWDB": {
+        "path": "res://assets/r0/audio/squareswdb.ogg"
+      },
+      "SQUARESWDC_01": {
+        "path": "res://assets/r0/audio/squareswdc_01.ogg"
+      }
+    },
+    "groups": {
+      "R_SM_ATK": [
+        {
+          "tag": "SM_ATK_01",
+          "weight": 33
+        },
+        {
+          "tag": "SM_ATK_02",
+          "weight": 33
+        },
+        {
+          "tag": "SM_ATK_03",
+          "weight": 34
+        }
+      ],
+      "R_SM_JUMP_ATK": [
+        {
+          "tag": "SM_JUMP_ATK_01",
+          "weight": 50
+        },
+        {
+          "tag": "SM_JUMP_ATK_02",
+          "weight": 50
+        }
+      ],
+      "R_SQUARESWDA": [
+        {
+          "tag": "SQUARESWDA_01",
+          "weight": 50
+        },
+        {
+          "tag": "SQUARESWDA_02",
+          "weight": 50
+        }
+      ],
+      "R_SQUARESWDC": [
+        {
+          "tag": "SQUARESWDB",
+          "weight": 50
+        },
+        {
+          "tag": "SQUARESWDC_01",
+          "weight": 50
+        }
+      ]
+    },
+    "actions": {
+      "attack1": [
+        {
+          "at_ms": 0,
+          "tag": "R_SM_ATK"
+        },
+        {
+          "at_ms": 150,
+          "tag": "R_SQUARESWDA"
+        }
+      ],
+      "attack2": [
+        {
+          "at_ms": 0,
+          "tag": "R_SM_ATK"
+        },
+        {
+          "at_ms": 150,
+          "tag": "SQUARESWDB"
+        }
+      ],
+      "attack3": [
+        {
+          "at_ms": 0,
+          "tag": "R_SM_ATK"
+        },
+        {
+          "at_ms": 100,
+          "tag": "R_SQUARESWDC"
+        }
+      ],
+      "jumpattack": [
+        {
+          "at_ms": 0,
+          "tag": "R_SM_JUMP_ATK"
+        },
+        {
+          "at_ms": 150,
+          "tag": "R_SQUARESWDC"
+        }
+      ]
+    },
+    "jump": {
+      "takeoff": [
+        "JUMP_START",
+        "SM_JUMP"
+      ],
+      "landing": [
+        "JUMP_END"
+      ]
+    },
+    "default_volume": 0.6,
+    "source_reference": "docs/r1_audio_source_reference.json",
+    "notes": [
+      "Original OGG payloads retained unchanged in source_art/audio; only explicit canonical NPKs are used.",
+      "Runtime OGG files prefix one bare Vorbis comment with COMMENT= and update its page CRC; all noncomment packets are identical.",
+      "Tag paths and random probabilities come from audio.xml.",
+      "Action timing is inferred for this sample; source ANI has no type-16 sound properties.",
+      "The square-sword family is selected for the lswd visual sample; original weapon-to-sound dispatch is not recovered.",
+      "No hit, damage or hopsmash sound is assigned without corresponding gameplay."
+    ]
+  },
+  "notes": [
+    "Original OGG payloads retained unchanged in source_art/audio; only explicit canonical NPKs are used.",
+    "Runtime OGG files prefix one bare Vorbis comment with COMMENT= and update its page CRC; all noncomment packets are identical.",
+    "Tag paths and random probabilities come from audio.xml.",
+    "Action timing is inferred for this sample; source ANI has no type-16 sound properties.",
+    "The square-sword family is selected for the lswd visual sample; original weapon-to-sound dispatch is not recovered.",
+    "No hit, damage or hopsmash sound is assigned without corresponding gameplay."
+  ]
+}

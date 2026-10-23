@@ -1,0 +1,707 @@
+{
+  "candidate": "R1/21",
+  "opencv": "5.0.0",
+  "build_requirement": "opencv-python-headless==5.0.0.93",
+  "numpy": "2.3.5",
+  "threads": 1,
+  "pair_count": 16,
+  "unique_numeric_fields": 16,
+  "format": "little-endian RGBA16F displacement pixels, no color transfer function or mipmaps",
+  "feature": "alpha-composited luminance on a neutral 128 background, used for analysis only",
+  "official_reference": "https://docs.opencv.org/4.x/d4/dee/tutorial_optical_flow.html",
+  "source_data_sha256": "1c4b47cf4d2ce09a9f65a506f4f906d495f3088e2dd5d2f8e487bdb254ae4e18",
+  "pairs": [
+    {
+      "action": "move",
+      "frame": 0,
+      "method": "DIS",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.9185941724241514,
+            "mean_rgb_error": 0.0318034328520298,
+            "score": 0.907462970925941
+          },
+          "b_to_a": {
+            "alpha_iou": 0.866464339908953,
+            "mean_rgb_error": 0.027467921376228333,
+            "score": 0.8568505674272731
+          },
+          "score": 0.882156769176607
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.8509803921568627,
+            "mean_rgb_error": 0.06197059527039528,
+            "score": 0.8292906838122244
+          },
+          "b_to_a": {
+            "alpha_iou": 0.821575543797766,
+            "mean_rgb_error": 0.05877535417675972,
+            "score": 0.8010041698359001
+          },
+          "score": 0.8151474268240622
+        }
+      },
+      "max_displacement_pixels": 7.0555853843688965,
+      "max_float16_quantization_error_pixels": 0.0019526481628417969,
+      "current_texture": "res://assets/r1/actors/swordman/move_00.png",
+      "next_texture": "res://assets/r1/actors/swordman/move_01.png",
+      "current_png_sha256": "9f498877e7af78e62c45565c88c573e24cd0f1d4879d61c431ba225ebc915cf1",
+      "next_png_sha256": "a0c751aff7f1a1445aecba6b7c10bc55cd71802f90975e011730a76a458c03a6",
+      "flow_texture": "res://assets/r1/motion/move_00.res",
+      "raw_flow": "res://source_art/r1/motion/move_00.flow16",
+      "raw_flow_sha256": "f07cad1aa0125d02109ff65fba1be31e25e78f25984e78a665138bbea5480722",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "move",
+      "frame": 1,
+      "method": "DIS",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.8488092052448488,
+            "mean_rgb_error": 0.03660789877176285,
+            "score": 0.8359964406747318
+          },
+          "b_to_a": {
+            "alpha_iou": 0.9406701506301876,
+            "mean_rgb_error": 0.03226792812347412,
+            "score": 0.9293763757869716
+          },
+          "score": 0.8826864082308516
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.8358405911850092,
+            "mean_rgb_error": 0.04758549481630325,
+            "score": 0.819185667999303
+          },
+          "b_to_a": {
+            "alpha_iou": 0.8632115548003398,
+            "mean_rgb_error": 0.04260202497243881,
+            "score": 0.8483008460599862
+          },
+          "score": 0.8337432570296446
+        }
+      },
+      "max_displacement_pixels": 14.681611061096191,
+      "max_float16_quantization_error_pixels": 0.0039033889770507812,
+      "current_texture": "res://assets/r1/actors/swordman/move_01.png",
+      "next_texture": "res://assets/r1/actors/swordman/move_02.png",
+      "current_png_sha256": "a0c751aff7f1a1445aecba6b7c10bc55cd71802f90975e011730a76a458c03a6",
+      "next_png_sha256": "9a4e13ae3d4c5cdf38a7511bd54f593c5d15e31164889a08a82b6adb0879541f",
+      "flow_texture": "res://assets/r1/motion/move_01.res",
+      "raw_flow": "res://source_art/r1/motion/move_01.flow16",
+      "raw_flow_sha256": "ef68f540043f300473b8963cd8b9f083c453d57d695c2cefbef7d6ba3b8e0ecc",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "move",
+      "frame": 2,
+      "method": "DIS",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.939917695473251,
+            "mean_rgb_error": 0.03380225598812103,
+            "score": 0.9280869058774086
+          },
+          "b_to_a": {
+            "alpha_iou": 0.9455391351943077,
+            "mean_rgb_error": 0.03483821079134941,
+            "score": 0.9333457614173354
+          },
+          "score": 0.930716333647372
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.9042298483639266,
+            "mean_rgb_error": 0.050912320613861084,
+            "score": 0.8864105361490753
+          },
+          "b_to_a": {
+            "alpha_iou": 0.9174336762317271,
+            "mean_rgb_error": 0.05184324085712433,
+            "score": 0.8992885419317336
+          },
+          "score": 0.8928495390404044
+        }
+      },
+      "max_displacement_pixels": 6.380317211151123,
+      "max_float16_quantization_error_pixels": 0.0019483566284179688,
+      "current_texture": "res://assets/r1/actors/swordman/move_02.png",
+      "next_texture": "res://assets/r1/actors/swordman/move_03.png",
+      "current_png_sha256": "9a4e13ae3d4c5cdf38a7511bd54f593c5d15e31164889a08a82b6adb0879541f",
+      "next_png_sha256": "3cede234a82618bf224170c08a33549426e7c8c39107fd4ac675c3ec299faf2a",
+      "flow_texture": "res://assets/r1/motion/move_02.res",
+      "raw_flow": "res://source_art/r1/motion/move_02.flow16",
+      "raw_flow_sha256": "109f02308beff204c9f4f356d2e05e81c0fe15600470f8f114104a5baac0410b",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "move",
+      "frame": 3,
+      "method": "DIS",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.934532586257741,
+            "mean_rgb_error": 0.04117337614297867,
+            "score": 0.9201219046076985
+          },
+          "b_to_a": {
+            "alpha_iou": 0.9002732240437158,
+            "mean_rgb_error": 0.036507681012153625,
+            "score": 0.887495535689462
+          },
+          "score": 0.9038087201485803
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.8684135573910566,
+            "mean_rgb_error": 0.07007118314504623,
+            "score": 0.8438886432902905
+          },
+          "b_to_a": {
+            "alpha_iou": 0.8705357142857143,
+            "mean_rgb_error": 0.06946440786123276,
+            "score": 0.8462231715342828
+          },
+          "score": 0.8450559074122866
+        }
+      },
+      "max_displacement_pixels": 6.449202060699463,
+      "max_float16_quantization_error_pixels": 0.0019526481628417969,
+      "current_texture": "res://assets/r1/actors/swordman/move_03.png",
+      "next_texture": "res://assets/r1/actors/swordman/move_04.png",
+      "current_png_sha256": "3cede234a82618bf224170c08a33549426e7c8c39107fd4ac675c3ec299faf2a",
+      "next_png_sha256": "4feb392be270bced1394f5b7fa3837759f480a57b50bd6f4cba6b3e4a01e1bb1",
+      "flow_texture": "res://assets/r1/motion/move_03.res",
+      "raw_flow": "res://source_art/r1/motion/move_03.flow16",
+      "raw_flow_sha256": "cccf4a5e83bfb634e9d04db27c7d29e7177fbe58db2a1651b9c1469b6dde5be8",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "move",
+      "frame": 4,
+      "method": "DIS",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.8858267716535433,
+            "mean_rgb_error": 0.04789721220731735,
+            "score": 0.8690627473809822
+          },
+          "b_to_a": {
+            "alpha_iou": 0.8586541287099618,
+            "mean_rgb_error": 0.044786229729652405,
+            "score": 0.8429789483045835
+          },
+          "score": 0.8560208478427829
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.7714363735663572,
+            "mean_rgb_error": 0.0794697180390358,
+            "score": 0.7436219722526947
+          },
+          "b_to_a": {
+            "alpha_iou": 0.7847260653016048,
+            "mean_rgb_error": 0.08201554417610168,
+            "score": 0.7560206248399692
+          },
+          "score": 0.749821298546332
+        }
+      },
+      "max_displacement_pixels": 6.009471416473389,
+      "max_float16_quantization_error_pixels": 0.0019521713256835938,
+      "current_texture": "res://assets/r1/actors/swordman/move_04.png",
+      "next_texture": "res://assets/r1/actors/swordman/move_05.png",
+      "current_png_sha256": "4feb392be270bced1394f5b7fa3837759f480a57b50bd6f4cba6b3e4a01e1bb1",
+      "next_png_sha256": "d49ba850eea751ba943637666d6bc509ae52f1ebaf74b9eeaf9d07471386f528",
+      "flow_texture": "res://assets/r1/motion/move_04.res",
+      "raw_flow": "res://source_art/r1/motion/move_04.flow16",
+      "raw_flow_sha256": "51d3fa9ff1a79db305482dbefc29446b6ebe57287b564c050b2c5158178535bb",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "move",
+      "frame": 5,
+      "method": "DIS",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.8466878796644489,
+            "mean_rgb_error": 0.025456031784415245,
+            "score": 0.8377782685399036
+          },
+          "b_to_a": {
+            "alpha_iou": 0.8911104275607505,
+            "mean_rgb_error": 0.024806369096040726,
+            "score": 0.8824281983771363
+          },
+          "score": 0.8601032334585199
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.8169453102862001,
+            "mean_rgb_error": 0.04053874686360359,
+            "score": 0.8027567488839389
+          },
+          "b_to_a": {
+            "alpha_iou": 0.8413932066781807,
+            "mean_rgb_error": 0.04070667922496796,
+            "score": 0.827145868949442
+          },
+          "score": 0.8149513089166904
+        }
+      },
+      "max_displacement_pixels": 18.906200408935547,
+      "max_float16_quantization_error_pixels": 0.0076770782470703125,
+      "current_texture": "res://assets/r1/actors/swordman/move_05.png",
+      "next_texture": "res://assets/r1/actors/swordman/move_06.png",
+      "current_png_sha256": "d49ba850eea751ba943637666d6bc509ae52f1ebaf74b9eeaf9d07471386f528",
+      "next_png_sha256": "561281313c62cce6d91c4a21b5841ffe4fdfea4a01dfc094028e92b327276181",
+      "flow_texture": "res://assets/r1/motion/move_05.res",
+      "raw_flow": "res://source_art/r1/motion/move_05.flow16",
+      "raw_flow_sha256": "ce4d099fe00173c9c697323d5e84da9866127beb5ba810ec74edfa1440bf049a",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "move",
+      "frame": 6,
+      "method": "DIS",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.9463647199046484,
+            "mean_rgb_error": 0.03377290442585945,
+            "score": 0.9345442033555976
+          },
+          "b_to_a": {
+            "alpha_iou": 0.9550494456098292,
+            "mean_rgb_error": 0.03324945643544197,
+            "score": 0.9434121358574244
+          },
+          "score": 0.938978169606511
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.9272409778812573,
+            "mean_rgb_error": 0.05169348046183586,
+            "score": 0.9091482597196147
+          },
+          "b_to_a": {
+            "alpha_iou": 0.9315149718351616,
+            "mean_rgb_error": 0.04833688959479332,
+            "score": 0.914597060476984
+          },
+          "score": 0.9118726600982994
+        }
+      },
+      "max_displacement_pixels": 6.2957377433776855,
+      "max_float16_quantization_error_pixels": 0.001953125,
+      "current_texture": "res://assets/r1/actors/swordman/move_06.png",
+      "next_texture": "res://assets/r1/actors/swordman/move_07.png",
+      "current_png_sha256": "561281313c62cce6d91c4a21b5841ffe4fdfea4a01dfc094028e92b327276181",
+      "next_png_sha256": "cff0f09d5110f502cdfd350a5506ef597aae43405c07976706d4348cd8ee193b",
+      "flow_texture": "res://assets/r1/motion/move_06.res",
+      "raw_flow": "res://source_art/r1/motion/move_06.flow16",
+      "raw_flow_sha256": "ea8c639764d28024dd66a0ee3dbc12ced89db5950b345c4a87290c91581a078a",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "move",
+      "frame": 7,
+      "method": "DIS",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.9321578003586372,
+            "mean_rgb_error": 0.038004472851753235,
+            "score": 0.9188562348605235
+          },
+          "b_to_a": {
+            "alpha_iou": 0.9446090047393365,
+            "mean_rgb_error": 0.04165954515337944,
+            "score": 0.9300281639356537
+          },
+          "score": 0.9244421993980886
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.8941890719861232,
+            "mean_rgb_error": 0.06914199888706207,
+            "score": 0.8699893723756514
+          },
+          "b_to_a": {
+            "alpha_iou": 0.9011594202898551,
+            "mean_rgb_error": 0.06585981696844101,
+            "score": 0.8781084843509007
+          },
+          "score": 0.8740489283632761
+        }
+      },
+      "max_displacement_pixels": 5.990956783294678,
+      "max_float16_quantization_error_pixels": 0.001953125,
+      "current_texture": "res://assets/r1/actors/swordman/move_07.png",
+      "next_texture": "res://assets/r1/actors/swordman/move_00.png",
+      "current_png_sha256": "cff0f09d5110f502cdfd350a5506ef597aae43405c07976706d4348cd8ee193b",
+      "next_png_sha256": "9f498877e7af78e62c45565c88c573e24cd0f1d4879d61c431ba225ebc915cf1",
+      "flow_texture": "res://assets/r1/motion/move_07.res",
+      "raw_flow": "res://source_art/r1/motion/move_07.flow16",
+      "raw_flow_sha256": "42e95460bdd856c263da73e22d0846494918b11565be14673140cc417643bbd0",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "dash",
+      "frame": 0,
+      "method": "DIS",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.6622613803230544,
+            "mean_rgb_error": 0.06119154393672943,
+            "score": 0.6408443399451991
+          },
+          "b_to_a": {
+            "alpha_iou": 0.7874708775563034,
+            "mean_rgb_error": 0.050664983689785004,
+            "score": 0.7697381332648786
+          },
+          "score": 0.7052912366050388
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.5654695099139544,
+            "mean_rgb_error": 0.08489856123924255,
+            "score": 0.5357550134802195
+          },
+          "b_to_a": {
+            "alpha_iou": 0.5616903801231684,
+            "mean_rgb_error": 0.06627574563026428,
+            "score": 0.5384938691525759
+          },
+          "score": 0.5371244413163977
+        }
+      },
+      "max_displacement_pixels": 26.14133644104004,
+      "max_float16_quantization_error_pixels": 0.0078125,
+      "current_texture": "res://assets/r1/actors/swordman/dash_00.png",
+      "next_texture": "res://assets/r1/actors/swordman/dash_01.png",
+      "current_png_sha256": "27ed2471651a972383ecc158fff46b4e1dae496ff2f7a946c0fd75c5a7c0c392",
+      "next_png_sha256": "337e5ca16b046e73b192fa078d3c4b435601e3364612b9930458151e122d9b6c",
+      "flow_texture": "res://assets/r1/motion/dash_00.res",
+      "raw_flow": "res://source_art/r1/motion/dash_00.flow16",
+      "raw_flow_sha256": "0879b2a8386d733e82f054340bf898b5a4a8e3b32f5348794afdd6a241086b7b",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "dash",
+      "frame": 1,
+      "method": "DIS",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.7642538423401091,
+            "mean_rgb_error": 0.03147430717945099,
+            "score": 0.7532378348273012
+          },
+          "b_to_a": {
+            "alpha_iou": 0.7606984751598622,
+            "mean_rgb_error": 0.03591664880514145,
+            "score": 0.7481276480780628
+          },
+          "score": 0.750682741452682
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.7578162578162578,
+            "mean_rgb_error": 0.04624073952436447,
+            "score": 0.7416319989827302
+          },
+          "b_to_a": {
+            "alpha_iou": 0.724661373190098,
+            "mean_rgb_error": 0.04671001434326172,
+            "score": 0.7083128681699564
+          },
+          "score": 0.7249724335763433
+        }
+      },
+      "max_displacement_pixels": 17.960481643676758,
+      "max_float16_quantization_error_pixels": 0.0074062347412109375,
+      "current_texture": "res://assets/r1/actors/swordman/dash_01.png",
+      "next_texture": "res://assets/r1/actors/swordman/dash_02.png",
+      "current_png_sha256": "337e5ca16b046e73b192fa078d3c4b435601e3364612b9930458151e122d9b6c",
+      "next_png_sha256": "cd17f1ada94d6eb3441aacd9fea20c2354841a319862f340a0531557205c9e19",
+      "flow_texture": "res://assets/r1/motion/dash_01.res",
+      "raw_flow": "res://source_art/r1/motion/dash_01.flow16",
+      "raw_flow_sha256": "de579f99afe5da9ca846a5da908ad2f1b6666aa7953c7f1f899601ecbfa9e087",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "dash",
+      "frame": 2,
+      "method": "Farneback",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.7740871613663133,
+            "mean_rgb_error": 0.05310865119099617,
+            "score": 0.7554991334494646
+          },
+          "b_to_a": {
+            "alpha_iou": 0.8118266098722124,
+            "mean_rgb_error": 0.04687485098838806,
+            "score": 0.7954204120262767
+          },
+          "score": 0.7754597727378707
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.7941517753539105,
+            "mean_rgb_error": 0.07062643766403198,
+            "score": 0.7694325221714993
+          },
+          "b_to_a": {
+            "alpha_iou": 0.8074866310160428,
+            "mean_rgb_error": 0.06547437608242035,
+            "score": 0.7845705993871956
+          },
+          "score": 0.7770015607793475
+        }
+      },
+      "max_displacement_pixels": 22.21169090270996,
+      "max_float16_quantization_error_pixels": 0.00780487060546875,
+      "current_texture": "res://assets/r1/actors/swordman/dash_02.png",
+      "next_texture": "res://assets/r1/actors/swordman/dash_03.png",
+      "current_png_sha256": "cd17f1ada94d6eb3441aacd9fea20c2354841a319862f340a0531557205c9e19",
+      "next_png_sha256": "208fb867f881b6daea134e343e1f7d41af37c2005664a9e5dff255ee6f691ef9",
+      "flow_texture": "res://assets/r1/motion/dash_02.res",
+      "raw_flow": "res://source_art/r1/motion/dash_02.flow16",
+      "raw_flow_sha256": "9cdc9cd5422e68190b88845cd0f6b19f5e186cc19cbfa551e15224bfc431e3cf",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "dash",
+      "frame": 3,
+      "method": "DIS",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.7818791946308725,
+            "mean_rgb_error": 0.055581234395504,
+            "score": 0.7624257625924461
+          },
+          "b_to_a": {
+            "alpha_iou": 0.6604000964087732,
+            "mean_rgb_error": 0.04102476313710213,
+            "score": 0.6460414293107875
+          },
+          "score": 0.7042335959516168
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.7058047493403694,
+            "mean_rgb_error": 0.07444383203983307,
+            "score": 0.6797494081264278
+          },
+          "b_to_a": {
+            "alpha_iou": 0.6811475409836065,
+            "mean_rgb_error": 0.07648081332445145,
+            "score": 0.6543792563200486
+          },
+          "score": 0.6670643322232381
+        }
+      },
+      "max_displacement_pixels": 12.454107284545898,
+      "max_float16_quantization_error_pixels": 0.0078067779541015625,
+      "current_texture": "res://assets/r1/actors/swordman/dash_03.png",
+      "next_texture": "res://assets/r1/actors/swordman/dash_04.png",
+      "current_png_sha256": "208fb867f881b6daea134e343e1f7d41af37c2005664a9e5dff255ee6f691ef9",
+      "next_png_sha256": "661636d8da28b24480280864bd98f16db03f0fbbc363a352228a040070059302",
+      "flow_texture": "res://assets/r1/motion/dash_03.res",
+      "raw_flow": "res://source_art/r1/motion/dash_03.flow16",
+      "raw_flow_sha256": "c5c2170a2c621f5f667f3f6e07a64106d0d35c0c98bee2acc4451c77b700aabb",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "dash",
+      "frame": 4,
+      "method": "DIS",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.7533544767016346,
+            "mean_rgb_error": 0.06263334304094315,
+            "score": 0.7314328066373045
+          },
+          "b_to_a": {
+            "alpha_iou": 0.8341526520051746,
+            "mean_rgb_error": 0.06461992114782333,
+            "score": 0.8115356796034364
+          },
+          "score": 0.7714842431203704
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.6311794472557415,
+            "mean_rgb_error": 0.07013275474309921,
+            "score": 0.6066329830956567
+          },
+          "b_to_a": {
+            "alpha_iou": 0.7022811918063314,
+            "mean_rgb_error": 0.06390627473592758,
+            "score": 0.6799139956487568
+          },
+          "score": 0.6432734893722067
+        }
+      },
+      "max_displacement_pixels": 22.02659797668457,
+      "max_float16_quantization_error_pixels": 0.0078105926513671875,
+      "current_texture": "res://assets/r1/actors/swordman/dash_04.png",
+      "next_texture": "res://assets/r1/actors/swordman/dash_05.png",
+      "current_png_sha256": "661636d8da28b24480280864bd98f16db03f0fbbc363a352228a040070059302",
+      "next_png_sha256": "687d93e9547099cc9473adda59e2aaba9e58735f7029a9bd06d3d297f75bf456",
+      "flow_texture": "res://assets/r1/motion/dash_04.res",
+      "raw_flow": "res://source_art/r1/motion/dash_04.flow16",
+      "raw_flow_sha256": "2cd6ba956c4541a05da1b2994e678a03fa554611ecde0a93f50e80c6ed2652ce",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "dash",
+      "frame": 5,
+      "method": "Farneback",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.7950413223140496,
+            "mean_rgb_error": 0.040786489844322205,
+            "score": 0.7807660508685368
+          },
+          "b_to_a": {
+            "alpha_iou": 0.7341565703634669,
+            "mean_rgb_error": 0.03903564065694809,
+            "score": 0.7204940961335351
+          },
+          "score": 0.7506300735010359
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.7481169694284449,
+            "mean_rgb_error": 0.050163254141807556,
+            "score": 0.7305598304788122
+          },
+          "b_to_a": {
+            "alpha_iou": 0.8125413998675204,
+            "mean_rgb_error": 0.06332197040319443,
+            "score": 0.7903787102264024
+          },
+          "score": 0.7604692703526073
+        }
+      },
+      "max_displacement_pixels": 31.719493865966797,
+      "max_float16_quantization_error_pixels": 0.0078067779541015625,
+      "current_texture": "res://assets/r1/actors/swordman/dash_05.png",
+      "next_texture": "res://assets/r1/actors/swordman/dash_06.png",
+      "current_png_sha256": "687d93e9547099cc9473adda59e2aaba9e58735f7029a9bd06d3d297f75bf456",
+      "next_png_sha256": "781fb85b34ae92289b7e0175848816f3ea9da87359396cbe9c711160d045da59",
+      "flow_texture": "res://assets/r1/motion/dash_05.res",
+      "raw_flow": "res://source_art/r1/motion/dash_05.flow16",
+      "raw_flow_sha256": "a3182593163383bbe926cc6d954f8751c2604d82a8879d00052ded6d120dbd4f",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "dash",
+      "frame": 6,
+      "method": "DIS",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.7840182648401827,
+            "mean_rgb_error": 0.045097656548023224,
+            "score": 0.7682340850483745
+          },
+          "b_to_a": {
+            "alpha_iou": 0.8341818181818181,
+            "mean_rgb_error": 0.04394831135869026,
+            "score": 0.8187999092062765
+          },
+          "score": 0.7935169971273255
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.7592741935483871,
+            "mean_rgb_error": 0.07393291592597961,
+            "score": 0.7333976729742943
+          },
+          "b_to_a": {
+            "alpha_iou": 0.8022335970218707,
+            "mean_rgb_error": 0.06623295694589615,
+            "score": 0.779052062090807
+          },
+          "score": 0.7562248675325507
+        }
+      },
+      "max_displacement_pixels": 19.060516357421875,
+      "max_float16_quantization_error_pixels": 0.007808685302734375,
+      "current_texture": "res://assets/r1/actors/swordman/dash_06.png",
+      "next_texture": "res://assets/r1/actors/swordman/dash_07.png",
+      "current_png_sha256": "781fb85b34ae92289b7e0175848816f3ea9da87359396cbe9c711160d045da59",
+      "next_png_sha256": "1104468119ad68347d49b9fd920f4c2bd069bc5b522e709b2838b2e5a31e3f52",
+      "flow_texture": "res://assets/r1/motion/dash_06.res",
+      "raw_flow": "res://source_art/r1/motion/dash_06.flow16",
+      "raw_flow_sha256": "e19a66267263b484ad68c3e5155eb9fedbcd65d4399512e3c11407f3f16e4f65",
+      "raw_flow_bytes": 573440
+    },
+    {
+      "action": "dash",
+      "frame": 7,
+      "method": "DIS",
+      "candidates": {
+        "DIS": {
+          "a_to_b": {
+            "alpha_iou": 0.7447354904982023,
+            "mean_rgb_error": 0.04222312197089195,
+            "score": 0.7299573978083901
+          },
+          "b_to_a": {
+            "alpha_iou": 0.6810225702441272,
+            "mean_rgb_error": 0.04344979301095009,
+            "score": 0.6658151426902946
+          },
+          "score": 0.6978862702493424
+        },
+        "Farneback": {
+          "a_to_b": {
+            "alpha_iou": 0.7191460973982655,
+            "mean_rgb_error": 0.07605789601802826,
+            "score": 0.6925258337919556
+          },
+          "b_to_a": {
+            "alpha_iou": 0.6565154340169878,
+            "mean_rgb_error": 0.07182984054088593,
+            "score": 0.6313749898276777
+          },
+          "score": 0.6619504118098167
+        }
+      },
+      "max_displacement_pixels": 16.490785598754883,
+      "max_float16_quantization_error_pixels": 0.0039052963256835938,
+      "current_texture": "res://assets/r1/actors/swordman/dash_07.png",
+      "next_texture": "res://assets/r1/actors/swordman/dash_00.png",
+      "current_png_sha256": "1104468119ad68347d49b9fd920f4c2bd069bc5b522e709b2838b2e5a31e3f52",
+      "next_png_sha256": "27ed2471651a972383ecc158fff46b4e1dae496ff2f7a946c0fd75c5a7c0c392",
+      "flow_texture": "res://assets/r1/motion/dash_07.res",
+      "raw_flow": "res://source_art/r1/motion/dash_07.flow16",
+      "raw_flow_sha256": "990295e9ffc51c91acea6986d7337145b610f3d21636abe6a0b3c33408f67630",
+      "raw_flow_bytes": 573440
+    }
+  ],
+  "notes": [
+    "Endpoint reconstruction statistics rank the two flow estimates; they do not prove intermediate-pose quality.",
+    "Godot readback and visual review are required. No client programs or skill code are executed."
+  ]
+}

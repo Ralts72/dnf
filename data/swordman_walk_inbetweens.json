@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "action": "move",
+  "source_frame_ms": 100,
+  "subframes": 3,
+  "cycle_ms": 800,
+  "lower_body_sample_rate_hz": 30,
+  "upper_body_source_rate_hz": 10,
+  "canvas_size": [
+    320,
+    224
+  ],
+  "foot_anchor": [
+    133,
+    167
+  ],
+  "frames": [
+    {
+      "source": "res://assets/r1/actors/swordman/move_00.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_walk/move_00_1.png",
+        "res://assets/r1/actors/swordman_walk/move_00_2.png"
+      ]
+    },
+    {
+      "source": "res://assets/r1/actors/swordman/move_01.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_walk/move_01_1.png",
+        "res://assets/r1/actors/swordman_walk/move_01_2.png"
+      ]
+    },
+    {
+      "source": "res://assets/r1/actors/swordman/move_02.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_walk/move_02_1.png",
+        "res://assets/r1/actors/swordman_walk/move_02_2.png"
+      ]
+    },
+    {
+      "source": "res://assets/r1/actors/swordman/move_03.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_walk/move_03_1.png",
+        "res://assets/r1/actors/swordman_walk/move_03_2.png"
+      ]
+    },
+    {
+      "source": "res://assets/r1/actors/swordman/move_04.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_walk/move_04_1.png",
+        "res://assets/r1/actors/swordman_walk/move_04_2.png"
+      ]
+    },
+    {
+      "source": "res://assets/r1/actors/swordman/move_05.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_walk/move_05_1.png",
+        "res://assets/r1/actors/swordman_walk/move_05_2.png"
+      ]
+    },
+    {
+      "source": "res://assets/r1/actors/swordman/move_06.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_walk/move_06_1.png",
+        "res://assets/r1/actors/swordman_walk/move_06_2.png"
+      ]
+    },
+    {
+      "source": "res://assets/r1/actors/swordman/move_07.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_walk/move_07_1.png",
+        "res://assets/r1/actors/swordman_walk/move_07_2.png"
+      ]
+    }
+  ],
+  "notes": [
+    "Original ANI clock and all source textures remain unchanged. R1 walking lower apparel only.",
+    "Authored source-layer samples, not recovered original poses. R0 remains a raw comparison."
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "camera": "(0.0, 12.0)",
+  "diagnostics_active": false,
+  "diagnostics_processing": false,
+  "encounter_meta": false,
+  "formal_profile_exists": false,
+  "input_blocked": false,
+  "loot": {
+    "bag_open": false,
+    "can_pickup": false,
+    "drop_visible": false,
+    "inventory_count": 0,
+    "position": "(640.0, 300.0)",
+    "toast": ""
+  },
+  "physics_ticks": 60,
+  "player": {
+    "action": "stay",
+    "audio": {
+      "clock_ms": 0.0,
+      "pending": []
+    },
+    "elapsed_ms": 4.36399999999999,
+    "facing": 1,
+    "frame": 2,
+    "jump": {
+      "air_attack_started": -1.0,
+      "air_attack_used": false,
+      "elapsed": -1.0,
+      "travel_speed": 95.0
+    },
+    "next_attack": "attack1",
+    "one_shot": false,
+    "paused": false,
+    "position": "(440.0, 320.0)",
+    "preview": false
+  },
+  "progress": {
+    "dialog_open": false,
+    "encounter_cleared": false,
+    "last_error": "",
+    "loaded_from_backup": false,
+    "pending_save": false,
+    "progress": {
+      "coins": 0,
+      "first_drop": {
+        "id": "mirkius_first_eye_v1",
+        "position": [
+          640,
+          300
+        ],
+        "region": "hall",
+        "state": "unearned"
+      },
+      "inventory": {
+        "3128": 0
+      },
+      "objective_cleared": false,
+      "quest_stage": "available",
+      "reward_granted": false,
+      "schema": 2
+    },
+    "region_scene": "res://scenes/west_coast_r1.tscn",
+    "save_attempts": 0,
+    "storage_path": "user://adventure/first_route_v1.json",
+    "storage_ready": true
+  },
+  "root_children": [
+    "_mcp_game_helper",
+    "PortMusic",
+    "PortAmbience",
+    "WestCoastR1",
+    "FrameDiagnostics",
+    "AdventureProgress"
+  ],
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "script_hashes": {
+    "res://scripts/adventure_progress.gd": {
+      "disk": "e10ff614466ea79723fd25ced29d43a18bd6870a740726a363b9564c89632e8e",
+      "loaded": "e10ff614466ea79723fd25ced29d43a18bd6870a740726a363b9564c89632e8e"
+    },
+    "res://scripts/exploration_stage.gd": {
+      "disk": "117fc8dc57c9bc68c02ec3e6f05f82131ad3cc12127b2252273641a6b1f79660",
+      "loaded": "117fc8dc57c9bc68c02ec3e6f05f82131ad3cc12127b2252273641a6b1f79660"
+    },
+    "res://scripts/first_loot.gd": {
+      "disk": "54c82e5e31e8c853152b9c9f28511edbbbd4cf4a3692a35c91de434eff790c98",
+      "loaded": "54c82e5e31e8c853152b9c9f28511edbbbd4cf4a3692a35c91de434eff790c98"
+    },
+    "res://scripts/route_ground_obstacles.gd": {
+      "disk": "934c8f5c8e6a7c654b816d4264f2355a2a6f4e9ef9f7054f2412a11a70fc30ab",
+      "loaded": "934c8f5c8e6a7c654b816d4264f2355a2a6f4e9ef9f7054f2412a11a70fc30ab"
+    },
+    "res://scripts/world_travel.gd": {
+      "disk": "9781d739eb4f3c2ca2f60f697224a901b3b7d9dff24d8c3e49c6a04a9a82f7d2",
+      "loaded": "9781d739eb4f3c2ca2f60f697224a901b3b7d9dff24d8c3e49c6a04a9a82f7d2"
+    }
+  },
+  "settings": {
+    "audio_muted": false,
+    "audio_volume": 0.6,
+    "effects": true,
+    "motion": true,
+    "music_muted": false,
+    "music_volume": 0.2,
+    "quality": 2,
+    "walk": true
+  },
+  "spawn": "(440.0, 320.0)",
+  "travel": {
+    "can_exit": true,
+    "current_region": "harbor",
+    "exit_hold_id": "",
+    "exit_hold_required_seconds": 0.15,
+    "exit_hold_seconds": 0.0,
+    "fade_alpha": 0.0,
+    "grounded": true,
+    "harbor_return_position": "(60.0, 320.0)",
+    "last_error": "",
+    "last_exit": "",
+    "pending_target": "",
+    "phase": "ready",
+    "region": "harbor",
+    "reset_positions": {
+      "harbor": "(440.0, 320.0)"
+    },
+    "schema_version": 1,
+    "source_position": "(440.0, 320.0)",
+    "spawn_position": "(440.0, 320.0)",
+    "transition_count": 0,
+    "transitioning": false,
+    "ui_input_blocked": false,
+    "visited": [
+      "harbor"
+    ]
+  }
+}

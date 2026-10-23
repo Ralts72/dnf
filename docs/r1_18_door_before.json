@@ -1,0 +1,37 @@
+{
+  "baseline": "R1/17",
+  "candidate": "R1/18",
+  "door_threshold_front_source_y": 214.409530639648,
+  "door_threshold_world_aabb": "[P: (-6.825, 0.0, -0.42), S: (1.15, 0.05, 0.32)]",
+  "ground_mesh": "Mortar_Bed_Shore_Polygon",
+  "note": "Existing loaded geometry supports the short door approach. The new walk inset is an adaptation; no original map collision rule is claimed.",
+  "old_constrained_point": "(73.0, 245.0)",
+  "requested_source_point": "(73.0, 216.0)",
+  "samples": [
+    {
+      "ground_y": -0.0550005435943604,
+      "source_point": "(44.0, 216.0)",
+      "supported": true
+    },
+    {
+      "ground_y": -0.0550005435943604,
+      "source_point": "(73.0, 216.0)",
+      "supported": true
+    },
+    {
+      "ground_y": -0.0550003051757812,
+      "source_point": "(112.0, 216.0)",
+      "supported": true
+    },
+    {
+      "ground_y": -0.0550005435943604,
+      "source_point": "(73.0, 230.0)",
+      "supported": true
+    },
+    {
+      "ground_y": -0.0550000667572021,
+      "source_point": "(73.0, 244.0)",
+      "supported": true
+    }
+  ]
+}

@@ -1,0 +1,1504 @@
+{
+  "schema": 4,
+  "source_animation_data": "res://data/swordman_r1.json",
+  "source_animation_sha256": "1c4b47cf4d2ce09a9f65a506f4f906d495f3088e2dd5d2f8e487bdb254ae4e18",
+  "canvas_size": [
+    320,
+    224
+  ],
+  "foot_anchor": [
+    133,
+    167
+  ],
+  "subframes_per_source_frame": 3,
+  "target_image_rate": 30,
+  "actions": {
+    "move": [
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_00.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_01.png",
+        "current_layers": "res://assets/r1/motion/move_00_layers.res",
+        "next_layers": "res://assets/r1/motion/move_01_layers.res",
+        "current_png_sha256": "9f498877e7af78e62c45565c88c573e24cd0f1d4879d61c431ba225ebc915cf1",
+        "next_png_sha256": "a0c751aff7f1a1445aecba6b7c10bc55cd71802f90975e011730a76a458c03a6",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_00_1.res",
+            "raw": "res://source_art/r1/motion/move_00_1.posemap16",
+            "raw_sha256": "931203cb4d57befb317b31f22a7a20bc10ba5b7dc3ebd1e03a2e6c16c3999da5",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3184,
+            "layer_contributions": [
+              69,
+              1305,
+              408,
+              179,
+              352,
+              179,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_00_2.res",
+            "raw": "res://source_art/r1/motion/move_00_2.posemap16",
+            "raw_sha256": "07dc15a5c5389aaf2489ddbbac389edd036b3968ae79968d9330025115a51a50",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3190,
+            "layer_contributions": [
+              69,
+              1428,
+              261,
+              102,
+              422,
+              209,
+              921
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            135.0,
+            113.0
+          ],
+          "legs": [
+            [
+              [
+                135.0,
+                113.0
+              ],
+              [
+                135.0,
+                132.0
+              ],
+              [
+                118.4137954711914,
+                150.3103485107422
+              ]
+            ],
+            [
+              [
+                135.0,
+                113.0
+              ],
+              [
+                135.7480010986328,
+                138.16799926757812
+              ],
+              [
+                136.36000061035156,
+                158.75999450683594
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              116.459716796875,
+              157.13270568847656
+            ],
+            [
+              138.84210205078125,
+              164.7421112060547
+            ]
+          ]
+        }
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_01.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_02.png",
+        "current_layers": "res://assets/r1/motion/move_01_layers.res",
+        "next_layers": "res://assets/r1/motion/move_02_layers.res",
+        "current_png_sha256": "a0c751aff7f1a1445aecba6b7c10bc55cd71802f90975e011730a76a458c03a6",
+        "next_png_sha256": "9a4e13ae3d4c5cdf38a7511bd54f593c5d15e31164889a08a82b6adb0879541f",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_01_1.res",
+            "raw": "res://source_art/r1/motion/move_01_1.posemap16",
+            "raw_sha256": "8e0ce1ebddc4abaee39708b77118017406d3ebd42058a2581751a10b8283b1c2",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3196,
+            "layer_contributions": [
+              69,
+              1468,
+              236,
+              119,
+              397,
+              228,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_01_2.res",
+            "raw": "res://source_art/r1/motion/move_01_2.posemap16",
+            "raw_sha256": "69374ecc88841c11384bcdfa64d0bc51c1fa959388ec8b1f09c98405391d28a4",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3449,
+            "layer_contributions": [
+              69,
+              1558,
+              442,
+              166,
+              452,
+              168,
+              921
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            134.9021759033203,
+            113.0
+          ],
+          "legs": [
+            [
+              [
+                134.9021759033203,
+                113.0
+              ],
+              [
+                135.0,
+                138.0
+              ],
+              [
+                131.39999389648438,
+                153.8000030517578
+              ]
+            ],
+            [
+              [
+                134.9021759033203,
+                113.0
+              ],
+              [
+                134.40597534179688,
+                136.10000610351562
+              ],
+              [
+                134.0,
+                155.0
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              133.8473663330078,
+              159.74737548828125
+            ],
+            [
+              133.50515747070312,
+              167.47422790527344
+            ]
+          ]
+        }
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_02.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_03.png",
+        "current_layers": "res://assets/r1/motion/move_02_layers.res",
+        "next_layers": "res://assets/r1/motion/move_03_layers.res",
+        "current_png_sha256": "9a4e13ae3d4c5cdf38a7511bd54f593c5d15e31164889a08a82b6adb0879541f",
+        "next_png_sha256": "3cede234a82618bf224170c08a33549426e7c8c39107fd4ac675c3ec299faf2a",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_02_1.res",
+            "raw": "res://source_art/r1/motion/move_02_1.posemap16",
+            "raw_sha256": "38d85d21713e34693c2d110a7bd8e1c59315c80a01aaf5d164b92e4737dedd4e",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3548,
+            "layer_contributions": [
+              69,
+              1573,
+              443,
+              194,
+              488,
+              184,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_02_2.res",
+            "raw": "res://source_art/r1/motion/move_02_2.posemap16",
+            "raw_sha256": "101486e055d1dc847f12bae792643340850b816814f71ea09eb8ad1ff856b8a7",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3540,
+            "layer_contributions": [
+              69,
+              1538,
+              389,
+              222,
+              459,
+              210,
+              921
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            133.20689392089844,
+            114.0
+          ],
+          "legs": [
+            [
+              [
+                133.20689392089844,
+                114.0
+              ],
+              [
+                139.0,
+                130.0
+              ],
+              [
+                143.26922607421875,
+                157.65383911132812
+              ]
+            ],
+            [
+              [
+                133.20689392089844,
+                114.0
+              ],
+              [
+                133.0,
+                124.0
+              ],
+              [
+                118.33333587646484,
+                155.8333282470703
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              147.45274353027344,
+              163.2985076904297
+            ],
+            [
+              120.18226623535156,
+              163.00985717773438
+            ]
+          ]
+        }
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_03.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_04.png",
+        "current_layers": "res://assets/r1/motion/move_03_layers.res",
+        "next_layers": "res://assets/r1/motion/move_04_layers.res",
+        "current_png_sha256": "3cede234a82618bf224170c08a33549426e7c8c39107fd4ac675c3ec299faf2a",
+        "next_png_sha256": "4feb392be270bced1394f5b7fa3837759f480a57b50bd6f4cba6b3e4a01e1bb1",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_03_1.res",
+            "raw": "res://source_art/r1/motion/move_03_1.posemap16",
+            "raw_sha256": "b94498c3d92292a0bbef40a9bbd84f57be4a07b2297c1e9bc654aad50064d755",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3441,
+            "layer_contributions": [
+              69,
+              1502,
+              374,
+              193,
+              461,
+              188,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_03_2.res",
+            "raw": "res://source_art/r1/motion/move_03_2.posemap16",
+            "raw_sha256": "94ecf958d392aac502ef923d176ce09df88742efecb04dcc91c77b4dc07519bd",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3368,
+            "layer_contributions": [
+              69,
+              1371,
+              393,
+              240,
+              398,
+              187,
+              921
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            132.89999389648438,
+            114.0
+          ],
+          "legs": [
+            [
+              [
+                132.89999389648438,
+                114.0
+              ],
+              [
+                136.74029541015625,
+                139.42941284179688
+              ],
+              [
+                139.88235473632812,
+                160.23529052734375
+              ]
+            ],
+            [
+              [
+                132.89999389648438,
+                114.0
+              ],
+              [
+                133.0,
+                130.0
+              ],
+              [
+                116.19999694824219,
+                153.43333435058594
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              142.84210205078125,
+              166.7421112060547
+            ],
+            [
+              116.31131744384766,
+              161.33963012695312
+            ]
+          ]
+        }
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_04.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_05.png",
+        "current_layers": "res://assets/r1/motion/move_04_layers.res",
+        "next_layers": "res://assets/r1/motion/move_05_layers.res",
+        "current_png_sha256": "4feb392be270bced1394f5b7fa3837759f480a57b50bd6f4cba6b3e4a01e1bb1",
+        "next_png_sha256": "d49ba850eea751ba943637666d6bc509ae52f1ebaf74b9eeaf9d07471386f528",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_04_1.res",
+            "raw": "res://source_art/r1/motion/move_04_1.posemap16",
+            "raw_sha256": "54bca42c17165c2962e4df878ec2385700c6bcbc816c74a9a29744ad2cb8bea1",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3189,
+            "layer_contributions": [
+              69,
+              1331,
+              356,
+              173,
+              389,
+              223,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_04_2.res",
+            "raw": "res://source_art/r1/motion/move_04_2.posemap16",
+            "raw_sha256": "8f1ac1e3c6f60eab5f11b904d09a317c872ca972701590bdb2842bd048aec5f5",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 2960,
+            "layer_contributions": [
+              69,
+              1257,
+              298,
+              139,
+              513,
+              169,
+              921
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            135.0,
+            113.0
+          ],
+          "legs": [
+            [
+              [
+                135.0,
+                113.0
+              ],
+              [
+                134.3852996826172,
+                138.97940063476562
+              ],
+              [
+                133.88235473632812,
+                160.23529052734375
+              ]
+            ],
+            [
+              [
+                135.0,
+                113.0
+              ],
+              [
+                135.0,
+                131.0
+              ],
+              [
+                120.5,
+                148.42857360839844
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              136.84210205078125,
+              166.7421112060547
+            ],
+            [
+              118.35749053955078,
+              155.067626953125
+            ]
+          ]
+        }
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_05.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_06.png",
+        "current_layers": "res://assets/r1/motion/move_05_layers.res",
+        "next_layers": "res://assets/r1/motion/move_06_layers.res",
+        "current_png_sha256": "d49ba850eea751ba943637666d6bc509ae52f1ebaf74b9eeaf9d07471386f528",
+        "next_png_sha256": "561281313c62cce6d91c4a21b5841ffe4fdfea4a01dfc094028e92b327276181",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_05_1.res",
+            "raw": "res://source_art/r1/motion/move_05_1.posemap16",
+            "raw_sha256": "76fa8d42a5aa4bd7e843687763ef1c1c91c5075cadee5e361398fb605cc71f70",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3138,
+            "layer_contributions": [
+              69,
+              1243,
+              330,
+              144,
+              510,
+              205,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_05_2.res",
+            "raw": "res://source_art/r1/motion/move_05_2.posemap16",
+            "raw_sha256": "63f74681e7371afce3b513b8580a15c9b85ed5fd0b457694e34cbdb975cf2fa3",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3240,
+            "layer_contributions": [
+              69,
+              1226,
+              558,
+              185,
+              400,
+              198,
+              921
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            136.28260803222656,
+            113.0
+          ],
+          "legs": [
+            [
+              [
+                136.28260803222656,
+                113.0
+              ],
+              [
+                136.0,
+                129.0
+              ],
+              [
+                128.1666717529297,
+                160.3333282470703
+              ]
+            ],
+            [
+              [
+                136.28260803222656,
+                113.0
+              ],
+              [
+                135.50216674804688,
+                134.72500610351562
+              ],
+              [
+                134.86363220214844,
+                152.5
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              130.8473663330078,
+              166.74737548828125
+            ],
+            [
+              138.4964599609375,
+              157.48936462402344
+            ]
+          ]
+        }
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_06.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_07.png",
+        "current_layers": "res://assets/r1/motion/move_06_layers.res",
+        "next_layers": "res://assets/r1/motion/move_07_layers.res",
+        "current_png_sha256": "561281313c62cce6d91c4a21b5841ffe4fdfea4a01dfc094028e92b327276181",
+        "next_png_sha256": "cff0f09d5110f502cdfd350a5506ef597aae43405c07976706d4348cd8ee193b",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_06_1.res",
+            "raw": "res://source_art/r1/motion/move_06_1.posemap16",
+            "raw_sha256": "94d81f35928d1fd1d939b9224ce53bd311f700239dc8d481a739394b954d8a3f",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3263,
+            "layer_contributions": [
+              69,
+              1226,
+              545,
+              191,
+              420,
+              205,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_06_2.res",
+            "raw": "res://source_art/r1/motion/move_06_2.posemap16",
+            "raw_sha256": "d14700ee3c29e3a200d3efc67aded819235030dc9f009316c2bce0db54ea7f55",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3281,
+            "layer_contributions": [
+              69,
+              1229,
+              408,
+              190,
+              513,
+              232,
+              921
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            136.69317626953125,
+            114.0
+          ],
+          "legs": [
+            [
+              [
+                136.69317626953125,
+                114.0
+              ],
+              [
+                136.0,
+                123.0
+              ],
+              [
+                116.33333587646484,
+                157.8333282470703
+              ]
+            ],
+            [
+              [
+                136.69317626953125,
+                114.0
+              ],
+              [
+                141.36378479003906,
+                136.89630126953125
+              ],
+              [
+                145.1851806640625,
+                155.62962341308594
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              118.1970443725586,
+              164.9803009033203
+            ],
+            [
+              149.18536376953125,
+              161.22926330566406
+            ]
+          ]
+        }
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_07.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_00.png",
+        "current_layers": "res://assets/r1/motion/move_07_layers.res",
+        "next_layers": "res://assets/r1/motion/move_00_layers.res",
+        "current_png_sha256": "cff0f09d5110f502cdfd350a5506ef597aae43405c07976706d4348cd8ee193b",
+        "next_png_sha256": "9f498877e7af78e62c45565c88c573e24cd0f1d4879d61c431ba225ebc915cf1",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_07_1.res",
+            "raw": "res://source_art/r1/motion/move_07_1.posemap16",
+            "raw_sha256": "014e26307d848961edb2b1cb67f59e6407ded6fa1a8a9c6699f17e8711126348",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3262,
+            "layer_contributions": [
+              69,
+              1251,
+              418,
+              192,
+              507,
+              202,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_07_2.res",
+            "raw": "res://source_art/r1/motion/move_07_2.posemap16",
+            "raw_sha256": "0baa62c0530d8bc9fd1733a70279dd60f83d67f9718ba9846ecfa26be750b94c",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3267,
+            "layer_contributions": [
+              69,
+              1276,
+              416,
+              188,
+              369,
+              236,
+              921
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            135.69317626953125,
+            114.0
+          ],
+          "legs": [
+            [
+              [
+                135.69317626953125,
+                114.0
+              ],
+              [
+                136.0,
+                126.0
+              ],
+              [
+                115.55555725097656,
+                154.29629516601562
+              ]
+            ],
+            [
+              [
+                135.69317626953125,
+                114.0
+              ],
+              [
+                138.99005126953125,
+                138.30313110351562
+              ],
+              [
+                141.6875,
+                158.1875
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              114.21100616455078,
+              162.2752227783203
+            ],
+            [
+              144.84210205078125,
+              164.7421112060547
+            ]
+          ]
+        }
+      }
+    ],
+    "dash": [
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_00.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_01.png",
+        "current_layers": "res://assets/r1/motion/dash_00_layers.res",
+        "next_layers": "res://assets/r1/motion/dash_01_layers.res",
+        "current_png_sha256": "27ed2471651a972383ecc158fff46b4e1dae496ff2f7a946c0fd75c5a7c0c392",
+        "next_png_sha256": "337e5ca16b046e73b192fa078d3c4b435601e3364612b9930458151e122d9b6c",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_00_1.res",
+            "raw": "res://source_art/r1/motion/dash_00_1.posemap16",
+            "raw_sha256": "4906f3d418d084851e7b8fa76ef87a96862484fa8e85658eb1ed02bcb5582e9b",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3609,
+            "layer_contributions": [
+              0,
+              1728,
+              172,
+              178,
+              438,
+              202,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_00_2.res",
+            "raw": "res://source_art/r1/motion/dash_00_2.posemap16",
+            "raw_sha256": "f095be2850d563d6b1ae48f40cac8ad0da217d4413a8e45ae0d147a274c41ebb",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3700,
+            "layer_contributions": [
+              0,
+              1656,
+              356,
+              205,
+              381,
+              192,
+              941
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            143.2110137939453,
+            119.0
+          ],
+          "legs": [
+            [
+              [
+                143.2110137939453,
+                119.0
+              ],
+              [
+                143.0,
+                133.0
+              ],
+              [
+                129.4375,
+                155.53125
+              ]
+            ],
+            [
+              [
+                143.2110137939453,
+                119.0
+              ],
+              [
+                143.0,
+                133.0
+              ],
+              [
+                126.13043212890625,
+                147.6086883544922
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              128.34112548828125,
+              162.49533081054688
+            ],
+            [
+              121.17021179199219,
+              150.83688354492188
+            ]
+          ]
+        }
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_01.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_02.png",
+        "current_layers": "res://assets/r1/motion/dash_01_layers.res",
+        "next_layers": "res://assets/r1/motion/dash_02_layers.res",
+        "current_png_sha256": "337e5ca16b046e73b192fa078d3c4b435601e3364612b9930458151e122d9b6c",
+        "next_png_sha256": "cd17f1ada94d6eb3441aacd9fea20c2354841a319862f340a0531557205c9e19",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_01_1.res",
+            "raw": "res://source_art/r1/motion/dash_01_1.posemap16",
+            "raw_sha256": "1e589b7351289a4cec801d814a7ad2fa8f92e363142cd3ed4bb5c9cff7904581",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3721,
+            "layer_contributions": [
+              0,
+              1624,
+              412,
+              188,
+              403,
+              185,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_01_2.res",
+            "raw": "res://source_art/r1/motion/dash_01_2.posemap16",
+            "raw_sha256": "fc9742c4606400bb756e6d60f9df69c2f282aa5d7a0c539197da98b277b5b764",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3615,
+            "layer_contributions": [
+              0,
+              1540,
+              463,
+              191,
+              414,
+              219,
+              941
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            144.71572875976562,
+            117.0
+          ],
+          "legs": [
+            [
+              [
+                144.71572875976562,
+                117.0
+              ],
+              [
+                158.0,
+                122.0
+              ],
+              [
+                151.56521606445312,
+                144.04347229003906
+              ]
+            ],
+            [
+              [
+                144.71572875976562,
+                117.0
+              ],
+              [
+                132.0,
+                116.0
+              ],
+              [
+                103.11111450195312,
+                142.5
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              151.257568359375,
+              152.15151977539062
+            ],
+            [
+              98.9911117553711,
+              150.25332641601562
+            ]
+          ]
+        }
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_02.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_03.png",
+        "current_layers": "res://assets/r1/motion/dash_02_layers.res",
+        "next_layers": "res://assets/r1/motion/dash_03_layers.res",
+        "current_png_sha256": "cd17f1ada94d6eb3441aacd9fea20c2354841a319862f340a0531557205c9e19",
+        "next_png_sha256": "208fb867f881b6daea134e343e1f7d41af37c2005664a9e5dff255ee6f691ef9",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_02_1.res",
+            "raw": "res://source_art/r1/motion/dash_02_1.posemap16",
+            "raw_sha256": "4ec9f5abb8e31176734a93a3f558117158b0c0e30ca8042eb57678190aa32433",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3732,
+            "layer_contributions": [
+              0,
+              1584,
+              486,
+              216,
+              420,
+              207,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_02_2.res",
+            "raw": "res://source_art/r1/motion/dash_02_2.posemap16",
+            "raw_sha256": "c5046f8052e1185aa851a6867a7db7164981df75be91b884293d4f5efabcf4c0",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3866,
+            "layer_contributions": [
+              0,
+              1634,
+              504,
+              194,
+              446,
+              218,
+              941
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            136.49583435058594,
+            118.0
+          ],
+          "legs": [
+            [
+              [
+                136.49583435058594,
+                118.0
+              ],
+              [
+                159.0,
+                128.0
+              ],
+              [
+                169.60714721679688,
+                153.17857360839844
+              ]
+            ],
+            [
+              [
+                136.49583435058594,
+                118.0
+              ],
+              [
+                124.0,
+                123.0
+              ],
+              [
+                96.77777862548828,
+                125.16666412353516
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              175.5450439453125,
+              157.77928161621094
+            ],
+            [
+              89.99065399169922,
+              129.66355895996094
+            ]
+          ]
+        }
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_03.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_04.png",
+        "current_layers": "res://assets/r1/motion/dash_03_layers.res",
+        "next_layers": "res://assets/r1/motion/dash_04_layers.res",
+        "current_png_sha256": "208fb867f881b6daea134e343e1f7d41af37c2005664a9e5dff255ee6f691ef9",
+        "next_png_sha256": "661636d8da28b24480280864bd98f16db03f0fbbc363a352228a040070059302",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_03_1.res",
+            "raw": "res://source_art/r1/motion/dash_03_1.posemap16",
+            "raw_sha256": "0b9b17a9962b538f1ff6615f775d92856eb28bccd15fb9f881a4c6a025780d7d",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3780,
+            "layer_contributions": [
+              0,
+              1677,
+              428,
+              182,
+              398,
+              211,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_03_2.res",
+            "raw": "res://source_art/r1/motion/dash_03_2.posemap16",
+            "raw_sha256": "580aebe084679f2415d229f4f6fe9079c574d033a19af6822ac1077be627c780",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3546,
+            "layer_contributions": [
+              0,
+              1726,
+              303,
+              193,
+              248,
+              207,
+              941
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            144.5,
+            119.0
+          ],
+          "legs": [
+            [
+              [
+                144.5,
+                119.0
+              ],
+              [
+                153.0,
+                131.0
+              ],
+              [
+                153.6875,
+                158.1875
+              ]
+            ],
+            [
+              [
+                144.5,
+                119.0
+              ],
+              [
+                132.0,
+                129.0
+              ],
+              [
+                107.8125,
+                134.75
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              157.28140258789062,
+              164.7989959716797
+            ],
+            [
+              100.99065399169922,
+              139.66355895996094
+            ]
+          ]
+        }
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_04.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_05.png",
+        "current_layers": "res://assets/r1/motion/dash_04_layers.res",
+        "next_layers": "res://assets/r1/motion/dash_05_layers.res",
+        "current_png_sha256": "661636d8da28b24480280864bd98f16db03f0fbbc363a352228a040070059302",
+        "next_png_sha256": "687d93e9547099cc9473adda59e2aaba9e58735f7029a9bd06d3d297f75bf456",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_04_1.res",
+            "raw": "res://source_art/r1/motion/dash_04_1.posemap16",
+            "raw_sha256": "24220fce738316135d80e0466dcb584f49db9735ead73af650aa11a1c8f46381",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3491,
+            "layer_contributions": [
+              0,
+              1767,
+              272,
+              228,
+              237,
+              195,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_04_2.res",
+            "raw": "res://source_art/r1/motion/dash_04_2.posemap16",
+            "raw_sha256": "02e662f83ebeb423d32ba155479f2925b2035793025011e306717727bd6c54d8",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3818,
+            "layer_contributions": [
+              0,
+              1820,
+              336,
+              197,
+              367,
+              188,
+              941
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            143.89999389648438,
+            120.0
+          ],
+          "legs": [
+            [
+              [
+                143.89999389648438,
+                120.0
+              ],
+              [
+                144.0,
+                132.0
+              ],
+              [
+                132.4375,
+                153.53125
+              ]
+            ],
+            [
+              [
+                143.89999389648438,
+                120.0
+              ],
+              [
+                144.0,
+                131.0
+              ],
+              [
+                123.25,
+                147.875
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              131.91456604003906,
+              160.6683349609375
+            ],
+            [
+              119.76923370361328,
+              155.88235473632812
+            ]
+          ]
+        }
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_05.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_06.png",
+        "current_layers": "res://assets/r1/motion/dash_05_layers.res",
+        "next_layers": "res://assets/r1/motion/dash_06_layers.res",
+        "current_png_sha256": "687d93e9547099cc9473adda59e2aaba9e58735f7029a9bd06d3d297f75bf456",
+        "next_png_sha256": "781fb85b34ae92289b7e0175848816f3ea9da87359396cbe9c711160d045da59",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_05_1.res",
+            "raw": "res://source_art/r1/motion/dash_05_1.posemap16",
+            "raw_sha256": "539576525a643ce8adee0c5e16636578878da24e0a547dae203211cfb3248bdd",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3922,
+            "layer_contributions": [
+              0,
+              1821,
+              339,
+              170,
+              487,
+              196,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_05_2.res",
+            "raw": "res://source_art/r1/motion/dash_05_2.posemap16",
+            "raw_sha256": "9de89e15fcb82733ab6fa768dc8c8b4e60c4e47308319fb79dbf4bf7bbd88442",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3981,
+            "layer_contributions": [
+              0,
+              1856,
+              318,
+              302,
+              485,
+              192,
+              941
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            143.47825622558594,
+            117.0
+          ],
+          "legs": [
+            [
+              [
+                143.47825622558594,
+                117.0
+              ],
+              [
+                134.0,
+                115.0
+              ],
+              [
+                106.0,
+                140.1999969482422
+              ]
+            ],
+            [
+              [
+                143.47825622558594,
+                117.0
+              ],
+              [
+                155.0,
+                123.0
+              ],
+              [
+                149.56521606445312,
+                146.04347229003906
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              101.9388656616211,
+              148.62008666992188
+            ],
+            [
+              149.257568359375,
+              154.15151977539062
+            ]
+          ]
+        }
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_06.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_07.png",
+        "current_layers": "res://assets/r1/motion/dash_06_layers.res",
+        "next_layers": "res://assets/r1/motion/dash_07_layers.res",
+        "current_png_sha256": "781fb85b34ae92289b7e0175848816f3ea9da87359396cbe9c711160d045da59",
+        "next_png_sha256": "1104468119ad68347d49b9fd920f4c2bd069bc5b522e709b2838b2e5a31e3f52",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_06_1.res",
+            "raw": "res://source_art/r1/motion/dash_06_1.posemap16",
+            "raw_sha256": "b469588f1cc27a1f8e98c8c34ac12fdae257e906e33b1427d1cfd0b63fd298a3",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3919,
+            "layer_contributions": [
+              0,
+              1826,
+              328,
+              272,
+              489,
+              211,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_06_2.res",
+            "raw": "res://source_art/r1/motion/dash_06_2.posemap16",
+            "raw_sha256": "d21a693eb3dc995011c23d03acf3823e8ce9ac03897f710f80550f275333ac96",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3965,
+            "layer_contributions": [
+              0,
+              1817,
+              393,
+              183,
+              496,
+              208,
+              941
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            131.1338653564453,
+            118.0
+          ],
+          "legs": [
+            [
+              [
+                131.1338653564453,
+                118.0
+              ],
+              [
+                113.88801574707031,
+                120.84166717529297
+              ],
+              [
+                99.77777862548828,
+                123.16666412353516
+              ]
+            ],
+            [
+              [
+                131.1338653564453,
+                118.0
+              ],
+              [
+                156.0,
+                127.0
+              ],
+              [
+                167.60714721679688,
+                155.17857360839844
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              92.99065399169922,
+              127.6635513305664
+            ],
+            [
+              173.5022430419922,
+              159.77130126953125
+            ]
+          ]
+        }
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_07.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_00.png",
+        "current_layers": "res://assets/r1/motion/dash_07_layers.res",
+        "next_layers": "res://assets/r1/motion/dash_00_layers.res",
+        "current_png_sha256": "1104468119ad68347d49b9fd920f4c2bd069bc5b522e709b2838b2e5a31e3f52",
+        "next_png_sha256": "27ed2471651a972383ecc158fff46b4e1dae496ff2f7a946c0fd75c5a7c0c392",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_07_1.res",
+            "raw": "res://source_art/r1/motion/dash_07_1.posemap16",
+            "raw_sha256": "a368918cf2fe5f4eadee82e1781f50be985f20761f7eb999402bdaf24d3f4c8c",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3761,
+            "layer_contributions": [
+              0,
+              1757,
+              365,
+              184,
+              417,
+              165,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_07_2.res",
+            "raw": "res://source_art/r1/motion/dash_07_2.posemap16",
+            "raw_sha256": "09b198e86ef233024fc0624bf228a8df9e377b056125f617e486e15aaa1fcfd0",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3457,
+            "layer_contributions": [
+              0,
+              1737,
+              133,
+              124,
+              437,
+              183,
+              941
+            ]
+          }
+        ],
+        "rig": {
+          "hip": [
+            145.71200561523438,
+            119.0
+          ],
+          "legs": [
+            [
+              [
+                145.71200561523438,
+                119.0
+              ],
+              [
+                135.0,
+                127.0
+              ],
+              [
+                109.8125,
+                132.75
+              ]
+            ],
+            [
+              [
+                145.71200561523438,
+                119.0
+              ],
+              [
+                151.0,
+                133.0
+              ],
+              [
+                151.6875,
+                160.1875
+              ]
+            ]
+          ],
+          "feet": [
+            [
+              102.99065399169922,
+              137.66355895996094
+            ],
+            [
+              155.7004852294922,
+              166.86473083496094
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "numeric_channels": [
+    "source_x_integer",
+    "source_y_integer",
+    "appearance_layer_plus_one",
+    "source_endpoint"
+  ],
+  "notes": [
+    "Source PNGs and ANI timings are unchanged. Intermediate correspondence is an adaptation, not recovered original poses.",
+    "Authored physical-foot tracking and inferred hip/knee/ankle rigs adapt the two legs; upper-body DIS and rigid weapon transforms are separate.",
+    "Runtime samples nearest original colors from one endpoint. No silhouette or RGB cross-fade is used."
+  ]
+}

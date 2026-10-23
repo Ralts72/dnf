@@ -1,0 +1,1 @@
+Run104 loot regression was manually interrupted while status=running (17 checks observed, 22.199953 seconds). It is not a completed check and is not counted in delivery. Runtime did not fail. Run complete regression before freezing R3/04.

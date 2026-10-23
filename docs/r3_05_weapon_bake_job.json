@@ -1,0 +1,14 @@
+{
+  "check_script": "res://tools/r3/bake_starter_weapon.gd",
+  "elapsed_seconds": 1.37706,
+  "qa_source_sha256": "04ac54ea3cfa6101e2fe05fa2f5a5349fdfbf4ab074dfc496bd74e958f8a2d9e",
+  "render_cases_completed": 0,
+  "result": {
+    "all_passed": true,
+    "endpoint_full_rgba_exact": true,
+    "report": "docs/r3_05_weapon_bake_checks.json",
+    "runtime_textures": 32,
+    "samples": 48
+  },
+  "status": "complete"
+}

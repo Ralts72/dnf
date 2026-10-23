@@ -1,0 +1,134 @@
+{
+  "path": "equipment/character/swordman/weapon/hsword/lswdb/attack3.ani",
+  "crc": {
+    "expected": 3905756346,
+    "actual_seed_file_number": 3905756346,
+    "actual_seed_zero": 2826225206
+  },
+  "decoded": {
+    "frames_count": 9,
+    "resources": [
+      "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 33,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 34,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 35,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 36,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 37,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 38,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 39,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 40,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 41,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 150
+          }
+        ]
+      }
+    ]
+  }
+}

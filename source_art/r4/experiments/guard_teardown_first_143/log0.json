@@ -1,0 +1,138 @@
+{
+  "source": "game",
+  "lines": [
+    {
+      "level": "info",
+      "run_id": "r55430398-143",
+      "source": "game",
+      "text": "[godot_ai game_helper] registered mcp capture (debugger active=true, logger=true)\n"
+    },
+    {
+      "details": {
+        "code": "Condition \"!is_inside_tree()\" is true. Returning: Transform3D()",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "_apply_frame",
+            "line": 236,
+            "path": "res://scripts/source_actor_3d.gd"
+          },
+          {
+            "function": "play",
+            "line": 230,
+            "path": "res://scripts/source_actor_3d.gd"
+          },
+          {
+            "function": "_finish_guard",
+            "line": 258,
+            "path": "res://scripts/guard_runtime.gd"
+          },
+          {
+            "function": "_sync_active_state",
+            "line": 292,
+            "path": "res://scripts/guard_runtime.gd"
+          },
+          {
+            "function": "_physics_process",
+            "line": 353,
+            "path": "res://scripts/guard_runtime.gd"
+          }
+        ],
+        "message": "Condition \"!is_inside_tree()\" is true. Returning: Transform3D()",
+        "rationale": "",
+        "resolved": {
+          "function": "_apply_frame",
+          "line": 236,
+          "path": "res://scripts/source_actor_3d.gd"
+        },
+        "source": {
+          "function": "get_global_transform",
+          "line": 649,
+          "path": "scene/3d/node_3d.cpp"
+        }
+      },
+      "level": "error",
+      "run_id": "r55430398-143",
+      "source": "game",
+      "text": "Condition \"!is_inside_tree()\" is true. Returning: Transform3D() (res://scripts/source_actor_3d.gd:236 @ _apply_frame)"
+    },
+    {
+      "details": {
+        "code": "Condition \"!is_inside_tree()\" is true. Returning: Transform3D()",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "_apply_frame",
+            "line": 236,
+            "path": "res://scripts/source_actor_3d.gd"
+          },
+          {
+            "function": "play",
+            "line": 230,
+            "path": "res://scripts/source_actor_3d.gd"
+          },
+          {
+            "function": "_finish_guard",
+            "line": 258,
+            "path": "res://scripts/guard_runtime.gd"
+          },
+          {
+            "function": "_sync_active_state",
+            "line": 292,
+            "path": "res://scripts/guard_runtime.gd"
+          },
+          {
+            "function": "_physics_process",
+            "line": 353,
+            "path": "res://scripts/guard_runtime.gd"
+          }
+        ],
+        "message": "Condition \"!is_inside_tree()\" is true. Returning: Transform3D()",
+        "rationale": "",
+        "resolved": {
+          "function": "_apply_frame",
+          "line": 236,
+          "path": "res://scripts/source_actor_3d.gd"
+        },
+        "source": {
+          "function": "get_global_transform",
+          "line": 649,
+          "path": "scene/3d/node_3d.cpp"
+        }
+      },
+      "level": "error",
+      "run_id": "r55430398-143",
+      "source": "game",
+      "text": "Condition \"!is_inside_tree()\" is true. Returning: Transform3D() (res://scripts/source_actor_3d.gd:236 @ _apply_frame)"
+    }
+  ],
+  "total_count": 3,
+  "returned_count": 3,
+  "offset": 0,
+  "limit": 20,
+  "has_more": false,
+  "run_id": "r55430398-143",
+  "is_running": true,
+  "dropped_count": 13778,
+  "stale_run_id": false,
+  "current_run_id": "r55430398-143",
+  "helper_live": true,
+  "session_active": true,
+  "game_status": {
+    "active": true,
+    "editor_log_cursor": 17,
+    "elapsed_msec": 95041,
+    "helper_expected": true,
+    "helper_live": true,
+    "ready": true,
+    "ready_wait_msec": 20000,
+    "run_started_msec": 55430398,
+    "run_token": 143,
+    "session_active": true,
+    "status": "live"
+  },
+  "editor_errors_count": 1,
+  "editor_errors_hint": "1 editor-side error from this run (first: source_actor_3d.gd:236 @ _apply_frame(): Condition \"!is_inside_tree()\" is true. Returning: Transform3D() (res://scripts/source_actor_3d.gd:236)) missing from the game log — boot-time parse/load errors occur before the game helper's logger attaches. Read logs_read(source='editor', include_details=true)."
+}

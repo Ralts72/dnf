@@ -1,0 +1,533 @@
+{
+  "path": "dungeon/act2/hallofdoll.dgn",
+  "crc": {
+    "expected": 1627941992,
+    "actual_seed_file_number": 1627941992,
+    "actual_seed_zero": 552447130
+  },
+  "decoded": [
+    {
+      "type": 5,
+      "index": 16828,
+      "text": "[background pos]"
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 5,
+      "index": 11429,
+      "text": "[name]"
+    },
+    {
+      "type": 9,
+      "value": 2
+    },
+    {
+      "type": 10,
+      "index": 16932,
+      "text": "name_470"
+    },
+    {
+      "type": 5,
+      "index": 16857,
+      "text": "[explain]"
+    },
+    {
+      "type": 9,
+      "value": 2
+    },
+    {
+      "type": 10,
+      "index": 16933,
+      "text": "explain_475"
+    },
+    {
+      "type": 5,
+      "index": 16829,
+      "text": "[entering title]"
+    },
+    {
+      "type": 7,
+      "index": 16934,
+      "text": "Title/sky_mansionofdolls.ani"
+    },
+    {
+      "type": 5,
+      "index": 16831,
+      "text": "[cutscene image]"
+    },
+    {
+      "type": 7,
+      "index": 16902,
+      "text": "Map/CutScene/SkyCastle.img"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 16833,
+      "text": "[minimap image]"
+    },
+    {
+      "type": 7,
+      "index": 16903,
+      "text": "Map/MiniMap/Act2.img"
+    },
+    {
+      "type": 5,
+      "index": 534403,
+      "text": "[worldmap pattern info]"
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 7,
+      "index": 16915,
+      "text": "WorldMap/SelectdungeonSlot/skycastle.img"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 16837,
+      "text": "[minimum required level]"
+    },
+    {
+      "type": 2,
+      "value": 18
+    },
+    {
+      "type": 5,
+      "index": 16838,
+      "text": "[basis level]"
+    },
+    {
+      "type": 2,
+      "value": 21
+    },
+    {
+      "type": 5,
+      "index": 16839,
+      "text": "[experience increasing point]"
+    },
+    {
+      "type": 4,
+      "value": 0.800000011920929
+    },
+    {
+      "type": 5,
+      "index": 16840,
+      "text": "[champion]"
+    },
+    {
+      "type": 2,
+      "value": 4
+    },
+    {
+      "type": 2,
+      "value": 8
+    },
+    {
+      "type": 2,
+      "value": 12
+    },
+    {
+      "type": 2,
+      "value": 16
+    },
+    {
+      "type": 2,
+      "value": 18
+    },
+    {
+      "type": 5,
+      "index": 16852,
+      "text": "[special passive object item]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": -1
+    },
+    {
+      "type": 2,
+      "value": 4
+    },
+    {
+      "type": 2,
+      "value": 3123
+    },
+    {
+      "type": 2,
+      "value": 800
+    },
+    {
+      "type": 2,
+      "value": 3124
+    },
+    {
+      "type": 2,
+      "value": 800
+    },
+    {
+      "type": 2,
+      "value": 3125
+    },
+    {
+      "type": 2,
+      "value": 800
+    },
+    {
+      "type": 2,
+      "value": 3128
+    },
+    {
+      "type": 2,
+      "value": 800
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": -1
+    },
+    {
+      "type": 2,
+      "value": 4
+    },
+    {
+      "type": 2,
+      "value": 1048
+    },
+    {
+      "type": 2,
+      "value": 800
+    },
+    {
+      "type": 2,
+      "value": 1049
+    },
+    {
+      "type": 2,
+      "value": 800
+    },
+    {
+      "type": 2,
+      "value": 1059
+    },
+    {
+      "type": 2,
+      "value": 800
+    },
+    {
+      "type": 2,
+      "value": 1061
+    },
+    {
+      "type": 2,
+      "value": 800
+    },
+    {
+      "type": 5,
+      "index": 16853,
+      "text": "[/special passive object item]"
+    },
+    {
+      "type": 5,
+      "index": 16841,
+      "text": "[pathgate object]"
+    },
+    {
+      "type": 2,
+      "value": 411
+    },
+    {
+      "type": 2,
+      "value": 412
+    },
+    {
+      "type": 2,
+      "value": 413
+    },
+    {
+      "type": 2,
+      "value": 414
+    },
+    {
+      "type": 2,
+      "value": 415
+    },
+    {
+      "type": 2,
+      "value": 416
+    },
+    {
+      "type": 2,
+      "value": 417
+    },
+    {
+      "type": 2,
+      "value": 418
+    },
+    {
+      "type": 2,
+      "value": 419
+    },
+    {
+      "type": 2,
+      "value": 420
+    },
+    {
+      "type": 5,
+      "index": 16842,
+      "text": "[maze info]"
+    },
+    {
+      "type": 5,
+      "index": 16843,
+      "text": "[size]"
+    },
+    {
+      "type": 2,
+      "value": 4
+    },
+    {
+      "type": 2,
+      "value": 4
+    },
+    {
+      "type": 5,
+      "index": 16844,
+      "text": "[greed]"
+    },
+    {
+      "type": 7,
+      "index": 16935,
+      "text": "AAJJFFMM\r\n IILLMMKK\r\n KKDDOOCC\r\n DDFFGGAA"
+    },
+    {
+      "type": 5,
+      "index": 16848,
+      "text": "[start map]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 16849,
+      "text": "[/start map]"
+    },
+    {
+      "type": 5,
+      "index": 16850,
+      "text": "[boss map]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 529154,
+      "text": "[/boss map]"
+    },
+    {
+      "type": 5,
+      "index": 16842,
+      "text": "[maze info]"
+    },
+    {
+      "type": 5,
+      "index": 16861,
+      "text": "[quest connection]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 4308
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 5,
+      "index": 16843,
+      "text": "[size]"
+    },
+    {
+      "type": 2,
+      "value": 4
+    },
+    {
+      "type": 2,
+      "value": 4
+    },
+    {
+      "type": 5,
+      "index": 16844,
+      "text": "[greed]"
+    },
+    {
+      "type": 7,
+      "index": 16936,
+      "text": "BBNNFFMM\r\n IILLMMKK\r\n KKDDOOCC\r\n DDFFGGAA"
+    },
+    {
+      "type": 5,
+      "index": 16846,
+      "text": "[map specification]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1821
+    },
+    {
+      "type": 5,
+      "index": 16847,
+      "text": "[/map specification]"
+    },
+    {
+      "type": 5,
+      "index": 16862,
+      "text": "[boss map specification]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 1820
+    },
+    {
+      "type": 5,
+      "index": 16863,
+      "text": "[/boss map specification]"
+    },
+    {
+      "type": 5,
+      "index": 16848,
+      "text": "[start map]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 16849,
+      "text": "[/start map]"
+    },
+    {
+      "type": 5,
+      "index": 16850,
+      "text": "[boss map]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 529154,
+      "text": "[/boss map]"
+    },
+    {
+      "type": 5,
+      "index": 16854,
+      "text": "[event monster]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 10000
+    },
+    {
+      "type": 2,
+      "value": 61726
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 300
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 16855,
+      "text": "[/event monster]"
+    }
+  ]
+}

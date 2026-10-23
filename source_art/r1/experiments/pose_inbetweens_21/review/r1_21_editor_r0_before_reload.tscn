@@ -1,0 +1,678 @@
+[gd_scene format=3 uid="uid://5sph42c6mtdl"]
+
+[ext_resource type="Script" uid="uid://b0q5h5v1i8xi3" path="res://scripts/west_coast_r0.gd" id="1_ba4fj"]
+[ext_resource type="Texture2D" uid="uid://d386cveuq7q73" path="res://assets/r0/port/far/000.png" id="2_fhp0s"]
+[ext_resource type="Texture2D" uid="uid://bwpy3eemwpt8h" path="res://assets/r0/port/westmid00/image/000.png" id="3_2x5sv"]
+[ext_resource type="Texture2D" uid="uid://bnule2yjjo767" path="res://assets/r0/port/floor/001.png" id="4_b2ryn"]
+[ext_resource type="Texture2D" uid="uid://dac0fy7wgskmh" path="res://assets/r0/port/floor/002.png" id="5_24b55"]
+[ext_resource type="Texture2D" uid="uid://d2uy8ibf8kkvj" path="res://assets/r0/port/floor/003.png" id="6_f50f4"]
+[ext_resource type="Texture2D" uid="uid://d2jjm1rkjm8ni" path="res://assets/r0/port/floor/004.png" id="7_pddja"]
+[ext_resource type="Texture2D" uid="uid://6780q6vpc28f" path="res://assets/r0/port/westmsafetybar/image/000.png" id="8_ky8nc"]
+[ext_resource type="Script" uid="uid://in6e3t65ue2w" path="res://scripts/source_prop.gd" id="9_5res6"]
+[ext_resource type="Texture2D" uid="uid://c65vb0jegg2ft" path="res://assets/r0/port/westmmidship/image/000.png" id="10_qdgtx"]
+[ext_resource type="Texture2D" uid="uid://c647b5fqqb736" path="res://assets/r0/port/skyclose00/image/000.png" id="11_low45"]
+[ext_resource type="Texture2D" uid="uid://cmstdvqm07usa" path="res://assets/r0/port/westile00/image/000.png" id="12_de0va"]
+[ext_resource type="Texture2D" uid="uid://bja3fki5l158i" path="res://assets/r0/port/westile01/image/000.png" id="13_l6hti"]
+[ext_resource type="Texture2D" uid="uid://eyfch8w38p5e" path="res://assets/r0/port/westile02/image/000.png" id="14_8fuy3"]
+[ext_resource type="Texture2D" uid="uid://ckciybhx0ut3o" path="res://assets/r0/port/westile03/image/000.png" id="15_6kgmr"]
+[ext_resource type="Texture2D" uid="uid://d2ckvxj6i4e" path="res://assets/r0/port/westnearship/image/000.png" id="16_hpyas"]
+[ext_resource type="Texture2D" uid="uid://d4bji4nrqvj4x" path="res://assets/r0/port/westile04/image/000.png" id="17_7s4ca"]
+[ext_resource type="Texture2D" uid="uid://bswn7t6havm33" path="res://assets/r0/port/westmobj00/image/000.png" id="18_my0mv"]
+[ext_resource type="Script" uid="uid://dtc0vfttryu" path="res://scripts/source_actor.gd" id="19_ttmf0"]
+[ext_resource type="Texture2D" uid="uid://vj3adaan2hso" path="res://assets/r0/npc_sr/image/000.png" id="20_gejqj"]
+[ext_resource type="Texture2D" uid="uid://kvlefusei4dx" path="res://assets/r0/npc_lo/image/000.png" id="21_l6gk4"]
+[ext_resource type="Texture2D" uid="uid://70uvbkgm4rp" path="res://assets/r0/swordman/weapon_back/090.png" id="22_md6qa"]
+[ext_resource type="Texture2D" uid="uid://cg42i5uqxtlmy" path="res://assets/r0/swordman/body/090.png" id="23_glcl3"]
+[ext_resource type="Texture2D" uid="uid://bupyt17es6ecw" path="res://assets/r0/swordman/pants_back/090.png" id="24_u372l"]
+[ext_resource type="Texture2D" uid="uid://du5o7wrricomh" path="res://assets/r0/swordman/shoes_back/090.png" id="25_uwq4g"]
+[ext_resource type="Texture2D" uid="uid://ddh77wfhvwvac" path="res://assets/r0/swordman/pants/090.png" id="26_p4e16"]
+[ext_resource type="Texture2D" uid="uid://ch38pdqw0oarv" path="res://assets/r0/swordman/shoes/090.png" id="27_3cnye"]
+[ext_resource type="Texture2D" uid="uid://bfuoq8nd2idv5" path="res://assets/r0/swordman/coat/090.png" id="28_0hcs8"]
+[ext_resource type="Texture2D" uid="uid://c82txvo51pbv7" path="res://assets/r0/swordman/hair/090.png" id="29_ya077"]
+[ext_resource type="Texture2D" uid="uid://dfp8u1v0w6gun" path="res://assets/r0/swordman/weapon_front/090.png" id="30_vltx2"]
+
+[sub_resource type="StyleBoxFlat" id="ButtonHover"]
+content_margin_left = 11.0
+content_margin_top = 5.0
+content_margin_right = 11.0
+content_margin_bottom = 5.0
+bg_color = Color(0.25, 0.29, 0.3, 1)
+border_width_bottom = 2
+border_color = Color(0.86, 0.71, 0.41, 1)
+
+[sub_resource type="StyleBoxFlat" id="ButtonNormal"]
+content_margin_left = 11.0
+content_margin_top = 5.0
+content_margin_right = 11.0
+content_margin_bottom = 5.0
+bg_color = Color(0.12, 0.17, 0.22, 1)
+border_width_bottom = 1
+border_color = Color(0.36, 0.4, 0.43, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_zh"]
+font_names = PackedStringArray("PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC")
+
+[sub_resource type="Theme" id="Theme_r0"]
+default_font = SubResource("SystemFont_zh")
+default_font_size = 12
+Button/colors/font_color = Color(0.87, 0.88, 0.85, 1)
+Button/styles/hover = SubResource("ButtonHover")
+Button/styles/normal = SubResource("ButtonNormal")
+Button/styles/pressed = SubResource("ButtonHover")
+
+[node name="WestCoastR0" type="Node2D" unique_id=1731993164]
+script = ExtResource("1_ba4fj")
+
+[node name="Backdrop" type="ColorRect" parent="." unique_id=1915317942]
+offset_right = 960.0
+offset_bottom = 540.0
+mouse_filter = 2
+color = Color(0.055, 0.085, 0.12, 1)
+
+[node name="PortClip" type="Control" parent="." unique_id=156108320]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = 32.0
+offset_top = 62.0
+offset_right = 928.0
+offset_bottom = 466.0
+mouse_filter = 2
+
+[node name="World" type="Node2D" parent="PortClip" unique_id=1057708265]
+texture_filter = 1
+position = Vector2(0, 43)
+
+[node name="Background" type="Node2D" parent="PortClip/World" unique_id=1336089423]
+
+[node name="Far0" type="Sprite2D" parent="PortClip/World/Background" unique_id=1050770294]
+position = Vector2(0, -80)
+texture = ExtResource("2_fhp0s")
+centered = false
+
+[node name="Mid" type="Sprite2D" parent="PortClip/World/Background" unique_id=1113050949]
+position = Vector2(0, -42)
+texture = ExtResource("3_2x5sv")
+centered = false
+
+[node name="Floor" type="Node2D" parent="PortClip/World" unique_id=1930930036]
+
+[node name="Tile0" type="Sprite2D" parent="PortClip/World/Floor" unique_id=2028286610]
+position = Vector2(0, 241)
+texture = ExtResource("4_b2ryn")
+centered = false
+
+[node name="Tile1" type="Sprite2D" parent="PortClip/World/Floor" unique_id=60807608]
+position = Vector2(224, 206)
+texture = ExtResource("5_24b55")
+centered = false
+
+[node name="Tile2" type="Sprite2D" parent="PortClip/World/Floor" unique_id=831508545]
+position = Vector2(448, 116)
+texture = ExtResource("6_f50f4")
+centered = false
+
+[node name="Tile3" type="Sprite2D" parent="PortClip/World/Floor" unique_id=163694018]
+position = Vector2(672, 179)
+texture = ExtResource("7_pddja")
+centered = false
+
+[node name="PortProps" type="Node2D" parent="PortClip/World" unique_id=175751662]
+
+[node name="westmsafetybar_0" type="Node2D" parent="PortClip/World/PortProps" unique_id=1674541251]
+position = Vector2(26, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_0" unique_id=1706356752]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_1" type="Node2D" parent="PortClip/World/PortProps" unique_id=1594382028]
+position = Vector2(85, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_1" unique_id=1456387829]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_2" type="Node2D" parent="PortClip/World/PortProps" unique_id=857552716]
+position = Vector2(144, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_2" unique_id=1248405691]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_3" type="Node2D" parent="PortClip/World/PortProps" unique_id=2113769059]
+position = Vector2(203, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_3" unique_id=1880141973]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_4" type="Node2D" parent="PortClip/World/PortProps" unique_id=1316890252]
+position = Vector2(262, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_4" unique_id=1247007310]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_5" type="Node2D" parent="PortClip/World/PortProps" unique_id=1582281963]
+position = Vector2(321, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_5" unique_id=1627085463]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_6" type="Node2D" parent="PortClip/World/PortProps" unique_id=932098031]
+position = Vector2(380, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_6" unique_id=955118120]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_7" type="Node2D" parent="PortClip/World/PortProps" unique_id=536031827]
+position = Vector2(439, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_7" unique_id=1164585166]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_8" type="Node2D" parent="PortClip/World/PortProps" unique_id=301026656]
+position = Vector2(498, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_8" unique_id=457903529]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_9" type="Node2D" parent="PortClip/World/PortProps" unique_id=1254152239]
+position = Vector2(557, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_9" unique_id=1273635666]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_10" type="Node2D" parent="PortClip/World/PortProps" unique_id=1506209754]
+position = Vector2(616, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_10" unique_id=780023440]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_11" type="Node2D" parent="PortClip/World/PortProps" unique_id=1361044470]
+position = Vector2(675, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_11" unique_id=939635950]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_12" type="Node2D" parent="PortClip/World/PortProps" unique_id=889004786]
+position = Vector2(734, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_12" unique_id=858594320]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_13" type="Node2D" parent="PortClip/World/PortProps" unique_id=1673738489]
+position = Vector2(793, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_13" unique_id=2006593138]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_14" type="Node2D" parent="PortClip/World/PortProps" unique_id=1245525885]
+position = Vector2(852, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_14" unique_id=318793019]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmsafetybar_15" type="Node2D" parent="PortClip/World/PortProps" unique_id=933797171]
+position = Vector2(911, 372)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmsafetybar_15" unique_id=1478686608]
+position = Vector2(-30, -52)
+texture = ExtResource("8_ky8nc")
+centered = false
+
+[node name="westmmidship_16" type="Node2D" parent="PortClip/World/PortProps" unique_id=336046114]
+position = Vector2(773, 37)
+script = ExtResource("9_5res6")
+frames = Array[Dictionary]([{
+"duration_ms": 300,
+"offset": [-176, -256]
+}, {
+"duration_ms": 300,
+"offset": [-176, -257]
+}, {
+"duration_ms": 300,
+"offset": [-176, -258]
+}, {
+"duration_ms": 300,
+"offset": [-176, -257]
+}])
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmmidship_16" unique_id=800785599]
+position = Vector2(-176, -256)
+texture = ExtResource("10_qdgtx")
+centered = false
+
+[node name="skyclose00_17" type="Node2D" parent="PortClip/World/PortProps" unique_id=774232446]
+position = Vector2(0, 220)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/skyclose00_17" unique_id=663632404]
+position = Vector2(0, -143)
+texture = ExtResource("11_low45")
+centered = false
+
+[node name="westile00_18" type="Node2D" parent="PortClip/World/PortProps" unique_id=794548060]
+position = Vector2(104, 336)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westile00_18" unique_id=1830773262]
+position = Vector2(-103, -361)
+texture = ExtResource("12_de0va")
+centered = false
+
+[node name="westile01_19" type="Node2D" parent="PortClip/World/PortProps" unique_id=1705298326]
+position = Vector2(326, 335)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westile01_19" unique_id=1231120623]
+position = Vector2(-101, -377)
+texture = ExtResource("13_l6hti")
+centered = false
+
+[node name="westile02_20" type="Node2D" parent="PortClip/World/PortProps" unique_id=1732298595]
+position = Vector2(549, 341)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westile02_20" unique_id=347179681]
+position = Vector2(-100, -257)
+texture = ExtResource("14_8fuy3")
+centered = false
+
+[node name="westile03_21" type="Node2D" parent="PortClip/World/PortProps" unique_id=524994455]
+position = Vector2(774, 335)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westile03_21" unique_id=28310773]
+position = Vector2(-101, -187)
+texture = ExtResource("15_6kgmr")
+centered = false
+
+[node name="westnearship_22" type="Node2D" parent="PortClip/World/PortProps" unique_id=1558217822]
+position = Vector2(793, 294)
+script = ExtResource("9_5res6")
+frames = Array[Dictionary]([{
+"duration_ms": 250,
+"offset": [-190, -310]
+}, {
+"duration_ms": 230,
+"offset": [-190, -312]
+}, {
+"duration_ms": 180,
+"offset": [-190, -314]
+}, {
+"duration_ms": 150,
+"offset": [-190, -316]
+}, {
+"duration_ms": 180,
+"offset": [-190, -314]
+}, {
+"duration_ms": 230,
+"offset": [-190, -312]
+}, {
+"duration_ms": 350,
+"offset": [-190, -310]
+}, {
+"duration_ms": 350,
+"offset": [-190, -308]
+}])
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westnearship_22" unique_id=684689463]
+position = Vector2(-190, -310)
+texture = ExtResource("16_hpyas")
+centered = false
+
+[node name="westile04_23" type="Node2D" parent="PortClip/World/PortProps" unique_id=1098587798]
+position = Vector2(743, 349)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westile04_23" unique_id=1060537241]
+position = Vector2(-151, -174)
+texture = ExtResource("17_7s4ca")
+centered = false
+
+[node name="westmobj00_24" type="Node2D" parent="PortClip/World/PortProps" unique_id=764475267]
+position = Vector2(386, 231)
+
+[node name="Image" type="Sprite2D" parent="PortClip/World/PortProps/westmobj00_24" unique_id=1763844082]
+position = Vector2(-214, -193)
+texture = ExtResource("18_my0mv")
+centered = false
+
+[node name="Actors" type="Node2D" parent="PortClip/World" unique_id=1142839131]
+y_sort_enabled = true
+
+[node name="Sharan" type="Node2D" parent="PortClip/World/Actors" unique_id=1407589778]
+texture_filter = 1
+position = Vector2(150, 267)
+script = ExtResource("19_ttmf0")
+animation_data = "res://data/npc_sr_r0.json"
+
+[node name="Visual" type="Node2D" parent="PortClip/World/Actors/Sharan" unique_id=1885565218]
+
+[node name="image" type="Sprite2D" parent="PortClip/World/Actors/Sharan/Visual" unique_id=1574441009]
+position = Vector2(-30, -138)
+texture = ExtResource("20_gejqj")
+centered = false
+
+[node name="Lorian" type="Node2D" parent="PortClip/World/Actors" unique_id=1787518502]
+texture_filter = 1
+position = Vector2(285, 272)
+script = ExtResource("19_ttmf0")
+animation_data = "res://data/npc_lo_r0.json"
+
+[node name="Visual" type="Node2D" parent="PortClip/World/Actors/Lorian" unique_id=835838658]
+
+[node name="image" type="Sprite2D" parent="PortClip/World/Actors/Lorian/Visual" unique_id=513589427]
+position = Vector2(-22, -101)
+texture = ExtResource("21_l6gk4")
+centered = false
+
+[node name="Swordman" type="Node2D" parent="PortClip/World/Actors" unique_id=14454431]
+texture_filter = 1
+position = Vector2(440, 320)
+script = ExtResource("19_ttmf0")
+animation_data = "res://data/swordman_r0.json"
+controllable = true
+
+[node name="Visual" type="Node2D" parent="PortClip/World/Actors/Swordman" unique_id=1975963166]
+
+[node name="weapon_back" type="Sprite2D" parent="PortClip/World/Actors/Swordman/Visual" unique_id=1321003805]
+position = Vector2(-45, -79)
+texture = ExtResource("22_md6qa")
+centered = false
+
+[node name="body" type="Sprite2D" parent="PortClip/World/Actors/Swordman/Visual" unique_id=1284426934]
+position = Vector2(-32, -100)
+texture = ExtResource("23_glcl3")
+centered = false
+
+[node name="pants_back" type="Sprite2D" parent="PortClip/World/Actors/Swordman/Visual" unique_id=1613768573]
+position = Vector2(268, -333)
+texture = ExtResource("24_u372l")
+centered = false
+
+[node name="shoes_back" type="Sprite2D" parent="PortClip/World/Actors/Swordman/Visual" unique_id=2055150654]
+position = Vector2(268, -333)
+texture = ExtResource("25_uwq4g")
+centered = false
+
+[node name="pants" type="Sprite2D" parent="PortClip/World/Actors/Swordman/Visual" unique_id=1778545306]
+position = Vector2(-25, -64)
+texture = ExtResource("26_p4e16")
+centered = false
+
+[node name="shoes" type="Sprite2D" parent="PortClip/World/Actors/Swordman/Visual" unique_id=1101592705]
+position = Vector2(-30, -12)
+texture = ExtResource("27_3cnye")
+centered = false
+
+[node name="coat" type="Sprite2D" parent="PortClip/World/Actors/Swordman/Visual" unique_id=539456053]
+position = Vector2(-11, -95)
+texture = ExtResource("28_0hcs8")
+centered = false
+
+[node name="hair" type="Sprite2D" parent="PortClip/World/Actors/Swordman/Visual" unique_id=332727333]
+position = Vector2(0, -103)
+texture = ExtResource("29_ya077")
+centered = false
+
+[node name="weapon_front" type="Sprite2D" parent="PortClip/World/Actors/Swordman/Visual" unique_id=725165234]
+position = Vector2(-28, -62)
+texture = ExtResource("30_vltx2")
+centered = false
+
+[node name="Interface" type="CanvasLayer" parent="." unique_id=137653017]
+layer = 10
+
+[node name="Header" type="ColorRect" parent="Interface" unique_id=136103964]
+offset_right = 960.0
+offset_bottom = 62.0
+mouse_filter = 2
+color = Color(0.055, 0.085, 0.12, 0.98)
+
+[node name="Footer" type="ColorRect" parent="Interface" unique_id=174698851]
+offset_top = 466.0
+offset_right = 960.0
+offset_bottom = 540.0
+mouse_filter = 2
+color = Color(0.055, 0.085, 0.12, 0.98)
+
+[node name="GoldLine" type="ColorRect" parent="Interface" unique_id=329844539]
+offset_left = 32.0
+offset_top = 60.0
+offset_right = 928.0
+offset_bottom = 61.0
+mouse_filter = 2
+color = Color(0.69, 0.53, 0.29, 0.6)
+
+[node name="Title" type="Label" parent="Interface" unique_id=2039761048]
+offset_left = 32.0
+offset_top = 10.0
+theme = SubResource("Theme_r0")
+theme_override_colors/font_color = Color(0.94, 0.85, 0.64, 1)
+theme_override_font_sizes/font_size = 21
+text = "西海岸  /  港口"
+
+[node name="Subtitle" type="Label" parent="Interface" unique_id=1138741386]
+offset_left = 33.0
+offset_top = 38.0
+theme = SubResource("Theme_r0")
+theme_override_colors/font_color = Color(0.83, 0.86, 0.87, 1)
+theme_override_font_sizes/font_size = 11
+text = "鬼剑士 · 原图与动作基准"
+
+[node name="Build" type="Label" parent="Interface" unique_id=764389087]
+offset_left = 856.0
+offset_top = 17.0
+theme = SubResource("Theme_r0")
+theme_override_colors/font_color = Color(0.78, 0.65, 0.43, 1)
+theme_override_font_sizes/font_size = 13
+text = "R0   /   01"
+
+[node name="Status" type="Label" parent="Interface" unique_id=225268314]
+offset_left = 650.0
+offset_top = 39.0
+theme = SubResource("Theme_r0")
+theme_override_colors/font_color = Color(0.83, 0.86, 0.87, 1)
+theme_override_font_sizes/font_size = 11
+
+[node name="Compare" type="Button" parent="Interface" unique_id=1650787762]
+offset_left = 453.0
+offset_top = 17.0
+offset_right = 566.0
+offset_bottom = 44.0
+focus_mode = 0
+theme = SubResource("Theme_r0")
+text = "R1 混合 F4"
+
+[node name="AudioMenu" type="OptionButton" parent="Interface" unique_id=19971706]
+offset_left = 211.0
+offset_top = 17.0
+offset_right = 328.0
+offset_bottom = 44.0
+tooltip_text = "人物动作与港口环境声音量；F8 静音或恢复，背景音乐由 F9 独立控制"
+focus_mode = 0
+theme = SubResource("Theme_r0")
+
+[node name="MusicMenu" type="OptionButton" parent="Interface" unique_id=166879868]
+offset_left = 334.0
+offset_top = 17.0
+offset_right = 447.0
+offset_bottom = 44.0
+tooltip_text = "背景音乐音量；F9 静音保留进度，音乐独立于动作暂停，F4 连续播放"
+focus_mode = 0
+theme = SubResource("Theme_r0")
+
+[node name="MoreActions" type="OptionButton" parent="Interface" unique_id=1910332146]
+offset_left = 650.0
+offset_top = 8.0
+offset_right = 824.0
+offset_bottom = 34.0
+tooltip_text = "原始姿势预览；跳跃、倒地与防御中的长保持帧可用 F1 拖动选帧或 F3 逐帧查看"
+focus_mode = 0
+theme = SubResource("Theme_r0")
+
+[node name="Help" type="Label" parent="Interface" unique_id=95736533]
+offset_left = 32.0
+offset_top = 511.0
+theme = SubResource("Theme_r0")
+theme_override_colors/font_color = Color(0.83, 0.86, 0.87, 1)
+theme_override_font_sizes/font_size = 11
+text = "WASD 移动 · Shift 奔跑 · Space 跳跃 · X 攻击 · Q 动作 · R 复位 · Esc 自由 · Tab 界面"
+
+[node name="MotionToggle" type="CheckButton" parent="Interface" unique_id=1981948246]
+offset_left = 650.0
+offset_top = 506.0
+offset_right = 780.0
+offset_bottom = 536.0
+tooltip_text = "平滑角色移动与跳跃位置；F11 开关对照，动作原图与周期保持不变"
+focus_mode = 0
+theme = SubResource("Theme_r0")
+theme_override_font_sizes/font_size = 11
+button_pressed = true
+text = "平移 F11"
+
+[node name="EffectsToggle" type="CheckButton" parent="Interface" unique_id=795163536]
+offset_left = 782.0
+offset_top = 506.0
+offset_right = 928.0
+offset_bottom = 536.0
+tooltip_text = "崩山击刀光与落地特效；F10 开关。动作演示，无伤害判定"
+focus_mode = 0
+theme = SubResource("Theme_r0")
+theme_override_font_sizes/font_size = 11
+button_pressed = true
+text = "特效 F10"
+
+[node name="Inspector" type="Label" parent="Interface" unique_id=231097575]
+visible = false
+offset_left = 46.0
+offset_top = 76.0
+theme = SubResource("Theme_r0")
+theme_override_colors/font_color = Color(0.93, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 12
+
+[node name="FrameSlider" type="HSlider" parent="Interface" unique_id=514634160]
+visible = false
+offset_left = 46.0
+offset_top = 164.0
+offset_right = 266.0
+offset_bottom = 184.0
+focus_mode = 0
+mouse_default_cursor_shape = 2
+max_value = 5.0
+
+[node name="FrameLabel" type="Label" parent="Interface" unique_id=1968839649]
+visible = false
+offset_left = 46.0
+offset_top = 187.0
+theme = SubResource("Theme_r0")
+theme_override_colors/font_color = Color(0.93, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 11
+
+[node name="Buttons" type="HBoxContainer" parent="Interface" unique_id=996848649]
+offset_left = 32.0
+offset_top = 477.0
+offset_right = 928.0
+offset_bottom = 503.0
+theme = SubResource("Theme_r0")
+theme_override_constants/separation = 5
+
+[node name="Free" type="Button" parent="Interface/Buttons" unique_id=1994881442]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "自由"
+
+[node name="Jump" type="Button" parent="Interface/Buttons" unique_id=725339347]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "跳跃 Space"
+
+[node name="Action0" type="Button" parent="Interface/Buttons" unique_id=1166162851]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "1 待机"
+
+[node name="Action1" type="Button" parent="Interface/Buttons" unique_id=4619940]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "2 行走"
+
+[node name="Action2" type="Button" parent="Interface/Buttons" unique_id=1007569508]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "3 奔跑"
+
+[node name="Action3" type="Button" parent="Interface/Buttons" unique_id=60669046]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "4 普攻一"
+
+[node name="Action4" type="Button" parent="Interface/Buttons" unique_id=1233247510]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "5 普攻二"
+
+[node name="Action5" type="Button" parent="Interface/Buttons" unique_id=725393247]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "6 崩山击"
+
+[node name="Pause" type="Button" parent="Interface/Buttons" unique_id=2134433087]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "暂停 F2"
+
+[node name="Step" type="Button" parent="Interface/Buttons" unique_id=220985223]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "逐帧 F3"
+
+[node name="Markers" type="Button" parent="Interface/Buttons" unique_id=2075960668]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "脚底 F1"
+
+[node name="Facing" type="Button" parent="Interface/Buttons" unique_id=412573435]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "转向 F7"

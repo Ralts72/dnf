@@ -1,0 +1,36 @@
+{
+  "source": "game",
+  "lines": [
+    {
+      "level": "info",
+      "run_id": "r56012695-147",
+      "source": "game",
+      "text": "[godot_ai game_helper] registered mcp capture (debugger active=true, logger=true)\n"
+    }
+  ],
+  "total_count": 1,
+  "returned_count": 1,
+  "offset": 0,
+  "limit": 15,
+  "has_more": false,
+  "run_id": "r56012695-147",
+  "is_running": true,
+  "dropped_count": 13782,
+  "stale_run_id": false,
+  "current_run_id": "r56012695-147",
+  "helper_live": true,
+  "session_active": true,
+  "game_status": {
+    "active": true,
+    "editor_log_cursor": 17,
+    "elapsed_msec": 31719,
+    "helper_expected": true,
+    "helper_live": true,
+    "ready": true,
+    "ready_wait_msec": 20000,
+    "run_started_msec": 56012695,
+    "run_token": 147,
+    "session_active": true,
+    "status": "live"
+  }
+}

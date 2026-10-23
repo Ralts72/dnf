@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "source_data": "data/npc_lo_r0.json",
+  "canvas_size": [
+    96,
+    128
+  ],
+  "foot_anchor": [
+    26,
+    105
+  ],
+  "animations": {
+    "stay": {
+      "frames": [
+        {
+          "texture": "res://assets/r1/actors/npc_lo/stay_00.png",
+          "duration_ms": 180,
+          "img_frame": 0,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        },
+        {
+          "texture": "res://assets/r1/actors/npc_lo/stay_01.png",
+          "duration_ms": 180,
+          "img_frame": 1,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        },
+        {
+          "texture": "res://assets/r1/actors/npc_lo/stay_02.png",
+          "duration_ms": 180,
+          "img_frame": 2,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        },
+        {
+          "texture": "res://assets/r1/actors/npc_lo/stay_03.png",
+          "duration_ms": 180,
+          "img_frame": 3,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        },
+        {
+          "texture": "res://assets/r1/actors/npc_lo/stay_04.png",
+          "duration_ms": 180,
+          "img_frame": 4,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        },
+        {
+          "texture": "res://assets/r1/actors/npc_lo/stay_05.png",
+          "duration_ms": 180,
+          "img_frame": 5,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        },
+        {
+          "texture": "res://assets/r1/actors/npc_lo/stay_06.png",
+          "duration_ms": 180,
+          "img_frame": 6,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        },
+        {
+          "texture": "res://assets/r1/actors/npc_lo/stay_07.png",
+          "duration_ms": 180,
+          "img_frame": 7,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        },
+        {
+          "texture": "res://assets/r1/actors/npc_lo/stay_08.png",
+          "duration_ms": 180,
+          "img_frame": 8,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        }
+      ]
+    }
+  }
+}

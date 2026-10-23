@@ -1,0 +1,19 @@
+{
+  "candidate": "R1/15",
+  "baseline": "R1/14",
+  "failed": [],
+  "mesh_fingerprints_identical": true,
+  "meshes": 302,
+  "fingerprint_covers": [
+    "vertices",
+    "polygon_indices",
+    "all_uv_layers",
+    "world_transforms"
+  ],
+  "editable_stall_uses_unlit_alpha_graph": true,
+  "packed_images": 27,
+  "all_thirteen_meshes_select_projected_uv": true,
+  "source_sha256": "559d3da089fffc2e785c34ff5dee7ba2f12652c4f258c55295ed6d8c85894774",
+  "script_sha256": "52d6e7d43db3b3e1c90c18dcdf88a172a72bab7a0cc6b9dd13d6c7ef8461ee68",
+  "source_modified_by_inspection": false
+}

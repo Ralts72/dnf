@@ -1,0 +1,94 @@
+{
+  "check_script": "res://tools/r1/stall_checks.gd",
+  "elapsed_seconds": 4.255065,
+  "qa_source_sha256": "49ce31bf15b9b0dc8d5c7045a77aca1e4bb46607c7ec8115089e67119c6ee50e",
+  "render_cases_completed": 0,
+  "result": {
+    "candidate": "R1/15",
+    "checks": [
+      {
+        "check": "canopy_has_real_height_and_depth",
+        "details": {
+          "aabb_size": "(2.983333, 0.93, 1.299415)"
+        },
+        "pass": true
+      },
+      {
+        "check": "painted_stall_uses_alpha_cutout",
+        "details": {
+          "source_texture_size": "(443.0, 230.0)",
+          "transparency": 2
+        },
+        "pass": true
+      },
+      {
+        "check": "whole_stall_billboard_removed",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "source_pattern_is_projected_uv",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "independent_drapery_and_counter",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "native_rope_meshes_present",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "upper_corner_blocks_without_vertical_snap",
+        "details": {
+          "source_position": "(378.0, 252.0)"
+        },
+        "pass": true
+      },
+      {
+        "check": "lower_strip_reopens_rightward_route",
+        "details": {
+          "source_position": "(422.9997, 298.4003)"
+        },
+        "pass": true
+      },
+      {
+        "check": "left_strip_reaches_npc_back_row",
+        "details": {
+          "source_position": "(99.99998, 245.0)"
+        },
+        "pass": true
+      },
+      {
+        "check": "stall_sign_blocks_native_body",
+        "details": {
+          "collider": "StallSignCollision",
+          "slide_collisions": 1,
+          "source_position": "(306.6572, 249.5201)"
+        },
+        "pass": true
+      },
+      {
+        "check": "npc_occludes_player_in_upper_strip",
+        "details": {
+          "distinct_opaque_overlap_pixels": 6616,
+          "foot": "(300.0, 576.0001)",
+          "method": "Both source alpha masks across the actor body, excluding AA edges; compare combined render with separate actor/NPC renders",
+          "pixels_matching_npc_only": 6616
+        },
+        "pass": true
+      }
+    ],
+    "coverage": "Retained R1/02 stall and walk-area checks",
+    "failed": 0,
+    "note": "These supplement the core R1 checks. They do not establish historical gameplay fidelity or Windows correctness.",
+    "platform": "macOS",
+    "qa_source_sha256": "49ce31bf15b9b0dc8d5c7045a77aca1e4bb46607c7ec8115089e67119c6ee50e",
+    "render_scale": 2.0,
+    "render_viewport": "(1792, 808)"
+  },
+  "status": "complete"
+}

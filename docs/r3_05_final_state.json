@@ -1,0 +1,169 @@
+{
+  "appearance": {
+    "action": "stay",
+    "clip_paths": {
+      "dash": "res://data/swordman_dash_inbetweens.json",
+      "move": "res://data/swordman_walk_inbetweens.json"
+    },
+    "data_path": "res://data/swordman_r1.json",
+    "elapsed_ms": 98.8893333333333,
+    "frame": 1,
+    "inbetweens_enabled": true,
+    "key": "practice_lswd0000",
+    "last_error": "",
+    "spatial": true,
+    "texture_count": 92
+  },
+  "camera": "(0.0, 12.0)",
+  "diagnostics_active": false,
+  "diagnostics_processing": false,
+  "encounter_meta": false,
+  "equipment_runtime": {
+    "applied_actor_id": 72578239086,
+    "applied_key": "practice_lswd0000",
+    "apply_count": 1,
+    "last_error": "",
+    "scene": "res://scenes/west_coast_r1.tscn"
+  },
+  "formal_profile_exists": false,
+  "input_blocked": false,
+  "loot": {
+    "bag_open": false,
+    "can_pickup": false,
+    "drop_visible": false,
+    "inventory_count": 0,
+    "position": "(640.0, 300.0)",
+    "toast": ""
+  },
+  "physics_ticks": 60,
+  "player": {
+    "action": "stay",
+    "audio": {
+      "clock_ms": 0.0,
+      "pending": []
+    },
+    "elapsed_ms": 98.8893333333333,
+    "facing": 1,
+    "frame": 1,
+    "jump": {
+      "air_attack_started": -1.0,
+      "air_attack_used": false,
+      "elapsed": -1.0,
+      "travel_speed": 95.0
+    },
+    "next_attack": "attack1",
+    "one_shot": false,
+    "paused": false,
+    "position": "(440.0, 320.0)",
+    "preview": false
+  },
+  "progress": {
+    "dialog_open": false,
+    "encounter_cleared": false,
+    "last_error": "",
+    "loaded_from_backup": false,
+    "pending_save": false,
+    "progress": {
+      "coins": 0,
+      "equipment": {
+        "equipped_key": "practice_lswd0000",
+        "owned": {
+          "27304": false
+        }
+      },
+      "first_drop": {
+        "id": "mirkius_first_eye_v1",
+        "position": [
+          640,
+          300
+        ],
+        "region": "hall",
+        "state": "unearned"
+      },
+      "inventory": {
+        "3128": 0
+      },
+      "objective_cleared": false,
+      "quest_stage": "available",
+      "reward_granted": false,
+      "schema": 3
+    },
+    "region_scene": "res://scenes/west_coast_r1.tscn",
+    "save_attempts": 0,
+    "storage_path": "user://adventure/first_route_v1.json",
+    "storage_ready": true
+  },
+  "root_children": [
+    "_mcp_game_helper",
+    "PortMusic",
+    "PortAmbience",
+    "WestCoastR1",
+    "FrameDiagnostics",
+    "AdventureProgress"
+  ],
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "script_hashes": {
+    "res://scripts/adventure_progress.gd": {
+      "disk": "114445dc2e92c9897d87fe67abb0a33ca65dd43f4a40172e05dffeb6b141372a",
+      "loaded": "114445dc2e92c9897d87fe67abb0a33ca65dd43f4a40172e05dffeb6b141372a"
+    },
+    "res://scripts/equipment_appearance.gd": {
+      "disk": "74aee2535000d516bb3873a24c2f26ec1c5446ec32a25bb4eafa37e2e5ac89f1",
+      "loaded": "74aee2535000d516bb3873a24c2f26ec1c5446ec32a25bb4eafa37e2e5ac89f1"
+    },
+    "res://scripts/equipment_runtime.gd": {
+      "disk": "3d06afa187acc73fcab587ecf84d7958fdbf52414e9ed63064d9916f00719e18",
+      "loaded": "3d06afa187acc73fcab587ecf84d7958fdbf52414e9ed63064d9916f00719e18"
+    },
+    "res://scripts/first_encounter.gd": {
+      "disk": "c7ad269aaab2132cc3a5c60b493187f6a32afe92f7579029f54c77872edd08a7",
+      "loaded": "c7ad269aaab2132cc3a5c60b493187f6a32afe92f7579029f54c77872edd08a7"
+    },
+    "res://scripts/first_loot.gd": {
+      "disk": "20fcef22d0e381b27b76f449345170e4ab9a21b029de76de2828f91d1a7d83fa",
+      "loaded": "20fcef22d0e381b27b76f449345170e4ab9a21b029de76de2828f91d1a7d83fa"
+    },
+    "res://scripts/source_walk_inbetweens.gd": {
+      "disk": "91d529d94c7f296020a2c9bb242b4e0b6c877025e51378962a9ffc63f4fb7cc2",
+      "loaded": "91d529d94c7f296020a2c9bb242b4e0b6c877025e51378962a9ffc63f4fb7cc2"
+    }
+  },
+  "settings": {
+    "audio_muted": false,
+    "audio_volume": 0.6,
+    "effects": true,
+    "motion": true,
+    "music_muted": false,
+    "music_volume": 0.2,
+    "quality": 2,
+    "walk": true
+  },
+  "spawn": "(440.0, 320.0)",
+  "travel": {
+    "can_exit": true,
+    "current_region": "harbor",
+    "exit_hold_id": "",
+    "exit_hold_required_seconds": 0.15,
+    "exit_hold_seconds": 0.0,
+    "fade_alpha": 0.0,
+    "grounded": true,
+    "harbor_return_position": "(60.0, 320.0)",
+    "last_error": "",
+    "last_exit": "",
+    "pending_target": "",
+    "phase": "ready",
+    "region": "harbor",
+    "reset_positions": {
+      "harbor": "(440.0, 320.0)"
+    },
+    "schema_version": 1,
+    "source_position": "(440.0, 320.0)",
+    "spawn_position": "(440.0, 320.0)",
+    "transition_count": 0,
+    "transitioning": false,
+    "ui_input_blocked": false,
+    "visited": [
+      "harbor"
+    ]
+  }
+}

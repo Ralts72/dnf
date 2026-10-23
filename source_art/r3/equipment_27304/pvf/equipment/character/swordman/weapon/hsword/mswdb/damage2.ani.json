@@ -1,0 +1,32 @@
+{
+  "path": "equipment/character/swordman/weapon/hsword/mswdb/damage2.ani",
+  "role": "weapon layer",
+  "sha256": "25c31af0150c7d1fabed7106e6f96af4769f59b049f3519ded5106267b510e70",
+  "crc": {
+    "expected": 4139505179,
+    "actual_seed_file_number": 4139505179,
+    "actual_seed_zero": 698370954
+  },
+  "decoded": {
+    "frames_count": 1,
+    "resources": [
+      "character/swordman/equipment/weapon/mswd/mswd%02d%02db.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "character/swordman/equipment/weapon/mswd/mswd%02d%02db.img",
+        "image_frame": 104,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 10000
+          }
+        ]
+      }
+    ]
+  }
+}

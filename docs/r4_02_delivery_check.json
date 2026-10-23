@@ -1,0 +1,242 @@
+{
+  "candidate": "R4/02",
+  "verified_at_utc": "2026-10-23T09:31:43.561559+00:00",
+  "native_runs": {
+    "native_imports_and_visual": "r51100519-122",
+    "equipment": "r51144833-123",
+    "ghost_slash": "r51463810-125",
+    "boss_route_regression": "r51623297-126",
+    "fresh": "r51767682-127"
+  },
+  "checks": {
+    "native_ghost_slash": 25,
+    "native_equipment_regression": 20,
+    "native_boss_route_regression": 37
+  },
+  "total_function_checks": 82,
+  "failed": [],
+  "artifact_hashes_passed": 2152,
+  "manifest_sha256": "2eeb0c3ee67648f0e52ca563ef59ecb3d756eedeb9742c1747ab1918fa5611da",
+  "native_imports": {
+    "textures": 246,
+    "exact_rgba_pixels": 3057430,
+    "source_definition_material_checks": 20
+  },
+  "character": {
+    "actions": 15,
+    "frames": 110,
+    "new_hardattack_frames": 18,
+    "new_hardattack_original_ms": 950,
+    "new_source_png_crops": 210,
+    "new_composite_pngs": 36,
+    "canvas": [
+      320,
+      224
+    ],
+    "foot": [
+      133,
+      167
+    ],
+    "old_action_objects_unchanged": 56,
+    "old_png_bytes_unchanged": 1086
+  },
+  "formal_profile_before": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "formal_profile_after": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "fresh_state": {
+    "action_count": 15,
+    "actor_action": "stay",
+    "appearance": {
+      "action": "stay",
+      "clip_paths": {
+        "dash": "res://data/swordman_dash_inbetweens.json",
+        "move": "res://data/swordman_walk_inbetweens.json"
+      },
+      "data_path": "res://data/swordman_ghost_practice_r1.json",
+      "elapsed_ms": 63.5843333333301,
+      "frame": 0,
+      "inbetweens_enabled": true,
+      "key": "practice_lswd0000",
+      "last_error": "",
+      "spatial": true,
+      "texture_count": 110
+    },
+    "blocked": false,
+    "boss_meta": false,
+    "camera": {
+      "x": 0,
+      "y": 12
+    },
+    "diagnostics_active": false,
+    "diagnostics_processing": false,
+    "equipment_runtime": {
+      "applied_actor_id": 73316436592,
+      "applied_key": "practice_lswd0000",
+      "apply_count": 1,
+      "last_error": "",
+      "scene": "res://scenes/west_coast_r1.tscn"
+    },
+    "first_meta": false,
+    "formal_profile": {
+      "user://adventure/first_route_v1.json": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.bak": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "sha256": ""
+      }
+    },
+    "hardattack_frame_count": 18,
+    "hero_position": {
+      "x": 440,
+      "y": 320
+    },
+    "inbetweens": true,
+    "interpolation": true,
+    "paused": false,
+    "physics_tps": 60,
+    "preview": false,
+    "profile": {
+      "dialog_open": false,
+      "encounter_cleared": false,
+      "last_error": "",
+      "loaded_from_backup": false,
+      "pending_save": false,
+      "progress": {
+        "chapter_flags": {
+          "lakius_cleared": false
+        },
+        "coins": 0,
+        "equipment": {
+          "equipped_key": "practice_lswd0000",
+          "owned": {
+            "27304": false
+          }
+        },
+        "first_drop": {
+          "id": "mirkius_first_eye_v1",
+          "position": [
+            640,
+            300
+          ],
+          "region": "hall",
+          "state": "unearned"
+        },
+        "inventory": {
+          "3128": 0
+        },
+        "objective_cleared": false,
+        "quest_stage": "available",
+        "reward_granted": false,
+        "schema": 4
+      },
+      "region_scene": "res://scenes/west_coast_r1.tscn",
+      "save_attempts": 0,
+      "storage_path": "user://adventure/first_route_v1.json",
+      "storage_ready": true
+    },
+    "scene": "res://scenes/west_coast_r1.tscn",
+    "shared_hp_meta": false,
+    "skill": {
+      "accepted_casts": 0,
+      "action": "hardattack",
+      "actor_id": 73316436592,
+      "can_cast": true,
+      "cooldown_remaining": 0,
+      "cooldown_seconds": 6,
+      "freeze_reason": "",
+      "frozen": false,
+      "hud_text": "Z 鬼斩 · 就绪",
+      "hud_visible": true,
+      "last_reject_reason": "",
+      "ready": true,
+      "rejected_casts": 0,
+      "reset_count": 0,
+      "scene": "res://scenes/west_coast_r1.tscn"
+    },
+    "source_versions_match": {
+      "effects": true,
+      "equipment_runtime": true,
+      "loot": true,
+      "profile": true,
+      "skill": true,
+      "travel": true
+    }
+  },
+  "timing_seconds": {
+    "native_imports_and_structure": 0.544239,
+    "equipment_native_job": 25.436931,
+    "ghost_native_job": 16.77653,
+    "boss_route_native_job": 36.981203
+  },
+  "source_and_scope_notes": [
+    "Canonical HardAttack adds18 original950ms character records to all four complete manifests; existing14 actions, body/apparel clocks and oldPNG paths stay unchanged. Original weapon50/500ms delays are source evidence; master character timing is used as before.",
+    "Two550ms source tracks keep their original150ms blank lead, visible150..450ms and blank tail. hardattack1 uses normal alpha, hardattack2 additive. Existing HopSmash stays additive and its original shader is unchanged.",
+    "The new6s cooldown follows the source skill duration but its session persistence, freeze policy, input gating,44damage/160px reach/28px depth and150..450ms hit window are explicit prototype rules. Dedicated voice/audio dispatch, dark/magic formula and charged branch are not restored.",
+    "A portable root runtime carries cooldown acrossF4 and travel, ticks through normal actions/movement/hurt and freezes through pause/menu/bag/dialog/inspection/preview/fade/KO. AcceptedR practice clears cooldown. It never writes profile storage.",
+    "New25 native checks include a real6s wait and next cast, repeated/air/UI/preview rejection, both weapons atframe17 inR0/R1, native sprite and shader texture identity, actualZ44/48 single contacts inhall/boss, cross-portal cooldown and real enemy hurt timer behavior. Combat positions, ownership and one clock setup are explicitly marked fixtures; no additional no-fixture victory is claimed by that suite.",
+    "Independent20 actual first-route/equipment regression and37 boss/route checks passed current build; the latter includes an AI-enabled100/220HP kill and return. Human profiles were never created or changed. No new storage schema was introduced;38-storage tests remain the frozenR4/01 evidence, not re-counted here.",
+    "Source exporter report intentionally records its historical unhooked status and original effectsJSON SHA. Integration changed only runtime_hooks_implemented and a note in thatJSON; finalassetQA proves retained ANI/IMG frame/blend/clock semantics and records both historical and current hashes.",
+    "Initial121 smoke had four late-import boot failures and a CanvasLayer-vs-CanvasItem HUD cast error; subsequent scan/relaunch and a precise HUD fix resolved both. Evidence retained under source_art/r4/experiments/ghost_first_121. Final122/123/125/126/127 logs are clean; historical debugger rows not cleared.",
+    "Initial124QA observed jump preparation at90ms/height0 and falsely required airborne height. Z was already rejected. Original executed QA/report retained under source_art/r4/experiments/ghost_qa_first_124; final125 waits bounded400ms for actualheight>10 then checks rejection, and includes stronger actualframe17 sprite assertions.",
+    "Native job wall time includes deliberate action/cooldown/travel waiting, not just local CPU work. No new FPS benchmark, Windows test or equipment-upgrade recommendation is inferred.",
+    "Quota atfreeze: used26%, remaining74%, same reset1793293820; ordinary usage allowed, credits62480.2337700000 unchanged, no reset credits used. Continue requested content after this checkpoint.",
+    "Sharan portrait/research and any new unhooked interaction module are futureR4/03 work and excluded from this build."
+  ],
+  "screenshots": {
+    "great_frame17": {
+      "error": 0,
+      "path": "res://docs/previews/r4_02_ghost_great_frame17.png",
+      "scene": "res://scenes/west_coast_r1.tscn"
+    },
+    "source_fx": {
+      "error": 0,
+      "path": "res://docs/previews/r4_02_ghost_source_fx.png",
+      "scene": "res://scenes/west_coast_r1.tscn"
+    }
+  },
+  "manual_visual": "docs/previews/r4_02_ghost_slash_port.png",
+  "checkpoint": "source_art/r4/checkpoints/candidate_02"
+}

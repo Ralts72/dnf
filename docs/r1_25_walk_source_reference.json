@@ -1,0 +1,109 @@
+{
+  "candidate": "R1/25",
+  "source_bake_report": "docs/r1_24_bake_checks.json",
+  "source_bake_sha256": "c1c3be7580b9e9e6946a829e75010b28eef5fbb7c6f7be95a93f56f5d1572de4",
+  "recipe_sha256": "94a4ce85dbdd96848ef6eb181d98c320bc4ffb10b2b61c370d9045216094f1a8",
+  "actor_shader_sha256": "134802b92734c3a3cdf289e8ec123320f53c3b47c2167e10e6a9338756789606",
+  "source_animation_sha256": "1c4b47cf4d2ce09a9f65a506f4f906d495f3088e2dd5d2f8e487bdb254ae4e18",
+  "runtime_data_sha256": "886a58617a56849c2c4041085e78db4080637aad8699372d46d43ed1a98d8865",
+  "textures": [
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_00_1.png",
+      "sha256": "28514b29b59da82345e9930b8b03a746a23d8b210b7e3934ef04c3b76b7d49f4",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_00_1.png",
+      "bytes": 5435
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_00_2.png",
+      "sha256": "3c7df4bd2267ea42e9a40c2d08360d9d2cc140974a00337d22319e087e392631",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_00_2.png",
+      "bytes": 5011
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_01_1.png",
+      "sha256": "b3079cddda2d0f7f9166b91a93f3fc4388c81c0d6ee7b1b031815c55fa0dd926",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_01_1.png",
+      "bytes": 5538
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_01_2.png",
+      "sha256": "c458763280ce2393e17aa033c4c55269074ff9ffbc0f38818c89e452b93d3952",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_01_2.png",
+      "bytes": 5746
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_02_1.png",
+      "sha256": "ffa2864bdfb9ac322e6807ec13c45adc47063f050971ace6107b0a5f2b3711d9",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_02_1.png",
+      "bytes": 6021
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_02_2.png",
+      "sha256": "236fa545e912236a8bfe87d17594b138abf804fb2602b24b526d862797cfa775",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_02_2.png",
+      "bytes": 5977
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_03_1.png",
+      "sha256": "67b8e0b73a00403ea3e7c5479e412f93063ef4a32865d78395f77bf2d9818403",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_03_1.png",
+      "bytes": 5856
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_03_2.png",
+      "sha256": "609bb613a5ece89075a238d1ca10b111ff0685304fdb1ead9cbe106ea180940d",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_03_2.png",
+      "bytes": 5870
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_04_1.png",
+      "sha256": "c90020bc2676cb100d13e505a201b67256c597c243a772d86eff565a0c505632",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_04_1.png",
+      "bytes": 5347
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_04_2.png",
+      "sha256": "11183a27f5c54ddb0ba090fd101ef14f1d136a786ee7a61cd8b001d363675bfa",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_04_2.png",
+      "bytes": 5224
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_05_1.png",
+      "sha256": "f148b287c599bd7273a6156434a0eaea8dbfbd20a5574516d407a5586fef7969",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_05_1.png",
+      "bytes": 5316
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_05_2.png",
+      "sha256": "f94b67067cb7502d19f6277a404ac4f5ff2f38974396c7b9cad981ffb565127d",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_05_2.png",
+      "bytes": 5377
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_06_1.png",
+      "sha256": "41f5d8c78f572179fb2fdbbd57c9778e42f0457845b250286307a7bbd9fe2623",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_06_1.png",
+      "bytes": 5572
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_06_2.png",
+      "sha256": "5ce4697cf8b29eb47631156f78b06c3c38ff6ac5b570c1aec1e532273d34ec75",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_06_2.png",
+      "bytes": 5569
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_07_1.png",
+      "sha256": "7d116e5ea18379060149df896a530917c91de4de0d225cc3b616284736230e99",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_07_1.png",
+      "bytes": 5459
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_walk/move_07_2.png",
+      "sha256": "c28d933543cd489f891c4246079a433310762ad8cf49a27ebb2faf1c565c7a08",
+      "source": "source_art/r1/experiments/walk_cycle_24/baked/move_07_2.png",
+      "bytes": 5497
+    }
+  ],
+  "qa_source_sha256": "765b0a7b3ed7301fb71bc2c543a0e97eab7c8f1ba15bda32352121b84d0e43b7",
+  "derived_texture_count": 16
+}

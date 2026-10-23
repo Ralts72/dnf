@@ -1,0 +1,50 @@
+{
+  "run": "r52621946-131",
+  "scope": "No quest check executed. The prior Sharan QA keeps an instantiated quest-helper dependency alive. Attempting to reload the same quest GDScript from another job in the same run returnedERR_ALREADY_IN_USE22. Use a fresh game process for the standalone quest regression. Production source unchanged.",
+  "logs": {
+    "source": "game",
+    "lines": [
+      {
+        "level": "info",
+        "run_id": "r52621946-131",
+        "source": "game",
+        "text": "[godot_ai game_helper] registered mcp capture (debugger active=true, logger=true)\n"
+      },
+      {
+        "level": "error",
+        "run_id": "r52621946-131",
+        "source": "game",
+        "text": "Cannot reload script while instances exist. (res://tools/r1/pose_check_job.gd:19 @ start)"
+      }
+    ],
+    "total_count": 2,
+    "returned_count": 2,
+    "offset": 0,
+    "limit": 30,
+    "has_more": false,
+    "run_id": "r52621946-131",
+    "is_running": true,
+    "dropped_count": 13762,
+    "stale_run_id": false,
+    "current_run_id": "r52621946-131",
+    "helper_live": true,
+    "session_active": true,
+    "game_status": {
+      "active": true,
+      "editor_log_cursor": 17,
+      "elapsed_msec": 192791,
+      "helper_expected": true,
+      "helper_live": true,
+      "ready": true,
+      "ready_wait_msec": 20000,
+      "run_started_msec": 52621945,
+      "run_token": 131,
+      "session_active": true,
+      "status": "live"
+    },
+    "editor_errors_count": 1,
+    "editor_errors_hint": "1 editor-side error from this run (first: pose_check_job.gd:19 @ start(): Cannot reload script while instances exist. (res://tools/r1/pose_check_job.gd:19)) missing from the game log — boot-time parse/load errors occur before the game helper's logger attaches. Read logs_read(source='editor', include_details=true).",
+    "new_errors_since_last_call": 1,
+    "new_errors_hint": "1 new GDScript error since your last call. If you are mid-way through a planned multi-file scaffold, finish the related writes and run filesystem_manage(op=\"scan\") before debugging; otherwise inspect with logs_read(source='editor'|'game', include_details=true)."
+  }
+}

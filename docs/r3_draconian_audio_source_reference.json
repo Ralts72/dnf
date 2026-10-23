@@ -1,0 +1,401 @@
+{
+  "schema": 1,
+  "created_at_utc": "2026-10-23T07:00:31.202670+00:00",
+  "producer": "tools/r3/export_draconian_audio.py",
+  "producer_sha256": "274da024d0ab996a1b13e50e4be67533e7dd6807b19a85daa5e4fd21cb74ce93",
+  "client": "/Users/mac/Downloads/天堂95起源单机客户端",
+  "audio_xml_sha256": "709e314f1b7be9864fa0f5bdfa133279d005b3ae83a17d8594563d003fe5c37d",
+  "packs": {
+    "sounds_effect.npk": {
+      "sha256": "f44848765ad6cc282f609b50a5ffe32b7077a186ad53b2ffa649db0160e4c764",
+      "bytes": 11338084,
+      "selection": "Explicit canonical package; no overlay/patch precedence inferred"
+    }
+  },
+  "sounds": {
+    "SPEAR_HIT": {
+      "path": "res://assets/r3/audio/spear_hit.ogg",
+      "pack": "sounds_effect.npk",
+      "entry": "sounds/effect/spear_hit.ogg",
+      "offset": 9187508,
+      "bytes": 6687,
+      "sha256": "dce59c3d62cfa6bbee7d5d2b73485cb49b4f476da33b30e00a97b4dc727b45d4",
+      "xml_attributes": {
+        "ID": "SPEAR_HIT",
+        "FILE": "sounds\\effect\\spear_hit.ogg"
+      },
+      "retained_original": "source_art/r3/audio/spear_hit.ogg",
+      "runtime_bytes": 6695,
+      "runtime_sha256": "27e7c08dd9713c7681d5be79a17f7ccc475f852effaa955ef54c07dae9cfa8c1",
+      "metadata_fix": {
+        "comments_fixed": 1,
+        "audio_packets": 24,
+        "audio_packet_sha256": "27dcec618f958bf6a2417140e096c8f5ea2c0559463edb4bb0a6d98720fa0be5",
+        "all_noncomment_packets_identical": true
+      },
+      "ogg_pages": [
+        {
+          "sequence": 0,
+          "serial": 10152,
+          "granule_position": 0,
+          "flags": 2,
+          "crc_valid": true
+        },
+        {
+          "sequence": 1,
+          "serial": 10152,
+          "granule_position": 0,
+          "flags": 0,
+          "crc_valid": true
+        },
+        {
+          "sequence": 2,
+          "serial": 10152,
+          "granule_position": 9086,
+          "flags": 4,
+          "crc_valid": true
+        }
+      ],
+      "source_decoded_pcm": {
+        "decoder": "ffmpeg",
+        "format": "interleaved float32 little-endian",
+        "sample_rate": 44100,
+        "channels": 1,
+        "frames": 8958,
+        "bytes": 35832,
+        "sha256": "05ac817432d81b3d3295a7b36f1de847b3c7a998c65075925153e9cde36adaf6",
+        "container_duration_seconds": 0.206032
+      },
+      "runtime_decoded_pcm": {
+        "decoder": "ffmpeg",
+        "format": "interleaved float32 little-endian",
+        "sample_rate": 44100,
+        "channels": 1,
+        "frames": 8958,
+        "bytes": 35832,
+        "sha256": "05ac817432d81b3d3295a7b36f1de847b3c7a998c65075925153e9cde36adaf6",
+        "container_duration_seconds": 0.206032
+      },
+      "decoded_pcm_byte_identical": true,
+      "identification_setup_and_audio_packets_identical": true,
+      "granule_serial_sequence_and_flags_identical": true,
+      "source_binding": {
+        "pvf": "monster/draconian/dmattackinfo/attack.atk",
+        "pvf_sha256": "c846b39216daa05cb4889310a7808a22e9a51ec2867debbced18e9978e070914",
+        "fields": [
+          {
+            "token_index": 14,
+            "tag": "FOX_ATK_HIT"
+          },
+          {
+            "token_index": 23,
+            "tag": "SPEAR_HIT"
+          }
+        ],
+        "limitation": "SPEAR_HIT is explicitly referenced. Repeated FOX_ATK_HIT/[hit wav] precedence and original engine dispatch were not executed."
+      }
+    }
+  },
+  "source_evidence": {
+    "audio_xml_sha256": "709e314f1b7be9864fa0f5bdfa133279d005b3ae83a17d8594563d003fe5c37d",
+    "selected_sound_tags": {
+      "SPEAR_HIT": {
+        "ID": "SPEAR_HIT",
+        "FILE": "sounds\\effect\\spear_hit.ogg"
+      }
+    },
+    "family_candidates_unbound": {
+      "DRAGONMAN_ATK_SHORT": {
+        "xml_attributes": {
+          "ID": "DRAGONMAN_ATK_SHORT",
+          "FILE": "sounds\\mon\\act2\\drgm_atk2.ogg"
+        },
+        "xml_children": [],
+        "exported": false,
+        "bound_to_mirkius": false,
+        "reason": "Dragonman-family tag exists, but this Mirkius MOB/ANI does not supply an exact voice binding."
+      },
+      "DRAGONMAN_ATK_LONG": {
+        "xml_attributes": {
+          "ID": "DRAGONMAN_ATK_LONG",
+          "FILE": "sounds\\mon\\act2\\drgm_atk1.ogg"
+        },
+        "xml_children": [],
+        "exported": false,
+        "bound_to_mirkius": false,
+        "reason": "Dragonman-family tag exists, but this Mirkius MOB/ANI does not supply an exact voice binding."
+      },
+      "DRAGONMAN_ATK": {
+        "xml_attributes": {
+          "ID": "DRAGONMAN_ATK",
+          "FILE": "sounds\\mon\\act2\\drgm_atk.ogg"
+        },
+        "xml_children": [],
+        "exported": false,
+        "bound_to_mirkius": false,
+        "reason": "Dragonman-family tag exists, but this Mirkius MOB/ANI does not supply an exact voice binding."
+      },
+      "DRAGONMAN_DMG": {
+        "xml_attributes": {
+          "ID": "DRAGONMAN_DMG",
+          "FILE": "sounds\\mon\\act2\\drgm_dmg.ogg"
+        },
+        "xml_children": [],
+        "exported": false,
+        "bound_to_mirkius": false,
+        "reason": "Dragonman-family tag exists, but this Mirkius MOB/ANI does not supply an exact voice binding."
+      },
+      "DRAGONMAN_DIE": {
+        "xml_attributes": {
+          "ID": "DRAGONMAN_DIE",
+          "FILE": "sounds\\mon\\act2\\drgm_die.ogg"
+        },
+        "xml_children": [],
+        "exported": false,
+        "bound_to_mirkius": false,
+        "reason": "Dragonman-family tag exists, but this Mirkius MOB/ANI does not supply an exact voice binding."
+      },
+      "R_DRAGONMAN_DMG": {
+        "xml_attributes": {
+          "ID": "R_DRAGONMAN_DMG"
+        },
+        "xml_children": [
+          {
+            "TAG": "DRAGONMAN_DMG",
+            "PROB": "50"
+          },
+          {
+            "TAG": "EMPTY_SOUND",
+            "PROB": "50"
+          }
+        ],
+        "exported": false,
+        "bound_to_mirkius": false,
+        "reason": "Dragonman-family tag exists, but this Mirkius MOB/ANI does not supply an exact voice binding."
+      }
+    },
+    "mirkius_ani_voice_scan": [
+      {
+        "path": "monster/draconian/dmani/stay.ani",
+        "sha256": "4b082885cc39f7c1d1030da786198b130b51a87722a87844afe30a865290f8bc",
+        "sound_properties_type16": []
+      },
+      {
+        "path": "monster/draconian/dmani/movefoward.ani",
+        "sha256": "6fc89f1c7c016d98805353d4d1017b72458a3afaee847be17975e37240313d1d",
+        "sound_properties_type16": []
+      },
+      {
+        "path": "monster/draconian/dmani/attack.ani",
+        "sha256": "81ed48f2bc3f0444deab223cbf81c22f9d24e2f02b7bf5f4896727ac553eb541",
+        "sound_properties_type16": []
+      },
+      {
+        "path": "monster/draconian/dmani/damage1.ani",
+        "sha256": "a8f39692a916ea5ba943a3704a27d24ea2fd500005e3c75ac0560ded33c96b65",
+        "sound_properties_type16": []
+      },
+      {
+        "path": "monster/draconian/dmani/damage2.ani",
+        "sha256": "64636c48f9077c498a21b933abdc934bfeab6051c7f88dec4881bff7aae4b6cd",
+        "sound_properties_type16": []
+      },
+      {
+        "path": "monster/draconian/dmani/down.ani",
+        "sha256": "c55b5637c967f71da70c6575d02141444361e349a5719dd102ec6f0e646e73a3",
+        "sound_properties_type16": []
+      },
+      {
+        "path": "monster/draconian/dmani/moveback.ani",
+        "sha256": "ca51f430dae9baa5a02aab0cb0e9cefea158cb627ca9ce6a1b14a65276e1c817",
+        "sound_properties_type16": []
+      },
+      {
+        "path": "monster/draconian/dmani/sit.ani",
+        "sha256": "1e386318fd4a8d087a29fe95694770e7298fd800300aceaad8830890ce4959bf",
+        "sound_properties_type16": []
+      },
+      {
+        "path": "monster/draconian/dmani/attacklong.ani",
+        "sha256": "85de8186e158d024afeedd4ea1a955ac23fc3f8611ff2d30d375645d6a20baea",
+        "sound_properties_type16": []
+      }
+    ],
+    "mirkius_mob_sound_tokens": [],
+    "atk": {
+      "path": "monster/draconian/dmattackinfo/attack.atk",
+      "sha256": "c846b39216daa05cb4889310a7808a22e9a51ec2867debbced18e9978e070914",
+      "crc": {
+        "expected": 4088570885,
+        "actual_seed_file_number": 4088570885,
+        "actual_seed_zero": 1918585391
+      },
+      "tokens": [
+        {
+          "type": 5,
+          "index": 1103,
+          "text": "[attack type]"
+        },
+        {
+          "type": 5,
+          "index": 1104,
+          "text": "[physic]"
+        },
+        {
+          "type": 5,
+          "index": 1105,
+          "text": "[weapon damage apply]"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 5,
+          "index": 1106,
+          "text": "[attack enemy]"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 5,
+          "index": 1107,
+          "text": "[elemental property]"
+        },
+        {
+          "type": 5,
+          "index": 1108,
+          "text": "[no element]"
+        },
+        {
+          "type": 5,
+          "index": 1109,
+          "text": "[damage reaction]"
+        },
+        {
+          "type": 5,
+          "index": 1110,
+          "text": "[damage]"
+        },
+        {
+          "type": 5,
+          "index": 1111,
+          "text": "[push aside]"
+        },
+        {
+          "type": 2,
+          "value": 100
+        },
+        {
+          "type": 5,
+          "index": 1112,
+          "text": "[lift up]"
+        },
+        {
+          "type": 2,
+          "value": 50
+        },
+        {
+          "type": 5,
+          "index": 1118,
+          "text": "[hit wav]"
+        },
+        {
+          "type": 7,
+          "index": 306535,
+          "text": "FOX_ATK_HIT"
+        },
+        {
+          "type": 5,
+          "index": 1113,
+          "text": "[attack direction]"
+        },
+        {
+          "type": 5,
+          "index": 1114,
+          "text": "[hit lift up]"
+        },
+        {
+          "type": 5,
+          "index": 1115,
+          "text": "[hit info]"
+        },
+        {
+          "type": 5,
+          "index": 1123,
+          "text": "[cut]"
+        },
+        {
+          "type": 5,
+          "index": 1124,
+          "text": "[blood]"
+        },
+        {
+          "type": 2,
+          "value": 50
+        },
+        {
+          "type": 4,
+          "value": 1.0
+        },
+        {
+          "type": 5,
+          "index": 1118,
+          "text": "[hit wav]"
+        },
+        {
+          "type": 7,
+          "index": 307187,
+          "text": "SPEAR_HIT"
+        }
+      ]
+    }
+  },
+  "runtime_mapping": {
+    "schema": 1,
+    "monster_id": 70,
+    "sounds": {
+      "SPEAR_HIT": {
+        "path": "res://assets/r3/audio/spear_hit.ogg"
+      }
+    },
+    "source_roles": {
+      "attack_voice": null,
+      "hurt_voice": null,
+      "death_voice": null,
+      "explicit_atk_spear_hit_tag": "SPEAR_HIT"
+    },
+    "actions": {},
+    "runtime_hooks_implemented": false,
+    "source_reference": "docs/r3_draconian_audio_source_reference.json",
+    "notes": [
+      "Only SPEAR_HIT is exported: exact audio.xml tag-to-file resolution and a direct Mirkius attackinfo reference are verified.",
+      "Attack, hurt and death voices remain unassigned. DRAGONMAN family names alone do not prove Mirkius voice dispatch.",
+      "Mirkius ATK repeats [hit wav] with FOX_ATK_HIT then SPEAR_HIT; precedence/full original contact dispatch is unresolved.",
+      "Runtime OGG fixes one bare Vorbis comment and its page CRC only. Original source bytes are retained unchanged.",
+      "All identification/setup/audio packets and OGG timing headers are unchanged; local ffmpeg float32 PCM is byte-identical.",
+      "No gameplay event timing, runtime audio hook, hero voice replacement, Godot/client execution, or paid/network service is included."
+    ]
+  },
+  "verification": {
+    "sound_count": 1,
+    "source_bytes": 6687,
+    "all_source_ogg_bytes_preserved": true,
+    "all_noncomment_packets_identical": true,
+    "all_ogg_page_crcs_valid": true,
+    "all_timing_headers_identical": true,
+    "all_decoded_pcm_byte_identical": true,
+    "voice_dispatch_resolved": false,
+    "godot_import_or_playback_tested": false
+  },
+  "notes": [
+    "Only SPEAR_HIT is exported: exact audio.xml tag-to-file resolution and a direct Mirkius attackinfo reference are verified.",
+    "Attack, hurt and death voices remain unassigned. DRAGONMAN family names alone do not prove Mirkius voice dispatch.",
+    "Mirkius ATK repeats [hit wav] with FOX_ATK_HIT then SPEAR_HIT; precedence/full original contact dispatch is unresolved.",
+    "Runtime OGG fixes one bare Vorbis comment and its page CRC only. Original source bytes are retained unchanged.",
+    "All identification/setup/audio packets and OGG timing headers are unchanged; local ffmpeg float32 PCM is byte-identical.",
+    "No gameplay event timing, runtime audio hook, hero voice replacement, Godot/client execution, or paid/network service is included."
+  ]
+}

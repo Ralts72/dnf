@@ -1,0 +1,61 @@
+{
+  "path": "monster/monster.lst",
+  "sha256": "e9c4a49752c1809e36e88c6b93ba32dfef3b9ae7813cdb14561b5ecfdeafb247",
+  "bytes": 29842,
+  "crc": {
+    "expected": 2775211196,
+    "actual_seed_file_number": 2775211196,
+    "actual_seed_zero": 2503935851
+  },
+  "raw_reference": "source_art/r3/pvf/monster/monster.lst.bin",
+  "decoded": {
+    "selection": "Only Draconian ID/path pairs; complete bytes retained in .bin",
+    "tokens": [
+      {
+        "type": 2,
+        "value": 70
+      },
+      {
+        "type": 7,
+        "index": 312832,
+        "text": "Draconian/Mirkius.mob"
+      },
+      {
+        "type": 2,
+        "value": 71
+      },
+      {
+        "type": 7,
+        "index": 312833,
+        "text": "Draconian/Lakius.mob"
+      },
+      {
+        "type": 2,
+        "value": 72
+      },
+      {
+        "type": 7,
+        "index": 312970,
+        "text": "Draconian/Minius.mob"
+      },
+      {
+        "type": 2,
+        "value": 50007
+      },
+      {
+        "type": 7,
+        "index": 312918,
+        "text": "Draconian/AuraHunter_Sius.mob"
+      },
+      {
+        "type": 2,
+        "value": 55023
+      },
+      {
+        "type": 7,
+        "index": 313258,
+        "text": "Draconian/Tower_Lakius.mob"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "scenes": [
+    {
+      "path": "scenes/west_coast_r0.tscn",
+      "exact": true,
+      "sha256": "e5cafb9ca7012a1e8c6c3430553dd22b27c81e35f4efd67105b40553f0ade63e"
+    },
+    {
+      "path": "scenes/west_coast_r1.tscn",
+      "exact": true,
+      "sha256": "6e8d8a880d9f9dc5d1f323b6b416731e9d39b6f3ed1f1ebae1f3709f21e01bf7"
+    }
+  ],
+  "dash_producer_idempotent": true,
+  "dash_files_checked": 18,
+  "note": "Scene generators captured in memory; no scene files written."
+}

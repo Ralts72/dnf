@@ -1,0 +1,89 @@
+{
+  "pvf_path": "character/swordman/animation/guard.ani",
+  "crc": {
+    "expected": 1004401756,
+    "actual_seed_file_number": 1004401756,
+    "actual_seed_zero": 2154156638
+  },
+  "decoded": {
+    "frames_count": 2,
+    "resources": [
+      "character/swordman/equipment/avatar/skin/sm_body%04d.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 123,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -27,
+              -5,
+              0,
+              27,
+              10,
+              88
+            ]
+          },
+          {
+            "type": 14,
+            "xyz_size": [
+              -3,
+              -4,
+              -2,
+              20,
+              7,
+              61
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 10000
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 124,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -31,
+              -5,
+              0,
+              29,
+              10,
+              88
+            ]
+          },
+          {
+            "type": 14,
+            "xyz_size": [
+              -4,
+              -10,
+              0,
+              13,
+              20,
+              60
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 10000
+          }
+        ]
+      }
+    ]
+  }
+}

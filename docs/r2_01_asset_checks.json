@@ -1,0 +1,113 @@
+{
+  "candidate": "R2/01",
+  "failed": [],
+  "note": "Actual running Godot Texture2D images compared with decoded owned PNG RGBA; source exporter separately verifies original IMG decoding.",
+  "textures": [
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/approach/bridge_0.png",
+      "size": "(224, 306)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/approach/bridge_1.png",
+      "size": "(224, 306)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/approach/bridge_2.png",
+      "size": "(224, 546)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/approach/bridge_3.png",
+      "size": "(224, 470)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/approach/sea.png",
+      "size": "(896, 262)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/approach/wall.png",
+      "size": "(333, 84)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/entrance/tower.png",
+      "size": "(882, 600)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/entrance/gate.png",
+      "size": "(102, 218)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/entrance/far.png",
+      "size": "(640, 786)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/interior/far.png",
+      "size": "(630, 355)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/interior/wall_0.png",
+      "size": "(224, 434)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/interior/wall_1.png",
+      "size": "(224, 434)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/interior/wall_2.png",
+      "size": "(224, 434)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/interior/wall_3.png",
+      "size": "(224, 434)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/interior/wall_4.png",
+      "size": "(224, 434)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/interior/wall_5.png",
+      "size": "(224, 434)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/interior/floor.png",
+      "size": "(224, 120)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/interior/banner.png",
+      "size": "(224, 309)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/interior/column.png",
+      "size": "(29, 93)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/approach/paving.png",
+      "size": "(192, 96)"
+    },
+    {
+      "exact_rgba": true,
+      "path": "res://assets/r2/interior/paving.png",
+      "size": "(192, 96)"
+    }
+  ],
+  "total_exact_rgba_pixels": 2624475
+}

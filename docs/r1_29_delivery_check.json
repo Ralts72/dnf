@@ -1,0 +1,249 @@
+{
+  "candidate": "R1/29",
+  "verified_at_utc": "2026-10-23T06:33:23.465025+00:00",
+  "qa_run_id": "r40800297-83",
+  "fresh_run_id": "r41000850-84",
+  "artifact_hashes_passed": 336,
+  "build_manifest_sha256": "e89966090944ce7d7116b2ebc08d84dd9fd80661ab011f5918ca52cc3a823fdc",
+  "native_function_checks": {
+    "horizontal_framing": {
+      "checks": 15,
+      "elapsed_seconds": 2.344426,
+      "qa_source_sha256": "5010b2bb7e31136ca511658e4f7495dbfd1e0ce431a93016fb4c0d66a6061dbd"
+    },
+    "horizontal_motion": {
+      "checks": 9,
+      "elapsed_seconds": 12.057655,
+      "qa_source_sha256": "a7e6b2cee14e6e98c941e26fe228c7d5b83074b9172a81cd6a5a15492e62d2a0"
+    },
+    "runtime": {
+      "checks": 17,
+      "elapsed_seconds": 4.663924,
+      "qa_source_sha256": "777f8986e5bc3916d90124e2f8f16b7c901854808132fefe31c03c257d2edc00"
+    },
+    "interpolation": {
+      "checks": 43,
+      "elapsed_seconds": 7.284586,
+      "qa_source_sha256": "90de4e48ecdee27ec9f932ff4c154ff593443fea7784a291c1d0ccbe3c0fb5bc"
+    },
+    "locomotion": {
+      "checks": 49,
+      "elapsed_seconds": 3.972068,
+      "qa_source_sha256": "fc866ed24e92c28cb7dae703a937dd45d2497ccc5d328df30dd3dcd46d93c130"
+    }
+  },
+  "total_native_function_checks": 133,
+  "failed": 0,
+  "horizontal_framebuffer_cases": 96,
+  "lower_ground_coverage_cases": 6,
+  "offline_pose_bounds": {
+    "counts": {
+      "raw_frame_textures": 92,
+      "derived_frame_textures": 32,
+      "unique_png_paths": 124,
+      "unique_png_hashes": 112,
+      "projection_cases": 496,
+      "nonzero_alpha_pixels_across_textures": 454097
+    },
+    "logical_bbox_extrema_xyxy": [
+      8,
+      188,
+      888,
+      396
+    ],
+    "all_projection_cases_inside_viewport": true,
+    "framing_script_sha256": "1e75138b0a90e88771aa04311674b9ac2965baa5d102cdbedbb6dca976a999a9"
+  },
+  "framing": {
+    "candidate": "R1/29",
+    "source_ground_x_bounds": [
+      36,
+      852
+    ],
+    "horizontal_pose_radius_source_pixels": 176,
+    "source_margin_pixels": 8,
+    "horizontal_deadzone": [
+      184,
+      712
+    ],
+    "legal_edge_camera_offsets": [
+      -148,
+      140
+    ],
+    "maximum_camera_x_offset": 152,
+    "maximum_eased_camera_x_speed_pixels_per_second": 190,
+    "default_camera_offset": [
+      0,
+      12
+    ],
+    "maximum_vertical_offset": 40,
+    "source_ground_foot_anchor": [
+      133,
+      167
+    ],
+    "logical_viewport": [
+      896,
+      404
+    ],
+    "model_overscan_source_x": [
+      -160,
+      1056
+    ],
+    "model_policy": "Retain original302 mesh/material/accessor entries and binarydata; append14 mirrored edge meshes. Source .blend assembles baseline plus generated edge meshes in newbackground Blender.",
+    "rebuild_baseline": "source_art/r1/checkpoints/candidate_28",
+    "rebuild_helper": "tools/r1/preserve_overscan_model.py --capture-generated",
+    "backdrop": "Far remains horizontally fixed; R0 Far0 counteracts its canvas x shift.",
+    "padding_interpretation": "R0 floor and ship crops mirror original texels outside the previous view, not recovered complete source scenery.",
+    "navigation_or_actor_rule_changes": false,
+    "proofs": [
+      "docs/r1_29_model_geometry_checks.json",
+      "docs/r1_29_pose_bounds.json",
+      "docs/r1_29_horizontal_checks.json",
+      "docs/r1_29_horizontal_motion_checks.json"
+    ]
+  },
+  "model_preservation": {
+    "checks": 8,
+    "before": {
+      "path": "source_art/r1/checkpoints/candidate_28/assets/r1/models/west_coast_port.glb",
+      "sha256": "ca75b6b591b354329266790e51d1a4bd1f2825b36379fe9f449f188b0bb9db97",
+      "meshes": 302,
+      "triangles": 106730
+    },
+    "after": {
+      "path": "assets/r1/models/west_coast_port.glb",
+      "sha256": "1163ffa227be2edee92d14ca80a0ab718026d1c8408e218ffeb11e1232833ff5",
+      "meshes": 316,
+      "triangles": 119812
+    },
+    "original_meshes_exact": 302,
+    "failed": []
+  },
+  "source_verification": {
+    "source_crops_checked": 769,
+    "source_ani_crc_checked": 27,
+    "exact_rgba_composites": 107,
+    "lossless_import_profiles_checked": 961,
+    "failed": 0
+  },
+  "model_texture_source_verification": {
+    "texture_count": 27,
+    "total_exact_rgba_pixels": 322574,
+    "glb_images_covered": 27,
+    "glb_sha256": "1163ffa227be2edee92d14ca80a0ab718026d1c8408e218ffeb11e1232833ff5",
+    "failed": []
+  },
+  "actual_input_observation": {
+    "summary": {
+      "count": 3810,
+      "mean_ms": 8.340454330708662,
+      "median_ms": 8.3185,
+      "p95_ms": 9.59,
+      "p99_ms": 10.151,
+      "maximum_ms": 19.152,
+      "frames_over_16_67_ms": 3,
+      "frames_over_33_33_ms": 0,
+      "frames_over_100_ms": 0,
+      "elapsed_sample_seconds": 31.777131,
+      "fps_from_mean": 119.89754518744942
+    },
+    "coverage_checks": 12,
+    "failed": [],
+    "plan_cycles": 1,
+    "source": "docs/r1_29_live_analysis.json"
+  },
+  "fresh_state": {
+    "build": "R1   /   29",
+    "camera_offset_pixels": "(0.0, 12.0)",
+    "derived_locomotion_enabled": true,
+    "derived_texture_counts": {
+      "dash": 16.0,
+      "move": 16.0
+    },
+    "diagnostics_active": false,
+    "diagnostics_processing": false,
+    "diagnostics_visible": false,
+    "loaded_scripts": {
+      "res://scripts/source_actor_3d.gd": {
+        "disk_sha256": "c1ee0f6ff5fbcf84cb894fc1d8e762fdce813bc66328419860b4c9bb5640e39e",
+        "loaded_sha256": "c1ee0f6ff5fbcf84cb894fc1d8e762fdce813bc66328419860b4c9bb5640e39e"
+      },
+      "res://scripts/source_framing.gd": {
+        "disk_sha256": "1e75138b0a90e88771aa04311674b9ac2965baa5d102cdbedbb6dca976a999a9",
+        "loaded_sha256": "1e75138b0a90e88771aa04311674b9ac2965baa5d102cdbedbb6dca976a999a9"
+      },
+      "res://scripts/west_coast_r1.gd": {
+        "disk_sha256": "3eab7b34109dd04e5c0c87d2d8b97e24739027d0980ba7a036ea1643e93bf952",
+        "loaded_sha256": "3eab7b34109dd04e5c0c87d2d8b97e24739027d0980ba7a036ea1643e93bf952"
+      }
+    },
+    "native_actor_interpolation": true,
+    "physics_ticks": 60,
+    "player": {
+      "action": "stay",
+      "audio": {
+        "clock_ms": 0.0,
+        "pending": []
+      },
+      "elapsed_ms": 111.322666666667,
+      "facing": 1,
+      "frame": 1,
+      "jump": {
+        "air_attack_started": -1.0,
+        "air_attack_used": false,
+        "elapsed": -1.0,
+        "travel_speed": 95.0
+      },
+      "next_attack": "attack1",
+      "one_shot": false,
+      "paused": false,
+      "position": "(440.0, 320.0)",
+      "preview": false
+    },
+    "render_scale": 2,
+    "root_children": [
+      "_mcp_game_helper",
+      "PortMusic",
+      "PortAmbience",
+      "WestCoastR1",
+      "FrameDiagnostics"
+    ],
+    "scene": "res://scenes/west_coast_r1.tscn"
+  },
+  "logs": {
+    "current_game_errors": 0,
+    "current_game_warnings": 0,
+    "new_editor_entries_since_cursor_17": 0,
+    "source": "docs/r1_29_final_logs.json",
+    "historical_entries_not_cleared": true
+  },
+  "limitations": [
+    "Focused133-check regression; full pose/effect/jump suites from R1/28 were not repeated in this iteration.",
+    "496 offline cases prove source alpha bounds at the two legal lower edges; they do not prove visibility through scenery or every airborne world position.",
+    "96 framebuffer cases sample8 representative poses, both facings, both legal lower edges and R1 scales1/2 plus R0.",
+    "R0 floor and ship crop extensions mirror original texels; these are interpreted scenery outside the old crop, not recovered complete source content.",
+    "One31.8s Mac live observation; main-loop wall intervals do not prove display presentation, Windows performance, long-term stability or isolated incremental model cost. Native GPU timing unavailable.",
+    "Published302 original meshes and39 materials are preserved exactly. Rebuild depends on the captured candidate28 baseline in source_art/r1/checkpoints/candidate_28."
+  ],
+  "evidence_sha256": {
+    "docs/r1_29_horizontal_job.json": "aa02a0bc6f48caad3977fbf985387a3b14c34de736006d3348b1f2237d2f0ad4",
+    "docs/r1_29_horizontal_motion_job.json": "a690658de7ce86bdf048f9770adf52070d5264d52d8cae93af4900387d24e3bf",
+    "docs/r1_29_runtime_job.json": "9941f334f97709be641d0f2dc9fddc999901d7948cbcf41fde42f41a99501381",
+    "docs/r1_29_interpolation_job.json": "3248a5de4586b39455f53ad0fc2102c6659283fbb4557f693424446361057a26",
+    "docs/r1_29_locomotion_job.json": "767f3ce57f9cf1de172ebf5d59300cbc129f21ba7fd6e3ddccb349b81571e598",
+    "docs/r1_29_horizontal_checks.json": "0bc9f195dd64b2284f0c95f46668fe243160f9c6c67e8bb74f51af26a9227bf8",
+    "docs/r1_29_horizontal_motion_checks.json": "6ae1ac322f694603bd257a4ce9b743917d8b319dd24215cde0412653bd28e804",
+    "docs/r1_29_model_geometry_checks.json": "7d6a8b00b09ad31d87a2c4340e09d67e26c858fc15b2e7281cd79e53b79ee1f4",
+    "docs/r1_29_pose_bounds.json": "e6fd258d891a6d39a3ba0d7a8270061783b82099e5c778aa0bb81c6a71af7749",
+    "docs/r1_29_source_checks.json": "1d89658a78da255ad944a748f4acefa2b849b783372dc0cef54ff97569106396",
+    "docs/r1_29_model_texture_source_checks.json": "4be60a7ebdec725e3ea48d210edde600588e14a1a71fd5c406e6319eda5dc351",
+    "docs/r1_29_live_analysis.json": "e7c27a7ed0f5e5cc5110e3d8f55acb6acd9116d56719d5880985355d8f75df99",
+    "docs/r1_29_live_samples.json": "ae2867787e2eecef18cc9a6e73b19074ca7eee2c3c3ab6e15e659b7a3eea3ec2",
+    "docs/r1_29_live_observation.json": "8e1fd95c221bd590490e184d39ca97ad3fd48f3b7166ec2185499014db6650af",
+    "docs/r1_29_final_state.json": "9c38f175778c3554902c27d8d7d3652f780e903e48f0147ce846aca0fec73ab2",
+    "docs/r1_29_final_logs.json": "edf41cb57c7523dc006d77d15cdd33ec7cb06706a7ec8ee4dbe0379a1b28c8f1",
+    "docs/previews/r1_29_edge_left.png": "330a76631c11d5b289a15f55fc3f9bbbc6ccb2449ffaa1b4a9d47aa4dfa0f9d3",
+    "docs/previews/r1_29_edge_right.png": "0bc94a099a73475d8f503cef820b7928f278237506c6fb507fcd1a1d79834323",
+    "docs/previews/r1_29_current.png": "38e1415bd73d51770eca4fd43e2513da4df9ac9621199c9c0d378a534887cb57"
+  }
+}

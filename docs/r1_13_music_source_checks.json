@@ -1,0 +1,23 @@
+{
+  "candidate": "R1/13",
+  "failed": [],
+  "tag": "M_WESTCOAST",
+  "source_bytes": 582551,
+  "runtime_bytes": 582559,
+  "original_retained_exactly": true,
+  "all_noncomment_packets_identical": true,
+  "ogg_pages_crc_checked": 139,
+  "comments_fixed": 1,
+  "audio_packet_sha256": "358fcaf7b38b5247e2e8d5adc3a6f6cf6bcb587744a9fccd82fca35fa18fa742",
+  "decoded_pcm_identical": true,
+  "decoded_pcm_sha256": "e10e67098dfc39a4277dc7481b99dab498e464332417ec09febbbbf169f9bb6a",
+  "decoded_frames": 1568001,
+  "channels": 2,
+  "sample_rate": 44100,
+  "rms": 0.2677508294582367,
+  "peak": 1.1085143089294434,
+  "loop_endpoint_sample_difference": 0.24548016488552094,
+  "duration_seconds": 35.555578,
+  "source_script_sha256": "accee1cb5712b706efe45afb652467bcaa0d465e7d64c8653e33dc4f9e359768",
+  "note": "Track and samples are source-backed; loop, fades, levels and controls are new sample behavior."
+}

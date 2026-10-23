@@ -1,0 +1,117 @@
+{
+  "pvf_path": "character/swordman/effect/animation/guard/spark.ani",
+  "crc": {
+    "expected": 1286351332,
+    "actual_seed_file_number": 1286351332,
+    "actual_seed_zero": 4010339398
+  },
+  "decoded": {
+    "frames_count": 5,
+    "resources": [
+      "character/swordman/effect/guard/guard_ldodge.img"
+    ],
+    "globals": [
+      {
+        "type": 1,
+        "value": 0
+      }
+    ],
+    "frames": [
+      {
+        "resource": "character/swordman/effect/guard/guard_ldodge.img",
+        "image_frame": 0,
+        "x": -155,
+        "y": -150,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 11,
+            "value": {
+              "effect": 2
+            }
+          },
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/guard/guard_ldodge.img",
+        "image_frame": 1,
+        "x": -155,
+        "y": -150,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 11,
+            "value": {
+              "effect": 2
+            }
+          },
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/guard/guard_ldodge.img",
+        "image_frame": 2,
+        "x": -155,
+        "y": -150,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 11,
+            "value": {
+              "effect": 2
+            }
+          },
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/guard/guard_ldodge.img",
+        "image_frame": 3,
+        "x": -155,
+        "y": -150,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 11,
+            "value": {
+              "effect": 2
+            }
+          },
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/guard/guard_ldodge.img",
+        "image_frame": 4,
+        "x": -155,
+        "y": -150,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 11,
+            "value": {
+              "effect": 2
+            }
+          },
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      }
+    ]
+  }
+}

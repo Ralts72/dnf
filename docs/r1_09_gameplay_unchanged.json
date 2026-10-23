@@ -1,0 +1,35 @@
+{
+  "candidate": "R1/09",
+  "baseline": "R1/08",
+  "checks": [
+    {
+      "path": "scripts/source_actor.gd",
+      "unchanged_sha256": "09b9f82624a892407513fa5faa458cc3abc48750d29a77c352acc86fcbdc9f9b"
+    },
+    {
+      "path": "scripts/source_actor_3d.gd",
+      "unchanged_sha256": "1c1afa14e11b7948591b088425f8a137b3e94706bf1c22c129f66fd50a1970f9"
+    },
+    {
+      "path": "scripts/source_jump.gd",
+      "unchanged_sha256": "5ca03ad47e0f653b1e13c23003fbfde5b5e91a7037d36dfc5aebe08e6429de0e"
+    },
+    {
+      "path": "scripts/source_actor_audio.gd",
+      "unchanged_sha256": "0559ac92fe0ef8ee7ed372a682df6413851809410b74f32081e413930c5beb71"
+    },
+    {
+      "path": "scripts/demo_walk_area.gd",
+      "unchanged_sha256": "0a9dafb6a9083d1911c9b00884319a5d9a5968c93edfc239f7c7734a17110485"
+    },
+    {
+      "path": "data/swordman_motion.json",
+      "unchanged_sha256": "3523b6a3f5a2c9b7cc4164fb6a7bbeda59c0a2fa0001c5f5d215907ab2898983"
+    },
+    {
+      "path": "data/swordman_audio.json",
+      "unchanged_sha256": "fab2c861cb972a6615b8af0eb115fb277824565ad6654fe0517f06e784323106"
+    }
+  ],
+  "note": "Scene geometry changed; actor, jump, audio, navigation logic and motion/audio parameters did not."
+}

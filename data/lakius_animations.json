@@ -1,0 +1,2680 @@
+{
+  "schema": 1,
+  "character": "lakius",
+  "monster_id": 71,
+  "name": "鲁卡斯",
+  "source_name_big5": "魯卡斯",
+  "canvas_size": [
+    362,
+    202
+  ],
+  "foot_anchor": [
+    134,
+    153
+  ],
+  "animations": {
+    "stay": {
+      "source_ani": "monster/draconian/dlani/stay.ani",
+      "source_action": "stay",
+      "source_sha256": "114a66a7cdc820fef2e4181bfaad28fa5214d7c4aa1a5a51ed52fcb7fabe6255",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_lakius.img"
+      ],
+      "source_frames_count": 1,
+      "frames": [
+        {
+          "texture": "res://assets/r4/lakius/frames/stay/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "5fcfb79a8f882867e86246881903119d496a7198f39083c00d6d8d675751ee16",
+          "sha256_rgba": "0d50c51b9da1531456111731d0f02235ad79758fbd6eb9b949fbc869ac4f33c9",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/stay/000.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 33,
+          "resolved_img_frame": 33,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 159,
+            "height": 126,
+            "x": 171,
+            "y": 265,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 85496,
+            "data_bytes": 3172,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -72,
+            -115
+          ],
+          "composite_paste_offset": [
+            62,
+            38
+          ],
+          "source_crop": "res://assets/r4/lakius/source/033.png",
+          "source_crop_rgba_sha256": "7a7508499bfd65aeefde1d68a25ac2b97e7e46c24cb0ae62c4a1acdda187edce",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -14,
+                -21,
+                -3,
+                49,
+                41,
+                109
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        }
+      ]
+    },
+    "move": {
+      "source_ani": "monster/draconian/dlani/movefoward.ani",
+      "source_action": "movefoward",
+      "source_sha256": "bab3c25eacb31ebe1132cde8057de8c49c187e5315f515a98fe0bb892727eb7d",
+      "source_globals": [
+        {
+          "type": 0,
+          "value": 1
+        }
+      ],
+      "source_resources": [
+        "monster/draconian/draco_lakius.img"
+      ],
+      "source_frames_count": 7,
+      "frames": [
+        {
+          "texture": "res://assets/r4/lakius/frames/move/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "847b6c4359aafff0fbbc2491ccc02c942c44a2ed6760be93e6c6e852a7e83566",
+          "sha256_rgba": "9b422bdbb9da3edb6acc7064f5527d12615a28a2059906c7e88f9c8bbb1439d0",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/move/000.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 16,
+          "resolved_img_frame": 16,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 130,
+            "height": 152,
+            "x": 190,
+            "y": 235,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 41076,
+            "data_bytes": 3043,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -53,
+            -145
+          ],
+          "composite_paste_offset": [
+            81,
+            8
+          ],
+          "source_crop": "res://assets/r4/lakius/source/016.png",
+          "source_crop_rgba_sha256": "cd90ea624ddaf52e2e5a58c068bbc6f4600f4a030c58c037a8696148bd348013",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -8,
+                -20,
+                -2,
+                61,
+                36,
+                103
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/move/001.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "f0026517214b9ef4dd43204ac4068a5be3a8cc87e534dd4778011610cebd3e21",
+          "sha256_rgba": "a0b3e99225c97bcb89e09aff7be597795f3e6f09c970b9a9ff95696c5c1bfb35",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/move/001.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 17,
+          "resolved_img_frame": 17,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 136,
+            "height": 152,
+            "x": 186,
+            "y": 235,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 44119,
+            "data_bytes": 3354,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -57,
+            -145
+          ],
+          "composite_paste_offset": [
+            77,
+            8
+          ],
+          "source_crop": "res://assets/r4/lakius/source/017.png",
+          "source_crop_rgba_sha256": "18091d383c7f2ada7ecc1fe59416e55bc5bda4b549670cab8266a4097c5010ed",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -8,
+                -20,
+                -2,
+                61,
+                36,
+                103
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/move/002.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "92ee9e0fa252994d6e401d8585323eea8ab56d3440d6c4c4d13ad9e90d3190bd",
+          "sha256_rgba": "46a8def2a8caacf7380434d0d6775cc6f9cfd7febbdccec41b45656aadb9f82a",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/move/002.png.import",
+          "duration_ms": 50,
+          "source_duration_ms": 50,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 18,
+          "resolved_img_frame": 18,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 136,
+            "height": 149,
+            "x": 184,
+            "y": 236,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 47473,
+            "data_bytes": 2071,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -59,
+            -144
+          ],
+          "composite_paste_offset": [
+            75,
+            9
+          ],
+          "source_crop": "res://assets/r4/lakius/source/018.png",
+          "source_crop_rgba_sha256": "8deb8c66d2ec4cd0d32de16f2f93d557545fef960d4e8e81bfc29e25b5f9c17a",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -8,
+                -20,
+                -2,
+                61,
+                36,
+                103
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/move/003.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "98a515564e7d3c42a0e421b48a733703210781a0467ebc0ce5f187a26e4d3198",
+          "sha256_rgba": "23eae02918917d68775e9f4fa3ed64a20dd1a4154bc7371f743e190df68af0e9",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/move/003.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 19,
+          "resolved_img_frame": 19,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 143,
+            "height": 151,
+            "x": 177,
+            "y": 236,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 49544,
+            "data_bytes": 2116,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -66,
+            -144
+          ],
+          "composite_paste_offset": [
+            68,
+            9
+          ],
+          "source_crop": "res://assets/r4/lakius/source/019.png",
+          "source_crop_rgba_sha256": "233005c74f205f81b2d26d4c4497c1da8f7f2f0509020fa63a897f22b40b7600",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -8,
+                -20,
+                -2,
+                61,
+                36,
+                103
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/move/004.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "404ebed828b18303abb350567edcfb190807ed95041de1566f353cb66dae497c",
+          "sha256_rgba": "0122e280eca79f1c2bc7324526c818e006f8c360088196a286010276b1fff130",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/move/004.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 20,
+          "resolved_img_frame": 20,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 135,
+            "height": 149,
+            "x": 185,
+            "y": 236,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 51660,
+            "data_bytes": 2028,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -58,
+            -144
+          ],
+          "composite_paste_offset": [
+            76,
+            9
+          ],
+          "source_crop": "res://assets/r4/lakius/source/020.png",
+          "source_crop_rgba_sha256": "c1f351051b2ecd5dd2fd1a4733660d9c570f27874cee434917cdaa4ce8f1bf50",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -8,
+                -20,
+                -2,
+                61,
+                36,
+                103
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/move/005.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "fe510cd699608f31427915ac25a4b34188848a3a020688c1ec013ace2a0814d0",
+          "sha256_rgba": "29d82fd0dc9d3295a3b5a0bdf96794ef808164ed4e04e98f1947d6f27f6a9a8d",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/move/005.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 21,
+          "resolved_img_frame": 21,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 133,
+            "height": 151,
+            "x": 187,
+            "y": 236,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 53688,
+            "data_bytes": 1987,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -56,
+            -144
+          ],
+          "composite_paste_offset": [
+            78,
+            9
+          ],
+          "source_crop": "res://assets/r4/lakius/source/021.png",
+          "source_crop_rgba_sha256": "567756092a88246c5457091319974e46373b659452a7e7889b6979861733f522",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -8,
+                -20,
+                -2,
+                61,
+                36,
+                103
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/move/006.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "b70e0240d30557478f78a88a2b787ef5e678ef90cd07680bf19fd1c3ddcfccce",
+          "sha256_rgba": "e0537c7076938c4753745d1a81fff29c517089f484340f8ccb1a644dfa076153",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/move/006.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 22,
+          "resolved_img_frame": 22,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 132,
+            "height": 152,
+            "x": 190,
+            "y": 235,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 55675,
+            "data_bytes": 3219,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -53,
+            -145
+          ],
+          "composite_paste_offset": [
+            81,
+            8
+          ],
+          "source_crop": "res://assets/r4/lakius/source/022.png",
+          "source_crop_rgba_sha256": "5a67b08a48432bf2ac9b62620343eeef6071f8a3f5ccdd5b6b75bc3b17f8c4b5",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -8,
+                -20,
+                -2,
+                61,
+                36,
+                103
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        }
+      ]
+    },
+    "attack1": {
+      "source_ani": "monster/draconian/dlani/attack.ani",
+      "source_action": "attack",
+      "source_sha256": "0432563aef217fe5c2cb28f5b439961c1f3f9e9262d7e8c3e75bfd00f7b33a37",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_lakius.img"
+      ],
+      "source_frames_count": 4,
+      "frames": [
+        {
+          "texture": "res://assets/r4/lakius/frames/attack1/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "8b5e8b4fb06feef4fa89fcdac049f56f0c9dc3d73fe480f0f4b075b1bbece095",
+          "sha256_rgba": "c85b556ce71ee3439a093c7fcbb09058136f2ef6055434ae2c5afb61d75525b1",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/attack1/000.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 0,
+          "resolved_img_frame": 0,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 167,
+            "height": 127,
+            "x": 131,
+            "y": 264,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 1328,
+            "data_bytes": 2897,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -112,
+            -116
+          ],
+          "composite_paste_offset": [
+            22,
+            37
+          ],
+          "source_crop": "res://assets/r4/lakius/source/000.png",
+          "source_crop_rgba_sha256": "3d8b64bfa72494f6a047b672a72426f114962f77b787cfc8b6f88cedd6d398fc",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -30,
+                -17,
+                -9,
+                54,
+                34,
+                118
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/attack1/001.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "571b32b2693d956c25a8c170be0a1d1df058c3b335f286ed881b311509ae79c9",
+          "sha256_rgba": "41cb7bcd62730035895bf8f2e377a48a946d3109b0105c60a14477943bb434a3",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/attack1/001.png.import",
+          "duration_ms": 100,
+          "source_duration_ms": 100,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 1,
+          "resolved_img_frame": 1,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 174,
+            "height": 127,
+            "x": 117,
+            "y": 264,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 4225,
+            "data_bytes": 2875,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -126,
+            -116
+          ],
+          "composite_paste_offset": [
+            8,
+            37
+          ],
+          "source_crop": "res://assets/r4/lakius/source/001.png",
+          "source_crop_rgba_sha256": "832784ee5c216da735e1d732430f85e58ccc2846d5edea1d1df10e6cccc13c63",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -30,
+                -17,
+                -9,
+                54,
+                34,
+                118
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/attack1/002.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "6202da1de95a3a985a0ab0a10968dab1fb37e94c2993bc0cce1cd61172801f3c",
+          "sha256_rgba": "243ad606fbe56792b531d5404581e1024a23170f45d6318215aedd15bcb96ef6",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/attack1/002.png.import",
+          "duration_ms": 150,
+          "source_duration_ms": 150,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 2,
+          "resolved_img_frame": 2,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 255,
+            "height": 113,
+            "x": 139,
+            "y": 278,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 7100,
+            "data_bytes": 2973,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -104,
+            -102
+          ],
+          "composite_paste_offset": [
+            30,
+            51
+          ],
+          "source_crop": "res://assets/r4/lakius/source/002.png",
+          "source_crop_rgba_sha256": "74dc3b92796cb460d0e2da322bea1c4f12e00d268f90e02124053ae46643adf0",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 150
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 15,
+              "xyz_size": [
+                -22,
+                -10,
+                35,
+                173,
+                20,
+                50
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -13,
+                -17,
+                -5,
+                77,
+                34,
+                94
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/attack1/003.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "556425c30b87e41c3ac310a0c976a41bf5582b7bcef1579b2a10069001e69a4c",
+          "sha256_rgba": "79aa70aec770387324fb7c69f852305f7891b122993c1e9b2b11a9673fe067ac",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/attack1/003.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 3,
+          "resolved_img_frame": 3,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 212,
+            "height": 122,
+            "x": 144,
+            "y": 269,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 10073,
+            "data_bytes": 3034,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -99,
+            -111
+          ],
+          "composite_paste_offset": [
+            35,
+            42
+          ],
+          "source_crop": "res://assets/r4/lakius/source/003.png",
+          "source_crop_rgba_sha256": "95f6f87372299e367b1ecf9b5b7f57f30796f5c2632b887b52083b10505bfc2b",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -13,
+                -17,
+                -5,
+                54,
+                34,
+                106
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        }
+      ]
+    },
+    "damage1": {
+      "source_ani": "monster/draconian/dlani/damage1.ani",
+      "source_action": "damage1",
+      "source_sha256": "68ec3b3330100677e1399392d7eadf6faee10f463ab3b1eaab684e771e0bcc3c",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_lakius.img"
+      ],
+      "source_frames_count": 1,
+      "frames": [
+        {
+          "texture": "res://assets/r4/lakius/frames/damage1/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "c0c5d97a940731855e5068d4e44cd96b69727912c89c70f9c7f63d2041e365cc",
+          "sha256_rgba": "cdb0a37c439f582a6850116f326084afeef842c59a77987f26eb943329e72857",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/damage1/000.png.import",
+          "duration_ms": 10000,
+          "source_duration_ms": null,
+          "duration_origin": "Static inspector hold only; source duration missing, not gameplay hitstun",
+          "img_frame": 12,
+          "resolved_img_frame": 12,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 140,
+            "height": 127,
+            "x": 182,
+            "y": 264,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 30609,
+            "data_bytes": 2755,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -61,
+            -116
+          ],
+          "composite_paste_offset": [
+            73,
+            37
+          ],
+          "source_crop": "res://assets/r4/lakius/source/012.png",
+          "source_crop_rgba_sha256": "293c1e2af252310d59b9b8857b50a12ba253765a0e1c079caf86850104e0d326",
+          "source_properties": [],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -22,
+                -21,
+                -5,
+                57,
+                39,
+                113
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        }
+      ]
+    },
+    "damage2": {
+      "source_ani": "monster/draconian/dlani/damage2.ani",
+      "source_action": "damage2",
+      "source_sha256": "a3ac7d9f12e69527dfbfb493cadb455fa2bdfc4bebdf2e0a9f0de543626d1b6f",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_lakius.img"
+      ],
+      "source_frames_count": 1,
+      "frames": [
+        {
+          "texture": "res://assets/r4/lakius/frames/damage2/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "25f9ad9018a737264f79cbed91d66984db336c23a069dc3503b3af6bc186eabb",
+          "sha256_rgba": "dbc4d915fb6c2ee284fd060714a4addebdfbc3e374d8e4efd2f7d945c256c0cd",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/damage2/000.png.import",
+          "duration_ms": 10000,
+          "source_duration_ms": null,
+          "duration_origin": "Static inspector hold only; source duration missing, not gameplay hitstun",
+          "img_frame": 11,
+          "resolved_img_frame": 11,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 139,
+            "height": 116,
+            "x": 191,
+            "y": 275,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 27945,
+            "data_bytes": 2664,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -52,
+            -105
+          ],
+          "composite_paste_offset": [
+            82,
+            48
+          ],
+          "source_crop": "res://assets/r4/lakius/source/011.png",
+          "source_crop_rgba_sha256": "4741b34bbdc979ce56112b1951023108a7b1300108324159ff56d87e60b2c7d3",
+          "source_properties": [],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -16,
+                -18,
+                -4,
+                47,
+                35,
+                93
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        }
+      ]
+    },
+    "down": {
+      "source_ani": "monster/draconian/dlani/down.ani",
+      "source_action": "down",
+      "source_sha256": "ba074d000aec97f1df4ad85af5845d0d388f9693b719d51f80a526affe21243d",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_lakius.img"
+      ],
+      "source_frames_count": 5,
+      "frames": [
+        {
+          "texture": "res://assets/r4/lakius/frames/down/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "25f9ad9018a737264f79cbed91d66984db336c23a069dc3503b3af6bc186eabb",
+          "sha256_rgba": "dbc4d915fb6c2ee284fd060714a4addebdfbc3e374d8e4efd2f7d945c256c0cd",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/down/000.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 11,
+          "resolved_img_frame": 11,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 139,
+            "height": 116,
+            "x": 191,
+            "y": 275,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 27945,
+            "data_bytes": 2664,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -52,
+            -105
+          ],
+          "composite_paste_offset": [
+            82,
+            48
+          ],
+          "source_crop": "res://assets/r4/lakius/source/011.png",
+          "source_crop_rgba_sha256": "4741b34bbdc979ce56112b1951023108a7b1300108324159ff56d87e60b2c7d3",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -16,
+                -18,
+                -7,
+                49,
+                37,
+                97
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/down/001.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "c0c5d97a940731855e5068d4e44cd96b69727912c89c70f9c7f63d2041e365cc",
+          "sha256_rgba": "cdb0a37c439f582a6850116f326084afeef842c59a77987f26eb943329e72857",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/down/001.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 12,
+          "resolved_img_frame": 12,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 140,
+            "height": 127,
+            "x": 182,
+            "y": 264,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 30609,
+            "data_bytes": 2755,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -61,
+            -116
+          ],
+          "composite_paste_offset": [
+            73,
+            37
+          ],
+          "source_crop": "res://assets/r4/lakius/source/012.png",
+          "source_crop_rgba_sha256": "293c1e2af252310d59b9b8857b50a12ba253765a0e1c079caf86850104e0d326",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -29,
+                -18,
+                -7,
+                62,
+                37,
+                114
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/down/002.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "852c9a8bc16ad36a2bed05b6ccfcc9b42e3837a951be428b9e193ad4109432bc",
+          "sha256_rgba": "b86f87f1b4c61582d5f32918a5d25cf276a2b519db9f6c5d6478be61aac9b6a7",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/down/002.png.import",
+          "duration_ms": 10000,
+          "source_duration_ms": 10000,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 13,
+          "resolved_img_frame": 13,
+          "ani_offset": [
+            -240,
+            -336
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 122,
+            "height": 139,
+            "x": 172,
+            "y": 229,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 33364,
+            "data_bytes": 2585,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -68,
+            -107
+          ],
+          "composite_paste_offset": [
+            66,
+            46
+          ],
+          "source_crop": "res://assets/r4/lakius/source/013.png",
+          "source_crop_rgba_sha256": "bd322fcfa0a85f95fcbbaccb4e35713fedf815219d42b9e9c1d44d8995e9bb1d",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 10000
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -49,
+                -18,
+                4,
+                91,
+                37,
+                50
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/down/003.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "1fbb8291ec5f6be930551ec6dc3c7de29c927ceea36c4cfba79cd9442333809f",
+          "sha256_rgba": "8c293e0fc0be26d9d2b3a929641643665a1957b69a6bbcf25b20c4dd78cb0988",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/down/003.png.import",
+          "duration_ms": 10000,
+          "source_duration_ms": 10000,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 14,
+          "resolved_img_frame": 14,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 142,
+            "height": 140,
+            "x": 155,
+            "y": 274,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 35949,
+            "data_bytes": 2860,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -88,
+            -106
+          ],
+          "composite_paste_offset": [
+            46,
+            47
+          ],
+          "source_crop": "res://assets/r4/lakius/source/014.png",
+          "source_crop_rgba_sha256": "5c7a1c28a5c791f36b9240e4e3a0d8324c48dac9b4b2139bb7c9c9321700b488",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 10000
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -68,
+                -18,
+                -2,
+                89,
+                37,
+                69
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/down/004.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "e84957040333a49196d75ae87baa391f5ba9e7d294c340c5bace7e42954e6761",
+          "sha256_rgba": "f19485dc401da9e7f55c24b4f5e7996034b87c1b098cfae1b2a9bef21fc1fa5f",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/down/004.png.import",
+          "duration_ms": 300,
+          "source_duration_ms": 300,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 15,
+          "resolved_img_frame": 15,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 192,
+            "height": 95,
+            "x": 145,
+            "y": 326,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 38809,
+            "data_bytes": 2267,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -98,
+            -54
+          ],
+          "composite_paste_offset": [
+            36,
+            99
+          ],
+          "source_crop": "res://assets/r4/lakius/source/015.png",
+          "source_crop_rgba_sha256": "9279d854eb65abe3c4c37f16a4f6f04ccffa65298e584dc053a6edb588d86081",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 300
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -86,
+                -18,
+                -7,
+                126,
+                37,
+                31
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        }
+      ]
+    },
+    "moveback": {
+      "source_ani": "monster/draconian/dlani/moveback.ani",
+      "source_action": "moveback",
+      "source_sha256": "f66c4b972db50c04c0703d1e0a56a3292e68d2115e2f4b909636eeff41745cf5",
+      "source_globals": [
+        {
+          "type": 0,
+          "value": 1
+        }
+      ],
+      "source_resources": [
+        "monster/draconian/draco_lakius.img"
+      ],
+      "source_frames_count": 7,
+      "frames": [
+        {
+          "texture": "res://assets/r4/lakius/frames/moveback/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "8b0c4e54d014ad07e9896d0ae73e1bb93548c2651af99aed84664ffa8d0fbfa0",
+          "sha256_rgba": "d413396882b5fb8eb99536ac0b2e8b4dbf043c259a2bdce15e4da7455de89933",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/moveback/000.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 4,
+          "resolved_img_frame": 4,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 135,
+            "height": 140,
+            "x": 149,
+            "y": 248,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 13107,
+            "data_bytes": 2568,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -94,
+            -132
+          ],
+          "composite_paste_offset": [
+            40,
+            21
+          ],
+          "source_crop": "res://assets/r4/lakius/source/004.png",
+          "source_crop_rgba_sha256": "1069f6bd3d9b5c2075c4ebb23effde437fe028e94d682128256522c97e38e87d",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -42,
+                -21,
+                -2,
+                53,
+                39,
+                116
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/moveback/001.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "3c4c1aa7d2b72637f1369fd77d2d7d45ada526987cc970811b28299c22254ad0",
+          "sha256_rgba": "33ad68a802eaa6195e59da60577534499fbc529abbf1cb4603c2c9e511751f94",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/moveback/001.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 5,
+          "resolved_img_frame": 5,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 141,
+            "height": 140,
+            "x": 149,
+            "y": 248,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 15675,
+            "data_bytes": 2783,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -94,
+            -132
+          ],
+          "composite_paste_offset": [
+            40,
+            21
+          ],
+          "source_crop": "res://assets/r4/lakius/source/005.png",
+          "source_crop_rgba_sha256": "13f8e6eb283297c4f344628f59d76422a794c8ecd119105f17ef73398317bf05",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -42,
+                -21,
+                -2,
+                53,
+                39,
+                116
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/moveback/002.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "97ec0c14527acc416a8fe9b4fd023f8e560a0edece68970a399b746770a37e48",
+          "sha256_rgba": "518735d3969f470cf00f489d33b5d26cc0d7c2a7feff2b1d7b592708a8e7523b",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/moveback/002.png.import",
+          "duration_ms": 50,
+          "source_duration_ms": 50,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 6,
+          "resolved_img_frame": 6,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 144,
+            "height": 139,
+            "x": 150,
+            "y": 248,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 18458,
+            "data_bytes": 1742,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -93,
+            -132
+          ],
+          "composite_paste_offset": [
+            41,
+            21
+          ],
+          "source_crop": "res://assets/r4/lakius/source/006.png",
+          "source_crop_rgba_sha256": "f4c7933c9f367972e2cbbc2476f3b6bf7bb7ba354893779ce1d4f4a6cac90851",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -42,
+                -21,
+                -2,
+                53,
+                39,
+                116
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/moveback/003.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "91b7f482687acbe36f4fc9439c94ef8c7b80ea657cac96392afafcff02b3a8b6",
+          "sha256_rgba": "a888f14026af4aeda8affc140cd48e8ffe2959d4996e94bcf04a2c08ed3a07dd",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/moveback/003.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 7,
+          "resolved_img_frame": 7,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 149,
+            "height": 139,
+            "x": 150,
+            "y": 248,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 20200,
+            "data_bytes": 1773,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -93,
+            -132
+          ],
+          "composite_paste_offset": [
+            41,
+            21
+          ],
+          "source_crop": "res://assets/r4/lakius/source/007.png",
+          "source_crop_rgba_sha256": "6443560992835f96862b9d0a08fe4cbd06f52e00335d8c1337c7d80be1a99c76",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -42,
+                -21,
+                -2,
+                53,
+                39,
+                116
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/moveback/004.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "fbdedf0c08b5219a525193c3db132c1fbb5e04677cf5f8402593581300c13f79",
+          "sha256_rgba": "07a9ba3ffcfb2bb2e97854be0af5bb63417b06c8ce3fe93c7829f7e8e0a23db6",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/moveback/004.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 8,
+          "resolved_img_frame": 8,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 140,
+            "height": 139,
+            "x": 150,
+            "y": 248,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 21973,
+            "data_bytes": 1678,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -93,
+            -132
+          ],
+          "composite_paste_offset": [
+            41,
+            21
+          ],
+          "source_crop": "res://assets/r4/lakius/source/008.png",
+          "source_crop_rgba_sha256": "506fefff318b4b73cfb58d30c509c8e08b3eb3be1a92e77dd4a4fac4b943235b",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -42,
+                -21,
+                -2,
+                53,
+                39,
+                116
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/moveback/005.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "af0dcfaacb4306758425d32f306399c05997191686e421804b50431b7411f8df",
+          "sha256_rgba": "e22ddfc51ad7db55e7f4b09af31d9781848d69cb4a415c395e338aa539587a0d",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/moveback/005.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 9,
+          "resolved_img_frame": 9,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 136,
+            "height": 139,
+            "x": 150,
+            "y": 248,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 23651,
+            "data_bytes": 1628,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -93,
+            -132
+          ],
+          "composite_paste_offset": [
+            41,
+            21
+          ],
+          "source_crop": "res://assets/r4/lakius/source/009.png",
+          "source_crop_rgba_sha256": "19f469a9e15e43163b300b23b9e2357e1354173fcf99268ecd487b4a556474fb",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -42,
+                -21,
+                -2,
+                53,
+                39,
+                116
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/moveback/006.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "f5eb531a1cffb1830514d2e4b3719fa1aab0d3a410602748d3bf7018c306b3d9",
+          "sha256_rgba": "e02cd38b5c2cd308692afce391da9e1b6a8c3f439f1e4ade851b20add679fabc",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/moveback/006.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 10,
+          "resolved_img_frame": 10,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 137,
+            "height": 140,
+            "x": 149,
+            "y": 248,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 25279,
+            "data_bytes": 2666,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -94,
+            -132
+          ],
+          "composite_paste_offset": [
+            40,
+            21
+          ],
+          "source_crop": "res://assets/r4/lakius/source/010.png",
+          "source_crop_rgba_sha256": "dc926aac3440313949ddddf6c4a2b660df8157b705cbf5ea58e3211224abb5a9",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -42,
+                -21,
+                -2,
+                53,
+                39,
+                116
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        }
+      ]
+    },
+    "sit": {
+      "source_ani": "monster/draconian/dlani/sit.ani",
+      "source_action": "sit",
+      "source_sha256": "9f5151e361bb9677b13fff8059bb103a9fa4c3f23776cc880067c9f78c57f643",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_lakius.img"
+      ],
+      "source_frames_count": 1,
+      "frames": [
+        {
+          "texture": "res://assets/r4/lakius/frames/sit/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "142a06bf4d8a28076e1300aafff24fd31eb8c80aef7857cb87655313bd968086",
+          "sha256_rgba": "ca1c63567eb204690633d0b398832a97a9d92155bc14fece055122ef8dc46259",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/sit/000.png.import",
+          "duration_ms": 100,
+          "source_duration_ms": 100,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 32,
+          "resolved_img_frame": 32,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 153,
+            "height": 89,
+            "x": 189,
+            "y": 303,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 83091,
+            "data_bytes": 2405,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -54,
+            -77
+          ],
+          "composite_paste_offset": [
+            80,
+            76
+          ],
+          "source_crop": "res://assets/r4/lakius/source/032.png",
+          "source_crop_rgba_sha256": "5b5f0184ff2c0abcb8157ca0e5733630925df93a6601a738e0da677071aa5b12",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -10,
+                -20,
+                -1,
+                66,
+                41,
+                66
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        }
+      ]
+    },
+    "attacklong": {
+      "source_ani": "monster/draconian/dlani/attacklong.ani",
+      "source_action": "attacklong",
+      "source_sha256": "91ee75ff7075c419e609130d5ab3e57f45dbd58112f6f642610bcfea13320698",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_lakius.img"
+      ],
+      "source_frames_count": 7,
+      "frames": [
+        {
+          "texture": "res://assets/r4/lakius/frames/attacklong/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "97fac324186709fcbd9054aaec5c9e542dd31f9c9353d7177db5ec690e12a92f",
+          "sha256_rgba": "76a748701e04a2e004b14bddfb055aae7eaf5b85eab081e16a6c65bd0702b557",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/attacklong/000.png.import",
+          "duration_ms": 50,
+          "source_duration_ms": 50,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 25,
+          "resolved_img_frame": 25,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 162,
+            "height": 124,
+            "x": 178,
+            "y": 270,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 64286,
+            "data_bytes": 2720,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -65,
+            -110
+          ],
+          "composite_paste_offset": [
+            69,
+            43
+          ],
+          "source_crop": "res://assets/r4/lakius/source/025.png",
+          "source_crop_rgba_sha256": "81cdaa1671c65708f7a813cb6b7b9b2470e70850ae28c1440e1f672f982f0770",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -24,
+                -17,
+                -7,
+                55,
+                35,
+                109
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/attacklong/001.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "436c78a18a4f3f7d5611a7844672a3bce0bfd072660468fc33dfeb7ba78478c1",
+          "sha256_rgba": "1d83a8547f959848426fc5f5769b0ebb3f46b3dc5e7ce3620285191868ab3ac3",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/attacklong/001.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 26,
+          "resolved_img_frame": 26,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 167,
+            "height": 127,
+            "x": 154,
+            "y": 265,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 67006,
+            "data_bytes": 2594,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -89,
+            -115
+          ],
+          "composite_paste_offset": [
+            45,
+            38
+          ],
+          "source_crop": "res://assets/r4/lakius/source/026.png",
+          "source_crop_rgba_sha256": "0bf5ef4c012c9b2be37a390cf2504bc610ea7694052f9387acb81361cad43282",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -31,
+                -17,
+                -6,
+                55,
+                35,
+                109
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/attacklong/002.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "2b3123796f3c66a8cf6ae3acf5d19d3b895a0c4777e9e505015a973760fc0ef0",
+          "sha256_rgba": "b015c678ef382954e09c4d93bf9812aa921b40bfb72bc2dc7a17f46908687991",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/attacklong/002.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 27,
+          "resolved_img_frame": 27,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 169,
+            "height": 127,
+            "x": 152,
+            "y": 265,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 69600,
+            "data_bytes": 2600,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -91,
+            -115
+          ],
+          "composite_paste_offset": [
+            43,
+            38
+          ],
+          "source_crop": "res://assets/r4/lakius/source/027.png",
+          "source_crop_rgba_sha256": "a20ab771897c4f873ef3fde7f446d5d9c1f33f67b36194762288b58001e4b3ac",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -30,
+                -17,
+                -6,
+                55,
+                35,
+                109
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/attacklong/003.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "c128224116749d7b3963b7373e8d9d20cb3126e58a512f6a57730a9c26261f45",
+          "sha256_rgba": "59a1349c81113d6f86e420b1d89b2df36899fa006c7dc7471d02b503eb1ff0ff",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/attacklong/003.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 28,
+          "resolved_img_frame": 28,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 306,
+            "height": 92,
+            "x": 154,
+            "y": 299,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 72200,
+            "data_bytes": 2664,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -89,
+            -81
+          ],
+          "composite_paste_offset": [
+            45,
+            72
+          ],
+          "source_crop": "res://assets/r4/lakius/source/028.png",
+          "source_crop_rgba_sha256": "cc9fc6ca20c206bef15ec37dbbeca86edee2f5962cda1f1058b6a6254ac4737c",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 15,
+              "xyz_size": [
+                52,
+                -10,
+                47,
+                150,
+                20,
+                20
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -11,
+                -17,
+                -3,
+                86,
+                35,
+                76
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/attacklong/004.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "c3b9e6bf31812d5ce73fa9a96154c3bf32ae2a33a241571595a1a0b461726875",
+          "sha256_rgba": "586f9eb462725b662d1a66254eb7be08aa2f389c0451e475a73358d404bb34d4",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/attacklong/004.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 29,
+          "resolved_img_frame": 29,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 308,
+            "height": 92,
+            "x": 155,
+            "y": 299,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 74864,
+            "data_bytes": 2686,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -88,
+            -81
+          ],
+          "composite_paste_offset": [
+            46,
+            72
+          ],
+          "source_crop": "res://assets/r4/lakius/source/029.png",
+          "source_crop_rgba_sha256": "82acd0ecc80d8745f2b4ac9c6cc367613924bf756dee6407761fea4fcde14056",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                2,
+                -17,
+                -5,
+                84,
+                35,
+                79
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/attacklong/005.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "6ca2893f229de2bc8f58d96c3779c198ffdbccaa9d783f85d07e55bcc7ae14d0",
+          "sha256_rgba": "d0586e38eca70521d326d36ae4d62b7704530185da0c39629dd34365dcd20cf8",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/attacklong/005.png.import",
+          "duration_ms": 120,
+          "source_duration_ms": 120,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 30,
+          "resolved_img_frame": 30,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 303,
+            "height": 92,
+            "x": 159,
+            "y": 299,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 77550,
+            "data_bytes": 2690,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -84,
+            -81
+          ],
+          "composite_paste_offset": [
+            50,
+            72
+          ],
+          "source_crop": "res://assets/r4/lakius/source/030.png",
+          "source_crop_rgba_sha256": "173a031789c6574f8376dd8c299cea9825d8715d9d941eab63f2acc9493233cb",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 120
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                3,
+                -17,
+                -4,
+                81,
+                35,
+                80
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/attacklong/006.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "5c2ffd0f5e8a716109ac6fa4861aedd8b02da5abbd4d5aaa71999fb1a55b97ef",
+          "sha256_rgba": "e6a74381613d3cc6c45cb8d37d8a300eeb0325ca9baed082a953e80a4556a0b9",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/attacklong/006.png.import",
+          "duration_ms": 50,
+          "source_duration_ms": 50,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 31,
+          "resolved_img_frame": 31,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 183,
+            "height": 113,
+            "x": 181,
+            "y": 278,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 80240,
+            "data_bytes": 2851,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -62,
+            -102
+          ],
+          "composite_paste_offset": [
+            72,
+            51
+          ],
+          "source_crop": "res://assets/r4/lakius/source/031.png",
+          "source_crop_rgba_sha256": "01df23436cae9b8a9898f53338c7823db4f03577fab542290a45d9c1b21ed74c",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -19,
+                -17,
+                -7,
+                73,
+                35,
+                99
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        }
+      ]
+    },
+    "attackheart": {
+      "source_ani": "monster/draconian/dlani/attackheart.ani",
+      "source_action": "attackheart",
+      "source_sha256": "b7cdb78a7b718e9c630b72494dde12f649d3460c836eb0e17805e57e7bcda899",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_lakius.img"
+      ],
+      "source_frames_count": 3,
+      "frames": [
+        {
+          "texture": "res://assets/r4/lakius/frames/attackheart/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "8b5e8b4fb06feef4fa89fcdac049f56f0c9dc3d73fe480f0f4b075b1bbece095",
+          "sha256_rgba": "c85b556ce71ee3439a093c7fcbb09058136f2ef6055434ae2c5afb61d75525b1",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/attackheart/000.png.import",
+          "duration_ms": 850,
+          "source_duration_ms": 850,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 0,
+          "resolved_img_frame": 0,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 167,
+            "height": 127,
+            "x": 131,
+            "y": 264,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 1328,
+            "data_bytes": 2897,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -112,
+            -116
+          ],
+          "composite_paste_offset": [
+            22,
+            37
+          ],
+          "source_crop": "res://assets/r4/lakius/source/000.png",
+          "source_crop_rgba_sha256": "3d8b64bfa72494f6a047b672a72426f114962f77b787cfc8b6f88cedd6d398fc",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 850
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -30,
+                -17,
+                -9,
+                54,
+                34,
+                118
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/attackheart/001.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "6202da1de95a3a985a0ab0a10968dab1fb37e94c2993bc0cce1cd61172801f3c",
+          "sha256_rgba": "243ad606fbe56792b531d5404581e1024a23170f45d6318215aedd15bcb96ef6",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/attackheart/001.png.import",
+          "duration_ms": 200,
+          "source_duration_ms": 200,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 2,
+          "resolved_img_frame": 2,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 255,
+            "height": 113,
+            "x": 139,
+            "y": 278,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 7100,
+            "data_bytes": 2973,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -104,
+            -102
+          ],
+          "composite_paste_offset": [
+            30,
+            51
+          ],
+          "source_crop": "res://assets/r4/lakius/source/002.png",
+          "source_crop_rgba_sha256": "74dc3b92796cb460d0e2da322bea1c4f12e00d268f90e02124053ae46643adf0",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 200
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 15,
+              "xyz_size": [
+                -22,
+                -10,
+                59,
+                89,
+                20,
+                27
+              ]
+            },
+            {
+              "type": 15,
+              "xyz_size": [
+                69,
+                -10,
+                34,
+                82,
+                20,
+                28
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -30,
+                -17,
+                -9,
+                54,
+                34,
+                118
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        },
+        {
+          "texture": "res://assets/r4/lakius/frames/attackheart/002.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "556425c30b87e41c3ac310a0c976a41bf5582b7bcef1579b2a10069001e69a4c",
+          "sha256_rgba": "79aa70aec770387324fb7c69f852305f7891b122993c1e9b2b11a9673fe067ac",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r4/lakius/frames/attackheart/002.png.import",
+          "duration_ms": 50,
+          "source_duration_ms": 50,
+          "duration_origin": "Original source ANI property12",
+          "img_frame": 3,
+          "resolved_img_frame": 3,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 212,
+            "height": 122,
+            "x": 144,
+            "y": 269,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 10073,
+            "data_bytes": 3034,
+            "version": 2
+          },
+          "logical_crop_offset": [
+            -99,
+            -111
+          ],
+          "composite_paste_offset": [
+            35,
+            42
+          ],
+          "source_crop": "res://assets/r4/lakius/source/003.png",
+          "source_crop_rgba_sha256": "95f6f87372299e367b1ecf9b5b7f57f30796f5c2632b887b52083b10505bfc2b",
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -30,
+                -17,
+                -9,
+                54,
+                34,
+                118
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked source RGBA crop on fixed transparent canvas; no resampling or color edits."
+        }
+      ]
+    }
+  },
+  "source_data": "docs/r4_lakius_source_reference.json",
+  "logical_source_bbox": [
+    -126,
+    -145,
+    220,
+    41
+  ],
+  "transparent_margin": 8,
+  "preview_missing_duration_hold_ms": 10000,
+  "notes": [
+    "ID71 Lakius resolves Big5 name_525 to魯卡斯; simplified鲁卡斯 is a display conversion. Source maps explicitly mark ID71 [boss].",
+    "ID55023 Tower_Lakius is a distinct death-tower variant and is not exported.",
+    "All10 canonical source action names remain distinct. No hero dash/attack2/attack3 aliases or copied master records are added.",
+    "Original ANI clocks, XYZ boxes, offsets, indices and property values are retained. Down includes original10000ms holds; no original death controller is claimed.",
+    "Damage1/2 source duration is missing; duration_ms10000 is an inspector-only fallback and source_duration_ms stays null.",
+    "Fixed canvas frames are derived transparent padding plus exact RGBA copies. Raw crops and original IMG payload remain available.",
+    "No armor overlay, lightning, shield, cage, hallucination or unbound family voice is silently added. The source MOB lists more motions than this bounded whitelist.",
+    "HP, damage, AI, reaction, guard/armor, state persistence and route layout are new runtime adaptations outside this asset exporter.",
+    "No Godot, Blender, source client binary, ACT/SKL interpreter or internet service is run."
+  ]
+}

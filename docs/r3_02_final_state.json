@@ -1,0 +1,142 @@
+{
+  "camera": "(0.0, 12.0)",
+  "dialog_owned": true,
+  "encounter_meta": false,
+  "formal_profile_exists": false,
+  "input_blocked": false,
+  "owned_layer_count": 1,
+  "physics_ticks": 60.0,
+  "player": {
+    "action": "stay",
+    "audio": {
+      "clock_ms": 0.0,
+      "pending": []
+    },
+    "elapsed_ms": 78.014,
+    "facing": 1.0,
+    "frame": 1.0,
+    "jump": {
+      "air_attack_started": -1.0,
+      "air_attack_used": false,
+      "elapsed": -1.0,
+      "travel_speed": 95.0
+    },
+    "next_attack": "attack1",
+    "one_shot": false,
+    "paused": false,
+    "position": "(440.0, 320.0)",
+    "preview": false
+  },
+  "progress": {
+    "dialog_open": false,
+    "encounter_cleared": false,
+    "last_error": "",
+    "loaded_from_backup": false,
+    "progress": {
+      "coins": 0.0,
+      "objective_cleared": false,
+      "quest_stage": "available",
+      "reward_granted": false,
+      "schema": 1.0
+    },
+    "region_scene": "res://scenes/west_coast_r1.tscn",
+    "save_attempts": 0.0,
+    "storage_path": "user://adventure/first_route_v1.json",
+    "storage_ready": true
+  },
+  "root_children": [
+    "_mcp_game_helper",
+    "PortMusic",
+    "PortAmbience",
+    "WestCoastR1",
+    "FrameDiagnostics",
+    "AdventureProgress"
+  ],
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "scene_meta": {
+    "first_encounter_state": {
+      "present": false,
+      "value": null
+    },
+    "world_region": {
+      "present": true,
+      "value": "harbor"
+    },
+    "world_travel_spawn": {
+      "present": false,
+      "value": null
+    },
+    "world_travel_state": {
+      "present": true,
+      "value": {
+        "current_region": "harbor",
+        "harbor_return_position": "(60.0, 320.0)",
+        "last_exit": "",
+        "reset_positions": {
+          "harbor": "(440.0, 320.0)"
+        },
+        "schema_version": 1,
+        "transition_count": 0,
+        "visited": [
+          "harbor"
+        ]
+      }
+    }
+  },
+  "script_hashes": {
+    "res://scripts/adventure_progress.gd": {
+      "disk": "c899f2192574ca5ab0c430d807a2e73b508833315b48f09da0b7585dcb80f4a5",
+      "loaded": "c899f2192574ca5ab0c430d807a2e73b508833315b48f09da0b7585dcb80f4a5"
+    },
+    "res://scripts/exploration_stage.gd": {
+      "disk": "03329b34f0263fa06590c3a579fc4e87c53432e5152870578d85cdb7767d8678",
+      "loaded": "03329b34f0263fa06590c3a579fc4e87c53432e5152870578d85cdb7767d8678"
+    },
+    "res://scripts/first_encounter.gd": {
+      "disk": "143f9723a82d5e573b72783b8e60ddfd97dfc3b2509d46da1ea9722962fd8e0f",
+      "loaded": "143f9723a82d5e573b72783b8e60ddfd97dfc3b2509d46da1ea9722962fd8e0f"
+    },
+    "res://scripts/west_coast_r1.gd": {
+      "disk": "c803451d6922e6d1c217140342eb22abd4261f04ececde31b4240db2bc9aa146",
+      "loaded": "c803451d6922e6d1c217140342eb22abd4261f04ececde31b4240db2bc9aa146"
+    }
+  },
+  "settings": {
+    "audio_muted": false,
+    "audio_volume": 0.6,
+    "effects": true,
+    "motion": true,
+    "music_muted": false,
+    "music_volume": 0.2,
+    "quality": 2,
+    "walk": true
+  },
+  "spawn": "(440.0, 320.0)",
+  "travel": {
+    "can_exit": true,
+    "current_region": "harbor",
+    "exit_hold_id": "",
+    "exit_hold_required_seconds": 0.15,
+    "exit_hold_seconds": 0.0,
+    "fade_alpha": 0.0,
+    "grounded": true,
+    "harbor_return_position": "(60.0, 320.0)",
+    "last_error": "",
+    "last_exit": "",
+    "pending_target": "",
+    "phase": "ready",
+    "region": "harbor",
+    "reset_positions": {
+      "harbor": "(440.0, 320.0)"
+    },
+    "schema_version": 1.0,
+    "source_position": "(440.0, 320.0)",
+    "spawn_position": "(440.0, 320.0)",
+    "transition_count": 0.0,
+    "transitioning": false,
+    "ui_input_blocked": false,
+    "visited": [
+      "harbor"
+    ]
+  }
+}

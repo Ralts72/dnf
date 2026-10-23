@@ -1,0 +1,27 @@
+{
+  "manifest": "docs/r4_lakius_source_reference.json",
+  "manifest_sha256": "2220eb67fb76d940dc92efc824decca80f07b102b2019db143b252ebf7cbb4db",
+  "animation_data": "data/lakius_animations.json",
+  "audio_data": "data/lakius_audio.json",
+  "counts": {
+    "animations": 10,
+    "composite_frames": 37,
+    "unique_source_crops": 32,
+    "textures": 69,
+    "verified_pvf_crc": 20,
+    "runtime_audio_new": 2,
+    "runtime_audio_reused": 1,
+    "composite_pixels": 2705588,
+    "raw_crop_pixels": 667884
+  },
+  "verification": {
+    "all_pvf_crc_match": true,
+    "original_pvf_img_ogg_bytes_retained": true,
+    "all69_png_rgba_roundtrips_exact": true,
+    "all37_composite_crop_rectangles_rgba_exact": true,
+    "all_audio_page_crcs_valid": true,
+    "all_audio_noncomment_packets_identical": true,
+    "all3_source_runtime_pcm_byte_identical": true,
+    "old_spear_runtime_not_rewritten": true
+  }
+}

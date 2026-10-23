@@ -1,0 +1,102 @@
+{
+  "path": "equipment/character/swordman/weapon/hsword/mswdb/stay.ani",
+  "role": "weapon layer",
+  "sha256": "6a1fc4b8b15c9b218f56656554efe24a2500c31378ff16fdd087d812c7ad4c4e",
+  "crc": {
+    "expected": 256460975,
+    "actual_seed_file_number": 256460975,
+    "actual_seed_zero": 1995021610
+  },
+  "decoded": {
+    "frames_count": 6,
+    "resources": [
+      "character/swordman/equipment/weapon/mswd/mswd%02d%02db.img"
+    ],
+    "globals": [
+      {
+        "type": 0,
+        "value": 1
+      }
+    ],
+    "frames": [
+      {
+        "resource": "character/swordman/equipment/weapon/mswd/mswd%02d%02db.img",
+        "image_frame": 90,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/mswd/mswd%02d%02db.img",
+        "image_frame": 91,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/mswd/mswd%02d%02db.img",
+        "image_frame": 92,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/mswd/mswd%02d%02db.img",
+        "image_frame": 93,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/mswd/mswd%02d%02db.img",
+        "image_frame": 94,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/mswd/mswd%02d%02db.img",
+        "image_frame": 95,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      }
+    ]
+  }
+}

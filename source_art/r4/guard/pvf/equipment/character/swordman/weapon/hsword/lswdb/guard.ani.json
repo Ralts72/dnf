@@ -1,0 +1,43 @@
+{
+  "pvf_path": "equipment/character/swordman/weapon/hsword/lswdb/guard.ani",
+  "crc": {
+    "expected": 1337144182,
+    "actual_seed_file_number": 1337144182,
+    "actual_seed_zero": 688254740
+  },
+  "decoded": {
+    "frames_count": 2,
+    "resources": [
+      "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 123,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 10000
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/weapon/lswd/lswd%02d%02db.img",
+        "image_frame": 124,
+        "x": -232,
+        "y": -333,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 10000
+          }
+        ]
+      }
+    ]
+  }
+}

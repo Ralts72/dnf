@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "monster_id": 70,
+  "sounds": {
+    "SPEAR_HIT": {
+      "path": "res://assets/r3/audio/spear_hit.ogg"
+    }
+  },
+  "source_roles": {
+    "attack_voice": null,
+    "hurt_voice": null,
+    "death_voice": null,
+    "explicit_atk_spear_hit_tag": "SPEAR_HIT"
+  },
+  "actions": {},
+  "runtime_hooks_implemented": false,
+  "source_reference": "docs/r3_draconian_audio_source_reference.json",
+  "notes": [
+    "Only SPEAR_HIT is exported: exact audio.xml tag-to-file resolution and a direct Mirkius attackinfo reference are verified.",
+    "Attack, hurt and death voices remain unassigned. DRAGONMAN family names alone do not prove Mirkius voice dispatch.",
+    "Mirkius ATK repeats [hit wav] with FOX_ATK_HIT then SPEAR_HIT; precedence/full original contact dispatch is unresolved.",
+    "Runtime OGG fixes one bare Vorbis comment and its page CRC only. Original source bytes are retained unchanged.",
+    "All identification/setup/audio packets and OGG timing headers are unchanged; local ffmpeg float32 PCM is byte-identical.",
+    "No gameplay event timing, runtime audio hook, hero voice replacement, Godot/client execution, or paid/network service is included."
+  ]
+}

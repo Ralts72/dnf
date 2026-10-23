@@ -1,0 +1,501 @@
+{
+  "study": "Preparation for full-cycle authored source-layer inbetweens",
+  "canvas": [
+    320,
+    224
+  ],
+  "anchor": [
+    133,
+    167
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "duration_ms": 100,
+      "layers": [
+        {
+          "slot": 2,
+          "name": "pants_back",
+          "opaque_pixels": 213,
+          "components": [
+            {
+              "area": 213,
+              "center": [
+                137.1737089201878,
+                148.65727699530515
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 3,
+          "name": "shoes_back",
+          "opaque_pixels": 190,
+          "components": [
+            {
+              "area": 190,
+              "center": [
+                138.8421052631579,
+                164.7421052631579
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 4,
+          "name": "pants",
+          "opaque_pixels": 830,
+          "components": [
+            {
+              "area": 830,
+              "center": [
+                132.76506024096386,
+                123.00361445783133
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "name": "shoes",
+          "opaque_pixels": 211,
+          "components": [
+            {
+              "area": 211,
+              "center": [
+                116.45971563981043,
+                157.13270142180096
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "duration_ms": 100,
+      "layers": [
+        {
+          "slot": 2,
+          "name": "pants_back",
+          "opaque_pixels": 130,
+          "components": [
+            {
+              "area": 130,
+              "center": [
+                129.96923076923076,
+                130.12307692307692
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 3,
+          "name": "shoes_back",
+          "opaque_pixels": 97,
+          "components": [
+            {
+              "area": 97,
+              "center": [
+                133.50515463917526,
+                167.4742268041237
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 4,
+          "name": "pants",
+          "opaque_pixels": 794,
+          "components": [
+            {
+              "area": 794,
+              "center": [
+                136.2027707808564,
+                122.71410579345088
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "name": "shoes",
+          "opaque_pixels": 190,
+          "components": [
+            {
+              "area": 190,
+              "center": [
+                133.84736842105264,
+                159.74736842105264
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "duration_ms": 100,
+      "layers": [
+        {
+          "slot": 2,
+          "name": "pants_back",
+          "opaque_pixels": 392,
+          "components": [
+            {
+              "area": 392,
+              "center": [
+                123.63775510204081,
+                137.29336734693877
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 3,
+          "name": "shoes_back",
+          "opaque_pixels": 203,
+          "components": [
+            {
+              "area": 203,
+              "center": [
+                120.18226600985221,
+                163.00985221674875
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 4,
+          "name": "pants",
+          "opaque_pixels": 806,
+          "components": [
+            {
+              "area": 806,
+              "center": [
+                137.1699751861042,
+                125.22704714640199
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "name": "shoes",
+          "opaque_pixels": 201,
+          "components": [
+            {
+              "area": 201,
+              "center": [
+                147.45273631840797,
+                163.29850746268656
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "duration_ms": 100,
+      "layers": [
+        {
+          "slot": 2,
+          "name": "pants_back",
+          "opaque_pixels": 307,
+          "components": [
+            {
+              "area": 307,
+              "center": [
+                123.21172638436482,
+                139.87622149837134
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 3,
+          "name": "shoes_back",
+          "opaque_pixels": 212,
+          "components": [
+            {
+              "area": 212,
+              "center": [
+                116.31132075471697,
+                161.33962264150944
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 4,
+          "name": "pants",
+          "opaque_pixels": 802,
+          "components": [
+            {
+              "area": 802,
+              "center": [
+                135.5997506234414,
+                125.71197007481297
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "name": "shoes",
+          "opaque_pixels": 190,
+          "components": [
+            {
+              "area": 190,
+              "center": [
+                142.8421052631579,
+                166.7421052631579
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "duration_ms": 100,
+      "layers": [
+        {
+          "slot": 2,
+          "name": "pants_back",
+          "opaque_pixels": 149,
+          "components": [
+            {
+              "area": 130,
+              "center": [
+                123.43846153846154,
+                143.6076923076923
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 3,
+          "name": "shoes_back",
+          "opaque_pixels": 207,
+          "components": [
+            {
+              "area": 207,
+              "center": [
+                118.35748792270532,
+                155.06763285024155
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 4,
+          "name": "pants",
+          "opaque_pixels": 918,
+          "components": [
+            {
+              "area": 918,
+              "center": [
+                134.90196078431373,
+                124.2276688453159
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "name": "shoes",
+          "opaque_pixels": 190,
+          "components": [
+            {
+              "area": 190,
+              "center": [
+                136.8421052631579,
+                166.7421052631579
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "duration_ms": 100,
+      "layers": [
+        {
+          "slot": 2,
+          "name": "pants_back",
+          "opaque_pixels": 184,
+          "components": [
+            {
+              "area": 184,
+              "center": [
+                139.46195652173913,
+                137.82608695652175
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 3,
+          "name": "shoes_back",
+          "opaque_pixels": 141,
+          "components": [
+            {
+              "area": 141,
+              "center": [
+                138.4964539007092,
+                157.48936170212767
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 4,
+          "name": "pants",
+          "opaque_pixels": 932,
+          "components": [
+            {
+              "area": 932,
+              "center": [
+                133.21888412017168,
+                124.49034334763948
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "name": "shoes",
+          "opaque_pixels": 190,
+          "components": [
+            {
+              "area": 190,
+              "center": [
+                130.84736842105264,
+                166.74736842105264
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "duration_ms": 100,
+      "layers": [
+        {
+          "slot": 2,
+          "name": "pants_back",
+          "opaque_pixels": 0,
+          "components": []
+        },
+        {
+          "slot": 3,
+          "name": "shoes_back",
+          "opaque_pixels": 0,
+          "components": []
+        },
+        {
+          "slot": 4,
+          "name": "pants",
+          "opaque_pixels": 1218,
+          "components": [
+            {
+              "area": 1218,
+              "center": [
+                133.44334975369458,
+                129.28899835796386
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "name": "shoes",
+          "opaque_pixels": 408,
+          "components": [
+            {
+              "area": 205,
+              "center": [
+                149.18536585365854,
+                161.22926829268292
+              ]
+            },
+            {
+              "area": 203,
+              "center": [
+                118.19704433497537,
+                164.98029556650246
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "duration_ms": 100,
+      "layers": [
+        {
+          "slot": 2,
+          "name": "pants_back",
+          "opaque_pixels": 311,
+          "components": [
+            {
+              "area": 311,
+              "center": [
+                140.64308681672026,
+                143.10932475884243
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 3,
+          "name": "shoes_back",
+          "opaque_pixels": 190,
+          "components": [
+            {
+              "area": 190,
+              "center": [
+                144.8421052631579,
+                164.7421052631579
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 4,
+          "name": "pants",
+          "opaque_pixels": 870,
+          "components": [
+            {
+              "area": 870,
+              "center": [
+                130.40804597701148,
+                124.48390804597702
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "name": "shoes",
+          "opaque_pixels": 218,
+          "components": [
+            {
+              "area": 218,
+              "center": [
+                114.21100917431193,
+                162.27522935779817
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Connected image regions are not automatically physical legs; frame6 needs explicit part masks."
+}

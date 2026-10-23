@@ -1,0 +1,272 @@
+{
+  "stage": "R1 visual candidate 05",
+  "artifacts": [
+    {
+      "path": "assets/r0/port/westmobj00/image/000.png",
+      "bytes": 35123,
+      "sha256": "5eb65316942a473f59d486a38c327ddb81f6cf16569f20a07e59c1c9ffb67a4d"
+    },
+    {
+      "path": "assets/r1/models/west_coast_port.glb",
+      "bytes": 7263088,
+      "sha256": "b87be710bff481b071cab2155cd352d24c4f8f0ea028adc89819351a34ddbeaa"
+    },
+    {
+      "path": "data/npc_lo_r0.json",
+      "bytes": 5208,
+      "sha256": "8c99388c3acd838681211d5b3d35a6684856741a7c1fd1e4d1b07afbcda35c8b"
+    },
+    {
+      "path": "data/npc_lo_r1.json",
+      "bytes": 2897,
+      "sha256": "9a3a771794a898e002afbc120bd3b381c10bfb69ea675b66ff888613b4be27cb"
+    },
+    {
+      "path": "data/npc_sr_r0.json",
+      "bytes": 3561,
+      "sha256": "0144316e68fd326a6e8ea2259c50319e6924ffea2cec3b06d58614d67def78cf"
+    },
+    {
+      "path": "data/npc_sr_r1.json",
+      "bytes": 2000,
+      "sha256": "1cceae02004eebb6cf79c8ba5ee7ec956ac65f19e7a268c1d8183234658489eb"
+    },
+    {
+      "path": "data/port_r0.json",
+      "bytes": 33715,
+      "sha256": "47e37ec1b7fff8f129b4fb5fd28c20f2b3991d95533177b58229293713616532"
+    },
+    {
+      "path": "data/swordman_r0.json",
+      "bytes": 246952,
+      "sha256": "212544968be0554d753daac3eeb50071733e1c54cc44dd74f03c90dcc5f2f75d"
+    },
+    {
+      "path": "data/swordman_r1.json",
+      "bytes": 63861,
+      "sha256": "1c4b47cf4d2ce09a9f65a506f4f906d495f3088e2dd5d2f8e487bdb254ae4e18"
+    },
+    {
+      "path": "docs/pixel_import_manifest.json",
+      "bytes": 37854,
+      "sha256": "ae2b30d5e01c13f422fb056b83ee3fb71e471263dbe37cb32e1e8cd0979fcdfd"
+    },
+    {
+      "path": "docs/r1_derivative_manifest.json",
+      "bytes": 143944,
+      "sha256": "86383d50426b97af668c3b56aa0ce1ce45bfbc087712a8f71d3d41dee0d96ced"
+    },
+    {
+      "path": "project.godot",
+      "bytes": 924,
+      "sha256": "c0474544d5f3db94f8a1dd717fcde24dcf11a5ffac34e7d09d10f9ccb8d8d5ac"
+    },
+    {
+      "path": "scenes/west_coast_r0.tscn",
+      "bytes": 20844,
+      "sha256": "df01c41605a6366b15bb22f90e9405072431fb8293e8c4e21b67a3aa122cebe9"
+    },
+    {
+      "path": "scenes/west_coast_r1.tscn",
+      "bytes": 20056,
+      "sha256": "21bbb251f8593a187e946a1ed364c4f1d1997b05c777c3f767648fd87bda054f"
+    },
+    {
+      "path": "scripts/billboard_prop.gd",
+      "bytes": 971,
+      "sha256": "9fc3355c8c54d920ff40c2ac9c2b5e30aa7ea15bbca1cf84ae28b8987dbb40c4"
+    },
+    {
+      "path": "scripts/demo_input.gd",
+      "bytes": 606,
+      "sha256": "0ba25f8751df1a1080c54a92cf9d0d12f2089089779644441a3bb60b2ec0be8c"
+    },
+    {
+      "path": "scripts/demo_walk_area.gd",
+      "bytes": 537,
+      "sha256": "0a9dafb6a9083d1911c9b00884319a5d9a5968c93edfc239f7c7734a17110485"
+    },
+    {
+      "path": "scripts/source_actor.gd",
+      "bytes": 5039,
+      "sha256": "cef503c7b7f6d41346f4848a59d4441829590925b1760932691b6f1e556fa2ac"
+    },
+    {
+      "path": "scripts/source_actor_3d.gd",
+      "bytes": 6198,
+      "sha256": "efc010adb1f38b9554286820026cbf447da6069fb00eb15c4a3a056661606791"
+    },
+    {
+      "path": "scripts/source_preview_controls.gd",
+      "bytes": 3154,
+      "sha256": "24b2783ed98632369d19fd765590e8f9ba59875cc6fc5a15f001e7abe8b12c91"
+    },
+    {
+      "path": "scripts/source_prop.gd",
+      "bytes": 604,
+      "sha256": "3ff78008da3a277bb9aac38c7f0ef4090439fa722f045a89633ff76a4f2d673b"
+    },
+    {
+      "path": "scripts/west_coast_r0.gd",
+      "bytes": 3556,
+      "sha256": "677e8254b4c48e8e646770a1e8f7a6449242dafa3cb887fa24b0b1435bc9e977"
+    },
+    {
+      "path": "scripts/west_coast_r1.gd",
+      "bytes": 5083,
+      "sha256": "c5eda973b9f86b9a64224801a6308c0f9bb33090dfd2bd82938563176e33d9e9"
+    },
+    {
+      "path": "shaders/contact_shadow.gdshader",
+      "bytes": 204,
+      "sha256": "2a3530b5e8b2a4378cd6d5d7a46ce0a35ea74c8b9e4e25a2315da6b0e68f6595"
+    },
+    {
+      "path": "shaders/harbor_water.gdshader",
+      "bytes": 633,
+      "sha256": "a5166b47c5c3dd263fe02c29cb3a55dbbd4e16d3a679b8164d0e9d81c48cb767"
+    },
+    {
+      "path": "shaders/source_billboard.gdshader",
+      "bytes": 1260,
+      "sha256": "f82b408fb3bc9424a49e6c3735e1afbbdfb05576458b2d7f7a141b4670395934"
+    },
+    {
+      "path": "source_art/r1/facade_reference.json",
+      "bytes": 10010,
+      "sha256": "fb44cf931e76af9882368f8057cedec5074f540e60656e508f86db2a34296aae"
+    },
+    {
+      "path": "source_art/r1/west_coast_port.blend",
+      "bytes": 464265,
+      "sha256": "f8294ee1bb1a7a59222f1c288c23330f4b73cd31e09c8f05cd5d7a573ce8021f"
+    },
+    {
+      "path": "tools/dnf_client_analysis/build_r0_scene.py",
+      "bytes": 9220,
+      "sha256": "835dbbf74d2d6c1f5db5bf5548c698a27628800203e6e0da3fbc7a011e4621db"
+    },
+    {
+      "path": "tools/dnf_client_analysis/export_r0.py",
+      "bytes": 10423,
+      "sha256": "7cc24dc9b3ccef1f9052fac449c747f85bd09b0a3c4bb47a0723ac8f0645a46a"
+    },
+    {
+      "path": "tools/dnf_client_analysis/pixel_imports.py",
+      "bytes": 2387,
+      "sha256": "81f609742ee333c71945164ee38114b9bd1a79ff6e6c1891589de4ef6042f741"
+    },
+    {
+      "path": "tools/r1/build_port_model.py",
+      "bytes": 23331,
+      "sha256": "19c3d66091ccdf2cd1de7e8e74473644e87ba5bca4a13eefa73d0cf31a7592e9"
+    },
+    {
+      "path": "tools/r1/build_r1_scene.py",
+      "bytes": 9154,
+      "sha256": "e850829840a515cc009404451d6337193a19eaa779816c43a3656bc4fe8399ff"
+    },
+    {
+      "path": "tools/r1/capture_full_frame.gd",
+      "bytes": 2142,
+      "sha256": "90cad933f873bdaf5f2418a4161b360f66f5d22bc92f373d16250a18ee4b067b"
+    },
+    {
+      "path": "tools/r1/compose_billboards.py",
+      "bytes": 3245,
+      "sha256": "a268f7951c5ab019af67bd44e4278e8f66b8e450275875cd201f153453ed5f7e"
+    },
+    {
+      "path": "tools/r1/inspect_blend.py",
+      "bytes": 1478,
+      "sha256": "b6f8ea2ce0509c35ef3c53ab96d094aa993e4ebc8a8d406a79d5f71ffae55c68"
+    },
+    {
+      "path": "tools/r1/pose_check_job.gd",
+      "bytes": 1161,
+      "sha256": "15718b21820dd4d7abda1ee12839f85fddd07b4d4adbf4c12345ab3ad87a348f"
+    },
+    {
+      "path": "tools/r1/pose_checks.gd",
+      "bytes": 8845,
+      "sha256": "e4b96ca74e2dd10303247af019256f3de4c46e378c3dcf9e0245fd0713713306"
+    },
+    {
+      "path": "tools/r1/prepare_facade_reference.py",
+      "bytes": 2451,
+      "sha256": "9520ef1613657205e985e9017adb75e6b29523f3abd0139856398e600ca39829"
+    },
+    {
+      "path": "tools/r1/quality_checks.gd",
+      "bytes": 9309,
+      "sha256": "0ea374b5a4173df5fe75f7ad27f063a2bcde590edb540c4750fa65c76a4f928c"
+    },
+    {
+      "path": "tools/r1/rebuild_r1.py",
+      "bytes": 1978,
+      "sha256": "f90f73458b5c019492499efccf9be0490978a47d5de6d5b180292107fc510716"
+    },
+    {
+      "path": "tools/r1/render_observation.gd",
+      "bytes": 6339,
+      "sha256": "84ec7cf1dc42d2dae028d21ba126725b6fcddae52060b1294281983de260584c"
+    },
+    {
+      "path": "tools/r1/runtime_checks.gd",
+      "bytes": 7106,
+      "sha256": "3db6b1efb480dfd3ffc0118a97dae91075b51cae5317dcdc2b5aa800eddbb335"
+    },
+    {
+      "path": "tools/r1/stall_checks.gd",
+      "bytes": 7377,
+      "sha256": "b6f662bc4dffaad086fd004d4f11b38303099a94cd18060e64f234185150e85e"
+    },
+    {
+      "path": "tools/r1/stamp_build.py",
+      "bytes": 2219,
+      "sha256": "b204b3d5a507ffab535b2d949f3469f590a30d819acad4791685670aedb3edf2"
+    },
+    {
+      "path": "tools/r1/verify_actor_sources.py",
+      "bytes": 4163,
+      "sha256": "604b1320f908beff18f691b76ea5404884e9e01675fa314e9469f43fc053afd7"
+    }
+  ],
+  "source_manifest": "docs/r0_asset_manifest.json",
+  "derivative_manifest": "docs/r1_derivative_manifest.json",
+  "reference_measurements": "source_art/r1/facade_reference.json",
+  "model_statistics": {
+    "source": "westtile00 and westmobj00 images used as references; new 3D geometry, not recovered original meshes",
+    "blender": "5.2.2 LTS",
+    "objects": 226,
+    "mesh_faces_before_modifiers": 9598,
+    "coordinates": "Godot X/Y/Z; converted to Blender X/-Z/Y before glTF export",
+    "source_blend": "source_art/r1/west_coast_port.blend",
+    "export_glb": "assets/r1/models/west_coast_port.glb",
+    "stall_reference": "assets/r0/port/westmobj00/image/000.png",
+    "stall_projected_meshes": [
+      "Stall_Canopy",
+      "Stall_Canopy_Scalloped_Valance",
+      "Stall_Red_Drapery",
+      "Stall_Carved_Screen_Frame",
+      "Stall_Screen_Cloth_Inset",
+      "Stall_Counter",
+      "Stall_Green_Counter_Cloth",
+      "Stall_Blue_Counter_Cloth",
+      "Stall_Upper_Chest",
+      "Stall_Lower_Chest",
+      "Stall_Stock_Sack",
+      "Stall_Emblem_Post",
+      "Stall_Left_Barrel"
+    ],
+    "alpha_mask_materials": [
+      "Source_Painted_Stall"
+    ]
+  },
+  "notes": [
+    "New 3D geometry referenced from source art; not recovered original meshes.",
+    "The source .blend contains packed reference and paving images.",
+    "R0 preserved for F4 comparison. Visual approval is pending.",
+    "Default native scene render 1792x808; F6 selects 896x404 or 1792x808."
+  ]
+}

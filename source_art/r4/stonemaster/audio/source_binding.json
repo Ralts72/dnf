@@ -1,0 +1,57 @@
+{
+  "tag": "STONE_DMG",
+  "path": "res://assets/r4/stonemaster/audio/stone_dmg.ogg",
+  "canonical_npk": "sounds_effect.npk",
+  "sha256_npk": "f44848765ad6cc282f609b50a5ffe32b7077a186ad53b2ffa649db0160e4c764",
+  "entry": {
+    "pack": "sounds_effect.npk",
+    "path": "sounds/effect/stone_dmg.ogg",
+    "offset": 9343706,
+    "bytes": 14646
+  },
+  "audio_xml_sha256": "709e314f1b7be9864fa0f5bdfa133279d005b3ae83a17d8594563d003fe5c37d",
+  "xml_attributes": {
+    "ID": "STONE_DMG",
+    "FILE": "sounds\\effect\\stone_dmg.ogg"
+  },
+  "retained_original": "source_art/r4/stonemaster/audio/stone_dmg.ogg",
+  "sha256_source_ogg": "98bd1c488c5631042bf89c0f88038998458f6d68c95f0753477a1315b66890b9",
+  "sha256_runtime_ogg": "878e79a8f710223e194f792b8723f490f38b2851985c0f340d9da64a7756106d",
+  "metadata_fix": {
+    "comments_fixed": 1,
+    "audio_packets": 95,
+    "audio_packet_sha256": "10595a5f705b4c27e97db7f483ba0db8c84dc74cd23f30975045602974ecc939",
+    "all_noncomment_packets_identical": true
+  },
+  "all_noncomment_packets_identical": true,
+  "ogg_timing_headers_identical": true,
+  "source_PCM": {
+    "decoder": "ffmpeg",
+    "format": "interleaved float32 little-endian",
+    "sample_rate": 44100,
+    "channels": 1,
+    "frames": 39102,
+    "bytes": 156408,
+    "sha256": "17de210a023d1e9a09ef30a55dded6e0679413e9f6c33e86b2dbdc7a147ee345",
+    "container_duration_seconds": 0.886667
+  },
+  "runtime_PCM": {
+    "decoder": "ffmpeg",
+    "format": "interleaved float32 little-endian",
+    "sample_rate": 44100,
+    "channels": 1,
+    "frames": 39102,
+    "bytes": 156408,
+    "sha256": "17de210a023d1e9a09ef30a55dded6e0679413e9f6c33e86b2dbdc7a147ee345",
+    "container_duration_seconds": 0.886667
+  },
+  "PCM_byte_identical": true,
+  "source_binding": {
+    "pvf_path": "monster/dollmaster/attackinfo/stoneattackpunch.atk",
+    "sha256_decoded": "6aab1727892301257ee4316dadf94aa86d4686b3a94aad36e3f5a1b55db9cfc4",
+    "field": "[hit wav]",
+    "tag": "STONE_DMG"
+  },
+  "runtime_hooks_implemented": false,
+  "role": "Explicit physical punch contact, not attack/hurt/death voice"
+}

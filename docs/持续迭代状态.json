@@ -1,0 +1,199 @@
+{
+  "objective": "持续迭代，直到剩余额度低于 50%",
+  "client_date": "2026-10-23",
+  "active_stage": "R1 港口混合场景候选 20",
+  "quota": {
+    "limit_id": "codex",
+    "window_minutes": 10080,
+    "baseline_used_percent": 1,
+    "last_observed_used_percent": 9,
+    "last_observed_remaining_percent": 91,
+    "window_resets_at": 1793293820,
+    "stop_when_remaining_below_percent": 50,
+    "stop_on_actual_reset": true,
+    "use_reset_credits": false,
+    "extra_paid_budget_authorized": false
+  },
+  "completed_this_iteration": [
+    "默认开启原生位置插值，F11／右下平移开关在R0和R1之间保留；地面与跳跃仍按60Hz计算",
+    "R1人物和特效裁剪改为几何offset，R0新增Facing层；换图和翻面即时，暂停／复位／F4重置插值历史",
+    "43项实际键盘与GPU像素插值检查通过：正式60Hz同逻辑步间R1开启37/37移动、关闭0/39；R0开启42/42、关闭0/41",
+    "48跳跃、35特效、17核心、17姿势和13运行观察连同插值43项，共173项通过；552姿势95904内点保留",
+    "开启插值的1080p观察30.009秒，平均8.333ms、P9510.041ms，0帧超过16.67ms",
+    "42份来源／shader／模型／动作数据未变，929导入配置通过；原人物行走／奔跑仍10次换图每秒，后续处理中间帧"
+  ],
+  "visual_feedback": "用户反馈：方向可以，继续打磨。继续R1；完整视觉验收、Windows验证未完成，未进入R2。",
+  "next": [
+    "评估保持800ms周期的行走／奔跑中间帧对照；检查武器轮廓和脚底，保留原始帧",
+    "攻击的挥砍和收招节奏独立处理；不把纯加速当作补帧",
+    "继续追踪真实慢帧，候选19首次长停顿原因未定位；按用户认可的方向继续R1打磨"
+  ],
+  "goal_status": "active",
+  "last_verification": {
+    "candidate": "R1/20",
+    "core_checks": 17,
+    "pose_checks": 17,
+    "effect_checks": 35,
+    "observation_checks": 13,
+    "total": 173,
+    "failed": 0,
+    "rendered_pose_instances": 552,
+    "opaque_png_samples": 95904,
+    "matching_samples": 95904,
+    "effect_render_cases": 48,
+    "effect_additive_samples": 41664,
+    "effect_additive_matching": 41664,
+    "effect_foreground_samples": 11772,
+    "effect_foreground_unchanged": 11772,
+    "source_crops": 769,
+    "source_ani_crc": 27,
+    "rgba_composites": 107,
+    "lossless_import_profiles": 929,
+    "effect_source_crops": 9,
+    "effect_source_ani_crc": 2,
+    "effect_source_rgba_pixels": 105300,
+    "model_changed_this_iteration": false,
+    "active_model_textures": 27,
+    "exact_model_rgba_pixels": 322574,
+    "blend_meshes": 302,
+    "packed_images": 27,
+    "unchanged_model_motion_navigation_audio_data_files": 42,
+    "render_scale": 2,
+    "scene_render_size": [
+      1792,
+      808
+    ],
+    "full_frame_size": [
+      1920,
+      1080
+    ],
+    "full_frame_3d_draw_calls_min": 319,
+    "full_frame_3d_draw_calls_max": 321,
+    "observation": {
+      "elapsed_sample_seconds": 30.008833,
+      "fps_from_mean": 119.998001921634,
+      "frames": 3601,
+      "frames_over_16_67_ms": 0,
+      "max_ms": 12.134,
+      "mean_ms": 8.33347209108581,
+      "median_ms": 8.332,
+      "p95_ms": 10.041,
+      "percent_over_16_67_ms": 0.0
+    },
+    "first_observation": {
+      "elapsed_sample_seconds": 30.00758,
+      "fps_from_mean": 120.536211183974,
+      "frames": 3617,
+      "frames_over_16_67_ms": 29,
+      "max_ms": 1016.389,
+      "mean_ms": 8.29626209565938,
+      "median_ms": 7.667,
+      "p95_ms": 9.92,
+      "percent_over_16_67_ms": 0.801769422173072
+    },
+    "first_stall_resolved": false,
+    "source_effect_active_observation_frames": 260,
+    "source_effect_peak_tracks": 2,
+    "music_active_observation_frames": 3601,
+    "ambient_active_observation_frames": 3601,
+    "music_play_starts_during_observation": 1,
+    "ambient_play_starts_during_observation": 1,
+    "core_report": "docs/r1_20_runtime_checks.json",
+    "core_terminal_proof": "docs/r1_20_core_job.json",
+    "effect_report": "docs/r1_20_effect_checks.json",
+    "effect_terminal_proof": "docs/r1_20_effect_job.json",
+    "pose_report": "docs/r1_20_pose_checks.json",
+    "pose_terminal_proof": "docs/r1_20_pose_job.json",
+    "observation_report": "docs/r1_20_render_observation.json",
+    "observation_terminal_proof": "docs/r1_20_observation_job.json",
+    "first_observation_report": "docs/r1_19_first_render_observation.json",
+    "source_report": "docs/r1_20_source_checks.json",
+    "model_texture_source_report": "docs/r1_20_model_texture_source_checks.json",
+    "unchanged_source_proof": "docs/r1_20_unchanged_sources.json",
+    "motion_cadence_report": "docs/r1_20_motion_cadence.json",
+    "final_state": "docs/r1_20_final_state.json",
+    "final_logs": "docs/r1_20_final_logs.json",
+    "editor_reload_report": "docs/r1_20_editor_reload.json",
+    "editor_scene": "res://scenes/west_coast_r1.tscn",
+    "editor_build": "R1   /   20",
+    "capture_report": "docs/r1_20_capture.json",
+    "effect_capture_report": "docs/r1_20_fx_capture.json",
+    "build_artifacts": 236,
+    "current_clean_run_id": "r25098940-62",
+    "platform": "macOS",
+    "windows_tested": false,
+    "historical_door_routes": {
+      "candidate": "R1/18",
+      "checks": 22,
+      "report": "docs/r1_18_door_approach_checks.json",
+      "counted_in_current_total": false
+    },
+    "historical_model_texture_gpu": {
+      "candidate": "R1/16",
+      "checks": 84,
+      "report": "docs/r1_16_model_texture_checks.json",
+      "counted_in_current_total": false
+    },
+    "historical_facade": {
+      "candidate": "R1/17",
+      "checks": 7,
+      "report": "docs/r1_17_facade_after_checks.json",
+      "counted_in_current_total": false
+    },
+    "historical_mooring": {
+      "candidate": "R1/17",
+      "checks": 29,
+      "report": "docs/r1_17_mooring_checks.json",
+      "counted_in_current_total": false
+    },
+    "historical_previous_candidate_state": "source_art/r1/checkpoints/candidate_19/docs/持续迭代状态.json",
+    "interpolation_checks": 43,
+    "jump_checks": 48,
+    "rendered_motion_cases": 8,
+    "production_motion_cases": [
+      {
+        "scene": "R1",
+        "enabled": false,
+        "between_tick_pairs": 39,
+        "render_moved_between_tick_pairs": 0,
+        "maximum_between_tick_pixels": 0.0
+      },
+      {
+        "scene": "R1",
+        "enabled": true,
+        "between_tick_pairs": 37,
+        "render_moved_between_tick_pairs": 37,
+        "maximum_between_tick_pixels": 2.0
+      },
+      {
+        "scene": "R0",
+        "enabled": false,
+        "between_tick_pairs": 41,
+        "render_moved_between_tick_pairs": 0,
+        "maximum_between_tick_pixels": 0.0
+      },
+      {
+        "scene": "R0",
+        "enabled": true,
+        "between_tick_pairs": 42,
+        "render_moved_between_tick_pairs": 42,
+        "maximum_between_tick_pixels": 1.0
+      }
+    ],
+    "production_physics_ticks_per_second": 60,
+    "native_motion_interpolation_enabled": true,
+    "jump_pose_cases": 3,
+    "jump_pose_samples": 870,
+    "jump_pose_matching": 870,
+    "jump_report": "docs/r1_20_jump_checks.json",
+    "jump_terminal_proof": "docs/r1_20_jump_job.json",
+    "interpolation_report": "docs/r1_20_interpolation_checks.json",
+    "interpolation_terminal_proof": "docs/r1_20_interpolation_job.json",
+    "interpolation_reference": "docs/r1_20_interpolation_reference.json",
+    "historical_effect_source": {
+      "candidate": "R1/19",
+      "report": "docs/r1_19_effect_source_checks.json",
+      "valid_by_current_unchanged_hashes": true
+    }
+  }
+}

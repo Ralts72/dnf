@@ -1,0 +1,102 @@
+{
+  "candidate": "R1/20",
+  "verified_at_utc": "2026-10-23T02:09:57.897630+00:00",
+  "run_id": "r25098940-62",
+  "artifact_hashes_passed": 236,
+  "current_checks": {
+    "interpolation": 43,
+    "effect": 35,
+    "runtime": 17,
+    "pose": 17,
+    "jump": 48,
+    "observation": 13
+  },
+  "total_current_checks": 173,
+  "failed": 0,
+  "completed_qa_jobs": {
+    "interpolation": {
+      "status": "complete",
+      "elapsed_seconds": 7.555525
+    },
+    "effect": {
+      "status": "complete",
+      "elapsed_seconds": 3.995225
+    },
+    "core": {
+      "status": "complete",
+      "elapsed_seconds": 4.596293
+    },
+    "pose": {
+      "status": "complete",
+      "elapsed_seconds": 9.553018
+    },
+    "jump": {
+      "status": "complete",
+      "elapsed_seconds": 3.875948
+    },
+    "observation": {
+      "status": "complete",
+      "elapsed_seconds": 133.773985
+    }
+  },
+  "motion_native_cases": 8,
+  "motion_production_pixel_evidence": [
+    {
+      "scene": "R1",
+      "enabled": false,
+      "between_tick_pairs": 39,
+      "render_moved_between_tick_pairs": 0
+    },
+    {
+      "scene": "R1",
+      "enabled": true,
+      "between_tick_pairs": 37,
+      "render_moved_between_tick_pairs": 37
+    },
+    {
+      "scene": "R0",
+      "enabled": false,
+      "between_tick_pairs": 41,
+      "render_moved_between_tick_pairs": 0
+    },
+    {
+      "scene": "R0",
+      "enabled": true,
+      "between_tick_pairs": 42,
+      "render_moved_between_tick_pairs": 42
+    }
+  ],
+  "native_interpolation_default_enabled": true,
+  "production_physics_ticks": 60,
+  "source_animation_cycle_unchanged": true,
+  "source_locomotion_image_updates_per_second": 10,
+  "unchanged_source_model_shader_data_files": 42,
+  "fresh_run_matches_disk": true,
+  "fresh_run_texture_mismatches": 0,
+  "clean_current_run": true,
+  "observation": {
+    "elapsed_sample_seconds": 30.008833,
+    "fps_from_mean": 119.998001921634,
+    "frames": 3601,
+    "frames_over_16_67_ms": 0,
+    "max_ms": 12.134,
+    "mean_ms": 8.33347209108581,
+    "median_ms": 8.332,
+    "p95_ms": 10.041,
+    "percent_over_16_67_ms": 0.0
+  },
+  "previous_stall_cause_known": false,
+  "next_priority": "Same-duration locomotion in-between pose comparison; preserve source frames and inspect weapon/foot contours",
+  "quota_remaining_percent": 91,
+  "goal_status": "active",
+  "previews": {
+    "r1_20_fx_full1080.png": "ec69262061ee90bee16837d5e59bfe415c0787b9206952408877e3bf59f8f183",
+    "r1_20_lift_R1_2x.png": "019b043ffb679d9e44767d4b6975ac9685c9ecdceec58b9ef7894729177d3f00",
+    "r1_20_window.png": "4849148e2959808326a43f116ce7c64c8ed816d6e6888d3e40100b4390c8030b",
+    "r1_20_full1080.png": "a84a108d64d46222e1cbd3314e0534005c4ef36a54229c68d66733da8c0eabaf",
+    "r1_20_lift_R0_1x.png": "3b1a5558543035716fcb1423ab9594346a57616b0d037dabc948453d1ec5f909",
+    "r1_20_effect_scene.png": "a667d617c705ee962895d4771151ae8c13d3c5e4798d48eab7d0bbb93c025701",
+    "r1_20_after_observation.png": "1349e9ab6846504887bef32d875b6d2fa8a6baf7f5fd843eae0af316fe9fbc9a",
+    "r1_20_lift_R1_1x.png": "c6a6e8c3a24f63b1a583df6db5290a4e6d1c870da9527fde9d8e2abf0fcd8144"
+  }
+}

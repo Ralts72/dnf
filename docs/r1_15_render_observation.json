@@ -1,0 +1,91 @@
+{
+  "ambient_active_frames": 4320,
+  "ambient_play_starts": 1,
+  "ambient_player_id": 73366768366,
+  "candidate": "R1/15",
+  "checks": [
+    {
+      "check": "full_1080_native_targets",
+      "pass": true
+    },
+    {
+      "check": "all_six_clips_observed",
+      "pass": true
+    },
+    {
+      "check": "full_3d_pass_active",
+      "pass": true
+    },
+    {
+      "check": "main_3d_disabled",
+      "pass": true
+    },
+    {
+      "check": "sample_duration_at_least_30_seconds",
+      "pass": true
+    },
+    {
+      "check": "p95_within_60fps_frame_budget",
+      "pass": true
+    },
+    {
+      "check": "water_clock_advances_during_observation",
+      "pass": true
+    },
+    {
+      "check": "music_remains_active_during_observation",
+      "pass": true
+    },
+    {
+      "check": "one_music_player_retained_during_observation",
+      "pass": true
+    },
+    {
+      "check": "ambient_remains_active_during_observation",
+      "pass": true
+    },
+    {
+      "check": "one_ambient_player_retained_during_observation",
+      "pass": true
+    }
+  ],
+  "clips": [
+    "stay",
+    "move",
+    "dash",
+    "attack1",
+    "attack2",
+    "hopsmash"
+  ],
+  "draw_calls_max": 319,
+  "draw_calls_min": 319,
+  "failed": 0,
+  "full_target": "(1920, 1080)",
+  "godot": "4.7.2-stable (official)",
+  "music_active_frames": 4320,
+  "music_elapsed_seconds": 32.1799545288086,
+  "music_play_starts": 1,
+  "music_player_id": 73098332905,
+  "notes": [
+    "30 seconds in the current Mac session; not long-term stability or Windows validation.",
+    "Frame intervals include the offscreen full scene; the visible main 3D pass was disabled.",
+    "Six source poses, both facings, changing positions, NPC animations, ship motion, shadows and water remain active.",
+    "Direct pose movement is a rendering load only, not a collision or gameplay fidelity test."
+  ],
+  "observation": {
+    "elapsed_sample_seconds": 30.003095,
+    "fps_from_mean": 143.985145532486,
+    "frames": 4320,
+    "frames_over_16_67_ms": 0,
+    "max_ms": 14.732,
+    "mean_ms": 6.94516087962963,
+    "median_ms": 6.895,
+    "p95_ms": 8.778,
+    "percent_over_16_67_ms": 0.0
+  },
+  "platform": "macOS",
+  "qa_source_sha256": "4c20d399acb235279f3dd7b3283544a103720f9138ab569b95a5be7263ef0696",
+  "scene_target": "(1792, 808)",
+  "warmup_seconds": 2.0,
+  "water_elapsed_seconds": 32.0527777777707
+}

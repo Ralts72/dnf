@@ -1,0 +1,81 @@
+{
+	"action": "dash",
+	"bake_complete": true,
+	"bake_source_reference": "docs/r3_05_weapon_bake_checks.json",
+	"canvas_size": [
+		320.0,
+		224.0
+	],
+	"cycle_ms": 800.0,
+	"foot_anchor": [
+		133.0,
+		167.0
+	],
+	"frames": [
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_00_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_00_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_00.png"
+		},
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_01_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_01_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_01.png"
+		},
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_02_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_02_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_02.png"
+		},
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_03_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_03_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_03.png"
+		},
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_04_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_04_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_04.png"
+		},
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_05_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_05_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_05.png"
+		},
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_06_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_06_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_06.png"
+		},
+		{
+			"intermediates": [
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_07_1.png",
+				"res://assets/r3/equipment/ordinary_greatsword/dash/dash_07_2.png"
+			],
+			"source": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_07.png"
+		}
+	],
+	"lower_body_sample_rate_hz": 30.0,
+	"notes": [
+		"Output paths reserved; run newnativebaker before runtimeintegration.",
+		"Lower apparel adaptation; original character and weapon masterclock unchanged."
+	],
+	"schema": 1.0,
+	"source_frame_ms": 100.0,
+	"subframes": 3.0,
+	"upper_body_source_rate_hz": 10.0
+}

@@ -1,0 +1,69 @@
+{
+  "duration_seconds": 30.0,
+  "elapsed_seconds": 35.62009,
+  "report": {
+    "candidate": "R1/11",
+    "checks": [
+      {
+        "check": "full_1080_native_targets",
+        "pass": true
+      },
+      {
+        "check": "all_six_clips_observed",
+        "pass": true
+      },
+      {
+        "check": "full_3d_pass_active",
+        "pass": true
+      },
+      {
+        "check": "main_3d_disabled",
+        "pass": true
+      },
+      {
+        "check": "sample_duration_at_least_30_seconds",
+        "pass": true
+      },
+      {
+        "check": "p95_within_60fps_frame_budget",
+        "pass": true
+      }
+    ],
+    "clips": [
+      "stay",
+      "move",
+      "dash",
+      "attack1",
+      "attack2",
+      "hopsmash"
+    ],
+    "draw_calls_max": 319,
+    "draw_calls_min": 319,
+    "failed": 0,
+    "full_target": "(1920, 1080)",
+    "godot": "4.7.2-stable (official)",
+    "notes": [
+      "30 seconds in the current Mac session; not long-term stability or Windows validation.",
+      "Frame intervals include the offscreen full scene; the visible main 3D pass was disabled.",
+      "Six source poses, both facings, changing positions, NPC animations, ship motion, shadows and water remain active.",
+      "Direct pose movement is a rendering load only, not a collision or gameplay fidelity test."
+    ],
+    "observation": {
+      "elapsed_sample_seconds": 30.0048529999999,
+      "fps_from_mean": 143.910053483682,
+      "frames": 4318,
+      "frames_over_16_67_ms": 4,
+      "max_ms": 19.585,
+      "mean_ms": 6.94878485409911,
+      "median_ms": 6.878,
+      "p95_ms": 8.579,
+      "percent_over_16_67_ms": 0.0926354793886058
+    },
+    "platform": "macOS",
+    "qa_source_sha256": "45e9dd19d72f043ccb1cd3b1d9a303635865aeeed599a5c13f4dc28e7c63cb58",
+    "scene_target": "(1792, 808)",
+    "warmup_seconds": 2.0
+  },
+  "sampled_frames": 4318,
+  "status": "complete"
+}

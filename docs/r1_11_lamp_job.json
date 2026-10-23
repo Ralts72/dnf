@@ -1,0 +1,12 @@
+{
+  "check_script": "res://tools/r1/lamp_checks.gd",
+  "elapsed_seconds": 11.450073,
+  "qa_source_sha256": "83e8def71d4008233df7900c7b41168bd134a670b4daa4706aa599d59da3f21a",
+  "render_cases_completed": 134,
+  "result": {
+    "checks": 21,
+    "failed": [],
+    "render_cases": 134
+  },
+  "status": "complete"
+}

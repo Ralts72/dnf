@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "build_label": "R4   /   10",
+  "description": "Connected harbor, Dragon Tower and Hall of Doll galleries; source-ground coordinates support a1280px statue corridor. Session fights remain separate from committed profile history.",
+  "walk_bounds_format": "xmin,ymin,xmax,ymax",
+  "trigger_bounds_format": "x,y,width,height; inclusive edges",
+  "fade_out_seconds": 0.14,
+  "fade_in_seconds": 0.18,
+  "exit_hold_seconds": 0.15,
+  "harbor_return_position": [
+    60,
+    320
+  ],
+  "regions": {
+    "harbor": {
+      "label": "西海岸港口",
+      "scene": "res://scenes/west_coast_r1.tscn",
+      "walk_bounds": [
+        36,
+        216,
+        852,
+        345
+      ],
+      "default_spawn": [
+        440,
+        320
+      ],
+      "exits": [
+        "harbor_to_approach"
+      ]
+    },
+    "approach": {
+      "label": "塔前街道",
+      "scene": "res://scenes/tower_approach.tscn",
+      "walk_bounds": [
+        36,
+        236,
+        852,
+        345
+      ],
+      "default_spawn": [
+        816,
+        320
+      ],
+      "exits": [
+        "approach_to_harbor",
+        "approach_to_hall"
+      ]
+    },
+    "hall": {
+      "label": "塔内大厅",
+      "scene": "res://scenes/tower_hall.tscn",
+      "walk_bounds": [
+        120,
+        245,
+        776,
+        345
+      ],
+      "default_spawn": [
+        440,
+        315
+      ],
+      "exits": [
+        "hall_to_approach",
+        "hall_to_depths"
+      ]
+    },
+    "depths": {
+      "label": "塔内深廊",
+      "scene": "res://scenes/tower_depths.tscn",
+      "walk_bounds": [
+        36,
+        245,
+        852,
+        345
+      ],
+      "default_spawn": [
+        176,
+        320
+      ],
+      "exits": [
+        "depths_to_hall",
+        "depths_to_doll_gallery"
+      ]
+    },
+    "doll_gallery": {
+      "label": "人偶之馆前廊",
+      "scene": "res://scenes/tower_doll_gallery.tscn",
+      "walk_bounds": [
+        36,
+        245,
+        852,
+        345
+      ],
+      "default_spawn": [
+        176,
+        320
+      ],
+      "exits": [
+        "doll_gallery_to_depths",
+        "doll_gallery_to_statue_gallery"
+      ]
+    },
+    "statue_gallery": {
+      "label": "人偶之馆雕像回廊",
+      "scene": "res://scenes/tower_statue_gallery.tscn",
+      "walk_bounds": [
+        36,
+        245,
+        1244,
+        345
+      ],
+      "default_spawn": [
+        176,
+        320
+      ],
+      "horizontal_pan_limits": [
+        -152,
+        536
+      ],
+      "exits": [
+        "statue_gallery_to_doll_gallery"
+      ]
+    }
+  },
+  "exits": {
+    "harbor_to_approach": {
+      "from": "harbor",
+      "to": "approach",
+      "label": "前往塔前街道",
+      "trigger_bounds": [
+        36,
+        295,
+        6,
+        50
+      ],
+      "action": "move_left",
+      "spawn": [
+        816,
+        320
+      ]
+    },
+    "approach_to_harbor": {
+      "from": "approach",
+      "to": "harbor",
+      "label": "返回西海岸港口",
+      "trigger_bounds": [
+        846,
+        295,
+        6,
+        50
+      ],
+      "action": "move_right",
+      "spawn": [
+        60,
+        320
+      ],
+      "use_harbor_return_position": true
+    },
+    "approach_to_hall": {
+      "from": "approach",
+      "to": "hall",
+      "label": "进入塔内大厅",
+      "trigger_bounds": [
+        398,
+        236,
+        64,
+        0.75
+      ],
+      "action": "move_up",
+      "spawn": [
+        440,
+        315
+      ]
+    },
+    "hall_to_approach": {
+      "from": "hall",
+      "to": "approach",
+      "label": "离开塔内大厅",
+      "trigger_bounds": [
+        408,
+        337,
+        64,
+        8
+      ],
+      "action": "move_down",
+      "spawn": [
+        430,
+        263
+      ]
+    },
+    "hall_to_depths": {
+      "from": "hall",
+      "to": "depths",
+      "label": "进入塔内深廊",
+      "trigger_bounds": [
+        770,
+        295,
+        6,
+        42
+      ],
+      "action": "move_right",
+      "spawn": [
+        176,
+        320
+      ],
+      "requires": "first_encounter_clear"
+    },
+    "depths_to_hall": {
+      "from": "depths",
+      "to": "hall",
+      "label": "返回门厅",
+      "trigger_bounds": [
+        36,
+        295,
+        6,
+        50
+      ],
+      "action": "move_left",
+      "spawn": [
+        720,
+        320
+      ]
+    },
+    "depths_to_doll_gallery": {
+      "from": "depths",
+      "to": "doll_gallery",
+      "label": "前往人偶前廊",
+      "trigger_bounds": [
+        846,
+        295,
+        6,
+        50
+      ],
+      "action": "move_right",
+      "spawn": [
+        176,
+        320
+      ],
+      "requires": "lakius_clear"
+    },
+    "doll_gallery_to_depths": {
+      "from": "doll_gallery",
+      "to": "depths",
+      "label": "返回塔内深廊",
+      "trigger_bounds": [
+        36,
+        295,
+        6,
+        50
+      ],
+      "action": "move_left",
+      "spawn": [
+        816,
+        320
+      ]
+    },
+    "doll_gallery_to_statue_gallery": {
+      "from": "doll_gallery",
+      "to": "statue_gallery",
+      "label": "前往雕像回廊",
+      "trigger_bounds": [
+        846,
+        295,
+        6,
+        50
+      ],
+      "action": "move_right",
+      "spawn": [
+        176,
+        320
+      ],
+      "requires": "doll_gallery_clear"
+    },
+    "statue_gallery_to_doll_gallery": {
+      "from": "statue_gallery",
+      "to": "doll_gallery",
+      "label": "返回人偶前廊",
+      "trigger_bounds": [
+        36,
+        295,
+        6,
+        50
+      ],
+      "action": "move_left",
+      "spawn": [
+        816,
+        320
+      ]
+    }
+  }
+}

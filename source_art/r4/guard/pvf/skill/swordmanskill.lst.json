@@ -1,0 +1,1711 @@
+{
+  "pvf_path": "skill/swordmanskill.lst",
+  "crc": {
+    "expected": 1399572016,
+    "actual_seed_file_number": 1399572016,
+    "actual_seed_zero": 2383718987
+  },
+  "decoded": [
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 7,
+      "index": 379641,
+      "text": "Swordman/Guard.skl"
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 7,
+      "index": 379642,
+      "text": "Swordman/ReflectGuard.skl"
+    },
+    {
+      "type": 2,
+      "value": 3
+    },
+    {
+      "type": 7,
+      "index": 379643,
+      "text": "Swordman/AutoGuard.skl"
+    },
+    {
+      "type": 2,
+      "value": 4
+    },
+    {
+      "type": 7,
+      "index": 379644,
+      "text": "Swordman/LightSwordMastery.skl"
+    },
+    {
+      "type": 2,
+      "value": 5
+    },
+    {
+      "type": 7,
+      "index": 379645,
+      "text": "Swordman/HardAttack.skl"
+    },
+    {
+      "type": 2,
+      "value": 6
+    },
+    {
+      "type": 7,
+      "index": 379646,
+      "text": "Swordman/HardAttackCharge.skl"
+    },
+    {
+      "type": 2,
+      "value": 7
+    },
+    {
+      "type": 7,
+      "index": 379647,
+      "text": "Swordman/HitBack.skl"
+    },
+    {
+      "type": 2,
+      "value": 8
+    },
+    {
+      "type": 7,
+      "index": 379648,
+      "text": "Swordman/TripleSlash.skl"
+    },
+    {
+      "type": 2,
+      "value": 9
+    },
+    {
+      "type": 7,
+      "index": 379649,
+      "text": "Swordman/MomentarySlash.skl"
+    },
+    {
+      "type": 2,
+      "value": 11
+    },
+    {
+      "type": 7,
+      "index": 379650,
+      "text": "Swordman/DashAttackMultiHit.skl"
+    },
+    {
+      "type": 2,
+      "value": 12
+    },
+    {
+      "type": 7,
+      "index": 379651,
+      "text": "Swordman/ShortSwordMastery.skl"
+    },
+    {
+      "type": 2,
+      "value": 13
+    },
+    {
+      "type": 7,
+      "index": 379652,
+      "text": "Swordman/BladeMastery.skl"
+    },
+    {
+      "type": 2,
+      "value": 14
+    },
+    {
+      "type": 7,
+      "index": 379653,
+      "text": "Swordman/HeavySwordMastery.skl"
+    },
+    {
+      "type": 2,
+      "value": 15
+    },
+    {
+      "type": 7,
+      "index": 379654,
+      "text": "Swordman/BluntMastery.skl"
+    },
+    {
+      "type": 2,
+      "value": 16
+    },
+    {
+      "type": 7,
+      "index": 379655,
+      "text": "Swordman/AshenFork.skl"
+    },
+    {
+      "type": 2,
+      "value": 17
+    },
+    {
+      "type": 7,
+      "index": 379656,
+      "text": "Swordman/JumpAttackMulti.skl"
+    },
+    {
+      "type": 2,
+      "value": 18
+    },
+    {
+      "type": 7,
+      "index": 379657,
+      "text": "Swordman/GhostStep.skl"
+    },
+    {
+      "type": 2,
+      "value": 19
+    },
+    {
+      "type": 7,
+      "index": 379658,
+      "text": "Swordman/PinchPowerUp.skl"
+    },
+    {
+      "type": 2,
+      "value": 20
+    },
+    {
+      "type": 7,
+      "index": 379659,
+      "text": "Swordman/NormalWave.skl"
+    },
+    {
+      "type": 2,
+      "value": 21
+    },
+    {
+      "type": 7,
+      "index": 379660,
+      "text": "Swordman/IceWave.skl"
+    },
+    {
+      "type": 2,
+      "value": 22
+    },
+    {
+      "type": 7,
+      "index": 379661,
+      "text": "Swordman/FireWave.skl"
+    },
+    {
+      "type": 2,
+      "value": 23
+    },
+    {
+      "type": 7,
+      "index": 379662,
+      "text": "Swordman/Sacrifice.skl"
+    },
+    {
+      "type": 2,
+      "value": 24
+    },
+    {
+      "type": 7,
+      "index": 379663,
+      "text": "Swordman/BloodBlast.skl"
+    },
+    {
+      "type": 2,
+      "value": 25
+    },
+    {
+      "type": 7,
+      "index": 379664,
+      "text": "Swordman/Khazan.skl"
+    },
+    {
+      "type": 2,
+      "value": 27
+    },
+    {
+      "type": 7,
+      "index": 379665,
+      "text": "Swordman/WeaponMasteryUp.skl"
+    },
+    {
+      "type": 2,
+      "value": 29
+    },
+    {
+      "type": 7,
+      "index": 379666,
+      "text": "Swordman/DarkFriendship.skl"
+    },
+    {
+      "type": 2,
+      "value": 30
+    },
+    {
+      "type": 7,
+      "index": 379667,
+      "text": "Swordman/DarkToleranceUp.skl"
+    },
+    {
+      "type": 2,
+      "value": 31
+    },
+    {
+      "type": 7,
+      "index": 379668,
+      "text": "Swordman/GrabBlastBlood.skl"
+    },
+    {
+      "type": 2,
+      "value": 32
+    },
+    {
+      "type": 7,
+      "index": 379669,
+      "text": "Swordman/ReleaseWave.skl"
+    },
+    {
+      "type": 2,
+      "value": 33
+    },
+    {
+      "type": 7,
+      "index": 379670,
+      "text": "Swordman/EquipLightSword.skl"
+    },
+    {
+      "type": 2,
+      "value": 34
+    },
+    {
+      "type": 7,
+      "index": 379671,
+      "text": "Swordman/DieHard.skl"
+    },
+    {
+      "type": 2,
+      "value": 35
+    },
+    {
+      "type": 7,
+      "index": 379672,
+      "text": "Swordman/GhostPowerUp.skl"
+    },
+    {
+      "type": 2,
+      "value": 36
+    },
+    {
+      "type": 7,
+      "index": 379673,
+      "text": "Swordman/Saya.skl"
+    },
+    {
+      "type": 2,
+      "value": 37
+    },
+    {
+      "type": 7,
+      "index": 379674,
+      "text": "Swordman/FastEquip.skl"
+    },
+    {
+      "type": 2,
+      "value": 38
+    },
+    {
+      "type": 7,
+      "index": 379675,
+      "text": "Swordman/OverDrive.skl"
+    },
+    {
+      "type": 2,
+      "value": 39
+    },
+    {
+      "type": 7,
+      "index": 379676,
+      "text": "Swordman/DurabilityUp.skl"
+    },
+    {
+      "type": 2,
+      "value": 40
+    },
+    {
+      "type": 7,
+      "index": 379677,
+      "text": "Swordman/Reckless.skl"
+    },
+    {
+      "type": 2,
+      "value": 41
+    },
+    {
+      "type": 7,
+      "index": 379678,
+      "text": "Swordman/Bremen.skl"
+    },
+    {
+      "type": 2,
+      "value": 42
+    },
+    {
+      "type": 7,
+      "index": 379679,
+      "text": "Swordman/DisjointItemDark.skl"
+    },
+    {
+      "type": 2,
+      "value": 43
+    },
+    {
+      "type": 7,
+      "index": 379680,
+      "text": "Swordman/JumpAttackHighFast.skl"
+    },
+    {
+      "type": 2,
+      "value": 44
+    },
+    {
+      "type": 7,
+      "index": 379681,
+      "text": "Swordman/TombStoneRain.skl"
+    },
+    {
+      "type": 2,
+      "value": 46
+    },
+    {
+      "type": 7,
+      "index": 379682,
+      "text": "Swordman/UpperSlash.skl"
+    },
+    {
+      "type": 2,
+      "value": 47
+    },
+    {
+      "type": 7,
+      "index": 379683,
+      "text": "Swordman/WaveMark.skl"
+    },
+    {
+      "type": 2,
+      "value": 49
+    },
+    {
+      "type": 7,
+      "index": 379684,
+      "text": "Swordman/BackStepCutter.skl"
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 7,
+      "index": 379685,
+      "text": "Swordman/GrandWave.skl"
+    },
+    {
+      "type": 2,
+      "value": 51
+    },
+    {
+      "type": 7,
+      "index": 379686,
+      "text": "Swordman/GrandWaveCharge.skl"
+    },
+    {
+      "type": 2,
+      "value": 52
+    },
+    {
+      "type": 7,
+      "index": 379687,
+      "text": "Swordman/DOTArea.skl"
+    },
+    {
+      "type": 2,
+      "value": 53
+    },
+    {
+      "type": 7,
+      "index": 379688,
+      "text": "Swordman/MindFlash.skl"
+    },
+    {
+      "type": 2,
+      "value": 55
+    },
+    {
+      "type": 7,
+      "index": 379689,
+      "text": "Swordman/SenseViolentTemper.skl"
+    },
+    {
+      "type": 2,
+      "value": 56
+    },
+    {
+      "type": 7,
+      "index": 379690,
+      "text": "Swordman/ArmorMasteryHeavyBK.skl"
+    },
+    {
+      "type": 2,
+      "value": 57
+    },
+    {
+      "type": 7,
+      "index": 379691,
+      "text": "Swordman/ShockWaveArea.skl"
+    },
+    {
+      "type": 2,
+      "value": 58
+    },
+    {
+      "type": 7,
+      "index": 379692,
+      "text": "Swordman/VaneSlash.skl"
+    },
+    {
+      "type": 2,
+      "value": 60
+    },
+    {
+      "type": 7,
+      "index": 379693,
+      "text": "Swordman/GhostStepSlash.skl"
+    },
+    {
+      "type": 2,
+      "value": 61
+    },
+    {
+      "type": 7,
+      "index": 379694,
+      "text": "Swordman/ArmorMasteryPlateWave.skl"
+    },
+    {
+      "type": 2,
+      "value": 62
+    },
+    {
+      "type": 7,
+      "index": 379695,
+      "text": "Swordman/StandAloneWave.skl"
+    },
+    {
+      "type": 2,
+      "value": 63
+    },
+    {
+      "type": 7,
+      "index": 379696,
+      "text": "Swordman/BloodyVigorous.skl"
+    },
+    {
+      "type": 2,
+      "value": 64
+    },
+    {
+      "type": 7,
+      "index": 379697,
+      "text": "Swordman/GoreCross.skl"
+    },
+    {
+      "type": 2,
+      "value": 65
+    },
+    {
+      "type": 7,
+      "index": 379698,
+      "text": "Swordman/HopSmash.skl"
+    },
+    {
+      "type": 2,
+      "value": 67
+    },
+    {
+      "type": 7,
+      "index": 379699,
+      "text": "Swordman/WeaponCombo.skl"
+    },
+    {
+      "type": 2,
+      "value": 68
+    },
+    {
+      "type": 7,
+      "index": 379700,
+      "text": "Swordman/ChargeCrash.skl"
+    },
+    {
+      "type": 2,
+      "value": 72
+    },
+    {
+      "type": 7,
+      "index": 379701,
+      "text": "Swordman/RapidMoveSlash.skl"
+    },
+    {
+      "type": 2,
+      "value": 73
+    },
+    {
+      "type": 7,
+      "index": 379702,
+      "text": "Swordman/IllusionSlash.skl"
+    },
+    {
+      "type": 2,
+      "value": 74
+    },
+    {
+      "type": 7,
+      "index": 379703,
+      "text": "Swordman/WaveSpinArea.skl"
+    },
+    {
+      "type": 2,
+      "value": 75
+    },
+    {
+      "type": 7,
+      "index": 379704,
+      "text": "Swordman/EpidemicRasa.skl"
+    },
+    {
+      "type": 2,
+      "value": 76
+    },
+    {
+      "type": 7,
+      "index": 379705,
+      "text": "Swordman/Frenzy.skl"
+    },
+    {
+      "type": 2,
+      "value": 77
+    },
+    {
+      "type": 7,
+      "index": 379706,
+      "text": "Swordman/MoonlightSlash.skl"
+    },
+    {
+      "type": 2,
+      "value": 79
+    },
+    {
+      "type": 7,
+      "index": 379707,
+      "text": "Swordman/BloodyRave.skl"
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 7,
+      "index": 379708,
+      "text": "Swordman/MoonlightSlashFull.skl"
+    },
+    {
+      "type": 2,
+      "value": 81
+    },
+    {
+      "type": 7,
+      "index": 379709,
+      "text": "Swordman/OutRageBreak.skl"
+    },
+    {
+      "type": 2,
+      "value": 82
+    },
+    {
+      "type": 7,
+      "index": 379710,
+      "text": "Swordman/Kalla.skl"
+    },
+    {
+      "type": 2,
+      "value": 84
+    },
+    {
+      "type": 7,
+      "index": 379711,
+      "text": "Swordman/Keiga.skl"
+    },
+    {
+      "type": 2,
+      "value": 85
+    },
+    {
+      "type": 7,
+      "index": 379712,
+      "text": "Swordman/Hellbenter.skl"
+    },
+    {
+      "type": 2,
+      "value": 86
+    },
+    {
+      "type": 7,
+      "index": 379713,
+      "text": "Swordman/HundredSword.skl"
+    },
+    {
+      "type": 2,
+      "value": 87
+    },
+    {
+      "type": 7,
+      "index": 379714,
+      "text": "Swordman/Blache.skl"
+    },
+    {
+      "type": 2,
+      "value": 88
+    },
+    {
+      "type": 7,
+      "index": 379715,
+      "text": "Swordman/WaveEye.skl"
+    },
+    {
+      "type": 2,
+      "value": 89
+    },
+    {
+      "type": 7,
+      "index": 379716,
+      "text": "Swordman/DarkAura.skl"
+    },
+    {
+      "type": 2,
+      "value": 90
+    },
+    {
+      "type": 7,
+      "index": 379717,
+      "text": "Swordman/BleedingMastery.skl"
+    },
+    {
+      "type": 2,
+      "value": 91
+    },
+    {
+      "type": 7,
+      "index": 379718,
+      "text": "Swordman/DefenseDownOnCritical.skl"
+    },
+    {
+      "type": 2,
+      "value": 92
+    },
+    {
+      "type": 7,
+      "index": 379719,
+      "text": "Swordman/StuckUpOnCounter.skl"
+    },
+    {
+      "type": 2,
+      "value": 93
+    },
+    {
+      "type": 7,
+      "index": 379720,
+      "text": "Swordman/ArmorMasteryClothSB.skl"
+    },
+    {
+      "type": 2,
+      "value": 94
+    },
+    {
+      "type": 7,
+      "index": 379721,
+      "text": "Swordman/ArmorMasteryLightWM.skl"
+    },
+    {
+      "type": 2,
+      "value": 95
+    },
+    {
+      "type": 7,
+      "index": 379722,
+      "text": "Swordman/TombStoneRainEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 96
+    },
+    {
+      "type": 7,
+      "index": 379723,
+      "text": "Swordman/SayaEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 97
+    },
+    {
+      "type": 7,
+      "index": 379724,
+      "text": "Swordman/MomentarySlashEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 98
+    },
+    {
+      "type": 7,
+      "index": 379725,
+      "text": "Swordman/ChargeCrashEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 99
+    },
+    {
+      "type": 7,
+      "index": 379726,
+      "text": "Swordman/FireWaveEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 7,
+      "index": 379727,
+      "text": "Swordman/IceWaveEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 101
+    },
+    {
+      "type": 7,
+      "index": 379728,
+      "text": "Swordman/BloodBlastEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 102
+    },
+    {
+      "type": 7,
+      "index": 379729,
+      "text": "Swordman/GrabBlastBloodEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 103
+    },
+    {
+      "type": 7,
+      "index": 379730,
+      "text": "Swordman/BloodSword.skl"
+    },
+    {
+      "type": 2,
+      "value": 105
+    },
+    {
+      "type": 7,
+      "index": 379731,
+      "text": "Swordman/FlowMind.skl"
+    },
+    {
+      "type": 2,
+      "value": 107
+    },
+    {
+      "type": 7,
+      "index": 379732,
+      "text": "Swordman/FlowMindOne.skl"
+    },
+    {
+      "type": 2,
+      "value": 108
+    },
+    {
+      "type": 7,
+      "index": 379733,
+      "text": "Swordman/FlowMindTwo.skl"
+    },
+    {
+      "type": 2,
+      "value": 109
+    },
+    {
+      "type": 7,
+      "index": 379734,
+      "text": "Swordman/FlowMindThree.skl"
+    },
+    {
+      "type": 2,
+      "value": 110
+    },
+    {
+      "type": 7,
+      "index": 379735,
+      "text": "Swordman/FlowMindPowerUp.skl"
+    },
+    {
+      "type": 2,
+      "value": 111
+    },
+    {
+      "type": 7,
+      "index": 379736,
+      "text": "Swordman/GhostSideWind.skl"
+    },
+    {
+      "type": 2,
+      "value": 112
+    },
+    {
+      "type": 7,
+      "index": 379737,
+      "text": "Swordman/TripleStab.skl"
+    },
+    {
+      "type": 2,
+      "value": 115
+    },
+    {
+      "type": 7,
+      "index": 379738,
+      "text": "Swordman/GhostSideWindEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 116
+    },
+    {
+      "type": 7,
+      "index": 379739,
+      "text": "Swordman/TripleStabEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 139
+    },
+    {
+      "type": 7,
+      "index": 379740,
+      "text": "Swordman/PinchPowerUpEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 140
+    },
+    {
+      "type": 7,
+      "index": 379741,
+      "text": "Swordman/NormalWaveEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 141
+    },
+    {
+      "type": 7,
+      "index": 379742,
+      "text": "Swordman/GoreCrossEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 142
+    },
+    {
+      "type": 7,
+      "index": 379743,
+      "text": "Swordman/HardAttackEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 143
+    },
+    {
+      "type": 7,
+      "index": 379744,
+      "text": "Swordman/TripleSlashEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 144
+    },
+    {
+      "type": 7,
+      "index": 379745,
+      "text": "Swordman/HitBackEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 145
+    },
+    {
+      "type": 7,
+      "index": 379746,
+      "text": "Swordman/AutoGuardEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 146
+    },
+    {
+      "type": 7,
+      "index": 379747,
+      "text": "Swordman/BremenEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 147
+    },
+    {
+      "type": 7,
+      "index": 379748,
+      "text": "Swordman/GhostStepEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 148
+    },
+    {
+      "type": 7,
+      "index": 379749,
+      "text": "Swordman/DieHardEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 149
+    },
+    {
+      "type": 7,
+      "index": 379750,
+      "text": "Swordman/RecklessEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 150
+    },
+    {
+      "type": 7,
+      "index": 379751,
+      "text": "Swordman/DOTAreaEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 151
+    },
+    {
+      "type": 7,
+      "index": 379752,
+      "text": "Swordman/WaveMarkEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 152
+    },
+    {
+      "type": 7,
+      "index": 379753,
+      "text": "Swordman/RapidMoveSlashEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 153
+    },
+    {
+      "type": 7,
+      "index": 379754,
+      "text": "Swordman/AshenForkEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 154
+    },
+    {
+      "type": 7,
+      "index": 379755,
+      "text": "Swordman/MomentarySlashExp.skl"
+    },
+    {
+      "type": 2,
+      "value": 155
+    },
+    {
+      "type": 7,
+      "index": 379756,
+      "text": "Swordman/MoonlightSlashEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 156
+    },
+    {
+      "type": 7,
+      "index": 379757,
+      "text": "Swordman/EpidemicRasaEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 157
+    },
+    {
+      "type": 7,
+      "index": 379758,
+      "text": "Swordman/HopSmashEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 158
+    },
+    {
+      "type": 7,
+      "index": 379759,
+      "text": "Swordman/BloodyRaveEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 159
+    },
+    {
+      "type": 7,
+      "index": 379760,
+      "text": "Swordman/VaneSlashEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 160
+    },
+    {
+      "type": 7,
+      "index": 379761,
+      "text": "Swordman/ReflectGuardEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 161
+    },
+    {
+      "type": 7,
+      "index": 379762,
+      "text": "Swordman/BasicAttackUpEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 162
+    },
+    {
+      "type": 7,
+      "index": 379763,
+      "text": "Swordman/DashAttackMultiHitEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 163
+    },
+    {
+      "type": 7,
+      "index": 379764,
+      "text": "Swordman/GuardEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 164
+    },
+    {
+      "type": 7,
+      "index": 379765,
+      "text": "Swordman/KhazanEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 165
+    },
+    {
+      "type": 7,
+      "index": 379766,
+      "text": "Swordman/GrabBlastBloodExp.skl"
+    },
+    {
+      "type": 2,
+      "value": 166
+    },
+    {
+      "type": 7,
+      "index": 379767,
+      "text": "Swordman/BloodBlastExp.skl"
+    },
+    {
+      "type": 2,
+      "value": 167
+    },
+    {
+      "type": 7,
+      "index": 379768,
+      "text": "Swordman/OutRageBreakEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 168
+    },
+    {
+      "type": 7,
+      "index": 379769,
+      "text": "Swordman/BloodSwordEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 169
+    },
+    {
+      "type": 7,
+      "index": 379770,
+      "text": "Swordman/BackStep.skl"
+    },
+    {
+      "type": 2,
+      "value": 172
+    },
+    {
+      "type": 7,
+      "index": 379771,
+      "text": "Swordman/ArmorMasteryLight.skl"
+    },
+    {
+      "type": 2,
+      "value": 173
+    },
+    {
+      "type": 7,
+      "index": 379772,
+      "text": "Swordman/ArmorMasteryHeavy.skl"
+    },
+    {
+      "type": 2,
+      "value": 174
+    },
+    {
+      "type": 7,
+      "index": 379773,
+      "text": "Swordman/BasicAttackUp.skl"
+    },
+    {
+      "type": 2,
+      "value": 175
+    },
+    {
+      "type": 7,
+      "index": 379774,
+      "text": "Swordman/JumpPowerUp.skl"
+    },
+    {
+      "type": 2,
+      "value": 176
+    },
+    {
+      "type": 7,
+      "index": 379775,
+      "text": "Swordman/MagicalAttackUp.skl"
+    },
+    {
+      "type": 2,
+      "value": 177
+    },
+    {
+      "type": 7,
+      "index": 379776,
+      "text": "Swordman/ThrowMastery.skl"
+    },
+    {
+      "type": 2,
+      "value": 178
+    },
+    {
+      "type": 7,
+      "index": 379777,
+      "text": "Swordman/PhysicalBackAttackCritical.skl"
+    },
+    {
+      "type": 2,
+      "value": 179
+    },
+    {
+      "type": 7,
+      "index": 379778,
+      "text": "Swordman/DisjointItem.skl"
+    },
+    {
+      "type": 2,
+      "value": 180
+    },
+    {
+      "type": 7,
+      "index": 379779,
+      "text": "Swordman/SuperArmorOnCast.skl"
+    },
+    {
+      "type": 2,
+      "value": 181
+    },
+    {
+      "type": 7,
+      "index": 379780,
+      "text": "Swordman/CompoundCraft.skl"
+    },
+    {
+      "type": 2,
+      "value": 182
+    },
+    {
+      "type": 7,
+      "index": 379781,
+      "text": "Swordman/CompoundWeaving.skl"
+    },
+    {
+      "type": 2,
+      "value": 183
+    },
+    {
+      "type": 7,
+      "index": 379782,
+      "text": "Swordman/CompoundMachine.skl"
+    },
+    {
+      "type": 2,
+      "value": 184
+    },
+    {
+      "type": 7,
+      "index": 379783,
+      "text": "Swordman/CompoundChemistry.skl"
+    },
+    {
+      "type": 2,
+      "value": 185
+    },
+    {
+      "type": 7,
+      "index": 379784,
+      "text": "Swordman/ArmorMasteryLeather.skl"
+    },
+    {
+      "type": 2,
+      "value": 186
+    },
+    {
+      "type": 7,
+      "index": 379785,
+      "text": "Swordman/PhysicalCriticalHitUp.skl"
+    },
+    {
+      "type": 2,
+      "value": 187
+    },
+    {
+      "type": 7,
+      "index": 379786,
+      "text": "Swordman/ArmorMasteryCloth.skl"
+    },
+    {
+      "type": 2,
+      "value": 188
+    },
+    {
+      "type": 7,
+      "index": 379787,
+      "text": "Swordman/MagicalCriticalHitUp.skl"
+    },
+    {
+      "type": 2,
+      "value": 189
+    },
+    {
+      "type": 7,
+      "index": 379788,
+      "text": "Swordman/MagicalBackAttackCritical.skl"
+    },
+    {
+      "type": 2,
+      "value": 190
+    },
+    {
+      "type": 7,
+      "index": 379789,
+      "text": "Swordman/QuickStanding.skl"
+    },
+    {
+      "type": 2,
+      "value": 195
+    },
+    {
+      "type": 7,
+      "index": 379790,
+      "text": "Swordman/BasicHpMaxUp.skl"
+    },
+    {
+      "type": 2,
+      "value": 196
+    },
+    {
+      "type": 7,
+      "index": 379791,
+      "text": "Swordman/ArmorMasteryPlate.skl"
+    },
+    {
+      "type": 2,
+      "value": 197
+    },
+    {
+      "type": 7,
+      "index": 379792,
+      "text": "Swordman/Conversion.skl"
+    },
+    {
+      "type": 2,
+      "value": 200
+    },
+    {
+      "type": 7,
+      "index": 379793,
+      "text": "Swordman/StatusUp.skl"
+    },
+    {
+      "type": 2,
+      "value": 201
+    },
+    {
+      "type": 7,
+      "index": 379794,
+      "text": "Swordman/ExperienceUp.skl"
+    },
+    {
+      "type": 2,
+      "value": 191
+    },
+    {
+      "type": 7,
+      "index": 379795,
+      "text": "Swordman/Enchant.skl"
+    },
+    {
+      "type": 2,
+      "value": 192
+    },
+    {
+      "type": 7,
+      "index": 379796,
+      "text": "Swordman/DollMaking.skl"
+    },
+    {
+      "type": 2,
+      "value": 193
+    },
+    {
+      "type": 7,
+      "index": 379797,
+      "text": "Swordman/Alchemy.skl"
+    },
+    {
+      "type": 2,
+      "value": 194
+    },
+    {
+      "type": 7,
+      "index": 379798,
+      "text": "Swordman/OpenDisjointShop.skl"
+    },
+    {
+      "type": 2,
+      "value": 210
+    },
+    {
+      "type": 7,
+      "index": 379799,
+      "text": "Swordman/ReleaseWaveEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 211
+    },
+    {
+      "type": 7,
+      "index": 379800,
+      "text": "Swordman/GrandWaveEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 212
+    },
+    {
+      "type": 7,
+      "index": 379801,
+      "text": "Swordman/FireWaveExp.skl"
+    },
+    {
+      "type": 2,
+      "value": 213
+    },
+    {
+      "type": 7,
+      "index": 379802,
+      "text": "Swordman/StandAloneWaveEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 214
+    },
+    {
+      "type": 7,
+      "index": 379803,
+      "text": "Swordman/WaveSpinAreaEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 215
+    },
+    {
+      "type": 7,
+      "index": 379804,
+      "text": "Swordman/UpperSlashEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 216
+    },
+    {
+      "type": 7,
+      "index": 379805,
+      "text": "Swordman/IceWaveExp.skl"
+    },
+    {
+      "type": 2,
+      "value": 217
+    },
+    {
+      "type": 7,
+      "index": 379806,
+      "text": "Swordman/IllusionSlashExp.skl"
+    },
+    {
+      "type": 2,
+      "value": 218
+    },
+    {
+      "type": 7,
+      "index": 379807,
+      "text": "Swordman/ChargeCrashExp.skl"
+    },
+    {
+      "type": 2,
+      "value": 219
+    },
+    {
+      "type": 7,
+      "index": 379808,
+      "text": "Swordman/FlowMindOneEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 220
+    },
+    {
+      "type": 7,
+      "index": 379809,
+      "text": "Swordman/FlowMindTwoEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 221
+    },
+    {
+      "type": 7,
+      "index": 379810,
+      "text": "Swordman/FlowMindThreeEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 222
+    },
+    {
+      "type": 7,
+      "index": 586516,
+      "text": "swordman/ghost/hardattack_hell.skl"
+    },
+    {
+      "type": 2,
+      "value": 223
+    },
+    {
+      "type": 7,
+      "index": 586517,
+      "text": "swordman/ghost/hardattack_0.skl"
+    },
+    {
+      "type": 2,
+      "value": 224
+    },
+    {
+      "type": 7,
+      "index": 379811,
+      "text": "Swordman/SayaExp.skl"
+    },
+    {
+      "type": 2,
+      "value": 225
+    },
+    {
+      "type": 7,
+      "index": 379812,
+      "text": "Swordman/TombStoneRainExp.skl"
+    },
+    {
+      "type": 2,
+      "value": 226
+    },
+    {
+      "type": 7,
+      "index": 379813,
+      "text": "Swordman/GhostStepSlashEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 227
+    },
+    {
+      "type": 7,
+      "index": 379814,
+      "text": "Swordman/KallaEx.skl"
+    },
+    {
+      "type": 2,
+      "value": 228
+    },
+    {
+      "type": 7,
+      "index": 379815,
+      "text": "Swordman/ReflectGuardExp.skl"
+    },
+    {
+      "type": 2,
+      "value": 229
+    },
+    {
+      "type": 7,
+      "index": 585663,
+      "text": "Swordman/BloodBoom.skl"
+    },
+    {
+      "type": 2,
+      "value": 230
+    },
+    {
+      "type": 7,
+      "index": 585664,
+      "text": "Swordman/BloodMarble.skl"
+    },
+    {
+      "type": 2,
+      "value": 231
+    },
+    {
+      "type": 7,
+      "index": 585665,
+      "text": "Swordman/BloodRiven.skl"
+    },
+    {
+      "type": 2,
+      "value": 232
+    },
+    {
+      "type": 7,
+      "index": 585666,
+      "text": "Swordman/LightningGod.skl"
+    },
+    {
+      "type": 2,
+      "value": 233
+    },
+    {
+      "type": 7,
+      "index": 588154,
+      "text": "swordman/weaponmaster/swordmain.skl"
+    },
+    {
+      "type": 2,
+      "value": 235
+    },
+    {
+      "type": 7,
+      "index": 585667,
+      "text": "Swordman/ShunZhan.skl"
+    },
+    {
+      "type": 2,
+      "value": 236
+    },
+    {
+      "type": 7,
+      "index": 585668,
+      "text": "Swordman/PoKongZhan.skl"
+    },
+    {
+      "type": 2,
+      "value": 237
+    },
+    {
+      "type": 7,
+      "index": 585669,
+      "text": "Swordman/LiuXingLuo.skl"
+    },
+    {
+      "type": 2,
+      "value": 242
+    },
+    {
+      "type": 7,
+      "index": 586513,
+      "text": "Swordman/zigadvent.skl"
+    },
+    {
+      "type": 2,
+      "value": 245
+    },
+    {
+      "type": 7,
+      "index": 585998,
+      "text": "Swordman/handlingsword.skl"
+    },
+    {
+      "type": 2,
+      "value": 246
+    },
+    {
+      "type": 7,
+      "index": 586514,
+      "text": "swordman/ghost/ghost75.skl"
+    },
+    {
+      "type": 2,
+      "value": 250
+    },
+    {
+      "type": 7,
+      "index": 586515,
+      "text": "swordman/ghost/ghostout.skl"
+    }
+  ]
+}

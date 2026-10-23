@@ -1,0 +1,7 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
+# Retained source payloads and hashed assets must round-trip byte for byte.
+/source_art/** -text
+/assets/** -text
+/docs/** -text

@@ -1,0 +1,343 @@
+{
+  "candidate": "R1/21",
+  "note": "Real Godot source material, fixed native camera and transparent 2x target. No CPU image interpolation is used.",
+  "qa_source_sha256": "ad59efa3dbaf8a0cbb066de1b6de484157262ef952018a8a7f51bee3a4c81492",
+  "render_cases": [
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_00_0.png",
+      "frame": 0,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_00_1.png",
+      "frame": 0,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_00_2.png",
+      "frame": 0,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_01_0.png",
+      "frame": 1,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_01_1.png",
+      "frame": 1,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_01_2.png",
+      "frame": 1,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_02_0.png",
+      "frame": 2,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_02_1.png",
+      "frame": 2,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_02_2.png",
+      "frame": 2,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_03_0.png",
+      "frame": 3,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_03_1.png",
+      "frame": 3,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_03_2.png",
+      "frame": 3,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_04_0.png",
+      "frame": 4,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_04_1.png",
+      "frame": 4,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_04_2.png",
+      "frame": 4,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_05_0.png",
+      "frame": 5,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_05_1.png",
+      "frame": 5,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_05_2.png",
+      "frame": 5,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_06_0.png",
+      "frame": 6,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_06_1.png",
+      "frame": 6,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_06_2.png",
+      "frame": 6,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_07_0.png",
+      "frame": 7,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_07_1.png",
+      "frame": 7,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "move",
+      "capture": "res://work/r1_21_gpu/move_07_2.png",
+      "frame": 7,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_00_0.png",
+      "frame": 0,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_00_1.png",
+      "frame": 0,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_00_2.png",
+      "frame": 0,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_01_0.png",
+      "frame": 1,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_01_1.png",
+      "frame": 1,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_01_2.png",
+      "frame": 1,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_02_0.png",
+      "frame": 2,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_02_1.png",
+      "frame": 2,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_02_2.png",
+      "frame": 2,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_03_0.png",
+      "frame": 3,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_03_1.png",
+      "frame": 3,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_03_2.png",
+      "frame": 3,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_04_0.png",
+      "frame": 4,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_04_1.png",
+      "frame": 4,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_04_2.png",
+      "frame": 4,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_05_0.png",
+      "frame": 5,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_05_1.png",
+      "frame": 5,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_05_2.png",
+      "frame": 5,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_06_0.png",
+      "frame": 6,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_06_1.png",
+      "frame": 6,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_06_2.png",
+      "frame": 6,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_07_0.png",
+      "frame": 7,
+      "phase": 0.0,
+      "subframe": 0
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_07_1.png",
+      "frame": 7,
+      "phase": 0.333333333333333,
+      "subframe": 1
+    },
+    {
+      "action": "dash",
+      "capture": "res://work/r1_21_gpu/dash_07_2.png",
+      "frame": 7,
+      "phase": 0.666666666666667,
+      "subframe": 2
+    }
+  ]
+}

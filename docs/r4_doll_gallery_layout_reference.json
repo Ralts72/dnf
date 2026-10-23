@@ -1,0 +1,1380 @@
+{
+  "schema_version": 1,
+  "stage": "R4/06 doll antechamber layout",
+  "region_id": "doll_gallery",
+  "layout_policy": "One adapted open walking lane with twin rear statue niches. No recovered original adjacency or 3D-map claim; no new combat, route or save behavior here.",
+  "camera": {
+    "elevation_degrees": 38,
+    "pixels_per_meter": 60,
+    "ground_formula": "X=(sourceX-448)/60; Y=.025; Z=(sourceY-159)/(60*sin38)-1.6",
+    "screen_ground_formula": "screenY=sourceY+43-framing_offset_y"
+  },
+  "walk_bounds_xyxy": [
+    36,
+    245,
+    852,
+    345
+  ],
+  "arrival": [
+    176,
+    320
+  ],
+  "enemy_initial": [
+    640,
+    300
+  ],
+  "floor_source_bounds_xyxy": [
+    -170,
+    220,
+    1060,
+    450
+  ],
+  "return_route_integration_pending": {
+    "trigger_xywh": [
+      36,
+      295,
+      6,
+      50
+    ],
+    "hold": "move_left",
+    "target_region": "depths",
+    "target_spawn": [
+      816,
+      320
+    ]
+  },
+  "source_statue_placement": {
+    "visible_bottom_centers": [
+      [
+        336,
+        218
+      ],
+      [
+        672,
+        218
+      ]
+    ],
+    "equivalent_original_ani_origins": [
+      [
+        336.5,
+        212
+      ],
+      [
+        672.5,
+        212
+      ]
+    ],
+    "crop_top_left_relative_to_ani_origin": [
+      -50,
+      -199
+    ],
+    "crop_bottom_center_relative_to_ani_origin": [
+      -0.5,
+      6
+    ],
+    "policy": "Adapted placement by visible crop bottom; retains original 99x205 pixels and records rather than discards original ANI/IMG offset."
+  },
+  "far_placement": {
+    "original_ani_offset": [
+      0,
+      -80
+    ],
+    "adapted_visible_bottom_center": [
+      448,
+      230
+    ],
+    "size": [
+      640,
+      410
+    ],
+    "source_x_coverage": [
+      128,
+      768
+    ],
+    "edge_policy": "Unscaled source vista is framed by textured native side walls through x-170..128 and 768..1060; no bitmap padding."
+  },
+  "pixel_policy": {
+    "source_cards": "Original RGBA, unlit, nearest, 1:1 logical pixels, no flip or crop change.",
+    "architecture": "Native source-textured meshes, lit albedo multipliers; rendered RGB is not source exact.",
+    "floor": "Opaque existing 192x96 R2 paving repeated by UV, unlit warm multiplier; no new bitmap.",
+    "multipliers": {
+      "stone": [
+        0.77,
+        0.72,
+        0.61,
+        1
+      ],
+      "dark": [
+        0.4,
+        0.38,
+        0.35,
+        1
+      ],
+      "gold": [
+        0.86,
+        0.75,
+        0.59,
+        1
+      ],
+      "floor": [
+        0.8,
+        0.77,
+        0.68,
+        1
+      ]
+    },
+    "texture_subrects_xyxy": {
+      "approach/bridge_0.png": [
+        24,
+        80,
+        88,
+        112
+      ],
+      "interior/column.png": [
+        9,
+        16,
+        20,
+        76
+      ]
+    }
+  },
+  "native_mesh_instances": 27,
+  "source_card_count": 3,
+  "native_mesh_world_aabb": {
+    "world_aabb_min": [
+      -10.3,
+      -0.23,
+      -0.4405846036138047
+    ],
+    "world_aabb_max": [
+      10.2,
+      5.614999999999999,
+      6.277705840591309
+    ]
+  },
+  "collision_audit": {
+    "actor_foot_radius_m": 0.18,
+    "source_radius_xy": [
+      10.799999999999999,
+      6.6491439335171085
+    ],
+    "all_25_decorative_solids_outside_expanded_walk": true,
+    "support_count": 2,
+    "obstacle_shapes": 0,
+    "nearest_rear_expanded_y": 242.99225671898816,
+    "meshes": [
+      {
+        "node": "GalleryStoneFoundation",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          445.0,
+          335.0
+        ],
+        "source_ground_aabb_xyxy": [
+          -170.0,
+          220.0,
+          1060.0,
+          450.0
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -180.8,
+          213.3508560664829,
+          1070.8,
+          456.6491439335171
+        ],
+        "world_aabb_min": [
+          -10.3,
+          -0.23,
+          0.05134039957412284
+        ],
+        "world_aabb_max": [
+          10.2,
+          0.009999999999999981,
+          6.277705840591309
+        ],
+        "below_foot_support": true,
+        "outside_walk_with_actor_clearance": false
+      },
+      {
+        "node": "ContinuousGalleryFloor",
+        "mesh": "PlaneMesh",
+        "source_ground_center": [
+          445.0,
+          335.0
+        ],
+        "source_ground_aabb_xyxy": [
+          -170.0,
+          220.0,
+          1060.0,
+          450.0
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -180.8,
+          213.3508560664829,
+          1070.8,
+          456.6491439335171
+        ],
+        "world_aabb_min": [
+          -10.3,
+          0.015,
+          0.05134039957412284
+        ],
+        "world_aabb_max": [
+          10.2,
+          0.015,
+          6.277705840591309
+        ],
+        "below_foot_support": true,
+        "outside_walk_with_actor_clearance": false
+      },
+      {
+        "node": "RearVistaSideWall_Left",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          -21.0,
+          207
+        ],
+        "source_ground_aabb_xyxy": [
+          -170.0,
+          201.82844360726446,
+          128.0,
+          212.17155639273554
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -180.8,
+          195.17929967374735,
+          138.8,
+          218.82070032625265
+        ],
+        "world_aabb_min": [
+          -10.3,
+          0.015,
+          -0.4405846036138047
+        ],
+        "world_aabb_max": [
+          -5.333333333333333,
+          5.614999999999999,
+          -0.16058460361380467
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVistaSideWall_Right",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          914.0,
+          207
+        ],
+        "source_ground_aabb_xyxy": [
+          768.0,
+          201.82844360726446,
+          1060.0,
+          212.17155639273554
+        ],
+        "actor_expanded_aabb_xyxy": [
+          757.2,
+          195.17929967374735,
+          1070.8,
+          218.82070032625265
+        ],
+        "world_aabb_min": [
+          5.333333333333334,
+          0.015,
+          -0.4405846036138047
+        ],
+        "world_aabb_max": [
+          10.2,
+          5.614999999999999,
+          -0.16058460361380467
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearDado_Left",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          45.0,
+          225
+        ],
+        "source_ground_aabb_xyxy": [
+          -170.0,
+          220.19784049245987,
+          260.0,
+          229.80215950754013
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -180.8,
+          213.54869655894277,
+          270.8,
+          236.45130344105723
+        ],
+        "world_aabb_min": [
+          -10.3,
+          0.015,
+          0.056696170031018345
+        ],
+        "world_aabb_max": [
+          -3.1333333333333333,
+          0.595,
+          0.31669617003101835
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearCoping_Left",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          45.0,
+          225
+        ],
+        "source_ground_aabb_xyxy": [
+          -170.0,
+          218.72025295167828,
+          260.0,
+          231.27974704832172
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -180.8,
+          212.07110901816117,
+          270.8,
+          237.92889098183883
+        ],
+        "world_aabb_min": [
+          -10.3,
+          0.595,
+          0.016696170031018337
+        ],
+        "world_aabb_max": [
+          -3.1333333333333333,
+          0.6849999999999999,
+          0.3566961700310184
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearDado_Middle",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          504.0,
+          225
+        ],
+        "source_ground_aabb_xyxy": [
+          412.0,
+          220.19784049245987,
+          596.0,
+          229.80215950754013
+        ],
+        "actor_expanded_aabb_xyxy": [
+          401.2,
+          213.54869655894277,
+          606.8,
+          236.45130344105723
+        ],
+        "world_aabb_min": [
+          -0.6000000000000001,
+          0.015,
+          0.056696170031018345
+        ],
+        "world_aabb_max": [
+          2.466666666666667,
+          0.595,
+          0.31669617003101835
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearCoping_Middle",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          504.0,
+          225
+        ],
+        "source_ground_aabb_xyxy": [
+          412.0,
+          218.72025295167828,
+          596.0,
+          231.27974704832172
+        ],
+        "actor_expanded_aabb_xyxy": [
+          401.2,
+          212.07110901816117,
+          606.8,
+          237.92889098183883
+        ],
+        "world_aabb_min": [
+          -0.6000000000000001,
+          0.595,
+          0.016696170031018337
+        ],
+        "world_aabb_max": [
+          2.466666666666667,
+          0.6849999999999999,
+          0.3566961700310184
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearDado_Right",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          904.0,
+          225
+        ],
+        "source_ground_aabb_xyxy": [
+          748.0,
+          220.19784049245987,
+          1060.0,
+          229.80215950754013
+        ],
+        "actor_expanded_aabb_xyxy": [
+          737.2,
+          213.54869655894277,
+          1070.8,
+          236.45130344105723
+        ],
+        "world_aabb_min": [
+          5.0,
+          0.015,
+          0.056696170031018345
+        ],
+        "world_aabb_max": [
+          10.2,
+          0.595,
+          0.31669617003101835
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearCoping_Right",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          904.0,
+          225
+        ],
+        "source_ground_aabb_xyxy": [
+          748.0,
+          218.72025295167828,
+          1060.0,
+          231.27974704832172
+        ],
+        "actor_expanded_aabb_xyxy": [
+          737.2,
+          212.07110901816117,
+          1070.8,
+          237.92889098183883
+        ],
+        "world_aabb_min": [
+          5.0,
+          0.595,
+          0.016696170031018337
+        ],
+        "world_aabb_max": [
+          10.2,
+          0.6849999999999999,
+          0.3566961700310184
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "StatuePlinth_Left",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          336,
+          226
+        ],
+        "source_ground_aabb_xyxy": [
+          281.4,
+          216.76507787011514,
+          390.6,
+          235.23492212988486
+        ],
+        "actor_expanded_aabb_xyxy": [
+          270.59999999999997,
+          210.11593393659803,
+          401.40000000000003,
+          241.88406606340197
+        ],
+        "world_aabb_min": [
+          -2.776666666666667,
+          0.015,
+          -0.03623267587760237
+        ],
+        "world_aabb_max": [
+          -0.9566666666666667,
+          0.15500000000000003,
+          0.46376732412239763
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "StatuePlinthCap_Left",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          336,
+          226
+        ],
+        "source_ground_aabb_xyxy": [
+          277.2,
+          215.65688721452895,
+          394.8,
+          236.34311278547105
+        ],
+        "actor_expanded_aabb_xyxy": [
+          266.4,
+          209.00774328101184,
+          405.6,
+          242.99225671898816
+        ],
+        "world_aabb_min": [
+          -2.8466666666666667,
+          0.155,
+          -0.0662326758776024
+        ],
+        "world_aabb_max": [
+          -0.8866666666666667,
+          0.235,
+          0.49376732412239766
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "NichePier_Left_Left",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          274,
+          211
+        ],
+        "source_ground_aabb_xyxy": [
+          266.5,
+          205.0896498368737,
+          281.5,
+          216.9103501631263
+        ],
+        "actor_expanded_aabb_xyxy": [
+          255.7,
+          198.44050590335658,
+          292.3,
+          223.55949409664342
+        ],
+        "world_aabb_min": [
+          -3.025,
+          0.015,
+          -0.3522999872482885
+        ],
+        "world_aabb_max": [
+          -2.775,
+          4.614999999999999,
+          -0.03229998724828845
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "NichePier_Left_Right",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          398,
+          211
+        ],
+        "source_ground_aabb_xyxy": [
+          390.5,
+          205.0896498368737,
+          405.5,
+          216.9103501631263
+        ],
+        "actor_expanded_aabb_xyxy": [
+          379.7,
+          198.44050590335658,
+          416.3,
+          223.55949409664342
+        ],
+        "world_aabb_min": [
+          -0.9583333333333334,
+          0.015,
+          -0.3522999872482885
+        ],
+        "world_aabb_max": [
+          -0.7083333333333334,
+          4.614999999999999,
+          -0.03229998724828845
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "NicheLintel_Left",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          336,
+          211
+        ],
+        "source_ground_aabb_xyxy": [
+          261.6,
+          203.9814591812875,
+          410.4,
+          218.0185408187125
+        ],
+        "actor_expanded_aabb_xyxy": [
+          250.8,
+          197.3323152477704,
+          421.2,
+          224.6676847522296
+        ],
+        "world_aabb_min": [
+          -3.1066666666666665,
+          4.615,
+          -0.38229998724828845
+        ],
+        "world_aabb_max": [
+          -0.6266666666666667,
+          4.815,
+          -0.0022999872482884487
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "StatuePlinth_Right",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          672,
+          226
+        ],
+        "source_ground_aabb_xyxy": [
+          617.4,
+          216.76507787011514,
+          726.6,
+          235.23492212988486
+        ],
+        "actor_expanded_aabb_xyxy": [
+          606.6,
+          210.11593393659803,
+          737.4,
+          241.88406606340197
+        ],
+        "world_aabb_min": [
+          2.8233333333333333,
+          0.015,
+          -0.03623267587760237
+        ],
+        "world_aabb_max": [
+          4.6433333333333335,
+          0.15500000000000003,
+          0.46376732412239763
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "StatuePlinthCap_Right",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          672,
+          226
+        ],
+        "source_ground_aabb_xyxy": [
+          613.2,
+          215.65688721452895,
+          730.8,
+          236.34311278547105
+        ],
+        "actor_expanded_aabb_xyxy": [
+          602.4000000000001,
+          209.00774328101184,
+          741.5999999999999,
+          242.99225671898816
+        ],
+        "world_aabb_min": [
+          2.7533333333333334,
+          0.155,
+          -0.0662326758776024
+        ],
+        "world_aabb_max": [
+          4.713333333333333,
+          0.235,
+          0.49376732412239766
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "NichePier_Right_Left",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          610,
+          211
+        ],
+        "source_ground_aabb_xyxy": [
+          602.5,
+          205.0896498368737,
+          617.5,
+          216.9103501631263
+        ],
+        "actor_expanded_aabb_xyxy": [
+          591.7,
+          198.44050590335658,
+          628.3,
+          223.55949409664342
+        ],
+        "world_aabb_min": [
+          2.575,
+          0.015,
+          -0.3522999872482885
+        ],
+        "world_aabb_max": [
+          2.825,
+          4.614999999999999,
+          -0.03229998724828845
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "NichePier_Right_Right",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          734,
+          211
+        ],
+        "source_ground_aabb_xyxy": [
+          726.5,
+          205.0896498368737,
+          741.5,
+          216.9103501631263
+        ],
+        "actor_expanded_aabb_xyxy": [
+          715.7,
+          198.44050590335658,
+          752.3,
+          223.55949409664342
+        ],
+        "world_aabb_min": [
+          4.641666666666667,
+          0.015,
+          -0.3522999872482885
+        ],
+        "world_aabb_max": [
+          4.891666666666667,
+          4.614999999999999,
+          -0.03229998724828845
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "NicheLintel_Right",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          672,
+          211
+        ],
+        "source_ground_aabb_xyxy": [
+          597.6,
+          203.9814591812875,
+          746.4,
+          218.0185408187125
+        ],
+        "actor_expanded_aabb_xyxy": [
+          586.8000000000001,
+          197.3323152477704,
+          757.1999999999999,
+          224.6676847522296
+        ],
+        "world_aabb_min": [
+          2.493333333333333,
+          4.615,
+          -0.38229998724828845
+        ],
+        "world_aabb_max": [
+          4.973333333333334,
+          4.815,
+          -0.0022999872482884487
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "ReturnArchPier_Rear",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          -20,
+          278
+        ],
+        "source_ground_aabb_xyxy": [
+          -35.0,
+          269.5038716405059,
+          -5.0,
+          286.4961283594941
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -45.8,
+          262.8547277069888,
+          5.799999999999999,
+          293.1452722930112
+        ],
+        "world_aabb_min": [
+          -8.05,
+          0.015,
+          1.391467336874109
+        ],
+        "world_aabb_max": [
+          -7.55,
+          2.815,
+          1.851467336874109
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "ReturnArchPier_Front",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          -20,
+          362
+        ],
+        "source_ground_aabb_xyxy": [
+          -35.0,
+          353.5038716405059,
+          -5.0,
+          370.4961283594941
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -45.8,
+          346.8547277069888,
+          5.799999999999999,
+          377.1452722930112
+        ],
+        "world_aabb_min": [
+          -8.05,
+          0.015,
+          3.665444280549951
+        ],
+        "world_aabb_max": [
+          -7.55,
+          2.815,
+          4.125444280549951
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "ReturnArchSideBeam",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          -20,
+          320
+        ],
+        "source_ground_aabb_xyxy": [
+          -36.8,
+          270.0,
+          -3.1999999999999993,
+          370.0
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -47.599999999999994,
+          263.3508560664829,
+          7.6,
+          376.6491439335171
+        ],
+        "world_aabb_min": [
+          -8.08,
+          2.815,
+          1.4048981041430764
+        ],
+        "world_aabb_max": [
+          -7.52,
+          3.035,
+          4.112013513280983
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "FrontLowWall_Left",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          224,
+          386
+        ],
+        "source_ground_aabb_xyxy": [
+          143.0,
+          380.08964983687366,
+          305.0,
+          391.91035016312634
+        ],
+        "actor_expanded_aabb_xyxy": [
+          132.2,
+          373.44050590335655,
+          315.8,
+          398.55949409664345
+        ],
+        "world_aabb_min": [
+          -5.083333333333334,
+          0.015,
+          4.385151978743048
+        ],
+        "world_aabb_max": [
+          -2.3833333333333333,
+          0.265,
+          4.705151978743048
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "FrontLowCoping_Left",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          224,
+          386
+        ],
+        "source_ground_aabb_xyxy": [
+          140.0,
+          378.6120622960921,
+          308.0,
+          393.3879377039079
+        ],
+        "actor_expanded_aabb_xyxy": [
+          129.2,
+          371.962918362575,
+          318.8,
+          400.037081637425
+        ],
+        "world_aabb_min": [
+          -5.133333333333333,
+          0.265,
+          4.345151978743048
+        ],
+        "world_aabb_max": [
+          -2.3333333333333335,
+          0.335,
+          4.745151978743048
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "FrontLowWall_Right",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          784,
+          386
+        ],
+        "source_ground_aabb_xyxy": [
+          703.0,
+          380.08964983687366,
+          865.0,
+          391.91035016312634
+        ],
+        "actor_expanded_aabb_xyxy": [
+          692.2,
+          373.44050590335655,
+          875.8,
+          398.55949409664345
+        ],
+        "world_aabb_min": [
+          4.25,
+          0.015,
+          4.385151978743048
+        ],
+        "world_aabb_max": [
+          6.949999999999999,
+          0.265,
+          4.705151978743048
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "FrontLowCoping_Right",
+        "mesh": "BoxMesh",
+        "source_ground_center": [
+          784,
+          386
+        ],
+        "source_ground_aabb_xyxy": [
+          700.0,
+          378.6120622960921,
+          868.0,
+          393.3879377039079
+        ],
+        "actor_expanded_aabb_xyxy": [
+          689.2,
+          371.962918362575,
+          878.8,
+          400.037081637425
+        ],
+        "world_aabb_min": [
+          4.199999999999999,
+          0.265,
+          4.345151978743048
+        ],
+        "world_aabb_max": [
+          7.0,
+          0.335,
+          4.745151978743048
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true
+      }
+    ]
+  },
+  "edge_camera_floor_audit": {
+    "viewport_size": [
+      896,
+      404
+    ],
+    "conservative_horizontal_offset_range": [
+      -152,
+      152
+    ],
+    "legal_walk_target_offsets": [
+      -148,
+      140
+    ],
+    "required_source_x_range": [
+      -152,
+      1048
+    ],
+    "floor_margin_left_right_px": [
+      18,
+      12
+    ],
+    "framing_vertical_max": 40,
+    "visible_ground_bottom_source_y": 401,
+    "floor_bottom_margin_px": 49,
+    "rear_floor_overlap": "Floor begins y220, underneath rear dado centered y225; no open strip between rear wall and floor.",
+    "side_void_policy": "Conservative full-width floor covers every legal side view. Upper edge fields are native walls plus original vista; parent must preview after integration."
+  },
+  "source_cards": [
+    {
+      "node": "OriginalDollGalleryVista",
+      "texture": "res://assets/r4/doll_gallery/far.png",
+      "size": [
+        640,
+        410
+      ],
+      "visible_crop_bottom_center": [
+        448,
+        230
+      ],
+      "view_ray_depth_m": -3.0,
+      "pixel_scale": 1,
+      "ground_collision": false,
+      "source_projected_rect_xyxy": [
+        128.0,
+        -180,
+        768.0,
+        230
+      ]
+    },
+    {
+      "node": "SourceStatue_Left",
+      "texture": "res://assets/r4/doll_gallery/statue.png",
+      "size": [
+        99,
+        205
+      ],
+      "visible_crop_bottom_center": [
+        336,
+        218
+      ],
+      "view_ray_depth_m": 0.1,
+      "pixel_scale": 1,
+      "ground_collision": false,
+      "source_projected_rect_xyxy": [
+        286.5,
+        13,
+        385.5,
+        218
+      ]
+    },
+    {
+      "node": "SourceStatue_Right",
+      "texture": "res://assets/r4/doll_gallery/statue.png",
+      "size": [
+        99,
+        205
+      ],
+      "visible_crop_bottom_center": [
+        672,
+        218
+      ],
+      "view_ray_depth_m": 0.1,
+      "pixel_scale": 1,
+      "ground_collision": false,
+      "source_projected_rect_xyxy": [
+        622.5,
+        13,
+        721.5,
+        218
+      ]
+    }
+  ],
+  "source_references": [
+    "docs/r2_asset_manifest.json",
+    "docs/r4_stonemaster_source_reference.json"
+  ],
+  "assets": [
+    {
+      "texture": "res://assets/r2/interior/paving.png",
+      "width": 192,
+      "height": 96,
+      "sha256_png": "b9a5baa51c5c8436496b9ce51c19a3194b39169d9a55031a08d1fe237ad7f956",
+      "sha256_rgba": "56063816059c0828093b2ea2f0451c855d0c99f3f02f70c7ced130670cdd351c",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "interior/paving",
+      "original_img_crop": false,
+      "derived_subrect": true,
+      "source_texture": "res://assets/r2/interior/floor.png",
+      "source_rect_xyxy": [
+        16,
+        16,
+        208,
+        112
+      ],
+      "export": "Exact RGBA subrectangle of exported source crop; no resampling, rectification or color edits."
+    },
+    {
+      "texture": "res://assets/r2/interior/column.png",
+      "width": 29,
+      "height": 93,
+      "sha256_png": "4eafb3ddd62e4af5b8d0fe874e5bf98864e21dfd7006e88bd858f3cdc7cb290d",
+      "sha256_rgba": "3c353ccd201c43355658636cdad46f037629c6d878300a0c8d32a9c3f13479ef",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/column",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 29,
+        "height": 93,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 29,
+        "canvas_height": 93,
+        "data_offset": 68,
+        "data_bytes": 1234,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2.NPK",
+        "npk_sha256": "d262997bbe267fd4ccbcd84509e024bc8e1aead1aace03bfe21a7ea9a543f8ba",
+        "img": "sprite/map/act2/marblestonepillar.img",
+        "npk_entry_offset": 212989,
+        "payload_bytes": 1302,
+        "sha256_img_payload": "9b25110ab97418b60bcce378ac0663f64c751d93624460982c99689f67109734"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/approach/bridge_0.png",
+      "width": 224,
+      "height": 306,
+      "sha256_png": "0ecf8db65e61067fb8a034356e7d9cf3eef94a61f4f30c9be9d1060495ae7896",
+      "sha256_rgba": "2fe62588805e6491d2e2074900aaec4a10164f114e981a14aabb1cffe1f3151d",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "approach/bridge_0",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 306,
+        "x": 0,
+        "y": 254,
+        "canvas_width": 224,
+        "canvas_height": 560,
+        "data_offset": 176,
+        "data_bytes": 8068,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_hendonmyre.NPK",
+        "npk_sha256": "9c2ec086ce0c368c7be33807bfa8220d14007156cf40f05f20210f3d5121ef7f",
+        "img": "sprite/map/hendonmyre/skybridge.img",
+        "npk_entry_offset": 3161025,
+        "payload_bytes": 82889,
+        "sha256_img_payload": "5722dfc76d2766c1a8042c797024f819e952e0e8957de4769631f050ebcad179"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "key": "statue",
+      "texture": "res://assets/r4/doll_gallery/statue.png",
+      "size": [
+        99,
+        205
+      ],
+      "sha256_png": "93a833d9b5288f2918768ad91a0fe8e2b788211c2dda498701c7671a61a27e8f",
+      "sha256_rgba": "f7884907c8cc988664f82df61bf8242e3610ad93188efab670c77ffbb3d978e2",
+      "import_sidecar": "assets/r4/doll_gallery/statue.png.import",
+      "source_ani": "map/hallofdoll/animation/statue0.ani",
+      "source": {
+        "npk": "sprite_map_act2_amon.NPK",
+        "sha256_npk": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/200obj03.img",
+        "entry": {
+          "pack": "sprite_map_act2_amon.NPK",
+          "path": "sprite/map/act2/amon/200obj03.img",
+          "offset": 189162,
+          "bytes": 3114,
+          "version": 2,
+          "frames": 1,
+          "index_bytes": 36
+        },
+        "sha256_img_payload": "caaafea8d99a86c56bbf82f0bde901487f52f8e76f4e354c183a490f9092b07e",
+        "declared_IMG_frames": 1,
+        "raw_reference": "source_art/r4/stonemaster/img/sprite_map_act2_amon.NPK/sprite/map/act2/amon/200obj03.img.bin"
+      },
+      "img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 99,
+        "height": 205,
+        "x": 1,
+        "y": 2,
+        "canvas_width": 101,
+        "canvas_height": 209,
+        "data_offset": 68,
+        "data_bytes": 3046,
+        "version": 2
+      },
+      "ani_offset": [
+        -51,
+        -201
+      ],
+      "source_globals": [
+        {
+          "type": 1,
+          "value": 0
+        }
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 120
+        }
+      ],
+      "source_boxes": [],
+      "operation": "Exact unmodified source RGBA crop"
+    },
+    {
+      "key": "far",
+      "texture": "res://assets/r4/doll_gallery/far.png",
+      "size": [
+        640,
+        410
+      ],
+      "sha256_png": "59a0d84549d1bc26127655a615ad6a103e55309d07acd5782f2c55800382d291",
+      "sha256_rgba": "f6dd9306b77de3238fef4f559c286d13d3d7032481a882b2bef22812ce9a1210",
+      "import_sidecar": "assets/r4/doll_gallery/far.png.import",
+      "source_ani": "map/hallofdoll/animation/far1.ani",
+      "source": {
+        "npk": "sprite_map_act2_amon.NPK",
+        "sha256_npk": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/far.img",
+        "entry": {
+          "pack": "sprite_map_act2_amon.NPK",
+          "path": "sprite/map/act2/amon/far.img",
+          "offset": 335840,
+          "bytes": 21519,
+          "version": 2,
+          "frames": 1,
+          "index_bytes": 36
+        },
+        "sha256_img_payload": "6a362d75c13f55267842077647aac2e116bed737e6c1412abb9949faff49cde2",
+        "declared_IMG_frames": 1,
+        "raw_reference": "source_art/r4/stonemaster/img/sprite_map_act2_amon.NPK/sprite/map/act2/amon/far.img.bin"
+      },
+      "img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 640,
+        "height": 410,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 640,
+        "canvas_height": 410,
+        "data_offset": 68,
+        "data_bytes": 21451,
+        "version": 2
+      },
+      "ani_offset": [
+        0,
+        -80
+      ],
+      "source_globals": [
+        {
+          "type": 1,
+          "value": 0
+        }
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 120
+        }
+      ],
+      "source_boxes": [],
+      "operation": "Exact unmodified source RGBA crop"
+    }
+  ],
+  "outputs": [
+    {
+      "scene": "scenes/tower_doll_gallery_world.tscn",
+      "native_mesh_instances": 27,
+      "subresources": 22
+    },
+    {
+      "scene": "scenes/tower_doll_gallery_collisions.tscn",
+      "obstacle_shapes": 0
+    }
+  ],
+  "offline_checks": {
+    "five_source_png_and_rgba_hashes_match_export_reports": true,
+    "source_pngs_unchanged_after_build": true,
+    "mesh_budget_20_to_30": true,
+    "all_decorative_expanded_aabbs_outside_walk": true,
+    "floor_covers_full_framing_cap": true
+  },
+  "not_run": [
+    "Godot parse or live scene",
+    "Blender",
+    "client executable"
+  ],
+  "integration_pending": [
+    "Parent loads new world and empty collision scene for doll_gallery",
+    "Parent adds gated depths forward/return travel and separate encounter",
+    "Parent verifies native appearance, card layering, lighting and camera edges"
+  ]
+}

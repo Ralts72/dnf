@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "potion": {
+    "item_id": 1106,
+    "inventory_key": "1106",
+    "name": "诺顿的新手HP药剂",
+    "icon_path": "res://assets/r4/supplies/hp_potion_icon.png",
+    "field_path": "res://assets/r4/supplies/field.png",
+    "cost": 10,
+    "heal_hp": 35,
+    "cooldown_seconds": 10,
+    "max_purchase_count": 4
+  },
+  "source_reference": "res://docs/r4_hp_potion_source_reference.json",
+  "price_and_capacity_authority": "AdventureProgress.HP_POTION_PRICE / HP_POTION_MAX and their public accessors; cost/max above document the current adaptation and are checked against those accessors.",
+  "adaptation": "Price10 and immediate35HP restoration fit this prototype's100HP pool. Original source price100 and hp-recovery tuple +,70,1000,myself remain evidence only; no original recovery scheduling/formula is claimed. The original10000ms cooldown is retained as a10s session timer with the prototype pause/reset policy.",
+  "vendor": "npc/lorian.npc item shop6 -> Magic1.shp NPC10 -> sell item1106 is directly verified. Sharan's recipe shop does not sell this potion.",
+  "persistence": "Purchases atomically save remaining coins and inventory. Use must commit one inventory debit before synchronous session healing; failed use must neither heal nor retain a debit for generic retry. This is not a cross-process atomic transaction between disk inventory and transient health."
+}

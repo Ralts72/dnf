@@ -1,0 +1,11 @@
+{
+  "build": "R1   /   25",
+  "diag_active": false,
+  "diag_samples": 0,
+  "diag_sampling": false,
+  "diag_visible": false,
+  "free": true,
+  "walk_checkbox": true,
+  "walk_enabled": true,
+  "walk_textures": 16
+}

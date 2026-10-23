@@ -1,0 +1,12 @@
+{
+  "check_script": "res://tools/r1/framing_checks.gd",
+  "elapsed_seconds": 11.931382,
+  "qa_source_sha256": "cf9905c28788b942f21bdb1858826eede32d6d16baa7667c16f8561c352e9d7d",
+  "render_cases_completed": 680,
+  "result": {
+    "checks": 10,
+    "failed": [],
+    "render_cases": 680
+  },
+  "status": "complete"
+}

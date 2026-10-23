@@ -1,0 +1,338 @@
+{
+  "checks": [
+    {
+      "check": "each_native_scene_has_two_static_bodies_and_two_shapes",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "all_native_bodies_match_actor_collision_layer",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "hall_native_shapes_resolve_plan_source_centers_and_radius",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "gate_native_shapes_resolve_plan_source_centers_and_extents",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "unobstructed_motion_keeps_requested_foot",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "hall_column_front_stops_140.0",
+      "details": {
+        "previous": "(140.0, 300.0)",
+        "requested": "(140.0, 245.0)",
+        "result": "(140.0, 262.6488)"
+      },
+      "pass": true
+    },
+    {
+      "check": "hall_column_front_stop_uses_world_metric_140.0",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "static_overlap_recovers_140.0",
+      "details": {
+        "previous": "(140.0, 245.0)",
+        "requested": "(140.0, 245.0)",
+        "result": "(140.0, 262.6488)"
+      },
+      "pass": true
+    },
+    {
+      "check": "static_overlap_front_recovery_is_local_140.0",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "hall_column_front_stops_760.0",
+      "details": {
+        "previous": "(760.0, 300.0)",
+        "requested": "(760.0, 245.0)",
+        "result": "(760.0, 262.6488)"
+      },
+      "pass": true
+    },
+    {
+      "check": "hall_column_front_stop_uses_world_metric_760.0",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "static_overlap_recovers_760.0",
+      "details": {
+        "previous": "(760.0, 245.0)",
+        "requested": "(760.0, 245.0)",
+        "result": "(760.0, 262.6488)"
+      },
+      "pass": true
+    },
+    {
+      "check": "static_overlap_front_recovery_is_local_760.0",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "bound_clamp_cannot_reinsert_left_column",
+      "details": {
+        "previous": "(119.0, 259.0)",
+        "requested": "(120.0, 259.0)",
+        "result": "(120.0, 259.1873)"
+      },
+      "pass": true
+    },
+    {
+      "check": "bound_clamp_cannot_reinsert_right_column",
+      "details": {
+        "previous": "(777.0, 259.0)",
+        "requested": "(776.0, 259.0)",
+        "result": "(776.0, 260.4986)"
+      },
+      "pass": true
+    },
+    {
+      "check": "left_top_walk_corner_overlap_recovers",
+      "details": {
+        "previous": "(120.0, 245.0)",
+        "requested": "(120.0, 245.0)",
+        "result": "(120.0, 259.1897)"
+      },
+      "pass": true
+    },
+    {
+      "check": "right_top_walk_corner_overlap_recovers",
+      "details": {
+        "previous": "(776.0, 245.0)",
+        "requested": "(776.0, 245.0)",
+        "result": "(776.0, 260.4975)"
+      },
+      "pass": true
+    },
+    {
+      "check": "circle_upper_bound_intersection_blocks",
+      "details": {
+        "previous": "(200.0, 245.0)",
+        "requested": "(130.0, 245.0)",
+        "result": "(174.119, 252.1248)"
+      },
+      "pass": true
+    },
+    {
+      "check": "upper_bound_contact_redirects_outside_circle",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "clear_endpoints_cannot_tunnel_circle",
+      "details": {
+        "previous": "(200.0, 260.0)",
+        "requested": "(120.0, 260.0)",
+        "result": "(127.9586, 269.4615)"
+      },
+      "pass": true
+    },
+    {
+      "check": "circle_segment_routes_around_front_instead_of_straight_through",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "short_push_cannot_cross_gate_base",
+      "details": {
+        "previous": "(348.0, 240.0)",
+        "requested": "(356.0, 240.0)",
+        "result": "(350.088, 240.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "short_push_stops_on_original_side",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "clear_endpoints_cannot_tunnel_gate_base",
+      "details": {
+        "previous": "(330.0, 240.0)",
+        "requested": "(430.0, 240.0)",
+        "result": "(350.088, 240.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "full_segment_sweep_keeps_entry_side",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "box_block_slides_along_side",
+      "details": {
+        "previous": "(345.0, 255.0)",
+        "requested": "(380.0, 236.0)",
+        "result": "(379.9955, 244.5973)"
+      },
+      "pass": true
+    },
+    {
+      "check": "box_front_slide_keeps_tangential_travel",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "box_side_keeps_vertical_tangent",
+      "details": {
+        "previous": "(345.0, 240.0)",
+        "requested": "(380.0, 236.0)",
+        "result": "(350.0881, 236.0007)"
+      },
+      "pass": true
+    },
+    {
+      "check": "box_side_slide_keeps_tangential_travel",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "box_corner_diagonal_stays_outside",
+      "details": {
+        "previous": "(350.088, 244.6)",
+        "requested": "(390.0, 236.0)",
+        "result": "(389.9944, 244.5961)"
+      },
+      "pass": true
+    },
+    {
+      "check": "circle_block_slides_tangentially",
+      "details": {
+        "previous": "(190.0, 275.0)",
+        "requested": "(130.0, 245.0)",
+        "result": "(147.3258, 263.6607)"
+      },
+      "pass": true
+    },
+    {
+      "check": "circle_slide_makes_progress_without_teleport",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "original_hall_door_lane_open_398.0",
+      "details": {
+        "previous": "(398.0, 270.0)",
+        "requested": "(398.0, 236.0)",
+        "result": "(398.0, 236.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "door_trigger_endpoint_preserved_398.0",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "original_hall_door_lane_open_430.0",
+      "details": {
+        "previous": "(430.0, 270.0)",
+        "requested": "(430.0, 236.0)",
+        "result": "(430.0, 236.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "door_trigger_endpoint_preserved_430.0",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "original_hall_door_lane_open_462.0",
+      "details": {
+        "previous": "(462.0, 270.0)",
+        "requested": "(462.0, 236.0)",
+        "result": "(462.0, 236.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "door_trigger_endpoint_preserved_462.0",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "hall_return_threshold_open",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "approach_harbor_exit_open",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "gate_base_static_overlap_recovers",
+      "details": {
+        "previous": "(372.0, 236.0)",
+        "requested": "(372.0, 236.0)",
+        "result": "(372.0, 244.5986)"
+      },
+      "pass": true
+    },
+    {
+      "check": "repeated_diagonal_slide_at_bound_-1",
+      "details": {
+        "result": "(177.0907, 245.1492)"
+      },
+      "pass": true
+    },
+    {
+      "check": "repeated_diagonal_slide_at_bound_1",
+      "details": {
+        "result": "(722.9092, 245.1492)"
+      },
+      "pass": true
+    },
+    {
+      "check": "seeded_bound_overlap_and_sweep_invariants_hall",
+      "details": {
+        "cases": 500,
+        "seed": 304
+      },
+      "pass": true
+    },
+    {
+      "check": "seeded_bound_overlap_and_sweep_invariants_approach",
+      "details": {
+        "cases": 500,
+        "seed": 304
+      },
+      "pass": true
+    },
+    {
+      "check": "setup_reuses_existing_scene_without_duplicate_bodies",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "reads_edited_native_shape_instead_of_duplicate_constants",
+      "details": {},
+      "pass": true
+    }
+  ],
+  "failed": 0,
+  "passed": 47,
+  "scope": "isolated native-scene/math; no save/runtime/main scene",
+  "source_hashes": {
+    "scripts/route_ground_obstacles.gd": "934c8f5c8e6a7c654b816d4264f2355a2a6f4e9ef9f7054f2412a11a70fc30ab",
+    "scenes/tower_approach_collisions.tscn": "b660b6b8dc9ec4d45309717c44e5ada6c77f751f211ae530652e01c9568eb5a9",
+    "scenes/tower_hall_collisions.tscn": "d9e08ee80ce54ed0213bb61df2e25c6efdad14f8b733456605d77547d3fa24a3",
+    "tools/r3/obstacle_geometry_checks.gd": "686f0004deae08da9b0014ecf572df4f8ac42afa2a35cbdf96349123916cadf2"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "candidate": "R1/14",
+  "client": "/Users/mac/Downloads/天堂95起源单机客户端",
+  "tag": "AMB_PORT_01",
+  "audio_xml_sha256": "709e314f1b7be9864fa0f5bdfa133279d005b3ae83a17d8594563d003fe5c37d",
+  "xml_attributes": {
+    "ID": "AMB_PORT_01",
+    "FILE": "sounds\\amb\\amb_port_01.ogg",
+    "LOOP_DELAY": "0"
+  },
+  "map": {
+    "path": "map/hendonmyre/sky_westcoast2.map",
+    "sha256": "829daab07d11a1fab9831181d9b49485f21f15dcba245a4d4823a5dc2b98b98d",
+    "crc": {
+      "expected": 275517811,
+      "actual_seed_file_number": 275517811,
+      "actual_seed_zero": 1671184018
+    },
+    "sound_tags": [
+      "AMB_PORT_01",
+      "M_WESTCOAST"
+    ]
+  },
+  "pack": {
+    "name": "sounds_amb.npk",
+    "bytes": 30009825,
+    "sha256": "e3987f58eeb9c8a6513612bed94ce7e9e2e04c6e4a6b55e9ccec69307e08fa45"
+  },
+  "entry": {
+    "pack": "sounds_amb.npk",
+    "path": "sounds/amb/amb_port_01.ogg",
+    "offset": 11633219,
+    "bytes": 498451
+  },
+  "source_bytes": 498451,
+  "source_sha256": "9227318a12edd905e412bd1ebab9d095a588a5dcdace18821b83a57e6d9ca765",
+  "original": "source_art/ambience/amb_port_01.ogg",
+  "runtime": "assets/r0/ambience/amb_port_01.ogg",
+  "runtime_bytes": 498459,
+  "runtime_sha256": "9d72677ffd328a01f387899c9e1ac5b601706fadac64fa71125ea8223a6da358",
+  "metadata_fix": {
+    "comments_fixed": 1,
+    "audio_packets": 1834,
+    "audio_packet_sha256": "ab8e0c54709f51ac56afea2d3337d3de175db64622e3aabcf3fe3b1fa9de2800",
+    "all_noncomment_packets_identical": true
+  },
+  "duration_seconds": 40.0,
+  "sample_rate": 44100,
+  "channels": 2,
+  "settings": {
+    "schema": 1,
+    "tag": "AMB_PORT_01",
+    "path": "res://assets/r0/ambience/amb_port_01.ogg",
+    "bus_name": "PortAmbience",
+    "player_name": "WestCoastAmbience",
+    "loop": true,
+    "loop_offset_seconds": 0.0,
+    "default_volume": 0.35,
+    "volume_levels": [
+      0.0,
+      0.35
+    ],
+    "intro_fade_seconds": 1.0,
+    "volume_fade_seconds": 0.15,
+    "near_distance_pixels": 40,
+    "far_distance_pixels": 180,
+    "far_gain_factor": 0.35,
+    "shore_points": [
+      [
+        449,
+        190
+      ],
+      [
+        673,
+        254
+      ],
+      [
+        958,
+        254
+      ]
+    ],
+    "source_reference": "docs/r1_ambience_source_reference.json",
+    "notes": [
+      "The original stereo recording is retained; distance changes gain, not stereo placement.",
+      "Ambience follows the effects volume/F8; music remains independent on F9.",
+      "Ambience continues during pose/water pause, and retains one player across F4.",
+      "Gain, fades and distance mapping are new sample interpretation."
+    ]
+  }
+}

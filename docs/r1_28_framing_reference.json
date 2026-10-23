@@ -1,0 +1,29 @@
+{
+  "candidate": "R1/28",
+  "source_pose_extents": "source_art/r1/experiments/framing_28/source_pose_extents.json",
+  "source_pose_extents_sha256": "995f59c5f46cfe12ad96b2818ecedc1ab6738bcfcab5e494540a3adad80ff165",
+  "framing_script": "scripts/source_framing.gd",
+  "viewport_logical_pixels": [
+    896,
+    404
+  ],
+  "source_origin_y": 43,
+  "maximum_source_pose_bottom_pixels": 45,
+  "margin_pixels": 8,
+  "maximum_camera_offset_pixels": 40,
+  "default_offset_pixels": 12,
+  "legal_bottom_center_ground_point": [
+    440,
+    345
+  ],
+  "bottom_offset_pixels": 37,
+  "follow_rate_per_second": 20,
+  "snap_behavior": "Pause and explicit reset use logical ground coordinates; hold two render updates while native histories settle.",
+  "R0_rendering": "Independent896x404 native2D viewport; canvas transform moves the view without changing interpolated actor ancestors.",
+  "R0_floor_overscan": "Mirror the final40 rows of each original floor PNG below the old source crop. Original sprites and PNG bytes remain unchanged. This edge extension is an interpretation, not recovered original map content.",
+  "limits": [
+    "Horizontal world-edge clipping remains unresolved.",
+    "Exhaustive RGB/bounds proof uses legal lower-center ground point(440,345), not all map positions.",
+    "No new navigation area, source action timing, move speed or jump rules."
+  ]
+}

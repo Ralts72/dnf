@@ -1,0 +1,12 @@
+{
+  "check_script": "res://tools/r1/walk_inbetween_checks.gd",
+  "elapsed_seconds": 0.950235,
+  "qa_source_sha256": "385831a527b612beec58aa2ab36535332d8c39794ed97d04796d570f18c4e1cf",
+  "render_cases_completed": 0,
+  "result": {
+    "boundary_cases": 48,
+    "checks": 24,
+    "failed": []
+  },
+  "status": "complete"
+}

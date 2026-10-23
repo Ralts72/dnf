@@ -1,0 +1,12 @@
+{
+  "check_script": "res://tools/r1/horizontal_framing_checks.gd",
+  "elapsed_seconds": 2.344426,
+  "qa_source_sha256": "5010b2bb7e31136ca511658e4f7495dbfd1e0ce431a93016fb4c0d66a6061dbd",
+  "render_cases_completed": 96,
+  "result": {
+    "checks": 15,
+    "failed": [],
+    "render_cases": 96
+  },
+  "status": "complete"
+}

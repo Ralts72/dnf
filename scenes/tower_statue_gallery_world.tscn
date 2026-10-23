@@ -1,0 +1,303 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/r2/approach/bridge_0.png" id="1"]
+[ext_resource type="Texture2D" path="res://assets/r2/interior/paving.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/r2/interior/column.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/r2/interior/far.png" id="4"]
+
+[sub_resource type="StandardMaterial3D" id="R2_1"]
+albedo_texture = ExtResource("1")
+albedo_color = Color(0.78, 0.77, 0.72, 1)
+shading_mode = 1
+roughness = 1.0
+texture_filter = 0
+uv1_scale = Vector3(0.28571429, 0.10457516, 1.00000000)
+uv1_offset = Vector3(0.10714286, 0.26143791, 0.00000000)
+
+[sub_resource type="StandardMaterial3D" id="R2_2"]
+albedo_texture = ExtResource("2")
+albedo_color = Color(0.48, 0.47, 0.44, 1)
+shading_mode = 1
+roughness = 1.0
+texture_filter = 0
+uv1_scale = Vector3(2.00000000, 3.00000000, 1.00000000)
+uv1_offset = Vector3(0.00000000, 0.00000000, 0.00000000)
+
+[sub_resource type="StandardMaterial3D" id="R2_3"]
+albedo_texture = ExtResource("3")
+albedo_color = Color(0.7, 0.66, 0.56, 1)
+shading_mode = 1
+roughness = 1.0
+texture_filter = 0
+uv1_scale = Vector3(0.37931034, 0.64516129, 1.00000000)
+uv1_offset = Vector3(0.31034483, 0.17204301, 0.00000000)
+
+[sub_resource type="StandardMaterial3D" id="R2_4"]
+albedo_texture = ExtResource("2")
+albedo_color = Color(0.74, 0.73, 0.7, 1)
+shading_mode = 0
+roughness = 1.0
+texture_filter = 0
+uv1_scale = Vector3(8.40625000, 2.39583333, 1.00000000)
+uv1_offset = Vector3(0.00000000, 0.00000000, 0.00000000)
+
+[sub_resource type="BoxMesh" id="R2_5"]
+material = SubResource("R2_1")
+size = Vector3(26.90000000, 0.24000000, 6.22636544)
+
+[sub_resource type="PlaneMesh" id="R2_6"]
+material = SubResource("R2_4")
+size = Vector2(26.9, 6.226365441017186)
+
+[sub_resource type="BoxMesh" id="R2_7"]
+material = SubResource("R2_2")
+size = Vector3(4.96666667, 5.60000000, 0.28000000)
+
+[sub_resource type="BoxMesh" id="R2_8"]
+material = SubResource("R2_2")
+size = Vector3(3.73333333, 5.60000000, 0.28000000)
+
+[sub_resource type="BoxMesh" id="R2_9"]
+material = SubResource("R2_2")
+size = Vector3(4.86666667, 5.60000000, 0.28000000)
+
+[sub_resource type="BoxMesh" id="R2_10"]
+material = SubResource("R2_2")
+size = Vector3(26.90000000, 0.58000000, 0.26000000)
+
+[sub_resource type="BoxMesh" id="R2_11"]
+material = SubResource("R2_3")
+size = Vector3(26.90000000, 0.09000000, 0.34000000)
+
+[sub_resource type="CylinderMesh" id="R2_12"]
+material = SubResource("R2_3")
+bottom_radius = 0.44
+top_radius = 0.44
+height = 0.18
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R2_13"]
+material = SubResource("R2_1")
+bottom_radius = 0.22
+top_radius = 0.18
+height = 3.43
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R2_14"]
+material = SubResource("R2_3")
+bottom_radius = 0.4
+top_radius = 0.48
+height = 0.24
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxMesh" id="R2_15"]
+material = SubResource("R2_1")
+size = Vector3(3.92000000, 0.22000000, 0.38000000)
+
+[sub_resource type="BoxMesh" id="R2_16"]
+material = SubResource("R2_2")
+size = Vector3(26.90000000, 1.45000000, 0.32000000)
+
+[sub_resource type="BoxMesh" id="R2_17"]
+material = SubResource("R2_1")
+size = Vector3(0.50000000, 2.80000000, 0.46000000)
+
+[sub_resource type="BoxMesh" id="R2_18"]
+material = SubResource("R2_2")
+size = Vector3(3.20000000, 0.25000000, 0.32000000)
+
+[sub_resource type="BoxMesh" id="R2_19"]
+material = SubResource("R2_3")
+size = Vector3(3.30000000, 0.07000000, 0.40000000)
+
+[node name="TowerStatueGalleryWorld" type="Node3D"]
+metadata/layout_policy = "Adapted R4 1280px continuous statue corridor; original PNGs, editable native architecture."
+
+[node name="LongGalleryFoundation" type="MeshInstance3D" parent="."]
+position = Vector3(3.15000000, -0.11000000, 3.16452312)
+mesh = SubResource("R2_5")
+
+[node name="ContinuousLongGalleryFloor" type="MeshInstance3D" parent="."]
+position = Vector3(3.15000000, 0.01500000, 3.16452312)
+mesh = SubResource("R2_6")
+
+[node name="OriginalWindowVista_0" type="Sprite3D" parent="."]
+texture = ExtResource("4")
+position = Vector3(-3.73333333, -1.82198443, -2.04198032)
+rotation = Vector3(-0.66322512, 0.00000000, 0.00000000)
+pixel_size = 0.016666666666666666
+offset = Vector2(0, 177.5)
+billboard = 0
+alpha_cut = 1
+alpha_scissor_threshold = 0.25
+texture_filter = 0
+shaded = false
+cast_shadow = 0
+metadata/source_pixel_policy = "Original crop at1 source pixel per logical view pixel; only view-ray depth offset."
+
+[node name="OriginalWindowVista_1" type="Sprite3D" parent="."]
+texture = ExtResource("4")
+position = Vector3(3.20000000, -1.82198443, -2.04198032)
+rotation = Vector3(-0.66322512, 0.00000000, 0.00000000)
+pixel_size = 0.016666666666666666
+offset = Vector2(0, 177.5)
+billboard = 0
+alpha_cut = 1
+alpha_scissor_threshold = 0.25
+texture_filter = 0
+shaded = false
+cast_shadow = 0
+metadata/source_pixel_policy = "Original crop at1 source pixel per logical view pixel; only view-ray depth offset."
+
+[node name="OriginalWindowVista_2" type="Sprite3D" parent="."]
+texture = ExtResource("4")
+position = Vector3(10.13333333, -1.82198443, -2.04198032)
+rotation = Vector3(-0.66322512, 0.00000000, 0.00000000)
+pixel_size = 0.016666666666666666
+offset = Vector2(0, 177.5)
+billboard = 0
+alpha_cut = 1
+alpha_scissor_threshold = 0.25
+texture_filter = 0
+shaded = false
+cast_shadow = 0
+metadata/source_pixel_policy = "Original crop at1 source pixel per logical view pixel; only view-ray depth offset."
+
+[node name="RearWindowWall_0" type="MeshInstance3D" parent="."]
+position = Vector3(-7.81666667, 2.81500000, -0.30058460)
+mesh = SubResource("R2_7")
+
+[node name="RearWindowWall_1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.26666667, 2.81500000, -0.30058460)
+mesh = SubResource("R2_8")
+
+[node name="RearWindowWall_2" type="MeshInstance3D" parent="."]
+position = Vector3(6.66666667, 2.81500000, -0.30058460)
+mesh = SubResource("R2_8")
+
+[node name="RearWindowWall_3" type="MeshInstance3D" parent="."]
+position = Vector3(14.16666667, 2.81500000, -0.30058460)
+mesh = SubResource("R2_9")
+
+[node name="ContinuousRearDado" type="MeshInstance3D" parent="."]
+position = Vector3(3.15000000, 0.30500000, 0.18669617)
+mesh = SubResource("R2_10")
+
+[node name="ContinuousRearCoping" type="MeshInstance3D" parent="."]
+position = Vector3(3.15000000, 0.64000000, 0.18669617)
+mesh = SubResource("R2_11")
+
+[node name="WindowColumn_0_Left_Base" type="MeshInstance3D" parent="."]
+position = Vector3(-5.53333333, 0.77500000, -0.00280191)
+mesh = SubResource("R2_12")
+
+[node name="WindowColumn_0_Left_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(-5.53333333, 2.58000000, -0.00280191)
+mesh = SubResource("R2_13")
+
+[node name="WindowColumn_0_Left_Capital" type="MeshInstance3D" parent="."]
+position = Vector3(-5.53333333, 4.41500000, -0.00280191)
+mesh = SubResource("R2_14")
+
+[node name="WindowColumn_0_Right_Base" type="MeshInstance3D" parent="."]
+position = Vector3(-1.93333333, 0.77500000, -0.00280191)
+mesh = SubResource("R2_12")
+
+[node name="WindowColumn_0_Right_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(-1.93333333, 2.58000000, -0.00280191)
+mesh = SubResource("R2_13")
+
+[node name="WindowColumn_0_Right_Capital" type="MeshInstance3D" parent="."]
+position = Vector3(-1.93333333, 4.41500000, -0.00280191)
+mesh = SubResource("R2_14")
+
+[node name="WindowLintel_0" type="MeshInstance3D" parent="."]
+position = Vector3(-3.73333333, 4.64500000, -0.00280191)
+mesh = SubResource("R2_15")
+
+[node name="WindowColumn_1_Left_Base" type="MeshInstance3D" parent="."]
+position = Vector3(1.40000000, 0.77500000, -0.00280191)
+mesh = SubResource("R2_12")
+
+[node name="WindowColumn_1_Left_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(1.40000000, 2.58000000, -0.00280191)
+mesh = SubResource("R2_13")
+
+[node name="WindowColumn_1_Left_Capital" type="MeshInstance3D" parent="."]
+position = Vector3(1.40000000, 4.41500000, -0.00280191)
+mesh = SubResource("R2_14")
+
+[node name="WindowColumn_1_Right_Base" type="MeshInstance3D" parent="."]
+position = Vector3(5.00000000, 0.77500000, -0.00280191)
+mesh = SubResource("R2_12")
+
+[node name="WindowColumn_1_Right_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(5.00000000, 2.58000000, -0.00280191)
+mesh = SubResource("R2_13")
+
+[node name="WindowColumn_1_Right_Capital" type="MeshInstance3D" parent="."]
+position = Vector3(5.00000000, 4.41500000, -0.00280191)
+mesh = SubResource("R2_14")
+
+[node name="WindowLintel_1" type="MeshInstance3D" parent="."]
+position = Vector3(3.20000000, 4.64500000, -0.00280191)
+mesh = SubResource("R2_15")
+
+[node name="WindowColumn_2_Left_Base" type="MeshInstance3D" parent="."]
+position = Vector3(8.33333333, 0.77500000, -0.00280191)
+mesh = SubResource("R2_12")
+
+[node name="WindowColumn_2_Left_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(8.33333333, 2.58000000, -0.00280191)
+mesh = SubResource("R2_13")
+
+[node name="WindowColumn_2_Left_Capital" type="MeshInstance3D" parent="."]
+position = Vector3(8.33333333, 4.41500000, -0.00280191)
+mesh = SubResource("R2_14")
+
+[node name="WindowColumn_2_Right_Base" type="MeshInstance3D" parent="."]
+position = Vector3(11.93333333, 0.77500000, -0.00280191)
+mesh = SubResource("R2_12")
+
+[node name="WindowColumn_2_Right_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(11.93333333, 2.58000000, -0.00280191)
+mesh = SubResource("R2_13")
+
+[node name="WindowColumn_2_Right_Capital" type="MeshInstance3D" parent="."]
+position = Vector3(11.93333333, 4.41500000, -0.00280191)
+mesh = SubResource("R2_14")
+
+[node name="WindowLintel_2" type="MeshInstance3D" parent="."]
+position = Vector3(10.13333333, 4.64500000, -0.00280191)
+mesh = SubResource("R2_15")
+
+[node name="ContinuousRearUpperBeam" type="MeshInstance3D" parent="."]
+position = Vector3(3.15000000, 5.48000000, -0.00280191)
+mesh = SubResource("R2_16")
+
+[node name="ReturnArchPier_Rear" type="MeshInstance3D" parent="."]
+position = Vector3(-7.80000000, 1.41500000, -0.00280191)
+mesh = SubResource("R2_17")
+
+[node name="EndArchPier_Rear" type="MeshInstance3D" parent="."]
+position = Vector3(14.26666667, 1.41500000, -0.00280191)
+mesh = SubResource("R2_17")
+
+[node name="FrontLowWall_0" type="MeshInstance3D" parent="."]
+position = Vector3(-1.86666667, 0.14000000, 4.54515198)
+mesh = SubResource("R2_18")
+
+[node name="FrontLowCoping_0" type="MeshInstance3D" parent="."]
+position = Vector3(-1.86666667, 0.30000000, 4.54515198)
+mesh = SubResource("R2_19")
+
+[node name="FrontLowWall_1" type="MeshInstance3D" parent="."]
+position = Vector3(9.33333333, 0.14000000, 4.54515198)
+mesh = SubResource("R2_18")
+
+[node name="FrontLowCoping_1" type="MeshInstance3D" parent="."]
+position = Vector3(9.33333333, 0.30000000, 4.54515198)
+mesh = SubResource("R2_19")

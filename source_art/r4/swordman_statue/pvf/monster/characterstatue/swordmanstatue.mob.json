@@ -1,0 +1,609 @@
+{
+  "path": "monster/characterstatue/swordmanstatue.mob",
+  "crc": {
+    "expected": 1542796133,
+    "actual_seed_file_number": 1542796133,
+    "actual_seed_zero": 3429152435
+  },
+  "decoded": [
+    {
+      "type": 5,
+      "index": 7431,
+      "text": "[width]"
+    },
+    {
+      "type": 2,
+      "value": 40
+    },
+    {
+      "type": 2,
+      "value": 10
+    },
+    {
+      "type": 5,
+      "index": 12121,
+      "text": "[floating height]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 305768,
+      "text": "[common champion elemental property]"
+    },
+    {
+      "type": 7,
+      "index": 1108,
+      "text": "[no element]"
+    },
+    {
+      "type": 5,
+      "index": 305769,
+      "text": "[/common champion elemental property]"
+    },
+    {
+      "type": 5,
+      "index": 305256,
+      "text": "[ability category]"
+    },
+    {
+      "type": 7,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 150
+    },
+    {
+      "type": 7,
+      "index": 305258,
+      "text": "[EQUIPMENT_PHYSICAL_ATTACK]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 7,
+      "index": 89605,
+      "text": "[EQUIPMENT_PHYSICAL_DEFENSE]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 120
+    },
+    {
+      "type": 7,
+      "index": 305259,
+      "text": "[EQUIPMENT_MAGICAL_ATTACK]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 7,
+      "index": 88347,
+      "text": "[EQUIPMENT_MAGICAL_DEFENSE]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 5,
+      "index": 305260,
+      "text": "[/ability category]"
+    },
+    {
+      "type": 5,
+      "index": 278490,
+      "text": "[category]"
+    },
+    {
+      "type": 7,
+      "index": 305261,
+      "text": "[human]"
+    },
+    {
+      "type": 7,
+      "index": 305552,
+      "text": "[melee combat]"
+    },
+    {
+      "type": 7,
+      "index": 306854,
+      "text": "[close-passive]"
+    },
+    {
+      "type": 7,
+      "index": 306814,
+      "text": "[fort armor]"
+    },
+    {
+      "type": 5,
+      "index": 305263,
+      "text": "[/category]"
+    },
+    {
+      "type": 5,
+      "index": 6037,
+      "text": "[level]"
+    },
+    {
+      "type": 2,
+      "value": 18
+    },
+    {
+      "type": 2,
+      "value": 25
+    },
+    {
+      "type": 5,
+      "index": 18681,
+      "text": "[freeze resistance]"
+    },
+    {
+      "type": 2,
+      "value": 30
+    },
+    {
+      "type": 2,
+      "value": 30
+    },
+    {
+      "type": 5,
+      "index": 27123,
+      "text": "[poison resistance]"
+    },
+    {
+      "type": 2,
+      "value": 30
+    },
+    {
+      "type": 2,
+      "value": 30
+    },
+    {
+      "type": 5,
+      "index": 18849,
+      "text": "[lightning resistance]"
+    },
+    {
+      "type": 2,
+      "value": 30
+    },
+    {
+      "type": 2,
+      "value": 30
+    },
+    {
+      "type": 5,
+      "index": 24771,
+      "text": "[stone resistance]"
+    },
+    {
+      "type": 2,
+      "value": 1000
+    },
+    {
+      "type": 2,
+      "value": 1000
+    },
+    {
+      "type": 5,
+      "index": 18664,
+      "text": "[bleeding resistance]"
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 5,
+      "index": 2861,
+      "text": "[move speed]"
+    },
+    {
+      "type": 2,
+      "value": 400
+    },
+    {
+      "type": 2,
+      "value": 400
+    },
+    {
+      "type": 5,
+      "index": 2860,
+      "text": "[attack speed]"
+    },
+    {
+      "type": 2,
+      "value": 400
+    },
+    {
+      "type": 2,
+      "value": 400
+    },
+    {
+      "type": 5,
+      "index": 7442,
+      "text": "[cast speed]"
+    },
+    {
+      "type": 2,
+      "value": 820
+    },
+    {
+      "type": 2,
+      "value": 910
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 2,
+      "value": 700
+    },
+    {
+      "type": 5,
+      "index": 7444,
+      "text": "[weight]"
+    },
+    {
+      "type": 2,
+      "value": 45000
+    },
+    {
+      "type": 2,
+      "value": 45000
+    },
+    {
+      "type": 5,
+      "index": 306513,
+      "text": "[sight]"
+    },
+    {
+      "type": 2,
+      "value": 300
+    },
+    {
+      "type": 5,
+      "index": 306542,
+      "text": "[targeting nearest]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 555,
+      "text": "[warlike]"
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 5,
+      "index": 306543,
+      "text": "[attack delay]"
+    },
+    {
+      "type": 2,
+      "value": 3500
+    },
+    {
+      "type": 5,
+      "index": 305265,
+      "text": "[stuckbonus on damage]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 6176,
+      "text": "[item]"
+    },
+    {
+      "type": 5,
+      "index": 6193,
+      "text": "[/item]"
+    },
+    {
+      "type": 5,
+      "index": 305266,
+      "text": "[common champion drop item]"
+    },
+    {
+      "type": 5,
+      "index": 305267,
+      "text": "[/common champion drop item]"
+    },
+    {
+      "type": 5,
+      "index": 306514,
+      "text": "[attack kind]"
+    },
+    {
+      "type": 4,
+      "value": 35.0
+    },
+    {
+      "type": 4,
+      "value": 30.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 150
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 306515,
+      "text": "[/attack kind]"
+    },
+    {
+      "type": 5,
+      "index": 305421,
+      "text": "[die effect]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 10
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 305245,
+      "text": "[face image]"
+    },
+    {
+      "type": 7,
+      "index": 305246,
+      "text": "Monster/MonsterFace.img"
+    },
+    {
+      "type": 2,
+      "value": 197
+    },
+    {
+      "type": 5,
+      "index": 7465,
+      "text": "[waiting motion]"
+    },
+    {
+      "type": 7,
+      "index": 306899,
+      "text": "SwordmanAnimation/Stay.ani"
+    },
+    {
+      "type": 5,
+      "index": 7467,
+      "text": "[move motion]"
+    },
+    {
+      "type": 7,
+      "index": 306900,
+      "text": "SwordmanAnimation/Move.ani"
+    },
+    {
+      "type": 5,
+      "index": 7471,
+      "text": "[damage motion 1]"
+    },
+    {
+      "type": 7,
+      "index": 306901,
+      "text": "SwordmanAnimation/Damage1.ani"
+    },
+    {
+      "type": 5,
+      "index": 7473,
+      "text": "[damage motion 2]"
+    },
+    {
+      "type": 7,
+      "index": 306902,
+      "text": "SwordmanAnimation/Damage2.ani"
+    },
+    {
+      "type": 5,
+      "index": 7475,
+      "text": "[down motion]"
+    },
+    {
+      "type": 7,
+      "index": 306903,
+      "text": "SwordmanAnimation/Down.ani"
+    },
+    {
+      "type": 5,
+      "index": 7477,
+      "text": "[overturn motion]"
+    },
+    {
+      "type": 7,
+      "index": 306904,
+      "text": "SwordmanAnimation/Overturn.ani"
+    },
+    {
+      "type": 5,
+      "index": 7511,
+      "text": "[attack motion]"
+    },
+    {
+      "type": 7,
+      "index": 306905,
+      "text": "SwordmanAnimation/attack.ani"
+    },
+    {
+      "type": 5,
+      "index": 7516,
+      "text": "[/attack motion]"
+    },
+    {
+      "type": 5,
+      "index": 7521,
+      "text": "[etc motion]"
+    },
+    {
+      "type": 7,
+      "index": 306906,
+      "text": "SwordmanAnimation/WakeUp.ani"
+    },
+    {
+      "type": 7,
+      "index": 306907,
+      "text": "SwordmanAnimation/HardAttack1.ani"
+    },
+    {
+      "type": 7,
+      "index": 306908,
+      "text": "SwordmanAnimation/HardAttack2.ani"
+    },
+    {
+      "type": 5,
+      "index": 7647,
+      "text": "[/etc motion]"
+    },
+    {
+      "type": 5,
+      "index": 7652,
+      "text": "[attack info]"
+    },
+    {
+      "type": 7,
+      "index": 306909,
+      "text": "AttackInfo/SwordmanAttack.atk"
+    },
+    {
+      "type": 5,
+      "index": 7657,
+      "text": "[/attack info]"
+    },
+    {
+      "type": 5,
+      "index": 4493,
+      "text": "[int data]"
+    },
+    {
+      "type": 2,
+      "value": 300
+    },
+    {
+      "type": 5,
+      "index": 4494,
+      "text": "[/int data]"
+    },
+    {
+      "type": 5,
+      "index": 11429,
+      "text": "[name]"
+    },
+    {
+      "type": 9,
+      "value": 7
+    },
+    {
+      "type": 10,
+      "index": 306910,
+      "text": "name_2004"
+    }
+  ]
+}

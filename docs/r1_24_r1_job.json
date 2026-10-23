@@ -1,0 +1,13 @@
+{
+  "check_script": "res://source_art/r1/experiments/walk_cycle_24/r1_checks.gd",
+  "elapsed_seconds": 1.929875,
+  "qa_source_sha256": "9e00c087df7820ae9e919ebe946c0a50b68d825826772381156bbc0a76e2e904",
+  "render_cases_completed": 96,
+  "result": {
+    "cases": 96,
+    "checks": 3,
+    "failed": [],
+    "failed_cases": 0
+  },
+  "status": "complete"
+}

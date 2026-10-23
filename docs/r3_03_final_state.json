@@ -1,0 +1,139 @@
+{
+  "camera": "(0.0, 12.0)",
+  "diagnostics_active": false,
+  "diagnostics_processing": false,
+  "dialog_count": 1,
+  "dialog_owned": true,
+  "encounter_meta": false,
+  "formal_profile_exists": false,
+  "input_blocked": false,
+  "loot": {
+    "bag_open": false,
+    "can_pickup": false,
+    "drop_visible": false,
+    "inventory_count": 0,
+    "position": "(640.0, 300.0)",
+    "toast": ""
+  },
+  "physics_ticks": 60,
+  "player": {
+    "action": "stay",
+    "audio": {
+      "clock_ms": 0.0,
+      "pending": []
+    },
+    "elapsed_ms": 104.180666666667,
+    "facing": 1,
+    "frame": 1,
+    "jump": {
+      "air_attack_started": -1.0,
+      "air_attack_used": false,
+      "elapsed": -1.0,
+      "travel_speed": 95.0
+    },
+    "next_attack": "attack1",
+    "one_shot": false,
+    "paused": false,
+    "position": "(440.0, 320.0)",
+    "preview": false
+  },
+  "progress": {
+    "dialog_open": false,
+    "encounter_cleared": false,
+    "last_error": "",
+    "loaded_from_backup": false,
+    "pending_save": false,
+    "progress": {
+      "coins": 0,
+      "first_drop": {
+        "id": "mirkius_first_eye_v1",
+        "position": [
+          640,
+          300
+        ],
+        "region": "hall",
+        "state": "unearned"
+      },
+      "inventory": {
+        "3128": 0
+      },
+      "objective_cleared": false,
+      "quest_stage": "available",
+      "reward_granted": false,
+      "schema": 2
+    },
+    "region_scene": "res://scenes/west_coast_r1.tscn",
+    "save_attempts": 0,
+    "storage_path": "user://adventure/first_route_v1.json",
+    "storage_ready": true
+  },
+  "root_children": [
+    "_mcp_game_helper",
+    "PortMusic",
+    "PortAmbience",
+    "WestCoastR1",
+    "FrameDiagnostics",
+    "AdventureProgress"
+  ],
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "script_hashes": {
+    "res://scripts/adventure_progress.gd": {
+      "disk": "e10ff614466ea79723fd25ced29d43a18bd6870a740726a363b9564c89632e8e",
+      "loaded": "e10ff614466ea79723fd25ced29d43a18bd6870a740726a363b9564c89632e8e"
+    },
+    "res://scripts/exploration_stage.gd": {
+      "disk": "56783c13a3dddf40b644d3d3db745442a8409ffe5633d28bb39279e925683c25",
+      "loaded": "56783c13a3dddf40b644d3d3db745442a8409ffe5633d28bb39279e925683c25"
+    },
+    "res://scripts/first_encounter.gd": {
+      "disk": "143f9723a82d5e573b72783b8e60ddfd97dfc3b2509d46da1ea9722962fd8e0f",
+      "loaded": "143f9723a82d5e573b72783b8e60ddfd97dfc3b2509d46da1ea9722962fd8e0f"
+    },
+    "res://scripts/first_loot.gd": {
+      "disk": "8fc41a831a1589d2e56ba35b97c5db56ab072d6ad8c423e1366a6905364edac4",
+      "loaded": "8fc41a831a1589d2e56ba35b97c5db56ab072d6ad8c423e1366a6905364edac4"
+    },
+    "res://scripts/west_coast_r1.gd": {
+      "disk": "7d8d9f743fcbb1aa450f9459dbfaffc42db09d39a66a351c99d8f3804b17e560",
+      "loaded": "7d8d9f743fcbb1aa450f9459dbfaffc42db09d39a66a351c99d8f3804b17e560"
+    }
+  },
+  "settings": {
+    "audio_muted": false,
+    "audio_volume": 0.6,
+    "effects": true,
+    "motion": true,
+    "music_muted": false,
+    "music_volume": 0.2,
+    "quality": 2,
+    "walk": true
+  },
+  "spawn": "(440.0, 320.0)",
+  "travel": {
+    "can_exit": true,
+    "current_region": "harbor",
+    "exit_hold_id": "",
+    "exit_hold_required_seconds": 0.15,
+    "exit_hold_seconds": 0.0,
+    "fade_alpha": 0.0,
+    "grounded": true,
+    "harbor_return_position": "(60.0, 320.0)",
+    "last_error": "",
+    "last_exit": "",
+    "pending_target": "",
+    "phase": "ready",
+    "region": "harbor",
+    "reset_positions": {
+      "harbor": "(440.0, 320.0)"
+    },
+    "schema_version": 1,
+    "source_position": "(440.0, 320.0)",
+    "spawn_position": "(440.0, 320.0)",
+    "transition_count": 0,
+    "transitioning": false,
+    "ui_input_blocked": false,
+    "visited": [
+      "harbor"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "candidate": "R1/11",
+  "checks": [
+    {
+      "crop": "assets/r1/quay_coping.png",
+      "exact_rgba": true,
+      "opaque": true,
+      "pixels": 1692
+    },
+    {
+      "crop": "assets/r1/pier_top.png",
+      "exact_rgba": true,
+      "opaque": true,
+      "pixels": 700
+    },
+    {
+      "crop": "assets/r1/pier_face.png",
+      "exact_rgba": true,
+      "opaque": true,
+      "pixels": 1700
+    }
+  ],
+  "failed": [],
+  "raw_rgba_crops": 3,
+  "packed_images": 27,
+  "mesh_objects": 302,
+  "manual_blender_scene_untouched": true,
+  "source_script_sha256": "cbf83edb443a40edb308d66fdee916f76be82b48c15da9c31c2c29a8b0b63840",
+  "source_blend_sha256": "44e4d1ee758dd762d658f4c4999170eb8824f8f0503b5051e4e987ee2bf4918a",
+  "glb_sha256": "74c2b2497b41112c691fcb8a8abe991894bee8314a9a38d2cca0844ccf9cf3c9",
+  "embedded_glb_images": [
+    {
+      "material": "Source_Quay_Coping",
+      "exact_rgba": true,
+      "pixels": 1692
+    },
+    {
+      "material": "Source_Pier_Top",
+      "exact_rgba": true,
+      "pixels": 700
+    },
+    {
+      "material": "Source_Pier_Face",
+      "exact_rgba": true,
+      "pixels": 1700
+    },
+    {
+      "material": "Source_Painted_Pier_Backwall",
+      "exact_rgba": true,
+      "pixels": 62048
+    }
+  ],
+  "nearest_without_mipmaps_samplers": 2,
+  "notes": [
+    "Source PNG hashes match the original NPK export manifest.",
+    "Contour measurements and hidden new geometry are interpretations, not recovered game meshes.",
+    "Interactive Blender scene verified separately through read-only MCP; all builds use a new background process."
+  ]
+}

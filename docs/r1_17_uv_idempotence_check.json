@@ -1,0 +1,7 @@
+{
+  "candidate": "R1/17",
+  "glb_policy_idempotent": true,
+  "tested_copy": "work/r1_17_uv_idempotence.glb",
+  "glb_sha256": "ca75b6b591b354329266790e51d1a4bd1f2825b36379fe9f449f188b0bb9db97",
+  "script_sha256": "fe816fbb898bc0ba0d0134cb40489095894d643853efb0d1ee95db4f24ffc20a"
+}

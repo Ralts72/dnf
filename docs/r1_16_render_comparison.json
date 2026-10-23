@@ -1,0 +1,19 @@
+{
+  "after": "docs/previews/r1_16_after_import.png",
+  "before": "docs/previews/r1_16_before_import.png",
+  "expected_lo_frame": 5,
+  "expected_player_frame": 2,
+  "expected_sr_frame": 5,
+  "expected_water_seconds": 214.819176333393,
+  "lo_frame": 5,
+  "note": "Same saved actor/NPC poses, source prop frames and water phase. Native 3D viewport only; UI build number is excluded.",
+  "player_frame": 2,
+  "source_state_sha256": "e9825dcb88fe41493067f6e24c4ce55427993aeeeede2e4875a2cf72ac081ada",
+  "sr_frame": 5,
+  "target": "(1792, 808)",
+  "water_seconds": 214.819176333393,
+  "changed_opaque_rgb_pixels": 582521,
+  "opaque_rgb_mean_absolute_difference_8bit": 1.9925808772912788,
+  "max_rgb_difference_8bit": 183,
+  "source_state_path": "docs/r1_16_comparison_state.txt"
+}

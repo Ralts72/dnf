@@ -1,0 +1,16 @@
+{
+  "after_F12": {
+    "active": true,
+    "processing": true,
+    "samples": 45,
+    "text": "帧率观察  F12 关闭\n渲染 124 FPS · 最近1秒 P95 9.69 ms\n行走 · 原图平均 10.0 次/秒\n本次超过 16.7 ms：0 帧 · 最长 10.02 ms\nCtrl / ⌘ + F12 保存最近记录",
+    "visible": true
+  },
+  "default": {
+    "active": false,
+    "processing": false,
+    "samples": 0,
+    "visible": false
+  },
+  "qa_input": "InputEventKey F12"
+}

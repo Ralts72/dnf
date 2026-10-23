@@ -1,0 +1,1920 @@
+{
+  "schema": 1,
+  "stage": "R4/07 isolated ranged source preparation",
+  "created_at_utc": "2026-10-23T11:04:34.743048+00:00",
+  "producer": "tools/r4/export_stonemaster_ranged.py",
+  "producer_sha256": "ea16238d022635d2952024350b5acfd39e5a332db72e989ca1ca4bf8e6a18cbc",
+  "client_root": "/Users/mac/Downloads/天堂95起源单机客户端",
+  "pvf_tree": {
+    "version_raw": 3755924789,
+    "tree_bytes": 52325060,
+    "file_count": 597489,
+    "unique_paths": 597489,
+    "tree_consumed": 52325059,
+    "tree_padding": 1,
+    "tree_crc_expected": 3484566826,
+    "tree_crc_actual": 3484566826,
+    "payload_bounds_errors": [],
+    "parse_error": null
+  },
+  "parent_manifest": {
+    "path": "res://data/stonemaster_r1.json",
+    "sha256": "57f64ed37b8930ee23f985927ef641bd24a51c6a6aa5e1ba69a18e35cafb98f8",
+    "inherited_action_keys": [
+      "stay",
+      "move",
+      "attack",
+      "damage1",
+      "damage2",
+      "down"
+    ],
+    "inherited_action_objects_SHA256": {
+      "stay": "d7aae3fd104a7860c2db77e5b2e9aa12e2da0488f9f11c29c76b7ce8d8f0c8aa",
+      "move": "fd09857c944db1ece8b1efb1b78eda08070b3f9fcc853c9195fc88c03b893bcd",
+      "attack": "f98f46ba273ad186baea68b91772755d0daa9de4c55900d98618696ee8aaff5d",
+      "damage1": "d14832c4aa1146d47401466c1b616c1c84929e0dd90df57255744e71397e2c1a",
+      "damage2": "d8458297597d50eebf5d68d6d00f504b1024931ce2ccf80f0b99903809e2f1cd",
+      "down": "4ef4e8cedfb7f1e873c4a4a41d917c223ee04872eeb23cbed9e6bd8b82484b18"
+    },
+    "exact_inherited_records": 32
+  },
+  "source_scripts": [
+    {
+      "pvf_path": "monster/dollmaster/stoneanimation/cast.ani",
+      "bytes": 572,
+      "sha256_decoded": "bbdd483a19dfe83eae13d88fa6e99668c12ab6cd24bbdff2d0f31412ebeea14c",
+      "crc": {
+        "expected": 3730187662,
+        "actual_seed_file_number": 3730187662,
+        "actual_seed_zero": 1793772289
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/stonemaster_ranged/pvf/monster/dollmaster/stoneanimation/cast.ani.bin",
+      "decoded_reference": "source_art/r4/stonemaster_ranged/pvf/monster/dollmaster/stoneanimation/cast.ani.json"
+    },
+    {
+      "pvf_path": "equipment/monster/dollmaster/animation/gem.ani",
+      "bytes": 618,
+      "sha256_decoded": "285d941d8980fa7420036a26cdb8996f42927a2dbf8f4f4d029b69421b116a7e",
+      "crc": {
+        "expected": 3272486842,
+        "actual_seed_file_number": 3272486842,
+        "actual_seed_zero": 2346344082
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/stonemaster_ranged/pvf/equipment/monster/dollmaster/animation/gem.ani.bin",
+      "decoded_reference": "source_art/r4/stonemaster_ranged/pvf/equipment/monster/dollmaster/animation/gem.ani.json"
+    },
+    {
+      "pvf_path": "monster/dollmaster/attackinfo/stoneattackgem.atk",
+      "bytes": 117,
+      "sha256_decoded": "5af65a014365ad3476e2b7b1ea0084b2f18db242a4ef91f698ef45306a096285",
+      "crc": {
+        "expected": 4183727851,
+        "actual_seed_file_number": 4183727851,
+        "actual_seed_zero": 45821328
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/stonemaster_ranged/pvf/monster/dollmaster/attackinfo/stoneattackgem.atk.bin",
+      "decoded_reference": "source_art/r4/stonemaster_ranged/pvf/monster/dollmaster/attackinfo/stoneattackgem.atk.json"
+    },
+    {
+      "pvf_path": "monster/dollmaster/stonemaster.mob",
+      "bytes": 757,
+      "sha256_decoded": "febd819e55e0f61b91570269f0ef2e3c0656d67486bb5ee34a7662550c365ed1",
+      "crc": {
+        "expected": 4018497684,
+        "actual_seed_file_number": 4018497684,
+        "actual_seed_zero": 3071873288
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/stonemaster_ranged/pvf/monster/dollmaster/stonemaster.mob.bin",
+      "decoded_reference": "source_art/r4/stonemaster_ranged/pvf/monster/dollmaster/stonemaster.mob.json"
+    },
+    {
+      "pvf_path": "equipment/monster/dollmaster/dollmaster.equ",
+      "bytes": 142,
+      "sha256_decoded": "abc3e0b538ca6a888c72613523948d170367fcaef23d2258c8c7b16cce625b45",
+      "crc": {
+        "expected": 825144768,
+        "actual_seed_file_number": 825144768,
+        "actual_seed_zero": 2905614673
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/stonemaster_ranged/pvf/equipment/monster/dollmaster/dollmaster.equ.bin",
+      "decoded_reference": "source_art/r4/stonemaster_ranged/pvf/equipment/monster/dollmaster/dollmaster.equ.json"
+    }
+  ],
+  "source_albums": [
+    {
+      "npk": "sprite_monster_dollmaster.NPK",
+      "sha256_npk": "137125de3b21e74964e1f906cac9dd4faed8eaa3d516e1d4d91f42492349e8cc",
+      "img": "sprite/monster/dollmaster/stonemaster.img",
+      "entry": {
+        "pack": "sprite_monster_dollmaster.NPK",
+        "path": "sprite/monster/dollmaster/stonemaster.img",
+        "offset": 315860,
+        "bytes": 19433,
+        "version": 2,
+        "frames": 13,
+        "index_bytes": 468
+      },
+      "sha256_img_payload": "978d144a47b3dc083f869651a14738dfe8a4750ccff0d2d00eb067a417b040c7",
+      "declared_IMG_frames": 13,
+      "raw_reference": "source_art/r4/stonemaster_ranged/img/sprite_monster_dollmaster.NPK/sprite/monster/dollmaster/stonemaster.img.bin"
+    },
+    {
+      "npk": "sprite_monster_dollmaster.NPK",
+      "sha256_npk": "137125de3b21e74964e1f906cac9dd4faed8eaa3d516e1d4d91f42492349e8cc",
+      "img": "sprite/monster/dollmaster/dollmastergem.img",
+      "entry": {
+        "pack": "sprite_monster_dollmaster.NPK",
+        "path": "sprite/monster/dollmaster/dollmastergem.img",
+        "offset": 42485,
+        "bytes": 2299,
+        "version": 2,
+        "frames": 13,
+        "index_bytes": 468
+      },
+      "sha256_img_payload": "4415037b7351dbe3ddebb3fa533ca0b9b36ccc5808265f6143804b18dda1ef68",
+      "declared_IMG_frames": 13,
+      "raw_reference": "source_art/r4/stonemaster_ranged/img/sprite_monster_dollmaster.NPK/sprite/monster/dollmaster/dollmastergem.img.bin"
+    }
+  ],
+  "source_crops": [
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/src/004.png",
+      "size": [
+        64,
+        89
+      ],
+      "sha256_png": "300b357d899a3a962328b257e54388d4c0ce53d19db49151efeebe6f9a1f4c4d",
+      "sha256_rgba": "2a11bff3e6d73c6d47803a31a09848a1722427be15a57c0ce074fa8c198bf62b",
+      "import_sidecar": "assets/r4/stonemaster_ranged/src/004.png.import",
+      "img_frame": 4,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 64,
+        "height": 89,
+        "x": 68,
+        "y": 132,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 6313,
+        "data_bytes": 1469,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_dollmaster.NPK",
+        "sha256_npk": "137125de3b21e74964e1f906cac9dd4faed8eaa3d516e1d4d91f42492349e8cc",
+        "img": "sprite/monster/dollmaster/stonemaster.img",
+        "entry": {
+          "pack": "sprite_monster_dollmaster.NPK",
+          "path": "sprite/monster/dollmaster/stonemaster.img",
+          "offset": 315860,
+          "bytes": 19433,
+          "version": 2,
+          "frames": 13,
+          "index_bytes": 468
+        },
+        "sha256_img_payload": "978d144a47b3dc083f869651a14738dfe8a4750ccff0d2d00eb067a417b040c7",
+        "declared_IMG_frames": 13,
+        "raw_reference": "source_art/r4/stonemaster_ranged/img/sprite_monster_dollmaster.NPK/sprite/monster/dollmaster/stonemaster.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop"
+    },
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/src/005.png",
+      "size": [
+        64,
+        90
+      ],
+      "sha256_png": "fbbcbd5f39ce9c86765ef9bd27610d171a6833ad24b79157c70690f7bf8e52da",
+      "sha256_rgba": "393cecf2cb083b74091b25cf416822a7863285f3e5bf00b8f0dd1fa13019945d",
+      "import_sidecar": "assets/r4/stonemaster_ranged/src/005.png.import",
+      "img_frame": 5,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 64,
+        "height": 90,
+        "x": 68,
+        "y": 130,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 7782,
+        "data_bytes": 1484,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_dollmaster.NPK",
+        "sha256_npk": "137125de3b21e74964e1f906cac9dd4faed8eaa3d516e1d4d91f42492349e8cc",
+        "img": "sprite/monster/dollmaster/stonemaster.img",
+        "entry": {
+          "pack": "sprite_monster_dollmaster.NPK",
+          "path": "sprite/monster/dollmaster/stonemaster.img",
+          "offset": 315860,
+          "bytes": 19433,
+          "version": 2,
+          "frames": 13,
+          "index_bytes": 468
+        },
+        "sha256_img_payload": "978d144a47b3dc083f869651a14738dfe8a4750ccff0d2d00eb067a417b040c7",
+        "declared_IMG_frames": 13,
+        "raw_reference": "source_art/r4/stonemaster_ranged/img/sprite_monster_dollmaster.NPK/sprite/monster/dollmaster/stonemaster.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop"
+    }
+  ],
+  "derived_composites": [
+    {
+      "action": "cast",
+      "frame": 0,
+      "texture": "res://assets/r4/stonemaster_ranged/frames/cast/000.png",
+      "size": [
+        88,
+        111
+      ],
+      "sha256_png": "fcc8edd1fd52aedcf1d90196c21e7045aa045c7fc3f5d276d42d3010534adad0",
+      "sha256_rgba": "91d348f8679ff56c5fe622ea23832ce18c79d92cbe13afcdc2715abab453a0aa",
+      "import_sidecar": "assets/r4/stonemaster_ranged/frames/cast/000.png.import",
+      "duration_ms": 80,
+      "source_duration_ms": 80,
+      "source_start_ms": 0,
+      "img_frame": 4,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 64,
+        "height": 89,
+        "x": 68,
+        "y": 132,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 6313,
+        "data_bytes": 1469,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -39,
+        -77
+      ],
+      "composite_paste_offset": [
+        10,
+        12
+      ],
+      "source_crop": "res://assets/r4/stonemaster_ranged/src/004.png",
+      "source_crop_rgba_sha256": "2a11bff3e6d73c6d47803a31a09848a1722427be15a57c0ce074fa8c198bf62b",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 80
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -17,
+            -18,
+            4,
+            33,
+            39,
+            70
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on unchanged88x111 canvas/foot49,89; all source crop channels retained"
+    },
+    {
+      "action": "cast",
+      "frame": 1,
+      "texture": "res://assets/r4/stonemaster_ranged/frames/cast/001.png",
+      "size": [
+        88,
+        111
+      ],
+      "sha256_png": "92dcdac2ff82cef85f7ba9bb76987812e77111c57ededa06f0b55df238459da2",
+      "sha256_rgba": "6dff6092414d4e4cc78fa7be88b5b4040d300cb185934fff80bd18d0e5595eba",
+      "import_sidecar": "assets/r4/stonemaster_ranged/frames/cast/001.png.import",
+      "duration_ms": 80,
+      "source_duration_ms": 80,
+      "source_start_ms": 80,
+      "img_frame": 5,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 64,
+        "height": 90,
+        "x": 68,
+        "y": 130,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 7782,
+        "data_bytes": 1484,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -39,
+        -79
+      ],
+      "composite_paste_offset": [
+        10,
+        10
+      ],
+      "source_crop": "res://assets/r4/stonemaster_ranged/src/005.png",
+      "source_crop_rgba_sha256": "393cecf2cb083b74091b25cf416822a7863285f3e5bf00b8f0dd1fa13019945d",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 80
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -17,
+            -18,
+            4,
+            33,
+            39,
+            70
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on unchanged88x111 canvas/foot49,89; all source crop channels retained"
+    },
+    {
+      "action": "cast",
+      "frame": 2,
+      "texture": "res://assets/r4/stonemaster_ranged/frames/cast/002.png",
+      "size": [
+        88,
+        111
+      ],
+      "sha256_png": "d44dc92e9af4fa59aacf64cda45aae537b9c9baa63fa4c37afe3d511b920879f",
+      "sha256_rgba": "f8b81aedc38c1c475114f04c6e3c50648a814751d14e39542881a34f46cd30eb",
+      "import_sidecar": "assets/r4/stonemaster_ranged/frames/cast/002.png.import",
+      "duration_ms": 80,
+      "source_duration_ms": 80,
+      "source_start_ms": 160,
+      "img_frame": 6,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 64,
+        "height": 89,
+        "x": 68,
+        "y": 130,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 9266,
+        "data_bytes": 1493,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -39,
+        -79
+      ],
+      "composite_paste_offset": [
+        10,
+        10
+      ],
+      "source_crop": "res://assets/r4/stonemaster/src/006.png",
+      "source_crop_rgba_sha256": "1e1e93b1ba5942a706eafae5cba7863c86be9f703304c1526bc283f19bc61860",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 80
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -17,
+            -18,
+            4,
+            33,
+            39,
+            70
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on unchanged88x111 canvas/foot49,89; all source crop channels retained"
+    },
+    {
+      "action": "cast",
+      "frame": 3,
+      "texture": "res://assets/r4/stonemaster_ranged/frames/cast/003.png",
+      "size": [
+        88,
+        111
+      ],
+      "sha256_png": "06672effecad2af677666750f5487fbe59455e703399e1a41daedc729ca42a5e",
+      "sha256_rgba": "d7422cc96784e24a1e90c77a4f80ec0d4b8f31deac36569a3a68e002467dc6ca",
+      "import_sidecar": "assets/r4/stonemaster_ranged/frames/cast/003.png.import",
+      "duration_ms": 80,
+      "source_duration_ms": 80,
+      "source_start_ms": 240,
+      "img_frame": 7,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 65,
+        "height": 88,
+        "x": 67,
+        "y": 131,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 10759,
+        "data_bytes": 1475,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -40,
+        -78
+      ],
+      "composite_paste_offset": [
+        9,
+        11
+      ],
+      "source_crop": "res://assets/r4/stonemaster/src/007.png",
+      "source_crop_rgba_sha256": "f2309de9417dc367f4e7de04bef9c01c76c8fadd6ee56a26cd7011fb910d7d2a",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 80
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -17,
+            -18,
+            4,
+            33,
+            39,
+            70
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on unchanged88x111 canvas/foot49,89; all source crop channels retained"
+    },
+    {
+      "action": "cast",
+      "frame": 4,
+      "texture": "res://assets/r4/stonemaster_ranged/frames/cast/004.png",
+      "size": [
+        88,
+        111
+      ],
+      "sha256_png": "d43533899b94f531efad98d16222a3568bf46e7bed59e3e50fb99a615b21432f",
+      "sha256_rgba": "a99f4858e0c1b6e4b81ba71fe2a3f51bdcdd6474a714a75da3dfacb5973ab512",
+      "import_sidecar": "assets/r4/stonemaster_ranged/frames/cast/004.png.import",
+      "duration_ms": 80,
+      "source_duration_ms": 80,
+      "source_start_ms": 320,
+      "img_frame": 8,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 69,
+        "height": 89,
+        "x": 69,
+        "y": 131,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 12234,
+        "data_bytes": 1466,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -38,
+        -78
+      ],
+      "composite_paste_offset": [
+        11,
+        11
+      ],
+      "source_crop": "res://assets/r4/stonemaster/src/008.png",
+      "source_crop_rgba_sha256": "7ce8837ab8dd11e0026bdb954bcd2d461fc0803d1634afbb6133872572a7467d",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 80
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -17,
+            -18,
+            4,
+            33,
+            39,
+            70
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on unchanged88x111 canvas/foot49,89; all source crop channels retained"
+    },
+    {
+      "action": "cast",
+      "frame": 5,
+      "texture": "res://assets/r4/stonemaster_ranged/frames/cast/005.png",
+      "size": [
+        88,
+        111
+      ],
+      "sha256_png": "c9b56d20c3dd8e4194506a5cfe067eb5c846ee82a998eca808982ba51bf803de",
+      "sha256_rgba": "4826797fa2014e4a14a4f06091364a225549a778f34e17b9dcdf8133a402c029",
+      "import_sidecar": "assets/r4/stonemaster_ranged/frames/cast/005.png.import",
+      "duration_ms": 80,
+      "source_duration_ms": 80,
+      "source_start_ms": 400,
+      "img_frame": 9,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 69,
+        "height": 89,
+        "x": 69,
+        "y": 131,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 13700,
+        "data_bytes": 1470,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -38,
+        -78
+      ],
+      "composite_paste_offset": [
+        11,
+        11
+      ],
+      "source_crop": "res://assets/r4/stonemaster/src/009.png",
+      "source_crop_rgba_sha256": "a57b9ee0d8308ae421a248516c986195a6ccca667f55cc45e3a1e247bf6ecd84",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 80
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -17,
+            -18,
+            4,
+            33,
+            39,
+            70
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on unchanged88x111 canvas/foot49,89; all source crop channels retained"
+    },
+    {
+      "action": "cast",
+      "frame": 6,
+      "texture": "res://assets/r4/stonemaster_ranged/frames/cast/006.png",
+      "size": [
+        88,
+        111
+      ],
+      "sha256_png": "d43533899b94f531efad98d16222a3568bf46e7bed59e3e50fb99a615b21432f",
+      "sha256_rgba": "a99f4858e0c1b6e4b81ba71fe2a3f51bdcdd6474a714a75da3dfacb5973ab512",
+      "import_sidecar": "assets/r4/stonemaster_ranged/frames/cast/006.png.import",
+      "duration_ms": 80,
+      "source_duration_ms": 80,
+      "source_start_ms": 480,
+      "img_frame": 8,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 69,
+        "height": 89,
+        "x": 69,
+        "y": 131,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 12234,
+        "data_bytes": 1466,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -38,
+        -78
+      ],
+      "composite_paste_offset": [
+        11,
+        11
+      ],
+      "source_crop": "res://assets/r4/stonemaster/src/008.png",
+      "source_crop_rgba_sha256": "7ce8837ab8dd11e0026bdb954bcd2d461fc0803d1634afbb6133872572a7467d",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 80
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -17,
+            -18,
+            4,
+            33,
+            39,
+            70
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on unchanged88x111 canvas/foot49,89; all source crop channels retained"
+    },
+    {
+      "action": "cast",
+      "frame": 7,
+      "texture": "res://assets/r4/stonemaster_ranged/frames/cast/007.png",
+      "size": [
+        88,
+        111
+      ],
+      "sha256_png": "c9b56d20c3dd8e4194506a5cfe067eb5c846ee82a998eca808982ba51bf803de",
+      "sha256_rgba": "4826797fa2014e4a14a4f06091364a225549a778f34e17b9dcdf8133a402c029",
+      "import_sidecar": "assets/r4/stonemaster_ranged/frames/cast/007.png.import",
+      "duration_ms": 80,
+      "source_duration_ms": 80,
+      "source_start_ms": 560,
+      "img_frame": 9,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 69,
+        "height": 89,
+        "x": 69,
+        "y": 131,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 13700,
+        "data_bytes": 1470,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -38,
+        -78
+      ],
+      "composite_paste_offset": [
+        11,
+        11
+      ],
+      "source_crop": "res://assets/r4/stonemaster/src/009.png",
+      "source_crop_rgba_sha256": "a57b9ee0d8308ae421a248516c986195a6ccca667f55cc45e3a1e247bf6ecd84",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 80
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -17,
+            -18,
+            4,
+            33,
+            39,
+            70
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on unchanged88x111 canvas/foot49,89; all source crop channels retained"
+    },
+    {
+      "action": "cast",
+      "frame": 8,
+      "texture": "res://assets/r4/stonemaster_ranged/frames/cast/008.png",
+      "size": [
+        88,
+        111
+      ],
+      "sha256_png": "d43533899b94f531efad98d16222a3568bf46e7bed59e3e50fb99a615b21432f",
+      "sha256_rgba": "a99f4858e0c1b6e4b81ba71fe2a3f51bdcdd6474a714a75da3dfacb5973ab512",
+      "import_sidecar": "assets/r4/stonemaster_ranged/frames/cast/008.png.import",
+      "duration_ms": 80,
+      "source_duration_ms": 80,
+      "source_start_ms": 640,
+      "img_frame": 8,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 69,
+        "height": 89,
+        "x": 69,
+        "y": 131,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 12234,
+        "data_bytes": 1466,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -38,
+        -78
+      ],
+      "composite_paste_offset": [
+        11,
+        11
+      ],
+      "source_crop": "res://assets/r4/stonemaster/src/008.png",
+      "source_crop_rgba_sha256": "7ce8837ab8dd11e0026bdb954bcd2d461fc0803d1634afbb6133872572a7467d",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 80
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -17,
+            -18,
+            4,
+            33,
+            39,
+            70
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on unchanged88x111 canvas/foot49,89; all source crop channels retained"
+    },
+    {
+      "action": "cast",
+      "frame": 9,
+      "texture": "res://assets/r4/stonemaster_ranged/frames/cast/009.png",
+      "size": [
+        88,
+        111
+      ],
+      "sha256_png": "c9b56d20c3dd8e4194506a5cfe067eb5c846ee82a998eca808982ba51bf803de",
+      "sha256_rgba": "4826797fa2014e4a14a4f06091364a225549a778f34e17b9dcdf8133a402c029",
+      "import_sidecar": "assets/r4/stonemaster_ranged/frames/cast/009.png.import",
+      "duration_ms": 80,
+      "source_duration_ms": 80,
+      "source_start_ms": 720,
+      "img_frame": 9,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 69,
+        "height": 89,
+        "x": 69,
+        "y": 131,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 13700,
+        "data_bytes": 1470,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -38,
+        -78
+      ],
+      "composite_paste_offset": [
+        11,
+        11
+      ],
+      "source_crop": "res://assets/r4/stonemaster/src/009.png",
+      "source_crop_rgba_sha256": "a57b9ee0d8308ae421a248516c986195a6ccca667f55cc45e3a1e247bf6ecd84",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 80
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -17,
+            -18,
+            4,
+            33,
+            39,
+            70
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on unchanged88x111 canvas/foot49,89; all source crop channels retained"
+    },
+    {
+      "action": "cast",
+      "frame": 10,
+      "texture": "res://assets/r4/stonemaster_ranged/frames/cast/010.png",
+      "size": [
+        88,
+        111
+      ],
+      "sha256_png": "5adedc5b69711948304ae8e6b52ffc05ffa1d34bfae8628b1cd31de3321c783e",
+      "sha256_rgba": "9119e63e09662300cefcc6792a7ae05fcf632f7adaa7b118c763c8d4a42ce560",
+      "import_sidecar": "assets/r4/stonemaster_ranged/frames/cast/010.png.import",
+      "duration_ms": 200,
+      "source_duration_ms": 200,
+      "source_start_ms": 800,
+      "img_frame": 10,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 70,
+        "height": 89,
+        "x": 68,
+        "y": 131,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 15170,
+        "data_bytes": 1475,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -39,
+        -78
+      ],
+      "composite_paste_offset": [
+        10,
+        11
+      ],
+      "source_crop": "res://assets/r4/stonemaster/src/010.png",
+      "source_crop_rgba_sha256": "806b1de95776c7a8f571787cde42f7b1032b8dfcc2e88c08af659ad7be729dfb",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 200
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -17,
+            -18,
+            4,
+            33,
+            39,
+            70
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on unchanged88x111 canvas/foot49,89; all source crop channels retained"
+    }
+  ],
+  "gem_frames": [
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/gem/000.png",
+      "size": [
+        15,
+        16
+      ],
+      "sha256_png": "0c7eecd6a4a1d367ca6cc5bf59159d26ca657edd9a37fe40cf1f1821ca659f2b",
+      "sha256_rgba": "6ee1b513719324621da11fb27f74f040abc85d66412c854624af54110ffbcaf8",
+      "import_sidecar": "assets/r4/stonemaster_ranged/gem/000.png.import",
+      "start_ms": 0,
+      "duration_ms": 30,
+      "source_duration_ms": 30,
+      "img_frame": 0,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 15,
+        "height": 16,
+        "x": 78,
+        "y": 139,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 500,
+        "data_bytes": 134,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -29,
+        -70
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 30
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 15,
+          "xyz_size": [
+            -32,
+            -22,
+            52,
+            20,
+            43,
+            20
+          ]
+        }
+      ],
+      "derived_artifact": false,
+      "operation": "Exact15x16 source RGBA crop; source equipment offsets retained separately, no flight/path transformation"
+    },
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/gem/001.png",
+      "size": [
+        15,
+        16
+      ],
+      "sha256_png": "96870d1d9b60402c5be09e4829f101d48cc75bd3442ab8a86613d9e944c66307",
+      "sha256_rgba": "82be29154aff1dcbf00cd4035f806fa1f6a67fcbe19b9f268d0e87b33882f7b1",
+      "import_sidecar": "assets/r4/stonemaster_ranged/gem/001.png.import",
+      "start_ms": 30,
+      "duration_ms": 30,
+      "source_duration_ms": 30,
+      "img_frame": 1,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 15,
+        "height": 16,
+        "x": 78,
+        "y": 138,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 634,
+        "data_bytes": 135,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -29,
+        -71
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 30
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 15,
+          "xyz_size": [
+            -31,
+            -17,
+            53,
+            20,
+            38,
+            20
+          ]
+        }
+      ],
+      "derived_artifact": false,
+      "operation": "Exact15x16 source RGBA crop; source equipment offsets retained separately, no flight/path transformation"
+    },
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/gem/002.png",
+      "size": [
+        15,
+        16
+      ],
+      "sha256_png": "b8766d5f5dff108c55721047b8cd12240f2e945cfb59fac4e1993e49737bba2a",
+      "sha256_rgba": "ab42116fe0124959c7dbfc10814fa1e0347b167ecefc58db5d18ad88c3a18fdc",
+      "import_sidecar": "assets/r4/stonemaster_ranged/gem/002.png.import",
+      "start_ms": 60,
+      "duration_ms": 30,
+      "source_duration_ms": 30,
+      "img_frame": 2,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 15,
+        "height": 16,
+        "x": 78,
+        "y": 136,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 769,
+        "data_bytes": 134,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -29,
+        -73
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 30
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 15,
+          "xyz_size": [
+            -33,
+            -22,
+            53,
+            22,
+            46,
+            23
+          ]
+        }
+      ],
+      "derived_artifact": false,
+      "operation": "Exact15x16 source RGBA crop; source equipment offsets retained separately, no flight/path transformation"
+    },
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/gem/003.png",
+      "size": [
+        15,
+        16
+      ],
+      "sha256_png": "da77e1d1ec9beb7e05715be2225dc03e2e983353156de0e02140d5b4030129f4",
+      "sha256_rgba": "6a1973a7eb67a92d715f310e27ddb3e0fa1350cd27b1defa678034da6134f4e5",
+      "import_sidecar": "assets/r4/stonemaster_ranged/gem/003.png.import",
+      "start_ms": 90,
+      "duration_ms": 30,
+      "source_duration_ms": 30,
+      "img_frame": 3,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 15,
+        "height": 16,
+        "x": 78,
+        "y": 138,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 903,
+        "data_bytes": 140,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -29,
+        -71
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 30
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 15,
+          "xyz_size": [
+            -31,
+            -18,
+            53,
+            20,
+            39,
+            20
+          ]
+        }
+      ],
+      "derived_artifact": false,
+      "operation": "Exact15x16 source RGBA crop; source equipment offsets retained separately, no flight/path transformation"
+    },
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/gem/004.png",
+      "size": [
+        15,
+        16
+      ],
+      "sha256_png": "0c7eecd6a4a1d367ca6cc5bf59159d26ca657edd9a37fe40cf1f1821ca659f2b",
+      "sha256_rgba": "6ee1b513719324621da11fb27f74f040abc85d66412c854624af54110ffbcaf8",
+      "import_sidecar": "assets/r4/stonemaster_ranged/gem/004.png.import",
+      "start_ms": 120,
+      "duration_ms": 30,
+      "source_duration_ms": 30,
+      "img_frame": 4,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 15,
+        "height": 16,
+        "x": 78,
+        "y": 140,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 1043,
+        "data_bytes": 134,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -29,
+        -69
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 30
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 15,
+          "xyz_size": [
+            -31,
+            -18,
+            52,
+            20,
+            39,
+            20
+          ]
+        }
+      ],
+      "derived_artifact": false,
+      "operation": "Exact15x16 source RGBA crop; source equipment offsets retained separately, no flight/path transformation"
+    },
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/gem/005.png",
+      "size": [
+        15,
+        16
+      ],
+      "sha256_png": "0c7eecd6a4a1d367ca6cc5bf59159d26ca657edd9a37fe40cf1f1821ca659f2b",
+      "sha256_rgba": "6ee1b513719324621da11fb27f74f040abc85d66412c854624af54110ffbcaf8",
+      "import_sidecar": "assets/r4/stonemaster_ranged/gem/005.png.import",
+      "start_ms": 150,
+      "duration_ms": 30,
+      "source_duration_ms": 30,
+      "img_frame": 5,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 15,
+        "height": 16,
+        "x": 64,
+        "y": 125,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 1177,
+        "data_bytes": 134,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -43,
+        -84
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 30
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 15,
+          "xyz_size": [
+            -44,
+            -19,
+            66,
+            19,
+            38,
+            20
+          ]
+        }
+      ],
+      "derived_artifact": false,
+      "operation": "Exact15x16 source RGBA crop; source equipment offsets retained separately, no flight/path transformation"
+    },
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/gem/006.png",
+      "size": [
+        15,
+        16
+      ],
+      "sha256_png": "0c7eecd6a4a1d367ca6cc5bf59159d26ca657edd9a37fe40cf1f1821ca659f2b",
+      "sha256_rgba": "6ee1b513719324621da11fb27f74f040abc85d66412c854624af54110ffbcaf8",
+      "import_sidecar": "assets/r4/stonemaster_ranged/gem/006.png.import",
+      "start_ms": 180,
+      "duration_ms": 75,
+      "source_duration_ms": 75,
+      "img_frame": 6,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 15,
+        "height": 16,
+        "x": 59,
+        "y": 122,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 1311,
+        "data_bytes": 134,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -48,
+        -87
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 75
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 15,
+          "xyz_size": [
+            -50,
+            -19,
+            69,
+            20,
+            39,
+            20
+          ]
+        }
+      ],
+      "derived_artifact": false,
+      "operation": "Exact15x16 source RGBA crop; source equipment offsets retained separately, no flight/path transformation"
+    },
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/gem/007.png",
+      "size": [
+        15,
+        16
+      ],
+      "sha256_png": "0c7eecd6a4a1d367ca6cc5bf59159d26ca657edd9a37fe40cf1f1821ca659f2b",
+      "sha256_rgba": "6ee1b513719324621da11fb27f74f040abc85d66412c854624af54110ffbcaf8",
+      "import_sidecar": "assets/r4/stonemaster_ranged/gem/007.png.import",
+      "start_ms": 255,
+      "duration_ms": 30,
+      "source_duration_ms": 30,
+      "img_frame": 7,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 15,
+        "height": 16,
+        "x": 75,
+        "y": 130,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 1445,
+        "data_bytes": 134,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -32,
+        -79
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 30
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 15,
+          "xyz_size": [
+            -34,
+            -21,
+            61,
+            20,
+            42,
+            20
+          ]
+        }
+      ],
+      "derived_artifact": false,
+      "operation": "Exact15x16 source RGBA crop; source equipment offsets retained separately, no flight/path transformation"
+    },
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/gem/008.png",
+      "size": [
+        15,
+        16
+      ],
+      "sha256_png": "e58833900ff9ac14c15f42022b24721e6e452438af5b3a3ab6dbaf372bfcb64f",
+      "sha256_rgba": "ccd2e6a7fc9000532ba83732c8fe6c1ed3f9b8a1f0aaa74eb2e0d7f1bd6d9a77",
+      "import_sidecar": "assets/r4/stonemaster_ranged/gem/008.png.import",
+      "start_ms": 285,
+      "duration_ms": 100,
+      "source_duration_ms": 100,
+      "img_frame": 8,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 15,
+        "height": 16,
+        "x": 138,
+        "y": 172,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 1579,
+        "data_bytes": 136,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        31,
+        -37
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 100
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 15,
+          "xyz_size": [
+            29,
+            -19,
+            19,
+            19,
+            41,
+            20
+          ]
+        }
+      ],
+      "derived_artifact": false,
+      "operation": "Exact15x16 source RGBA crop; source equipment offsets retained separately, no flight/path transformation"
+    },
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/gem/009.png",
+      "size": [
+        15,
+        16
+      ],
+      "sha256_png": "e58833900ff9ac14c15f42022b24721e6e452438af5b3a3ab6dbaf372bfcb64f",
+      "sha256_rgba": "ccd2e6a7fc9000532ba83732c8fe6c1ed3f9b8a1f0aaa74eb2e0d7f1bd6d9a77",
+      "import_sidecar": "assets/r4/stonemaster_ranged/gem/009.png.import",
+      "start_ms": 385,
+      "duration_ms": 100,
+      "source_duration_ms": 100,
+      "img_frame": 9,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 15,
+        "height": 16,
+        "x": 140,
+        "y": 174,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 1715,
+        "data_bytes": 136,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        33,
+        -35
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 100
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 15,
+          "xyz_size": [
+            30,
+            -20,
+            19,
+            20,
+            38,
+            20
+          ]
+        }
+      ],
+      "derived_artifact": false,
+      "operation": "Exact15x16 source RGBA crop; source equipment offsets retained separately, no flight/path transformation"
+    },
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/gem/010.png",
+      "size": [
+        15,
+        16
+      ],
+      "sha256_png": "9e8f30f2b5480637dc502a23bb80da5f480747443677315e3d9a832a8ed9cc44",
+      "sha256_rgba": "e91b1a56f67ddf39be3541bc9fa52e4a69523a2577738d9a4727b78edc8c7d31",
+      "import_sidecar": "assets/r4/stonemaster_ranged/gem/010.png.import",
+      "start_ms": 485,
+      "duration_ms": 60,
+      "source_duration_ms": 60,
+      "img_frame": 10,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 15,
+        "height": 16,
+        "x": 138,
+        "y": 172,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 1851,
+        "data_bytes": 180,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        31,
+        -37
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 60
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 15,
+          "xyz_size": [
+            28,
+            -23,
+            19,
+            20,
+            45,
+            20
+          ]
+        }
+      ],
+      "derived_artifact": false,
+      "operation": "Exact15x16 source RGBA crop; source equipment offsets retained separately, no flight/path transformation"
+    },
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/gem/011.png",
+      "size": [
+        15,
+        16
+      ],
+      "sha256_png": "0c7eecd6a4a1d367ca6cc5bf59159d26ca657edd9a37fe40cf1f1821ca659f2b",
+      "sha256_rgba": "6ee1b513719324621da11fb27f74f040abc85d66412c854624af54110ffbcaf8",
+      "import_sidecar": "assets/r4/stonemaster_ranged/gem/011.png.import",
+      "start_ms": 545,
+      "duration_ms": 40,
+      "source_duration_ms": 40,
+      "img_frame": 11,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 15,
+        "height": 16,
+        "x": 75,
+        "y": 156,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 2031,
+        "data_bytes": 134,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -32,
+        -53
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 40
+        }
+      ],
+      "source_boxes": [],
+      "derived_artifact": false,
+      "operation": "Exact15x16 source RGBA crop; source equipment offsets retained separately, no flight/path transformation"
+    },
+    {
+      "texture": "res://assets/r4/stonemaster_ranged/gem/012.png",
+      "size": [
+        15,
+        16
+      ],
+      "sha256_png": "0c7eecd6a4a1d367ca6cc5bf59159d26ca657edd9a37fe40cf1f1821ca659f2b",
+      "sha256_rgba": "6ee1b513719324621da11fb27f74f040abc85d66412c854624af54110ffbcaf8",
+      "import_sidecar": "assets/r4/stonemaster_ranged/gem/012.png.import",
+      "start_ms": 585,
+      "duration_ms": 30,
+      "source_duration_ms": 30,
+      "img_frame": 12,
+      "ani_offset": [
+        -107,
+        -209
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 15,
+        "height": 16,
+        "x": 60,
+        "y": 148,
+        "canvas_width": 350,
+        "canvas_height": 350,
+        "data_offset": 2165,
+        "data_bytes": 134,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -47,
+        -61
+      ],
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 30
+        }
+      ],
+      "source_boxes": [],
+      "derived_artifact": false,
+      "operation": "Exact15x16 source RGBA crop; source equipment offsets retained separately, no flight/path transformation"
+    }
+  ],
+  "audio": {
+    "tag": "JEWEL_HIT",
+    "path": "res://assets/r4/stonemaster_ranged/audio/jewel_hit.ogg",
+    "canonical_npk": "sounds_effect.npk",
+    "sha256_npk": "f44848765ad6cc282f609b50a5ffe32b7077a186ad53b2ffa649db0160e4c764",
+    "entry": {
+      "pack": "sounds_effect.npk",
+      "path": "sounds/effect/jewel_hit.ogg",
+      "offset": 5915937,
+      "bytes": 9070
+    },
+    "audio_xml_sha256": "709e314f1b7be9864fa0f5bdfa133279d005b3ae83a17d8594563d003fe5c37d",
+    "xml_attributes": {
+      "ID": "JEWEL_HIT",
+      "FILE": "sounds\\effect\\jewel_hit.ogg"
+    },
+    "retained_original": "source_art/r4/stonemaster_ranged/audio/jewel_hit.ogg",
+    "sha256_source_ogg": "e2e2d40bb60b1c25f0bd55805a90bd705d5cf3ede80751771e0ac299cb8a35d2",
+    "sha256_runtime_ogg": "a932a161d14fa00693a9ae534e0099b7f6f52c613e11641b1bb6b2a359971872",
+    "metadata_fix": {
+      "comments_fixed": 1,
+      "audio_packets": 34,
+      "audio_packet_sha256": "c64eed5e451a9c4f8edcc353fe862af96c90bb938b1ad7f9c5994ca4fe339bc0",
+      "all_noncomment_packets_identical": true
+    },
+    "source_PCM": {
+      "decoder": "ffmpeg",
+      "format": "interleaved float32 little-endian",
+      "sample_rate": 44100,
+      "channels": 1,
+      "frames": 17550,
+      "bytes": 70200,
+      "sha256": "23f220b72da53291ab2971b32f17834378a6b640f45e1300f9e193bb6f0ea076",
+      "container_duration_seconds": 0.397959
+    },
+    "runtime_PCM": {
+      "decoder": "ffmpeg",
+      "format": "interleaved float32 little-endian",
+      "sample_rate": 44100,
+      "channels": 1,
+      "frames": 17550,
+      "bytes": 70200,
+      "sha256": "23f220b72da53291ab2971b32f17834378a6b640f45e1300f9e193bb6f0ea076",
+      "container_duration_seconds": 0.397959
+    },
+    "PCM_byte_identical": true,
+    "all_noncomment_packets_identical": true,
+    "ogg_timing_headers_identical": true,
+    "source_binding": {
+      "pvf_path": "monster/dollmaster/attackinfo/stoneattackgem.atk",
+      "sha256_decoded": "5af65a014365ad3476e2b7b1ea0084b2f18db242a4ef91f698ef45306a096285",
+      "field": "[hit wav]",
+      "tag": "JEWEL_HIT"
+    },
+    "runtime_hooks_implemented": true,
+    "limit": "Direct physical contact-tag reference does not prove projectile spawn or sound scheduling."
+  },
+  "dispatch_boundary": {
+    "original_independent_projectile_dispatch_proven": false,
+    "MOB_equipment_attachment_proven": false,
+    "direct_MOB_attack_info": [
+      "AttackInfo/StoneAttackPunch.atk",
+      "AttackInfo/StoneAttackGem.atk"
+    ],
+    "direct_EQU_attack_motions": [
+      "Animation/Punch.ani",
+      "Animation/Gem.ani"
+    ],
+    "direct_physical_ATK": "monster/dollmaster/attackinfo/stoneattackgem.atk",
+    "direct_Gem_ANI": "equipment/monster/dollmaster/animation/gem.ani",
+    "direct_Gem_IMG": "sprite/monster/dollmaster/dollmastergem.img",
+    "limit": "The second attack-info and equipment-animation slots are parallel references, not a recovered ID37 equipment attachment or projectile-create instruction. Canonical directories contain no ACT/AI/NUT. Cast ANI has no projectile-create event.",
+    "original_release_time_or_flight_speed_lifetime_collision_proven": false,
+    "future_prototype_policy": "Any emit after1000ms, independent flight speed/lifetime/collision/hit-once/guard direction is a new explicit prototype adaptation, not restored original behavior.",
+    "excluded": "SunkenRock passiveobject is magical; CastAct1/2/Stoner effects are not exported or substituted as physical-gem dispatch."
+  },
+  "outputs": {
+    "caster_manifest": {
+      "path": "data/stonemaster_ranged_r1.json",
+      "sha256": "9540a973d496325d902e2f7a1f0237e08b53c238b1a4493db4bf9927e9610d7e",
+      "export_sha256": "3797d8b72e2b5f6eae3f0a4729beaf8b98bdeb39b119ea3ee6f48d790f9d37b1"
+    },
+    "gem_manifest": {
+      "path": "data/stonemaster_gem.json",
+      "sha256": "ccaa870794bf5e18f8e6f27b890c070753d45059c4b800f93144dee43ef749c6",
+      "export_sha256": "ebdf7da0eda653538b5d59995618766a0f2e8d58481e46805e91ac5a6fe3d93c"
+    }
+  },
+  "import_policy": {
+    "PNG": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "false",
+      "process/premult_alpha": "false",
+      "detect_3d/compress_to": "0"
+    },
+    "sampling": "nearest in the source actor shader / future explicit projectile material",
+    "scoped_only": true
+  },
+  "verification": {
+    "PVF_CRC_verified": 5,
+    "new_Cast_source_crops": 2,
+    "Cast_composites": 11,
+    "Gem_original_crops": 13,
+    "total_new_PNGs": 26,
+    "original_six_animation_objects_exact": true,
+    "original32records_unchanged": true,
+    "new_Cast_clock_ms": 1000,
+    "Gem_clock_ms": 615,
+    "all_PNG_roundtrips_RGBA_exact": true,
+    "all_Cast_reverse_crops_RGBA_exact": true,
+    "Cast_complete_RGBA_crop_minimum8px_margin": true,
+    "all_noncomment_OGG_packets_and_timing_identical": true,
+    "decoded_PCM_byte_identical": true,
+    "all_protected_R4_06_files_unchanged": true,
+    "Godot_native_import_or_playback_tested": false
+  },
+  "protected_R4_06_files_SHA256": {
+    "data/stonemaster_r1.json": "57f64ed37b8930ee23f985927ef641bd24a51c6a6aa5e1ba69a18e35cafb98f8",
+    "docs/r4_stonemaster_source_reference.json": "eb58ed17004f25baa5ca77744198977566ebe6736d8d9014bdf86e9b43181872",
+    "assets/r4/stonemaster/audio/stone_dmg.ogg": "878e79a8f710223e194f792b8723f490f38b2851985c0f340d9da64a7756106d",
+    "assets/r4/stonemaster/audio/stone_dmg.ogg.import": "a3e8cc98124aeb9dfade31fda032978e839da1756acb60584eb494ea85454b9f",
+    "assets/r4/stonemaster/src/002.png": "67e72db8b10baa6bedea5b3592482b7a76d571f14bfb75dc233eb88601f9ef18",
+    "assets/r4/stonemaster/src/002.png.import": "472d1150c19881f6123a7e320ddf0399d51255597c495c7ed9d874daf767a92d",
+    "assets/r4/stonemaster/src/003.png": "f639cb38db10f4cccf81d0481172c2583ae31a00236db6ec0bdb615b3139e6dd",
+    "assets/r4/stonemaster/src/001.png": "d7187bfed2fc0ea112586746f949734eb27c86daef7b68bb2b8642f6a1519695",
+    "assets/r4/stonemaster/src/000.png": "09bba7cc3b8997058940f0810009c5c21a636bba82d82a434db6a45f37cbc9ff",
+    "assets/r4/stonemaster/src/010.png": "624acf4371502b5317a47cbc299e241edb70f515e8e1325a37c5042ce5228439",
+    "assets/r4/stonemaster/src/011.png": "03bfa7d823d45fd1825f1eaecdf5a321047d2206b2baafd27ed67c87f013612f",
+    "assets/r4/stonemaster/src/007.png": "a1b0bf1403b6ed3f10829969a6b8314cc184d4021519a337567cf902ec52af26",
+    "assets/r4/stonemaster/src/012.png": "2ca99f13952f96b66b72c282b48ed1d9d2a6274eadf9ca186ae785a6246f4c40",
+    "assets/r4/stonemaster/src/006.png": "85f350a98165633afe28114057b7eed1d36d224543752b557ff8903db4a9a635",
+    "assets/r4/stonemaster/src/007.png.import": "86a9eb26442a7d25d97af7e6e0b9eb314f716f99149ab3763f600559e0226a13",
+    "assets/r4/stonemaster/src/000.png.import": "ed146d2eeaf95e0863266a5669df6138b002e15c60160c628f41b981a66f8ded",
+    "assets/r4/stonemaster/src/011.png.import": "c9796c3ba490d2f4654b31827b3682aa5b53a5f9c42e9da857e5ce0bfa4cd025",
+    "assets/r4/stonemaster/src/008.png.import": "0a30682b1ab2d4feb9b9498f6195e46738c20d75a6c0d9ef1c0e5c59d14f6073",
+    "assets/r4/stonemaster/src/006.png.import": "c50495b6b8b9ab18875d2873888d7d1db15ac13d7b3de351cb74e8054e85972c",
+    "assets/r4/stonemaster/src/003.png.import": "657673caf49eece7305f55d8f18196daa8631c632093764d692c617716ad6af9",
+    "assets/r4/stonemaster/src/012.png.import": "9b4fcd7caad5a6e19c5e138c0c1bf67af3dfd5615f5f76acd2efdaa1a0b5dd25",
+    "assets/r4/stonemaster/src/009.png.import": "4ac693fbae7e227944c27873cc9406d0b3defc1a663d347adf444cd298474af2",
+    "assets/r4/stonemaster/src/008.png": "463139acbc8be1b90551acc9887a5731596703f74a7d7a90d954064816e6799d",
+    "assets/r4/stonemaster/src/009.png": "80b7645eaa09e72308e49a2f9c3f1d13d30c08da195d32c8aaf5cbd585d41971",
+    "assets/r4/stonemaster/src/001.png.import": "0fb1c11590e894a7a9014fd0ce80d1336210fab3719f45dee89c2dcd7c90f5f2",
+    "assets/r4/stonemaster/src/010.png.import": "c285718c999661fe37504b4e34e7b362f5d99e6534b7f2b84b9ec6f8523607cf",
+    "assets/r4/stonemaster/frames/move/002.png": "7eef1ed506f229d6c6e1ef8bec595c282126d73211024d8e245820a2705775d6",
+    "assets/r4/stonemaster/frames/move/002.png.import": "83c761f0377793535d50b6fcbfb2158a0c3d055e6c7b4567526c3a8255b3cc8a",
+    "assets/r4/stonemaster/frames/move/003.png": "d411ff3c9621f501c991a931f5365648506cb524359b6ba186e4c223bda6a9dd",
+    "assets/r4/stonemaster/frames/move/001.png": "3868750a9c9d117cbc086376313b2f02748d4ae01ed8a7350a43e8d0053f2e90",
+    "assets/r4/stonemaster/frames/move/000.png": "5f848df4d2725b4604f89c3639742277f60f804deac26c6bab7c9aefa6b10d11",
+    "assets/r4/stonemaster/frames/move/000.png.import": "764851293d45c84a1988e9a5896caff2fa1c873a5eb7fb22fc4a7ec6d90c220b",
+    "assets/r4/stonemaster/frames/move/003.png.import": "97d5230ecc68ece1436998a69bb7af89de7bc92c740d02a2c90f5aa74f8df3af",
+    "assets/r4/stonemaster/frames/move/001.png.import": "5281c08d12646f9c9cdf8c42002b47463972f90a6233c8e77e6a8ca22805bd1c",
+    "assets/r4/stonemaster/frames/stay/002.png": "7eef1ed506f229d6c6e1ef8bec595c282126d73211024d8e245820a2705775d6",
+    "assets/r4/stonemaster/frames/stay/002.png.import": "20726fd806c50a0738782144507c334600543547dc947c55ceaae2f4c0617ea0",
+    "assets/r4/stonemaster/frames/stay/003.png": "d411ff3c9621f501c991a931f5365648506cb524359b6ba186e4c223bda6a9dd",
+    "assets/r4/stonemaster/frames/stay/001.png": "3868750a9c9d117cbc086376313b2f02748d4ae01ed8a7350a43e8d0053f2e90",
+    "assets/r4/stonemaster/frames/stay/000.png": "5f848df4d2725b4604f89c3639742277f60f804deac26c6bab7c9aefa6b10d11",
+    "assets/r4/stonemaster/frames/stay/004.png": "5f848df4d2725b4604f89c3639742277f60f804deac26c6bab7c9aefa6b10d11",
+    "assets/r4/stonemaster/frames/stay/005.png": "3868750a9c9d117cbc086376313b2f02748d4ae01ed8a7350a43e8d0053f2e90",
+    "assets/r4/stonemaster/frames/stay/007.png": "d411ff3c9621f501c991a931f5365648506cb524359b6ba186e4c223bda6a9dd",
+    "assets/r4/stonemaster/frames/stay/006.png": "7eef1ed506f229d6c6e1ef8bec595c282126d73211024d8e245820a2705775d6",
+    "assets/r4/stonemaster/frames/stay/007.png.import": "3406836d1d56d7d88a016156eaca57bd1885d2fef0b3487f65de8a2afb330668",
+    "assets/r4/stonemaster/frames/stay/000.png.import": "40108ae5c1cb606b0445418864549ecc865818d07c60735bdfdd54fc9aba2483",
+    "assets/r4/stonemaster/frames/stay/005.png.import": "0571879df659a473b2ba33043cbd5988053f271f65249906b7df468b485e1224",
+    "assets/r4/stonemaster/frames/stay/006.png.import": "718d1f2111a82cb682fc6d8b85b8b35ad5eabcd1003a764af876db05fe4e8e5e",
+    "assets/r4/stonemaster/frames/stay/003.png.import": "454d5bc9e006c709791230d6148e1ab3e8f5b4dc908da0b14dab80c8dc04e479",
+    "assets/r4/stonemaster/frames/stay/004.png.import": "b61a80fe3c07c31f3f0f03a0169a345a8eebc6e596ca69ac7afe77f5d1cf2261",
+    "assets/r4/stonemaster/frames/stay/001.png.import": "b44d9c86dfbf9980ff825960a2dd5411567cc322cbab35aa155e7ba6b9142e42",
+    "assets/r4/stonemaster/frames/damage1/000.png": "c55287dce4c4080de797251a30910ec82e85aa8203965dd243947b3eb9a11f06",
+    "assets/r4/stonemaster/frames/damage1/000.png.import": "2fcd5325d52ceb2688651904a3c1c0a79740a8e0978914462bd5edd590c75094",
+    "assets/r4/stonemaster/frames/attack/002.png": "d43533899b94f531efad98d16222a3568bf46e7bed59e3e50fb99a615b21432f",
+    "assets/r4/stonemaster/frames/attack/002.png.import": "607cfa570e40204d1593cfebfaf043d0a5f11aa99e961f0acbabddc72d82721a",
+    "assets/r4/stonemaster/frames/attack/003.png": "c9b56d20c3dd8e4194506a5cfe067eb5c846ee82a998eca808982ba51bf803de",
+    "assets/r4/stonemaster/frames/attack/001.png": "06672effecad2af677666750f5487fbe59455e703399e1a41daedc729ca42a5e",
+    "assets/r4/stonemaster/frames/attack/000.png": "d44dc92e9af4fa59aacf64cda45aae537b9c9baa63fa4c37afe3d511b920879f",
+    "assets/r4/stonemaster/frames/attack/010.png": "5adedc5b69711948304ae8e6b52ffc05ffa1d34bfae8628b1cd31de3321c783e",
+    "assets/r4/stonemaster/frames/attack/004.png": "5adedc5b69711948304ae8e6b52ffc05ffa1d34bfae8628b1cd31de3321c783e",
+    "assets/r4/stonemaster/frames/attack/005.png": "c9b56d20c3dd8e4194506a5cfe067eb5c846ee82a998eca808982ba51bf803de",
+    "assets/r4/stonemaster/frames/attack/011.png": "c9b56d20c3dd8e4194506a5cfe067eb5c846ee82a998eca808982ba51bf803de",
+    "assets/r4/stonemaster/frames/attack/007.png": "c9b56d20c3dd8e4194506a5cfe067eb5c846ee82a998eca808982ba51bf803de",
+    "assets/r4/stonemaster/frames/attack/012.png": "5adedc5b69711948304ae8e6b52ffc05ffa1d34bfae8628b1cd31de3321c783e",
+    "assets/r4/stonemaster/frames/attack/006.png": "5adedc5b69711948304ae8e6b52ffc05ffa1d34bfae8628b1cd31de3321c783e",
+    "assets/r4/stonemaster/frames/attack/007.png.import": "3fdd58883d23c215edbd4573eaf96a73337d462a59ee196bb6e296a46a983c15",
+    "assets/r4/stonemaster/frames/attack/000.png.import": "c9b360e8963b46ac7689f394fab879cae988d02601a1fb9f069cd473edb0c6b3",
+    "assets/r4/stonemaster/frames/attack/011.png.import": "fadb4fc1d9d254797ce04b04627dfb290b357cc7d783614dedc058fbfc78dce5",
+    "assets/r4/stonemaster/frames/attack/008.png.import": "904153ead828c28c807fe59951232c5016ae5cf3a943d1e8c617e522c57ebe12",
+    "assets/r4/stonemaster/frames/attack/005.png.import": "1cf17ea2ef80fe78854c430bc8cda2c9bfd1c1d50de80a1f8f24970c402be6d6",
+    "assets/r4/stonemaster/frames/attack/006.png.import": "75623c3a23d362fe81291641c3add602bba49eacaf9d60bc277f18033c05181c",
+    "assets/r4/stonemaster/frames/attack/003.png.import": "13a5fc290fcca25c8b82cff8885e68f64b344f68759da542a9d2881b3007ae23",
+    "assets/r4/stonemaster/frames/attack/012.png.import": "75d8f8ba8e05aeef7f750c9e86130802b2286119844dcc2d5d028ae46c80e96f",
+    "assets/r4/stonemaster/frames/attack/009.png.import": "bab582999d68a55b9511e3fbbddb69beb6e2027d286b39d4cc2dac297d9f72d5",
+    "assets/r4/stonemaster/frames/attack/004.png.import": "b61e63c38abc810a23340c0723526684a115bdcbf2db5a4949b96a50a432c596",
+    "assets/r4/stonemaster/frames/attack/008.png": "5adedc5b69711948304ae8e6b52ffc05ffa1d34bfae8628b1cd31de3321c783e",
+    "assets/r4/stonemaster/frames/attack/009.png": "c9b56d20c3dd8e4194506a5cfe067eb5c846ee82a998eca808982ba51bf803de",
+    "assets/r4/stonemaster/frames/attack/001.png.import": "6cb9f7bcbb1b7508b1630987fed991c5f140c0edf9e35fbd9e14e44506ee4d38",
+    "assets/r4/stonemaster/frames/attack/010.png.import": "12d1f5ad9500f84261786304b4bdcd2445caf7d9f28fb0c3aa54ecd871753d0e",
+    "assets/r4/stonemaster/frames/damage2/000.png": "1b9a5bef8e4d24d5cc61fd7415c6436fa8769c24926c53e48376f076e2ccfb52",
+    "assets/r4/stonemaster/frames/damage2/000.png.import": "03f2dd6253df041afad2e4085acffba8ba536f40ff90455a5b9070a8048005c0",
+    "assets/r4/stonemaster/frames/down/002.png": "1b9a5bef8e4d24d5cc61fd7415c6436fa8769c24926c53e48376f076e2ccfb52",
+    "assets/r4/stonemaster/frames/down/002.png.import": "73dfc0ec574a5dcacc07e72672f0b7f00730b749bb0ac1cc69fdf954077b386a",
+    "assets/r4/stonemaster/frames/down/003.png": "1b9a5bef8e4d24d5cc61fd7415c6436fa8769c24926c53e48376f076e2ccfb52",
+    "assets/r4/stonemaster/frames/down/001.png": "1b9a5bef8e4d24d5cc61fd7415c6436fa8769c24926c53e48376f076e2ccfb52",
+    "assets/r4/stonemaster/frames/down/000.png": "c55287dce4c4080de797251a30910ec82e85aa8203965dd243947b3eb9a11f06",
+    "assets/r4/stonemaster/frames/down/004.png": "1b9a5bef8e4d24d5cc61fd7415c6436fa8769c24926c53e48376f076e2ccfb52",
+    "assets/r4/stonemaster/frames/down/000.png.import": "bb4a5e827553276d27f21ba42ce09a01d65e461bd35ea8b37e29bbc69303bb10",
+    "assets/r4/stonemaster/frames/down/003.png.import": "534ba3ad8908f270b0693d69ce786a2a334137480b86f427bc74abe5aad05304",
+    "assets/r4/stonemaster/frames/down/004.png.import": "a4ab714429ec46a311bab00213ad21a40ccf346ca1b6e08bdedc81c547bd43e0",
+    "assets/r4/stonemaster/frames/down/001.png.import": "1bbd94acd7c751b7df74983993c77bd0de390e76b4ace6ac7fb62486212cc56e",
+    "assets/r4/doll_gallery/far.png.import": "9e58bfaed998c80799c3cc7d5da93612fb2784ecca54b404de894c112328689d",
+    "assets/r4/doll_gallery/statue.png.import": "17ccaffbbe6b5a12ffba89aa57bc2fc499c554f8537ed4c2817f9ea5f6c66a9f",
+    "assets/r4/doll_gallery/statue.png": "93a833d9b5288f2918768ad91a0fe8e2b788211c2dda498701c7671a61a27e8f",
+    "assets/r4/doll_gallery/far.png": "59a0d84549d1bc26127655a615ad6a103e55309d07acd5782f2c55800382d291",
+    "source_art/r4/stonemaster/pvf/n_string.lst.json": "581fd6d0c37174c582693727202ce5c5dca19f384e9b063c2e610d1366293726",
+    "source_art/r4/stonemaster/pvf/n_string.lst.bin": "dcb2b4484b4f60dab1c784d83f6a49f1c4cdae145d158e55bd4767fe3f76909d",
+    "source_art/r4/stonemaster/export_stage_06/stonemaster_r1.json": "499864179fef69d9f71c43cf8b04fbbd8c7934c9e8cf2538bd7b8a91637e63f8",
+    "source_art/r4/stonemaster/export_stage_06/source_reference.json": "e3446406e40fe9c7411afba346980c1139edf3beaeb48562e1e0cc0355584b53",
+    "source_art/r4/stonemaster/audio/stone_dmg.ogg": "98bd1c488c5631042bf89c0f88038998458f6d68c95f0753477a1315b66890b9",
+    "source_art/r4/stonemaster/audio/source_binding.json": "110050e8f17051444fbdd79400b6a66dfc7e2fc4b9b8ea544bab78a88cb25dbe",
+    "source_art/r4/stonemaster/pvf/dungeon/dungeon.kor.str.bin": "0f66437cabc331b87b638273cc4ad3a0cf06653efef7aac42e462699e4d461ab",
+    "source_art/r4/stonemaster/pvf/dungeon/dungeon.kor.str.json": "520c28bd634cefde5bd28eeacca7f0e0957f29b24f9b448caced951cbd4238fb",
+    "source_art/r4/stonemaster/pvf/map/map.lst.bin": "49c645e659ae5c92e877c22f1f12f7f741dda8fc14bb23964472315dbe95259e",
+    "source_art/r4/stonemaster/pvf/map/map.lst.json": "678588755f4c04a2318dee874f2d8aa69f08c371c802a50c82c800028e5c61ad",
+    "source_art/r4/stonemaster/pvf/monster/monster.kor.str.json": "163beec60fa1d78f0c1cbd98f7a9431c0317e355068c057792bdaaf21c774128",
+    "source_art/r4/stonemaster/pvf/monster/monster.lst.json": "12f4d52eb5dcb58e23af193d0500dafa3beb646d423ea5d687e90477c9bfbdca",
+    "source_art/r4/stonemaster/pvf/monster/monster.lst.bin": "e9c4a49752c1809e36e88c6b93ba32dfef3b9ae7813cdb14561b5ecfdeafb247",
+    "source_art/r4/stonemaster/pvf/monster/monster.kor.str.bin": "b083b402fc49ce79ca2ca5e9ef961f69f18f91e53a4a90725e3a3c001ce98982",
+    "source_art/r4/stonemaster/pvf/dungeon/act2/hallofdoll.dgn.bin": "1ab6575d76f880e7b84820e7b8c5dc4d4919086d70f372a8638bfd1e5db9924b",
+    "source_art/r4/stonemaster/pvf/dungeon/act2/hallofdoll.dgn.json": "514391c53e3ac13af972f1b325abf54dabae0e6e8fc2c55407926e0c7cac659a",
+    "source_art/r4/stonemaster/pvf/map/hallofdoll/(1,1)n1818.map.bin": "40fc867afd6fa41d41c837265ba569e5194a397bd00ef9bd729162301f7c2903",
+    "source_art/r4/stonemaster/pvf/map/hallofdoll/(1,1)n1818.map.json": "3f446a3408fc53c42b828f6a005882e91d0ce18ba5fb579a534841308fb2190c",
+    "source_art/r4/stonemaster/pvf/map/hallofdoll/animation/far1.ani.bin": "d56095ed393bfa4387c805e8d58ed40e860a38a713d9d7d546371383c6ee0fbd",
+    "source_art/r4/stonemaster/pvf/map/hallofdoll/animation/far1.ani.json": "3973542b8f10b8d4ac8549106bcde308ec781db568c8e0f618e4cec5feb3728f",
+    "source_art/r4/stonemaster/pvf/map/hallofdoll/animation/statue0.ani.bin": "41b89025ccaab526ef9d58c7ce5852250734b12b402a43fd4c412ea1a4d8bce2",
+    "source_art/r4/stonemaster/pvf/map/hallofdoll/animation/statue0.ani.json": "5e09a184fbc7b2b759a30b3228f8bdc2691410537596c4f414142e6408b4e937",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/stonemaster.mob.json": "71e5bd52dce678c5c3d2a1b8936967de54276ebc553b20f88aee629eea2fda59",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/stonemaster.mob.bin": "febd819e55e0f61b91570269f0ef2e3c0656d67486bb5ee34a7662550c365ed1",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/attackinfo/stoneattackpunch.atk.json": "9ae20f42fada65cbc772c7a212bee237bfdde11037675f33039b569f98ac72be",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/attackinfo/stoneattackgem.atk.bin": "5af65a014365ad3476e2b7b1ea0084b2f18db242a4ef91f698ef45306a096285",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/attackinfo/stoneattackgem.atk.json": "004911e2acf3bbc922489f00497a999a8618cc9158155a58a8a76e6432020717",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/attackinfo/stoneattackpunch.atk.bin": "6aab1727892301257ee4316dadf94aa86d4686b3a94aad36e3f5a1b55db9cfc4",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/stoneanimation/move.ani.bin": "1d2107ca225d1b1ba3229019fc91b4178fae7a11994b5770883858cd4565ad56",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/stoneanimation/move.ani.json": "d03acb17f5fdbe73fcf9c3f4d4a32af26026815da83044c8a7c94b9ee63f74d6",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/stoneanimation/stay.ani.bin": "57ec573ed01c10d8deaf9b7fc4eab65a1212e6d96b24520ef16d058abf33ba4b",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/stoneanimation/damage2.ani.json": "4611c36541dbd46fd138825b3c107b9861ef9ca11f961aff104dd7b5225f744d",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/stoneanimation/down.ani.json": "e39019e10adda712f0aef9bc6114736d8042cd8467388f5c974c9ca36c8fe956",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/stoneanimation/damage2.ani.bin": "0c200107fc1685bb277ba237f895474b828817fa3117e455b2744a37442a5ad1",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/stoneanimation/attack.ani.json": "d95c7273aac27f15ff634cbf0c981490d3dc82b16e8e0a29e5ffeaed62074a90",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/stoneanimation/stay.ani.json": "ef6a49a692b6790551939fc6efbab648fedac4401fa633c96761c10aa35825ee",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/stoneanimation/attack.ani.bin": "8d44fd16cfe79b28da28ff62ef3f6b2ac8d7c4927ada3c23f1859441677d2a29",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/stoneanimation/damage1.ani.bin": "f85a3751705faa75fa6e0ce290b6b26ec8415c3ca66bb28261f187ca1b7ad8e2",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/stoneanimation/damage1.ani.json": "ec39763c09b0265cc4729cb6e0be829f2ae33769381cab91e5b2709493430f83",
+    "source_art/r4/stonemaster/pvf/monster/dollmaster/stoneanimation/down.ani.bin": "7a5c829a13968a9a2ec1318d5ce917224b3da6cd8ab122c3fc829b5434ff5604",
+    "source_art/r4/stonemaster/img/sprite_map_act2_amon.NPK/sprite/map/act2/amon/200obj03.img.bin": "caaafea8d99a86c56bbf82f0bde901487f52f8e76f4e354c183a490f9092b07e",
+    "source_art/r4/stonemaster/img/sprite_map_act2_amon.NPK/sprite/map/act2/amon/far.img.bin": "6a362d75c13f55267842077647aac2e116bed737e6c1412abb9949faff49cde2",
+    "source_art/r4/stonemaster/img/sprite_monster_dollmaster.NPK/sprite/monster/dollmaster/stonemaster.img.bin": "978d144a47b3dc083f869651a14738dfe8a4750ccff0d2d00eb067a417b040c7"
+  },
+  "notes": [
+    "Preparation only for an explicitly source-picture-based adapted ranged move; original independent projectile dispatch is unresolved.",
+    "The six accepted R4/06 animation objects and their existing picture paths are copied exactly. Cast is an additional original11-record1000ms action, with no edits to those32 records.",
+    "Only2 new Cast source crops (IMG4/5),11 fixed-canvas Cast composites and13 original15x16 Gem crops are exported. No CastAct1/2/Stoner effects.",
+    "Gem retains13 original equipment ANI records/615ms, every property/box/offset, and exact RGBA. The source equipment attachment clock and original release event are not recovered.",
+    "JEWEL_HIT has a direct StoneAttackGem ATK reference plus exact audio.xml/canonical NPK resolution. No attack/hurt/death voice or schedule is invented.",
+    "Runtime scripts, scenes, manifests, parent assets/data/source reference and the original six-action JSON are not modified. No Godot/client execution or paid service.",
+    "R4/07 integration updates only current hook/output metadata. Initial exporter outputs and original scope flags are retained in export_stage_07; no source projectile dispatcher is inferred."
+  ],
+  "verification_scope": "Original verification and protected R4/06 hashes describe isolated export before gameplay integration. False native flags belong to that export; current native evidence is in stage check reports.",
+  "runtime_integration": {
+    "stage": "R4/07",
+    "implemented": [
+      "source Cast pose timing, independently moving physical gem, source-linked unblocked JEWEL_HIT contact",
+      "retained close punch, guard/hurt/KO/shared HP, reset/scene cleanup"
+    ],
+    "native_checks_claimed_here": false,
+    "source_dispatch_recovered": false,
+    "source_six_animation_objects_changed": false,
+    "export_metadata_archive": "source_art/r4/stonemaster_ranged/export_stage_07",
+    "limits": "All independent projectile emission, path, centered crop placement, speed, collision, damage and AI selection remain explicit adaptations."
+  }
+}

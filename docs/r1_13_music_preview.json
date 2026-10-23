@@ -1,0 +1,13 @@
+{
+  "candidate": "R1/13",
+  "path": "docs/previews/r1_13_music_preview.wav",
+  "channels": 2,
+  "sample_rate": 44100,
+  "duration_seconds": 8.0,
+  "source": "assets/r0/music/westcoast_old.ogg",
+  "gain": 0.2,
+  "intro_fade_seconds": 0.6,
+  "note": "Offline source-track preview, not a native mixer recording.",
+  "preview_only_fade_out_seconds": 0.35,
+  "pcm_peak": 0.215667724609375
+}

@@ -1,0 +1,35 @@
+{
+  "path": "map/hallofdoll/animation/statue0.ani",
+  "crc": {
+    "expected": 2700571047,
+    "actual_seed_file_number": 2700571047,
+    "actual_seed_zero": 2469481472
+  },
+  "decoded": {
+    "frames_count": 1,
+    "resources": [
+      "map/act2/amon/200obj03.img"
+    ],
+    "globals": [
+      {
+        "type": 1,
+        "value": 0
+      }
+    ],
+    "frames": [
+      {
+        "resource": "map/act2/amon/200obj03.img",
+        "image_frame": 0,
+        "x": -51,
+        "y": -201,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      }
+    ]
+  }
+}

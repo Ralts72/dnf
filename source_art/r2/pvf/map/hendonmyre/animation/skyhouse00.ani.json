@@ -1,0 +1,36 @@
+{
+  "path": "map/hendonmyre/animation/skyhouse00.ani",
+  "sha256": "6cf223358cae9b940b61d4e4cbaa839f2eaa8119707278c3c48a606dbc52aef4",
+  "crc": {
+    "expected": 2847891152,
+    "actual_seed_file_number": 2847891152,
+    "actual_seed_zero": 2443975066
+  },
+  "decoded": {
+    "frames_count": 1,
+    "resources": [
+      "map/hendonmyre/skyway.img"
+    ],
+    "globals": [
+      {
+        "type": 1,
+        "value": 0
+      }
+    ],
+    "frames": [
+      {
+        "resource": "map/hendonmyre/skyway.img",
+        "image_frame": 11,
+        "x": -137,
+        "y": -334,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      }
+    ]
+  }
+}

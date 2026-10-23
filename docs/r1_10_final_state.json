@@ -1,0 +1,29 @@
+{
+  "actor_disk_sha256": "a3348e8dbb12ff868dbc919dedf46448fca42a15bda7bdc1b74b538165fad56c",
+  "actor_loaded_sha256": "a3348e8dbb12ff868dbc919dedf46448fca42a15bda7bdc1b74b538165fad56c",
+  "actor_rotation": "(0.0, 0.0, 0.0)",
+  "actor_scale": "(1.0, 1.269018, 1.0)",
+  "build": "R1   /   10",
+  "candidate": "R1/10",
+  "contact_shadow_world_y": 0.0150000005960464,
+  "dock_meshes": 17,
+  "glb_sha256": "cdbea7ea8f5d1eb15e56521abf36001ac0ba4ff4e03c4d2ab4f9ae3b775baa06",
+  "grove_meshes": 27,
+  "jump_active": false,
+  "markers": false,
+  "meshes": 302,
+  "muted": false,
+  "paused": false,
+  "preview": false,
+  "probe_disabled": true,
+  "render_scale": 2,
+  "root_children": [
+    "_mcp_game_helper",
+    "WestCoastR1"
+  ],
+  "scene": "WestCoastR1",
+  "ship_view_depth_offset": -0.95,
+  "ui_input_blocked": false,
+  "volume": 0.6,
+  "run_id": "r14779102-35"
+}

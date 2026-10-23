@@ -1,0 +1,667 @@
+{
+  "study": "R1/26 native apparel8-neighbour connectivity to hip band",
+  "cases": [
+    {
+      "frame": 0,
+      "subframe": 0,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 136,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 0,
+      "subframe": 1,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 141,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 0,
+      "subframe": 2,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 198,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 225,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 1,
+      "subframe": 0,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 198,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 225,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 1,
+      "subframe": 1,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 198,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 225,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 1,
+      "subframe": 2,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 222,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 2,
+      "subframe": 0,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 222,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 2,
+      "subframe": 1,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 222,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 2,
+      "subframe": 2,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 199,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 3,
+      "subframe": 0,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 199,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 3,
+      "subframe": 1,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 199,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 3,
+      "subframe": 2,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 199,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 221,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 4,
+      "subframe": 0,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 199,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 221,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 4,
+      "subframe": 1,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 151,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 221,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 4,
+      "subframe": 2,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 229,
+          "disconnected_boot_pixels": 229,
+          "examples": [
+            [
+              115,
+              141
+            ],
+            [
+              113,
+              142
+            ],
+            [
+              114,
+              142
+            ],
+            [
+              115,
+              142
+            ],
+            [
+              111,
+              143
+            ],
+            [
+              112,
+              143
+            ],
+            [
+              113,
+              143
+            ],
+            [
+              114,
+              143
+            ]
+          ]
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 198,
+          "disconnected_boot_pixels": 198,
+          "examples": [
+            [
+              138,
+              144
+            ],
+            [
+              137,
+              145
+            ],
+            [
+              138,
+              145
+            ],
+            [
+              139,
+              145
+            ],
+            [
+              137,
+              146
+            ],
+            [
+              138,
+              146
+            ],
+            [
+              139,
+              146
+            ],
+            [
+              140,
+              146
+            ]
+          ]
+        }
+      ],
+      "detached_apparel_components": [
+        {
+          "id": 1,
+          "pixels": 1201,
+          "min_y": 117,
+          "connected_to_hip": false,
+          "bbox": [
+            105,
+            117,
+            160,
+            165
+          ]
+        }
+      ],
+      "pass": false
+    },
+    {
+      "frame": 5,
+      "subframe": 0,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 229,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 198,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 5,
+      "subframe": 1,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 229,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 198,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 5,
+      "subframe": 2,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 223,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 6,
+      "subframe": 0,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 223,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 6,
+      "subframe": 1,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 223,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 6,
+      "subframe": 2,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 207,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 7,
+      "subframe": 0,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 207,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 7,
+      "subframe": 1,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 207,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    },
+    {
+      "frame": 7,
+      "subframe": 2,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 214,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 137,
+          "disconnected_boot_pixels": 0,
+          "examples": []
+        }
+      ],
+      "detached_apparel_components": [],
+      "pass": true
+    }
+  ],
+  "failed": [
+    {
+      "frame": 4,
+      "subframe": 2,
+      "legs": [
+        {
+          "physical_leg": 0,
+          "visible_boot_pixels": 229,
+          "disconnected_boot_pixels": 229,
+          "examples": [
+            [
+              115,
+              141
+            ],
+            [
+              113,
+              142
+            ],
+            [
+              114,
+              142
+            ],
+            [
+              115,
+              142
+            ],
+            [
+              111,
+              143
+            ],
+            [
+              112,
+              143
+            ],
+            [
+              113,
+              143
+            ],
+            [
+              114,
+              143
+            ]
+          ]
+        },
+        {
+          "physical_leg": 1,
+          "visible_boot_pixels": 198,
+          "disconnected_boot_pixels": 198,
+          "examples": [
+            [
+              138,
+              144
+            ],
+            [
+              137,
+              145
+            ],
+            [
+              138,
+              145
+            ],
+            [
+              139,
+              145
+            ],
+            [
+              137,
+              146
+            ],
+            [
+              138,
+              146
+            ],
+            [
+              139,
+              146
+            ],
+            [
+              140,
+              146
+            ]
+          ]
+        }
+      ],
+      "detached_apparel_components": [
+        {
+          "id": 1,
+          "pixels": 1201,
+          "min_y": 117,
+          "connected_to_hip": false,
+          "bbox": [
+            105,
+            117,
+            160,
+            165
+          ]
+        }
+      ],
+      "pass": false
+    }
+  ],
+  "analysis_sha256": "dfa0b3eea6faff73f29b82ab7b9f2257cba9f9dc78ad84c4b981cd8c73120665",
+  "note": "Source and derived apparel only; body and weapon cannot falsely bridge a disconnected leg. Connected silhouettes still require visual review."
+}

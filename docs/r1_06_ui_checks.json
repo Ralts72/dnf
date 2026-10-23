@@ -1,0 +1,64 @@
+{
+  "actor_source_sha256": "6ee9c63d3ab5672b7ca7d4bfa87a9ab8c05552a2d3ffe5e2eeb23d5845437f14",
+  "candidate": "R1/06",
+  "checks": [
+    {
+      "check": "menu_space_select_does_not_trigger_game_jump",
+      "details": {
+        "animation": "attack3",
+        "jump_active": false,
+        "popup_visible": false
+      },
+      "pass": true
+    },
+    {
+      "check": "mouse_jump_button_starts_live_flight",
+      "details": {
+        "height": 72.9805555555556,
+        "phase": "rising"
+      },
+      "pass": true
+    },
+    {
+      "check": "actual_x_uses_air_attack",
+      "pass": true
+    },
+    {
+      "check": "actual_f2_freezes_live_jump",
+      "pass": true
+    },
+    {
+      "check": "airborne_frame_scrub_keeps_height_and_pause",
+      "pass": true
+    },
+    {
+      "check": "actual_f3_advances_frozen_flight_one_tick",
+      "pass": true
+    },
+    {
+      "check": "actual_f4_to_r0_keeps_air_state",
+      "pass": true
+    },
+    {
+      "check": "actual_f4_back_to_r1_keeps_air_state",
+      "pass": true
+    },
+    {
+      "check": "resumed_jump_lands_and_returns_to_control",
+      "pass": true
+    },
+    {
+      "check": "jump_controls_fit_existing_interface",
+      "details": {
+        "buttons_min_width": 823.0,
+        "buttons_width": 896.0,
+        "help_right": 516.0,
+        "note_left": 782.0
+      },
+      "pass": true
+    }
+  ],
+  "controls_source_sha256": "6096d1b3ee374be3dbd962bdbf475b9cee165366c163bf6e4bd81b196860d517",
+  "failed": 0,
+  "method": "Actual Godot MCP input_key and input_mouse event routing, including popup Space, live jump button, X, F2/F3 and F4 round trip"
+}

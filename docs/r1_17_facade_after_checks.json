@@ -1,0 +1,97 @@
+{
+  "candidate": "R1/17",
+  "checks": [
+    {
+      "check": "all_seventy_six_facade_parts_present",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "facade_pbr_lighting_retained",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "facade_source_alpha_uses_cutout",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "camera_aligned_facade_rgb_1x",
+      "details": {
+        "clear_samples": 1673,
+        "matching": 9331,
+        "max_rgb_distance": 0.0,
+        "samples": 9331,
+        "scale": 1,
+        "source_origin": "(1.0, 19.18089)",
+        "transparent": 1673
+      },
+      "pass": true
+    },
+    {
+      "check": "original_facade_gaps_remain_transparent_1x",
+      "details": {
+        "clear_samples": 1673,
+        "matching": 9331,
+        "max_rgb_distance": 0.0,
+        "samples": 9331,
+        "scale": 1,
+        "source_origin": "(1.0, 19.18089)",
+        "transparent": 1673
+      },
+      "pass": true
+    },
+    {
+      "check": "camera_aligned_facade_rgb_2x",
+      "details": {
+        "clear_samples": 1673,
+        "matching": 9335,
+        "max_rgb_distance": 0.0,
+        "samples": 9335,
+        "scale": 2,
+        "source_origin": "(1.0, 19.18089)",
+        "transparent": 1673
+      },
+      "pass": true
+    },
+    {
+      "check": "original_facade_gaps_remain_transparent_2x",
+      "details": {
+        "clear_samples": 1673,
+        "matching": 9335,
+        "max_rgb_distance": 0.0,
+        "samples": 9335,
+        "scale": 2,
+        "source_origin": "(1.0, 19.18089)",
+        "transparent": 1673
+      },
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "glb_sha256": "ca75b6b591b354329266790e51d1a4bd1f2825b36379fe9f449f188b0bb9db97",
+  "note": "Projection and alpha tested with actual meshes and UVs in isolated unlit 3D targets. Main scene facade retains PBR lighting.",
+  "phase": "after",
+  "qa_source_sha256": "8c95d49f039b47c74e6ea80006a03e5b9571afdec3bbf5d90d709dff0478b218",
+  "render_cases": [
+    {
+      "clear_samples": 1673,
+      "matching": 9331,
+      "max_rgb_distance": 0.0,
+      "samples": 9331,
+      "scale": 1,
+      "source_origin": "(1.0, 19.18089)",
+      "transparent": 1673
+    },
+    {
+      "clear_samples": 1673,
+      "matching": 9335,
+      "max_rgb_distance": 0.0,
+      "samples": 9335,
+      "scale": 2,
+      "source_origin": "(1.0, 19.18089)",
+      "transparent": 1673
+    }
+  ]
+}

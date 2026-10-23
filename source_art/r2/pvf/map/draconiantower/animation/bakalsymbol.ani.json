@@ -1,0 +1,36 @@
+{
+  "path": "map/draconiantower/animation/bakalsymbol.ani",
+  "sha256": "fe79d33e4d42eec57f95acc418e0b2dfb65a0af508f8d29e353200dfbb2d7b7d",
+  "crc": {
+    "expected": 2714791258,
+    "actual_seed_file_number": 2714791258,
+    "actual_seed_zero": 2403014967
+  },
+  "decoded": {
+    "frames_count": 1,
+    "resources": [
+      "map/act2/amon/bakalsymbol.img"
+    ],
+    "globals": [
+      {
+        "type": 1,
+        "value": 0
+      }
+    ],
+    "frames": [
+      {
+        "resource": "map/act2/amon/bakalsymbol.img",
+        "image_frame": 0,
+        "x": -112,
+        "y": -345,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "actor_sha256": "e35516e03c9438e60442b58d73d4831b7f1f1886ec9433d8852d67957e538dd7",
+  "cases": [
+    {
+      "examples": [],
+      "frame": 0,
+      "mismatches": 0
+    },
+    {
+      "examples": [],
+      "frame": 1,
+      "mismatches": 0
+    },
+    {
+      "examples": [],
+      "frame": 2,
+      "mismatches": 0
+    },
+    {
+      "examples": [],
+      "frame": 3,
+      "mismatches": 0
+    },
+    {
+      "examples": [],
+      "frame": 4,
+      "mismatches": 0
+    },
+    {
+      "examples": [],
+      "frame": 5,
+      "mismatches": 0
+    },
+    {
+      "examples": [],
+      "frame": 6,
+      "mismatches": 0
+    },
+    {
+      "examples": [],
+      "frame": 7,
+      "mismatches": 0
+    }
+  ],
+  "qa_sha256": "3e96d08df2e31d4871aff5110b7a10ba12511c00387dd14d71d5b4064f5e2595",
+  "recipe_sha256": "d2ddc2ef3c8eb35b127d6fb2594debef183211074148b157766c8f478b2d97d8",
+  "shader_sha256": "8adfbb006076fa4326a2ec32d946d5fe686534733a6a0f3e5afa18dd798fb55e"
+}

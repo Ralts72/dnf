@@ -1,0 +1,145 @@
+{
+  "candidate": "R1/03",
+  "checks": [
+    {
+      "check": "native_render_dimensions_1x",
+      "details": {
+        "image": "(896, 404)",
+        "internal_3d_scale": 1.0,
+        "viewport": "(896, 404)"
+      },
+      "pass": true
+    },
+    {
+      "check": "composition_and_pose_preserved_1x",
+      "details": {
+        "camera_size": 6.73333311080933,
+        "foot_logical": "(440.0, 363.0001)",
+        "frame": 3
+      },
+      "pass": true
+    },
+    {
+      "check": "surface_bound_to_own_viewport_1x",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "native_render_dimensions_2x",
+      "details": {
+        "image": "(1792, 808)",
+        "internal_3d_scale": 1.0,
+        "viewport": "(1792, 808)"
+      },
+      "pass": true
+    },
+    {
+      "check": "composition_and_pose_preserved_2x",
+      "details": {
+        "camera_size": 6.73333311080933,
+        "foot_logical": "(440.0, 363.0001)",
+        "frame": 3
+      },
+      "pass": true
+    },
+    {
+      "check": "surface_bound_to_own_viewport_2x",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "opaque_character_pixels_keep_color",
+      "details": {
+        "compared_pixels": 3354,
+        "matching_pixels": 3354,
+        "max_rgb_distance": 0.00679235579445958
+      },
+      "pass": true
+    },
+    {
+      "check": "quality_survives_r0_round_trip",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "offscreen_scene_has_own_bindings",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "offscreen_animation_does_not_change_main_sampler",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "full_1080_is_native_engine_output",
+      "details": {
+        "full_frame": "(1920, 1080)",
+        "logical_canvas": "(960, 540)",
+        "scene_render": "(1792, 808)"
+      },
+      "pass": true
+    },
+    {
+      "check": "full_frame_contains_own_high_resolution_scene",
+      "details": {
+        "matching": 65,
+        "samples": 65
+      },
+      "pass": true
+    },
+    {
+      "check": "full_scene_render_pass_is_active",
+      "details": {
+        "main_3d_disabled_during_measurement": true,
+        "visible_3d_draw_calls": 212
+      },
+      "pass": true
+    },
+    {
+      "check": "short_1080_observation_meets_60fps_budget",
+      "details": {
+        "fps_from_mean": 143.976848522757,
+        "p95_ms": 8.159
+      },
+      "pass": true
+    }
+  ],
+  "failed": 0,
+  "notes": [
+    "Full 1920x1080 engine render; the active window retains a static UI while its 3D pass is disabled during the offscreen measurement.",
+    "Warmups excluded. Samples are process-frame intervals in the current Mac session, not a long-term or Windows benchmark.",
+    "The offscreen actor animates during the timed sample. No image enlargement is used to create the full frame."
+  ],
+  "observations": {
+    "full_1080": {
+      "fps_from_mean": 143.976848522757,
+      "frames": 180,
+      "frames_over_16_67_ms": 0,
+      "max_ms": 12.175,
+      "mean_ms": 6.94556111111111,
+      "median_ms": 6.9315,
+      "p95_ms": 8.159
+    },
+    "main_1x": {
+      "fps_from_mean": 145.204266101338,
+      "frames": 120,
+      "frames_over_16_67_ms": 0,
+      "max_ms": 12.655,
+      "mean_ms": 6.88685,
+      "median_ms": 6.851,
+      "p95_ms": 8.408
+    },
+    "main_2x": {
+      "fps_from_mean": 142.800532645987,
+      "frames": 120,
+      "frames_over_16_67_ms": 0,
+      "max_ms": 12.233,
+      "mean_ms": 7.002775,
+      "median_ms": 6.9435,
+      "p95_ms": 7.984
+    }
+  },
+  "platform": "macOS",
+  "qa_source_sha256": "0ea374b5a4173df5fe75f7ad27f063a2bcde590edb540c4750fa65c76a4f928c"
+}

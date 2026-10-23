@@ -1,0 +1,155 @@
+{
+  "candidate": "R1/07",
+  "input_path": "Godot MCP input_key and input_mouse; native game event handling",
+  "checks": [
+    {
+      "check": "default_60_percent_and_header_bounds",
+      "pass": true,
+      "details": {
+        "audio_menu_rect": "[P: (211.0, 17.0), S: (117.0, 28.0)]",
+        "menu": 2,
+        "muted": false,
+        "scene": "WestCoastR1",
+        "volume": 0.6
+      }
+    },
+    {
+      "check": "F8_mutes_via_real_key_input",
+      "pass": true,
+      "details": {
+        "menu": 0,
+        "muted": true
+      }
+    },
+    {
+      "check": "muted_real_jump_consumes_takeoff_silently",
+      "pass": true,
+      "details": {
+        "cues": [
+          {
+            "audible": false,
+            "cue": "JUMP_START",
+            "dispatched_ms": 100,
+            "scheduled_ms": 100,
+            "tag": "JUMP_START"
+          },
+          {
+            "audible": false,
+            "cue": "SM_JUMP",
+            "dispatched_ms": 100,
+            "scheduled_ms": 100,
+            "tag": "SM_JUMP"
+          }
+        ],
+        "height": 107.380555555556,
+        "pending": [
+          {
+            "at_ms": 1100,
+            "tag": "JUMP_END"
+          }
+        ]
+      }
+    },
+    {
+      "check": "F8_unmute_retains_volume_without_replaying_takeoff",
+      "pass": true,
+      "details": {
+        "cues": 2,
+        "menu": 2,
+        "muted": false,
+        "playing": false
+      }
+    },
+    {
+      "check": "resume_after_unmute_only_plays_future_landing",
+      "pass": true,
+      "details": {
+        "cues": [
+          {
+            "audible": false,
+            "cue": "JUMP_START",
+            "dispatched_ms": 100,
+            "scheduled_ms": 100,
+            "tag": "JUMP_START"
+          },
+          {
+            "audible": false,
+            "cue": "SM_JUMP",
+            "dispatched_ms": 100,
+            "scheduled_ms": 100,
+            "tag": "SM_JUMP"
+          },
+          {
+            "audible": true,
+            "cue": "JUMP_END",
+            "dispatched_ms": 1100,
+            "scheduled_ms": 1100,
+            "tag": "JUMP_END"
+          }
+        ],
+        "grounded": true,
+        "menu_point": [
+          403.688537597656,
+          47.3851852416992
+        ]
+      }
+    },
+    {
+      "check": "audio_menu_opens_with_pointer_and_blocks_actor_input",
+      "pass": true,
+      "details": {
+        "input_blocked": true,
+        "popup": true
+      }
+    },
+    {
+      "check": "keyboard_volume_selection_does_not_trigger_jump",
+      "pass": true,
+      "details": {
+        "grounded": true,
+        "input_blocked": false,
+        "menu": 1,
+        "popup": false,
+        "volume": 0.3,
+        "keys": [
+          "DOWN",
+          "DOWN",
+          "SPACE"
+        ]
+      }
+    },
+    {
+      "check": "real_F4_roundtrip_preserves_sound_preference",
+      "pass": true,
+      "details": {
+        "r0": {
+          "menu": 1,
+          "scene": "WestCoastR0",
+          "volume": 0.3
+        },
+        "r1": {
+          "menu": 1,
+          "scene": "WestCoastR1",
+          "volume": 0.3
+        }
+      }
+    }
+  ],
+  "failed": [],
+  "test_protocol_correction": {
+    "initial_keys": [
+      "HOME",
+      "DOWN",
+      "SPACE"
+    ],
+    "initial_expected_menu": 1,
+    "actual": {
+      "grounded": true,
+      "input_blocked": false,
+      "menu": 0,
+      "popup": false,
+      "volume": 0.6
+    },
+    "correction": "Popup starts unfocused; Home did not focus an item. Down twice then Space selects item 1."
+  }
+}

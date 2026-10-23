@@ -1,0 +1,8 @@
+{
+  "check_script": "res://tools/r3/loot_checks.gd",
+  "elapsed_seconds": 22.199953,
+  "qa_source_sha256": "b3c1e6145fb8588aab007179865a8a179fc16afd5ec4eeb2f390a341c07f875d",
+  "render_cases_completed": 17,
+  "result": {},
+  "status": "running"
+}

@@ -1,0 +1,184 @@
+{
+  "run": "r50991688-121",
+  "scope": "Initial integration smoke; not counted as clean final validation.",
+  "issues": [
+    "Four late-import practice frames14..17 failed at actor boot while editor imports were still completing. Subsequent importedRGBA QA passed all246; stop/scan/relaunch required to ensure actor cache starts clean.",
+    "Skill HUD Interface node is CanvasLayer, so an asCanvasItem cast returnednull and hid HUD. Runtime helper corrected to read Node.visible."
+  ],
+  "game": {
+    "source": "game",
+    "lines": [
+      {
+        "level": "info",
+        "run_id": "r50991688-121",
+        "source": "game",
+        "text": "[godot_ai game_helper] registered mcp capture (debugger active=true, logger=true)\n"
+      },
+      {
+        "details": {
+          "code": "Condition \"found\" is true. Returning: Ref<Resource>()",
+          "error_type": 0,
+          "error_type_name": "error",
+          "frames": [
+            {
+              "function": "_ready",
+              "line": 82,
+              "path": "res://scripts/source_actor_3d.gd"
+            }
+          ],
+          "message": "Failed loading resource: res://assets/r4/ghost_slash/practice/frames/hardattack_14.png.",
+          "rationale": "Failed loading resource: res://assets/r4/ghost_slash/practice/frames/hardattack_14.png.",
+          "resolved": {
+            "function": "_ready",
+            "line": 82,
+            "path": "res://scripts/source_actor_3d.gd"
+          },
+          "source": {
+            "function": "_load",
+            "line": 317,
+            "path": "core/io/resource_loader.cpp"
+          }
+        },
+        "level": "error",
+        "run_id": "r50991688-121",
+        "source": "game",
+        "text": "Failed loading resource: res://assets/r4/ghost_slash/practice/frames/hardattack_14.png. (res://scripts/source_actor_3d.gd:82 @ _ready)"
+      },
+      {
+        "details": {
+          "code": "Condition \"found\" is true. Returning: Ref<Resource>()",
+          "error_type": 0,
+          "error_type_name": "error",
+          "frames": [
+            {
+              "function": "_ready",
+              "line": 82,
+              "path": "res://scripts/source_actor_3d.gd"
+            }
+          ],
+          "message": "Failed loading resource: res://assets/r4/ghost_slash/practice/frames/hardattack_15.png.",
+          "rationale": "Failed loading resource: res://assets/r4/ghost_slash/practice/frames/hardattack_15.png.",
+          "resolved": {
+            "function": "_ready",
+            "line": 82,
+            "path": "res://scripts/source_actor_3d.gd"
+          },
+          "source": {
+            "function": "_load",
+            "line": 317,
+            "path": "core/io/resource_loader.cpp"
+          }
+        },
+        "level": "error",
+        "run_id": "r50991688-121",
+        "source": "game",
+        "text": "Failed loading resource: res://assets/r4/ghost_slash/practice/frames/hardattack_15.png. (res://scripts/source_actor_3d.gd:82 @ _ready)"
+      },
+      {
+        "details": {
+          "code": "Condition \"found\" is true. Returning: Ref<Resource>()",
+          "error_type": 0,
+          "error_type_name": "error",
+          "frames": [
+            {
+              "function": "_ready",
+              "line": 82,
+              "path": "res://scripts/source_actor_3d.gd"
+            }
+          ],
+          "message": "Failed loading resource: res://assets/r4/ghost_slash/practice/frames/hardattack_16.png.",
+          "rationale": "Failed loading resource: res://assets/r4/ghost_slash/practice/frames/hardattack_16.png.",
+          "resolved": {
+            "function": "_ready",
+            "line": 82,
+            "path": "res://scripts/source_actor_3d.gd"
+          },
+          "source": {
+            "function": "_load",
+            "line": 317,
+            "path": "core/io/resource_loader.cpp"
+          }
+        },
+        "level": "error",
+        "run_id": "r50991688-121",
+        "source": "game",
+        "text": "Failed loading resource: res://assets/r4/ghost_slash/practice/frames/hardattack_16.png. (res://scripts/source_actor_3d.gd:82 @ _ready)"
+      },
+      {
+        "details": {
+          "code": "Condition \"found\" is true. Returning: Ref<Resource>()",
+          "error_type": 0,
+          "error_type_name": "error",
+          "frames": [
+            {
+              "function": "_ready",
+              "line": 82,
+              "path": "res://scripts/source_actor_3d.gd"
+            }
+          ],
+          "message": "Failed loading resource: res://assets/r4/ghost_slash/practice/frames/hardattack_17.png.",
+          "rationale": "Failed loading resource: res://assets/r4/ghost_slash/practice/frames/hardattack_17.png.",
+          "resolved": {
+            "function": "_ready",
+            "line": 82,
+            "path": "res://scripts/source_actor_3d.gd"
+          },
+          "source": {
+            "function": "_load",
+            "line": 317,
+            "path": "core/io/resource_loader.cpp"
+          }
+        },
+        "level": "error",
+        "run_id": "r50991688-121",
+        "source": "game",
+        "text": "Failed loading resource: res://assets/r4/ghost_slash/practice/frames/hardattack_17.png. (res://scripts/source_actor_3d.gd:82 @ _ready)"
+      }
+    ],
+    "total_count": 5,
+    "returned_count": 5,
+    "offset": 0,
+    "limit": 30,
+    "has_more": false,
+    "run_id": "r50991688-121",
+    "is_running": true,
+    "dropped_count": 13748,
+    "stale_run_id": false,
+    "current_run_id": "r50991688-121",
+    "helper_live": true,
+    "session_active": true,
+    "game_status": {
+      "active": true,
+      "editor_log_cursor": 17,
+      "elapsed_msec": 79794,
+      "helper_expected": true,
+      "helper_live": true,
+      "ready": true,
+      "ready_wait_msec": 20000,
+      "run_started_msec": 50991688,
+      "run_token": 121,
+      "session_active": true,
+      "status": "live"
+    },
+    "editor_errors_count": 4,
+    "editor_errors_hint": "4 editor-side errors from this run (first: source_actor_3d.gd:82 @ _ready(): Failed loading resource: res://assets/r4/ghost_slash/practice/frames/hardattack_14.png. (res://scripts/source_actor_3d.gd:82)) missing from the game log — boot-time parse/load errors occur before the game helper's logger attaches. Read logs_read(source='editor', include_details=true)."
+  },
+  "editor": {
+    "source": "editor",
+    "lines": [],
+    "total_count": 17,
+    "returned_count": 0,
+    "offset": 0,
+    "limit": 30,
+    "has_more": false,
+    "run_id": "",
+    "is_running": false,
+    "dropped_count": 0,
+    "stale_run_id": false,
+    "cursor": 17,
+    "oldest_cursor": 0,
+    "next_cursor": 17,
+    "appended_total": 17,
+    "truncated": false
+  }
+}

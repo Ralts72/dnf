@@ -1,0 +1,17 @@
+{
+  "build": "R1   /   27",
+  "default_start": true,
+  "diagnostics": {
+    "active": false,
+    "processing": false,
+    "samples": 0,
+    "visible": false
+  },
+  "enabled": true,
+  "free": true,
+  "locomotion_texture_counts": {
+    "dash": 16.0,
+    "move": 16.0
+  },
+  "textures": 32
+}

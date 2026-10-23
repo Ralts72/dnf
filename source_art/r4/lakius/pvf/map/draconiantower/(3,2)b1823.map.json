@@ -1,0 +1,30 @@
+{
+  "path": "map/draconiantower/(3,2)b1823.map",
+  "bytes": 2632,
+  "sha256_decoded_bytes": "8f7d151749042757c03d6a599da065ed46347494e34a3031a12067ebd9088bee",
+  "crc": {
+    "expected": 2929691787,
+    "actual_seed_file_number": 2929691787,
+    "actual_seed_zero": 3418942743
+  },
+  "crc_matches": true,
+  "original_reference": "source_art/r4/lakius/pvf/map/draconiantower/(3,2)b1823.map.bin",
+  "decoded_reference": "source_art/r4/lakius/pvf/map/draconiantower/(3,2)b1823.map.json",
+  "decoded": {
+    "selection": "ID71 row from [monster]; complete bytes retained",
+    "rows": [
+      [
+        71,
+        0,
+        21,
+        1399,
+        332,
+        0,
+        2,
+        1,
+        "[fixed]",
+        "[boss]"
+      ]
+    ]
+  }
+}

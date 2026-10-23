@@ -1,0 +1,37 @@
+{
+  "check_script": "res://tools/r1/ambience_checks.gd",
+  "elapsed_seconds": 5.425509,
+  "qa_source_sha256": "28fbc1030106008fefe575c051ceb880867e51f566d50cb25661586846d01039",
+  "render_cases_completed": 0,
+  "result": {
+    "capture_samples": [
+      {
+        "frames": 30720,
+        "label": "near_shore",
+        "peak": 0.0504658482968807,
+        "rms": 0.00463536714086986
+      },
+      {
+        "frames": 30720,
+        "label": "effects_muted",
+        "peak": 0.0,
+        "rms": 0.0
+      },
+      {
+        "frames": 30720,
+        "label": "effects_resumed",
+        "peak": 0.0166937187314034,
+        "rms": 0.00185781084315254
+      },
+      {
+        "frames": 32768,
+        "label": "after_native_loop",
+        "peak": 0.0150158507749438,
+        "rms": 0.00163071034701525
+      }
+    ],
+    "checks": 26,
+    "failed": []
+  },
+  "status": "complete"
+}

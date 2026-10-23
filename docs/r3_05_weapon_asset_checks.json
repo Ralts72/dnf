@@ -1,0 +1,3203 @@
+{
+  "all_passed": true,
+  "candidate": "R3/05",
+  "expected_textures": 290,
+  "failed": [],
+  "native_exact_rgba_pixels": 9158353,
+  "note": "Import readback verification only. Source PVF/IMG and native derived-pose provenance live in separate source and bake reports. Not a performance benchmark.",
+  "qa_source_sha256": "4a00b75ef6cb142f9ffc81f1a88e6266a6fd1dd2d45e9cd5c21eddd07d068503",
+  "records": [
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_00_1.png",
+      "rgba_sha256": "b77c4097982732bf5209885400c2bd2a9fc57007bdc584d24b5d6c2f9996c7e2",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_00_2.png",
+      "rgba_sha256": "6936c101036cd1b2d53b3d570326cab3a1f0f8281bc2bced2510a9390327a290",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_01_1.png",
+      "rgba_sha256": "a1a2d1908c4d27c1caa398088f6f2133e69fe4a94bfbce3d32286d0a006fa7cb",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_01_2.png",
+      "rgba_sha256": "ee6e05c89fc02d4b503088a75a4cea71de884fdcfea2d1d428b854c418c50e55",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_02_1.png",
+      "rgba_sha256": "ad7b7c77b625c5d1767ad74a2e00bf8b0c00ca04f9ab1998cebdec614ca11b54",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_02_2.png",
+      "rgba_sha256": "558eaa3d39632dc8b2fee6767bf0457fc1b450268cc303bb848746d74f112b2c",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_03_1.png",
+      "rgba_sha256": "ae5cdec500a0077b25f7711985f1a9c21b6003a8eb733f8586db7614be1ea7f6",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_03_2.png",
+      "rgba_sha256": "1e01c9709b7bb3da1b465ad9497f4ed31a5e5af4238083c116c45d0795e81af8",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_04_1.png",
+      "rgba_sha256": "8af9ba1b974727ed59d25fc4bec25242074243615f086dce522335f4f7aa43bf",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_04_2.png",
+      "rgba_sha256": "27ae84f1e3d87f1ba733fb5cfb246c34c252a80b12f166b9abd0e407e9be352a",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_05_1.png",
+      "rgba_sha256": "75adabcc85e4779c3c3cdf9f31525720d94c69e7022a3e2ed975d76ec9bbdf72",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_05_2.png",
+      "rgba_sha256": "a02ada458ea8c930e181601de21c142b42480b9b6f3ba933a6e8665cbd4204f8",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_06_1.png",
+      "rgba_sha256": "6d3b132fd83936018d8a64c236064df8372edd5433defd1fb33ae2cc6c4f949f",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_06_2.png",
+      "rgba_sha256": "d1cefd73525d89da6f0c0b5c9e81417d3cd451e2000dd9c5c6577e87f6b787f5",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_07_1.png",
+      "rgba_sha256": "58147ffa3e2b5a8495fdcf03dbf5ea8b14db419d308725b16cae290a54c66dd8",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_07_2.png",
+      "rgba_sha256": "67cfc3f56d62cfb39b800fe5f1463d54015404fe47408968cf657215b518e57b",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/field.png",
+      "rgba_sha256": "c73248f77bac165c72e8867746d45d60018991be41fdd05030fdaebdffd0435a",
+      "size": [
+        66,
+        18
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_00.png",
+      "rgba_sha256": "7e9fe3b1089e625be4fa530cf19ed7c0c404b301aa2c9e03b32ec1175dcaadea",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_01.png",
+      "rgba_sha256": "6ea336f835da601f8e843b42de618d4b07204285d7e1016e4ef04823f93a5c26",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_02.png",
+      "rgba_sha256": "18252fe7297f5ab704cf70c7e9fa1e1e5eb4bbf83d8d83b0720cae89dfb8d2f6",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_03.png",
+      "rgba_sha256": "c80d1fb7bd871a448b02257df7e3d139e2e03694f56dab642734d1d1ad4b90b8",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_04.png",
+      "rgba_sha256": "0861b8810cb6db21a3cc48e75916fa6ee9f3fcfd704774055ad69cbcb76022b1",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_05.png",
+      "rgba_sha256": "4d208e413581eca17e71fe64f16def328c69aede132abad31289e5e2f8d9edbe",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_06.png",
+      "rgba_sha256": "8b159c2ea8c8a06e1dc4adf90dc9cf966b195919dc44cdba9d761bd41beb11c8",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_07.png",
+      "rgba_sha256": "271d49767b904c59485c690915bc15f689b2b80e333a0b9f99040590ca42d30b",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_08.png",
+      "rgba_sha256": "49f83eb9b077adfc6915e213ec0357edc25126ef4396cde245e701fee6051a56",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_09.png",
+      "rgba_sha256": "835059342e79e2e566c64616ec8cd47c2995f19e5314bd1985be0ae86bf967a9",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_00.png",
+      "rgba_sha256": "bffffbd0a45492fbcfbb421da8b3dc04b737ebc5721bd510e46d35f243c757d7",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_01.png",
+      "rgba_sha256": "8bfb2510bf134df245923f8bbf1de24bc202acca4e0a634fabfed4235421cb84",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_02.png",
+      "rgba_sha256": "3a0fc587febf87df834f0767450abfc463a9a8b9d1fbdf047481a63be8271f42",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_03.png",
+      "rgba_sha256": "3dbfbb7daa88a9ea8027e607487a6a7fe7e335a6316fb2c04c3f6ecb9612760c",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_04.png",
+      "rgba_sha256": "b5ba27950f326404457629e3b685ab9b6e779eccdf48e44e3c39abcda15c7f80",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_05.png",
+      "rgba_sha256": "136f16f285e8ee6baf74d5f4274f379e13b49e19162a395c1327a2f1253ead02",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_06.png",
+      "rgba_sha256": "21c4a74e93e24b986f12ab35580bc5697b5816cdbbba971e8faf2fdc1ccc9852",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_07.png",
+      "rgba_sha256": "df25f48f01941eb936ced0fbc5d6da775c46db52dabc46a2d1a1f336f0b96634",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_08.png",
+      "rgba_sha256": "9d13e62fc4eade3b15b925f24a889976facd235202847429299e00f18be3ad3f",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_09.png",
+      "rgba_sha256": "5623e302f74cd85e298ae468455405cc3bac4a403a4cc84b5d0fe1fb8ddfea10",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_10.png",
+      "rgba_sha256": "b7fd9c678975678f2fe424c1afeb44a05002f2a1fdd65fede6dff87828700612",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_00.png",
+      "rgba_sha256": "897f7046e4e2b0fcc9bb2e7f93f9c68764ce526c6b9a2227dbeab13690593f2f",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_01.png",
+      "rgba_sha256": "9fd266b32d78002389d32f7f52f7bc4ac58186d52dd6ef0b395b572526270a0d",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_02.png",
+      "rgba_sha256": "8624493ff0fd929dfc14f21578940fb9d626cb219800afcd6b60863ea9221d98",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_03.png",
+      "rgba_sha256": "2040e914ad10cc5446ec15bcaf499d1e3ca39bd95cd7255890b36209978c4dfb",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_04.png",
+      "rgba_sha256": "a4658d33cc0094acc9b1800c487f59a6777111f60a67733d0cafd68a05ac56fc",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_05.png",
+      "rgba_sha256": "f5e75b9855621eb180290b0baf66c86331461235cd40b65f4e297ba491c58b91",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_06.png",
+      "rgba_sha256": "c589b7afe6e3dcae3b2630c018a921a583ddf3ff5debf9ec72d5e4fe084b68ce",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_07.png",
+      "rgba_sha256": "a038152df28eabfa3340830ff767c2860ef347e1e370c15af536dfccb522a4cb",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_08.png",
+      "rgba_sha256": "825ca68c739fc5bd816d1190f63be4a4a717b1344768cf3ce5c8eda5ad6f380b",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/damage1_00.png",
+      "rgba_sha256": "a101bc33cfaf736c5b48b0b91f5ca39cc65f303a7372d1396938996c24efeb85",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/damage2_00.png",
+      "rgba_sha256": "0cf86e9228bd4d8a835ecc738d6de112447dc7482694f2251113583ec94d3d93",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_00.png",
+      "rgba_sha256": "8595af670809000cc883f31849508f141e94ff2f90f8da585ca3c68487a93e0a",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_01.png",
+      "rgba_sha256": "94f5bef23b66b7878eda51182cf855a5a1df66dbbd30c64e9e3c2bde240ebe9f",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_02.png",
+      "rgba_sha256": "69417f6e4ec0385eebc1298ed743ae6e0f6d6d86c90b2884c1211d9c95901c8f",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_03.png",
+      "rgba_sha256": "41e085abeccc9d20faca0dbc2b8c7b5649e691d39a23676afc68963462b9ba1e",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_04.png",
+      "rgba_sha256": "0f8d0cbf480a4658c81417f2c6202d251eef1a3a6f9115d3a1012eff230c85a0",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_05.png",
+      "rgba_sha256": "839584840329080d092fa9752f390f0d707b3ecb3434ad7153035e69dbb2553c",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_06.png",
+      "rgba_sha256": "b513a7a9f758bdc8f9dd4ce6a02bfa6900f22ae3fce2086712d3ab1cb5bfe27a",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_07.png",
+      "rgba_sha256": "57cfbee7b932daaf574697556f785103d74ffadfc1e954ee257f888ff586c404",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/down_00.png",
+      "rgba_sha256": "a101bc33cfaf736c5b48b0b91f5ca39cc65f303a7372d1396938996c24efeb85",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/down_01.png",
+      "rgba_sha256": "370f7ef55eccfd624c72d37d0ab6017e32afc09c90a75d4206f5a01b891a11db",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/down_02.png",
+      "rgba_sha256": "c7cba48dc94d0c21649d0f138bd88386566329cca0ff0e84994ecdd39a09b143",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/down_03.png",
+      "rgba_sha256": "b7701f9da1eb594b86868d9a976995a3cd574692ff73c78393c5a8ff2c244e65",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/down_04.png",
+      "rgba_sha256": "91c96955cbeb017dd1be3db873b6c3dccc864d61eefba4864d9237f378c74fdd",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/down_05.png",
+      "rgba_sha256": "91c96955cbeb017dd1be3db873b6c3dccc864d61eefba4864d9237f378c74fdd",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/guard_00.png",
+      "rgba_sha256": "bea21ed6d1079863c7481bafc73a591c9932926a0a3400ddd4390ac7cc0a43f9",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/guard_01.png",
+      "rgba_sha256": "737b778a4d1972e4e4241347356d1c11bd42d021fca564d47e55963ae5036e3a",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/hopsmash_00.png",
+      "rgba_sha256": "8741109cda900539ed68cd05417d0e6f542d2968e991faa4baf6dc14abcacff3",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/hopsmash_01.png",
+      "rgba_sha256": "a3c13bf7f5467e5e8f05b19975024e31c0e1c9b9a1a68d598bd3e5ed3aaa970d",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/hopsmash_02.png",
+      "rgba_sha256": "2fb924499f3685935e71a50503f161de115bb192ed992d228487795190d68587",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/hopsmash_03.png",
+      "rgba_sha256": "204baf853cdaef80870cd615e8bde046fe4896d4907e12c87fffd4f4af1cf98a",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/hopsmash_04.png",
+      "rgba_sha256": "4b5c54566e07e278615ecad361e528cd67db9fc2297bad3b99684ea8c69f03a4",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/hopsmash_05.png",
+      "rgba_sha256": "134b1338e26ea4aea7475133fb14042e725737e4cf3ec4979affe9dc98d13137",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/hopsmash_06.png",
+      "rgba_sha256": "e4d3fe2661c580b59f7d78e522d4f159fc9eee9dc1bd25f26fd4529cb5f6d299",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_00.png",
+      "rgba_sha256": "0c4f8808c1f18e9f0b1c04e8714cb56b20ab44c69c5b2a544564e22249ee1e30",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_01.png",
+      "rgba_sha256": "8741109cda900539ed68cd05417d0e6f542d2968e991faa4baf6dc14abcacff3",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_02.png",
+      "rgba_sha256": "a3c13bf7f5467e5e8f05b19975024e31c0e1c9b9a1a68d598bd3e5ed3aaa970d",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_03.png",
+      "rgba_sha256": "c7b3a8fe3daf215b1d82f23a76825ea4eab1422626c7fb7d1a0b6d5be4fef4c3",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_04.png",
+      "rgba_sha256": "c7b3a8fe3daf215b1d82f23a76825ea4eab1422626c7fb7d1a0b6d5be4fef4c3",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_05.png",
+      "rgba_sha256": "c7b3a8fe3daf215b1d82f23a76825ea4eab1422626c7fb7d1a0b6d5be4fef4c3",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_06.png",
+      "rgba_sha256": "c7b3a8fe3daf215b1d82f23a76825ea4eab1422626c7fb7d1a0b6d5be4fef4c3",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_07.png",
+      "rgba_sha256": "c7b3a8fe3daf215b1d82f23a76825ea4eab1422626c7fb7d1a0b6d5be4fef4c3",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_08.png",
+      "rgba_sha256": "21ce59cb8cc12749eebdc6bf3ac2080b49fa4f5f34ce456e20fb3b009fb628bc",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_09.png",
+      "rgba_sha256": "aab71132e8698b9bd316b680455ffa642989e42f0d85d845574c47b699aa1439",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_10.png",
+      "rgba_sha256": "7c0e169203858ea9aeff727779f0a8a44ebdc33a39159fe2cf11b0d49563dec3",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_11.png",
+      "rgba_sha256": "7c0e169203858ea9aeff727779f0a8a44ebdc33a39159fe2cf11b0d49563dec3",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_12.png",
+      "rgba_sha256": "7c0e169203858ea9aeff727779f0a8a44ebdc33a39159fe2cf11b0d49563dec3",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_13.png",
+      "rgba_sha256": "7c0e169203858ea9aeff727779f0a8a44ebdc33a39159fe2cf11b0d49563dec3",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_14.png",
+      "rgba_sha256": "7c0e169203858ea9aeff727779f0a8a44ebdc33a39159fe2cf11b0d49563dec3",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_15.png",
+      "rgba_sha256": "6fc6286e990aecf552fef2df6df67c0d152b97612d69d060e2b79b399ac0a18a",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jumpattack_00.png",
+      "rgba_sha256": "1854719ffa73417c1ab07926c103ff36b702c1e0df0bab9303daf988c3c6d291",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jumpattack_01.png",
+      "rgba_sha256": "80bb306cba7ba2cf1c73b8877348ea810d8f9a4f87038995f556685341e76f7a",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jumpattack_02.png",
+      "rgba_sha256": "214766d460af36d7087eb36213da92801519e6d13503446280d126c1b7960845",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jumpattack_03.png",
+      "rgba_sha256": "0525bf7805a2c536c60e5bd03026d0ddd99ee026729731feaa0f710b1ead9ef2",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jumpattack_04.png",
+      "rgba_sha256": "ab06267c72910b02c39043dee675ccfddfd60fa9912a912b03a2a466c9ed8fd6",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/jumpattack_05.png",
+      "rgba_sha256": "9628ee5208a5ac211c5a5c1a2b8f605312074cb2169cbf1735950e7c3a4c63cc",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/move_00.png",
+      "rgba_sha256": "dae2cc6acef00c387aa17c381e59cf1c544adeb81b6b26deba085d6d265c54cc",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/move_01.png",
+      "rgba_sha256": "83ad9837ab5d4642c2cfc6839d0dfaf05df92cc01174aa0558599ab54aaa0cc6",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/move_02.png",
+      "rgba_sha256": "c7bb9a9a6890f1dc15692c1b9cfac8397a5104ea88f5d0bdd53c17c9b2caff14",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/move_03.png",
+      "rgba_sha256": "d0f5df70d255df25bbdb980d0e98ba8d9844b871e80af79e61802894cdd848ac",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/move_04.png",
+      "rgba_sha256": "9a4bc724e23d18f921bb61446546263f14db6c0dd9f1f9ed7f9dfb9640c21748",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/move_05.png",
+      "rgba_sha256": "163714222da33e6ea963461399ef16cc506d1ffbb0ba5e3c4a4805e4cd0280d4",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/move_06.png",
+      "rgba_sha256": "a2832202e113a68f963e8f35cdd3f24244600f5cf0ac5f0fa11c9a213c126874",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/move_07.png",
+      "rgba_sha256": "ab4508461984da1444fd14da8ed9341f0d31d39e04b9e55253ef11195e60c41f",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/sit_00.png",
+      "rgba_sha256": "a4870964f9dad2b494d06af7e13ee5d9056d9ff6bb0889243cd582b31909c13b",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/stay_00.png",
+      "rgba_sha256": "6a8725d2ab52cf626948357d433f870344b9fa2e9b0df4a7d6d0b1bd4f2ab800",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/stay_01.png",
+      "rgba_sha256": "b0a60fe7f04d19b2ae82234d348d3729ba85159fae476b7e203e80db70008a0e",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/stay_02.png",
+      "rgba_sha256": "6eb41712db399945e707562991142ca3c9e923584a79a171c28d7ea20130e0ed",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/stay_03.png",
+      "rgba_sha256": "ef61946ddb34f2225e43f1bd5fd1a3b7ba03d76d4357fe9508e3d48edf3f81e3",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/stay_04.png",
+      "rgba_sha256": "501e8cb2ecd1fff9b16eb2b420a45280bf4bef919c148d4a037b38c361da058a",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/frames/stay_05.png",
+      "rgba_sha256": "54531736186c2cf86e6569db1fec582daa2cd63722008c20ebb79ad45f6cef8e",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/icon.png",
+      "rgba_sha256": "d337bc22e65db653a8432e180b604e15b749b7d35cd93514cb273a4f45c2ddd5",
+      "size": [
+        28,
+        28
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/000.png",
+      "rgba_sha256": "15a1ef299f1cd62fe3609a8d9eeed1af1ef09ddcb5ecff4b732fd13d1bc6883c",
+      "size": [
+        28,
+        33
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/001.png",
+      "rgba_sha256": "15a1ef299f1cd62fe3609a8d9eeed1af1ef09ddcb5ecff4b732fd13d1bc6883c",
+      "size": [
+        28,
+        33
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/002.png",
+      "rgba_sha256": "a98f66f5205edb270f88625a9e20f514a590c6ef11e0e80e6cf8108e13538001",
+      "size": [
+        51,
+        28
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/003.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/004.png",
+      "rgba_sha256": "92036914fdcab5240fc5dbfbefd20f849ca1166f3cc57223f19cde34bed961c3",
+      "size": [
+        129,
+        32
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/005.png",
+      "rgba_sha256": "f485328b22f644747c78ec86e9fb1e15d1be10013044461d946472250e1ec6f5",
+      "size": [
+        55,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/006.png",
+      "rgba_sha256": "910501e5c6803d749b4802d995e4073d41e1f0a2648b62831c6d2d0c492e01b5",
+      "size": [
+        54,
+        16
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/007.png",
+      "rgba_sha256": "910501e5c6803d749b4802d995e4073d41e1f0a2648b62831c6d2d0c492e01b5",
+      "size": [
+        54,
+        16
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/008.png",
+      "rgba_sha256": "910501e5c6803d749b4802d995e4073d41e1f0a2648b62831c6d2d0c492e01b5",
+      "size": [
+        54,
+        16
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/009.png",
+      "rgba_sha256": "910501e5c6803d749b4802d995e4073d41e1f0a2648b62831c6d2d0c492e01b5",
+      "size": [
+        54,
+        16
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/010.png",
+      "rgba_sha256": "475c8f77263ddec91d28429bff7f503005d80410e1b43c57d758bca38d42476c",
+      "size": [
+        48,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/011.png",
+      "rgba_sha256": "f1e247fe1adf1609f376f5fdeee519d21d2a386eb7e5c7de400d5db83a5fa3e8",
+      "size": [
+        45,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/012.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/013.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/014.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/015.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/016.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/017.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/018.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/019.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/020.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/033.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/034.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/035.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/036.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/037.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/038.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/039.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/040.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/041.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/090.png",
+      "rgba_sha256": "f9d4cb0e485fdf1a9a9a1dcb4ed166ea0078d59854da0c2956e9eb6fadcfa2bb",
+      "size": [
+        7,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/091.png",
+      "rgba_sha256": "f9d4cb0e485fdf1a9a9a1dcb4ed166ea0078d59854da0c2956e9eb6fadcfa2bb",
+      "size": [
+        7,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/092.png",
+      "rgba_sha256": "f9d4cb0e485fdf1a9a9a1dcb4ed166ea0078d59854da0c2956e9eb6fadcfa2bb",
+      "size": [
+        7,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/093.png",
+      "rgba_sha256": "f9d4cb0e485fdf1a9a9a1dcb4ed166ea0078d59854da0c2956e9eb6fadcfa2bb",
+      "size": [
+        7,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/094.png",
+      "rgba_sha256": "f9d4cb0e485fdf1a9a9a1dcb4ed166ea0078d59854da0c2956e9eb6fadcfa2bb",
+      "size": [
+        7,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/095.png",
+      "rgba_sha256": "f9d4cb0e485fdf1a9a9a1dcb4ed166ea0078d59854da0c2956e9eb6fadcfa2bb",
+      "size": [
+        7,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/096.png",
+      "rgba_sha256": "f28309def7fd7eae765cb0cfe29f58ecd00a6fa5e10b706d0d92b1eeda701813",
+      "size": [
+        3,
+        4
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/098.png",
+      "rgba_sha256": "f28309def7fd7eae765cb0cfe29f58ecd00a6fa5e10b706d0d92b1eeda701813",
+      "size": [
+        3,
+        4
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/099.png",
+      "rgba_sha256": "f28309def7fd7eae765cb0cfe29f58ecd00a6fa5e10b706d0d92b1eeda701813",
+      "size": [
+        3,
+        4
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/100.png",
+      "rgba_sha256": "4e855deeba407561b07c63d25191da0ad9d949804d9269a3b17d635dcc0b5c1e",
+      "size": [
+        4,
+        3
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/101.png",
+      "rgba_sha256": "4e855deeba407561b07c63d25191da0ad9d949804d9269a3b17d635dcc0b5c1e",
+      "size": [
+        4,
+        3
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/102.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/103.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/104.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/105.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/106.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/107.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/108.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/109.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/110.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/111.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/112.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/123.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/124.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/125.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/126.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/127.png",
+      "rgba_sha256": "9e7b2881de090007ad7ac41247dbcc16079515bc6fd0255b7afae2f8ca8333ab",
+      "size": [
+        7,
+        7
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/128.png",
+      "rgba_sha256": "9e7b2881de090007ad7ac41247dbcc16079515bc6fd0255b7afae2f8ca8333ab",
+      "size": [
+        7,
+        7
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/129.png",
+      "rgba_sha256": "5d107b9a64bd010f6258cba9c9d33a1b5296b0717f00865b025a98129d682672",
+      "size": [
+        7,
+        7
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/130.png",
+      "rgba_sha256": "5d107b9a64bd010f6258cba9c9d33a1b5296b0717f00865b025a98129d682672",
+      "size": [
+        7,
+        7
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/131.png",
+      "rgba_sha256": "5d107b9a64bd010f6258cba9c9d33a1b5296b0717f00865b025a98129d682672",
+      "size": [
+        7,
+        7
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/132.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/133.png",
+      "rgba_sha256": "0232dd8ade5b6fb790d1f8871dffb3b503cbb49613f3d753dd7ad99954347a55",
+      "size": [
+        18,
+        75
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/134.png",
+      "rgba_sha256": "68c6078b30ea30d459d1664aebc6d97a4394d2bd1c5367fcb95339baf72f43ea",
+      "size": [
+        18,
+        75
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/135.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/136.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/137.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/138.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/157.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/180.png",
+      "rgba_sha256": "f9d4cb0e485fdf1a9a9a1dcb4ed166ea0078d59854da0c2956e9eb6fadcfa2bb",
+      "size": [
+        7,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/181.png",
+      "rgba_sha256": "f9d4cb0e485fdf1a9a9a1dcb4ed166ea0078d59854da0c2956e9eb6fadcfa2bb",
+      "size": [
+        7,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/182.png",
+      "rgba_sha256": "f9d4cb0e485fdf1a9a9a1dcb4ed166ea0078d59854da0c2956e9eb6fadcfa2bb",
+      "size": [
+        7,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/183.png",
+      "rgba_sha256": "f9d4cb0e485fdf1a9a9a1dcb4ed166ea0078d59854da0c2956e9eb6fadcfa2bb",
+      "size": [
+        7,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/184.png",
+      "rgba_sha256": "f9d4cb0e485fdf1a9a9a1dcb4ed166ea0078d59854da0c2956e9eb6fadcfa2bb",
+      "size": [
+        7,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/185.png",
+      "rgba_sha256": "f9d4cb0e485fdf1a9a9a1dcb4ed166ea0078d59854da0c2956e9eb6fadcfa2bb",
+      "size": [
+        7,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/186.png",
+      "rgba_sha256": "f9d4cb0e485fdf1a9a9a1dcb4ed166ea0078d59854da0c2956e9eb6fadcfa2bb",
+      "size": [
+        7,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/187.png",
+      "rgba_sha256": "f9d4cb0e485fdf1a9a9a1dcb4ed166ea0078d59854da0c2956e9eb6fadcfa2bb",
+      "size": [
+        7,
+        8
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/204.png",
+      "rgba_sha256": "0ebd98d4a7787a147b9d6b106feb6cd91dd903e5f97e95cdd78e021691847e6b",
+      "size": [
+        64,
+        39
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/206.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/207.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/208.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/209.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/000.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/001.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/002.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/003.png",
+      "rgba_sha256": "fdc18083c9f124949c19c5d1ea773a7c3b1d0b9ba769e799941ce72baa27e249",
+      "size": [
+        119,
+        56
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/004.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/005.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/006.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/007.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/008.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/009.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/010.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/011.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/012.png",
+      "rgba_sha256": "c7849c29c786bf2d40c0e7a2ea4a1d89d15eacbf7bb190607b4c1f61379ecae3",
+      "size": [
+        82,
+        23
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/013.png",
+      "rgba_sha256": "fb6fb28b3d1ec70994c7c36bac6581dd32a2f21df6fe279f4c786efce613ad66",
+      "size": [
+        129,
+        41
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/014.png",
+      "rgba_sha256": "e43149afd0c1b7863e48c9c448201f169cda487eb2767e1030ffa921496cc363",
+      "size": [
+        70,
+        42
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/015.png",
+      "rgba_sha256": "00a12ef9d922380958c11f87500bfc0692c43c16942504c7faba982016eef0a5",
+      "size": [
+        70,
+        34
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/016.png",
+      "rgba_sha256": "b85623c6965af5ec85b42a611d1ee7e7098daa6da3fbc832ab60c6c08e1afa5b",
+      "size": [
+        68,
+        23
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/017.png",
+      "rgba_sha256": "b85623c6965af5ec85b42a611d1ee7e7098daa6da3fbc832ab60c6c08e1afa5b",
+      "size": [
+        68,
+        23
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/018.png",
+      "rgba_sha256": "b85623c6965af5ec85b42a611d1ee7e7098daa6da3fbc832ab60c6c08e1afa5b",
+      "size": [
+        68,
+        23
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/019.png",
+      "rgba_sha256": "b85623c6965af5ec85b42a611d1ee7e7098daa6da3fbc832ab60c6c08e1afa5b",
+      "size": [
+        68,
+        23
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/020.png",
+      "rgba_sha256": "b85623c6965af5ec85b42a611d1ee7e7098daa6da3fbc832ab60c6c08e1afa5b",
+      "size": [
+        68,
+        23
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/033.png",
+      "rgba_sha256": "d786747eb716b6d4ab641a4cb9cd6863471ac91ab0761bc0a5dc1d5f48b0602b",
+      "size": [
+        67,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/034.png",
+      "rgba_sha256": "26f8f662ebea5ee237e28cacccd25eac64081dc0e16f0bddb95d55c55435b19a",
+      "size": [
+        67,
+        20
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/035.png",
+      "rgba_sha256": "86e4a618bcb1ab6e2f26b0650e7054f2a31eeead7ab8e4eedb4f0a0e5d6c782d",
+      "size": [
+        93,
+        90
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/036.png",
+      "rgba_sha256": "091956198bb7e0b8d79b3b6a2cb36dde6595ed118e4d7567bbeb6b40fbb20a05",
+      "size": [
+        89,
+        108
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/037.png",
+      "rgba_sha256": "fc3dd89b2dd66b15787fc242c5b8dafae15e1de1b36b3f56d96bdd2987302401",
+      "size": [
+        79,
+        61
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/038.png",
+      "rgba_sha256": "8d79e506d13e552049d4009a83957fe80480b22083acb9fcc45805d394ed9633",
+      "size": [
+        57,
+        38
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/039.png",
+      "rgba_sha256": "c5b8d87665efb52edea5b69ddcc83aab5e3f7d5273405df5832975eb9d4f4403",
+      "size": [
+        42,
+        38
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/040.png",
+      "rgba_sha256": "c5b8d87665efb52edea5b69ddcc83aab5e3f7d5273405df5832975eb9d4f4403",
+      "size": [
+        42,
+        38
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/041.png",
+      "rgba_sha256": "c5b8d87665efb52edea5b69ddcc83aab5e3f7d5273405df5832975eb9d4f4403",
+      "size": [
+        42,
+        38
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/090.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/091.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/092.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/093.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/094.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/095.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/096.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/098.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/099.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/100.png",
+      "rgba_sha256": "380f6f940f7095f4006bd0926c7c08f8b28022a35ef7b3cd29d7d4d62ddce4be",
+      "size": [
+        60,
+        56
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/101.png",
+      "rgba_sha256": "380f6f940f7095f4006bd0926c7c08f8b28022a35ef7b3cd29d7d4d62ddce4be",
+      "size": [
+        60,
+        56
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/102.png",
+      "rgba_sha256": "af93c628918862eb2ab8936921c510018a1ae53fa4947dc21049ecb709674ff4",
+      "size": [
+        79,
+        27
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/103.png",
+      "rgba_sha256": "af93c628918862eb2ab8936921c510018a1ae53fa4947dc21049ecb709674ff4",
+      "size": [
+        79,
+        27
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/104.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/105.png",
+      "rgba_sha256": "4eb818172d98ded7011de352ba90b52004f7db572a1b78e02f96aab10925f9b2",
+      "size": [
+        66,
+        51
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/106.png",
+      "rgba_sha256": "4eb818172d98ded7011de352ba90b52004f7db572a1b78e02f96aab10925f9b2",
+      "size": [
+        66,
+        51
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/107.png",
+      "rgba_sha256": "4eb818172d98ded7011de352ba90b52004f7db572a1b78e02f96aab10925f9b2",
+      "size": [
+        66,
+        51
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/108.png",
+      "rgba_sha256": "4eb818172d98ded7011de352ba90b52004f7db572a1b78e02f96aab10925f9b2",
+      "size": [
+        66,
+        51
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/109.png",
+      "rgba_sha256": "4eb818172d98ded7011de352ba90b52004f7db572a1b78e02f96aab10925f9b2",
+      "size": [
+        66,
+        51
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/110.png",
+      "rgba_sha256": "4eb818172d98ded7011de352ba90b52004f7db572a1b78e02f96aab10925f9b2",
+      "size": [
+        66,
+        51
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/111.png",
+      "rgba_sha256": "4eb818172d98ded7011de352ba90b52004f7db572a1b78e02f96aab10925f9b2",
+      "size": [
+        66,
+        51
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/112.png",
+      "rgba_sha256": "4eb818172d98ded7011de352ba90b52004f7db572a1b78e02f96aab10925f9b2",
+      "size": [
+        66,
+        51
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/123.png",
+      "rgba_sha256": "9bfc82a80f15c13ec00ec8c575a172c58445259dbb6803f22b7d3d9608524e58",
+      "size": [
+        36,
+        90
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/124.png",
+      "rgba_sha256": "9bfc82a80f15c13ec00ec8c575a172c58445259dbb6803f22b7d3d9608524e58",
+      "size": [
+        36,
+        90
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/125.png",
+      "rgba_sha256": "ccbde4cc7e6f18e3c3e4012136c9e4be1f397d54a43f0a490ce86233a1d2b8cf",
+      "size": [
+        37,
+        68
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/126.png",
+      "rgba_sha256": "ccbde4cc7e6f18e3c3e4012136c9e4be1f397d54a43f0a490ce86233a1d2b8cf",
+      "size": [
+        37,
+        68
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/127.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/128.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/129.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/130.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/131.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/132.png",
+      "rgba_sha256": "ccbde4cc7e6f18e3c3e4012136c9e4be1f397d54a43f0a490ce86233a1d2b8cf",
+      "size": [
+        37,
+        68
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/133.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/134.png",
+      "rgba_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": [
+        1,
+        1
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/135.png",
+      "rgba_sha256": "ad1bb518a52def7ed15a4b45b7bdd8e01d6c6b23a21e2263332784b9849181ea",
+      "size": [
+        123,
+        185
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/136.png",
+      "rgba_sha256": "19b0e6466467f610c113d39d1662fc711cacb02f00eb628e53386a1a29426c3e",
+      "size": [
+        92,
+        72
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/137.png",
+      "rgba_sha256": "6e92366181b25f22af039ab11c5ad4c07d5c8170ebe1ff184ec29cfcfb8f7af6",
+      "size": [
+        29,
+        72
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/138.png",
+      "rgba_sha256": "6e92366181b25f22af039ab11c5ad4c07d5c8170ebe1ff184ec29cfcfb8f7af6",
+      "size": [
+        29,
+        72
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/157.png",
+      "rgba_sha256": "c2213549866e06a6e9037c1d2df6bbf23954b14520de1b3cf831f13ce3e043ef",
+      "size": [
+        37,
+        68
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/180.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/181.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/182.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/183.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/184.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/185.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/186.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/187.png",
+      "rgba_sha256": "dfd78abdfa519c7a6fbcb074d1b1afffdbbac10a88e0afbca5057c99c9c1277e",
+      "size": [
+        56,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/204.png",
+      "rgba_sha256": "a19e885fabbcfcbf2f28ebc7f3b11bf770a9c981e8a30a62942a81a9d08d5f5c",
+      "size": [
+        13,
+        9
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/206.png",
+      "rgba_sha256": "78793e4eaa8f7ad18c2f63ddeb878b7111660c3cccf492e2a91494568bc020d5",
+      "size": [
+        109,
+        135
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/207.png",
+      "rgba_sha256": "fd176db9a1e4db41220ee0afd37da826c277206c6dcb619d701ba18fef759481",
+      "size": [
+        103,
+        60
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/208.png",
+      "rgba_sha256": "0d43f27b88ca2bb34959e43d0edba56076aede5e0026c538d61c7313e1115e41",
+      "size": [
+        103,
+        16
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/209.png",
+      "rgba_sha256": "0d43f27b88ca2bb34959e43d0edba56076aede5e0026c538d61c7313e1115e41",
+      "size": [
+        103,
+        16
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_00_1.png",
+      "rgba_sha256": "d953a54ab882297a42da47cd3dfd7c3378c7564be042bd0b34b1bcc10a2a65ad",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_00_2.png",
+      "rgba_sha256": "04052ca685f6579102a96f3744e2d76e6125fd06217b416728a403bd7f7683aa",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_01_1.png",
+      "rgba_sha256": "c63aea62e15f904125d94cb6ae92c9bf0c4a3c5af4ca9044142357d6ee9e8fd9",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_01_2.png",
+      "rgba_sha256": "49552f0be4fae86db0bbab8f32d468648453b0075566b4fdcb1a6925e745d467",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_02_1.png",
+      "rgba_sha256": "903441365b4bd8da2584e076863b6085e30fe7ba877603dec31a73c213f9be2f",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_02_2.png",
+      "rgba_sha256": "94ddc5469c9b66dbde9d77411949b02f9a17954993d16ad06bec8ba67b956c97",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_03_1.png",
+      "rgba_sha256": "bf1341f169b5ef85406dc8ad396615dc0db8e94f267a419d8a90e03cfda1bf0a",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_03_2.png",
+      "rgba_sha256": "eb1c93bca8f423136b9563f0564a42ad535e0a4e715b55ce0d1a185c193b6d45",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_04_1.png",
+      "rgba_sha256": "d51c60c18d382f3519c0a2504d956b391ba2ad3860be8b4ff4214a6bb65dc580",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_04_2.png",
+      "rgba_sha256": "e5081cf8bde34ca3d70bc9b9430e5b1cc505bcf1aa30f2c9250d22ed28497c0d",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_05_1.png",
+      "rgba_sha256": "9c6d840f6b66f275a0a9ac6ac39b640b074c8bcb19141037af4a8429032d419a",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_05_2.png",
+      "rgba_sha256": "37daa1c10eae6c0cc3d51c7ae2fc2d1acf94e2b6d269887333f7ae5f0522cfe1",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_06_1.png",
+      "rgba_sha256": "20333632ff9db4c013e005c9cb622f6fe73742f7d060bcd5e84cd4c3c45d7255",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_06_2.png",
+      "rgba_sha256": "ae61280a3658a81c7c6e15e0c25174b3c07dedb2184a3215bbc00ada9b01b92c",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_07_1.png",
+      "rgba_sha256": "5095eaacaca3c86d035327cbc0cd94a189fe65ad612705d4138bb954f0992f40",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    },
+    {
+      "exact_rgba": true,
+      "lossless_settings": true,
+      "path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_07_2.png",
+      "rgba_sha256": "4e7727a8de9c550edf2eb9ac0e8733d33c8884fdb6af53440570ee32573367d9",
+      "size": [
+        320,
+        224
+      ],
+      "source_loaded": true
+    }
+  ],
+  "seconds": 0.363035,
+  "textures": 290
+}

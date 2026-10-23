@@ -1,0 +1,9 @@
+{
+  "used_percent": 13,
+  "remaining_percent": 87,
+  "window_duration_mins": 10080,
+  "resets_at": 1793293820,
+  "goal_status": "active",
+  "stop_when_remaining_below_percent": 50,
+  "automatic_reset_or_extra_paid_use": false
+}

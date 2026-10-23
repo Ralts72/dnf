@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"source\":\"game\",\"lines\":[{\"level\":\"info\",\"run_id\":\"r53934555-134\",\"source\":\"game\",\"text\":\"[godot_ai game_helper] registered mcp capture (debugger active=true, logger=true)\\n\"},{\"details\":{\"code\":\"Loaded resource as image file, this will not work on export: 'res://assets/r4/supplies/hp_potion_icon.png'. Instead, import the image file as an Image resource and load it normally as a resource.\",\"error_type\":1,\"error_type_name\":\"warning\",\"frames\":[{\"function\":\"asset_checks\",\"line\":118,\"path\":\"res://tools/r4/supplies_checks.gd\"},{\"function\":\"run\",\"line\":507,\"path\":\"res://tools/r4/supplies_checks.gd\"},{\"function\":\"wait_for\",\"line\":73,\"path\":\"res://tools/r4/supplies_checks.gd\"}],\"message\":\"Loaded resource as image file, this will not work on export: 'res://assets/r4/supplies/hp_potion_icon.png'. Instead, import the image file as an Image resource and load it normally as a resource.\",\"rationale\":\"\",\"resolved\":{\"function\":\"asset_checks\",\"line\":118,\"path\":\"res://tools/r4/supplies_checks.gd\"},\"source\":{\"function\":\"load_from_file\",\"line\":2780,\"path\":\"core/io/image.cpp\"}},\"level\":\"warn\",\"run_id\":\"r53934555-134\",\"source\":\"game\",\"text\":\"Loaded resource as image file, this will not work on export: 'res://assets/r4/supplies/hp_potion_icon.png'. Instead, import the image file as an Image resource and load it normally as a resource. (res://tools/r4/supplies_checks.gd:118 @ asset_checks)\"},{\"details\":{\"code\":\"Loaded resource as image file, this will not work on export: 'res://assets/r4/supplies/field.png'. Instead, import the image file as an Image resource and load it normally as a resource.\",\"error_type\":1,\"error_type_name\":\"warning\",\"frames\":[{\"function\":\"asset_checks\",\"line\":118,\"path\":\"res://tools/r4/supplies_checks.gd\"},{\"function\":\"run\",\"line\":507,\"path\":\"res://tools/r4/supplies_checks.gd\"},{\"function\":\"wait_for\",\"line\":73,\"path\":\"res://tools/r4/supplies_checks.gd\"}],\"message\":\"Loaded resource as image file, this will not work on export: 'res://assets/r4/supplies/field.png'. Instead, import the image file as an Image resource and load it normally as a resource.\",\"rationale\":\"\",\"resolved\":{\"function\":\"asset_checks\",\"line\":118,\"path\":\"res://tools/r4/supplies_checks.gd\"},\"source\":{\"function\":\"load_from_file\",\"line\":2780,\"path\":\"core/io/image.cpp\"}},\"level\":\"warn\",\"run_id\":\"r53934555-134\",\"source\":\"game\",\"text\":\"Loaded resource as image file, this will not work on export: 'res://assets/r4/supplies/field.png'. Instead, import the image file as an Image resource and load it normally as a resource. (res://tools/r4/supplies_checks.gd:118 @ asset_checks)\"}],\"total_count\":3,\"returned_count\":3,\"offset\":0,\"limit\":30,\"has_more\":false,\"run_id\":\"r53934555-134\",\"is_running\":true,\"dropped_count\":13767,\"stale_run_id\":false,\"current_run_id\":\"r53934555-134\",\"helper_live\":true,\"session_active\":true,\"game_status\":{\"active\":true,\"editor_log_cursor\":17,\"elapsed_msec\":207678,\"helper_expected\":true,\"helper_live\":true,\"ready\":true,\"ready_wait_msec\":20000,\"run_started_msec\":53934554,\"run_token\":134,\"session_active\":true,\"status\":\"live\"}}"
+    }
+  ],
+  "structuredContent": {
+    "source": "game",
+    "lines": [
+      {
+        "level": "info",
+        "run_id": "r53934555-134",
+        "source": "game",
+        "text": "[godot_ai game_helper] registered mcp capture (debugger active=true, logger=true)\n"
+      },
+      {
+        "details": {
+          "code": "Loaded resource as image file, this will not work on export: 'res://assets/r4/supplies/hp_potion_icon.png'. Instead, import the image file as an Image resource and load it normally as a resource.",
+          "error_type": 1,
+          "error_type_name": "warning",
+          "frames": [
+            {
+              "function": "asset_checks",
+              "line": 118,
+              "path": "res://tools/r4/supplies_checks.gd"
+            },
+            {
+              "function": "run",
+              "line": 507,
+              "path": "res://tools/r4/supplies_checks.gd"
+            },
+            {
+              "function": "wait_for",
+              "line": 73,
+              "path": "res://tools/r4/supplies_checks.gd"
+            }
+          ],
+          "message": "Loaded resource as image file, this will not work on export: 'res://assets/r4/supplies/hp_potion_icon.png'. Instead, import the image file as an Image resource and load it normally as a resource.",
+          "rationale": "",
+          "resolved": {
+            "function": "asset_checks",
+            "line": 118,
+            "path": "res://tools/r4/supplies_checks.gd"
+          },
+          "source": {
+            "function": "load_from_file",
+            "line": 2780,
+            "path": "core/io/image.cpp"
+          }
+        },
+        "level": "warn",
+        "run_id": "r53934555-134",
+        "source": "game",
+        "text": "Loaded resource as image file, this will not work on export: 'res://assets/r4/supplies/hp_potion_icon.png'. Instead, import the image file as an Image resource and load it normally as a resource. (res://tools/r4/supplies_checks.gd:118 @ asset_checks)"
+      },
+      {
+        "details": {
+          "code": "Loaded resource as image file, this will not work on export: 'res://assets/r4/supplies/field.png'. Instead, import the image file as an Image resource and load it normally as a resource.",
+          "error_type": 1,
+          "error_type_name": "warning",
+          "frames": [
+            {
+              "function": "asset_checks",
+              "line": 118,
+              "path": "res://tools/r4/supplies_checks.gd"
+            },
+            {
+              "function": "run",
+              "line": 507,
+              "path": "res://tools/r4/supplies_checks.gd"
+            },
+            {
+              "function": "wait_for",
+              "line": 73,
+              "path": "res://tools/r4/supplies_checks.gd"
+            }
+          ],
+          "message": "Loaded resource as image file, this will not work on export: 'res://assets/r4/supplies/field.png'. Instead, import the image file as an Image resource and load it normally as a resource.",
+          "rationale": "",
+          "resolved": {
+            "function": "asset_checks",
+            "line": 118,
+            "path": "res://tools/r4/supplies_checks.gd"
+          },
+          "source": {
+            "function": "load_from_file",
+            "line": 2780,
+            "path": "core/io/image.cpp"
+          }
+        },
+        "level": "warn",
+        "run_id": "r53934555-134",
+        "source": "game",
+        "text": "Loaded resource as image file, this will not work on export: 'res://assets/r4/supplies/field.png'. Instead, import the image file as an Image resource and load it normally as a resource. (res://tools/r4/supplies_checks.gd:118 @ asset_checks)"
+      }
+    ],
+    "total_count": 3,
+    "returned_count": 3,
+    "offset": 0,
+    "limit": 30,
+    "has_more": false,
+    "run_id": "r53934555-134",
+    "is_running": true,
+    "dropped_count": 13767,
+    "stale_run_id": false,
+    "current_run_id": "r53934555-134",
+    "helper_live": true,
+    "session_active": true,
+    "game_status": {
+      "active": true,
+      "editor_log_cursor": 17,
+      "elapsed_msec": 207678,
+      "helper_expected": true,
+      "helper_live": true,
+      "ready": true,
+      "ready_wait_msec": 20000,
+      "run_started_msec": 53934554,
+      "run_token": 134,
+      "session_active": true,
+      "status": "live"
+    }
+  },
+  "isError": false
+}

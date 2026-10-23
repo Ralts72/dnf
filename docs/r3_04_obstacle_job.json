@@ -1,0 +1,13 @@
+{
+  "check_script": "res://tools/r3/obstacle_checks.gd",
+  "elapsed_seconds": 21.699531,
+  "qa_source_sha256": "9c0745b28b784923e39b11759a694d6c9e8c2b0b56b3445335d6406e00f0f243",
+  "render_cases_completed": 17,
+  "result": {
+    "checks": 17,
+    "failed": [],
+    "recorded_rows": 2542,
+    "render_cases": 17
+  },
+  "status": "complete"
+}

@@ -1,0 +1,6 @@
+<RANDOM ID="R_SM_GUE">
+		<ITEM TAG="SM_GUE_ATK_01" PROB="50"/>
+		<ITEM TAG="SM_GUE_ATK_02" PROB="50"/>
+	</RANDOM>
+<EFFECT ID="SM_GUE_ATK_01" FILE="sounds\char\swordman\sm_gue_01.ogg"/>
+<EFFECT ID="SM_GUE_ATK_02" FILE="sounds\char\swordman\sm_gue_02.ogg"/>

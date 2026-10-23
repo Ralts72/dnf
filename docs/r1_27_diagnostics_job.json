@@ -1,0 +1,23 @@
+{
+  "check_script": "res://tools/r1/locomotion_diagnostics_checks.gd",
+  "elapsed_seconds": 1.016425,
+  "qa_source_sha256": "4e2f64f83f771c0741696c63e683451d9f88a4a32bf632e035aac1f670cc4a6b",
+  "render_cases_completed": 0,
+  "result": {
+    "checks": 26,
+    "exports": [
+      {
+        "path": "user://diagnostics/frame_trace_171286860.json",
+        "rows": 2048.0,
+        "sha256": "50581ad644809db4c91465d2e385f75f72e1cbabe3988c872cf76e7309792439"
+      },
+      {
+        "path": "user://diagnostics/frame_trace_172274284.json",
+        "rows": 2048.0,
+        "sha256": "dbc8c8f87ebf47d4f83f25f92913133ae8b93e0775ae6bac40d6dffae252b093"
+      }
+    ],
+    "failed": []
+  },
+  "status": "complete"
+}

@@ -1,0 +1,141 @@
+{
+  "checks": [
+    {
+      "check": "latest_glb_loaded",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "source_timing_stay",
+      "details": {
+        "duration_ms": 720.0
+      },
+      "pass": true
+    },
+    {
+      "check": "source_timing_move",
+      "details": {
+        "duration_ms": 800.0
+      },
+      "pass": true
+    },
+    {
+      "check": "source_timing_dash",
+      "details": {
+        "duration_ms": 800.0
+      },
+      "pass": true
+    },
+    {
+      "check": "source_timing_attack1",
+      "details": {
+        "duration_ms": 600.0
+      },
+      "pass": true
+    },
+    {
+      "check": "source_timing_attack2",
+      "details": {
+        "duration_ms": 650.0
+      },
+      "pass": true
+    },
+    {
+      "check": "source_timing_hopsmash",
+      "details": {
+        "duration_ms": 900.0
+      },
+      "pass": true
+    },
+    {
+      "check": "pause_holds_frame",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "single_step",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "attack_returns_to_idle",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "camera_foot_matches_r0",
+      "details": {
+        "expected_logical": "(525.0, 358.0)",
+        "projected_logical": "(525.0, 358.0001)",
+        "projected_native": "(1050.0, 716.0001)",
+        "render_scale": 2.0
+      },
+      "pass": true
+    },
+    {
+      "check": "r1_to_r0_retains_pose",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "r0_to_r1_retains_pose",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "native_collision_blocks_walkthrough",
+      "details": {
+        "position": "(2.283345, 0.025, 2.45)",
+        "slide_collisions": 1
+      },
+      "pass": true
+    },
+    {
+      "check": "walk_behind_probe_without_collision",
+      "details": {
+        "position": "(3.616686, 0.025, 1.87)"
+      },
+      "pass": true
+    },
+    {
+      "check": "rendered_probe_occludes_actor_feet",
+      "details": {
+        "blue_pixels_with_probe": 119,
+        "blue_pixels_without_probe": 795,
+        "foot": "(1254.8, 673.6599)"
+      },
+      "pass": true
+    },
+    {
+      "check": "rendered_actor_in_front_remains_visible",
+      "details": {
+        "blue_pixels": 795
+      },
+      "pass": true
+    }
+  ],
+  "failed": 0,
+  "godot": "4.7.2-stable (official)",
+  "logical_ui": "(960, 540)",
+  "performance_observation": {
+    "draw_calls": 563.0,
+    "elapsed_ms": 823,
+    "fps_samples": [
+      144.0,
+      144.0,
+      144.0,
+      144.0,
+      144.0,
+      144.0,
+      91.0,
+      91.0
+    ],
+    "note": "Short observation in the current editor game window, not a hardware benchmark or Windows validation",
+    "process_frames": 120
+  },
+  "platform": "macOS",
+  "qa_source_sha256": "3db6b1efb480dfd3ffc0118a97dae91075b51cae5317dcdc2b5aa800eddbb335",
+  "render_scale": 2.0,
+  "render_viewport": "(1792, 808)",
+  "screenshot_size": "(1438, 808)"
+}

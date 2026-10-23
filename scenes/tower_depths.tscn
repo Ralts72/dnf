@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/west_coast_r1.tscn" id="1_base"]
+[ext_resource type="Script" path="res://scripts/exploration_stage.gd" id="2_stage"]
+
+[node name="WestCoastR1" instance=ExtResource("1_base")]
+script = ExtResource("2_stage")
+region_id = "depths"

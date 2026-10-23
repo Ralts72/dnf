@@ -1,0 +1,55 @@
+{
+  "path": "character/swordman/animation/damage2.ani",
+  "role": "character master clock",
+  "sha256": "9d234ea0746eed09f51f9bbc57372c6d23c360538ca068cc6b263c48f97cdaee",
+  "crc": {
+    "expected": 1685100582,
+    "actual_seed_file_number": 1685100582,
+    "actual_seed_zero": 1705109522
+  },
+  "decoded": {
+    "frames_count": 1,
+    "resources": [
+      "character/swordman/equipment/avatar/skin/sm_body%04d.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 104,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -20,
+              -5,
+              -1,
+              20,
+              10,
+              101
+            ]
+          },
+          {
+            "type": 14,
+            "xyz_size": [
+              1,
+              -5,
+              0,
+              23,
+              9,
+              76
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 10000
+          }
+        ]
+      }
+    ]
+  }
+}

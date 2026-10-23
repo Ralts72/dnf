@@ -1,0 +1,47 @@
+{
+  "path": "monster/draconian/dlani/stay.ani",
+  "bytes": 92,
+  "sha256_decoded_bytes": "114a66a7cdc820fef2e4181bfaad28fa5214d7c4aa1a5a51ed52fcb7fabe6255",
+  "crc": {
+    "expected": 4196233885,
+    "actual_seed_file_number": 4196233885,
+    "actual_seed_zero": 4161652975
+  },
+  "crc_matches": true,
+  "original_reference": "source_art/r4/lakius/pvf/monster/draconian/dlani/stay.ani.bin",
+  "decoded_reference": "source_art/r4/lakius/pvf/monster/draconian/dlani/stay.ani.json",
+  "decoded": {
+    "frames_count": 1,
+    "resources": [
+      "monster/draconian/draco_lakius.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 33,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -14,
+              -21,
+              -3,
+              49,
+              41,
+              109
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "candidate": "R1/11",
+  "checks": [
+    {
+      "check": "native_grove_meshes_present",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "three_segmented_native_trunks",
+      "details": {
+        "branches": 12,
+        "trunks": 9
+      },
+      "pass": true
+    },
+    {
+      "check": "trunks_have_real_native_volume",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "connecting_path_extends_below_water",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "garden_wall_has_receding_return",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "planting_bed_and_grass_are_separate",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "canopy_uses_alpha_cutout",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "canopy_preserves_unlit_source_colors",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "canopy_has_nearest_sampling",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "canopy_source_pixels_1x",
+      "details": {
+        "matching": 1714,
+        "max_rgb_distance": 0.0,
+        "samples": 1714,
+        "scale": 1
+      },
+      "pass": true
+    },
+    {
+      "check": "no_baked_plaster_in_canopy_1x",
+      "details": {
+        "transparent_probes": 3
+      },
+      "pass": true
+    },
+    {
+      "check": "canopy_source_pixels_2x",
+      "details": {
+        "matching": 1714,
+        "max_rgb_distance": 0.0,
+        "samples": 1714,
+        "scale": 2
+      },
+      "pass": true
+    },
+    {
+      "check": "no_baked_plaster_in_canopy_2x",
+      "details": {
+        "transparent_probes": 3
+      },
+      "pass": true
+    },
+    {
+      "check": "stone_path_covers_previous_water_gap",
+      "details": {
+        "path": "(0.5608, 0.6078, 0.6902, 1.0)",
+        "source_point": "(440.5, 176.5)",
+        "without_path": "(0.2, 0.5373, 0.6588, 1.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "source_crown_visible_in_full_scene",
+      "details": {
+        "changed_samples": 1590
+      },
+      "pass": true
+    },
+    {
+      "check": "air_player_stays_in_front_of_far_grove",
+      "details": {
+        "foot": "(640.0, 441.0001)",
+        "height_pixels": 107.5,
+        "matching": 333,
+        "samples": 333
+      },
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "glb_sha256": "74c2b2497b41112c691fcb8a8abe991894bee8314a9a38d2cca0844ccf9cf3c9",
+  "note": "Source foliage RGB tested in isolated native 3D targets at 1x and 2x; path tested in actual scene. New geometry and mask selection are interpretations.",
+  "render_cases": [
+    {
+      "matching": 1714,
+      "max_rgb_distance": 0.0,
+      "samples": 1714,
+      "scale": 1
+    },
+    {
+      "matching": 1714,
+      "max_rgb_distance": 0.0,
+      "samples": 1714,
+      "scale": 2
+    }
+  ],
+  "source_script_sha256": "71fc4a03f016594a76b713310a5ac1a3126a0682dba8a85b47dd8845913922e1"
+}

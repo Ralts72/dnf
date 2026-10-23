@@ -1,0 +1,1367 @@
+{
+  "all_passed": true,
+  "animations": 10,
+  "candidate": "R4/01",
+  "data_sha256": "7e9cf48548b75ae1b338a12218572c7b66991e1ea97c9028266239a4ba6c6dfb",
+  "definition_checks": [
+    {
+      "name": "fixed canvas362x202 and foot134153",
+      "passed": true
+    },
+    {
+      "name": "ten distinct canonical action keys without hero aliases",
+      "passed": true
+    },
+    {
+      "exact_transparent_canvas_composition": true,
+      "frames": 1,
+      "name": "canonical source definition stay",
+      "passed": true,
+      "source_boxes_properties_indices_offsets": true,
+      "source_clock": true,
+      "source_duration_ms": [
+        80.0
+      ],
+      "source_references_and_original_bytes": true
+    },
+    {
+      "exact_transparent_canvas_composition": true,
+      "frames": 7,
+      "name": "canonical source definition move",
+      "passed": true,
+      "source_boxes_properties_indices_offsets": true,
+      "source_clock": true,
+      "source_duration_ms": [
+        80.0,
+        80.0,
+        50.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0
+      ],
+      "source_references_and_original_bytes": true
+    },
+    {
+      "exact_transparent_canvas_composition": true,
+      "frames": 4,
+      "name": "canonical source definition attack1",
+      "passed": true,
+      "source_boxes_properties_indices_offsets": true,
+      "source_clock": true,
+      "source_duration_ms": [
+        80.0,
+        100.0,
+        150.0,
+        80.0
+      ],
+      "source_references_and_original_bytes": true
+    },
+    {
+      "exact_transparent_canvas_composition": true,
+      "frames": 1,
+      "name": "canonical source definition damage1",
+      "passed": true,
+      "source_boxes_properties_indices_offsets": true,
+      "source_clock": true,
+      "source_duration_ms": [
+        null
+      ],
+      "source_references_and_original_bytes": true
+    },
+    {
+      "exact_transparent_canvas_composition": true,
+      "frames": 1,
+      "name": "canonical source definition damage2",
+      "passed": true,
+      "source_boxes_properties_indices_offsets": true,
+      "source_clock": true,
+      "source_duration_ms": [
+        null
+      ],
+      "source_references_and_original_bytes": true
+    },
+    {
+      "exact_transparent_canvas_composition": true,
+      "frames": 5,
+      "name": "canonical source definition down",
+      "passed": true,
+      "source_boxes_properties_indices_offsets": true,
+      "source_clock": true,
+      "source_duration_ms": [
+        80.0,
+        80.0,
+        10000.0,
+        10000.0,
+        300.0
+      ],
+      "source_references_and_original_bytes": true
+    },
+    {
+      "exact_transparent_canvas_composition": true,
+      "frames": 7,
+      "name": "canonical source definition moveback",
+      "passed": true,
+      "source_boxes_properties_indices_offsets": true,
+      "source_clock": true,
+      "source_duration_ms": [
+        80.0,
+        80.0,
+        50.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0
+      ],
+      "source_references_and_original_bytes": true
+    },
+    {
+      "exact_transparent_canvas_composition": true,
+      "frames": 1,
+      "name": "canonical source definition sit",
+      "passed": true,
+      "source_boxes_properties_indices_offsets": true,
+      "source_clock": true,
+      "source_duration_ms": [
+        100.0
+      ],
+      "source_references_and_original_bytes": true
+    },
+    {
+      "exact_transparent_canvas_composition": true,
+      "frames": 7,
+      "name": "canonical source definition attacklong",
+      "passed": true,
+      "source_boxes_properties_indices_offsets": true,
+      "source_clock": true,
+      "source_duration_ms": [
+        50.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        120.0,
+        50.0
+      ],
+      "source_references_and_original_bytes": true
+    },
+    {
+      "exact_transparent_canvas_composition": true,
+      "frames": 3,
+      "name": "canonical source definition attackheart",
+      "passed": true,
+      "source_boxes_properties_indices_offsets": true,
+      "source_clock": true,
+      "source_duration_ms": [
+        850.0,
+        200.0,
+        50.0
+      ],
+      "source_references_and_original_bytes": true
+    },
+    {
+      "name": "37 master records, 32 raw crops and69 textures",
+      "passed": true
+    },
+    {
+      "name": "runtime data matches exporter source manifest SHA",
+      "passed": true
+    },
+    {
+      "name": "all and only69 Lakius PNG paths declared",
+      "passed": true
+    },
+    {
+      "name": "ten existing R2 world PNGs reused",
+      "passed": true
+    }
+  ],
+  "expected_textures": 69,
+  "failed": [],
+  "master_frames": 37,
+  "native_exact_rgba_pixels": 3373472,
+  "note": "Actual imported Texture2D readback includes transparent RGB for all69 Lakius PNGs. Original timing/boxes/offsets and exact37 canvas compositions are compared to retained source ANI artifacts. Ten R2 PNGs retain hashes and prior native readback evidence. No gameplay, profile or input changes; not a performance benchmark.",
+  "qa_source_sha256": "99167009690bf7eb1e500a5178e7e7e3c3ae1300589c77ffff84c5315a1b3e3e",
+  "records": [
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/033.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "7a7508499bfd65aeefde1d68a25ac2b97e7e46c24cb0ae62c4a1acdda187edce",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        159,
+        126
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/016.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "cd90ea624ddaf52e2e5a58c068bbc6f4600f4a030c58c037a8696148bd348013",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        130,
+        152
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/017.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "18091d383c7f2ada7ecc1fe59416e55bc5bda4b549670cab8266a4097c5010ed",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        136,
+        152
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/018.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "8deb8c66d2ec4cd0d32de16f2f93d557545fef960d4e8e81bfc29e25b5f9c17a",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        136,
+        149
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/019.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "233005c74f205f81b2d26d4c4497c1da8f7f2f0509020fa63a897f22b40b7600",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        143,
+        151
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/020.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "c1f351051b2ecd5dd2fd1a4733660d9c570f27874cee434917cdaa4ce8f1bf50",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        135,
+        149
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/021.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "567756092a88246c5457091319974e46373b659452a7e7889b6979861733f522",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        133,
+        151
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/022.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "5a67b08a48432bf2ac9b62620343eeef6071f8a3f5ccdd5b6b75bc3b17f8c4b5",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        132,
+        152
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/000.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "3d8b64bfa72494f6a047b672a72426f114962f77b787cfc8b6f88cedd6d398fc",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        167,
+        127
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/001.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "832784ee5c216da735e1d732430f85e58ccc2846d5edea1d1df10e6cccc13c63",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        174,
+        127
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/002.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "74dc3b92796cb460d0e2da322bea1c4f12e00d268f90e02124053ae46643adf0",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        255,
+        113
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/003.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "95f6f87372299e367b1ecf9b5b7f57f30796f5c2632b887b52083b10505bfc2b",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        212,
+        122
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/012.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "293c1e2af252310d59b9b8857b50a12ba253765a0e1c079caf86850104e0d326",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        140,
+        127
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/011.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "4741b34bbdc979ce56112b1951023108a7b1300108324159ff56d87e60b2c7d3",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        139,
+        116
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/013.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "bd322fcfa0a85f95fcbbaccb4e35713fedf815219d42b9e9c1d44d8995e9bb1d",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        122,
+        139
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/014.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "5c7a1c28a5c791f36b9240e4e3a0d8324c48dac9b4b2139bb7c9c9321700b488",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        142,
+        140
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/015.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "9279d854eb65abe3c4c37f16a4f6f04ccffa65298e584dc053a6edb588d86081",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        192,
+        95
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/004.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "1069f6bd3d9b5c2075c4ebb23effde437fe028e94d682128256522c97e38e87d",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        135,
+        140
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/005.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "13f8e6eb283297c4f344628f59d76422a794c8ecd119105f17ef73398317bf05",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        141,
+        140
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/006.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "f4c7933c9f367972e2cbbc2476f3b6bf7bb7ba354893779ce1d4f4a6cac90851",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        144,
+        139
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/007.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "6443560992835f96862b9d0a08fe4cbd06f52e00335d8c1337c7d80be1a99c76",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        149,
+        139
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/008.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "506fefff318b4b73cfb58d30c509c8e08b3eb3be1a92e77dd4a4fac4b943235b",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        140,
+        139
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/009.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "19f469a9e15e43163b300b23b9e2357e1354173fcf99268ecd487b4a556474fb",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        136,
+        139
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/010.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "dc926aac3440313949ddddf6c4a2b660df8157b705cbf5ea58e3211224abb5a9",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        137,
+        140
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/032.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "5b5f0184ff2c0abcb8157ca0e5733630925df93a6601a738e0da677071aa5b12",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        153,
+        89
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/025.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "81cdaa1671c65708f7a813cb6b7b9b2470e70850ae28c1440e1f672f982f0770",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        162,
+        124
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/026.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "0bf5ef4c012c9b2be37a390cf2504bc610ea7694052f9387acb81361cad43282",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        167,
+        127
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/027.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "a20ab771897c4f873ef3fde7f446d5d9c1f33f67b36194762288b58001e4b3ac",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        169,
+        127
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/028.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "cc9fc6ca20c206bef15ec37dbbeca86edee2f5962cda1f1058b6a6254ac4737c",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        306,
+        92
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/029.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "82acd0ecc80d8745f2b4ac9c6cc367613924bf756dee6407761fea4fcde14056",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        308,
+        92
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/030.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "173a031789c6574f8376dd8c299cea9825d8715d9d941eab63f2acc9493233cb",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        303,
+        92
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/source/031.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "01df23436cae9b8a9898f53338c7823db4f03577fab542290a45d9c1b21ed74c",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        183,
+        113
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/stay/000.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "0d50c51b9da1531456111731d0f02235ad79758fbd6eb9b949fbc869ac4f33c9",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/move/000.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "9b422bdbb9da3edb6acc7064f5527d12615a28a2059906c7e88f9c8bbb1439d0",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/move/001.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "a0b3e99225c97bcb89e09aff7be597795f3e6f09c970b9a9ff95696c5c1bfb35",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/move/002.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "46a8def2a8caacf7380434d0d6775cc6f9cfd7febbdccec41b45656aadb9f82a",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/move/003.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "23eae02918917d68775e9f4fa3ed64a20dd1a4154bc7371f743e190df68af0e9",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/move/004.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "0122e280eca79f1c2bc7324526c818e006f8c360088196a286010276b1fff130",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/move/005.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "29d82fd0dc9d3295a3b5a0bdf96794ef808164ed4e04e98f1947d6f27f6a9a8d",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/move/006.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "e0537c7076938c4753745d1a81fff29c517089f484340f8ccb1a644dfa076153",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/attack1/000.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "c85b556ce71ee3439a093c7fcbb09058136f2ef6055434ae2c5afb61d75525b1",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/attack1/001.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "41cb7bcd62730035895bf8f2e377a48a946d3109b0105c60a14477943bb434a3",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/attack1/002.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "243ad606fbe56792b531d5404581e1024a23170f45d6318215aedd15bcb96ef6",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/attack1/003.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "79aa70aec770387324fb7c69f852305f7891b122993c1e9b2b11a9673fe067ac",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/damage1/000.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "cdb0a37c439f582a6850116f326084afeef842c59a77987f26eb943329e72857",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/damage2/000.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "dbc4d915fb6c2ee284fd060714a4addebdfbc3e374d8e4efd2f7d945c256c0cd",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/down/000.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "dbc4d915fb6c2ee284fd060714a4addebdfbc3e374d8e4efd2f7d945c256c0cd",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/down/001.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "cdb0a37c439f582a6850116f326084afeef842c59a77987f26eb943329e72857",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/down/002.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "b86f87f1b4c61582d5f32918a5d25cf276a2b519db9f6c5d6478be61aac9b6a7",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/down/003.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "8c293e0fc0be26d9d2b3a929641643665a1957b69a6bbcf25b20c4dd78cb0988",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/down/004.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "f19485dc401da9e7f55c24b4f5e7996034b87c1b098cfae1b2a9bef21fc1fa5f",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/moveback/000.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "d413396882b5fb8eb99536ac0b2e8b4dbf043c259a2bdce15e4da7455de89933",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/moveback/001.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "33ad68a802eaa6195e59da60577534499fbc529abbf1cb4603c2c9e511751f94",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/moveback/002.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "518735d3969f470cf00f489d33b5d26cc0d7c2a7feff2b1d7b592708a8e7523b",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/moveback/003.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "a888f14026af4aeda8affc140cd48e8ffe2959d4996e94bcf04a2c08ed3a07dd",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/moveback/004.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "07a9ba3ffcfb2bb2e97854be0af5bb63417b06c8ce3fe93c7829f7e8e0a23db6",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/moveback/005.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "e22ddfc51ad7db55e7f4b09af31d9781848d69cb4a415c395e338aa539587a0d",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/moveback/006.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "e02cd38b5c2cd308692afce391da9e1b6a8c3f439f1e4ade851b20add679fabc",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/sit/000.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "ca1c63567eb204690633d0b398832a97a9d92155bc14fece055122ef8dc46259",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/attacklong/000.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "76a748701e04a2e004b14bddfb055aae7eaf5b85eab081e16a6c65bd0702b557",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/attacklong/001.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "1d83a8547f959848426fc5f5769b0ebb3f46b3dc5e7ce3620285191868ab3ac3",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/attacklong/002.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "b015c678ef382954e09c4d93bf9812aa921b40bfb72bc2dc7a17f46908687991",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/attacklong/003.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "59a1349c81113d6f86e420b1d89b2df36899fa006c7dc7471d02b503eb1ff0ff",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/attacklong/004.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "586f9eb462725b662d1a66254eb7be08aa2f389c0451e475a73358d404bb34d4",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/attacklong/005.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "d0586e38eca70521d326d36ae4d62b7704530185da0c39629dd34365dcd20cf8",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/attacklong/006.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "e6a74381613d3cc6c45cb8d37d8a300eeb0325ca9baed082a953e80a4556a0b9",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/attackheart/000.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "c85b556ce71ee3439a093c7fcbb09058136f2ef6055434ae2c5afb61d75525b1",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/attackheart/001.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "243ad606fbe56792b531d5404581e1024a23170f45d6318215aedd15bcb96ef6",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    },
+    {
+      "dimensions_match_manifest": true,
+      "exact_rgba": true,
+      "imported_resource": true,
+      "lossless_settings": true,
+      "passed": true,
+      "path": "res://assets/r4/lakius/frames/attackheart/002.png",
+      "png_sha256_matches_source_manifest": true,
+      "rgba_sha256": "79aa70aec770387324fb7c69f852305f7891b122993c1e9b2b11a9673fe067ac",
+      "rgba_sha256_matches_source_manifest": true,
+      "size": [
+        362,
+        202
+      ],
+      "source_loaded": true
+    }
+  ],
+  "reused_world_textures": 10,
+  "seconds": 0.15109,
+  "source_manifest_sha256": "2220eb67fb76d940dc92efc824decca80f07b102b2019db143b252ebf7cbb4db",
+  "textures": 69,
+  "world_reuse": [
+    {
+      "passed": true,
+      "path": "res://assets/r2/interior/paving.png",
+      "png_sha256_unchanged": true,
+      "prior_native_import_exact_rgba": true,
+      "prior_report": "docs/r2_01_asset_checks.json"
+    },
+    {
+      "passed": true,
+      "path": "res://assets/r2/interior/column.png",
+      "png_sha256_unchanged": true,
+      "prior_native_import_exact_rgba": true,
+      "prior_report": "docs/r2_01_asset_checks.json"
+    },
+    {
+      "passed": true,
+      "path": "res://assets/r2/interior/far.png",
+      "png_sha256_unchanged": true,
+      "prior_native_import_exact_rgba": true,
+      "prior_report": "docs/r2_01_asset_checks.json"
+    },
+    {
+      "passed": true,
+      "path": "res://assets/r2/interior/banner.png",
+      "png_sha256_unchanged": true,
+      "prior_native_import_exact_rgba": true,
+      "prior_report": "docs/r2_01_asset_checks.json"
+    },
+    {
+      "passed": true,
+      "path": "res://assets/r2/interior/wall_0.png",
+      "png_sha256_unchanged": true,
+      "prior_native_import_exact_rgba": true,
+      "prior_report": "docs/r2_01_asset_checks.json"
+    },
+    {
+      "passed": true,
+      "path": "res://assets/r2/interior/wall_1.png",
+      "png_sha256_unchanged": true,
+      "prior_native_import_exact_rgba": true,
+      "prior_report": "docs/r2_01_asset_checks.json"
+    },
+    {
+      "passed": true,
+      "path": "res://assets/r2/interior/wall_2.png",
+      "png_sha256_unchanged": true,
+      "prior_native_import_exact_rgba": true,
+      "prior_report": "docs/r2_01_asset_checks.json"
+    },
+    {
+      "passed": true,
+      "path": "res://assets/r2/interior/wall_3.png",
+      "png_sha256_unchanged": true,
+      "prior_native_import_exact_rgba": true,
+      "prior_report": "docs/r2_01_asset_checks.json"
+    },
+    {
+      "passed": true,
+      "path": "res://assets/r2/interior/wall_4.png",
+      "png_sha256_unchanged": true,
+      "prior_native_import_exact_rgba": true,
+      "prior_report": "docs/r2_01_asset_checks.json"
+    },
+    {
+      "passed": true,
+      "path": "res://assets/r2/interior/wall_5.png",
+      "png_sha256_unchanged": true,
+      "prior_native_import_exact_rgba": true,
+      "prior_report": "docs/r2_01_asset_checks.json"
+    }
+  ]
+}

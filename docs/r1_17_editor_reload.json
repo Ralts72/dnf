@@ -1,0 +1,61 @@
+{
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "build": "R1   /   17",
+  "architecture_meshes": 302,
+  "hierarchy_complete": true,
+  "autoloads": [
+    {
+      "name": "_mcp_game_helper",
+      "path": "res://addons/godot_ai/runtime/game_helper.gd",
+      "singleton": true
+    },
+    {
+      "name": "PortMusic",
+      "path": "res://scripts/port_music.gd",
+      "singleton": true
+    },
+    {
+      "name": "PortAmbience",
+      "path": "res://scripts/port_ambience.gd",
+      "singleton": true
+    }
+  ],
+  "preserved_scenes": [
+    "res://work/r1_17_editor_r0_before_reload.tscn",
+    "res://work/r1_17_editor_r1_before_reload.tscn"
+  ],
+  "reimported": [
+    "res://assets/r1/models/west_coast_port.glb",
+    "res://assets/r1/models/west_coast_port_000.png",
+    "res://assets/r1/models/west_coast_port_000_17.png",
+    "res://assets/r1/models/west_coast_port_000_18.png",
+    "res://assets/r1/models/west_coast_port_dock_metal.png",
+    "res://assets/r1/models/west_coast_port_dock_rope.png",
+    "res://assets/r1/models/west_coast_port_dock_stone.png",
+    "res://assets/r1/models/west_coast_port_dock_wood.png",
+    "res://assets/r1/models/west_coast_port_grove_bark.png",
+    "res://assets/r1/models/west_coast_port_grove_canopy.png",
+    "res://assets/r1/models/west_coast_port_grove_grass.png",
+    "res://assets/r1/models/west_coast_port_grove_path.png",
+    "res://assets/r1/models/west_coast_port_grove_plaster.png",
+    "res://assets/r1/models/west_coast_port_lamp_blue.png",
+    "res://assets/r1/models/west_coast_port_lamp_collar.png",
+    "res://assets/r1/models/west_coast_port_lamp_glass.png",
+    "res://assets/r1/models/west_coast_port_lamp_shaft.png",
+    "res://assets/r1/models/west_coast_port_paving_tile_0.png",
+    "res://assets/r1/models/west_coast_port_paving_tile_1.png",
+    "res://assets/r1/models/west_coast_port_paving_tile_2.png",
+    "res://assets/r1/models/west_coast_port_paving_tile_3.png",
+    "res://assets/r1/models/west_coast_port_paving_tile_4.png",
+    "res://assets/r1/models/west_coast_port_paving_tile_5.png",
+    "res://assets/r1/models/west_coast_port_paving_tile_6.png",
+    "res://assets/r1/models/west_coast_port_paving_tile_7.png",
+    "res://assets/r1/models/west_coast_port_pier_face.png",
+    "res://assets/r1/models/west_coast_port_pier_top.png",
+    "res://assets/r1/models/west_coast_port_quay_coping.png"
+  ],
+  "preserved_scene_sha256": {
+    "res://work/r1_17_editor_r0_before_reload.tscn": "9393b347ef32f8afee339419d13ba90c024680e3196d3fe7be91adc0cba183bc",
+    "res://work/r1_17_editor_r1_before_reload.tscn": "afc2d5002fb3b26ffd02700e2d97788023743aca5a0df51ee8a1916ed8135ffc"
+  }
+}

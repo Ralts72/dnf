@@ -1,0 +1,1654 @@
+{
+  "actual_keyboard_samples": {
+    "R0": [
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "takeoff",
+        "physics_frame": 0
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "takeoff",
+        "physics_frame": 1
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "takeoff",
+        "physics_frame": 2
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "takeoff",
+        "physics_frame": 3
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "takeoff",
+        "physics_frame": 4
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "takeoff",
+        "physics_frame": 5
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 6
+      },
+      {
+        "action": "jump",
+        "height": 7.04722222222221,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 7
+      },
+      {
+        "action": "jump",
+        "height": 13.8555555555556,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 8
+      },
+      {
+        "action": "jump",
+        "height": 20.425,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 9
+      },
+      {
+        "action": "jump",
+        "height": 26.7555555555555,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 10
+      },
+      {
+        "action": "jump",
+        "height": 32.8472222222222,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 11
+      },
+      {
+        "action": "jump",
+        "height": 38.7,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 12
+      },
+      {
+        "action": "jump",
+        "height": 44.3138888888889,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 13
+      },
+      {
+        "action": "jump",
+        "height": 49.6888888888889,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 14
+      },
+      {
+        "action": "jump",
+        "height": 54.825,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 15
+      },
+      {
+        "action": "jump",
+        "height": 59.7222222222222,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 16
+      },
+      {
+        "action": "jump",
+        "height": 64.3805555555556,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 17
+      },
+      {
+        "action": "jump",
+        "height": 68.8,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 18
+      },
+      {
+        "action": "jumpattack",
+        "height": 72.9805555555556,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 19
+      },
+      {
+        "action": "jumpattack",
+        "height": 76.9222222222222,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 20
+      },
+      {
+        "action": "jumpattack",
+        "height": 80.625,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 21
+      },
+      {
+        "action": "jumpattack",
+        "height": 84.0888888888889,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 22
+      },
+      {
+        "action": "jumpattack",
+        "height": 87.3138888888889,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 23
+      },
+      {
+        "action": "jumpattack",
+        "height": 90.3,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 24
+      },
+      {
+        "action": "jumpattack",
+        "height": 93.0472222222222,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 25
+      },
+      {
+        "action": "jumpattack",
+        "height": 95.5555555555555,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 26
+      },
+      {
+        "action": "jumpattack",
+        "height": 97.825,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 27
+      },
+      {
+        "action": "jumpattack",
+        "height": 99.8555555555556,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 28
+      },
+      {
+        "action": "jumpattack",
+        "height": 101.647222222222,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 29
+      },
+      {
+        "action": "jumpattack",
+        "height": 103.2,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 30
+      },
+      {
+        "action": "jumpattack",
+        "height": 104.513888888889,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 31
+      },
+      {
+        "action": "jumpattack",
+        "height": 105.588888888889,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 32
+      },
+      {
+        "action": "jumpattack",
+        "height": 106.425,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 33
+      },
+      {
+        "action": "jumpattack",
+        "height": 107.022222222222,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 34
+      },
+      {
+        "action": "jumpattack",
+        "height": 107.380555555556,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 35
+      },
+      {
+        "action": "jumpattack",
+        "height": 107.5,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 36
+      },
+      {
+        "action": "jump",
+        "height": 107.380555555556,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 37
+      },
+      {
+        "action": "jump",
+        "height": 107.022222222222,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 38
+      },
+      {
+        "action": "jump",
+        "height": 106.425,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 39
+      },
+      {
+        "action": "jump",
+        "height": 105.588888888889,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 40
+      },
+      {
+        "action": "jump",
+        "height": 104.513888888889,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 41
+      },
+      {
+        "action": "jump",
+        "height": 103.2,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 42
+      },
+      {
+        "action": "jump",
+        "height": 101.647222222222,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 43
+      },
+      {
+        "action": "jump",
+        "height": 99.8555555555555,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 44
+      },
+      {
+        "action": "jump",
+        "height": 97.8249999999999,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 45
+      },
+      {
+        "action": "jump",
+        "height": 95.5555555555555,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 46
+      },
+      {
+        "action": "jump",
+        "height": 93.0472222222221,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 47
+      },
+      {
+        "action": "jump",
+        "height": 90.2999999999998,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 48
+      },
+      {
+        "action": "jump",
+        "height": 87.3138888888887,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 49
+      },
+      {
+        "action": "jump",
+        "height": 84.0888888888887,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 50
+      },
+      {
+        "action": "jump",
+        "height": 80.6249999999998,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 51
+      },
+      {
+        "action": "jump",
+        "height": 76.922222222222,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 52
+      },
+      {
+        "action": "jump",
+        "height": 72.9805555555553,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 53
+      },
+      {
+        "action": "jump",
+        "height": 68.7999999999997,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 54
+      },
+      {
+        "action": "jump",
+        "height": 64.3805555555552,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 55
+      },
+      {
+        "action": "jump",
+        "height": 59.7222222222219,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 56
+      },
+      {
+        "action": "jump",
+        "height": 54.8249999999996,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 57
+      },
+      {
+        "action": "jump",
+        "height": 49.6888888888885,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 58
+      },
+      {
+        "action": "jump",
+        "height": 44.3138888888884,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 59
+      },
+      {
+        "action": "jump",
+        "height": 38.6999999999995,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 60
+      },
+      {
+        "action": "jump",
+        "height": 32.8472222222218,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 61
+      },
+      {
+        "action": "jump",
+        "height": 26.7555555555551,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 62
+      },
+      {
+        "action": "jump",
+        "height": 20.4249999999996,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 63
+      },
+      {
+        "action": "jump",
+        "height": 13.8555555555551,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 64
+      },
+      {
+        "action": "jump",
+        "height": 7.04722222222176,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 65
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "landing",
+        "physics_frame": 66
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "landing",
+        "physics_frame": 67
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "landing",
+        "physics_frame": 68
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 69
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 70
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 71
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 72
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 73
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 74
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 75
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 76
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 77
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 78
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 79
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 80
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 81
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 82
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 83
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 84
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 85
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 86
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 87
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 88
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 89
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 90
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 91
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 92
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 93
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 94
+      }
+    ],
+    "R1": [
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "takeoff",
+        "physics_frame": 0
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "takeoff",
+        "physics_frame": 1
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "takeoff",
+        "physics_frame": 2
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "takeoff",
+        "physics_frame": 3
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "takeoff",
+        "physics_frame": 4
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "takeoff",
+        "physics_frame": 5
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 6
+      },
+      {
+        "action": "jump",
+        "height": 7.04722222222221,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 7
+      },
+      {
+        "action": "jump",
+        "height": 13.8555555555556,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 8
+      },
+      {
+        "action": "jump",
+        "height": 20.425,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 9
+      },
+      {
+        "action": "jump",
+        "height": 26.7555555555555,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 10
+      },
+      {
+        "action": "jump",
+        "height": 32.8472222222222,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 11
+      },
+      {
+        "action": "jump",
+        "height": 38.7,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 12
+      },
+      {
+        "action": "jump",
+        "height": 44.3138888888889,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 13
+      },
+      {
+        "action": "jump",
+        "height": 49.6888888888889,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 14
+      },
+      {
+        "action": "jump",
+        "height": 54.825,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 15
+      },
+      {
+        "action": "jump",
+        "height": 59.7222222222222,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 16
+      },
+      {
+        "action": "jump",
+        "height": 64.3805555555556,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 17
+      },
+      {
+        "action": "jump",
+        "height": 68.8,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 18
+      },
+      {
+        "action": "jumpattack",
+        "height": 72.9805555555556,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 19
+      },
+      {
+        "action": "jumpattack",
+        "height": 76.9222222222222,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 20
+      },
+      {
+        "action": "jumpattack",
+        "height": 80.625,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 21
+      },
+      {
+        "action": "jumpattack",
+        "height": 84.0888888888889,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 22
+      },
+      {
+        "action": "jumpattack",
+        "height": 87.3138888888889,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 23
+      },
+      {
+        "action": "jumpattack",
+        "height": 90.3,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 24
+      },
+      {
+        "action": "jumpattack",
+        "height": 93.0472222222222,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 25
+      },
+      {
+        "action": "jumpattack",
+        "height": 95.5555555555555,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 26
+      },
+      {
+        "action": "jumpattack",
+        "height": 97.825,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 27
+      },
+      {
+        "action": "jumpattack",
+        "height": 99.8555555555556,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 28
+      },
+      {
+        "action": "jumpattack",
+        "height": 101.647222222222,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 29
+      },
+      {
+        "action": "jumpattack",
+        "height": 103.2,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 30
+      },
+      {
+        "action": "jumpattack",
+        "height": 104.513888888889,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 31
+      },
+      {
+        "action": "jumpattack",
+        "height": 105.588888888889,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 32
+      },
+      {
+        "action": "jumpattack",
+        "height": 106.425,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 33
+      },
+      {
+        "action": "jumpattack",
+        "height": 107.022222222222,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 34
+      },
+      {
+        "action": "jumpattack",
+        "height": 107.380555555556,
+        "next_attack": "attack1",
+        "phase": "rising",
+        "physics_frame": 35
+      },
+      {
+        "action": "jumpattack",
+        "height": 107.5,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 36
+      },
+      {
+        "action": "jump",
+        "height": 107.380555555556,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 37
+      },
+      {
+        "action": "jump",
+        "height": 107.022222222222,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 38
+      },
+      {
+        "action": "jump",
+        "height": 106.425,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 39
+      },
+      {
+        "action": "jump",
+        "height": 105.588888888889,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 40
+      },
+      {
+        "action": "jump",
+        "height": 104.513888888889,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 41
+      },
+      {
+        "action": "jump",
+        "height": 103.2,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 42
+      },
+      {
+        "action": "jump",
+        "height": 101.647222222222,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 43
+      },
+      {
+        "action": "jump",
+        "height": 99.8555555555555,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 44
+      },
+      {
+        "action": "jump",
+        "height": 97.8249999999999,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 45
+      },
+      {
+        "action": "jump",
+        "height": 95.5555555555555,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 46
+      },
+      {
+        "action": "jump",
+        "height": 93.0472222222221,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 47
+      },
+      {
+        "action": "jump",
+        "height": 90.2999999999998,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 48
+      },
+      {
+        "action": "jump",
+        "height": 87.3138888888887,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 49
+      },
+      {
+        "action": "jump",
+        "height": 84.0888888888887,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 50
+      },
+      {
+        "action": "jump",
+        "height": 80.6249999999998,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 51
+      },
+      {
+        "action": "jump",
+        "height": 76.922222222222,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 52
+      },
+      {
+        "action": "jump",
+        "height": 72.9805555555553,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 53
+      },
+      {
+        "action": "jump",
+        "height": 68.7999999999997,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 54
+      },
+      {
+        "action": "jump",
+        "height": 64.3805555555552,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 55
+      },
+      {
+        "action": "jump",
+        "height": 59.7222222222219,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 56
+      },
+      {
+        "action": "jump",
+        "height": 54.8249999999996,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 57
+      },
+      {
+        "action": "jump",
+        "height": 49.6888888888885,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 58
+      },
+      {
+        "action": "jump",
+        "height": 44.3138888888884,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 59
+      },
+      {
+        "action": "jump",
+        "height": 38.6999999999995,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 60
+      },
+      {
+        "action": "jump",
+        "height": 32.8472222222218,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 61
+      },
+      {
+        "action": "jump",
+        "height": 26.7555555555551,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 62
+      },
+      {
+        "action": "jump",
+        "height": 20.4249999999996,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 63
+      },
+      {
+        "action": "jump",
+        "height": 13.8555555555551,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 64
+      },
+      {
+        "action": "jump",
+        "height": 7.04722222222176,
+        "next_attack": "attack1",
+        "phase": "falling",
+        "physics_frame": 65
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "landing",
+        "physics_frame": 66
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "landing",
+        "physics_frame": 67
+      },
+      {
+        "action": "jump",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "landing",
+        "physics_frame": 68
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 69
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 70
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 71
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 72
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 73
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 74
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 75
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 76
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 77
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 78
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 79
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 80
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 81
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 82
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 83
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 84
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 85
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 86
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 87
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 88
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 89
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 90
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 91
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 92
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 93
+      },
+      {
+        "action": "stay",
+        "height": 0.0,
+        "next_attack": "attack1",
+        "phase": "grounded",
+        "physics_frame": 94
+      }
+    ]
+  },
+  "candidate": "R1/25",
+  "checks": [
+    {
+      "check": "R1_jump_starts",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_source_takeoff_delay",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_ascending_pose_and_height",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_pause_holds_height_and_pose",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_step_advances_jump_one_physics_tick",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_apex_and_ground_point",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_projected_lift_matches_r0_pixels",
+      "details": {
+        "projected_pixels": 107.499984741211,
+        "world_up_metres": 2.27365763541325
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_shadow_stays_on_ground_and_fades",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_air_attack_uses_source_clip",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_one_air_attack_does_not_restart_or_advance_ground_queue",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_air_attack_returns_to_fall_without_landing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_escape_keeps_flight",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_landing_uses_source_final_pose",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_lands_without_source_hold_delay",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_menu_blocks_ground_input_but_flight_continues",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_raw_preview_keeps_source_hold_and_resets_height",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_run_jump_captures_launch_speed",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_rendered_airborne_source_pixels_1x",
+      "details": {
+        "height_pixels": 80.625,
+        "matching": 290,
+        "max_rgb_distance": 0.0,
+        "render_scale": 1,
+        "samples": 290,
+        "scene": "R1"
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_rendered_airborne_source_pixels_2x",
+      "details": {
+        "height_pixels": 80.625,
+        "matching": 290,
+        "max_rgb_distance": 0.0,
+        "render_scale": 2,
+        "samples": 290,
+        "scene": "R1"
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_actual_space_x_and_release_land",
+      "details": {
+        "jump_starts": 1,
+        "peak_height": 107.5
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_holding_space_does_not_auto_jump",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_actual_air_attack_does_not_advance_ground_chain",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_actual_air_control_moves_ground_point",
+      "details": {
+        "source_position": "(512.8338, 320.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_ground_movement_uses_fixed_physics_step",
+      "details": {
+        "twelve_tick_distance": 18.3335571289062
+      },
+      "pass": true
+    },
+    {
+      "check": "r1_to_r0_preserves_air_attack_and_height",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_jump_starts",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_source_takeoff_delay",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_ascending_pose_and_height",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_pause_holds_height_and_pose",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_step_advances_jump_one_physics_tick",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_apex_and_ground_point",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_visual_lifts_above_ground_point",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_air_attack_uses_source_clip",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_one_air_attack_does_not_restart_or_advance_ground_queue",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_air_attack_returns_to_fall_without_landing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_escape_keeps_flight",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_landing_uses_source_final_pose",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_lands_without_source_hold_delay",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_menu_blocks_ground_input_but_flight_continues",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_raw_preview_keeps_source_hold_and_resets_height",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_run_jump_captures_launch_speed",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_rendered_airborne_source_pixels_1x",
+      "details": {
+        "height_pixels": 80.625,
+        "matching": 290,
+        "max_rgb_distance": 0.0,
+        "render_scale": 1,
+        "samples": 290,
+        "scene": "R0"
+      },
+      "pass": true
+    },
+    {
+      "check": "R0_actual_space_x_and_release_land",
+      "details": {
+        "jump_starts": 1,
+        "peak_height": 107.5
+      },
+      "pass": true
+    },
+    {
+      "check": "R0_holding_space_does_not_auto_jump",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_actual_air_attack_does_not_advance_ground_chain",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_actual_air_control_moves_ground_point",
+      "details": {
+        "source_position": "(512.8338, 320.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "R0_ground_movement_uses_fixed_physics_step",
+      "details": {
+        "twelve_tick_distance": 18.3335571289062
+      },
+      "pass": true
+    },
+    {
+      "check": "r0_to_r1_preserves_air_phase_and_height",
+      "details": {},
+      "pass": true
+    }
+  ],
+  "failed": 0,
+  "jump_source_sha256": "5ca03ad47e0f653b1e13c23003fbfde5b5e91a7037d36dfc5aebe08e6429de0e",
+  "motion_data_sha256": "3523b6a3f5a2c9b7cc4164fb6a7bbeda59c0a2fa0001c5f5d215907ab2898983",
+  "notes": [
+    "Motion is a documented mapping from source values and pose timing, not a recovered engine physics implementation.",
+    "CharacterBody3D represents ground navigation. Visual height and ground shadow are independent.",
+    "Actual keyboard events are injected through Godot Input.parse_input_event and observed for 95 physics frames in each scene."
+  ],
+  "qa_source_sha256": "a993723afe0f05a5815d6a39088931f05940e9615e41279265d60657869d2754",
+  "render_cases": [
+    {
+      "height_pixels": 80.625,
+      "matching": 290,
+      "max_rgb_distance": 0.0,
+      "render_scale": 1,
+      "samples": 290,
+      "scene": "R1"
+    },
+    {
+      "height_pixels": 80.625,
+      "matching": 290,
+      "max_rgb_distance": 0.0,
+      "render_scale": 2,
+      "samples": 290,
+      "scene": "R1"
+    },
+    {
+      "height_pixels": 80.625,
+      "matching": 290,
+      "max_rgb_distance": 0.0,
+      "render_scale": 1,
+      "samples": 290,
+      "scene": "R0"
+    }
+  ]
+}

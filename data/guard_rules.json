@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "action": "guard",
+  "input_action": "guard",
+  "key": "C",
+  "cooldown_seconds": 2.0,
+  "physical_absorption_percent": 40,
+  "minimum_damage": 1,
+  "reaction_seconds": 0.2,
+  "recoil_px": 6.0,
+  "idle_frame": 0,
+  "hit_frame": 1,
+  "source_reference": "res://docs/r4_guard_source_reference.json",
+  "source": {
+    "skill": "skill/swordman/guard.skl",
+    "skill_crc": 2525883932,
+    "animation": "character/swordman/animation/guard.ani",
+    "animation_crc": 1004401756,
+    "img_frames": [
+      123,
+      124
+    ],
+    "original_frame_duration_ms": [
+      10000,
+      10000
+    ],
+    "original_offsets": [
+      [
+        -232,
+        -333
+      ],
+      [
+        -232,
+        -333
+      ]
+    ],
+    "level1_physical_absorption_percent": 40,
+    "level1_knockback_time_ms": 200,
+    "cool_time_ms": [
+      2000,
+      2000
+    ],
+    "proven_behavior": "Front-only held guard; source describes an MP charge only at entry. No MP pool or MP cost is implemented in this prototype.",
+    "level1_magical_absorption_percent": 15
+  },
+  "adaptation": {
+    "status": "R4/05 physical manual guard, R4/08 typed magic contact adaptation; source combat dispatcher not recovered",
+    "damage": "Valid physical/magic contact uses front (attacker_x-defender_x)*locked_facing>0. Physical absorbs40%, magic15%; max1 ceil(raw*(1-absorption/100)). Existing three-argument calls default physical. Unknown kinds take full damage and cancel guard. No parry/counter/MP.",
+    "pose": "Use original IMG123 as held idle and IMG124 for an adapted200ms block response, then idle if still held. The two original10000ms inspection records never become a20s cast timer. Normal key release waits out an ongoing response; rear/same-X contact, KO, reset, modal, preview or scene transfer cancels immediately.",
+    "cooldown": "Accepted entry starts2s once; release/cancellation does not refund it. It ticks during guard, ordinary actions/movement/own hurt, and freezes during pause/inspection/preview/modal/menu/fade/KO/R0. Reset explicitly clears it. Continuous hold has no duration limit.",
+    "control": "Independent actor.guard_active bool; never ui_input_blocked. Root actor/input integration locks movement/facing/jump/attack/skills/potion during guard/response. Press is accepted only while grounded/free. Modal/menu/preview cancels guard. Pause/inspection freezes guard; on resuming a released C ends it. Forced cancellation requires physical C release before a new begin.",
+    "health_and_recoil": "Controller returns damage and6px adapted recoil only. Caller consumes one enemy-hit latch, applies HP/persistence/ground-constrained recoil, skips ordinary hurt on a surviving block, and cancels guard before its existing KO flow if chip kills. Caller retains all range/depth/height/active-window checks.",
+    "media": "No new FX/audio. Source guard dust/spark resources exist, but direct canonical player contact dispatch is not proved."
+  },
+  "magic_absorption_percent": 15
+}

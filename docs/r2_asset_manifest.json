@@ -1,0 +1,10042 @@
+{
+  "schema": 1,
+  "created_at_utc": "2026-10-23T06:41:44.506496+00:00",
+  "client": "95",
+  "client_directory": "/Users/mac/Downloads/天堂95起源单机客户端",
+  "source_pvf_sha256": "dc0e1acbc98b03b160e9ddb0643efdc7752cdf9c8969937507720a4ca2705c7b",
+  "pvf_header": {
+    "version_raw": 3755924789,
+    "tree_bytes": 52325060,
+    "file_count": 597489,
+    "unique_paths": 597489,
+    "tree_consumed": 52325059,
+    "tree_padding": 1,
+    "tree_crc_expected": 3484566826,
+    "tree_crc_actual": 3484566826,
+    "payload_bounds_errors": [],
+    "parse_error": null
+  },
+  "frames": [
+    {
+      "texture": "res://assets/r2/approach/bridge_0.png",
+      "width": 224,
+      "height": 306,
+      "sha256_png": "0ecf8db65e61067fb8a034356e7d9cf3eef94a61f4f30c9be9d1060495ae7896",
+      "sha256_rgba": "2fe62588805e6491d2e2074900aaec4a10164f114e981a14aabb1cffe1f3151d",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "approach/bridge_0",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 306,
+        "x": 0,
+        "y": 254,
+        "canvas_width": 224,
+        "canvas_height": 560,
+        "data_offset": 176,
+        "data_bytes": 8068,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_hendonmyre.NPK",
+        "npk_sha256": "9c2ec086ce0c368c7be33807bfa8220d14007156cf40f05f20210f3d5121ef7f",
+        "img": "sprite/map/hendonmyre/skybridge.img",
+        "npk_entry_offset": 3161025,
+        "payload_bytes": 82889,
+        "sha256_img_payload": "5722dfc76d2766c1a8042c797024f819e952e0e8957de4769631f050ebcad179"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/approach/bridge_1.png",
+      "width": 224,
+      "height": 306,
+      "sha256_png": "d43e95e95ebf8477a0c31c1dae46707c18bf812e5ecfeb93ea6b0ca5b659ba09",
+      "sha256_rgba": "80360d952299f0fec038aa4057e97f6760da7fc11eb0e4ba7140a570ea0fc9a7",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "approach/bridge_1",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 1,
+      "resolved_img_frame": 1,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 306,
+        "x": 0,
+        "y": 254,
+        "canvas_width": 224,
+        "canvas_height": 560,
+        "data_offset": 8244,
+        "data_bytes": 9395,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_hendonmyre.NPK",
+        "npk_sha256": "9c2ec086ce0c368c7be33807bfa8220d14007156cf40f05f20210f3d5121ef7f",
+        "img": "sprite/map/hendonmyre/skybridge.img",
+        "npk_entry_offset": 3161025,
+        "payload_bytes": 82889,
+        "sha256_img_payload": "5722dfc76d2766c1a8042c797024f819e952e0e8957de4769631f050ebcad179"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/approach/bridge_2.png",
+      "width": 224,
+      "height": 546,
+      "sha256_png": "d9b7a4c81deb075400c1a38b8b664d44387903a920228f628f333274485a4274",
+      "sha256_rgba": "23202fc65193df41ac7b0546f5b5e9c289e10c907e549b283c33945163d470b7",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "approach/bridge_2",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 2,
+      "resolved_img_frame": 2,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 546,
+        "x": 0,
+        "y": 14,
+        "canvas_width": 224,
+        "canvas_height": 560,
+        "data_offset": 17639,
+        "data_bytes": 26988,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_hendonmyre.NPK",
+        "npk_sha256": "9c2ec086ce0c368c7be33807bfa8220d14007156cf40f05f20210f3d5121ef7f",
+        "img": "sprite/map/hendonmyre/skybridge.img",
+        "npk_entry_offset": 3161025,
+        "payload_bytes": 82889,
+        "sha256_img_payload": "5722dfc76d2766c1a8042c797024f819e952e0e8957de4769631f050ebcad179"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/approach/bridge_3.png",
+      "width": 224,
+      "height": 470,
+      "sha256_png": "3da82f54f87015b4679dea7003d37607eb1642efd4ef8b3b27b7e935d0486b49",
+      "sha256_rgba": "ac922687e1e196c164a82874026a296c50bfb9b6466dc776af0de5ee71e97d2c",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "approach/bridge_3",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 3,
+      "resolved_img_frame": 3,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 470,
+        "x": 0,
+        "y": 90,
+        "canvas_width": 224,
+        "canvas_height": 560,
+        "data_offset": 44627,
+        "data_bytes": 38262,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_hendonmyre.NPK",
+        "npk_sha256": "9c2ec086ce0c368c7be33807bfa8220d14007156cf40f05f20210f3d5121ef7f",
+        "img": "sprite/map/hendonmyre/skybridge.img",
+        "npk_entry_offset": 3161025,
+        "payload_bytes": 82889,
+        "sha256_img_payload": "5722dfc76d2766c1a8042c797024f819e952e0e8957de4769631f050ebcad179"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/approach/sea.png",
+      "width": 896,
+      "height": 262,
+      "sha256_png": "bb0b5c8010d7a34f47cdebe4f6b69696893ac7dfbeef3871c4d273961e68171f",
+      "sha256_rgba": "468dcab6cb208df28918aba294fe7740a803b34169060e2907ac7571ef8f2179",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "approach/sea",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 9,
+      "resolved_img_frame": 9,
+      "img_metadata": {
+        "type": 16,
+        "mode": 6,
+        "width": 896,
+        "height": 262,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 896,
+        "canvas_height": 262,
+        "data_offset": 59341,
+        "data_bytes": 35848,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_hendonmyre.NPK",
+        "npk_sha256": "9c2ec086ce0c368c7be33807bfa8220d14007156cf40f05f20210f3d5121ef7f",
+        "img": "sprite/map/hendonmyre/skyway.img",
+        "npk_entry_offset": 3252228,
+        "payload_bytes": 129808,
+        "sha256_img_payload": "08b1e3ae47073ebb72be253c5af7d4403e0f57681e20ed2e21dd2c8a3bde1d2f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/approach/wall.png",
+      "width": 333,
+      "height": 84,
+      "sha256_png": "2a104d350760763625cbc7e54a2104514242243a117d0bab817133b763f5b40b",
+      "sha256_rgba": "95f8f9c5e53dfa277ffeab6e3c8aeac013184baa54ce376728f76b18599067d8",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "approach/wall",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 8,
+      "resolved_img_frame": 8,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 333,
+        "height": 84,
+        "x": 0,
+        "y": 198,
+        "canvas_width": 333,
+        "canvas_height": 480,
+        "data_offset": 57657,
+        "data_bytes": 1684,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_hendonmyre.NPK",
+        "npk_sha256": "9c2ec086ce0c368c7be33807bfa8220d14007156cf40f05f20210f3d5121ef7f",
+        "img": "sprite/map/hendonmyre/skyway.img",
+        "npk_entry_offset": 3252228,
+        "payload_bytes": 129808,
+        "sha256_img_payload": "08b1e3ae47073ebb72be253c5af7d4403e0f57681e20ed2e21dd2c8a3bde1d2f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/entrance/tower.png",
+      "width": 882,
+      "height": 600,
+      "sha256_png": "d9a0966f80589896538c6f40e22ef26e7e0f3a2260d113f53e1953fcfc9007c4",
+      "sha256_rgba": "bdec6c4fcd7b7ff5da195442784a8eb3311bb1a6a54b9129380d7fead458dbb9",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "entrance/tower",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 882,
+        "height": 600,
+        "x": 26,
+        "y": 0,
+        "canvas_width": 908,
+        "canvas_height": 600,
+        "data_offset": 500,
+        "data_bytes": 199859,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_cataclysm_skytower_towerroad.NPK",
+        "npk_sha256": "4be92c1c6dbd8c270f75b557a134d9da73707cf2a346e31cfd818ae71a2d6999",
+        "img": "sprite/map/cataclysm/skytower/towerroad/tower.img",
+        "npk_entry_offset": 593637,
+        "payload_bytes": 2622325,
+        "sha256_img_payload": "c3ccd42bd6ad44cf826f41a34722896df1c2870259f90575fabec364af35b30a"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/entrance/gate.png",
+      "width": 102,
+      "height": 218,
+      "sha256_png": "2efc4cf0bb8f94b288107717a9dbf1e1ab21a1cb4237396acc92b2bf2f5187e8",
+      "sha256_rgba": "aa7e65c08413b686be555ec87a554ddfa5d4b711135be84370071da90d57fab9",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "entrance/gate",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 102,
+        "height": 218,
+        "x": 347,
+        "y": 185,
+        "canvas_width": 908,
+        "canvas_height": 600,
+        "data_offset": 2372,
+        "data_bytes": 7037,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_cataclysm_skytower_towerroad.NPK",
+        "npk_sha256": "4be92c1c6dbd8c270f75b557a134d9da73707cf2a346e31cfd818ae71a2d6999",
+        "img": "sprite/map/cataclysm/skytower/towerroad/pathgatel.img",
+        "npk_entry_offset": 243573,
+        "payload_bytes": 229408,
+        "sha256_img_payload": "afb9cdeb7e1ce840a004998ab750fea37db2e9fd9ae9958ceb6e2c98f6ec6d1f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/entrance/far.png",
+      "width": 640,
+      "height": 786,
+      "sha256_png": "4b592f645ad36b9a6eb257730a622fca0f457a10ab7f13df9a9f7b01265a570c",
+      "sha256_rgba": "42032a09adf3cbf14dea85ab1b836a24042a1afbf462480356918465d67d7865",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "entrance/far",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 640,
+        "height": 786,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 640,
+        "canvas_height": 786,
+        "data_offset": 68,
+        "data_bytes": 105847,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_cataclysm_skytower_towerroad.NPK",
+        "npk_sha256": "4be92c1c6dbd8c270f75b557a134d9da73707cf2a346e31cfd818ae71a2d6999",
+        "img": "sprite/map/cataclysm/skytower/towerroad/back_far.img",
+        "npk_entry_offset": 137658,
+        "payload_bytes": 105915,
+        "sha256_img_payload": "66a62a97b3f09d21e0762ba57523c5d21e8cb9498369d844842505ed667c2870"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/interior/far.png",
+      "width": 630,
+      "height": 355,
+      "sha256_png": "68355157b25e188eef2d05adcf76f3681b6a53144991f8c7d7e5f7ccfbf2c2b0",
+      "sha256_rgba": "8d43407836639a9b6c7ec14f38e93b6e39cfe273dff04267cbdf391db1d7c433",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "interior/far",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 630,
+        "height": 355,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 630,
+        "canvas_height": 355,
+        "data_offset": 68,
+        "data_bytes": 26318,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/far_dr.img",
+        "npk_entry_offset": 357359,
+        "payload_bytes": 26386,
+        "sha256_img_payload": "65c32fdfec403205d39848d6fdef885f38175b42c5157c85fe876e887e444fce"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/interior/wall_0.png",
+      "width": 224,
+      "height": 434,
+      "sha256_png": "9e53947a990e4f2e03fbf697b2fa298d78b1fbd4d061acc952e8a2a7389259e5",
+      "sha256_rgba": "f6ed5631448a9e4cab6ce886fe1f31e8bde13c9fd64594a988fd8534c698ce56",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/wall_0",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 434,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 434,
+        "data_offset": 248,
+        "data_bytes": 11481,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/200amonnew.img",
+        "npk_entry_offset": 4804,
+        "payload_bytes": 64080,
+        "sha256_img_payload": "c1fdcfccc53e262423203e3da6409704ec2abed60cf653819f2d184488c77f9f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/interior/wall_1.png",
+      "width": 224,
+      "height": 434,
+      "sha256_png": "3c509dcd60aafbbd412dca38fbc803c6f1b996f12d42362c8840d9619bc15846",
+      "sha256_rgba": "f3f8c7b97656052adae5a47536e2eadddba110ebc55a1abc0f5a867eeaebc281",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/wall_1",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 1,
+      "resolved_img_frame": 1,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 434,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 434,
+        "data_offset": 11729,
+        "data_bytes": 6658,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/200amonnew.img",
+        "npk_entry_offset": 4804,
+        "payload_bytes": 64080,
+        "sha256_img_payload": "c1fdcfccc53e262423203e3da6409704ec2abed60cf653819f2d184488c77f9f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/interior/wall_2.png",
+      "width": 224,
+      "height": 434,
+      "sha256_png": "415fcaecc8f3f56b7dcd1d273102714db2e5a387b133a5b53b8a5fdb3d8240a6",
+      "sha256_rgba": "160aacf810744b3e971150348154c5dfafbba4ace06af2c15820e5386fc7713e",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/wall_2",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 2,
+      "resolved_img_frame": 2,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 434,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 434,
+        "data_offset": 18387,
+        "data_bytes": 10303,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/200amonnew.img",
+        "npk_entry_offset": 4804,
+        "payload_bytes": 64080,
+        "sha256_img_payload": "c1fdcfccc53e262423203e3da6409704ec2abed60cf653819f2d184488c77f9f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/interior/wall_3.png",
+      "width": 224,
+      "height": 434,
+      "sha256_png": "5a15ecd9e02d6604ab4dcae807ebb4525d3828c5070e7b67e1d48755df322e7c",
+      "sha256_rgba": "c1517717790eb831f76e8edda1b43b27e70094b3ac14b9d4ad4240ffcd3daf8a",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/wall_3",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 3,
+      "resolved_img_frame": 3,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 434,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 434,
+        "data_offset": 28690,
+        "data_bytes": 13101,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/200amonnew.img",
+        "npk_entry_offset": 4804,
+        "payload_bytes": 64080,
+        "sha256_img_payload": "c1fdcfccc53e262423203e3da6409704ec2abed60cf653819f2d184488c77f9f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/interior/wall_4.png",
+      "width": 224,
+      "height": 434,
+      "sha256_png": "d2c3f8aefabb66bd5fea73b3ed28d4bbbf0ae2aa7dee244c0b1769f9cfbacbd1",
+      "sha256_rgba": "c1481cdac4c25f6c36093bada339eb9827ee8bbcd1e85823e616f6daac5ab97f",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/wall_4",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 4,
+      "resolved_img_frame": 4,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 434,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 434,
+        "data_offset": 41791,
+        "data_bytes": 13149,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/200amonnew.img",
+        "npk_entry_offset": 4804,
+        "payload_bytes": 64080,
+        "sha256_img_payload": "c1fdcfccc53e262423203e3da6409704ec2abed60cf653819f2d184488c77f9f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/interior/wall_5.png",
+      "width": 224,
+      "height": 434,
+      "sha256_png": "03db96d9a414a43fea3c6bfd5c792fb52ba9e249e4176f379344a23c5f701c3a",
+      "sha256_rgba": "50f4c69b154023f03b332edd2b4f6268b1b68f4308b09ef19bacbe3cef34b788",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/wall_5",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 5,
+      "resolved_img_frame": 5,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 434,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 434,
+        "data_offset": 54940,
+        "data_bytes": 9140,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/200amonnew.img",
+        "npk_entry_offset": 4804,
+        "payload_bytes": 64080,
+        "sha256_img_payload": "c1fdcfccc53e262423203e3da6409704ec2abed60cf653819f2d184488c77f9f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/interior/floor.png",
+      "width": 224,
+      "height": 120,
+      "sha256_png": "3b91d4726297fa475ccedfcaebae9ca6e6005f9935bf98b568ba67dfffdfccf5",
+      "sha256_rgba": "7f97ee756bc22d2432a1a7ee15dc6121421cc314d47711d6e43e99dab3c284cd",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "interior/floor",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 120,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 120,
+        "data_offset": 284,
+        "data_bytes": 4753,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/200amonnewex.img",
+        "npk_entry_offset": 68884,
+        "payload_bytes": 32533,
+        "sha256_img_payload": "dbfacce69649666b3ae64debb1e70a52e2eaa7f44ac3eb02cdef876ba0cba1c3"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/interior/banner.png",
+      "width": 224,
+      "height": 309,
+      "sha256_png": "f4f605464b8846663a39f502e8e2a557ec5690c5825215742d28353fd9db5a1b",
+      "sha256_rgba": "60c2299f69eea825861b22f3692ff5797296d21c993db393095cb7efe9404425",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/banner",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 309,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 480,
+        "data_offset": 68,
+        "data_bytes": 6063,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/bakalsymbol.img",
+        "npk_entry_offset": 321498,
+        "payload_bytes": 6131,
+        "sha256_img_payload": "eec82f7d0ef0e987b06885f779cefd93a11d5e1dff803f3930217b53508bb46b"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    },
+    {
+      "texture": "res://assets/r2/interior/column.png",
+      "width": 29,
+      "height": 93,
+      "sha256_png": "4eafb3ddd62e4af5b8d0fe874e5bf98864e21dfd7006e88bd858f3cdc7cb290d",
+      "sha256_rgba": "3c353ccd201c43355658636cdad46f037629c6d878300a0c8d32a9c3f13479ef",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/column",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 29,
+        "height": 93,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 29,
+        "canvas_height": 93,
+        "data_offset": 68,
+        "data_bytes": 1234,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2.NPK",
+        "npk_sha256": "d262997bbe267fd4ccbcd84509e024bc8e1aead1aace03bfe21a7ea9a543f8ba",
+        "img": "sprite/map/act2/marblestonepillar.img",
+        "npk_entry_offset": 212989,
+        "payload_bytes": 1302,
+        "sha256_img_payload": "9b25110ab97418b60bcce378ac0663f64c751d93624460982c99689f67109734"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+    }
+  ],
+  "derived": [
+    {
+      "texture": "res://assets/r2/approach/paving.png",
+      "width": 192,
+      "height": 96,
+      "sha256_png": "f5a121baf4126009bd8be229033b32a4f8b7205038fb2bcdefc42e76f7ef769a",
+      "sha256_rgba": "57fd6c9ff47f21516085409e03e601b911bb4161cdcc12d0ed7e7b85acd2756c",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "approach/paving",
+      "original_img_crop": false,
+      "derived_subrect": true,
+      "source_texture": "res://assets/r2/approach/bridge_0.png",
+      "source_rect_xyxy": [
+        16,
+        120,
+        208,
+        216
+      ],
+      "export": "Exact RGBA subrectangle of exported source crop; no resampling, rectification or color edits."
+    },
+    {
+      "texture": "res://assets/r2/interior/paving.png",
+      "width": 192,
+      "height": 96,
+      "sha256_png": "b9a5baa51c5c8436496b9ce51c19a3194b39169d9a55031a08d1fe237ad7f956",
+      "sha256_rgba": "56063816059c0828093b2ea2f0451c855d0c99f3f02f70c7ced130670cdd351c",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "interior/paving",
+      "original_img_crop": false,
+      "derived_subrect": true,
+      "source_texture": "res://assets/r2/interior/floor.png",
+      "source_rect_xyxy": [
+        16,
+        16,
+        208,
+        112
+      ],
+      "export": "Exact RGBA subrectangle of exported source crop; no resampling, rectification or color edits."
+    }
+  ],
+  "roles": {
+    "approach/bridge_0": "res://assets/r2/approach/bridge_0.png",
+    "approach/bridge_1": "res://assets/r2/approach/bridge_1.png",
+    "approach/bridge_2": "res://assets/r2/approach/bridge_2.png",
+    "approach/bridge_3": "res://assets/r2/approach/bridge_3.png",
+    "approach/sea": "res://assets/r2/approach/sea.png",
+    "approach/wall": "res://assets/r2/approach/wall.png",
+    "entrance/tower": "res://assets/r2/entrance/tower.png",
+    "entrance/gate": "res://assets/r2/entrance/gate.png",
+    "entrance/far": "res://assets/r2/entrance/far.png",
+    "interior/far": "res://assets/r2/interior/far.png",
+    "interior/wall_0": "res://assets/r2/interior/wall_0.png",
+    "interior/wall_1": "res://assets/r2/interior/wall_1.png",
+    "interior/wall_2": "res://assets/r2/interior/wall_2.png",
+    "interior/wall_3": "res://assets/r2/interior/wall_3.png",
+    "interior/wall_4": "res://assets/r2/interior/wall_4.png",
+    "interior/wall_5": "res://assets/r2/interior/wall_5.png",
+    "interior/floor": "res://assets/r2/interior/floor.png",
+    "interior/banner": "res://assets/r2/interior/banner.png",
+    "interior/column": "res://assets/r2/interior/column.png",
+    "approach/paving": "res://assets/r2/approach/paving.png",
+    "interior/paving": "res://assets/r2/interior/paving.png"
+  },
+  "scripts": [
+    {
+      "path": "dungeon/act2/draconiantower.dgn",
+      "sha256": "95e4b7e22ff5cca10baa7c845dfc41ddf16840265cee2745c9f2960d0de39955",
+      "crc": {
+        "expected": 3248078410,
+        "actual_seed_file_number": 3248078410,
+        "actual_seed_zero": 1116487613
+      },
+      "decoded": [
+        {
+          "type": 5,
+          "index": 16828,
+          "text": "[background pos]"
+        },
+        {
+          "type": 2,
+          "value": 80
+        },
+        {
+          "type": 5,
+          "index": 11429,
+          "text": "[name]"
+        },
+        {
+          "type": 9,
+          "value": 2
+        },
+        {
+          "type": 10,
+          "index": 16919,
+          "text": "name_460"
+        },
+        {
+          "type": 5,
+          "index": 16857,
+          "text": "[explain]"
+        },
+        {
+          "type": 9,
+          "value": 2
+        },
+        {
+          "type": 10,
+          "index": 16920,
+          "text": "explain_465"
+        },
+        {
+          "type": 5,
+          "index": 16829,
+          "text": "[entering title]"
+        },
+        {
+          "type": 7,
+          "index": 16921,
+          "text": "Title/sky_dragoner'stower.ani"
+        },
+        {
+          "type": 5,
+          "index": 16831,
+          "text": "[cutscene image]"
+        },
+        {
+          "type": 7,
+          "index": 16902,
+          "text": "Map/CutScene/SkyCastle.img"
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 5,
+          "index": 16833,
+          "text": "[minimap image]"
+        },
+        {
+          "type": 7,
+          "index": 16903,
+          "text": "Map/MiniMap/Act2.img"
+        },
+        {
+          "type": 5,
+          "index": 534403,
+          "text": "[worldmap pattern info]"
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 7,
+          "index": 16915,
+          "text": "WorldMap/SelectdungeonSlot/skycastle.img"
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 5,
+          "index": 16837,
+          "text": "[minimum required level]"
+        },
+        {
+          "type": 2,
+          "value": 16
+        },
+        {
+          "type": 5,
+          "index": 16838,
+          "text": "[basis level]"
+        },
+        {
+          "type": 2,
+          "value": 19
+        },
+        {
+          "type": 5,
+          "index": 16839,
+          "text": "[experience increasing point]"
+        },
+        {
+          "type": 4,
+          "value": 0.6000000238418579
+        },
+        {
+          "type": 5,
+          "index": 16840,
+          "text": "[champion]"
+        },
+        {
+          "type": 2,
+          "value": 4
+        },
+        {
+          "type": 2,
+          "value": 8
+        },
+        {
+          "type": 2,
+          "value": 12
+        },
+        {
+          "type": 2,
+          "value": 16
+        },
+        {
+          "type": 2,
+          "value": 18
+        },
+        {
+          "type": 5,
+          "index": 16852,
+          "text": "[special passive object item]"
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": -1
+        },
+        {
+          "type": 2,
+          "value": 4
+        },
+        {
+          "type": 2,
+          "value": 3123
+        },
+        {
+          "type": 2,
+          "value": 800
+        },
+        {
+          "type": 2,
+          "value": 3124
+        },
+        {
+          "type": 2,
+          "value": 800
+        },
+        {
+          "type": 2,
+          "value": 3125
+        },
+        {
+          "type": 2,
+          "value": 800
+        },
+        {
+          "type": 2,
+          "value": 3128
+        },
+        {
+          "type": 2,
+          "value": 800
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": -1
+        },
+        {
+          "type": 2,
+          "value": 4
+        },
+        {
+          "type": 2,
+          "value": 1048
+        },
+        {
+          "type": 2,
+          "value": 800
+        },
+        {
+          "type": 2,
+          "value": 1049
+        },
+        {
+          "type": 2,
+          "value": 800
+        },
+        {
+          "type": 2,
+          "value": 1059
+        },
+        {
+          "type": 2,
+          "value": 800
+        },
+        {
+          "type": 2,
+          "value": 1061
+        },
+        {
+          "type": 2,
+          "value": 800
+        },
+        {
+          "type": 5,
+          "index": 16853,
+          "text": "[/special passive object item]"
+        },
+        {
+          "type": 5,
+          "index": 16841,
+          "text": "[pathgate object]"
+        },
+        {
+          "type": 2,
+          "value": 401
+        },
+        {
+          "type": 2,
+          "value": 402
+        },
+        {
+          "type": 2,
+          "value": 403
+        },
+        {
+          "type": 2,
+          "value": 404
+        },
+        {
+          "type": 2,
+          "value": 405
+        },
+        {
+          "type": 2,
+          "value": 406
+        },
+        {
+          "type": 2,
+          "value": 407
+        },
+        {
+          "type": 2,
+          "value": 408
+        },
+        {
+          "type": 2,
+          "value": 409
+        },
+        {
+          "type": 2,
+          "value": 410
+        },
+        {
+          "type": 5,
+          "index": 16842,
+          "text": "[maze info]"
+        },
+        {
+          "type": 5,
+          "index": 16843,
+          "text": "[size]"
+        },
+        {
+          "type": 2,
+          "value": 4
+        },
+        {
+          "type": 2,
+          "value": 5
+        },
+        {
+          "type": 5,
+          "index": 16844,
+          "text": "[greed]"
+        },
+        {
+          "type": 7,
+          "index": 16922,
+          "text": "AAJJEEAA\r\n AADDMMAA\r\n BBFFPPEE\r\n AAJJGGAA\r\n AADDEEAA"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 1602
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 1603
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 1609
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 1604
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 1610
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 3
+        },
+        {
+          "type": 2,
+          "value": 1605
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 3
+        },
+        {
+          "type": 2,
+          "value": 1611
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 4
+        },
+        {
+          "type": 2,
+          "value": 1606
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16848,
+          "text": "[start map]"
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 4
+        },
+        {
+          "type": 5,
+          "index": 16849,
+          "text": "[/start map]"
+        },
+        {
+          "type": 5,
+          "index": 16850,
+          "text": "[boss map]"
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 3
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 5,
+          "index": 529154,
+          "text": "[/boss map]"
+        },
+        {
+          "type": 5,
+          "index": 16842,
+          "text": "[maze info]"
+        },
+        {
+          "type": 5,
+          "index": 16861,
+          "text": "[quest connection]"
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 4307
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 5,
+          "index": 16843,
+          "text": "[size]"
+        },
+        {
+          "type": 2,
+          "value": 4
+        },
+        {
+          "type": 2,
+          "value": 5
+        },
+        {
+          "type": 5,
+          "index": 16844,
+          "text": "[greed]"
+        },
+        {
+          "type": 7,
+          "index": 16923,
+          "text": "JJNNEEAA\r\n CCDDMMAA\r\n BBFFPPEE\r\n AAJJGGAA\r\n AADDEEAA"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 1620
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 1603
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 1609
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16862,
+          "text": "[boss map specification]"
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 1619
+        },
+        {
+          "type": 5,
+          "index": 16863,
+          "text": "[/boss map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 1604
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 1610
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 3
+        },
+        {
+          "type": 2,
+          "value": 1605
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 3
+        },
+        {
+          "type": 2,
+          "value": 1611
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16846,
+          "text": "[map specification]"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 4
+        },
+        {
+          "type": 2,
+          "value": 1606
+        },
+        {
+          "type": 5,
+          "index": 16847,
+          "text": "[/map specification]"
+        },
+        {
+          "type": 5,
+          "index": 16848,
+          "text": "[start map]"
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 5,
+          "index": 16849,
+          "text": "[/start map]"
+        },
+        {
+          "type": 5,
+          "index": 16850,
+          "text": "[boss map]"
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 5,
+          "index": 529154,
+          "text": "[/boss map]"
+        },
+        {
+          "type": 5,
+          "index": 16854,
+          "text": "[event monster]"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 10000
+        },
+        {
+          "type": 2,
+          "value": 61726
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 300
+        },
+        {
+          "type": 2,
+          "value": 80
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 5,
+          "index": 16855,
+          "text": "[/event monster]"
+        }
+      ]
+    },
+    {
+      "path": "map/draconiantower/(2,0)s1601.map",
+      "sha256": "be0737a1156a44c6b4d837d17f3924b2098d92c280ca9fa9f0d0ef9f37f54b30",
+      "crc": {
+        "expected": 4079465042,
+        "actual_seed_file_number": 4079465042,
+        "actual_seed_zero": 266960175
+      },
+      "decoded": [
+        {
+          "type": 5,
+          "index": 299207,
+          "text": "[player number]"
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 8
+        },
+        {
+          "type": 5,
+          "index": 299208,
+          "text": "[pvp start area]"
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 5,
+          "index": 3783,
+          "text": "[dungeon]"
+        },
+        {
+          "type": 2,
+          "value": 11
+        },
+        {
+          "type": 5,
+          "index": 242271,
+          "text": "[/dungeon]"
+        },
+        {
+          "type": 5,
+          "index": 5978,
+          "text": "[type]"
+        },
+        {
+          "type": 7,
+          "index": 1565,
+          "text": "[normal]"
+        },
+        {
+          "type": 5,
+          "index": 16844,
+          "text": "[greed]"
+        },
+        {
+          "type": 7,
+          "index": 299288,
+          "text": "EE EE"
+        },
+        {
+          "type": 5,
+          "index": 287298,
+          "text": "[tile]"
+        },
+        {
+          "type": 7,
+          "index": 299362,
+          "text": "Tile/SkyCastleDCPoll.til"
+        },
+        {
+          "type": 7,
+          "index": 299364,
+          "text": "Tile/SkyCastleUCPoll.til"
+        },
+        {
+          "type": 7,
+          "index": 299365,
+          "text": "Tile/SkyCastlePCPoll.til"
+        },
+        {
+          "type": 7,
+          "index": 299366,
+          "text": "Tile/SkyCastleNPoll.til"
+        },
+        {
+          "type": 7,
+          "index": 299366,
+          "text": "Tile/SkyCastleNPoll.til"
+        },
+        {
+          "type": 7,
+          "index": 299362,
+          "text": "Tile/SkyCastleDCPoll.til"
+        },
+        {
+          "type": 5,
+          "index": 287299,
+          "text": "[/tile]"
+        },
+        {
+          "type": 5,
+          "index": 299212,
+          "text": "[far sight scroll]"
+        },
+        {
+          "type": 2,
+          "value": 56
+        },
+        {
+          "type": 5,
+          "index": 299214,
+          "text": "[near sight scroll]"
+        },
+        {
+          "type": 2,
+          "value": 110
+        },
+        {
+          "type": 5,
+          "index": 299312,
+          "text": "[background animation]"
+        },
+        {
+          "type": 5,
+          "index": 299313,
+          "text": "[ani info]"
+        },
+        {
+          "type": 5,
+          "index": 299314,
+          "text": "[filename]"
+        },
+        {
+          "type": 7,
+          "index": 299367,
+          "text": "Animation/far1.ani"
+        },
+        {
+          "type": 5,
+          "index": 5149,
+          "text": "[layer]"
+        },
+        {
+          "type": 7,
+          "index": 299316,
+          "text": "[distantback]"
+        },
+        {
+          "type": 5,
+          "index": 299317,
+          "text": "[order]"
+        },
+        {
+          "type": 7,
+          "index": 299318,
+          "text": "[below]"
+        },
+        {
+          "type": 5,
+          "index": 299319,
+          "text": "[/ani info]"
+        },
+        {
+          "type": 5,
+          "index": 299313,
+          "text": "[ani info]"
+        },
+        {
+          "type": 5,
+          "index": 299314,
+          "text": "[filename]"
+        },
+        {
+          "type": 7,
+          "index": 300186,
+          "text": "Animation/DCcloud1.ani"
+        },
+        {
+          "type": 5,
+          "index": 5149,
+          "text": "[layer]"
+        },
+        {
+          "type": 7,
+          "index": 299369,
+          "text": "[middleback]"
+        },
+        {
+          "type": 5,
+          "index": 299317,
+          "text": "[order]"
+        },
+        {
+          "type": 7,
+          "index": 299318,
+          "text": "[below]"
+        },
+        {
+          "type": 5,
+          "index": 299319,
+          "text": "[/ani info]"
+        },
+        {
+          "type": 5,
+          "index": 299320,
+          "text": "[/background animation]"
+        },
+        {
+          "type": 5,
+          "index": 299215,
+          "text": "[pathgate pos]"
+        },
+        {
+          "type": 2,
+          "value": 15
+        },
+        {
+          "type": 2,
+          "value": 256
+        },
+        {
+          "type": 2,
+          "value": 1330
+        },
+        {
+          "type": 2,
+          "value": 265
+        },
+        {
+          "type": 2,
+          "value": 444
+        },
+        {
+          "type": 2,
+          "value": 815
+        },
+        {
+          "type": 2,
+          "value": 712
+        },
+        {
+          "type": 2,
+          "value": 683
+        },
+        {
+          "type": 5,
+          "index": 299253,
+          "text": "[dungeon start area]"
+        },
+        {
+          "type": 2,
+          "value": 990
+        },
+        {
+          "type": 2,
+          "value": 217
+        },
+        {
+          "type": 2,
+          "value": 198
+        },
+        {
+          "type": 2,
+          "value": 208
+        },
+        {
+          "type": 5,
+          "index": 299216,
+          "text": "[sound]"
+        },
+        {
+          "type": 7,
+          "index": 300187,
+          "text": "M_DRACONIAN_TOWER"
+        },
+        {
+          "type": 7,
+          "index": 299218,
+          "text": "R_AMB_WIND"
+        },
+        {
+          "type": 5,
+          "index": 299219,
+          "text": "[/sound]"
+        },
+        {
+          "type": 5,
+          "index": 5148,
+          "text": "[animation]"
+        },
+        {
+          "type": 7,
+          "index": 299373,
+          "text": "Animation/bakalsymbol.ani"
+        },
+        {
+          "type": 7,
+          "index": 299369,
+          "text": "[middleback]"
+        },
+        {
+          "type": 2,
+          "value": 112
+        },
+        {
+          "type": 2,
+          "value": 145
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 7,
+          "index": 299373,
+          "text": "Animation/bakalsymbol.ani"
+        },
+        {
+          "type": 7,
+          "index": 299369,
+          "text": "[middleback]"
+        },
+        {
+          "type": 2,
+          "value": 336
+        },
+        {
+          "type": 2,
+          "value": 145
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 7,
+          "index": 299373,
+          "text": "Animation/bakalsymbol.ani"
+        },
+        {
+          "type": 7,
+          "index": 299369,
+          "text": "[middleback]"
+        },
+        {
+          "type": 2,
+          "value": 560
+        },
+        {
+          "type": 2,
+          "value": 145
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 7,
+          "index": 299373,
+          "text": "Animation/bakalsymbol.ani"
+        },
+        {
+          "type": 7,
+          "index": 299369,
+          "text": "[middleback]"
+        },
+        {
+          "type": 2,
+          "value": 784
+        },
+        {
+          "type": 2,
+          "value": 145
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 7,
+          "index": 299373,
+          "text": "Animation/bakalsymbol.ani"
+        },
+        {
+          "type": 7,
+          "index": 299369,
+          "text": "[middleback]"
+        },
+        {
+          "type": 2,
+          "value": 1008
+        },
+        {
+          "type": 2,
+          "value": 145
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 7,
+          "index": 299373,
+          "text": "Animation/bakalsymbol.ani"
+        },
+        {
+          "type": 7,
+          "index": 299369,
+          "text": "[middleback]"
+        },
+        {
+          "type": 2,
+          "value": 1232
+        },
+        {
+          "type": 2,
+          "value": 145
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 7,
+          "index": 300188,
+          "text": "Animation/DCcloud2.ani"
+        },
+        {
+          "type": 7,
+          "index": 299316,
+          "text": "[distantback]"
+        },
+        {
+          "type": 2,
+          "value": -378
+        },
+        {
+          "type": 2,
+          "value": 60
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 7,
+          "index": 300188,
+          "text": "Animation/DCcloud2.ani"
+        },
+        {
+          "type": 7,
+          "index": 299316,
+          "text": "[distantback]"
+        },
+        {
+          "type": 2,
+          "value": 262
+        },
+        {
+          "type": 2,
+          "value": 60
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 7,
+          "index": 300188,
+          "text": "Animation/DCcloud2.ani"
+        },
+        {
+          "type": 7,
+          "index": 299316,
+          "text": "[distantback]"
+        },
+        {
+          "type": 2,
+          "value": 902
+        },
+        {
+          "type": 2,
+          "value": 60
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 7,
+          "index": 300188,
+          "text": "Animation/DCcloud2.ani"
+        },
+        {
+          "type": 7,
+          "index": 299316,
+          "text": "[distantback]"
+        },
+        {
+          "type": 2,
+          "value": 1542
+        },
+        {
+          "type": 2,
+          "value": 60
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 7,
+          "index": 300188,
+          "text": "Animation/DCcloud2.ani"
+        },
+        {
+          "type": 7,
+          "index": 299316,
+          "text": "[distantback]"
+        },
+        {
+          "type": 2,
+          "value": 2182
+        },
+        {
+          "type": 2,
+          "value": 60
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 7,
+          "index": 300188,
+          "text": "Animation/DCcloud2.ani"
+        },
+        {
+          "type": 7,
+          "index": 299316,
+          "text": "[distantback]"
+        },
+        {
+          "type": 2,
+          "value": 2822
+        },
+        {
+          "type": 2,
+          "value": 60
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 5,
+          "index": 241505,
+          "text": "[/animation]"
+        },
+        {
+          "type": 5,
+          "index": 8424,
+          "text": "[passive object]"
+        },
+        {
+          "type": 2,
+          "value": 801
+        },
+        {
+          "type": 2,
+          "value": 1031
+        },
+        {
+          "type": 2,
+          "value": 201
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 801
+        },
+        {
+          "type": 2,
+          "value": 696
+        },
+        {
+          "type": 2,
+          "value": 204
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 1042
+        },
+        {
+          "type": 2,
+          "value": 316
+        },
+        {
+          "type": 2,
+          "value": 209
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 801
+        },
+        {
+          "type": 2,
+          "value": 1032
+        },
+        {
+          "type": 2,
+          "value": 224
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 801
+        },
+        {
+          "type": 2,
+          "value": 697
+        },
+        {
+          "type": 2,
+          "value": 225
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 1042
+        },
+        {
+          "type": 2,
+          "value": 310
+        },
+        {
+          "type": 2,
+          "value": 333
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 801
+        },
+        {
+          "type": 2,
+          "value": 1034
+        },
+        {
+          "type": 2,
+          "value": 356
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 801
+        },
+        {
+          "type": 2,
+          "value": 696
+        },
+        {
+          "type": 2,
+          "value": 358
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 801
+        },
+        {
+          "type": 2,
+          "value": 696
+        },
+        {
+          "type": 2,
+          "value": 375
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 801
+        },
+        {
+          "type": 2,
+          "value": 1034
+        },
+        {
+          "type": 2,
+          "value": 376
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 5,
+          "index": 18677,
+          "text": "[/passive object]"
+        },
+        {
+          "type": 5,
+          "index": 17123,
+          "text": "[monster]"
+        },
+        {
+          "type": 2,
+          "value": 70
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 516
+        },
+        {
+          "type": 2,
+          "value": 235
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 7,
+          "index": 299221,
+          "text": "[fixed]"
+        },
+        {
+          "type": 7,
+          "index": 1565,
+          "text": "[normal]"
+        },
+        {
+          "type": 2,
+          "value": 72
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 988
+        },
+        {
+          "type": 2,
+          "value": 253
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 7,
+          "index": 299221,
+          "text": "[fixed]"
+        },
+        {
+          "type": 7,
+          "index": 1565,
+          "text": "[normal]"
+        },
+        {
+          "type": 2,
+          "value": 70
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 632
+        },
+        {
+          "type": 2,
+          "value": 261
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 7,
+          "index": 299221,
+          "text": "[fixed]"
+        },
+        {
+          "type": 7,
+          "index": 1565,
+          "text": "[normal]"
+        },
+        {
+          "type": 2,
+          "value": 72
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 786
+        },
+        {
+          "type": 2,
+          "value": 294
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 7,
+          "index": 299221,
+          "text": "[fixed]"
+        },
+        {
+          "type": 7,
+          "index": 1565,
+          "text": "[normal]"
+        },
+        {
+          "type": 2,
+          "value": 70
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 512
+        },
+        {
+          "type": 2,
+          "value": 314
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 7,
+          "index": 299221,
+          "text": "[fixed]"
+        },
+        {
+          "type": 7,
+          "index": 1565,
+          "text": "[normal]"
+        },
+        {
+          "type": 2,
+          "value": 72
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 991
+        },
+        {
+          "type": 2,
+          "value": 337
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 7,
+          "index": 299221,
+          "text": "[fixed]"
+        },
+        {
+          "type": 7,
+          "index": 1565,
+          "text": "[normal]"
+        },
+        {
+          "type": 5,
+          "index": 299222,
+          "text": "[/monster]"
+        },
+        {
+          "type": 5,
+          "index": 299223,
+          "text": "[monster specific AI]"
+        },
+        {
+          "type": 7,
+          "index": 1565,
+          "text": "[normal]"
+        },
+        {
+          "type": 7,
+          "index": 1565,
+          "text": "[normal]"
+        },
+        {
+          "type": 7,
+          "index": 1565,
+          "text": "[normal]"
+        },
+        {
+          "type": 7,
+          "index": 1565,
+          "text": "[normal]"
+        },
+        {
+          "type": 7,
+          "index": 1565,
+          "text": "[normal]"
+        },
+        {
+          "type": 7,
+          "index": 1565,
+          "text": "[normal]"
+        },
+        {
+          "type": 5,
+          "index": 299224,
+          "text": "[/monster specific AI]"
+        },
+        {
+          "type": 5,
+          "index": 299225,
+          "text": "[special passive object]"
+        },
+        {
+          "type": 2,
+          "value": 240
+        },
+        {
+          "type": 2,
+          "value": 393
+        },
+        {
+          "type": 2,
+          "value": 272
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 7,
+          "index": 6176,
+          "text": "[item]"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 2,
+          "value": -1
+        },
+        {
+          "type": 2,
+          "value": -1
+        },
+        {
+          "type": 2,
+          "value": -1
+        },
+        {
+          "type": 2,
+          "value": 240
+        },
+        {
+          "type": 2,
+          "value": 867
+        },
+        {
+          "type": 2,
+          "value": 274
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 5,
+          "index": 299227,
+          "text": "[/special passive object]"
+        },
+        {
+          "type": 5,
+          "index": 299230,
+          "text": "[event monster position]"
+        },
+        {
+          "type": 2,
+          "value": 602
+        },
+        {
+          "type": 2,
+          "value": 233
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 620
+        },
+        {
+          "type": 2,
+          "value": 308
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 957
+        },
+        {
+          "type": 2,
+          "value": 216
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 960
+        },
+        {
+          "type": 2,
+          "value": 325
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 5,
+          "index": 299231,
+          "text": "[/event monster position]"
+        },
+        {
+          "type": 5,
+          "index": 299232,
+          "text": "[map name]"
+        },
+        {
+          "type": 9,
+          "value": 6
+        },
+        {
+          "type": 10,
+          "index": 299233,
+          "text": "map_name_455"
+        }
+      ]
+    },
+    {
+      "path": "map/draconiantower/tile/skycastledcpoll.til",
+      "sha256": "820f5cbdffc5c58c7310f3c8e65746aaab1306864e911f141c3a17722feeaf71",
+      "crc": {
+        "expected": 657426115,
+        "actual_seed_file_number": 657426115,
+        "actual_seed_zero": 1599089077
+      },
+      "decoded": [
+        {
+          "type": 5,
+          "index": 9599,
+          "text": "[IMAGE]"
+        },
+        {
+          "type": 7,
+          "index": 299390,
+          "text": "Map/Act2/Amon/200tile0.img"
+        },
+        {
+          "type": 2,
+          "value": 1
+        },
+        {
+          "type": 5,
+          "index": 299255,
+          "text": "[img pos]"
+        },
+        {
+          "type": 2,
+          "value": 80
+        },
+        {
+          "type": 5,
+          "index": 299256,
+          "text": "[pass type]"
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "path": "map/draconiantower/tile/skycastleucpoll.til",
+      "sha256": "2bd14b0a012f129ddbde53a9ebb546f1cb6355bbbbe9e659e69e198b93f8e128",
+      "crc": {
+        "expected": 1271191594,
+        "actual_seed_file_number": 1271191594,
+        "actual_seed_zero": 2684931903
+      },
+      "decoded": [
+        {
+          "type": 5,
+          "index": 9599,
+          "text": "[IMAGE]"
+        },
+        {
+          "type": 7,
+          "index": 299390,
+          "text": "Map/Act2/Amon/200tile0.img"
+        },
+        {
+          "type": 2,
+          "value": 4
+        },
+        {
+          "type": 5,
+          "index": 299255,
+          "text": "[img pos]"
+        },
+        {
+          "type": 2,
+          "value": 80
+        },
+        {
+          "type": 5,
+          "index": 299256,
+          "text": "[pass type]"
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "path": "map/draconiantower/tile/skycastlepcpoll.til",
+      "sha256": "58d0e5244d4016758b8c80616e6b4deb6726838d95de49a50f65d157dde99e99",
+      "crc": {
+        "expected": 2307810258,
+        "actual_seed_file_number": 2307810258,
+        "actual_seed_zero": 3793075355
+      },
+      "decoded": [
+        {
+          "type": 5,
+          "index": 9599,
+          "text": "[IMAGE]"
+        },
+        {
+          "type": 7,
+          "index": 299390,
+          "text": "Map/Act2/Amon/200tile0.img"
+        },
+        {
+          "type": 2,
+          "value": 3
+        },
+        {
+          "type": 5,
+          "index": 299255,
+          "text": "[img pos]"
+        },
+        {
+          "type": 2,
+          "value": 80
+        },
+        {
+          "type": 5,
+          "index": 299256,
+          "text": "[pass type]"
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "path": "map/draconiantower/tile/skycastlenpoll.til",
+      "sha256": "01067229f583902ecaf76f6e4f157e504e7e55b4012104d1a190492209878ad6",
+      "crc": {
+        "expected": 3147131754,
+        "actual_seed_file_number": 3147131754,
+        "actual_seed_zero": 32695074
+      },
+      "decoded": [
+        {
+          "type": 5,
+          "index": 9599,
+          "text": "[IMAGE]"
+        },
+        {
+          "type": 7,
+          "index": 299390,
+          "text": "Map/Act2/Amon/200tile0.img"
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 5,
+          "index": 299255,
+          "text": "[img pos]"
+        },
+        {
+          "type": 2,
+          "value": 80
+        },
+        {
+          "type": 5,
+          "index": 299256,
+          "text": "[pass type]"
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 2
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        },
+        {
+          "type": 2,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "path": "map/draconiantower/animation/far1.ani",
+      "sha256": "441a2268af46fde0fb41a0be2f12d4d7961bec99ee8e0ad787b2155fb4cfa259",
+      "crc": {
+        "expected": 352450423,
+        "actual_seed_file_number": 352450423,
+        "actual_seed_zero": 1930355212
+      },
+      "decoded": {
+        "frames_count": 1,
+        "resources": [
+          "map/act2/amon/far_dr.img"
+        ],
+        "globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "resource": "map/act2/amon/far_dr.img",
+            "image_frame": 0,
+            "x": 0,
+            "y": -80,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "map/draconiantower/animation/bakalsymbol.ani",
+      "sha256": "fe79d33e4d42eec57f95acc418e0b2dfb65a0af508f8d29e353200dfbb2d7b7d",
+      "crc": {
+        "expected": 2714791258,
+        "actual_seed_file_number": 2714791258,
+        "actual_seed_zero": 2403014967
+      },
+      "decoded": {
+        "frames_count": 1,
+        "resources": [
+          "map/act2/amon/bakalsymbol.img"
+        ],
+        "globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "resource": "map/act2/amon/bakalsymbol.img",
+            "image_frame": 0,
+            "x": -112,
+            "y": -345,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "map/draconiantower/animation/marblestonepillar.ani",
+      "sha256": "c56d2cb8c1b804e862168c407b07fd67a42299fdbe0492cd6a7b604b2ce60c35",
+      "crc": {
+        "expected": 3812886925,
+        "actual_seed_file_number": 3812886925,
+        "actual_seed_zero": 1285720971
+      },
+      "decoded": {
+        "frames_count": 1,
+        "resources": [
+          "map/act2/marblestonepillar.img"
+        ],
+        "globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "resource": "map/act2/marblestonepillar.img",
+            "image_frame": 0,
+            "x": -15,
+            "y": -87,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "map/hendonmyre/animation/skyfar00.ani",
+      "sha256": "6438d79766f1d1f7d90d4412376e18e8d78b404c84dc60482d75fb84ea44f05f",
+      "crc": {
+        "expected": 1355730824,
+        "actual_seed_file_number": 1355730824,
+        "actual_seed_zero": 1136321606
+      },
+      "decoded": {
+        "frames_count": 1,
+        "resources": [
+          "map/hendonmyre/skyway.img"
+        ],
+        "globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "resource": "map/hendonmyre/skyway.img",
+            "image_frame": 9,
+            "x": 0,
+            "y": 0,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "map/hendonmyre/animation/skywall00.ani",
+      "sha256": "32409d4405ecd35bff543b4755ad6cb11acee72e95a070cf26adc9486c6347a3",
+      "crc": {
+        "expected": 617125926,
+        "actual_seed_file_number": 617125926,
+        "actual_seed_zero": 1984026514
+      },
+      "decoded": {
+        "frames_count": 1,
+        "resources": [
+          "map/hendonmyre/skyway.img"
+        ],
+        "globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "resource": "map/hendonmyre/skyway.img",
+            "image_frame": 8,
+            "x": -157,
+            "y": -282,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "map/hendonmyre/animation/skyhouse00.ani",
+      "sha256": "6cf223358cae9b940b61d4e4cbaa839f2eaa8119707278c3c48a606dbc52aef4",
+      "crc": {
+        "expected": 2847891152,
+        "actual_seed_file_number": 2847891152,
+        "actual_seed_zero": 2443975066
+      },
+      "decoded": {
+        "frames_count": 1,
+        "resources": [
+          "map/hendonmyre/skyway.img"
+        ],
+        "globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "resource": "map/hendonmyre/skyway.img",
+            "image_frame": 11,
+            "x": -137,
+            "y": -334,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "import_profile": {
+    "compress/mode": "0",
+    "mipmaps/generate": "false",
+    "process/fix_alpha_border": "false",
+    "process/premult_alpha": "false",
+    "detect_3d/compress_to": "0"
+  },
+  "notes": [
+    "Explicit canonical NPK whitelist; no client code, ACT, SKL or engine behavior executed.",
+    "Tower entrance art is explicitly from the95 client cataclysm/skytower namespace; no historical-era identity claim.",
+    "Only static frame0 of the tower/gateway is selected; this is not the complete source animation.",
+    "Harbor-to-tower route and all new3D depth/navigation are adaptations, not recovered original map layout.",
+    "DGN/map scripts supply references only; enemies, damage, quests and full dungeon rules are not implemented.",
+    "Source IMG metadata retains crop/canvas offsets. Preview sheets may scale images; exported PNG RGBA is unchanged."
+  ]
+}

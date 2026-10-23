@@ -1,0 +1,195 @@
+{
+  "check_script": "res://tools/r1/lamp_checks.gd",
+  "elapsed_seconds": 11.508074,
+  "qa_source_sha256": "be15b6ca75a8d3a19a85e1d35fbc1e172bca5e23f20b9c07a09305f1c01a9bab",
+  "render_cases_completed": 134,
+  "result": {
+    "checks": 21,
+    "failed": [
+      {
+        "check": "moving_foreground_dash_left_1x",
+        "details": {
+          "failed_frames": [
+            {
+              "action": "dash",
+              "first_failures": [
+                {
+                  "actual": "(1.0, 0.7804, 0.498, 1.0)",
+                  "png": [
+                    137,
+                    82
+                  ],
+                  "screen": "(677, 243)",
+                  "source": "(0.9059, 0.5922, 0.4039, 1.0)"
+                },
+                {
+                  "actual": "(0.9059, 0.5922, 0.4039, 1.0)",
+                  "png": [
+                    132,
+                    87
+                  ],
+                  "screen": "(682, 248)",
+                  "source": "(0.7804, 0.4039, 0.3098, 1.0)"
+                },
+                {
+                  "actual": "(0.2471, 0.1843, 0.1843, 1.0)",
+                  "png": [
+                    127,
+                    92
+                  ],
+                  "screen": "(687, 253)",
+                  "source": "(0.6549, 0.498, 0.4353, 1.0)"
+                }
+              ],
+              "foot": "(682.4998, 285.0)",
+              "frame": 2,
+              "height_pixels": 0.0,
+              "index": 2,
+              "matching": 104,
+              "route": "dash_left",
+              "samples": 125,
+              "scale": 1
+            },
+            {
+              "action": "dash",
+              "first_failures": [
+                {
+                  "actual": "(1.0, 1.0, 0.8745, 1.0)",
+                  "png": [
+                    167,
+                    72
+                  ],
+                  "screen": "(552, 233)",
+                  "source": "(0.9373, 0.8431, 0.7176, 1.0)"
+                },
+                {
+                  "actual": "(0.1529, 0.1529, 0.2784, 1.0)",
+                  "png": [
+                    147,
+                    77
+                  ],
+                  "screen": "(572, 238)",
+                  "source": "(0.3412, 0.3412, 0.6863, 1.0)"
+                },
+                {
+                  "actual": "(0.6235, 0.1529, 0.0902, 1.0)",
+                  "png": [
+                    162,
+                    77
+                  ],
+                  "screen": "(557, 238)",
+                  "source": "(0.8118, 0.6549, 0.5294, 1.0)"
+                }
+              ],
+              "foot": "(587.4991, 285.0)",
+              "frame": 7,
+              "height_pixels": 0.0,
+              "index": 8,
+              "matching": 74,
+              "route": "dash_left",
+              "samples": 129,
+              "scale": 1
+            },
+            {
+              "action": "dash",
+              "first_failures": [
+                {
+                  "actual": "(0.1529, 0.0588, 0.1843, 1.0)",
+                  "png": [
+                    147,
+                    77
+                  ],
+                  "screen": "(458, 238)",
+                  "source": "(0.9059, 0.5922, 0.4039, 1.0)"
+                },
+                {
+                  "actual": "(0.3412, 0.3412, 0.6863, 1.0)",
+                  "png": [
+                    152,
+                    77
+                  ],
+                  "screen": "(453, 238)",
+                  "source": "(0.1529, 0.1529, 0.2784, 1.0)"
+                },
+                {
+                  "actual": "(0.4667, 0.3725, 0.3412, 1.0)",
+                  "png": [
+                    157,
+                    77
+                  ],
+                  "screen": "(448, 238)",
+                  "source": "(0.2471, 0.2157, 0.4667, 1.0)"
+                }
+              ],
+              "foot": "(473.4988, 285.0)",
+              "frame": 5,
+              "height_pixels": 0.0,
+              "index": 15,
+              "matching": 94,
+              "route": "dash_left",
+              "samples": 129,
+              "scale": 1
+            }
+          ],
+          "matching": 2887,
+          "rendered_frames": 24,
+          "samples": 3045
+        },
+        "pass": false
+      },
+      {
+        "check": "moving_foreground_jump_right_1x",
+        "details": {
+          "failed_frames": [
+            {
+              "action": "jumpattack",
+              "first_failures": [
+                {
+                  "actual": "(0.3412, 0.4667, 0.7804, 1.0)",
+                  "png": [
+                    162,
+                    117
+                  ],
+                  "screen": "(676, 175)",
+                  "source": "(0.2784, 0.3412, 0.6235, 1.0)"
+                },
+                {
+                  "actual": "(0.0902, 0.0588, 0.1216, 1.0)",
+                  "png": [
+                    162,
+                    122
+                  ],
+                  "screen": "(676, 180)",
+                  "source": "(0.2784, 0.2784, 0.3412, 1.0)"
+                },
+                {
+                  "actual": "(1.0, 1.0, 1.0, 1.0)",
+                  "png": [
+                    232,
+                    127
+                  ],
+                  "screen": "(746, 185)",
+                  "source": "(0.7176, 0.7176, 0.7176, 1.0)"
+                }
+              ],
+              "foot": "(647.4994, 285.0)",
+              "frame": 2,
+              "height_pixels": 103.2,
+              "index": 5,
+              "matching": 179,
+              "route": "jump_right",
+              "samples": 185,
+              "scale": 1
+            }
+          ],
+          "matching": 2236,
+          "rendered_frames": 19,
+          "samples": 2242
+        },
+        "pass": false
+      }
+    ],
+    "render_cases": 134
+  },
+  "status": "complete"
+}

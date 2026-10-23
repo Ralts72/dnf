@@ -1,0 +1,29 @@
+{
+  "candidate": "R1/15",
+  "verified_at_utc": "2026-10-23T00:43:22.490130+00:00",
+  "run_id": "r20119077-50",
+  "artifact_hashes_passed": 144,
+  "current_checks": {
+    "stall_color_checks": 18,
+    "stall_checks": 11,
+    "runtime_checks": 17,
+    "pose_checks": 17,
+    "render_observation": 11
+  },
+  "total_current_checks": 74,
+  "failed": 0,
+  "completed_qa_jobs": 5,
+  "unchanged_runtime_files": 30,
+  "glb_binary_chunk_unchanged": true,
+  "exact_source_stall_rgba_pixels": 101890,
+  "source_stall_render_samples": 16794,
+  "source_stall_render_matching": 16794,
+  "loaded_scripts_match_disk": true,
+  "clean_current_run": true,
+  "quota_remaining_percent": 93,
+  "goal_status": "active",
+  "previews": {
+    "r1_15_window.png": "1f5471dfb3d28ca564a9adc8b4c835f3ca70de85e4201a829f00f28e5fd62c76",
+    "r1_15_full1080.png": "b9fcf170b17258c4ef07f977a8e6e50fe173fafe347d9cdbea2047732145a773"
+  }
+}

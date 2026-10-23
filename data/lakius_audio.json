@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "monster_id": 71,
+  "sounds": {
+    "KNIFE_HIT": {
+      "path": "res://assets/r4/lakius/audio/knife_hit.ogg"
+    },
+    "SLASH_HIT_03": {
+      "path": "res://assets/r4/lakius/audio/slash_hit_03.ogg"
+    },
+    "SPEAR_HIT": {
+      "path": "res://assets/r3/audio/spear_hit.ogg"
+    }
+  },
+  "contact_tags": {
+    "attack1": "KNIFE_HIT",
+    "attackheart": "SLASH_HIT_03",
+    "attacklong": "SPEAR_HIT"
+  },
+  "normal_audio": "KNIFE_HIT",
+  "heavy_audio": "SLASH_HIT_03",
+  "source_roles": {
+    "attack_voice": null,
+    "hurt_voice": null,
+    "death_voice": null
+  },
+  "runtime_hooks_implemented": false,
+  "source_reference": "docs/r4_lakius_source_reference.json",
+  "notes": [
+    "Only3 direct ATK contact tags are resolved. Play on a real successful contact; no original native-engine dispatch/timing is claimed.",
+    "AttackLong/SPEAR_HIT is retained as a source reference; the first boss pattern uses Attack/AttackHeart only.",
+    "Attack, hurt and death family voices remain unbound; no voice event is invented.",
+    "One bare Vorbis comment is prefixed COMMENT= and its page CRC updated. Identification/setup/audio packets, timing headers and decoded float32 PCM are unchanged.",
+    "Existing R3 SPEAR_HIT runtime bytes are verified and reused without rewriting that asset."
+  ]
+}

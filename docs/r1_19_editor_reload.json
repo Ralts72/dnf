@@ -1,0 +1,140 @@
+{
+  "candidate": "R1/19",
+  "r0": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"force_reload\":true,\"path\":\"res://scenes/west_coast_r0.tscn\",\"previous_scene_path\":\"res://scenes/west_coast_r1.tscn\",\"reason\":\"Scene navigation cannot be undone via editor undo\",\"reloaded_from_disk\":false,\"settle\":\"settled\",\"switched\":true,\"undoable\":false}"
+      }
+    ],
+    "structuredContent": {
+      "force_reload": true,
+      "path": "res://scenes/west_coast_r0.tscn",
+      "previous_scene_path": "res://scenes/west_coast_r1.tscn",
+      "reason": "Scene navigation cannot be undone via editor undo",
+      "reloaded_from_disk": false,
+      "settle": "settled",
+      "switched": true,
+      "undoable": false
+    },
+    "isError": false
+  },
+  "r1": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"force_reload\":true,\"path\":\"res://scenes/west_coast_r1.tscn\",\"previous_scene_path\":\"res://scenes/west_coast_r0.tscn\",\"reason\":\"Scene navigation cannot be undone via editor undo\",\"reloaded_from_disk\":false,\"settle\":\"settled\",\"switched\":true,\"undoable\":false}"
+      }
+    ],
+    "structuredContent": {
+      "force_reload": true,
+      "path": "res://scenes/west_coast_r1.tscn",
+      "previous_scene_path": "res://scenes/west_coast_r0.tscn",
+      "reason": "Scene navigation cannot be undone via editor undo",
+      "reloaded_from_disk": false,
+      "settle": "settled",
+      "switched": true,
+      "undoable": false
+    },
+    "isError": false
+  },
+  "properties": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"count\":1,\"node_type\":\"Label\",\"path\":\"Interface/Build\",\"properties\":[{\"name\":\"text\",\"type\":\"String\",\"value\":\"R1   /   19\"}],\"total_count\":109,\"unknown_fields\":[]}"
+          }
+        ],
+        "structuredContent": {
+          "count": 1,
+          "node_type": "Label",
+          "path": "Interface/Build",
+          "properties": [
+            {
+              "name": "text",
+              "type": "String",
+              "value": "R1   /   19"
+            }
+          ],
+          "total_count": 109,
+          "unknown_fields": []
+        },
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"count\":2,\"node_type\":\"CheckButton\",\"path\":\"Interface/EffectsToggle\",\"properties\":[{\"name\":\"button_pressed\",\"type\":\"bool\",\"value\":true},{\"name\":\"text\",\"type\":\"String\",\"value\":\"特效 F10\"}],\"total_count\":140,\"unknown_fields\":[\"offset_left\",\"offset_right\",\"offset_bottom\"]}"
+          }
+        ],
+        "structuredContent": {
+          "count": 2,
+          "node_type": "CheckButton",
+          "path": "Interface/EffectsToggle",
+          "properties": [
+            {
+              "name": "button_pressed",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "text",
+              "type": "String",
+              "value": "特效 F10"
+            }
+          ],
+          "total_count": 140,
+          "unknown_fields": [
+            "offset_left",
+            "offset_right",
+            "offset_bottom"
+          ]
+        },
+        "isError": false
+      }
+    }
+  ],
+  "autoloads": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"autoloads\":[{\"name\":\"_mcp_game_helper\",\"path\":\"res://addons/godot_ai/runtime/game_helper.gd\",\"singleton\":true},{\"name\":\"PortMusic\",\"path\":\"res://scripts/port_music.gd\",\"singleton\":true},{\"name\":\"PortAmbience\",\"path\":\"res://scripts/port_ambience.gd\",\"singleton\":true}],\"count\":3}"
+        }
+      ],
+      "structuredContent": {
+        "autoloads": [
+          {
+            "name": "_mcp_game_helper",
+            "path": "res://addons/godot_ai/runtime/game_helper.gd",
+            "singleton": true
+          },
+          {
+            "name": "PortMusic",
+            "path": "res://scripts/port_music.gd",
+            "singleton": true
+          },
+          {
+            "name": "PortAmbience",
+            "path": "res://scripts/port_ambience.gd",
+            "singleton": true
+          }
+        ],
+        "count": 3
+      },
+      "isError": false
+    }
+  },
+  "backups": [
+    "work/r1_19_editor_r0_before_reload.tscn",
+    "work/r1_19_editor_r1_before_reload.tscn"
+  ]
+}

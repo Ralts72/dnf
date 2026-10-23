@@ -1,0 +1,58 @@
+{
+  "candidate": "R1/19",
+  "verified_at_utc": "2026-10-23T01:48:08.548031+00:00",
+  "run_id": "r24026056-60",
+  "artifact_hashes_passed": 233,
+  "current_checks": {
+    "effect": 35,
+    "runtime": 17,
+    "pose": 17,
+    "observation": 12
+  },
+  "total_current_checks": 81,
+  "failed": 0,
+  "completed_qa_jobs": {
+    "effect": {
+      "status": "complete",
+      "elapsed_seconds": 3.58937
+    },
+    "core": {
+      "status": "complete",
+      "elapsed_seconds": 4.302093
+    },
+    "pose": {
+      "status": "complete",
+      "elapsed_seconds": 8.121078
+    },
+    "observation": {
+      "status": "complete",
+      "elapsed_seconds": 71.974267
+    }
+  },
+  "source_effect_rgba_pixels": 105300,
+  "effect_native_samples": 41664,
+  "effect_native_matching": 41664,
+  "native_foreground_pixels_retained": 11772,
+  "fresh_run_matches_disk": true,
+  "fresh_run_texture_mismatches": 0,
+  "clean_current_run": true,
+  "first_long_frame_ms": 1016.389,
+  "first_long_frame_cause_known": false,
+  "second_longest_frame_ms": 10.879,
+  "animation_image_updates_per_second": {
+    "move": 10,
+    "dash": 10,
+    "stay": 8.333333333333334
+  },
+  "next_priority": "Movement interpolation and a same-duration smoother locomotion preview, per user frame-rate feedback",
+  "visual_feedback": "方向可以，继续打磨",
+  "quota_remaining_percent": 91,
+  "goal_status": "active",
+  "previews": {
+    "r1_19_after_observation.png": "6246f08d0baa3224960913eed30a28ffbcd1229000ffd3a44992665294b41171",
+    "r1_19_effect_scene.png": "dd03e20ff3b8a85eb46602ef7cefc6236abacf7ca18684c104a1cea1d464afcb",
+    "r1_19_fx_full1080.png": "15e6b431be6d358b709e2ee042178210f38b6607f945352f0d74bb6174be1498",
+    "r1_19_full1080.png": "b305c573e2287e74d8ae5cd57279f5aa5ec643496dca4f2e6d43f5ffea712daa",
+    "r1_19_window.png": "6fdc164739e841d0505806377ba585c2e91b16b1ecd8dc5c613312d7663ef781"
+  }
+}

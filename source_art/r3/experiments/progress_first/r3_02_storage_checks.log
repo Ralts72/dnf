@@ -1,0 +1,39 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)
+PASS accept persists active bundle
+PASS observed clear persists return once
+PASS return state does not save every frame
+PASS claim commits exactly40 coins
+PASS repeated claim rejected
+PASS reload completed rejects second reward
+PASS completed load seeds absent encounter flag
+PASS successful atomic save consumes temporary file
+PASS backup is a consistent prior bundle
+PASS corrupt primary recovers valid backup
+PASS backup recovery preserves corrupt primary before commit
+PASS recovered bundle can safely claim40
+PASS commit archives exact corrupt source bytes
+PASS post-recovery reload remains40 once
+PASS both invalid disable writes
+PASS both invalid files retained byte-exact
+PASS malformed bundle rejected0
+PASS malformed bundle rejected1
+PASS malformed bundle rejected2
+PASS malformed bundle rejected3
+PASS malformed bundle rejected4
+PASS malformed bundle rejected5
+PASS malformed bundle rejected6
+PASS oversized file rejected and retained
+PASS failed accept write rolls memory back
+PASS failed write does not replace blocking directory
+PASS latch setup accepted
+PASS failed clear save retains active zero-coin bundle
+PASS failed clear save attempts once until explicit retry
+PASS manual retry persists return after storage recovers
+PASS reward rejected without current real cleared flag
+PASS numeric truthy flag cannot award reward
+PASS clear before accepting moves directly to return
+PASS configuration rejects non-QA legacy path
+PASS human primary presence and bytes unchanged
+{"all_passed":true,"count":35,"failed":0,"qa_prefix":"user://qa/first_route_1792739721_35655_140403","report":"docs/r3_02_storage_checks.json"}

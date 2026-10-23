@@ -1,0 +1,133 @@
+{
+  "path": "monster/draconian/dlani/attack.ani",
+  "bytes": 262,
+  "sha256_decoded_bytes": "0432563aef217fe5c2cb28f5b439961c1f3f9e9262d7e8c3e75bfd00f7b33a37",
+  "crc": {
+    "expected": 1146912476,
+    "actual_seed_file_number": 1146912476,
+    "actual_seed_zero": 2723678169
+  },
+  "crc_matches": true,
+  "original_reference": "source_art/r4/lakius/pvf/monster/draconian/dlani/attack.ani.bin",
+  "decoded_reference": "source_art/r4/lakius/pvf/monster/draconian/dlani/attack.ani.json",
+  "decoded": {
+    "frames_count": 4,
+    "resources": [
+      "monster/draconian/draco_lakius.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 0,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -30,
+              -17,
+              -9,
+              54,
+              34,
+              118
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 1,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -30,
+              -17,
+              -9,
+              54,
+              34,
+              118
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 100
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 2,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 15,
+            "xyz_size": [
+              -22,
+              -10,
+              35,
+              173,
+              20,
+              50
+            ]
+          },
+          {
+            "type": 14,
+            "xyz_size": [
+              -13,
+              -17,
+              -5,
+              77,
+              34,
+              94
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 150
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 3,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -13,
+              -17,
+              -5,
+              54,
+              34,
+              106
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      }
+    ]
+  }
+}

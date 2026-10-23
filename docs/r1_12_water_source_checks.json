@@ -1,0 +1,156 @@
+{
+  "candidate": "R1/12",
+  "failed": [],
+  "palette": [
+    {
+      "name": "deep",
+      "point": [
+        6,
+        60
+      ],
+      "rgba": [
+        0,
+        132,
+        197,
+        255
+      ],
+      "exact_source_pixel": true,
+      "native_uniform_matches": true
+    },
+    {
+      "name": "shade",
+      "point": [
+        6,
+        61
+      ],
+      "rgba": [
+        16,
+        156,
+        222,
+        255
+      ],
+      "exact_source_pixel": true,
+      "native_uniform_matches": true
+    },
+    {
+      "name": "blue",
+      "point": [
+        6,
+        62
+      ],
+      "rgba": [
+        33,
+        173,
+        230,
+        255
+      ],
+      "exact_source_pixel": true,
+      "native_uniform_matches": true
+    },
+    {
+      "name": "body_dark",
+      "point": [
+        6,
+        63
+      ],
+      "rgba": [
+        41,
+        181,
+        239,
+        255
+      ],
+      "exact_source_pixel": true,
+      "native_uniform_matches": true
+    },
+    {
+      "name": "body",
+      "point": [
+        6,
+        64
+      ],
+      "rgba": [
+        41,
+        189,
+        247,
+        255
+      ],
+      "exact_source_pixel": true,
+      "native_uniform_matches": true
+    },
+    {
+      "name": "cyan",
+      "point": [
+        164,
+        126
+      ],
+      "rgba": [
+        66,
+        206,
+        255,
+        255
+      ],
+      "exact_source_pixel": true,
+      "native_uniform_matches": true
+    },
+    {
+      "name": "ripple",
+      "point": [
+        153,
+        124
+      ],
+      "rgba": [
+        99,
+        230,
+        255,
+        255
+      ],
+      "exact_source_pixel": true,
+      "native_uniform_matches": true
+    },
+    {
+      "name": "glint",
+      "point": [
+        157,
+        123
+      ],
+      "rgba": [
+        156,
+        239,
+        255,
+        255
+      ],
+      "exact_source_pixel": true,
+      "native_uniform_matches": true
+    },
+    {
+      "name": "foam",
+      "point": [
+        155,
+        122
+      ],
+      "rgba": [
+        239,
+        255,
+        255,
+        255
+      ],
+      "exact_source_pixel": true,
+      "native_uniform_matches": true
+    }
+  ],
+  "unchanged_models": [
+    {
+      "path": "source_art/r1/west_coast_port.blend",
+      "unchanged_since": "R1/11",
+      "sha256": "44e4d1ee758dd762d658f4c4999170eb8824f8f0503b5051e4e987ee2bf4918a"
+    },
+    {
+      "path": "assets/r1/models/west_coast_port.glb",
+      "unchanged_since": "R1/11",
+      "sha256": "74c2b2497b41112c691fcb8a8abe991894bee8314a9a38d2cca0844ccf9cf3c9"
+    }
+  ],
+  "source_script_sha256": "3b07dcfed1409777ae04c3bba259873b3ad3eafcb1163daf01c7edf736af98ae",
+  "shader_sha256": "4711e044b3c56853a0db09a12c2f1017b9b2956adf18b12a8cee7b2ed05f032a",
+  "note": "Palette pixels and geometry hashes are exact; water rendering and motion are new interpretation."
+}

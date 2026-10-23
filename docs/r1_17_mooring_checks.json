@@ -1,0 +1,315 @@
+{
+  "candidate": "R1/17",
+  "checks": [
+    {
+      "check": "seventeen_native_dock_meshes",
+      "details": {
+        "meshes": 17
+      },
+      "pass": true
+    },
+    {
+      "check": "Dock_Mooring_Core_uses_projected_uv",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "Dock_Mooring_Core_texture_density_matches_scaled_volume",
+      "details": {
+        "uv_pixels": "(27.60348, 15.36636)",
+        "world_size_pixels": "(27.6, 15.36621)"
+      },
+      "pass": true
+    },
+    {
+      "check": "Dock_Mooring_Limestone_Cap_uses_projected_uv",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "Dock_Mooring_Limestone_Cap_texture_density_matches_scaled_volume",
+      "details": {
+        "uv_pixels": "(42.00142, 8.510356)",
+        "world_size_pixels": "(41.99999, 8.510515)"
+      },
+      "pass": true
+    },
+    {
+      "check": "barrel_volume_Left",
+      "details": {
+        "bounds": "[P: (3.176676, 0.025, 1.244905), S: (0.479981, 0.55, 0.319987)]"
+      },
+      "pass": true
+    },
+    {
+      "check": "three_native_hoops_Left",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "barrel_volume_Right",
+      "details": {
+        "bounds": "[P: (3.628342, 0.025, 1.264904), S: (0.409983, 0.52, 0.279989)]"
+      },
+      "pass": true
+    },
+    {
+      "check": "three_native_hoops_Right",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "barrel_volume_Upper",
+      "details": {
+        "bounds": "[P: (3.373342, 0.575, 1.203689), S: (0.419983, 0.62, 0.23999)]"
+      },
+      "pass": true
+    },
+    {
+      "check": "three_native_hoops_Upper",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "upper_barrel_supported_by_lower_stack",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "mooring_core_contacts_ground_and_cap",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "coil_and_loose_tail_have_native_geometry",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "dock_textures_use_nearest_sampling",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "ship_depth_preserves_source_anchor",
+      "details": {
+        "depth": -0.95,
+        "pixel_error": 0.000030517578125
+      },
+      "pass": true
+    },
+    {
+      "check": "all_eight_ship_frame_projections_retained",
+      "details": {
+        "maximum_pixel_error": 0.0000457763671875
+      },
+      "pass": true
+    },
+    {
+      "check": "all_eight_source_ship_durations_retained",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "visible_ship_interiors_keep_source_rgb",
+      "details": {
+        "matching": 870,
+        "samples": 870
+      },
+      "pass": true
+    },
+    {
+      "check": "rope_tail_is_in_front_of_ship",
+      "details": {
+        "blocked_with_original_depth": 3,
+        "clear_probes": 3
+      },
+      "pass": true
+    },
+    {
+      "check": "player_and_npcs_have_upright_surfaces",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "contact_shadows_below_feet_above_paving",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "actor_front_stay_1x_1",
+      "details": {
+        "action": "stay",
+        "blocked_by_dock": 0,
+        "facing": 1,
+        "frame": 0,
+        "matching": 347,
+        "samples": 347,
+        "scale": 1,
+        "side": "front"
+      },
+      "pass": true
+    },
+    {
+      "check": "actor_front_stay_1x_-1",
+      "details": {
+        "action": "stay",
+        "blocked_by_dock": 0,
+        "facing": -1,
+        "frame": 0,
+        "matching": 347,
+        "samples": 347,
+        "scale": 1,
+        "side": "front"
+      },
+      "pass": true
+    },
+    {
+      "check": "actor_front_stay_2x_1",
+      "details": {
+        "action": "stay",
+        "blocked_by_dock": 0,
+        "facing": 1,
+        "frame": 0,
+        "matching": 347,
+        "samples": 347,
+        "scale": 2,
+        "side": "front"
+      },
+      "pass": true
+    },
+    {
+      "check": "actor_front_stay_2x_-1",
+      "details": {
+        "action": "stay",
+        "blocked_by_dock": 0,
+        "facing": -1,
+        "frame": 0,
+        "matching": 347,
+        "samples": 347,
+        "scale": 2,
+        "side": "front"
+      },
+      "pass": true
+    },
+    {
+      "check": "actor_front_attack1_2x_1",
+      "details": {
+        "action": "attack1",
+        "blocked_by_dock": 0,
+        "facing": 1,
+        "frame": 3,
+        "matching": 350,
+        "samples": 350,
+        "scale": 2,
+        "side": "front"
+      },
+      "pass": true
+    },
+    {
+      "check": "actor_front_damage1_2x_-1",
+      "details": {
+        "action": "damage1",
+        "blocked_by_dock": 0,
+        "facing": -1,
+        "frame": 0,
+        "matching": 327,
+        "samples": 327,
+        "scale": 2,
+        "side": "front"
+      },
+      "pass": true
+    },
+    {
+      "check": "actor_behind_stay_2x_1",
+      "details": {
+        "action": "stay",
+        "blocked_by_dock": 71,
+        "facing": 1,
+        "frame": 0,
+        "matching": 203,
+        "samples": 347,
+        "scale": 2,
+        "side": "behind"
+      },
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "glb_sha256": "ca75b6b591b354329266790e51d1a4bd1f2825b36379fe9f449f188b0bb9db97",
+  "note": "The behind-props pose is a paused renderer fixture outside normal navigation; no new walk area is opened.",
+  "qa_source_sha256": "63887e660d477c08a04635f32db7c277178907125eb1b03080fbebb1fd1a7be2",
+  "render_cases": [
+    {
+      "action": "stay",
+      "blocked_by_dock": 0,
+      "facing": 1,
+      "frame": 0,
+      "matching": 347,
+      "samples": 347,
+      "scale": 1,
+      "side": "front"
+    },
+    {
+      "action": "stay",
+      "blocked_by_dock": 0,
+      "facing": -1,
+      "frame": 0,
+      "matching": 347,
+      "samples": 347,
+      "scale": 1,
+      "side": "front"
+    },
+    {
+      "action": "stay",
+      "blocked_by_dock": 0,
+      "facing": 1,
+      "frame": 0,
+      "matching": 347,
+      "samples": 347,
+      "scale": 2,
+      "side": "front"
+    },
+    {
+      "action": "stay",
+      "blocked_by_dock": 0,
+      "facing": -1,
+      "frame": 0,
+      "matching": 347,
+      "samples": 347,
+      "scale": 2,
+      "side": "front"
+    },
+    {
+      "action": "attack1",
+      "blocked_by_dock": 0,
+      "facing": 1,
+      "frame": 3,
+      "matching": 350,
+      "samples": 350,
+      "scale": 2,
+      "side": "front"
+    },
+    {
+      "action": "damage1",
+      "blocked_by_dock": 0,
+      "facing": -1,
+      "frame": 0,
+      "matching": 327,
+      "samples": 327,
+      "scale": 2,
+      "side": "front"
+    },
+    {
+      "action": "stay",
+      "blocked_by_dock": 71,
+      "facing": 1,
+      "frame": 0,
+      "matching": 203,
+      "samples": 347,
+      "scale": 2,
+      "side": "behind"
+    }
+  ],
+  "source_script_sha256": "63887e660d477c08a04635f32db7c277178907125eb1b03080fbebb1fd1a7be2"
+}

@@ -1,0 +1,1517 @@
+{
+  "candidate": "R1/16",
+  "checks": [
+    {
+      "check": "all_twenty_seven_actual_model_textures_discovered",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "actual_material_paths_match_discovered_manifest",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_000.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_000.png",
+        "rgba_pixels": 86464,
+        "runtime_size": "(224, 386)",
+        "source_size": "(224, 386)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_000.png",
+      "details": {
+        "matching": 19449,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_000.png",
+        "render_target": "(224, 386)",
+        "samples": 19449,
+        "scale": 1,
+        "source_size": "(224, 386)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_000.png",
+      "details": {
+        "matching": 19449,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_000.png",
+        "render_target": "(448, 772)",
+        "samples": 19449,
+        "scale": 2,
+        "source_size": "(224, 386)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_000_17.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_000_17.png",
+        "rgba_pixels": 62048,
+        "runtime_size": "(224, 277)",
+        "source_size": "(224, 277)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_000_17.png",
+      "details": {
+        "matching": 13483,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_000_17.png",
+        "render_target": "(224, 277)",
+        "samples": 13483,
+        "scale": 1,
+        "source_size": "(224, 277)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_000_17.png",
+      "details": {
+        "matching": 13483,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_000_17.png",
+        "render_target": "(448, 554)",
+        "samples": 13483,
+        "scale": 2,
+        "source_size": "(224, 277)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_000_18.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_000_18.png",
+        "rgba_pixels": 101890,
+        "runtime_size": "(443, 230)",
+        "source_size": "(443, 230)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_000_18.png",
+      "details": {
+        "matching": 13581,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_000_18.png",
+        "render_target": "(443, 230)",
+        "samples": 13581,
+        "scale": 1,
+        "source_size": "(443, 230)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_000_18.png",
+      "details": {
+        "matching": 13581,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_000_18.png",
+        "render_target": "(886, 460)",
+        "samples": 13581,
+        "scale": 2,
+        "source_size": "(443, 230)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_dock_metal.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_dock_metal.png",
+        "rgba_pixels": 60,
+        "runtime_size": "(15, 4)",
+        "source_size": "(15, 4)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_dock_metal.png",
+      "details": {
+        "matching": 7,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_dock_metal.png",
+        "render_target": "(15, 4)",
+        "samples": 7,
+        "scale": 1,
+        "source_size": "(15, 4)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_dock_metal.png",
+      "details": {
+        "matching": 7,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_dock_metal.png",
+        "render_target": "(30, 8)",
+        "samples": 7,
+        "scale": 2,
+        "source_size": "(15, 4)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_dock_rope.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_dock_rope.png",
+        "rgba_pixels": 92,
+        "runtime_size": "(23, 4)",
+        "source_size": "(23, 4)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_dock_rope.png",
+      "details": {
+        "matching": 11,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_dock_rope.png",
+        "render_target": "(23, 4)",
+        "samples": 11,
+        "scale": 1,
+        "source_size": "(23, 4)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_dock_rope.png",
+      "details": {
+        "matching": 11,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_dock_rope.png",
+        "render_target": "(46, 8)",
+        "samples": 11,
+        "scale": 2,
+        "source_size": "(23, 4)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_dock_stone.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_dock_stone.png",
+        "rgba_pixels": 196,
+        "runtime_size": "(28, 7)",
+        "source_size": "(28, 7)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_dock_stone.png",
+      "details": {
+        "matching": 39,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_dock_stone.png",
+        "render_target": "(28, 7)",
+        "samples": 39,
+        "scale": 1,
+        "source_size": "(28, 7)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_dock_stone.png",
+      "details": {
+        "matching": 39,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_dock_stone.png",
+        "render_target": "(56, 14)",
+        "samples": 39,
+        "scale": 2,
+        "source_size": "(28, 7)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_dock_wood.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_dock_wood.png",
+        "rgba_pixels": 117,
+        "runtime_size": "(13, 9)",
+        "source_size": "(13, 9)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_dock_wood.png",
+      "details": {
+        "matching": 24,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_dock_wood.png",
+        "render_target": "(13, 9)",
+        "samples": 24,
+        "scale": 1,
+        "source_size": "(13, 9)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_dock_wood.png",
+      "details": {
+        "matching": 24,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_dock_wood.png",
+        "render_target": "(26, 18)",
+        "samples": 24,
+        "scale": 2,
+        "source_size": "(13, 9)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_grove_bark.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_grove_bark.png",
+        "rgba_pixels": 624,
+        "runtime_size": "(13, 48)",
+        "source_size": "(13, 48)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_grove_bark.png",
+      "details": {
+        "matching": 138,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_grove_bark.png",
+        "render_target": "(13, 48)",
+        "samples": 138,
+        "scale": 1,
+        "source_size": "(13, 48)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_grove_bark.png",
+      "details": {
+        "matching": 138,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_grove_bark.png",
+        "render_target": "(26, 96)",
+        "samples": 138,
+        "scale": 2,
+        "source_size": "(13, 48)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_grove_canopy.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_grove_canopy.png",
+        "rgba_pixels": 31360,
+        "runtime_size": "(224, 140)",
+        "source_size": "(224, 140)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_grove_canopy.png",
+      "details": {
+        "matching": 4150,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_grove_canopy.png",
+        "render_target": "(224, 140)",
+        "samples": 4150,
+        "scale": 1,
+        "source_size": "(224, 140)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_grove_canopy.png",
+      "details": {
+        "matching": 4150,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_grove_canopy.png",
+        "render_target": "(448, 280)",
+        "samples": 4150,
+        "scale": 2,
+        "source_size": "(224, 140)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_grove_grass.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_grove_grass.png",
+        "rgba_pixels": 192,
+        "runtime_size": "(24, 8)",
+        "source_size": "(24, 8)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_grove_grass.png",
+      "details": {
+        "matching": 33,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_grove_grass.png",
+        "render_target": "(24, 8)",
+        "samples": 33,
+        "scale": 1,
+        "source_size": "(24, 8)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_grove_grass.png",
+      "details": {
+        "matching": 33,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_grove_grass.png",
+        "render_target": "(48, 16)",
+        "samples": 33,
+        "scale": 2,
+        "source_size": "(24, 8)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_grove_path.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_grove_path.png",
+        "rgba_pixels": 1040,
+        "runtime_size": "(40, 26)",
+        "source_size": "(40, 26)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_grove_path.png",
+      "details": {
+        "matching": 228,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_grove_path.png",
+        "render_target": "(40, 26)",
+        "samples": 228,
+        "scale": 1,
+        "source_size": "(40, 26)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_grove_path.png",
+      "details": {
+        "matching": 228,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_grove_path.png",
+        "render_target": "(80, 52)",
+        "samples": 228,
+        "scale": 2,
+        "source_size": "(40, 26)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_grove_plaster.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_grove_plaster.png",
+        "rgba_pixels": 1170,
+        "runtime_size": "(26, 45)",
+        "source_size": "(26, 45)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_grove_plaster.png",
+      "details": {
+        "matching": 264,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_grove_plaster.png",
+        "render_target": "(26, 45)",
+        "samples": 264,
+        "scale": 1,
+        "source_size": "(26, 45)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_grove_plaster.png",
+      "details": {
+        "matching": 264,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_grove_plaster.png",
+        "render_target": "(52, 90)",
+        "samples": 264,
+        "scale": 2,
+        "source_size": "(26, 45)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_lamp_blue.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_lamp_blue.png",
+        "rgba_pixels": 112,
+        "runtime_size": "(14, 8)",
+        "source_size": "(14, 8)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_lamp_blue.png",
+      "details": {
+        "matching": 18,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_lamp_blue.png",
+        "render_target": "(14, 8)",
+        "samples": 18,
+        "scale": 1,
+        "source_size": "(14, 8)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_lamp_blue.png",
+      "details": {
+        "matching": 18,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_lamp_blue.png",
+        "render_target": "(28, 16)",
+        "samples": 18,
+        "scale": 2,
+        "source_size": "(14, 8)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_lamp_collar.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_lamp_collar.png",
+        "rgba_pixels": 33,
+        "runtime_size": "(11, 3)",
+        "source_size": "(11, 3)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_lamp_collar.png",
+      "details": {
+        "matching": 5,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_lamp_collar.png",
+        "render_target": "(11, 3)",
+        "samples": 5,
+        "scale": 1,
+        "source_size": "(11, 3)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_lamp_collar.png",
+      "details": {
+        "matching": 5,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_lamp_collar.png",
+        "render_target": "(22, 6)",
+        "samples": 5,
+        "scale": 2,
+        "source_size": "(11, 3)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_lamp_glass.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_lamp_glass.png",
+        "rgba_pixels": 120,
+        "runtime_size": "(15, 8)",
+        "source_size": "(15, 8)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_lamp_glass.png",
+      "details": {
+        "matching": 21,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_lamp_glass.png",
+        "render_target": "(15, 8)",
+        "samples": 21,
+        "scale": 1,
+        "source_size": "(15, 8)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_lamp_glass.png",
+      "details": {
+        "matching": 21,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_lamp_glass.png",
+        "render_target": "(30, 16)",
+        "samples": 21,
+        "scale": 2,
+        "source_size": "(15, 8)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_lamp_shaft.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_lamp_shaft.png",
+        "rgba_pixels": 196,
+        "runtime_size": "(7, 28)",
+        "source_size": "(7, 28)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_lamp_shaft.png",
+      "details": {
+        "matching": 39,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_lamp_shaft.png",
+        "render_target": "(7, 28)",
+        "samples": 39,
+        "scale": 1,
+        "source_size": "(7, 28)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_lamp_shaft.png",
+      "details": {
+        "matching": 39,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_lamp_shaft.png",
+        "render_target": "(14, 56)",
+        "samples": 39,
+        "scale": 2,
+        "source_size": "(7, 28)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_paving_tile_0.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_0.png",
+        "rgba_pixels": 4096,
+        "runtime_size": "(64, 64)",
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_paving_tile_0.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_0.png",
+        "render_target": "(64, 64)",
+        "samples": 961,
+        "scale": 1,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_paving_tile_0.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_0.png",
+        "render_target": "(128, 128)",
+        "samples": 961,
+        "scale": 2,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_paving_tile_1.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_1.png",
+        "rgba_pixels": 4096,
+        "runtime_size": "(64, 64)",
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_paving_tile_1.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_1.png",
+        "render_target": "(64, 64)",
+        "samples": 961,
+        "scale": 1,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_paving_tile_1.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_1.png",
+        "render_target": "(128, 128)",
+        "samples": 961,
+        "scale": 2,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_paving_tile_2.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_2.png",
+        "rgba_pixels": 4096,
+        "runtime_size": "(64, 64)",
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_paving_tile_2.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_2.png",
+        "render_target": "(64, 64)",
+        "samples": 961,
+        "scale": 1,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_paving_tile_2.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_2.png",
+        "render_target": "(128, 128)",
+        "samples": 961,
+        "scale": 2,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_paving_tile_3.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_3.png",
+        "rgba_pixels": 4096,
+        "runtime_size": "(64, 64)",
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_paving_tile_3.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_3.png",
+        "render_target": "(64, 64)",
+        "samples": 961,
+        "scale": 1,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_paving_tile_3.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_3.png",
+        "render_target": "(128, 128)",
+        "samples": 961,
+        "scale": 2,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_paving_tile_4.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_4.png",
+        "rgba_pixels": 4096,
+        "runtime_size": "(64, 64)",
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_paving_tile_4.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_4.png",
+        "render_target": "(64, 64)",
+        "samples": 961,
+        "scale": 1,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_paving_tile_4.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_4.png",
+        "render_target": "(128, 128)",
+        "samples": 961,
+        "scale": 2,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_paving_tile_5.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_5.png",
+        "rgba_pixels": 4096,
+        "runtime_size": "(64, 64)",
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_paving_tile_5.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_5.png",
+        "render_target": "(64, 64)",
+        "samples": 961,
+        "scale": 1,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_paving_tile_5.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_5.png",
+        "render_target": "(128, 128)",
+        "samples": 961,
+        "scale": 2,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_paving_tile_6.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_6.png",
+        "rgba_pixels": 4096,
+        "runtime_size": "(64, 64)",
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_paving_tile_6.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_6.png",
+        "render_target": "(64, 64)",
+        "samples": 961,
+        "scale": 1,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_paving_tile_6.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_6.png",
+        "render_target": "(128, 128)",
+        "samples": 961,
+        "scale": 2,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_paving_tile_7.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_7.png",
+        "rgba_pixels": 4096,
+        "runtime_size": "(64, 64)",
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_paving_tile_7.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_7.png",
+        "render_target": "(64, 64)",
+        "samples": 961,
+        "scale": 1,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_paving_tile_7.png",
+      "details": {
+        "matching": 961,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_paving_tile_7.png",
+        "render_target": "(128, 128)",
+        "samples": 961,
+        "scale": 2,
+        "source_size": "(64, 64)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_pier_face.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_pier_face.png",
+        "rgba_pixels": 1700,
+        "runtime_size": "(100, 17)",
+        "source_size": "(100, 17)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_pier_face.png",
+      "details": {
+        "matching": 392,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_pier_face.png",
+        "render_target": "(100, 17)",
+        "samples": 392,
+        "scale": 1,
+        "source_size": "(100, 17)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_pier_face.png",
+      "details": {
+        "matching": 392,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_pier_face.png",
+        "render_target": "(200, 34)",
+        "samples": 392,
+        "scale": 2,
+        "source_size": "(100, 17)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_pier_top.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_pier_top.png",
+        "rgba_pixels": 700,
+        "runtime_size": "(100, 7)",
+        "source_size": "(100, 7)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_pier_top.png",
+      "details": {
+        "matching": 147,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_pier_top.png",
+        "render_target": "(100, 7)",
+        "samples": 147,
+        "scale": 1,
+        "source_size": "(100, 7)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_pier_top.png",
+      "details": {
+        "matching": 147,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_pier_top.png",
+        "render_target": "(200, 14)",
+        "samples": 147,
+        "scale": 2,
+        "source_size": "(100, 7)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_full_rgba_west_coast_port_quay_coping.png",
+      "details": {
+        "compressed": false,
+        "path": "res://assets/r1/models/west_coast_port_quay_coping.png",
+        "rgba_pixels": 1692,
+        "runtime_size": "(94, 18)",
+        "source_size": "(94, 18)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_1x_west_coast_port_quay_coping.png",
+      "details": {
+        "matching": 368,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_quay_coping.png",
+        "render_target": "(94, 18)",
+        "samples": 368,
+        "scale": 1,
+        "source_size": "(94, 18)"
+      },
+      "pass": true
+    },
+    {
+      "check": "native_3d_source_rgb_2x_west_coast_port_quay_coping.png",
+      "details": {
+        "matching": 368,
+        "max_rgb_distance": 0.0,
+        "path": "res://assets/r1/models/west_coast_port_quay_coping.png",
+        "render_target": "(188, 36)",
+        "samples": 368,
+        "scale": 2,
+        "source_size": "(94, 18)"
+      },
+      "pass": true
+    },
+    {
+      "check": "quality_switch_retains_texture_resources",
+      "details": {
+        "actual_material_textures_checked": 27,
+        "scales": [
+          1,
+          2
+        ]
+      },
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "glb_sha256": "552875ca515f914e106049087c9005cfe2fdab435bda1349af85c18f3ea22dee",
+  "note": "Imported full RGBA is compared to extracted PNGs. GPU texture sampling is isolated on unlit native 3D panels; actual scene PBR lighting remains enabled.",
+  "qa_source_sha256": "7934baace174c2c6bfb29a0d8b723df03401ddea9a1eb5505df9e0246e475431",
+  "render_cases": [
+    {
+      "matching": 19449,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_000.png",
+      "render_target": "(224, 386)",
+      "samples": 19449,
+      "scale": 1,
+      "source_size": "(224, 386)"
+    },
+    {
+      "matching": 19449,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_000.png",
+      "render_target": "(448, 772)",
+      "samples": 19449,
+      "scale": 2,
+      "source_size": "(224, 386)"
+    },
+    {
+      "matching": 13483,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_000_17.png",
+      "render_target": "(224, 277)",
+      "samples": 13483,
+      "scale": 1,
+      "source_size": "(224, 277)"
+    },
+    {
+      "matching": 13483,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_000_17.png",
+      "render_target": "(448, 554)",
+      "samples": 13483,
+      "scale": 2,
+      "source_size": "(224, 277)"
+    },
+    {
+      "matching": 13581,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_000_18.png",
+      "render_target": "(443, 230)",
+      "samples": 13581,
+      "scale": 1,
+      "source_size": "(443, 230)"
+    },
+    {
+      "matching": 13581,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_000_18.png",
+      "render_target": "(886, 460)",
+      "samples": 13581,
+      "scale": 2,
+      "source_size": "(443, 230)"
+    },
+    {
+      "matching": 7,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_dock_metal.png",
+      "render_target": "(15, 4)",
+      "samples": 7,
+      "scale": 1,
+      "source_size": "(15, 4)"
+    },
+    {
+      "matching": 7,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_dock_metal.png",
+      "render_target": "(30, 8)",
+      "samples": 7,
+      "scale": 2,
+      "source_size": "(15, 4)"
+    },
+    {
+      "matching": 11,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_dock_rope.png",
+      "render_target": "(23, 4)",
+      "samples": 11,
+      "scale": 1,
+      "source_size": "(23, 4)"
+    },
+    {
+      "matching": 11,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_dock_rope.png",
+      "render_target": "(46, 8)",
+      "samples": 11,
+      "scale": 2,
+      "source_size": "(23, 4)"
+    },
+    {
+      "matching": 39,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_dock_stone.png",
+      "render_target": "(28, 7)",
+      "samples": 39,
+      "scale": 1,
+      "source_size": "(28, 7)"
+    },
+    {
+      "matching": 39,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_dock_stone.png",
+      "render_target": "(56, 14)",
+      "samples": 39,
+      "scale": 2,
+      "source_size": "(28, 7)"
+    },
+    {
+      "matching": 24,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_dock_wood.png",
+      "render_target": "(13, 9)",
+      "samples": 24,
+      "scale": 1,
+      "source_size": "(13, 9)"
+    },
+    {
+      "matching": 24,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_dock_wood.png",
+      "render_target": "(26, 18)",
+      "samples": 24,
+      "scale": 2,
+      "source_size": "(13, 9)"
+    },
+    {
+      "matching": 138,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_grove_bark.png",
+      "render_target": "(13, 48)",
+      "samples": 138,
+      "scale": 1,
+      "source_size": "(13, 48)"
+    },
+    {
+      "matching": 138,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_grove_bark.png",
+      "render_target": "(26, 96)",
+      "samples": 138,
+      "scale": 2,
+      "source_size": "(13, 48)"
+    },
+    {
+      "matching": 4150,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_grove_canopy.png",
+      "render_target": "(224, 140)",
+      "samples": 4150,
+      "scale": 1,
+      "source_size": "(224, 140)"
+    },
+    {
+      "matching": 4150,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_grove_canopy.png",
+      "render_target": "(448, 280)",
+      "samples": 4150,
+      "scale": 2,
+      "source_size": "(224, 140)"
+    },
+    {
+      "matching": 33,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_grove_grass.png",
+      "render_target": "(24, 8)",
+      "samples": 33,
+      "scale": 1,
+      "source_size": "(24, 8)"
+    },
+    {
+      "matching": 33,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_grove_grass.png",
+      "render_target": "(48, 16)",
+      "samples": 33,
+      "scale": 2,
+      "source_size": "(24, 8)"
+    },
+    {
+      "matching": 228,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_grove_path.png",
+      "render_target": "(40, 26)",
+      "samples": 228,
+      "scale": 1,
+      "source_size": "(40, 26)"
+    },
+    {
+      "matching": 228,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_grove_path.png",
+      "render_target": "(80, 52)",
+      "samples": 228,
+      "scale": 2,
+      "source_size": "(40, 26)"
+    },
+    {
+      "matching": 264,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_grove_plaster.png",
+      "render_target": "(26, 45)",
+      "samples": 264,
+      "scale": 1,
+      "source_size": "(26, 45)"
+    },
+    {
+      "matching": 264,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_grove_plaster.png",
+      "render_target": "(52, 90)",
+      "samples": 264,
+      "scale": 2,
+      "source_size": "(26, 45)"
+    },
+    {
+      "matching": 18,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_lamp_blue.png",
+      "render_target": "(14, 8)",
+      "samples": 18,
+      "scale": 1,
+      "source_size": "(14, 8)"
+    },
+    {
+      "matching": 18,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_lamp_blue.png",
+      "render_target": "(28, 16)",
+      "samples": 18,
+      "scale": 2,
+      "source_size": "(14, 8)"
+    },
+    {
+      "matching": 5,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_lamp_collar.png",
+      "render_target": "(11, 3)",
+      "samples": 5,
+      "scale": 1,
+      "source_size": "(11, 3)"
+    },
+    {
+      "matching": 5,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_lamp_collar.png",
+      "render_target": "(22, 6)",
+      "samples": 5,
+      "scale": 2,
+      "source_size": "(11, 3)"
+    },
+    {
+      "matching": 21,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_lamp_glass.png",
+      "render_target": "(15, 8)",
+      "samples": 21,
+      "scale": 1,
+      "source_size": "(15, 8)"
+    },
+    {
+      "matching": 21,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_lamp_glass.png",
+      "render_target": "(30, 16)",
+      "samples": 21,
+      "scale": 2,
+      "source_size": "(15, 8)"
+    },
+    {
+      "matching": 39,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_lamp_shaft.png",
+      "render_target": "(7, 28)",
+      "samples": 39,
+      "scale": 1,
+      "source_size": "(7, 28)"
+    },
+    {
+      "matching": 39,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_lamp_shaft.png",
+      "render_target": "(14, 56)",
+      "samples": 39,
+      "scale": 2,
+      "source_size": "(7, 28)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_0.png",
+      "render_target": "(64, 64)",
+      "samples": 961,
+      "scale": 1,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_0.png",
+      "render_target": "(128, 128)",
+      "samples": 961,
+      "scale": 2,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_1.png",
+      "render_target": "(64, 64)",
+      "samples": 961,
+      "scale": 1,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_1.png",
+      "render_target": "(128, 128)",
+      "samples": 961,
+      "scale": 2,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_2.png",
+      "render_target": "(64, 64)",
+      "samples": 961,
+      "scale": 1,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_2.png",
+      "render_target": "(128, 128)",
+      "samples": 961,
+      "scale": 2,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_3.png",
+      "render_target": "(64, 64)",
+      "samples": 961,
+      "scale": 1,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_3.png",
+      "render_target": "(128, 128)",
+      "samples": 961,
+      "scale": 2,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_4.png",
+      "render_target": "(64, 64)",
+      "samples": 961,
+      "scale": 1,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_4.png",
+      "render_target": "(128, 128)",
+      "samples": 961,
+      "scale": 2,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_5.png",
+      "render_target": "(64, 64)",
+      "samples": 961,
+      "scale": 1,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_5.png",
+      "render_target": "(128, 128)",
+      "samples": 961,
+      "scale": 2,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_6.png",
+      "render_target": "(64, 64)",
+      "samples": 961,
+      "scale": 1,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_6.png",
+      "render_target": "(128, 128)",
+      "samples": 961,
+      "scale": 2,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_7.png",
+      "render_target": "(64, 64)",
+      "samples": 961,
+      "scale": 1,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 961,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_7.png",
+      "render_target": "(128, 128)",
+      "samples": 961,
+      "scale": 2,
+      "source_size": "(64, 64)"
+    },
+    {
+      "matching": 392,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_pier_face.png",
+      "render_target": "(100, 17)",
+      "samples": 392,
+      "scale": 1,
+      "source_size": "(100, 17)"
+    },
+    {
+      "matching": 392,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_pier_face.png",
+      "render_target": "(200, 34)",
+      "samples": 392,
+      "scale": 2,
+      "source_size": "(100, 17)"
+    },
+    {
+      "matching": 147,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_pier_top.png",
+      "render_target": "(100, 7)",
+      "samples": 147,
+      "scale": 1,
+      "source_size": "(100, 7)"
+    },
+    {
+      "matching": 147,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_pier_top.png",
+      "render_target": "(200, 14)",
+      "samples": 147,
+      "scale": 2,
+      "source_size": "(100, 7)"
+    },
+    {
+      "matching": 368,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_quay_coping.png",
+      "render_target": "(94, 18)",
+      "samples": 368,
+      "scale": 1,
+      "source_size": "(94, 18)"
+    },
+    {
+      "matching": 368,
+      "max_rgb_distance": 0.0,
+      "path": "res://assets/r1/models/west_coast_port_quay_coping.png",
+      "render_target": "(188, 36)",
+      "samples": 368,
+      "scale": 2,
+      "source_size": "(94, 18)"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "check_script": "res://source_art/r1/experiments/dash_cycle_26/capture_comparison.gd",
+  "elapsed_seconds": 0.670971,
+  "qa_source_sha256": "2fdc42e450ca23ae7f5e83237ced8f9a9b7e3b1e763bc6c8da44e1fc230ef596",
+  "render_cases_completed": 0,
+  "result": {
+    "captures": 24
+  },
+  "status": "complete"
+}

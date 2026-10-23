@@ -1,0 +1,1468 @@
+{
+  "path": "map/hallofdoll/(1,2)b1823.map",
+  "crc": {
+    "expected": 2902664841,
+    "actual_seed_file_number": 2902664841,
+    "actual_seed_zero": 2888683575
+  },
+  "decoded": [
+    {
+      "type": 5,
+      "index": 299207,
+      "text": "[player number]"
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 2,
+      "value": 8
+    },
+    {
+      "type": 5,
+      "index": 299208,
+      "text": "[pvp start area]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 3783,
+      "text": "[dungeon]"
+    },
+    {
+      "type": 2,
+      "value": 12
+    },
+    {
+      "type": 5,
+      "index": 242271,
+      "text": "[/dungeon]"
+    },
+    {
+      "type": 5,
+      "index": 5978,
+      "text": "[type]"
+    },
+    {
+      "type": 7,
+      "index": 17675,
+      "text": "[boss]"
+    },
+    {
+      "type": 5,
+      "index": 16844,
+      "text": "[greed]"
+    },
+    {
+      "type": 7,
+      "index": 299286,
+      "text": "DD DD"
+    },
+    {
+      "type": 5,
+      "index": 287298,
+      "text": "[tile]"
+    },
+    {
+      "type": 7,
+      "index": 301221,
+      "text": "Tile/SkyCastleHD.til"
+    },
+    {
+      "type": 7,
+      "index": 301221,
+      "text": "Tile/SkyCastleHD.til"
+    },
+    {
+      "type": 7,
+      "index": 301221,
+      "text": "Tile/SkyCastleHD.til"
+    },
+    {
+      "type": 7,
+      "index": 301221,
+      "text": "Tile/SkyCastleHD.til"
+    },
+    {
+      "type": 7,
+      "index": 301221,
+      "text": "Tile/SkyCastleHD.til"
+    },
+    {
+      "type": 7,
+      "index": 301221,
+      "text": "Tile/SkyCastleHD.til"
+    },
+    {
+      "type": 7,
+      "index": 301221,
+      "text": "Tile/SkyCastleHD.til"
+    },
+    {
+      "type": 5,
+      "index": 287299,
+      "text": "[/tile]"
+    },
+    {
+      "type": 5,
+      "index": 299309,
+      "text": "[extended tile]"
+    },
+    {
+      "type": 7,
+      "index": 300068,
+      "text": "Tile/SkyCastleEX2.til"
+    },
+    {
+      "type": 7,
+      "index": 300065,
+      "text": "Tile/SkyCastleEX3.til"
+    },
+    {
+      "type": 7,
+      "index": 300063,
+      "text": "Tile/SkyCastleEX7.til"
+    },
+    {
+      "type": 7,
+      "index": 300063,
+      "text": "Tile/SkyCastleEX7.til"
+    },
+    {
+      "type": 7,
+      "index": 300063,
+      "text": "Tile/SkyCastleEX7.til"
+    },
+    {
+      "type": 7,
+      "index": 300063,
+      "text": "Tile/SkyCastleEX7.til"
+    },
+    {
+      "type": 7,
+      "index": 300063,
+      "text": "Tile/SkyCastleEX7.til"
+    },
+    {
+      "type": 5,
+      "index": 299311,
+      "text": "[/extended tile]"
+    },
+    {
+      "type": 5,
+      "index": 299212,
+      "text": "[far sight scroll]"
+    },
+    {
+      "type": 2,
+      "value": 56
+    },
+    {
+      "type": 5,
+      "index": 299213,
+      "text": "[middle sight scroll]"
+    },
+    {
+      "type": 2,
+      "value": 90
+    },
+    {
+      "type": 5,
+      "index": 299214,
+      "text": "[near sight scroll]"
+    },
+    {
+      "type": 2,
+      "value": 110
+    },
+    {
+      "type": 5,
+      "index": 299312,
+      "text": "[background animation]"
+    },
+    {
+      "type": 5,
+      "index": 299313,
+      "text": "[ani info]"
+    },
+    {
+      "type": 5,
+      "index": 299314,
+      "text": "[filename]"
+    },
+    {
+      "type": 7,
+      "index": 299367,
+      "text": "Animation/far1.ani"
+    },
+    {
+      "type": 5,
+      "index": 5149,
+      "text": "[layer]"
+    },
+    {
+      "type": 7,
+      "index": 299316,
+      "text": "[distantback]"
+    },
+    {
+      "type": 5,
+      "index": 299317,
+      "text": "[order]"
+    },
+    {
+      "type": 7,
+      "index": 299318,
+      "text": "[below]"
+    },
+    {
+      "type": 5,
+      "index": 299319,
+      "text": "[/ani info]"
+    },
+    {
+      "type": 5,
+      "index": 299313,
+      "text": "[ani info]"
+    },
+    {
+      "type": 5,
+      "index": 299314,
+      "text": "[filename]"
+    },
+    {
+      "type": 7,
+      "index": 299368,
+      "text": "Animation/far3.ani"
+    },
+    {
+      "type": 5,
+      "index": 5149,
+      "text": "[layer]"
+    },
+    {
+      "type": 7,
+      "index": 299369,
+      "text": "[middleback]"
+    },
+    {
+      "type": 5,
+      "index": 299317,
+      "text": "[order]"
+    },
+    {
+      "type": 7,
+      "index": 299318,
+      "text": "[below]"
+    },
+    {
+      "type": 5,
+      "index": 299319,
+      "text": "[/ani info]"
+    },
+    {
+      "type": 5,
+      "index": 299320,
+      "text": "[/background animation]"
+    },
+    {
+      "type": 5,
+      "index": 299215,
+      "text": "[pathgate pos]"
+    },
+    {
+      "type": 2,
+      "value": 20
+    },
+    {
+      "type": 2,
+      "value": 661
+    },
+    {
+      "type": 2,
+      "value": 1520
+    },
+    {
+      "type": 2,
+      "value": 291
+    },
+    {
+      "type": 2,
+      "value": 174
+    },
+    {
+      "type": 2,
+      "value": 196
+    },
+    {
+      "type": 2,
+      "value": 779
+    },
+    {
+      "type": 2,
+      "value": 588
+    },
+    {
+      "type": 5,
+      "index": 299216,
+      "text": "[sound]"
+    },
+    {
+      "type": 7,
+      "index": 301227,
+      "text": "M_HALL_OF_DOLL_BOSS"
+    },
+    {
+      "type": 7,
+      "index": 299218,
+      "text": "R_AMB_WIND"
+    },
+    {
+      "type": 7,
+      "index": 301223,
+      "text": "R_AMB_THUNDER"
+    },
+    {
+      "type": 5,
+      "index": 299219,
+      "text": "[/sound]"
+    },
+    {
+      "type": 5,
+      "index": 5148,
+      "text": "[animation]"
+    },
+    {
+      "type": 7,
+      "index": 301226,
+      "text": "Animation/LightningShadow.ani"
+    },
+    {
+      "type": 7,
+      "index": 299302,
+      "text": "[closeback]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": -68
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 7,
+      "index": 301226,
+      "text": "Animation/LightningShadow.ani"
+    },
+    {
+      "type": 7,
+      "index": 299302,
+      "text": "[closeback]"
+    },
+    {
+      "type": 2,
+      "value": 224
+    },
+    {
+      "type": 2,
+      "value": -68
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 7,
+      "index": 301226,
+      "text": "Animation/LightningShadow.ani"
+    },
+    {
+      "type": 7,
+      "index": 299302,
+      "text": "[closeback]"
+    },
+    {
+      "type": 2,
+      "value": 448
+    },
+    {
+      "type": 2,
+      "value": -68
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 7,
+      "index": 301226,
+      "text": "Animation/LightningShadow.ani"
+    },
+    {
+      "type": 7,
+      "index": 299302,
+      "text": "[closeback]"
+    },
+    {
+      "type": 2,
+      "value": 672
+    },
+    {
+      "type": 2,
+      "value": -68
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 7,
+      "index": 301226,
+      "text": "Animation/LightningShadow.ani"
+    },
+    {
+      "type": 7,
+      "index": 299302,
+      "text": "[closeback]"
+    },
+    {
+      "type": 2,
+      "value": 896
+    },
+    {
+      "type": 2,
+      "value": -68
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 7,
+      "index": 301226,
+      "text": "Animation/LightningShadow.ani"
+    },
+    {
+      "type": 7,
+      "index": 299302,
+      "text": "[closeback]"
+    },
+    {
+      "type": 2,
+      "value": 1120
+    },
+    {
+      "type": 2,
+      "value": -68
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 7,
+      "index": 301226,
+      "text": "Animation/LightningShadow.ani"
+    },
+    {
+      "type": 7,
+      "index": 299302,
+      "text": "[closeback]"
+    },
+    {
+      "type": 2,
+      "value": 1344
+    },
+    {
+      "type": 2,
+      "value": -68
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 7,
+      "index": 301225,
+      "text": "Animation/middledark.ani"
+    },
+    {
+      "type": 7,
+      "index": 299369,
+      "text": "[middleback]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": -120
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 7,
+      "index": 301225,
+      "text": "Animation/middledark.ani"
+    },
+    {
+      "type": 7,
+      "index": 299369,
+      "text": "[middleback]"
+    },
+    {
+      "type": 2,
+      "value": 224
+    },
+    {
+      "type": 2,
+      "value": -120
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 7,
+      "index": 301225,
+      "text": "Animation/middledark.ani"
+    },
+    {
+      "type": 7,
+      "index": 299369,
+      "text": "[middleback]"
+    },
+    {
+      "type": 2,
+      "value": 448
+    },
+    {
+      "type": 2,
+      "value": -120
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 7,
+      "index": 301225,
+      "text": "Animation/middledark.ani"
+    },
+    {
+      "type": 7,
+      "index": 299369,
+      "text": "[middleback]"
+    },
+    {
+      "type": 2,
+      "value": 672
+    },
+    {
+      "type": 2,
+      "value": -120
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 7,
+      "index": 301225,
+      "text": "Animation/middledark.ani"
+    },
+    {
+      "type": 7,
+      "index": 299369,
+      "text": "[middleback]"
+    },
+    {
+      "type": 2,
+      "value": 896
+    },
+    {
+      "type": 2,
+      "value": -120
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 7,
+      "index": 301225,
+      "text": "Animation/middledark.ani"
+    },
+    {
+      "type": 7,
+      "index": 299369,
+      "text": "[middleback]"
+    },
+    {
+      "type": 2,
+      "value": 1120
+    },
+    {
+      "type": 2,
+      "value": -120
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 7,
+      "index": 301225,
+      "text": "Animation/middledark.ani"
+    },
+    {
+      "type": 7,
+      "index": 299369,
+      "text": "[middleback]"
+    },
+    {
+      "type": 2,
+      "value": 1344
+    },
+    {
+      "type": 2,
+      "value": -120
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 241505,
+      "text": "[/animation]"
+    },
+    {
+      "type": 5,
+      "index": 8424,
+      "text": "[passive object]"
+    },
+    {
+      "type": 2,
+      "value": 1035
+    },
+    {
+      "type": 2,
+      "value": 515
+    },
+    {
+      "type": 2,
+      "value": 195
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1035
+    },
+    {
+      "type": 2,
+      "value": 533
+    },
+    {
+      "type": 2,
+      "value": 219
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 238
+    },
+    {
+      "type": 2,
+      "value": 687
+    },
+    {
+      "type": 2,
+      "value": 243
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 238
+    },
+    {
+      "type": 2,
+      "value": 957
+    },
+    {
+      "type": 2,
+      "value": 252
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 240
+    },
+    {
+      "type": 2,
+      "value": 455
+    },
+    {
+      "type": 2,
+      "value": 289
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 646
+    },
+    {
+      "type": 2,
+      "value": 882
+    },
+    {
+      "type": 2,
+      "value": 292
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 238
+    },
+    {
+      "type": 2,
+      "value": 709
+    },
+    {
+      "type": 2,
+      "value": 301
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 238
+    },
+    {
+      "type": 2,
+      "value": 978
+    },
+    {
+      "type": 2,
+      "value": 320
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1035
+    },
+    {
+      "type": 2,
+      "value": 572
+    },
+    {
+      "type": 2,
+      "value": 401
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1035
+    },
+    {
+      "type": 2,
+      "value": 597
+    },
+    {
+      "type": 2,
+      "value": 423
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 18677,
+      "text": "[/passive object]"
+    },
+    {
+      "type": 5,
+      "index": 17123,
+      "text": "[monster]"
+    },
+    {
+      "type": 2,
+      "value": 39
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 446
+    },
+    {
+      "type": 2,
+      "value": 203
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 7,
+      "index": 299221,
+      "text": "[fixed]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 604
+    },
+    {
+      "type": 2,
+      "value": 213
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 7,
+      "index": 299221,
+      "text": "[fixed]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 2,
+      "value": 40
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 23
+    },
+    {
+      "type": 2,
+      "value": 568
+    },
+    {
+      "type": 2,
+      "value": 275
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 7,
+      "index": 299221,
+      "text": "[fixed]"
+    },
+    {
+      "type": 7,
+      "index": 17675,
+      "text": "[boss]"
+    },
+    {
+      "type": 2,
+      "value": 84
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1061
+    },
+    {
+      "type": 2,
+      "value": 275
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 7,
+      "index": 299221,
+      "text": "[fixed]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 2,
+      "value": 39
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 324
+    },
+    {
+      "type": 2,
+      "value": 278
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 7,
+      "index": 299221,
+      "text": "[fixed]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 2,
+      "value": 84
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1066
+    },
+    {
+      "type": 2,
+      "value": 331
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 7,
+      "index": 299221,
+      "text": "[fixed]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 2,
+      "value": 81
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 887
+    },
+    {
+      "type": 2,
+      "value": 332
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 7,
+      "index": 299221,
+      "text": "[fixed]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 2,
+      "value": 39
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 473
+    },
+    {
+      "type": 2,
+      "value": 339
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 7,
+      "index": 299221,
+      "text": "[fixed]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 2,
+      "value": 80
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 649
+    },
+    {
+      "type": 2,
+      "value": 415
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 7,
+      "index": 299221,
+      "text": "[fixed]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 5,
+      "index": 299222,
+      "text": "[/monster]"
+    },
+    {
+      "type": 5,
+      "index": 299223,
+      "text": "[monster specific AI]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 7,
+      "index": 1565,
+      "text": "[normal]"
+    },
+    {
+      "type": 5,
+      "index": 299224,
+      "text": "[/monster specific AI]"
+    },
+    {
+      "type": 5,
+      "index": 299225,
+      "text": "[special passive object]"
+    },
+    {
+      "type": 2,
+      "value": 238
+    },
+    {
+      "type": 2,
+      "value": 79
+    },
+    {
+      "type": 2,
+      "value": 278
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 7,
+      "index": 299226,
+      "text": "[trap]"
+    },
+    {
+      "type": 2,
+      "value": 2211
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 2,
+      "value": 4
+    },
+    {
+      "type": 2,
+      "value": -1
+    },
+    {
+      "type": 5,
+      "index": 299227,
+      "text": "[/special passive object]"
+    },
+    {
+      "type": 5,
+      "index": 6120,
+      "text": "[NPC]"
+    },
+    {
+      "type": 2,
+      "value": 1000
+    },
+    {
+      "type": 7,
+      "index": 299237,
+      "text": "[left]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 245843,
+      "text": "[/NPC]"
+    },
+    {
+      "type": 5,
+      "index": 299230,
+      "text": "[event monster position]"
+    },
+    {
+      "type": 2,
+      "value": 781
+    },
+    {
+      "type": 2,
+      "value": 331
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 762
+    },
+    {
+      "type": 2,
+      "value": 237
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 784
+    },
+    {
+      "type": 2,
+      "value": 396
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 903
+    },
+    {
+      "type": 2,
+      "value": 402
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 299231,
+      "text": "[/event monster position]"
+    },
+    {
+      "type": 5,
+      "index": 299232,
+      "text": "[map name]"
+    },
+    {
+      "type": 9,
+      "value": 6
+    },
+    {
+      "type": 10,
+      "index": 299233,
+      "text": "map_name_455"
+    }
+  ]
+}

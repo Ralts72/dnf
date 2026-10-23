@@ -1,0 +1,21 @@
+{
+  "candidate": "R1/07",
+  "path": "docs/previews/r1_07_jump_audio.wav",
+  "source": "Offline stereo preview: audited live cue choices/times, decoded original OGG audio.",
+  "rate": 48000,
+  "channels": 2,
+  "sample_width": 2,
+  "frames": 69025,
+  "seconds": 1.4380208333333333,
+  "peak": 0.5971647500991821,
+  "clipped_samples": 0,
+  "cue_count": 5,
+  "volume": 0.6,
+  "sha256": "31cb20ea077a20fbe78281c555caa3111bb9d8a04d65f68f9e1dee82f1d99368",
+  "generator_sha256": "5b1e751c4730f7b844510c07a3f9409f8c31917e3393053f573f95058201ac99",
+  "notes": [
+    "No resynthesis or timbre changes. Decoding and sample-rate conversion only.",
+    "Real Godot mixer checks are recorded separately in r1_07_audio_checks.json.",
+    "This audition is not a certification of speaker hardware or audiovisual sync."
+  ]
+}

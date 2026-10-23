@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "stage": "R4 deep gallery source reuse",
+  "region_id": "depths",
+  "basis": {
+    "r2_manifest": "docs/r2_asset_manifest.json",
+    "r2_layout": "source_art/r2/layout_reference.json",
+    "planning": "work/r4_tower_extension_plan.json",
+    "shared_transform_and_serializer": "tools/r2/build_route_worlds.py"
+  },
+  "source_client": "95",
+  "source_pvf_sha256": "dc0e1acbc98b03b160e9ddb0643efdc7752cdf9c8969937507720a4ca2705c7b",
+  "required_new_crops": 0,
+  "unchanged_reused_png_count": 10,
+  "assets": [
+    {
+      "texture": "res://assets/r2/interior/paving.png",
+      "width": 192,
+      "height": 96,
+      "sha256_png": "b9a5baa51c5c8436496b9ce51c19a3194b39169d9a55031a08d1fe237ad7f956",
+      "sha256_rgba": "56063816059c0828093b2ea2f0451c855d0c99f3f02f70c7ced130670cdd351c",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "interior/paving",
+      "original_img_crop": false,
+      "derived_subrect": true,
+      "source_texture": "res://assets/r2/interior/floor.png",
+      "source_rect_xyxy": [
+        16,
+        16,
+        208,
+        112
+      ],
+      "export": "Exact RGBA subrectangle of exported source crop; no resampling, rectification or color edits.",
+      "r4_use": "Reused unchanged; no new crop or PNG export",
+      "original_source_frame_reference": {
+        "texture": "res://assets/r2/interior/floor.png",
+        "width": 224,
+        "height": 120,
+        "sha256_png": "3b91d4726297fa475ccedfcaebae9ca6e6005f9935bf98b568ba67dfffdfccf5",
+        "sha256_rgba": "7f97ee756bc22d2432a1a7ee15dc6121421cc314d47711d6e43e99dab3c284cd",
+        "alpha_range": [
+          255,
+          255
+        ],
+        "role": "interior/floor",
+        "original_img_crop": true,
+        "derived_subrect": false,
+        "img_frame": 0,
+        "resolved_img_frame": 0,
+        "img_metadata": {
+          "type": 14,
+          "mode": 6,
+          "width": 224,
+          "height": 120,
+          "x": 0,
+          "y": 0,
+          "canvas_width": 224,
+          "canvas_height": 120,
+          "data_offset": 284,
+          "data_bytes": 4753,
+          "version": 2
+        },
+        "source": {
+          "client": "95",
+          "npk": "sprite_map_act2_amon.NPK",
+          "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+          "img": "sprite/map/act2/amon/200amonnewex.img",
+          "npk_entry_offset": 68884,
+          "payload_bytes": 32533,
+          "sha256_img_payload": "dbfacce69649666b3ae64debb1e70a52e2eaa7f44ac3eb02cdef876ba0cba1c3"
+        },
+        "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+      }
+    },
+    {
+      "texture": "res://assets/r2/interior/column.png",
+      "width": 29,
+      "height": 93,
+      "sha256_png": "4eafb3ddd62e4af5b8d0fe874e5bf98864e21dfd7006e88bd858f3cdc7cb290d",
+      "sha256_rgba": "3c353ccd201c43355658636cdad46f037629c6d878300a0c8d32a9c3f13479ef",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/column",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 29,
+        "height": 93,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 29,
+        "canvas_height": 93,
+        "data_offset": 68,
+        "data_bytes": 1234,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2.NPK",
+        "npk_sha256": "d262997bbe267fd4ccbcd84509e024bc8e1aead1aace03bfe21a7ea9a543f8ba",
+        "img": "sprite/map/act2/marblestonepillar.img",
+        "npk_entry_offset": 212989,
+        "payload_bytes": 1302,
+        "sha256_img_payload": "9b25110ab97418b60bcce378ac0663f64c751d93624460982c99689f67109734"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction.",
+      "r4_use": "Reused unchanged; no new crop or PNG export"
+    },
+    {
+      "texture": "res://assets/r2/interior/far.png",
+      "width": 630,
+      "height": 355,
+      "sha256_png": "68355157b25e188eef2d05adcf76f3681b6a53144991f8c7d7e5f7ccfbf2c2b0",
+      "sha256_rgba": "8d43407836639a9b6c7ec14f38e93b6e39cfe273dff04267cbdf391db1d7c433",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "interior/far",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 630,
+        "height": 355,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 630,
+        "canvas_height": 355,
+        "data_offset": 68,
+        "data_bytes": 26318,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/far_dr.img",
+        "npk_entry_offset": 357359,
+        "payload_bytes": 26386,
+        "sha256_img_payload": "65c32fdfec403205d39848d6fdef885f38175b42c5157c85fe876e887e444fce"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction.",
+      "r4_use": "Reused unchanged; no new crop or PNG export"
+    },
+    {
+      "texture": "res://assets/r2/interior/banner.png",
+      "width": 224,
+      "height": 309,
+      "sha256_png": "f4f605464b8846663a39f502e8e2a557ec5690c5825215742d28353fd9db5a1b",
+      "sha256_rgba": "60c2299f69eea825861b22f3692ff5797296d21c993db393095cb7efe9404425",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/banner",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 309,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 480,
+        "data_offset": 68,
+        "data_bytes": 6063,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/bakalsymbol.img",
+        "npk_entry_offset": 321498,
+        "payload_bytes": 6131,
+        "sha256_img_payload": "eec82f7d0ef0e987b06885f779cefd93a11d5e1dff803f3930217b53508bb46b"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction.",
+      "r4_use": "Reused unchanged; no new crop or PNG export"
+    },
+    {
+      "texture": "res://assets/r2/interior/wall_0.png",
+      "width": 224,
+      "height": 434,
+      "sha256_png": "9e53947a990e4f2e03fbf697b2fa298d78b1fbd4d061acc952e8a2a7389259e5",
+      "sha256_rgba": "f6ed5631448a9e4cab6ce886fe1f31e8bde13c9fd64594a988fd8534c698ce56",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/wall_0",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 434,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 434,
+        "data_offset": 248,
+        "data_bytes": 11481,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/200amonnew.img",
+        "npk_entry_offset": 4804,
+        "payload_bytes": 64080,
+        "sha256_img_payload": "c1fdcfccc53e262423203e3da6409704ec2abed60cf653819f2d184488c77f9f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction.",
+      "r4_use": "Reused unchanged; no new crop or PNG export"
+    },
+    {
+      "texture": "res://assets/r2/interior/wall_1.png",
+      "width": 224,
+      "height": 434,
+      "sha256_png": "3c509dcd60aafbbd412dca38fbc803c6f1b996f12d42362c8840d9619bc15846",
+      "sha256_rgba": "f3f8c7b97656052adae5a47536e2eadddba110ebc55a1abc0f5a867eeaebc281",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/wall_1",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 1,
+      "resolved_img_frame": 1,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 434,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 434,
+        "data_offset": 11729,
+        "data_bytes": 6658,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/200amonnew.img",
+        "npk_entry_offset": 4804,
+        "payload_bytes": 64080,
+        "sha256_img_payload": "c1fdcfccc53e262423203e3da6409704ec2abed60cf653819f2d184488c77f9f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction.",
+      "r4_use": "Reused unchanged; no new crop or PNG export"
+    },
+    {
+      "texture": "res://assets/r2/interior/wall_2.png",
+      "width": 224,
+      "height": 434,
+      "sha256_png": "415fcaecc8f3f56b7dcd1d273102714db2e5a387b133a5b53b8a5fdb3d8240a6",
+      "sha256_rgba": "160aacf810744b3e971150348154c5dfafbba4ace06af2c15820e5386fc7713e",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/wall_2",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 2,
+      "resolved_img_frame": 2,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 434,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 434,
+        "data_offset": 18387,
+        "data_bytes": 10303,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/200amonnew.img",
+        "npk_entry_offset": 4804,
+        "payload_bytes": 64080,
+        "sha256_img_payload": "c1fdcfccc53e262423203e3da6409704ec2abed60cf653819f2d184488c77f9f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction.",
+      "r4_use": "Reused unchanged; no new crop or PNG export"
+    },
+    {
+      "texture": "res://assets/r2/interior/wall_3.png",
+      "width": 224,
+      "height": 434,
+      "sha256_png": "5a15ecd9e02d6604ab4dcae807ebb4525d3828c5070e7b67e1d48755df322e7c",
+      "sha256_rgba": "c1517717790eb831f76e8edda1b43b27e70094b3ac14b9d4ad4240ffcd3daf8a",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/wall_3",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 3,
+      "resolved_img_frame": 3,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 434,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 434,
+        "data_offset": 28690,
+        "data_bytes": 13101,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/200amonnew.img",
+        "npk_entry_offset": 4804,
+        "payload_bytes": 64080,
+        "sha256_img_payload": "c1fdcfccc53e262423203e3da6409704ec2abed60cf653819f2d184488c77f9f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction.",
+      "r4_use": "Reused unchanged; no new crop or PNG export"
+    },
+    {
+      "texture": "res://assets/r2/interior/wall_4.png",
+      "width": 224,
+      "height": 434,
+      "sha256_png": "d2c3f8aefabb66bd5fea73b3ed28d4bbbf0ae2aa7dee244c0b1769f9cfbacbd1",
+      "sha256_rgba": "c1481cdac4c25f6c36093bada339eb9827ee8bbcd1e85823e616f6daac5ab97f",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/wall_4",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 4,
+      "resolved_img_frame": 4,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 434,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 434,
+        "data_offset": 41791,
+        "data_bytes": 13149,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/200amonnew.img",
+        "npk_entry_offset": 4804,
+        "payload_bytes": 64080,
+        "sha256_img_payload": "c1fdcfccc53e262423203e3da6409704ec2abed60cf653819f2d184488c77f9f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction.",
+      "r4_use": "Reused unchanged; no new crop or PNG export"
+    },
+    {
+      "texture": "res://assets/r2/interior/wall_5.png",
+      "width": 224,
+      "height": 434,
+      "sha256_png": "03db96d9a414a43fea3c6bfd5c792fb52ba9e249e4176f379344a23c5f701c3a",
+      "sha256_rgba": "50f4c69b154023f03b332edd2b4f6268b1b68f4308b09ef19bacbe3cef34b788",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "interior/wall_5",
+      "original_img_crop": true,
+      "derived_subrect": false,
+      "img_frame": 5,
+      "resolved_img_frame": 5,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 224,
+        "height": 434,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 224,
+        "canvas_height": 434,
+        "data_offset": 54940,
+        "data_bytes": 9140,
+        "version": 2
+      },
+      "source": {
+        "client": "95",
+        "npk": "sprite_map_act2_amon.NPK",
+        "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+        "img": "sprite/map/act2/amon/200amonnew.img",
+        "npk_entry_offset": 4804,
+        "payload_bytes": 64080,
+        "sha256_img_payload": "c1fdcfccc53e262423203e3da6409704ec2abed60cf653819f2d184488c77f9f"
+      },
+      "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction.",
+      "r4_use": "Reused unchanged; no new crop or PNG export"
+    }
+  ],
+  "outputs": [
+    "scenes/tower_depths_world.tscn",
+    "scenes/tower_depths.tscn",
+    "scenes/tower_depths_collisions.tscn",
+    "source_art/r4/depths_layout_reference.json",
+    "docs/r4_depths_source_reference.json"
+  ],
+  "native_mesh_instances": 44,
+  "source_card_count": 8,
+  "collision_policy": "Empty named root is intentional: all decorative solids remain outside the legal walking rectangle with 0.18m clearance. Existing route bounds prevent unreachable outer decoration from being contacted. No invisible internal obstacles.",
+  "checks": {
+    "ten_png_and_decoded_rgba_match_existing_manifest": true,
+    "source_png_hashes_unchanged_after_build": true,
+    "native_mesh_budget_30_to_45": true,
+    "all_decorative_footprints_outside_walk_with_actor_clearance": true,
+    "exact_existing_runtime_or_asset_files_modified": 0,
+    "scene_runtime_parse": "Not run; parent coordinates Godot parse and live QA after integration"
+  },
+  "nonclaims": [
+    "New adapted geometry, no claim of original 3D map layout or recovered route adjacency",
+    "Native material shading/tint is not a claim of rendered source-pixel equality",
+    "Scene resource and source provenance only; boss/travel/profile integration remains with root"
+  ]
+}

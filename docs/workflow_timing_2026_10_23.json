@@ -1,0 +1,435 @@
+{
+  "scope": {
+    "start_utc": "2026-10-23T03:49:19.067000+00:00",
+    "end_utc": "2026-10-23T05:18:57.264000+00:00",
+    "timezone_display": "Asia/Shanghai",
+    "source": "/Users/mac/.codex/sessions/2026/10/23/rollout-2026-10-23T03-10-43-01a16505-d36b-7250-92e9-180e2ceb0c4f.jsonl",
+    "end_excludes_this_analysis": true
+  },
+  "summary": {
+    "wall_seconds": 5378.197000026703,
+    "model_and_dispatch_seconds_excluding_awaited_tools": 5290.459999084473,
+    "awaited_tools_union_seconds": 87.73700094223022,
+    "exclusive_categories_seconds": {
+      "unattributed_generation_dispatch_network": 1427.1659948825836,
+      "reasoning_stream": 3723.1960031986237,
+      "visible_text_stream": 31.398000955581665,
+      "awaited_tools": 87.73700094223022,
+      "context_compaction": 108.70000004768372
+    },
+    "exclusive_categories_pct": {
+      "unattributed_generation_dispatch_network": 26.53614203562082,
+      "reasoning_stream": 69.2275869251375,
+      "visible_text_stream": 0.5838016152146486,
+      "awaited_tools": 1.6313459871736682,
+      "context_compaction": 2.0211234368533546
+    },
+    "reasoning_stream_union_seconds": 3723.1960031986237,
+    "text_stream_union_seconds": 31.398000955581665,
+    "context_compaction_union_seconds": 108.70000004768372,
+    "explicit_ai_stages_seconds": 3863.294004201889,
+    "explicit_ai_stages_percent": 71.83251197720551
+  },
+  "per_iteration": [
+    {
+      "iteration": "R1/25",
+      "wall_seconds": 1780.2599999904633,
+      "model_and_dispatch_seconds_excluding_awaited_tools": 1752.8039994239807,
+      "awaited_tools_union_seconds": 27.456000566482544,
+      "exclusive_categories_seconds": {
+        "unattributed_generation_dispatch_network": 503.67299795150757,
+        "reasoning_stream": 1129.2510011196136,
+        "visible_text_stream": 11.180000305175781,
+        "awaited_tools": 27.456000566482544,
+        "context_compaction": 108.70000004768372
+      },
+      "exclusive_categories_pct": {
+        "unattributed_generation_dispatch_network": 28.292103285711395,
+        "reasoning_stream": 63.431802159553264,
+        "visible_text_stream": 0.6279981747180564,
+        "awaited_tools": 1.5422466699599848,
+        "context_compaction": 6.105849710057296
+      },
+      "reasoning_stream_union_seconds": 1129.2510011196136,
+      "text_stream_union_seconds": 11.180000305175781,
+      "context_compaction_union_seconds": 108.70000004768372
+    },
+    {
+      "iteration": "R1/26",
+      "wall_seconds": 1271.9300000667572,
+      "model_and_dispatch_seconds_excluding_awaited_tools": 1251.7259993553162,
+      "awaited_tools_union_seconds": 20.20400071144104,
+      "exclusive_categories_seconds": {
+        "unattributed_generation_dispatch_network": 456.93399930000305,
+        "visible_text_stream": 9.285000324249268,
+        "awaited_tools": 20.20400071144104,
+        "reasoning_stream": 785.5069997310638
+      },
+      "exclusive_categories_pct": {
+        "unattributed_generation_dispatch_network": 35.924461194878724,
+        "visible_text_stream": 0.7299930282139697,
+        "awaited_tools": 1.5884522505468568,
+        "reasoning_stream": 61.75709352636045
+      },
+      "reasoning_stream_union_seconds": 785.5069997310638,
+      "text_stream_union_seconds": 9.285000324249268,
+      "context_compaction_union_seconds": 0.0
+    },
+    {
+      "iteration": "R1/27",
+      "wall_seconds": 1369.305999994278,
+      "model_and_dispatch_seconds_excluding_awaited_tools": 1336.03400015831,
+      "awaited_tools_union_seconds": 33.27199983596802,
+      "exclusive_categories_seconds": {
+        "unattributed_generation_dispatch_network": 369.354998588562,
+        "reasoning_stream": 958.2160012722015,
+        "visible_text_stream": 8.463000297546387,
+        "awaited_tools": 33.27199983596802
+      },
+      "exclusive_categories_pct": {
+        "unattributed_generation_dispatch_network": 26.973883017390232,
+        "reasoning_stream": 69.9782226380521,
+        "visible_text_stream": 0.6180503333500146,
+        "awaited_tools": 2.4298440112076523
+      },
+      "reasoning_stream_union_seconds": 958.2160012722015,
+      "text_stream_union_seconds": 8.463000297546387,
+      "context_compaction_union_seconds": 0.0
+    },
+    {
+      "iteration": "R1/28 paused in progress",
+      "wall_seconds": 956.6599998474121,
+      "model_and_dispatch_seconds_excluding_awaited_tools": 949.8550000190735,
+      "awaited_tools_union_seconds": 6.804999828338623,
+      "exclusive_categories_seconds": {
+        "unattributed_generation_dispatch_network": 97.16299891471863,
+        "reasoning_stream": 850.2220010757446,
+        "visible_text_stream": 2.4700000286102295,
+        "awaited_tools": 6.804999828338623
+      },
+      "exclusive_categories_pct": {
+        "unattributed_generation_dispatch_network": 10.156481814878452,
+        "reasoning_stream": 88.87399924856851,
+        "visible_text_stream": 0.25818995557504193,
+        "awaited_tools": 0.7113289809779886
+      },
+      "reasoning_stream_union_seconds": 850.2220010757446,
+      "text_stream_union_seconds": 2.4700000286102295,
+      "context_compaction_union_seconds": 0.0
+    }
+  ],
+  "item_counts": {
+    "Reasoning": 348,
+    "AgentMessage": 22,
+    "McpToolCall": 179,
+    "CommandExecution": 114,
+    "FileChange": 48,
+    "ImageView": 17,
+    "ContextCompaction": 1
+  },
+  "outer_tool_calls": 119,
+  "local_commands": {
+    "count": 114,
+    "sum_seconds": 4.977517207000002,
+    "check_only_commands": 11,
+    "check_only_containing_command_seconds": 0.9382870000000001,
+    "longest": [
+      {
+        "line": 11319,
+        "start_utc": "2026-10-23T04:35:57.687Z",
+        "duration_seconds": 1.338409417,
+        "has_godot_check_only": false,
+        "has_godot_headless": false,
+        "has_ffmpeg": true,
+        "command_prefix": "/bin/zsh -lc /opt/homebrew/bin/ffmpeg -hide_banner -loglevel error -y -framerate 30 -stream_loop 5 -i source_art/r1/experiments/dash_cycle_26/comparison/pair_%02d.png -frames:v 144 -plays 0 -f apng docs/previews/r1_26_da"
+      },
+      {
+        "line": 11339,
+        "start_utc": "2026-10-23T04:37:20.940Z",
+        "duration_seconds": 0.588036,
+        "has_godot_check_only": false,
+        "has_godot_headless": false,
+        "has_ffmpeg": false,
+        "command_prefix": "/bin/zsh -lc /Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 source_art/r1/experiments/dash_cycle_26/analyze_preview.py"
+      },
+      {
+        "line": 11278,
+        "start_utc": "2026-10-23T04:34:14.921Z",
+        "duration_seconds": 0.425424292,
+        "has_godot_check_only": false,
+        "has_godot_headless": false,
+        "has_ffmpeg": false,
+        "command_prefix": "/bin/zsh -lc /Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 source_art/r1/experiments/dash_cycle_26/analyze_gallery.py"
+      },
+      {
+        "line": 11535,
+        "start_utc": "2026-10-23T04:47:36.671Z",
+        "duration_seconds": 0.260117459,
+        "has_godot_check_only": true,
+        "has_godot_headless": true,
+        "has_ffmpeg": false,
+        "command_prefix": "/bin/zsh -lc /Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tools/r1/analyze_live_motion.py r1_27_live_c_off && /Applications/Godot.app/Contents/MacOS/Godot --headless --path /User"
+      },
+      {
+        "line": 11161,
+        "start_utc": "2026-10-23T04:28:31.315Z",
+        "duration_seconds": 0.209847209,
+        "has_godot_check_only": false,
+        "has_godot_headless": false,
+        "has_ffmpeg": false,
+        "command_prefix": "/bin/zsh -lc /Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 source_art/r1/experiments/dash_cycle_26/analyze_apparel.py"
+      },
+      {
+        "line": 10622,
+        "start_utc": "2026-10-23T04:05:31.607Z",
+        "duration_seconds": 0.196630583,
+        "has_godot_check_only": true,
+        "has_godot_headless": true,
+        "has_ffmpeg": false,
+        "command_prefix": "/bin/zsh -lc /Applications/Godot.app/Contents/MacOS/Godot --headless --path /Users/mac/project/game/dnf --check-only --script res://tools/r1/walk_render_checks.gd\n/Applications/Godot.app/Contents/MacOS/Godot --headless -"
+      },
+      {
+        "line": 10780,
+        "start_utc": "2026-10-23T04:13:33.879Z",
+        "duration_seconds": 0.19627825,
+        "has_godot_check_only": false,
+        "has_godot_headless": false,
+        "has_ffmpeg": false,
+        "command_prefix": "/bin/zsh -lc /Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tools/r1/verify_actor_sources.py --candidate R1/25"
+      },
+      {
+        "line": 11185,
+        "start_utc": "2026-10-23T04:29:30.864Z",
+        "duration_seconds": 0.178817167,
+        "has_godot_check_only": false,
+        "has_godot_headless": false,
+        "has_ffmpeg": false,
+        "command_prefix": "/bin/zsh -lc /Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 source_art/r1/experiments/dash_cycle_26/analyze_apparel.py"
+      }
+    ]
+  },
+  "token_counts": {
+    "output": 244662,
+    "reasoning_output": 151961,
+    "unique_responses": 124
+  },
+  "native_saved_jobs": [
+    {
+      "file": "docs/r1_25_diagnostics_job.json",
+      "elapsed_seconds": 0.831344,
+      "render_cases": 0,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_25_effect_job.json",
+      "elapsed_seconds": 3.738756,
+      "render_cases": 48,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_25_interpolation_job.json",
+      "elapsed_seconds": 7.653019,
+      "render_cases": 8,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_25_jump_job.json",
+      "elapsed_seconds": 4.112264,
+      "render_cases": 3,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_25_pose_job.json",
+      "elapsed_seconds": 9.673856,
+      "render_cases": 552,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_25_runtime_job.json",
+      "elapsed_seconds": 4.679851,
+      "render_cases": 0,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_25_walk_job.json",
+      "elapsed_seconds": 0.950235,
+      "render_cases": 0,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_25_walk_render_job.json",
+      "elapsed_seconds": 1.932986,
+      "render_cases": 96,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_26_apparel_job.json",
+      "elapsed_seconds": 0.866886,
+      "render_cases": 0,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_26_bake_job.json",
+      "elapsed_seconds": 0.737114,
+      "render_cases": 0,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_26_comparison_job.json",
+      "elapsed_seconds": 0.670971,
+      "render_cases": 0,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_26_gallery_job.json",
+      "elapsed_seconds": 1.234246,
+      "render_cases": 0,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_26_identity_job.json",
+      "elapsed_seconds": 0.338199,
+      "render_cases": 0,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_26_r1_job.json",
+      "elapsed_seconds": 1.936165,
+      "render_cases": 96,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_27_dash_render_job.json",
+      "elapsed_seconds": 1.947071,
+      "render_cases": 96,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_27_diagnostics_job.json",
+      "elapsed_seconds": 1.016425,
+      "render_cases": 0,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_27_effect_job.json",
+      "elapsed_seconds": 3.756828,
+      "render_cases": 48,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_27_interpolation_job.json",
+      "elapsed_seconds": 7.547242,
+      "render_cases": 8,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_27_jump_job.json",
+      "elapsed_seconds": 3.876325,
+      "render_cases": 3,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_27_locomotion_job.json",
+      "elapsed_seconds": 3.958167,
+      "render_cases": 0,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_27_move_render_job.json",
+      "elapsed_seconds": 2.063436,
+      "render_cases": 96,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_27_pose_job.json",
+      "elapsed_seconds": 9.580504,
+      "render_cases": 552,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_27_runtime_job.json",
+      "elapsed_seconds": 4.709402,
+      "render_cases": 0,
+      "status": "complete"
+    },
+    {
+      "file": "docs/r1_28_framing_job.json",
+      "elapsed_seconds": 16.673364,
+      "render_cases": 992,
+      "status": "complete"
+    }
+  ],
+  "limitations": [
+    "Exclusive wall-time categories describe workflow stages, not CPU/GPU utilization.",
+    "Residual includes generating tool code, network, scheduling and other uninstrumented gaps; cannot report pure cloud inference duration.",
+    "Native background jobs overlap reasoning and tool stages; their durations must not be added to exclusive wall-time categories.",
+    "Saved job snapshots show final recorded executions and omit overwritten first attempts.",
+    "Very short command durations are telemetry values and may have recording/buffering limits; they are not dedicated microbenchmarks."
+  ],
+  "native_saved_jobs_seconds": 94.484656,
+  "fixed_duration_observations": {
+    "count": 5,
+    "total_sample_seconds": 317.936941,
+    "observations": [
+      {
+        "file": "docs/r1_25_live_a_analysis.json",
+        "duration_seconds": 63.566714999999995,
+        "fps_from_mean": 119.95271424675634,
+        "maximum_ms": 18.921
+      },
+      {
+        "file": "docs/r1_25_live_b_analysis.json",
+        "duration_seconds": 63.596868,
+        "fps_from_mean": 119.88011736678604,
+        "maximum_ms": 18.541
+      },
+      {
+        "file": "docs/r1_27_live_a_analysis.json",
+        "duration_seconds": 63.596277,
+        "fps_from_mean": 118.98495253110494,
+        "maximum_ms": 19.111
+      },
+      {
+        "file": "docs/r1_27_live_b_analysis.json",
+        "duration_seconds": 63.568383000000004,
+        "fps_from_mean": 118.92704585548448,
+        "maximum_ms": 20.54
+      },
+      {
+        "file": "docs/r1_27_live_c_off_analysis.json",
+        "duration_seconds": 63.608698,
+        "fps_from_mean": 119.10320818074283,
+        "maximum_ms": 19.135
+      }
+    ],
+    "note": "About 64 seconds planned per observation; background work overlaps AI stages, not additive to the exclusive wall time."
+  },
+  "host_snapshot": {
+    "model": "Mac16,10",
+    "cpu": "Apple M4",
+    "ram_gib": 16,
+    "swap_used_mib": 3173.12,
+    "memory_pressure_report_free_percent": 44,
+    "note": "Current snapshot only. Swap use does not establish sustained memory pressure or historical latency."
+  },
+  "native_saved_jobs_by_iteration_seconds": {
+    "25": 33.572311,
+    "26": 5.783581,
+    "27": 38.4554,
+    "28": 16.673364
+  },
+  "classification_checks": {
+    "exclusive_sum_seconds": 5378.197000026703,
+    "wall_seconds": 5378.197000026703,
+    "partition_error_seconds": 0.0
+  },
+  "recommendation_evidence": {
+    "effective_reasoning_effort_in_scope": "xhigh",
+    "reasoning_effort_source": "turn_context records in the scoped session log",
+    "hardware_upgrade_for_this_workflow": "not supported by current measurements",
+    "sources": [
+      "https://developers.openai.com/api/docs/guides/latency-optimization",
+      "https://developers.openai.com/api/docs/guides/reasoning"
+    ]
+  }
+}

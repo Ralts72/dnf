@@ -1,0 +1,89 @@
+{
+  "check_script": "res://tools/r1/facade_projection_checks.gd",
+  "elapsed_seconds": 0.697216,
+  "qa_source_sha256": "8c95d49f039b47c74e6ea80006a03e5b9571afdec3bbf5d90d709dff0478b218",
+  "render_cases_completed": 2,
+  "result": {
+    "checks": 7,
+    "failed": [
+      {
+        "check": "facade_source_alpha_uses_cutout",
+        "details": {},
+        "pass": false
+      },
+      {
+        "check": "camera_aligned_facade_rgb_1x",
+        "details": {
+          "clear_samples": 1673,
+          "matching": 8668,
+          "max_rgb_distance": 0.807843133807182,
+          "samples": 9331,
+          "scale": 1,
+          "source_origin": "(1.0, 19.18089)",
+          "transparent": 1279
+        },
+        "pass": false
+      },
+      {
+        "check": "original_facade_gaps_remain_transparent_1x",
+        "details": {
+          "clear_samples": 1673,
+          "matching": 8668,
+          "max_rgb_distance": 0.807843133807182,
+          "samples": 9331,
+          "scale": 1,
+          "source_origin": "(1.0, 19.18089)",
+          "transparent": 1279
+        },
+        "pass": false
+      },
+      {
+        "check": "camera_aligned_facade_rgb_2x",
+        "details": {
+          "clear_samples": 1673,
+          "matching": 8705,
+          "max_rgb_distance": 0.807843133807182,
+          "samples": 9335,
+          "scale": 2,
+          "source_origin": "(1.0, 19.18089)",
+          "transparent": 1274
+        },
+        "pass": false
+      },
+      {
+        "check": "original_facade_gaps_remain_transparent_2x",
+        "details": {
+          "clear_samples": 1673,
+          "matching": 8705,
+          "max_rgb_distance": 0.807843133807182,
+          "samples": 9335,
+          "scale": 2,
+          "source_origin": "(1.0, 19.18089)",
+          "transparent": 1274
+        },
+        "pass": false
+      }
+    ],
+    "render_cases": [
+      {
+        "clear_samples": 1673,
+        "matching": 8668,
+        "max_rgb_distance": 0.807843133807182,
+        "samples": 9331,
+        "scale": 1,
+        "source_origin": "(1.0, 19.18089)",
+        "transparent": 1279
+      },
+      {
+        "clear_samples": 1673,
+        "matching": 8705,
+        "max_rgb_distance": 0.807843133807182,
+        "samples": 9335,
+        "scale": 2,
+        "source_origin": "(1.0, 19.18089)",
+        "transparent": 1274
+      }
+    ]
+  },
+  "status": "complete"
+}

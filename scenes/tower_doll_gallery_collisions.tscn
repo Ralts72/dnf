@@ -1,0 +1,5 @@
+[gd_scene format=3]
+
+[node name="TowerDollGalleryCollisions" type="Node3D"]
+metadata/obstacle_count = 0
+metadata/ground_policy = "Intentionally empty: all decorative native mesh AABBs expanded by actor foot radius 0.18m lie outside walk [36,245,852,345]. Floor and foundation are below-foot support. See docs/r4_doll_gallery_layout_reference.json."

@@ -1,0 +1,18 @@
+{
+  "path": "monster/monster.kor.str",
+  "bytes": 105777,
+  "sha256_decoded_bytes": "b083b402fc49ce79ca2ca5e9ef961f69f18f91e53a4a90725e3a3c001ce98982",
+  "crc": {
+    "expected": 2305317670,
+    "actual_seed_file_number": 2305317670,
+    "actual_seed_zero": 923912519
+  },
+  "crc_matches": true,
+  "original_reference": "source_art/r4/lakius/pvf/monster/monster.kor.str.bin",
+  "decoded_reference": "source_art/r4/lakius/pvf/monster/monster.kor.str.json",
+  "decoded": {
+    "encoding": "Big5",
+    "name_key": "name_525",
+    "source_name": "魯卡斯"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "candidate": "R1/07",
+  "source_files": 12,
+  "runtime_files": 12,
+  "canonical_packs": 3,
+  "checks": [
+    {
+      "tag": "SM_ATK_01",
+      "source_matches_npk": true,
+      "noncomment_packets_identical": true
+    },
+    {
+      "tag": "SM_ATK_02",
+      "source_matches_npk": true,
+      "noncomment_packets_identical": true
+    },
+    {
+      "tag": "SM_ATK_03",
+      "source_matches_npk": true,
+      "noncomment_packets_identical": true
+    },
+    {
+      "tag": "SM_JUMP",
+      "source_matches_npk": true,
+      "noncomment_packets_identical": true
+    },
+    {
+      "tag": "SM_JUMP_ATK_01",
+      "source_matches_npk": true,
+      "noncomment_packets_identical": true
+    },
+    {
+      "tag": "SM_JUMP_ATK_02",
+      "source_matches_npk": true,
+      "noncomment_packets_identical": true
+    },
+    {
+      "tag": "JUMP_START",
+      "source_matches_npk": true,
+      "noncomment_packets_identical": true
+    },
+    {
+      "tag": "JUMP_END",
+      "source_matches_npk": true,
+      "noncomment_packets_identical": true
+    },
+    {
+      "tag": "SQUARESWDA_01",
+      "source_matches_npk": true,
+      "noncomment_packets_identical": true
+    },
+    {
+      "tag": "SQUARESWDA_02",
+      "source_matches_npk": true,
+      "noncomment_packets_identical": true
+    },
+    {
+      "tag": "SQUARESWDB",
+      "source_matches_npk": true,
+      "noncomment_packets_identical": true
+    },
+    {
+      "tag": "SQUARESWDC_01",
+      "source_matches_npk": true,
+      "noncomment_packets_identical": true
+    }
+  ],
+  "failed": []
+}

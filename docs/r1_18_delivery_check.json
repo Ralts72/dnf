@@ -1,0 +1,30 @@
+{
+  "candidate": "R1/18",
+  "verified_at_utc": "2026-10-23T01:28:16.902266+00:00",
+  "run_id": "r22785425-56",
+  "artifact_hashes_passed": 207,
+  "current_checks": {
+    "door_approach": 22,
+    "runtime": 17,
+    "stall": 11,
+    "pose": 17,
+    "observation": 11
+  },
+  "total_current_checks": 78,
+  "failed": 0,
+  "completed_qa_jobs": 5,
+  "unchanged_model_and_runtime_files": 32,
+  "new_door_ground_grid_points": 525,
+  "retained_ground_grid_points": 16119,
+  "door_pose_matching_samples": 2604,
+  "fresh_run_walk_script_matches": true,
+  "fresh_run_texture_mismatches": 0,
+  "clean_current_run": true,
+  "quota_remaining_percent": 92,
+  "goal_status": "active",
+  "previews": {
+    "r1_18_window.png": "a10e6fe6b774670e47c7465c4b9a5b408ed6f96b21d9c511397b73fd628509f5",
+    "r1_18_full1080.png": "944b70fda57ebb845fff350c1e65dd04b5da8b548ff716c29330fcc9ce715fe5",
+    "r1_18_door_walk.png": "95d777da73c7ce2b3f1b961dd6cba6805ddf2c0f44f65dbe13df00160e06f3c5"
+  }
+}

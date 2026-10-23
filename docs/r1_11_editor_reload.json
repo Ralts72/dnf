@@ -1,0 +1,36 @@
+{
+  "before_build": "R1   /   01",
+  "after_build": "R1   /   11",
+  "editor_scene": "res://scenes/west_coast_r1.tscn",
+  "architecture_meshes": 302,
+  "lamp_meshes": 42,
+  "hierarchy_total": 374,
+  "hierarchy_complete": true,
+  "preserved_in_memory_scenes": [
+    "res://work/r1_11_editor_r0_before_reload.tscn",
+    "res://work/r1_11_editor_r1_before_reload.tscn"
+  ],
+  "new_ui_nodes": [
+    {
+      "name": "AudioMenu",
+      "path": "/WestCoastR1/Interface/AudioMenu"
+    },
+    {
+      "name": "MoreActions",
+      "path": "/WestCoastR1/Interface/MoreActions"
+    },
+    {
+      "name": "FrameSlider",
+      "path": "/WestCoastR1/Interface/FrameSlider"
+    },
+    {
+      "name": "Quality",
+      "path": "/WestCoastR1/Interface/Quality"
+    }
+  ],
+  "lamp_example": "/WestCoastR1/PortClip/ViewportContainer/Viewport/World/PortArchitecture/Pier_Lamp_FarSmall0_Base",
+  "preserved_scene_sha256": {
+    "res://work/r1_11_editor_r0_before_reload.tscn": "04e170ff85afd4f1572347959cb4596231d36355a078b26b337dd8d5f61fbfb2",
+    "res://work/r1_11_editor_r1_before_reload.tscn": "161dbe2ea701a34b59b51f8f49b777774135630356131ae2c994c1f5f5ec4eb9"
+  }
+}

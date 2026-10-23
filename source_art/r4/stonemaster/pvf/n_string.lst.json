@@ -1,0 +1,244 @@
+{
+  "path": "n_string.lst",
+  "crc": {
+    "expected": 2697374422,
+    "actual_seed_file_number": 2697374422,
+    "actual_seed_zero": 1962917806
+  },
+  "decoded": [
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 7,
+      "index": 343341,
+      "text": "Character/Character.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 7,
+      "index": 343342,
+      "text": "Common/Common.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 7,
+      "index": 343343,
+      "text": "Dungeon/Dungeon.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 3
+    },
+    {
+      "type": 7,
+      "index": 343344,
+      "text": "equipment/equipment.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 4
+    },
+    {
+      "type": 7,
+      "index": 343345,
+      "text": "Etc/Etc.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 5
+    },
+    {
+      "type": 7,
+      "index": 343346,
+      "text": "ItemShop/ItemShop.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 6
+    },
+    {
+      "type": 7,
+      "index": 343347,
+      "text": "Map/Map.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 7
+    },
+    {
+      "type": 7,
+      "index": 343348,
+      "text": "Monster/Monster.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 8
+    },
+    {
+      "type": 7,
+      "index": 343349,
+      "text": "Npc/Npc.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 9
+    },
+    {
+      "type": 7,
+      "index": 343350,
+      "text": "PassiveObject/PassiveObject.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 10
+    },
+    {
+      "type": 7,
+      "index": 343351,
+      "text": "Pet/Pet.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 11
+    },
+    {
+      "type": 7,
+      "index": 343352,
+      "text": "n_Quest/Quest.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 12
+    },
+    {
+      "type": 7,
+      "index": 343353,
+      "text": "Skill/Skill.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 13
+    },
+    {
+      "type": 7,
+      "index": 343354,
+      "text": "stackable/Stackable.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 14
+    },
+    {
+      "type": 7,
+      "index": 343355,
+      "text": "Town/Town.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 15
+    },
+    {
+      "type": 7,
+      "index": 343356,
+      "text": "WorldMap/WorldMap.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 16
+    },
+    {
+      "type": 7,
+      "index": 343357,
+      "text": "Creature/Creature.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 17
+    },
+    {
+      "type": 7,
+      "index": 343358,
+      "text": "AICharacter/AICharacter.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 18
+    },
+    {
+      "type": 7,
+      "index": 343359,
+      "text": "n_Quest/EpicQuest.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 19
+    },
+    {
+      "type": 7,
+      "index": 343360,
+      "text": "Region/Region.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 20
+    },
+    {
+      "type": 7,
+      "index": 343361,
+      "text": "UI/UI.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 21
+    },
+    {
+      "type": 7,
+      "index": 343362,
+      "text": "PVP_Mission/mission.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 22
+    },
+    {
+      "type": 7,
+      "index": 343363,
+      "text": "Etc/RandomOption/RandomOption.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 23
+    },
+    {
+      "type": 7,
+      "index": 343364,
+      "text": "Event/Event.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 24
+    },
+    {
+      "type": 7,
+      "index": 343365,
+      "text": "ChatEmoticon/ChatEmoticon.kor.str"
+    },
+    {
+      "type": 2,
+      "value": 25
+    },
+    {
+      "type": 7,
+      "index": 343366,
+      "text": "ClientOnly/ClientOnly.kor.str"
+    }
+  ]
+}

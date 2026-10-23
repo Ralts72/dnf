@@ -1,0 +1,359 @@
+{
+  "candidate": "R4/08",
+  "verified_at_utc": "2026-10-23T11:46:19.048018+00:00",
+  "native_runs": {
+    "statue": "r59599553-161",
+    "guard": "r59493372-160",
+    "ranged": "r59717099-162",
+    "fresh": "r59888268-163",
+    "visual": "r59453453-159"
+  },
+  "checks": {
+    "statue": 26,
+    "guard": 24,
+    "ranged": 32
+  },
+  "total_checks": 82,
+  "failed": [],
+  "artifact_hashes_passed": 2672,
+  "manifest_sha256": "52111b6b5c526de1292aa90dd9585b91e82a905cf4b293b80ee1ee9097488178",
+  "native_durations_seconds": {
+    "statue": 34.864819,
+    "guard": 11.98493,
+    "ranged": 16.906261
+  },
+  "source": {
+    "monster_id": 84,
+    "pvf_crc_retained": 17,
+    "canonical_actions": 8,
+    "animation_records": 48,
+    "wake_duration_ms": 2400,
+    "down_duration_ms": 860,
+    "new_png_native_rgba_exact": 83,
+    "new_png_pixels": 1931606,
+    "new_audio": 0,
+    "source_attack_kind": "magic/dark; unknown darklightning dispatch not executed"
+  },
+  "geometry": {
+    "native_editable_meshes": 36,
+    "source_size_cards": 3,
+    "region_width": 1280,
+    "walk": [
+      36,
+      245,
+      1244,
+      345
+    ],
+    "conservative_pan_limits": [
+      -152,
+      536
+    ],
+    "legal_right_offset": 532,
+    "minimum_expanded_decor_gap_px": 2.619805577103932,
+    "floor_margins_px": [
+      18,
+      12,
+      49
+    ]
+  },
+  "formal_profile_before": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "formal_profile_after": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "fresh_state": {
+    "actor": {
+      "action": "stay",
+      "blocked": false,
+      "guard_active": false,
+      "paused": false,
+      "position": "(440.0, 320.0)",
+      "preview": false
+    },
+    "boss_meta": false,
+    "first_meta": false,
+    "formal": {
+      "user://adventure/first_route_v1.json": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.bak": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "sha256": ""
+      }
+    },
+    "framing": {
+      "offset_x": 0.0,
+      "pan_max": 152.0,
+      "pan_min": -152.0
+    },
+    "gallery_meta": false,
+    "guard": {
+      "accepted_begins": 0,
+      "active": false,
+      "actor_guard_active": false,
+      "actor_id": 75245816436,
+      "blocked_hits": 0,
+      "can_begin": true,
+      "cooldown_remaining": 0.0,
+      "end_count": 0,
+      "freeze_reason": "",
+      "frozen": false,
+      "guard_property_available": true,
+      "hud_text": "C 格挡 · 就绪",
+      "hud_visible": true,
+      "last_end_reason": "",
+      "last_hit": {},
+      "last_reject_reason": "",
+      "locked_facing": 1,
+      "needs_release": false,
+      "reaction_remaining": 0.0,
+      "rejected_begins": 0,
+      "release_pending": false,
+      "reset_count": 0,
+      "scene": "res://scenes/west_coast_r1.tscn",
+      "uncovered_hits": 0
+    },
+    "hp_meta": false,
+    "loaded_scripts": {
+      "res://scripts/adventure_progress.gd": {
+        "disk": "7f68bddb4002ee60628927f799001ac463b386148cf442d5452139906eee3772",
+        "loaded": "7f68bddb4002ee60628927f799001ac463b386148cf442d5452139906eee3772",
+        "matches": true
+      },
+      "res://scripts/first_loot.gd": {
+        "disk": "7634197e4edd4123dfcdc82087a685ccb98bd6c2a6449ba0196199f8fbef3a20",
+        "loaded": "7634197e4edd4123dfcdc82087a685ccb98bd6c2a6449ba0196199f8fbef3a20",
+        "matches": true
+      },
+      "res://scripts/guard_runtime.gd": {
+        "disk": "6001d0ce3fc10cb82d847240c5af4de805168b4fbba525195d7f08bbe408bd1c",
+        "loaded": "6001d0ce3fc10cb82d847240c5af4de805168b4fbba525195d7f08bbe408bd1c",
+        "matches": true
+      },
+      "res://scripts/hp_potion_runtime.gd": {
+        "disk": "8355dac0d2b7259b3877ff043291f1956a4afef1649fbef27aa3f1441b71f9f2",
+        "loaded": "8355dac0d2b7259b3877ff043291f1956a4afef1649fbef27aa3f1441b71f9f2",
+        "matches": true
+      },
+      "res://scripts/source_actor_3d.gd": {
+        "disk": "0be416bd0823eed5de53ad878dbb42fee1cba1bdc17afa6400779380458660ed",
+        "loaded": "0be416bd0823eed5de53ad878dbb42fee1cba1bdc17afa6400779380458660ed",
+        "matches": true
+      },
+      "res://scripts/source_framing.gd": {
+        "disk": "9d47974355f993fa57d05f7a05f922bff824ddc8614522d2e35cb25bcd3c8072",
+        "loaded": "9d47974355f993fa57d05f7a05f922bff824ddc8614522d2e35cb25bcd3c8072",
+        "matches": true
+      },
+      "res://scripts/source_skill_runtime.gd": {
+        "disk": "60fa9e1ad3fcb8bd9d7621a5a60d03d8ede311b1a343f65fe86ea77aa57f7d3d",
+        "loaded": "60fa9e1ad3fcb8bd9d7621a5a60d03d8ede311b1a343f65fe86ea77aa57f7d3d",
+        "matches": true
+      },
+      "res://scripts/west_coast_r1.gd": {
+        "disk": "6fc1d4414fc407ea851a2263e001dec75bb82288dfb0bd83faca186bbbfe6b1e",
+        "loaded": "6fc1d4414fc407ea851a2263e001dec75bb82288dfb0bd83faca186bbbfe6b1e",
+        "matches": true
+      },
+      "res://scripts/world_travel.gd": {
+        "disk": "e35c9d684cc3385525af4df9d1932f3a3e379eac8366cee8853b3ae72416f097",
+        "loaded": "e35c9d684cc3385525af4df9d1932f3a3e379eac8366cee8853b3ae72416f097",
+        "matches": true
+      }
+    },
+    "physics_tps": 60,
+    "potion": {
+      "accepted_uses": 0,
+      "actor_id": 75245816436,
+      "can_use": false,
+      "cooldown_remaining": 0.0,
+      "cooldown_seconds": 10.0,
+      "count": 0,
+      "freeze_reason": "",
+      "frozen": false,
+      "heal_hp": 35,
+      "hud_text": "H 药剂×0 · 就绪",
+      "hud_visible": false,
+      "item_id": 1106,
+      "last_heal": {},
+      "last_reject_reason": "",
+      "player_hp": 100,
+      "ready": true,
+      "rejected_uses": 0,
+      "reset_count": 0,
+      "scene": "res://scenes/west_coast_r1.tscn"
+    },
+    "profile": {
+      "dialog_open": false,
+      "encounter_cleared": false,
+      "last_error": "",
+      "loaded_from_backup": false,
+      "pending_save": false,
+      "progress": {
+        "chapter_flags": {
+          "lakius_cleared": false
+        },
+        "coins": 0,
+        "equipment": {
+          "equipped_key": "practice_lswd0000",
+          "owned": {
+            "27304": false
+          }
+        },
+        "first_drop": {
+          "id": "mirkius_first_eye_v1",
+          "position": [
+            640,
+            300
+          ],
+          "region": "hall",
+          "state": "unearned"
+        },
+        "inventory": {
+          "1106": 0,
+          "3128": 0
+        },
+        "objective_cleared": false,
+        "quest_stage": "available",
+        "reward_granted": false,
+        "schema": 5
+      },
+      "region_scene": "res://scenes/west_coast_r1.tscn",
+      "save_attempts": 0,
+      "storage_path": "user://adventure/first_route_v1.json",
+      "storage_ready": true
+    },
+    "scene": "res://scenes/west_coast_r1.tscn",
+    "shop": {
+      "buy_text": "购买 1 瓶 · 10 金币",
+      "can_buy": false,
+      "capacity": 4,
+      "coins": 0,
+      "dialog_open": false,
+      "pending_save": false,
+      "potion_count": 0,
+      "price": 10
+    },
+    "skill": {
+      "accepted_casts": 0,
+      "action": "hardattack",
+      "actor_id": 75245816436,
+      "can_cast": true,
+      "cooldown_remaining": 0.0,
+      "cooldown_seconds": 6.0,
+      "freeze_reason": "",
+      "frozen": false,
+      "hud_text": "Z 鬼斩 · 就绪",
+      "hud_visible": true,
+      "last_reject_reason": "",
+      "ready": true,
+      "rejected_casts": 0,
+      "reset_count": 0,
+      "scene": "res://scenes/west_coast_r1.tscn"
+    },
+    "statue_meta": false
+  },
+  "clean_log_evidence": [
+    "docs/r4_08_statue_game_logs.json",
+    "docs/r4_08_statue_editor_logs.json",
+    "docs/r4_08_guard_game_logs.json",
+    "docs/r4_08_guard_editor_logs.json",
+    "docs/r4_08_ranged_game_logs.json",
+    "docs/r4_08_ranged_editor_logs.json",
+    "docs/r4_08_fresh_game_logs.json",
+    "docs/r4_08_fresh_editor_logs.json",
+    "docs/r4_08_visual_game_logs.json",
+    "docs/r4_08_visual_editor_logs.json"
+  ],
+  "screenshots": {
+    "arrival": {
+      "path": "res://docs/previews/r4_08_statue_arrival.png",
+      "save_error": 0,
+      "scene": "res://scenes/tower_statue_gallery.tscn"
+    },
+    "awake": {
+      "path": "res://docs/previews/r4_08_statue_awake.png",
+      "save_error": 0,
+      "scene": "res://scenes/tower_statue_gallery.tscn"
+    },
+    "edge_left": {
+      "path": "res://docs/previews/r4_08_statue_edge_left.png",
+      "save_error": 0,
+      "scene": "res://scenes/tower_statue_gallery.tscn"
+    },
+    "edge_right": {
+      "path": "res://docs/previews/r4_08_statue_edge_right.png",
+      "save_error": 0,
+      "scene": "res://scenes/tower_statue_gallery.tscn"
+    },
+    "victory": {
+      "path": "res://docs/previews/r4_08_statue_victory.png",
+      "save_error": 0,
+      "scene": "res://scenes/tower_statue_gallery.tscn"
+    },
+    "waking": {
+      "path": "res://docs/previews/r4_08_statue_waking.png",
+      "save_error": 0,
+      "scene": "res://scenes/tower_statue_gallery.tscn"
+    }
+  },
+  "quota_boundary": {
+    "used_percent": 33,
+    "remaining_percent": 67,
+    "reset_at": 1793293820,
+    "credits_balance": "62480.2337700000",
+    "reset_credits_untouched": 2,
+    "stop_condition": "remaining below50% or actual quota reset; no extra paid resources"
+  },
+  "known_limits": [
+    "Prototype wake trigger,initial immunity,AI,HP140,damage18,range and400–650ms window are explicit adaptations; original armor,AI,darklightning event,element resistance and MP are not restored.",
+    "Source level1 magical absorption15% is applied with adapted ceil85% rounding/min1. Existing three-argument calls remain physical40%; no new guard FX/audio.",
+    "Transient awakened only after complete2400ms; half wake is not resumed. No profile schema,reward,quest,inventory or entitlement changes. Gallery forward gate uses only strict current-session clear.",
+    "Source/layout metadata capture preparation-time annotations; this delivery and linked current native reports are acceptance authority.",
+    "No new FPS,Windows or prolonged performance claim. Manual159 uses paused scene/position fixtures and is not route/victory evidence.",
+    "No original SwordmanStatue audio branch chosen: source R_SM_GUE is50/50 two-file RANDOM."
+  ],
+  "preserved_attempts": [
+    "source_art/r4/experiments/statue_layout_first_158: clean native run but column bases appeared detached due dado occlusion and front end pier hid sword. Base/shaft heights joined above coping; front piers/beams removed and rear pilasters moved behind all walk depths. Final36mesh visual159 and all82checks passed."
+  ]
+}

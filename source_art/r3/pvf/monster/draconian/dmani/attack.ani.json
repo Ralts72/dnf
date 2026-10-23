@@ -1,0 +1,131 @@
+{
+  "path": "monster/draconian/dmani/attack.ani",
+  "sha256": "81ed48f2bc3f0444deab223cbf81c22f9d24e2f02b7bf5f4896727ac553eb541",
+  "bytes": 263,
+  "crc": {
+    "expected": 1078242050,
+    "actual_seed_file_number": 1078242050,
+    "actual_seed_zero": 2647905063
+  },
+  "raw_reference": "source_art/r3/pvf/monster/draconian/dmani/attack.ani.bin",
+  "decoded": {
+    "frames_count": 4,
+    "resources": [
+      "monster/draconian/draco_mirkius.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 0,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -30,
+              -17,
+              -9,
+              54,
+              34,
+              118
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 1,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -30,
+              -17,
+              -9,
+              54,
+              34,
+              118
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 190
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 2,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 15,
+            "xyz_size": [
+              -22,
+              -10,
+              35,
+              173,
+              20,
+              50
+            ]
+          },
+          {
+            "type": 14,
+            "xyz_size": [
+              -13,
+              -17,
+              -5,
+              77,
+              34,
+              94
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 150
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 3,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -13,
+              -17,
+              -5,
+              54,
+              34,
+              106
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      }
+    ]
+  }
+}

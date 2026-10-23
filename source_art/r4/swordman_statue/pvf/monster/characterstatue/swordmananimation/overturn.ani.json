@@ -1,0 +1,46 @@
+{
+  "path": "monster/characterstatue/swordmananimation/overturn.ani",
+  "crc": {
+    "expected": 172635219,
+    "actual_seed_file_number": 172635219,
+    "actual_seed_zero": 3338201199
+  },
+  "decoded": {
+    "frames_count": 1,
+    "resources": [
+      "monster/characterstatue/swordmanstatue.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "monster/characterstatue/swordmanstatue.img",
+        "image_frame": 40,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -59,
+              -5,
+              0,
+              98,
+              10,
+              4
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 8,
+            "value": 3.1415929794311523
+          },
+          {
+            "type": 12,
+            "value": 500
+          }
+        ]
+      }
+    ]
+  }
+}

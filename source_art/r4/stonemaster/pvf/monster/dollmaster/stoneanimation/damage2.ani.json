@@ -1,0 +1,42 @@
+{
+  "path": "monster/dollmaster/stoneanimation/damage2.ani",
+  "crc": {
+    "expected": 398748448,
+    "actual_seed_file_number": 398748448,
+    "actual_seed_zero": 492197225
+  },
+  "decoded": {
+    "frames_count": 1,
+    "resources": [
+      "monster/dollmaster/stonemaster.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 12,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 10000
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "run_id": "r54795547-138",
+  "observed_error": "Invalid call. Nonexistent 'bool' constructor.",
+  "function": "_cast_rejection",
+  "path": "res://scripts/source_skill_runtime.gd",
+  "line": 150,
+  "trigger": "R1 held-C smoke, release, F4, then R0 SourceSkillRuntime.capture_state()",
+  "captured_from": "Godot editor_manage(game_eval) EVAL_RUNTIME_ERROR and logs_read(game) editor_errors_hint before stop",
+  "editor_cursor_limit": "Logger cursor17 had no new entries after stop; editor_logs.json is that empty cursor read, not a claim that the failed run was error-free.",
+  "correction": "Compare optional dynamic property with true instead of bool(null)."
+}

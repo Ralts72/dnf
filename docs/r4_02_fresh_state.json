@@ -1,0 +1,129 @@
+{
+  "action_count": 15,
+  "actor_action": "stay",
+  "appearance": {
+    "action": "stay",
+    "clip_paths": {
+      "dash": "res://data/swordman_dash_inbetweens.json",
+      "move": "res://data/swordman_walk_inbetweens.json"
+    },
+    "data_path": "res://data/swordman_ghost_practice_r1.json",
+    "elapsed_ms": 63.5843333333301,
+    "frame": 0,
+    "inbetweens_enabled": true,
+    "key": "practice_lswd0000",
+    "last_error": "",
+    "spatial": true,
+    "texture_count": 110
+  },
+  "blocked": false,
+  "boss_meta": false,
+  "camera": {
+    "x": 0,
+    "y": 12
+  },
+  "diagnostics_active": false,
+  "diagnostics_processing": false,
+  "equipment_runtime": {
+    "applied_actor_id": 73316436592,
+    "applied_key": "practice_lswd0000",
+    "apply_count": 1,
+    "last_error": "",
+    "scene": "res://scenes/west_coast_r1.tscn"
+  },
+  "first_meta": false,
+  "formal_profile": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "hardattack_frame_count": 18,
+  "hero_position": {
+    "x": 440,
+    "y": 320
+  },
+  "inbetweens": true,
+  "interpolation": true,
+  "paused": false,
+  "physics_tps": 60,
+  "preview": false,
+  "profile": {
+    "dialog_open": false,
+    "encounter_cleared": false,
+    "last_error": "",
+    "loaded_from_backup": false,
+    "pending_save": false,
+    "progress": {
+      "chapter_flags": {
+        "lakius_cleared": false
+      },
+      "coins": 0,
+      "equipment": {
+        "equipped_key": "practice_lswd0000",
+        "owned": {
+          "27304": false
+        }
+      },
+      "first_drop": {
+        "id": "mirkius_first_eye_v1",
+        "position": [
+          640,
+          300
+        ],
+        "region": "hall",
+        "state": "unearned"
+      },
+      "inventory": {
+        "3128": 0
+      },
+      "objective_cleared": false,
+      "quest_stage": "available",
+      "reward_granted": false,
+      "schema": 4
+    },
+    "region_scene": "res://scenes/west_coast_r1.tscn",
+    "save_attempts": 0,
+    "storage_path": "user://adventure/first_route_v1.json",
+    "storage_ready": true
+  },
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "shared_hp_meta": false,
+  "skill": {
+    "accepted_casts": 0,
+    "action": "hardattack",
+    "actor_id": 73316436592,
+    "can_cast": true,
+    "cooldown_remaining": 0,
+    "cooldown_seconds": 6,
+    "freeze_reason": "",
+    "frozen": false,
+    "hud_text": "Z 鬼斩 · 就绪",
+    "hud_visible": true,
+    "last_reject_reason": "",
+    "ready": true,
+    "rejected_casts": 0,
+    "reset_count": 0,
+    "scene": "res://scenes/west_coast_r1.tscn"
+  },
+  "source_versions_match": {
+    "effects": true,
+    "equipment_runtime": true,
+    "loot": true,
+    "profile": true,
+    "skill": true,
+    "travel": true
+  }
+}

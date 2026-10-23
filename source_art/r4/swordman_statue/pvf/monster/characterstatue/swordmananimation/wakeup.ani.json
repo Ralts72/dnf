@@ -1,0 +1,317 @@
+{
+  "path": "monster/characterstatue/swordmananimation/wakeup.ani",
+  "crc": {
+    "expected": 1944169310,
+    "actual_seed_file_number": 1944169310,
+    "actual_seed_zero": 1890708299
+  },
+  "decoded": {
+    "frames_count": 12,
+    "resources": [
+      "monster/characterstatue/swordmanstatue.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "monster/characterstatue/swordmanstatue.img",
+        "image_frame": 0,
+        "x": -233,
+        "y": -331,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -27,
+              -10,
+              0,
+              51,
+              20,
+              105
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 200
+          }
+        ]
+      },
+      {
+        "resource": "monster/characterstatue/swordmanstatue.img",
+        "image_frame": 0,
+        "x": -235,
+        "y": -331,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -27,
+              -10,
+              0,
+              51,
+              20,
+              105
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 200
+          }
+        ]
+      },
+      {
+        "resource": "monster/characterstatue/swordmanstatue.img",
+        "image_frame": 0,
+        "x": -233,
+        "y": -331,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -27,
+              -10,
+              0,
+              51,
+              20,
+              105
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 200
+          }
+        ]
+      },
+      {
+        "resource": "monster/characterstatue/swordmanstatue.img",
+        "image_frame": 0,
+        "x": -235,
+        "y": -331,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -27,
+              -10,
+              0,
+              51,
+              20,
+              105
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 200
+          }
+        ]
+      },
+      {
+        "resource": "monster/characterstatue/swordmanstatue.img",
+        "image_frame": 0,
+        "x": -233,
+        "y": -331,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -27,
+              -10,
+              0,
+              51,
+              20,
+              105
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 200
+          }
+        ]
+      },
+      {
+        "resource": "monster/characterstatue/swordmanstatue.img",
+        "image_frame": 0,
+        "x": -235,
+        "y": -331,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -27,
+              -10,
+              0,
+              51,
+              20,
+              105
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 200
+          }
+        ]
+      },
+      {
+        "resource": "monster/characterstatue/swordmanstatue.img",
+        "image_frame": 0,
+        "x": -233,
+        "y": -331,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -27,
+              -10,
+              0,
+              51,
+              20,
+              105
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 200
+          }
+        ]
+      },
+      {
+        "resource": "monster/characterstatue/swordmanstatue.img",
+        "image_frame": 0,
+        "x": -235,
+        "y": -331,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -27,
+              -10,
+              0,
+              51,
+              20,
+              105
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 200
+          }
+        ]
+      },
+      {
+        "resource": "monster/characterstatue/swordmanstatue.img",
+        "image_frame": 0,
+        "x": -233,
+        "y": -331,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -27,
+              -10,
+              0,
+              51,
+              20,
+              105
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 200
+          }
+        ]
+      },
+      {
+        "resource": "monster/characterstatue/swordmanstatue.img",
+        "image_frame": 0,
+        "x": -235,
+        "y": -331,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -27,
+              -10,
+              0,
+              51,
+              20,
+              105
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 200
+          }
+        ]
+      },
+      {
+        "resource": "monster/characterstatue/swordmanstatue.img",
+        "image_frame": 0,
+        "x": -233,
+        "y": -331,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -27,
+              -10,
+              0,
+              51,
+              20,
+              105
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 200
+          }
+        ]
+      },
+      {
+        "resource": "monster/characterstatue/swordmanstatue.img",
+        "image_frame": 0,
+        "x": -235,
+        "y": -331,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -27,
+              -10,
+              0,
+              51,
+              20,
+              105
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 200
+          }
+        ]
+      }
+    ]
+  }
+}

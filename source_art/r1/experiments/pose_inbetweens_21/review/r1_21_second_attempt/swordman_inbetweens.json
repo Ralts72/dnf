@@ -1,0 +1,800 @@
+{
+  "schema": 2,
+  "source_animation_data": "res://data/swordman_r1.json",
+  "source_animation_sha256": "1c4b47cf4d2ce09a9f65a506f4f906d495f3088e2dd5d2f8e487bdb254ae4e18",
+  "canvas_size": [
+    320,
+    224
+  ],
+  "foot_anchor": [
+    133,
+    167
+  ],
+  "subframes_per_source_frame": 3,
+  "target_image_rate": 30,
+  "actions": {
+    "move": [
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_00.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_01.png",
+        "current_png_sha256": "9f498877e7af78e62c45565c88c573e24cd0f1d4879d61c431ba225ebc915cf1",
+        "next_png_sha256": "a0c751aff7f1a1445aecba6b7c10bc55cd71802f90975e011730a76a458c03a6",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_00_1.res",
+            "raw": "res://source_art/r1/motion/move_00_1.posemap16",
+            "raw_sha256": "7de5c7e2254a4609ed79ff32b393d583baef63a5885013b840e20a6d1b840ae0",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3120,
+            "layer_contributions": [
+              67,
+              634,
+              168,
+              185,
+              642,
+              186,
+              300,
+              146,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_00_2.res",
+            "raw": "res://source_art/r1/motion/move_00_2.posemap16",
+            "raw_sha256": "6763427f3f31304eb0b3d74cfbb9986442750d3f545eb4d657f11f6f046e5946",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3042,
+            "layer_contributions": [
+              67,
+              732,
+              71,
+              96,
+              657,
+              167,
+              312,
+              146,
+              921
+            ]
+          }
+        ]
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_01.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_02.png",
+        "current_png_sha256": "a0c751aff7f1a1445aecba6b7c10bc55cd71802f90975e011730a76a458c03a6",
+        "next_png_sha256": "9a4e13ae3d4c5cdf38a7511bd54f593c5d15e31164889a08a82b6adb0879541f",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_01_1.res",
+            "raw": "res://source_art/r1/motion/move_01_1.posemap16",
+            "raw_sha256": "2adff5ee5f8fbbbd78a3485dbab12679ff9d987027123267e99a8168bbd15c29",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3211,
+            "layer_contributions": [
+              67,
+              763,
+              101,
+              88,
+              674,
+              187,
+              314,
+              146,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_01_2.res",
+            "raw": "res://source_art/r1/motion/move_01_2.posemap16",
+            "raw_sha256": "14463f8815bc3cc55dcd0ba9cbafc206145fda7cae71b46f1e7b3e475c018c58",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3456,
+            "layer_contributions": [
+              67,
+              861,
+              220,
+              194,
+              589,
+              182,
+              317,
+              148,
+              921
+            ]
+          }
+        ]
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_02.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_03.png",
+        "current_png_sha256": "9a4e13ae3d4c5cdf38a7511bd54f593c5d15e31164889a08a82b6adb0879541f",
+        "next_png_sha256": "3cede234a82618bf224170c08a33549426e7c8c39107fd4ac675c3ec299faf2a",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_02_1.res",
+            "raw": "res://source_art/r1/motion/move_02_1.posemap16",
+            "raw_sha256": "0f1b3789758c4539bfbcb2352a2e2c84426e0361f74dd92606c464297aaed054",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3528,
+            "layer_contributions": [
+              67,
+              882,
+              239,
+              194,
+              608,
+              181,
+              318,
+              148,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_02_2.res",
+            "raw": "res://source_art/r1/motion/move_02_2.posemap16",
+            "raw_sha256": "e15dcb4ae6199a326f23a85927d1423aa2be400189ebfe60559f4806ef2b9639",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3491,
+            "layer_contributions": [
+              67,
+              859,
+              225,
+              203,
+              603,
+              188,
+              305,
+              146,
+              921
+            ]
+          }
+        ]
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_03.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_04.png",
+        "current_png_sha256": "3cede234a82618bf224170c08a33549426e7c8c39107fd4ac675c3ec299faf2a",
+        "next_png_sha256": "4feb392be270bced1394f5b7fa3837759f480a57b50bd6f4cba6b3e4a01e1bb1",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_03_1.res",
+            "raw": "res://source_art/r1/motion/move_03_1.posemap16",
+            "raw_sha256": "faffc1e6bcb7356a3cf8b57589a55eeeea8d027de73643fe42e61cfbd1ccabca",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3433,
+            "layer_contributions": [
+              67,
+              828,
+              176,
+              211,
+              622,
+              190,
+              305,
+              146,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_03_2.res",
+            "raw": "res://source_art/r1/motion/move_03_2.posemap16",
+            "raw_sha256": "61d3188e398fa60dfdfbde5b72a89e8063553fbdac00640d383378c54492cea1",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3336,
+            "layer_contributions": [
+              67,
+              660,
+              146,
+              206,
+              740,
+              190,
+              305,
+              146,
+              921
+            ]
+          }
+        ]
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_04.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_05.png",
+        "current_png_sha256": "4feb392be270bced1394f5b7fa3837759f480a57b50bd6f4cba6b3e4a01e1bb1",
+        "next_png_sha256": "d49ba850eea751ba943637666d6bc509ae52f1ebaf74b9eeaf9d07471386f528",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_04_1.res",
+            "raw": "res://source_art/r1/motion/move_04_1.posemap16",
+            "raw_sha256": "cfc3d9441ab371c08ea26ff993246e0e31e4658a52dfc11244bf888d8cfbe399",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3150,
+            "layer_contributions": [
+              67,
+              635,
+              124,
+              201,
+              746,
+              190,
+              305,
+              146,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_04_2.res",
+            "raw": "res://source_art/r1/motion/move_04_2.posemap16",
+            "raw_sha256": "11a56cc089827305cadd9f7e3f3fcf3313fa43f0cfa4e0fb8f96010206b88f2d",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 2958,
+            "layer_contributions": [
+              67,
+              571,
+              88,
+              135,
+              756,
+              190,
+              297,
+              146,
+              921
+            ]
+          }
+        ]
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_05.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_06.png",
+        "current_png_sha256": "d49ba850eea751ba943637666d6bc509ae52f1ebaf74b9eeaf9d07471386f528",
+        "next_png_sha256": "561281313c62cce6d91c4a21b5841ffe4fdfea4a01dfc094028e92b327276181",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_05_1.res",
+            "raw": "res://source_art/r1/motion/move_05_1.posemap16",
+            "raw_sha256": "2b0806d5102a76c5cec13b9a4d9b52987b0a9f0b403765a396ef12c72d10e678",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3137,
+            "layer_contributions": [
+              67,
+              563,
+              89,
+              136,
+              748,
+              182,
+              297,
+              146,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_05_2.res",
+            "raw": "res://source_art/r1/motion/move_05_2.posemap16",
+            "raw_sha256": "a5dcd1f52f3fd36d0a311d7cfa243356a960b2bfb5d048086d6d18a74760cbea",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3214,
+            "layer_contributions": [
+              67,
+              555,
+              0,
+              0,
+              869,
+              390,
+              306,
+              148,
+              921
+            ]
+          }
+        ]
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_06.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_07.png",
+        "current_png_sha256": "561281313c62cce6d91c4a21b5841ffe4fdfea4a01dfc094028e92b327276181",
+        "next_png_sha256": "cff0f09d5110f502cdfd350a5506ef597aae43405c07976706d4348cd8ee193b",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_06_1.res",
+            "raw": "res://source_art/r1/motion/move_06_1.posemap16",
+            "raw_sha256": "7c4af4b3db8ff8f75eba2408c9374004cc9f599a104d4722d60aef959c2c34c3",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3155,
+            "layer_contributions": [
+              67,
+              555,
+              0,
+              0,
+              848,
+              350,
+              306,
+              148,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_06_2.res",
+            "raw": "res://source_art/r1/motion/move_06_2.posemap16",
+            "raw_sha256": "10eef6d8cc39e9f2e0ea081d387db8ff59158331341b31b2966684e7270d7ddd",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3241,
+            "layer_contributions": [
+              67,
+              556,
+              195,
+              190,
+              696,
+              190,
+              304,
+              146,
+              921
+            ]
+          }
+        ]
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_07.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_00.png",
+        "current_png_sha256": "cff0f09d5110f502cdfd350a5506ef597aae43405c07976706d4348cd8ee193b",
+        "next_png_sha256": "9f498877e7af78e62c45565c88c573e24cd0f1d4879d61c431ba225ebc915cf1",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/move_07_1.res",
+            "raw": "res://source_art/r1/motion/move_07_1.posemap16",
+            "raw_sha256": "518b94a471d7c7bdbf394e0e4100ab35dce273ff931277d2d1308d6b52674ad2",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3215,
+            "layer_contributions": [
+              67,
+              567,
+              184,
+              190,
+              676,
+              218,
+              304,
+              146,
+              921
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/move_07_2.res",
+            "raw": "res://source_art/r1/motion/move_07_2.posemap16",
+            "raw_sha256": "c03a9a122757fb0d66575afe4139e60c79db4b59cc9006532a9e1f2f49cc4ef5",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3219,
+            "layer_contributions": [
+              67,
+              615,
+              169,
+              190,
+              660,
+              211,
+              300,
+              146,
+              921
+            ]
+          }
+        ]
+      }
+    ],
+    "dash": [
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_00.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_01.png",
+        "current_png_sha256": "27ed2471651a972383ecc158fff46b4e1dae496ff2f7a946c0fd75c5a7c0c392",
+        "next_png_sha256": "337e5ca16b046e73b192fa078d3c4b435601e3364612b9930458151e122d9b6c",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_00_1.res",
+            "raw": "res://source_art/r1/motion/dash_00_1.posemap16",
+            "raw_sha256": "f654227774f1c3b3d4f0b2a2858b3bd62e32b206e1c130cb265b57a631bd6b3c",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3461,
+            "layer_contributions": [
+              0,
+              879,
+              124,
+              136,
+              805,
+              187,
+              382,
+              159,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_00_2.res",
+            "raw": "res://source_art/r1/motion/dash_00_2.posemap16",
+            "raw_sha256": "6c870ef8ae7ded3978166d077a9194abb22389b80ee31fc55929f933cf37e5d0",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3621,
+            "layer_contributions": [
+              0,
+              704,
+              0,
+              0,
+              1112,
+              366,
+              383,
+              160,
+              941
+            ]
+          }
+        ]
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_01.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_02.png",
+        "current_png_sha256": "337e5ca16b046e73b192fa078d3c4b435601e3364612b9930458151e122d9b6c",
+        "next_png_sha256": "cd17f1ada94d6eb3441aacd9fea20c2354841a319862f340a0531557205c9e19",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_01_1.res",
+            "raw": "res://source_art/r1/motion/dash_01_1.posemap16",
+            "raw_sha256": "ebcfce4e6b30e83878e7c8210145c69f733f5f5b8085005fdf70ca11db98ea28",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3820,
+            "layer_contributions": [
+              0,
+              703,
+              0,
+              0,
+              1302,
+              415,
+              377,
+              154,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_01_2.res",
+            "raw": "res://source_art/r1/motion/dash_01_2.posemap16",
+            "raw_sha256": "c216fe8b7e21ae68186f55a378468e82b487e1451b20098fcb67dd532f37e584",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3610,
+            "layer_contributions": [
+              0,
+              652,
+              0,
+              0,
+              1243,
+              281,
+              374,
+              155,
+              941
+            ]
+          }
+        ]
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_02.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_03.png",
+        "current_png_sha256": "cd17f1ada94d6eb3441aacd9fea20c2354841a319862f340a0531557205c9e19",
+        "next_png_sha256": "208fb867f881b6daea134e343e1f7d41af37c2005664a9e5dff255ee6f691ef9",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_02_1.res",
+            "raw": "res://source_art/r1/motion/dash_02_1.posemap16",
+            "raw_sha256": "61696b647ff57b65b51e856c7a9826e3023567b54eb2d17fefba2b7ced1fd825",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3598,
+            "layer_contributions": [
+              0,
+              669,
+              0,
+              0,
+              1190,
+              283,
+              374,
+              155,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_02_2.res",
+            "raw": "res://source_art/r1/motion/dash_02_2.posemap16",
+            "raw_sha256": "4f42891091bfa1871fc54cad073dda5df320ee4fccdbe2cd88ed287437e05b5b",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3916,
+            "layer_contributions": [
+              0,
+              839,
+              0,
+              0,
+              1277,
+              412,
+              368,
+              154,
+              941
+            ]
+          }
+        ]
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_03.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_04.png",
+        "current_png_sha256": "208fb867f881b6daea134e343e1f7d41af37c2005664a9e5dff255ee6f691ef9",
+        "next_png_sha256": "661636d8da28b24480280864bd98f16db03f0fbbc363a352228a040070059302",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_03_1.res",
+            "raw": "res://source_art/r1/motion/dash_03_1.posemap16",
+            "raw_sha256": "77c21889a251af58cfdd16bcafe6e79fc0f9c89febc55a60ba392278e1111869",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3840,
+            "layer_contributions": [
+              0,
+              875,
+              0,
+              0,
+              1157,
+              362,
+              380,
+              154,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_03_2.res",
+            "raw": "res://source_art/r1/motion/dash_03_2.posemap16",
+            "raw_sha256": "6ad5455e257af5068fe93a28b32ce0e82782abb4932b605e873727114abc8202",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3661,
+            "layer_contributions": [
+              0,
+              911,
+              91,
+              199,
+              893,
+              190,
+              376,
+              165,
+              941
+            ]
+          }
+        ]
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_04.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_05.png",
+        "current_png_sha256": "661636d8da28b24480280864bd98f16db03f0fbbc363a352228a040070059302",
+        "next_png_sha256": "687d93e9547099cc9473adda59e2aaba9e58735f7029a9bd06d3d297f75bf456",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_04_1.res",
+            "raw": "res://source_art/r1/motion/dash_04_1.posemap16",
+            "raw_sha256": "2ed063da346e121285a66abf9847b9dbcf5f4744c21f25e2c5a4a86cb3a140ef",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3614,
+            "layer_contributions": [
+              0,
+              936,
+              91,
+              199,
+              773,
+              191,
+              382,
+              159,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_04_2.res",
+            "raw": "res://source_art/r1/motion/dash_04_2.posemap16",
+            "raw_sha256": "ecf1e233ddd81ef26f851585d0c0889cf7ed5d6aaca7a3054cb182e14faa2292",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3872,
+            "layer_contributions": [
+              0,
+              918,
+              0,
+              0,
+              1151,
+              370,
+              382,
+              160,
+              941
+            ]
+          }
+        ]
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_05.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_06.png",
+        "current_png_sha256": "687d93e9547099cc9473adda59e2aaba9e58735f7029a9bd06d3d297f75bf456",
+        "next_png_sha256": "781fb85b34ae92289b7e0175848816f3ea9da87359396cbe9c711160d045da59",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_05_1.res",
+            "raw": "res://source_art/r1/motion/dash_05_1.posemap16",
+            "raw_sha256": "6bb4a52f01779c98ca2eb4849657efac308d7cda0bd0c097dd9f91231e902c06",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 4007,
+            "layer_contributions": [
+              0,
+              935,
+              0,
+              0,
+              1241,
+              422,
+              378,
+              154,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_05_2.res",
+            "raw": "res://source_art/r1/motion/dash_05_2.posemap16",
+            "raw_sha256": "03b63b7a061171ad1111ab76738e3cd5a3e4da0f8c3cebf1db3ccc81474950e8",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3923,
+            "layer_contributions": [
+              0,
+              962,
+              0,
+              0,
+              1213,
+              302,
+              374,
+              155,
+              941
+            ]
+          }
+        ]
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_06.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_07.png",
+        "current_png_sha256": "781fb85b34ae92289b7e0175848816f3ea9da87359396cbe9c711160d045da59",
+        "next_png_sha256": "1104468119ad68347d49b9fd920f4c2bd069bc5b522e709b2838b2e5a31e3f52",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_06_1.res",
+            "raw": "res://source_art/r1/motion/dash_06_1.posemap16",
+            "raw_sha256": "49a328afc6f109915a3922b63df09fdbfcc1f0b874e91881a4da4e8912f6adec",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3857,
+            "layer_contributions": [
+              0,
+              949,
+              0,
+              0,
+              1157,
+              304,
+              374,
+              155,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_06_2.res",
+            "raw": "res://source_art/r1/motion/dash_06_2.posemap16",
+            "raw_sha256": "f9dd4ede999dcc25ce27c88d9deea77063a3198df85723726eae3bbcf8fcab30",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 4006,
+            "layer_contributions": [
+              0,
+              942,
+              0,
+              0,
+              1248,
+              417,
+              368,
+              154,
+              941
+            ]
+          }
+        ]
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_07.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_00.png",
+        "current_png_sha256": "1104468119ad68347d49b9fd920f4c2bd069bc5b522e709b2838b2e5a31e3f52",
+        "next_png_sha256": "27ed2471651a972383ecc158fff46b4e1dae496ff2f7a946c0fd75c5a7c0c392",
+        "maps": [
+          {
+            "phase": 0.3333333333333333,
+            "texture": "res://assets/r1/motion/dash_07_1.res",
+            "raw": "res://source_art/r1/motion/dash_07_1.posemap16",
+            "raw_sha256": "5db04670c79c9f4deb39d07264d7d658c04190b9ba4c8a9e07f4b9e832cdc8d2",
+            "raw_bytes": 573440,
+            "endpoint": 0,
+            "valid_pixels": 3860,
+            "layer_contributions": [
+              0,
+              961,
+              0,
+              0,
+              1069,
+              399,
+              380,
+              154,
+              941
+            ]
+          },
+          {
+            "phase": 0.6666666666666666,
+            "texture": "res://assets/r1/motion/dash_07_2.res",
+            "raw": "res://source_art/r1/motion/dash_07_2.posemap16",
+            "raw_sha256": "e75d0a12a21b8501f5aea055e4b49de52fd6a8a0043468c8ffe588cf99bd31bc",
+            "raw_bytes": 573440,
+            "endpoint": 1,
+            "valid_pixels": 3600,
+            "layer_contributions": [
+              0,
+              918,
+              124,
+              136,
+              829,
+              202,
+              376,
+              165,
+              941
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "numeric_channels": [
+    "source_x_integer",
+    "source_y_integer",
+    "valid",
+    "source_endpoint"
+  ],
+  "notes": [
+    "Source PNGs and ANI timings are unchanged. Intermediate correspondence is an adaptation, not recovered original poses.",
+    "Each retained appearance layer is analyzed separately; rigid shoes/weapons and layer priority preserve part identity.",
+    "Runtime samples nearest original colors from one endpoint. No silhouette or RGB cross-fade is used."
+  ]
+}

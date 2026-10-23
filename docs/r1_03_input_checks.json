@@ -1,0 +1,9 @@
+{
+  "button": "画质：清晰 F6",
+  "key_f6_pass": true,
+  "method": "MCP runtime input_key and input_mouse through actual Godot event routing; paused attack2 frame 3 retained",
+  "mouse_button_pass": true,
+  "native_size": "(1792, 808)",
+  "physical_click": "(840.3312, 47.38519)",
+  "restored_scale": 2
+}

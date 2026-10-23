@@ -1,0 +1,20 @@
+{
+  "candidate": "R1/19",
+  "failed": 0,
+  "source_ani_crc_checked": 2,
+  "source_npk_images_checked": 3,
+  "exact_source_rgba_crops": 9,
+  "exact_source_rgba_pixels": 105300,
+  "source_delay_frames_ms": [
+    360,
+    420
+  ],
+  "source_reference_sha256": "6019c2d95e0d27219307743ee363e3e52c596129efe609eb80fc5182ef81fbd8",
+  "qa_source_sha256": "668e95031e9e5db1d45e84b8eff47fe9edab343bcda2237bf3d8ac11f9845812",
+  "notes": [
+    "Track offsets, empty delay frames and durations come directly from source ANI.",
+    "The sample starts both tracks at pose time zero. Original engine attachment/dispatch is not recovered.",
+    "Source type 11 effect value 2 is retained. Godot additive rendering is the sample interpretation.",
+    "No berserker shockwave, damage, movement or sound dispatch is added."
+  ]
+}

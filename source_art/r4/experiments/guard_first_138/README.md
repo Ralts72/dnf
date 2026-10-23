@@ -1,0 +1,1 @@
+Manual run138 held C correctly. F4 reached R0; SourceSkillRuntime.capture_state then exposed bool(null) as invalid in Godot4.7.2 because the R0 layered actor has no guard_active property. The corrected gate compares Object.get(...) == true, accepting only an actual true value. Historical debugger error is preserved; no player-profile writes occurred.

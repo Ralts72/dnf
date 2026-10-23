@@ -1,0 +1,146 @@
+{
+  "candidate": "R3/01",
+  "verified_at_utc": "2026-10-23T07:19:53.606659+00:00",
+  "combat_qa_run_id": "r43529473-89",
+  "route_qa_and_final_run_id": "r43634032-91",
+  "artifact_hashes_passed": 599,
+  "manifest_sha256": "fc671e385e9c070ba08d83866779ee47da4fb5032d61cbc3d81d424541c8c371",
+  "checks": {
+    "encounter": 24,
+    "route": 14
+  },
+  "total_native_function_checks": 38,
+  "native_seconds": {
+    "encounter": 22.297728,
+    "route": 11.814571
+  },
+  "failed": [],
+  "source_counts": {
+    "animations": 9,
+    "composite_frames": 34,
+    "unique_source_crops": 32,
+    "textures": 66,
+    "verified_pvf_crc": 17,
+    "copied_rgba_pixels": 701788
+  },
+  "native_imported_textures": 66,
+  "native_exact_rgba_pixels": 3154100,
+  "fresh_state": {
+    "attack_instance": 0,
+    "camera": "(0.0, 12.0)",
+    "combat_buffer_enabled": false,
+    "diagnostics_active": false,
+    "diagnostics_processing": false,
+    "encounter_meta_present": false,
+    "human_profile_exists": false,
+    "motion": true,
+    "physics_ticks": 60,
+    "player": {
+      "action": "stay",
+      "audio": {
+        "clock_ms": 0.0,
+        "pending": []
+      },
+      "elapsed_ms": 36.9296666666425,
+      "facing": 1,
+      "frame": 4,
+      "jump": {
+        "air_attack_started": -1.0,
+        "air_attack_used": false,
+        "elapsed": -1.0,
+        "travel_speed": 95.0
+      },
+      "next_attack": "attack1",
+      "one_shot": false,
+      "paused": false,
+      "position": "(440.0, 320.0)",
+      "preview": false
+    },
+    "quality": 2,
+    "queued_attack": false,
+    "root_children": [
+      "_mcp_game_helper",
+      "PortMusic",
+      "PortAmbience",
+      "FrameDiagnostics",
+      "WestCoastR1"
+    ],
+    "scene": "res://scenes/west_coast_r1.tscn",
+    "script_hashes": {
+      "res://scripts/draconian_enemy.gd": {
+        "disk": "287647a35755f5585f5926622354bc089f24b85aa5824c9a98ecdc01aaf66b41",
+        "loaded": "287647a35755f5585f5926622354bc089f24b85aa5824c9a98ecdc01aaf66b41"
+      },
+      "res://scripts/exploration_stage.gd": {
+        "disk": "0c8062478e958245f2ab19cd2d443b3dc6a8d9f620d7b05c06b433d2a0ade1da",
+        "loaded": "0c8062478e958245f2ab19cd2d443b3dc6a8d9f620d7b05c06b433d2a0ade1da"
+      },
+      "res://scripts/first_encounter.gd": {
+        "disk": "143f9723a82d5e573b72783b8e60ddfd97dfc3b2509d46da1ea9722962fd8e0f",
+        "loaded": "143f9723a82d5e573b72783b8e60ddfd97dfc3b2509d46da1ea9722962fd8e0f"
+      },
+      "res://scripts/source_actor_3d.gd": {
+        "disk": "cc45da047eacc5f074ce0f22b19fac460057312ddaa7c103f8de73b5ee5d6871",
+        "loaded": "cc45da047eacc5f074ce0f22b19fac460057312ddaa7c103f8de73b5ee5d6871"
+      },
+      "res://scripts/world_travel.gd": {
+        "disk": "e8c6ea9c40a7cdc67d3a19c8c13c2a42db9be3444559662647bb8026118ecb06",
+        "loaded": "e8c6ea9c40a7cdc67d3a19c8c13c2a42db9be3444559662647bb8026118ecb06"
+      }
+    },
+    "travel": {
+      "can_exit": true,
+      "current_region": "harbor",
+      "exit_hold_id": "",
+      "exit_hold_required_seconds": 0.15,
+      "exit_hold_seconds": 0.0,
+      "fade_alpha": 0.0,
+      "grounded": true,
+      "harbor_return_position": "(60.0, 320.0)",
+      "last_error": "",
+      "last_exit": "",
+      "pending_target": "",
+      "phase": "ready",
+      "region": "harbor",
+      "reset_positions": {
+        "harbor": "(440.0, 320.0)"
+      },
+      "schema_version": 1,
+      "source_position": "(440.0, 320.0)",
+      "spawn_position": "(440.0, 320.0)",
+      "transition_count": 0,
+      "transitioning": false,
+      "ui_input_blocked": false,
+      "visited": [
+        "harbor"
+      ]
+    },
+    "walk": true
+  },
+  "game_errors": 0,
+  "game_warnings": 0,
+  "new_editor_entries_since_cursor_17": 0,
+  "evidence_sha256": {
+    "docs/r3_01_encounter_job.json": "00bbfd70b00c040ef7122b6d85d7829a4d79de82096839fe8ec746360e00434d",
+    "docs/r3_01_encounter_checks.json": "a41cf87dd0f6fa290ef7137fdee04fde2c8dbaa8efb7702a360e02fa3541c01e",
+    "docs/r3_01_travel_job.json": "7d516841102ba3cb97d28e12b427750c453073c125815e916d8f19575df93d07",
+    "docs/r3_01_travel_checks.json": "2f124950871c653d9e2163665215886bea0fb3ee562ae2d4c2ceeadeeacd0bb3",
+    "docs/r3_01_asset_checks.json": "49941487e94a61b4ecffebec5eef1399e6f0eed7a4def9ed8c94ea4d6b58c2db",
+    "docs/r3_01_final_state.json": "1032bb01b3cc67134120bb672ce0ce64d2ecf7172cc1ce3361bdc9b528e11ed6",
+    "docs/r3_01_final_logs.json": "5f541b467e98a0be7fd07d2199785ac8e75d0f5d409f8c71017fc9881920a177",
+    "docs/r3_draconian_source_reference.json": "9cb1fbf8d74d65d21eb51f1ee3ec569cd070666930ab81b635e09fedcaff2d93",
+    "docs/r3_draconian_audio_source_reference.json": "3991bacccd27615bf2a3658b2a594402677d5aabc7584bd09774130c9940abbb",
+    "docs/previews/r3_01_encounter.png": "c1421db2112057656137b836d9423898feca487769dbfe96fd45dbe2ed00046d",
+    "docs/previews/r3_01_approach.png": "10fa8e46774184e96d780f3ddf6c6e027e348f83590e36a9f29f69e9e7eba191",
+    "docs/previews/r3_01_hall.png": "4b3f14a7ac20909674dddc30d35eee2e8c055d401ad7f6f2a6e20d0fc31273c6",
+    "docs/previews/r3_01_harbor.png": "21c87bc452312989af60776efd1a23e2e9a2a3542b4a83df80ed0f3daef11d8c"
+  },
+  "limits": [
+    "First adapted melee only; no quest, disk profile, reward or equipment hooked in this candidate.",
+    "HeroHP/damage/hitwindows/hurt/AI/death are adapted rules, not complete originalengine behavior. Raw source ANI properties/boxes remain evidence.",
+    "Combat checks use controlled fixtures for range, pause, lowHP and timing; finalvictory uses actualQ/realspacing withAI enabled and nofinalHPwrites.",
+    "Static preview is paused nativehall with fullHP; behavioralvictory proof is separateJSON.",
+    "No new performance study or Windows test. New route architectural collisions are not complete.",
+    "FirstfailedQA21check/run88 is archived; final24checks/run89 and14routechecks/run91 areclean."
+  ]
+}

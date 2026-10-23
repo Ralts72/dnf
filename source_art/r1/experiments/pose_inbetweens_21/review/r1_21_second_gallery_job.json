@@ -1,0 +1,10 @@
+{
+  "check_script": "res://tools/r1/pose_flow_gallery.gd",
+  "elapsed_seconds": 1.209604,
+  "qa_source_sha256": "ad59efa3dbaf8a0cbb066de1b6de484157262ef952018a8a7f51bee3a4c81492",
+  "render_cases_completed": 48,
+  "result": {
+    "render_cases": 48
+  },
+  "status": "complete"
+}

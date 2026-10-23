@@ -1,0 +1,15 @@
+{
+  "after_F12": {
+    "active": true,
+    "processing": true,
+    "samples": 46,
+    "text": "帧率观察  F12 关闭\n渲染 123 FPS · 最近1秒 P95 9.50 ms\n行走 · 原图 10.0 / 下肢 30.0 次/秒\n本次超过 16.7 ms：0 帧 · 最长 9.56 ms\nCtrl / ⌘ + F12 保存最近记录",
+    "visible": true
+  },
+  "default": {
+    "active": false,
+    "processing": false,
+    "samples": 0,
+    "visible": false
+  }
+}

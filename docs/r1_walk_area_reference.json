@@ -1,0 +1,13 @@
+{
+  "candidate": "R1/18",
+  "kind": "adapted approach within existing R1 geometry",
+  "source_ground_rectangle": [44, 216, 112, 245],
+  "retained_rear_street": [36, 245, 378, 345],
+  "retained_front_street": [36, 285, 852, 345],
+  "loaded_ground_mesh": "Mortar_Bed_Shore_Polygon",
+  "loaded_gate_threshold": "Blue_Gate_Threshold",
+  "measured_threshold_front_source_y": 214.409530639648,
+  "inset_choice": "Keep the logical foot at y >= 216, just in front of the threshold.",
+  "source_map_reference": "docs/source_port_map.json",
+  "note": "The door approach is a sample navigation adaptation, not a recovered original map collision rule. Geometry, door state and room transitions are not changed."
+}

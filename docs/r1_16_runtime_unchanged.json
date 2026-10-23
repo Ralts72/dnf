@@ -1,0 +1,140 @@
+{
+  "candidate": "R1/16",
+  "baseline": "R1/15",
+  "checks": [
+    {
+      "path": "assets/r1/models/west_coast_port.glb",
+      "unchanged_sha256": "552875ca515f914e106049087c9005cfe2fdab435bda1349af85c18f3ea22dee"
+    },
+    {
+      "path": "data/npc_lo_r0.json",
+      "unchanged_sha256": "8c99388c3acd838681211d5b3d35a6684856741a7c1fd1e4d1b07afbcda35c8b"
+    },
+    {
+      "path": "data/npc_lo_r1.json",
+      "unchanged_sha256": "9a3a771794a898e002afbc120bd3b381c10bfb69ea675b66ff888613b4be27cb"
+    },
+    {
+      "path": "data/npc_sr_r0.json",
+      "unchanged_sha256": "0144316e68fd326a6e8ea2259c50319e6924ffea2cec3b06d58614d67def78cf"
+    },
+    {
+      "path": "data/npc_sr_r1.json",
+      "unchanged_sha256": "1cceae02004eebb6cf79c8ba5ee7ec956ac65f19e7a268c1d8183234658489eb"
+    },
+    {
+      "path": "data/port_ambience.json",
+      "unchanged_sha256": "790ab39777f7e5994752247bd6b8cbc482c9192a6647da7bd7c71bee0fbf6c22"
+    },
+    {
+      "path": "data/port_music.json",
+      "unchanged_sha256": "ce527e75e452b9db4ffc1b1d7e565d40e41917f7b646aafec4058ea053b612df"
+    },
+    {
+      "path": "data/port_r0.json",
+      "unchanged_sha256": "47e37ec1b7fff8f129b4fb5fd28c20f2b3991d95533177b58229293713616532"
+    },
+    {
+      "path": "data/swordman_audio.json",
+      "unchanged_sha256": "fab2c861cb972a6615b8af0eb115fb277824565ad6654fe0517f06e784323106"
+    },
+    {
+      "path": "data/swordman_motion.json",
+      "unchanged_sha256": "3523b6a3f5a2c9b7cc4164fb6a7bbeda59c0a2fa0001c5f5d215907ab2898983"
+    },
+    {
+      "path": "data/swordman_r0.json",
+      "unchanged_sha256": "212544968be0554d753daac3eeb50071733e1c54cc44dd74f03c90dcc5f2f75d"
+    },
+    {
+      "path": "data/swordman_r1.json",
+      "unchanged_sha256": "1c4b47cf4d2ce09a9f65a506f4f906d495f3088e2dd5d2f8e487bdb254ae4e18"
+    },
+    {
+      "path": "project.godot",
+      "unchanged_sha256": "57b489ad99d60dca4e83ab273b244abcbece618c38571e60da42a389d326ae82"
+    },
+    {
+      "path": "scenes/west_coast_r0.tscn",
+      "unchanged_sha256": "522730fc6a67181d82df1acf93619c2cdc23cf811b3ebe2fe1b3d1e6f349021f"
+    },
+    {
+      "path": "scripts/billboard_prop.gd",
+      "unchanged_sha256": "20c4268a41dc10a69bae7df912fc5ce68ff50d4a3f3579b437b0e6a2024dbf55"
+    },
+    {
+      "path": "scripts/demo_input.gd",
+      "unchanged_sha256": "21cfa1b3e2cee71b9266367cc83b7e77a530e6bcb7bfffaf4e3c7d172bbac139"
+    },
+    {
+      "path": "scripts/demo_walk_area.gd",
+      "unchanged_sha256": "0a9dafb6a9083d1911c9b00884319a5d9a5968c93edfc239f7c7734a17110485"
+    },
+    {
+      "path": "scripts/harbor_water.gd",
+      "unchanged_sha256": "bee00b4dc38d9c66437df92e98b9d189446772ab23fbe7143edf57be7aa16baa"
+    },
+    {
+      "path": "scripts/port_ambience.gd",
+      "unchanged_sha256": "5d3094c90763ea42f54978d06265a437d672ef7757070ab198ffcabc31537363"
+    },
+    {
+      "path": "scripts/port_music.gd",
+      "unchanged_sha256": "f4cf1e3819ba35eadf1cb4ab0071cb1b530ec632b524d2a59dcc1fc20183fc8a"
+    },
+    {
+      "path": "scripts/source_actor.gd",
+      "unchanged_sha256": "09b9f82624a892407513fa5faa458cc3abc48750d29a77c352acc86fcbdc9f9b"
+    },
+    {
+      "path": "scripts/source_actor_3d.gd",
+      "unchanged_sha256": "a3348e8dbb12ff868dbc919dedf46448fca42a15bda7bdc1b74b538165fad56c"
+    },
+    {
+      "path": "scripts/source_actor_audio.gd",
+      "unchanged_sha256": "0559ac92fe0ef8ee7ed372a682df6413851809410b74f32081e413930c5beb71"
+    },
+    {
+      "path": "scripts/source_jump.gd",
+      "unchanged_sha256": "5ca03ad47e0f653b1e13c23003fbfde5b5e91a7037d36dfc5aebe08e6429de0e"
+    },
+    {
+      "path": "scripts/source_preview_controls.gd",
+      "unchanged_sha256": "22bcde20f3231cfa62917ba6e8a89106081ad436e59020c1b789be8b6a053929"
+    },
+    {
+      "path": "scripts/source_prop.gd",
+      "unchanged_sha256": "3ff78008da3a277bb9aac38c7f0ef4090439fa722f045a89633ff76a4f2d673b"
+    },
+    {
+      "path": "scripts/west_coast_r0.gd",
+      "unchanged_sha256": "3b263ac0e37475d1efeded14bee5453fefcb97afacf8cad93fa150f9cf77ad46"
+    },
+    {
+      "path": "scripts/west_coast_r1.gd",
+      "unchanged_sha256": "0e345b516c4c8b387bda162211385c52a90a715c4c2d68fe11996900841770b4"
+    },
+    {
+      "path": "shaders/contact_shadow.gdshader",
+      "unchanged_sha256": "3f17332b0d781548bc458da34e9a25bee76e33c875e3b914a8b5da24f04b3b50"
+    },
+    {
+      "path": "shaders/harbor_water.gdshader",
+      "unchanged_sha256": "4711e044b3c56853a0db09a12c2f1017b9b2956adf18b12a8cee7b2ed05f032a"
+    },
+    {
+      "path": "shaders/source_billboard.gdshader",
+      "unchanged_sha256": "f82b408fb3bc9424a49e6c3735e1afbbdfb05576458b2d7f7a141b4670395934"
+    },
+    {
+      "path": "source_art/r1/model_manifest.json",
+      "unchanged_sha256": "bd1b88d15c0111f0a843ee5bd347fba5be5e5dca03263fb0f08bd28ee4cbde76"
+    },
+    {
+      "path": "source_art/r1/west_coast_port.blend",
+      "unchanged_sha256": "559d3da089fffc2e785c34ff5dee7ba2f12652c4f258c55295ed6d8c85894774"
+    }
+  ],
+  "note": "All listed runtime scripts, shaders, data, project settings, R0 scene, GLB, editable blend and model manifest are unchanged. Only import configuration and scene build label change.",
+  "r1_scene_only_build_label_changed": true
+}

@@ -1,0 +1,37 @@
+{
+  "candidate": "R1/20",
+  "native_engine": "Godot 4.7.2",
+  "project_setting": "physics/common/physics_interpolation",
+  "default_enabled": true,
+  "production_physics_ticks_per_second": 60,
+  "control": "MotionToggle / F11",
+  "native_api": [
+    "Node.physics_interpolation_mode",
+    "Node.reset_physics_interpolation",
+    "SceneTree.is_physics_interpolation_enabled"
+  ],
+  "official_references": [
+    {
+      "url": "https://docs.godotengine.org/en/stable/tutorials/physics/interpolation/using_physics_interpolation.html",
+      "retrieved_via": "agent-reach / Jina Reader",
+      "local_research_sha256": "a91bc3459d89c508917a947d3e44f949e36bff5eace3dea055c7e4e0dead302a"
+    },
+    {
+      "url": "https://docs.godotengine.org/en/stable/tutorials/physics/interpolation/2d_and_3d_physics_interpolation.html",
+      "retrieved_via": "agent-reach / Jina Reader",
+      "local_research_sha256": "a2c7dc169b9d6fe1633ae6564117816afb1680104c84613eb889eb131d86ae4d"
+    }
+  ],
+  "design": [
+    "Enable native interpolation only for the controllable actor hierarchy; the scene root opts out so render-driven ships and source props retain their existing playback.",
+    "Keep ground movement and jump height on physics ticks. R1 facing and crop offsets use Sprite3D.offset geometry without changing the interpolated transform.",
+    "R0 keeps interpolated Visual jump height and uses a separate non-interpolated Facing child for immediate flips.",
+    "Pausing disables actor interpolation and snaps to the inspected state. Resume, reset, raw preview and F4 restoration reset interpolation history.",
+    "Source animation frame counts, durations and PNGs are unchanged. This smooths movement, not the 10 FPS locomotion pose sequence."
+  ],
+  "notes": [
+    "Official documentation informs the implementation; pixel readback tests establish actual behavior in the installed engine.",
+    "Native 60 TPS and stress 10 TPS use the same actual key input and rendered marker hierarchy.",
+    "Original skill attachment/dispatch and original engine animation speed multipliers are still not recovered."
+  ]
+}

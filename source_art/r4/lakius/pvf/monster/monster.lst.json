@@ -1,0 +1,27 @@
+{
+  "path": "monster/monster.lst",
+  "bytes": 29842,
+  "sha256_decoded_bytes": "e9c4a49752c1809e36e88c6b93ba32dfef3b9ae7813cdb14561b5ecfdeafb247",
+  "crc": {
+    "expected": 2775211196,
+    "actual_seed_file_number": 2775211196,
+    "actual_seed_zero": 2503935851
+  },
+  "crc_matches": true,
+  "original_reference": "source_art/r4/lakius/pvf/monster/monster.lst.bin",
+  "decoded_reference": "source_art/r4/lakius/pvf/monster/monster.lst.json",
+  "decoded": {
+    "selection": "ID71 only; complete bytes retained",
+    "tokens": [
+      {
+        "type": 2,
+        "value": 71
+      },
+      {
+        "type": 7,
+        "index": 312833,
+        "text": "Draconian/Lakius.mob"
+      }
+    ]
+  }
+}

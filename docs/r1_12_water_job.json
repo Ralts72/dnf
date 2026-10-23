@@ -1,0 +1,45 @@
+{
+  "check_script": "res://tools/r1/water_checks.gd",
+  "elapsed_seconds": 0.973005,
+  "qa_source_sha256": "cfa192c1140ca741d6cbca4f36520c1bac0ab896886289e4b67455095fe61c1f",
+  "render_cases_completed": 2,
+  "result": {
+    "checks": 26,
+    "failed": [],
+    "render_cases": [
+      {
+        "matching": 4343,
+        "palette_histogram": [
+          1098,
+          424,
+          240,
+          230,
+          2080,
+          151,
+          30,
+          51,
+          39
+        ],
+        "samples": 4343,
+        "scale": 1
+      },
+      {
+        "matching": 4343,
+        "palette_histogram": [
+          1098,
+          424,
+          240,
+          230,
+          2080,
+          151,
+          30,
+          51,
+          39
+        ],
+        "samples": 4343,
+        "scale": 2
+      }
+    ]
+  },
+  "status": "complete"
+}

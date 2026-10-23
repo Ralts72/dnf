@@ -1,0 +1,113 @@
+{
+  "pvf_path": "character/swordman/effect/animation/guard/dust.ani",
+  "crc": {
+    "expected": 2300484859,
+    "actual_seed_file_number": 2300484859,
+    "actual_seed_zero": 910154317
+  },
+  "decoded": {
+    "frames_count": 7,
+    "resources": [
+      "character/swordman/effect/guard/guarddust.img"
+    ],
+    "globals": [
+      {
+        "type": 1,
+        "value": 0
+      }
+    ],
+    "frames": [
+      {
+        "resource": "character/swordman/effect/guard/guarddust.img",
+        "image_frame": 0,
+        "x": -15,
+        "y": -11,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 30
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/guard/guarddust.img",
+        "image_frame": 1,
+        "x": -15,
+        "y": -11,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 30
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/guard/guarddust.img",
+        "image_frame": 2,
+        "x": -15,
+        "y": -11,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 30
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/guard/guarddust.img",
+        "image_frame": 3,
+        "x": -15,
+        "y": -11,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 30
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/guard/guarddust.img",
+        "image_frame": 4,
+        "x": -15,
+        "y": -11,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 30
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/guard/guarddust.img",
+        "image_frame": 5,
+        "x": -15,
+        "y": -11,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 30
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/guard/guarddust.img",
+        "image_frame": 6,
+        "x": -15,
+        "y": -11,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 30
+          }
+        ]
+      }
+    ]
+  }
+}

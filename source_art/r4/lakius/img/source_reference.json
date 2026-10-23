@@ -1,0 +1,13 @@
+{
+  "client": "95",
+  "npk": "sprite_monster_draconian.NPK",
+  "npk_sha256": "be81ab22c9b83596be2f02db3ba7f6083c94b7e7b0822351e67c4670995a2902",
+  "img": "sprite/monster/draconian/draco_lakius.img",
+  "npk_entry_offset": 458041,
+  "payload_bytes": 94956,
+  "sha256_img_payload": "0cd40ced7c7818a7b8dd79ccfc3bcba4de7355f34eff3c4a8821ae1432854a26",
+  "img_version": 2,
+  "img_total_frames": 36,
+  "original_reference": "source_art/r4/lakius/img/draco_lakius.img.bin",
+  "selection": "Explicit canonical NPK; patch/overlay precedence not inferred."
+}

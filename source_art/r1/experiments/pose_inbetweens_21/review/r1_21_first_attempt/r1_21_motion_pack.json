@@ -1,0 +1,169 @@
+{
+  "candidate": "R1/21",
+  "changed": 16,
+  "numeric_fields": 16,
+  "qa_source_sha256": "294727fe67389a4d85864427dadc6aecc4866bc399d78cce9b54ac6402fc6f19",
+  "resources": {
+    "res://assets/r1/motion/dash_00.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "0879b2a8386d733e82f054340bf898b5a4a8e3b32f5348794afdd6a241086b7b",
+      "sha256": "efbb5404620db3934dd96dd88da08ab1c997fdab9de2b76537b305d954e98454",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_01.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "de579f99afe5da9ca846a5da908ad2f1b6666aa7953c7f1f899601ecbfa9e087",
+      "sha256": "43413d0fb5fe3e5e61fc5307f6c10e4b891968ffb65f7c95c524aeb9e29e1a3c",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_02.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "9cdc9cd5422e68190b88845cd0f6b19f5e186cc19cbfa551e15224bfc431e3cf",
+      "sha256": "ebcb4560820f072f838cee4df5fd61a70ef12834e002174314083bdceb9b04dc",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_03.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "c5c2170a2c621f5f667f3f6e07a64106d0d35c0c98bee2acc4451c77b700aabb",
+      "sha256": "2c82dd8605aa9eefaf8fc734d9184aa43c0bcdf992400bc8f208af817627fbe0",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_04.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "2cd6ba956c4541a05da1b2994e678a03fa554611ecde0a93f50e80c6ed2652ce",
+      "sha256": "ff9898796b60eb6181e5f15a966434834df42914609e3b19e2afb91378dceae8",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_05.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "a3182593163383bbe926cc6d954f8751c2604d82a8879d00052ded6d120dbd4f",
+      "sha256": "6173af38e79e87cf12aef8d42e4b7c2aaa8d313db61a0b5a25f46cc6778e5451",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_06.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "e19a66267263b484ad68c3e5155eb9fedbcd65d4399512e3c11407f3f16e4f65",
+      "sha256": "8e35c2a8b9e2c3a142f306330b5346e3b42a293be88c55c4e5fb32fc4ba9dc6e",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_07.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "990295e9ffc51c91acea6986d7337145b610f3d21636abe6a0b3c33408f67630",
+      "sha256": "bc7ae4163a91f0e7cf3da60b95c1a03e83066ecc2e33913bc2b6bc04f07c1cd4",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_00.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "f07cad1aa0125d02109ff65fba1be31e25e78f25984e78a665138bbea5480722",
+      "sha256": "05a7fe9e94a46a5cbcb7823a0a7b1c6f03d80c74e3505e8eeae4f84f65507564",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_01.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "ef68f540043f300473b8963cd8b9f083c453d57d695c2cefbef7d6ba3b8e0ecc",
+      "sha256": "e36bddb517194778f18a883e91ca5e81903ac83e473c543b18c89c91ba08fd29",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_02.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "109f02308beff204c9f4f356d2e05e81c0fe15600470f8f114104a5baac0410b",
+      "sha256": "db18f25d7441d04f3cf6023a2ca9502f1fe589bfedfec90a07101a433a793d68",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_03.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "cccf4a5e83bfb634e9d04db27c7d29e7177fbe58db2a1651b9c1469b6dde5be8",
+      "sha256": "f67cc235b34635cb5715c9e6f4e32ac0b206dd8be8b65e4e5cb06a16b842ed98",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_04.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "51d3fa9ff1a79db305482dbefc29446b6ebe57287b564c050b2c5158178535bb",
+      "sha256": "e46174dff396be0fb0e3cb25b8d9aeb7609715d25918718b74cc47a805c325cb",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_05.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "ce4d099fe00173c9c697323d5e84da9866127beb5ba810ec74edfa1440bf049a",
+      "sha256": "a218faec661aff75596d563e871282a120650242225ecc7b224c61270f959cb0",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_06.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "ea8c639764d28024dd66a0ee3dbc12ced89db5950b345c4a87290c91581a078a",
+      "sha256": "fbdc5bc5448ebf546cc832dca92de4e715b86d0b28b6a84e6595fafd264e3d55",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_07.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "42e95460bdd856c263da73e22d0846494918b11565be14673140cc417643bbd0",
+      "sha256": "10df19a496dc9f17deea3da97e9e860a3efc4ef7082a6f002eb7e35249563fbe",
+      "size": [
+        320,
+        224
+      ]
+    }
+  },
+  "runtime_data_sha256": "aa5ff0b551b6f229694489758fc3c55f2e62ad8793ef562c22b7d15c84aa9e11"
+}

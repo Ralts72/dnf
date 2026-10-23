@@ -1,0 +1,129 @@
+{
+  "fight": {
+    "cleared": false,
+    "combat_blocked": true,
+    "enemy_action": "attack",
+    "enemy_action_elapsed_ms": 0.0,
+    "enemy_attack_instance": 0,
+    "enemy_cooldown": 0.25,
+    "enemy_hit_used": false,
+    "enemy_hp": 100,
+    "enemy_hurt_remaining": 0.0,
+    "enemy_mode": "move",
+    "enemy_source_position": "(634.0165, 300.258)",
+    "enemy_visible": true,
+    "event_counters": {
+      "defeats": 0,
+      "enemy_attacks": 0,
+      "enemy_hits": 0,
+      "hero_hits": 0,
+      "resets": 0,
+      "victories": 0
+    },
+    "hero_attack_instance": 0,
+    "hero_hit_used": false,
+    "hero_hurt_remaining": 0.0,
+    "hero_lock": false,
+    "last_retreat_distance_px": 0.0,
+    "player_hp": 100,
+    "player_source_position": "(176.0, 320.0)",
+    "qa_freeze_enemy": false,
+    "release_pending": false,
+    "retreat_facing": -1,
+    "retreat_origin": "(0.0, 0.0)",
+    "retreat_remaining": 0.0,
+    "retreat_target": "(0.0, 0.0)",
+    "retreats_started": 0,
+    "session_meta": "doll_gallery_state"
+  },
+  "fixture": "Direct scene load for paused visual review, not a Lakius gate traversal or victory.",
+  "guard": {
+    "accepted_begins": 0,
+    "active": false,
+    "actor_guard_active": false,
+    "actor_id": 624414428831,
+    "blocked_hits": 0,
+    "can_begin": false,
+    "cooldown_remaining": 0.0,
+    "end_count": 0,
+    "freeze_reason": "paused",
+    "frozen": true,
+    "guard_property_available": true,
+    "hud_text": "C 格挡 · 就绪",
+    "hud_visible": true,
+    "last_end_reason": "",
+    "last_hit": {},
+    "last_reject_reason": "",
+    "locked_facing": 1,
+    "needs_release": false,
+    "reaction_remaining": 0.0,
+    "rejected_begins": 0,
+    "release_pending": false,
+    "reset_count": 0,
+    "scene": "res://scenes/tower_doll_gallery.tscn",
+    "uncovered_hits": 0
+  },
+  "potion": {
+    "accepted_uses": 0,
+    "actor_id": 624414428831,
+    "can_use": false,
+    "cooldown_remaining": 0.0,
+    "cooldown_seconds": 10.0,
+    "count": 0,
+    "freeze_reason": "paused",
+    "frozen": true,
+    "heal_hp": 35,
+    "hud_text": "H 药剂×0 · 就绪",
+    "hud_visible": false,
+    "item_id": 1106,
+    "last_heal": {},
+    "last_reject_reason": "",
+    "player_hp": 100,
+    "ready": true,
+    "rejected_uses": 0,
+    "reset_count": 0,
+    "scene": "res://scenes/tower_doll_gallery.tscn"
+  },
+  "profile": {
+    "dialog_open": false,
+    "encounter_cleared": false,
+    "last_error": "",
+    "loaded_from_backup": false,
+    "pending_save": false,
+    "progress": {
+      "chapter_flags": {
+        "lakius_cleared": false
+      },
+      "coins": 0,
+      "equipment": {
+        "equipped_key": "practice_lswd0000",
+        "owned": {
+          "27304": false
+        }
+      },
+      "first_drop": {
+        "id": "mirkius_first_eye_v1",
+        "position": [
+          640,
+          300
+        ],
+        "region": "hall",
+        "state": "unearned"
+      },
+      "inventory": {
+        "1106": 0,
+        "3128": 0
+      },
+      "objective_cleared": false,
+      "quest_stage": "available",
+      "reward_granted": false,
+      "schema": 5
+    },
+    "region_scene": "res://scenes/tower_doll_gallery.tscn",
+    "save_attempts": 0,
+    "storage_path": "user://adventure/first_route_v1.json",
+    "storage_ready": true
+  },
+  "save_error": 0,
+  "scene": "res://scenes/tower_doll_gallery.tscn"
+}

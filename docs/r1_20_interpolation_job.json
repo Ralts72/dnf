@@ -1,0 +1,12 @@
+{
+  "check_script": "res://tools/r1/interpolation_checks.gd",
+  "elapsed_seconds": 7.555525,
+  "qa_source_sha256": "b06a9f6b78af25c9ecb4a19f7469cede9ea0dc78e385d9c2f9133192bfb0d4b5",
+  "render_cases_completed": 8,
+  "result": {
+    "checks": 43,
+    "failed": [],
+    "render_cases": 8
+  },
+  "status": "complete"
+}

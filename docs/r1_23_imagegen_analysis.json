@@ -1,0 +1,28 @@
+{
+  "method": "Read-only normalized nearest-sample analysis, not an edited asset",
+  "generated_size": [
+    1499,
+    1049
+  ],
+  "target_size": [
+    320,
+    224
+  ],
+  "upper_opaque_samples": 1375,
+  "upper_samples_identical": 0,
+  "upper_samples_mismatch": 1375,
+  "source_bounds_alpha128": [
+    99,
+    55,
+    191,
+    190
+  ],
+  "normalized_generated_bounds_alpha128": [
+    98,
+    53,
+    193,
+    191
+  ],
+  "generated_alpha_levels": 256,
+  "status": "not_accepted_exact_upper_body_invariant_failed"
+}

@@ -1,0 +1,63 @@
+{
+  "candidate": "R1/10",
+  "failed": [],
+  "raw_crops": [
+    {
+      "image": "assets/r1/grove_bark.png",
+      "exact_rgba": true,
+      "pixels": 624
+    },
+    {
+      "image": "assets/r1/grove_plaster.png",
+      "exact_rgba": true,
+      "pixels": 1170
+    },
+    {
+      "image": "assets/r1/grove_path.png",
+      "exact_rgba": true,
+      "pixels": 1040
+    },
+    {
+      "image": "assets/r1/grove_grass.png",
+      "exact_rgba": true,
+      "pixels": 192
+    }
+  ],
+  "embedded_images": [
+    {
+      "material": "Source_Grove_Bark",
+      "exact_rgba": true,
+      "pixels": 624
+    },
+    {
+      "material": "Source_Grove_Plaster",
+      "exact_rgba": true,
+      "pixels": 1170
+    },
+    {
+      "material": "Source_Grove_Path",
+      "exact_rgba": true,
+      "pixels": 1040
+    },
+    {
+      "material": "Source_Grove_Grass",
+      "exact_rgba": true,
+      "pixels": 192
+    },
+    {
+      "material": "Source_Grove_Canopy",
+      "exact_rgba": true,
+      "pixels": 31360
+    }
+  ],
+  "canopy_retained_rgba_pixels": 16663,
+  "canopy_all_rgb_unchanged": true,
+  "canopy_selected_alpha_unchanged": true,
+  "semantic_mask_probes": 6,
+  "mesh_objects": 302,
+  "packed_images": 23,
+  "source_blend_sha256": "f0420e0fb0ccd2881f9ae457eac79712018531babaee55aa94c7f215b974f99e",
+  "glb_sha256": "cdbea7ea8f5d1eb15e56521abf36001ac0ba4ff4e03c4d2ab4f9ae3b775baa06",
+  "source_script_sha256": "492800848356bd675b082a274af2a36eed0dfad68d2f8af794f5f7823e7e5870",
+  "note": "Mask selection and new geometry are interpreted; no source colors are repainted."
+}

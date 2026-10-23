@@ -1,0 +1,83 @@
+{
+  "baseline": "candidate_18",
+  "files": [
+    {
+      "path": "assets/r1/models/west_coast_port.glb",
+      "sha256": "ca75b6b591b354329266790e51d1a4bd1f2825b36379fe9f449f188b0bb9db97"
+    },
+    {
+      "path": "data/npc_lo_r0.json",
+      "sha256": "8c99388c3acd838681211d5b3d35a6684856741a7c1fd1e4d1b07afbcda35c8b"
+    },
+    {
+      "path": "data/npc_lo_r1.json",
+      "sha256": "9a3a771794a898e002afbc120bd3b381c10bfb69ea675b66ff888613b4be27cb"
+    },
+    {
+      "path": "data/npc_sr_r0.json",
+      "sha256": "0144316e68fd326a6e8ea2259c50319e6924ffea2cec3b06d58614d67def78cf"
+    },
+    {
+      "path": "data/npc_sr_r1.json",
+      "sha256": "1cceae02004eebb6cf79c8ba5ee7ec956ac65f19e7a268c1d8183234658489eb"
+    },
+    {
+      "path": "data/port_ambience.json",
+      "sha256": "790ab39777f7e5994752247bd6b8cbc482c9192a6647da7bd7c71bee0fbf6c22"
+    },
+    {
+      "path": "data/port_music.json",
+      "sha256": "ce527e75e452b9db4ffc1b1d7e565d40e41917f7b646aafec4058ea053b612df"
+    },
+    {
+      "path": "data/port_r0.json",
+      "sha256": "47e37ec1b7fff8f129b4fb5fd28c20f2b3991d95533177b58229293713616532"
+    },
+    {
+      "path": "data/swordman_audio.json",
+      "sha256": "fab2c861cb972a6615b8af0eb115fb277824565ad6654fe0517f06e784323106"
+    },
+    {
+      "path": "data/swordman_motion.json",
+      "sha256": "3523b6a3f5a2c9b7cc4164fb6a7bbeda59c0a2fa0001c5f5d215907ab2898983"
+    },
+    {
+      "path": "data/swordman_r0.json",
+      "sha256": "212544968be0554d753daac3eeb50071733e1c54cc44dd74f03c90dcc5f2f75d"
+    },
+    {
+      "path": "data/swordman_r1.json",
+      "sha256": "1c4b47cf4d2ce09a9f65a506f4f906d495f3088e2dd5d2f8e487bdb254ae4e18"
+    },
+    {
+      "path": "scripts/demo_walk_area.gd",
+      "sha256": "064fb33080c2b4cbaac83d19f60c6337ade1e0235848de7ea756ca011ba06394"
+    },
+    {
+      "path": "scripts/port_ambience.gd",
+      "sha256": "5d3094c90763ea42f54978d06265a437d672ef7757070ab198ffcabc31537363"
+    },
+    {
+      "path": "scripts/port_music.gd",
+      "sha256": "f4cf1e3819ba35eadf1cb4ab0071cb1b530ec632b524d2a59dcc1fc20183fc8a"
+    },
+    {
+      "path": "scripts/source_jump.gd",
+      "sha256": "5ca03ad47e0f653b1e13c23003fbfde5b5e91a7037d36dfc5aebe08e6429de0e"
+    },
+    {
+      "path": "shaders/harbor_water.gdshader",
+      "sha256": "4711e044b3c56853a0db09a12c2f1017b9b2956adf18b12a8cee7b2ed05f032a"
+    },
+    {
+      "path": "source_art/r1/model_manifest.json",
+      "sha256": "191137fa7003382ba0e44a0eec7e0f63e6ede07973ff9254e93d05ea670c589e"
+    },
+    {
+      "path": "source_art/r1/west_coast_port.blend",
+      "sha256": "bc2637bc8180c8e67e902cd87b27a7dfa23b03d9032c443b5890b3285a836261"
+    }
+  ],
+  "unchanged_files": 19,
+  "note": "Model, body animations, motion, navigation and audio data remain unchanged; optional visual tracks and UI/rendering are added."
+}

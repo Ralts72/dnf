@@ -1,0 +1,776 @@
+{
+  "stage": "R1 visual candidate 11",
+  "artifacts": [
+    {
+      "path": "assets/r0/audio/jump_end.ogg",
+      "bytes": 6895,
+      "sha256": "d20a8d983a4472a46768772547b40222ce008038c9df15fc7e6870458f20cef4"
+    },
+    {
+      "path": "assets/r0/audio/jump_start.ogg",
+      "bytes": 6828,
+      "sha256": "4cca7c6a637123a8dbd44c9f8ef3ab747c51b163358b5aa857499ba4f2828d54"
+    },
+    {
+      "path": "assets/r0/audio/sm_atk_01.ogg",
+      "bytes": 7513,
+      "sha256": "4c9a856fd72fc4c26205da3b718bef970a7c6fa4f0566b40d98c980b554e281d"
+    },
+    {
+      "path": "assets/r0/audio/sm_atk_02.ogg",
+      "bytes": 6359,
+      "sha256": "74b1aad65a539c834771b3cf67ba053d8fe3d377d152f173530c1af983a56e79"
+    },
+    {
+      "path": "assets/r0/audio/sm_atk_03.ogg",
+      "bytes": 8806,
+      "sha256": "7ea2875014c270ce28bb9e34ea15ea3e1e1723c9133256a0fc62665f4ca72015"
+    },
+    {
+      "path": "assets/r0/audio/sm_jump.ogg",
+      "bytes": 5771,
+      "sha256": "5e5afcf513f6c9dae7d0297df4a1b753bfc0e17aeda6c14de945e5eb3698dfd8"
+    },
+    {
+      "path": "assets/r0/audio/sm_jump_atk_01.ogg",
+      "bytes": 10283,
+      "sha256": "712a1c611c96b7b3633275be31d5ce2656b70aa2a2ca1ada11a0919d92279bb7"
+    },
+    {
+      "path": "assets/r0/audio/sm_jump_atk_02.ogg",
+      "bytes": 9843,
+      "sha256": "fc2c3f4b8a6b38e58c5fc32e60cb385e16c25383f5102cb0580f5e5ce52614a8"
+    },
+    {
+      "path": "assets/r0/audio/squareswda_01.ogg",
+      "bytes": 9563,
+      "sha256": "019dccdcd114a431848e535924a4afff3cf623c54b1f814610a82aa64ef54bb2"
+    },
+    {
+      "path": "assets/r0/audio/squareswda_02.ogg",
+      "bytes": 8987,
+      "sha256": "9a37c020e918b1c1a2dfd3e5962cae11c76fcee57785defe57c7a245c8ba05cb"
+    },
+    {
+      "path": "assets/r0/audio/squareswdb.ogg",
+      "bytes": 9014,
+      "sha256": "cfc7a387a67ea76147baba309ad367c35c8af95c13f5f7b0f009ed5921b94641"
+    },
+    {
+      "path": "assets/r0/audio/squareswdc_01.ogg",
+      "bytes": 8955,
+      "sha256": "a97a373c9aa4fc64ae0c575bfecedfd9ecad484baa23407a8f7c5594cfdb8fbe"
+    },
+    {
+      "path": "assets/r0/port/westmobj00/image/000.png",
+      "bytes": 35123,
+      "sha256": "5eb65316942a473f59d486a38c327ddb81f6cf16569f20a07e59c1c9ffb67a4d"
+    },
+    {
+      "path": "assets/r1/dock_metal.png",
+      "bytes": 156,
+      "sha256": "abc775c033aeb35a0c0200447e9b63ce88fc1620f481b897c00f51f7865db627"
+    },
+    {
+      "path": "assets/r1/dock_rope.png",
+      "bytes": 180,
+      "sha256": "b3844cf4007a033d0bd6562107186dba48ae7233605103583d6545c344a4073b"
+    },
+    {
+      "path": "assets/r1/dock_stone.png",
+      "bytes": 145,
+      "sha256": "d523ad15d11a3c1f33d9f628fe2be89b0fc67c3afa0092c68dd719244fce5aa9"
+    },
+    {
+      "path": "assets/r1/dock_wood.png",
+      "bytes": 192,
+      "sha256": "74a1fd254aeac82389637119e70977509e334b536fbf1ecb8ed9da631bcd5cdc"
+    },
+    {
+      "path": "assets/r1/grove_bark.png",
+      "bytes": 584,
+      "sha256": "d8670b7b4d0c5bbe787a7596b5cbab89d4d2e31e40f54569ebd20011c4bfef56"
+    },
+    {
+      "path": "assets/r1/grove_canopy.png",
+      "bytes": 16227,
+      "sha256": "0df73a6721348b936e55e9bd30e3ca99a53781c4bb492d625991d3b3ad7f6051"
+    },
+    {
+      "path": "assets/r1/grove_grass.png",
+      "bytes": 335,
+      "sha256": "30c1f817c610799990a8fa4a2c63edcab192d3383d9df7aefdfe1694a2aace62"
+    },
+    {
+      "path": "assets/r1/grove_path.png",
+      "bytes": 516,
+      "sha256": "f718d8cf6a84644528fedb9eabbd4c7f9d0188013154b65e6e9fd2a1bc45843f"
+    },
+    {
+      "path": "assets/r1/grove_plaster.png",
+      "bytes": 289,
+      "sha256": "bb6e18a5e3278bd27a766ab7fa26744d340e5ebd97fc05843aede4cea86bd9d5"
+    },
+    {
+      "path": "assets/r1/lamp_blue.png",
+      "bytes": 148,
+      "sha256": "35827ab04cab769abfcb7997193061661f396dac97bdcb1725ef43f26d5dc3a8"
+    },
+    {
+      "path": "assets/r1/lamp_collar.png",
+      "bytes": 118,
+      "sha256": "6faf69f018a15c134d624b868bbb2cbdd6bfad541da0640dc6348d866ea00917"
+    },
+    {
+      "path": "assets/r1/lamp_glass.png",
+      "bytes": 138,
+      "sha256": "1103849a87fce310d21123a15c1ccc7cfae055018eb0b08d9860ae2ad9c11050"
+    },
+    {
+      "path": "assets/r1/lamp_shaft.png",
+      "bytes": 139,
+      "sha256": "762f122dc6327781d5a0d039e16f255a51c212d557f9a5f6fb6023872b62b797"
+    },
+    {
+      "path": "assets/r1/models/west_coast_port.glb",
+      "bytes": 7129528,
+      "sha256": "74c2b2497b41112c691fcb8a8abe991894bee8314a9a38d2cca0844ccf9cf3c9"
+    },
+    {
+      "path": "assets/r1/pier_face.png",
+      "bytes": 334,
+      "sha256": "25423f56aa1328530772111a78cec9dd8a806ea8615e6cd35987c264d4488980"
+    },
+    {
+      "path": "assets/r1/pier_top.png",
+      "bytes": 184,
+      "sha256": "b87cb20d2e3e2d2a5f40d3a9ec901a22867ff7cd6c91c2da4b4847841020260e"
+    },
+    {
+      "path": "assets/r1/quay_coping.png",
+      "bytes": 388,
+      "sha256": "06dc6074d92a2a58aab9dd1062d789262451f2a8135b31fd0400bfde4dc5e6ff"
+    },
+    {
+      "path": "data/npc_lo_r0.json",
+      "bytes": 5208,
+      "sha256": "8c99388c3acd838681211d5b3d35a6684856741a7c1fd1e4d1b07afbcda35c8b"
+    },
+    {
+      "path": "data/npc_lo_r1.json",
+      "bytes": 2897,
+      "sha256": "9a3a771794a898e002afbc120bd3b381c10bfb69ea675b66ff888613b4be27cb"
+    },
+    {
+      "path": "data/npc_sr_r0.json",
+      "bytes": 3561,
+      "sha256": "0144316e68fd326a6e8ea2259c50319e6924ffea2cec3b06d58614d67def78cf"
+    },
+    {
+      "path": "data/npc_sr_r1.json",
+      "bytes": 2000,
+      "sha256": "1cceae02004eebb6cf79c8ba5ee7ec956ac65f19e7a268c1d8183234658489eb"
+    },
+    {
+      "path": "data/port_r0.json",
+      "bytes": 33715,
+      "sha256": "47e37ec1b7fff8f129b4fb5fd28c20f2b3991d95533177b58229293713616532"
+    },
+    {
+      "path": "data/swordman_audio.json",
+      "bytes": 3228,
+      "sha256": "fab2c861cb972a6615b8af0eb115fb277824565ad6654fe0517f06e784323106"
+    },
+    {
+      "path": "data/swordman_motion.json",
+      "bytes": 904,
+      "sha256": "3523b6a3f5a2c9b7cc4164fb6a7bbeda59c0a2fa0001c5f5d215907ab2898983"
+    },
+    {
+      "path": "data/swordman_r0.json",
+      "bytes": 246952,
+      "sha256": "212544968be0554d753daac3eeb50071733e1c54cc44dd74f03c90dcc5f2f75d"
+    },
+    {
+      "path": "data/swordman_r1.json",
+      "bytes": 63861,
+      "sha256": "1c4b47cf4d2ce09a9f65a506f4f906d495f3088e2dd5d2f8e487bdb254ae4e18"
+    },
+    {
+      "path": "docs/pixel_import_manifest.json",
+      "bytes": 38368,
+      "sha256": "af2b11d35a370090bcb98bb5858d4158ce5ed6626a9e96f4751f6d384dff746a"
+    },
+    {
+      "path": "docs/r1_audio_source_reference.json",
+      "bytes": 15555,
+      "sha256": "483f0d0ae19ba03ba6e4a7a423bbc4d05384114c24d22f2f837d5b07c15cf340"
+    },
+    {
+      "path": "docs/r1_derivative_manifest.json",
+      "bytes": 143944,
+      "sha256": "86383d50426b97af668c3b56aa0ce1ce45bfbc087712a8f71d3d41dee0d96ced"
+    },
+    {
+      "path": "docs/r1_jump_source_reference.json",
+      "bytes": 19958,
+      "sha256": "23f2fdde96eec8baf71c33075b77dce59c13829fc953d8c9a85056b5d9a98d0e"
+    },
+    {
+      "path": "project.godot",
+      "bytes": 924,
+      "sha256": "c0474544d5f3db94f8a1dd717fcde24dcf11a5ffac34e7d09d10f9ccb8d8d5ac"
+    },
+    {
+      "path": "scenes/west_coast_r0.tscn",
+      "bytes": 21229,
+      "sha256": "b93e36d465fe3c82b0062158eb6cf6aeab0f6266b21878e258bbebad669bf6c7"
+    },
+    {
+      "path": "scenes/west_coast_r1.tscn",
+      "bytes": 20693,
+      "sha256": "90faf49bcc32f65341f7290ad5cb4bb8b5da06d8b2e3d310be564333f193654b"
+    },
+    {
+      "path": "scripts/billboard_prop.gd",
+      "bytes": 1232,
+      "sha256": "20c4268a41dc10a69bae7df912fc5ce68ff50d4a3f3579b437b0e6a2024dbf55"
+    },
+    {
+      "path": "scripts/demo_input.gd",
+      "bytes": 629,
+      "sha256": "21cfa1b3e2cee71b9266367cc83b7e77a530e6bcb7bfffaf4e3c7d172bbac139"
+    },
+    {
+      "path": "scripts/demo_walk_area.gd",
+      "bytes": 537,
+      "sha256": "0a9dafb6a9083d1911c9b00884319a5d9a5968c93edfc239f7c7734a17110485"
+    },
+    {
+      "path": "scripts/source_actor.gd",
+      "bytes": 8348,
+      "sha256": "09b9f82624a892407513fa5faa458cc3abc48750d29a77c352acc86fcbdc9f9b"
+    },
+    {
+      "path": "scripts/source_actor_3d.gd",
+      "bytes": 9910,
+      "sha256": "a3348e8dbb12ff868dbc919dedf46448fca42a15bda7bdc1b74b538165fad56c"
+    },
+    {
+      "path": "scripts/source_actor_audio.gd",
+      "bytes": 3738,
+      "sha256": "0559ac92fe0ef8ee7ed372a682df6413851809410b74f32081e413930c5beb71"
+    },
+    {
+      "path": "scripts/source_jump.gd",
+      "bytes": 4521,
+      "sha256": "5ca03ad47e0f653b1e13c23003fbfde5b5e91a7037d36dfc5aebe08e6429de0e"
+    },
+    {
+      "path": "scripts/source_preview_controls.gd",
+      "bytes": 4335,
+      "sha256": "43b2552d67d1f26e4925c4b1d2a3a874d5dd69ca5e603526baace701455c8c8c"
+    },
+    {
+      "path": "scripts/source_prop.gd",
+      "bytes": 604,
+      "sha256": "3ff78008da3a277bb9aac38c7f0ef4090439fa722f045a89633ff76a4f2d673b"
+    },
+    {
+      "path": "scripts/west_coast_r0.gd",
+      "bytes": 4095,
+      "sha256": "115885a9160d103bbf1e884ade2ebaa3fd59157430946404c6653e535eba4e07"
+    },
+    {
+      "path": "scripts/west_coast_r1.gd",
+      "bytes": 5617,
+      "sha256": "d577c9144fa8f1db772f596fb965609b6e8dd59b663022473f18344da08af76e"
+    },
+    {
+      "path": "shaders/contact_shadow.gdshader",
+      "bytes": 289,
+      "sha256": "3f17332b0d781548bc458da34e9a25bee76e33c875e3b914a8b5da24f04b3b50"
+    },
+    {
+      "path": "shaders/harbor_water.gdshader",
+      "bytes": 615,
+      "sha256": "9f5a25f3a70b21eb27c87d669e7fe133f78269d0760a40ffd3b75c78378f36f4"
+    },
+    {
+      "path": "shaders/source_billboard.gdshader",
+      "bytes": 1260,
+      "sha256": "f82b408fb3bc9424a49e6c3735e1afbbdfb05576458b2d7f7a141b4670395934"
+    },
+    {
+      "path": "source_art/audio/jump_end.ogg",
+      "bytes": 6887,
+      "sha256": "6b30e56fd55c603dff0e7891a47662d9d4043eaf8255feb6eb0662b7e1c36279"
+    },
+    {
+      "path": "source_art/audio/jump_start.ogg",
+      "bytes": 6820,
+      "sha256": "73b79de59f9ee4e0fd2efcf4895d9d144ad9bc483488658d4fecc6063741acc7"
+    },
+    {
+      "path": "source_art/audio/sm_atk_01.ogg",
+      "bytes": 7505,
+      "sha256": "1edce050783e4f1a49b77536f190bff5c5ff32f95aa1bafba59b6f909b298df2"
+    },
+    {
+      "path": "source_art/audio/sm_atk_02.ogg",
+      "bytes": 6351,
+      "sha256": "a461ca7bac6e1b0672259cbb811a56604cfdd11412f7873a33c4bcc4942c4ce2"
+    },
+    {
+      "path": "source_art/audio/sm_atk_03.ogg",
+      "bytes": 8798,
+      "sha256": "976148be2970bf4f5c864f2e36652d1f40f7a9c28fcb26cd7c27994d1ab7b2a5"
+    },
+    {
+      "path": "source_art/audio/sm_jump.ogg",
+      "bytes": 5763,
+      "sha256": "903e6926ff9616c091e9a310cb1c4ed2610d2045fe81aa7fca54145f90cc1379"
+    },
+    {
+      "path": "source_art/audio/sm_jump_atk_01.ogg",
+      "bytes": 10275,
+      "sha256": "95b0db25a040daf70b0ed884fe33ec5e8506cce896a5068716d957e7d5cc0223"
+    },
+    {
+      "path": "source_art/audio/sm_jump_atk_02.ogg",
+      "bytes": 9835,
+      "sha256": "b96854635b67e6d3fe24a7e66284aac77a6ba10a9488c935009384654556057a"
+    },
+    {
+      "path": "source_art/audio/squareswda_01.ogg",
+      "bytes": 9555,
+      "sha256": "7b13ff1dcad71c0ee6078e1c497bb377de3fc0e3d3b6ec050996e9fec0ab61bf"
+    },
+    {
+      "path": "source_art/audio/squareswda_02.ogg",
+      "bytes": 8979,
+      "sha256": "d2e5d047bc140fcb4a16909a48b0e64d26d05c307f65595ac98d4397ecbe69ce"
+    },
+    {
+      "path": "source_art/audio/squareswdb.ogg",
+      "bytes": 9006,
+      "sha256": "1a85a9fd952451be2507ce696fa4366f402a979299e809888e1374b29e6b8c4b"
+    },
+    {
+      "path": "source_art/audio/squareswdc_01.ogg",
+      "bytes": 8947,
+      "sha256": "039a9443e158a8fc09568258b827b48c05c45df0496b1ebd097464df0fb6b597"
+    },
+    {
+      "path": "source_art/r1/facade_reference.json",
+      "bytes": 10010,
+      "sha256": "fb44cf931e76af9882368f8057cedec5074f540e60656e508f86db2a34296aae"
+    },
+    {
+      "path": "source_art/r1/grove_reference.json",
+      "bytes": 3326,
+      "sha256": "66dcc41a2fc413e916049d51b1acd8fb89a90d168dc112138fbb078660b6ef7a"
+    },
+    {
+      "path": "source_art/r1/lamp_reference.json",
+      "bytes": 3629,
+      "sha256": "d89ffee38ff8e0f5f2725011f43ad8afcb2fb78c27268feb6c46c498ca92bddb"
+    },
+    {
+      "path": "source_art/r1/model_manifest.json",
+      "bytes": 5329,
+      "sha256": "b14881cab5a63950f9fe49975868f0a1e8fea1cc3d45371ba70147a3e713e944"
+    },
+    {
+      "path": "source_art/r1/mooring_reference.json",
+      "bytes": 3137,
+      "sha256": "aea23f1160f9d6583d2e679f27539832b123fb4928c5b21e4293be71ef0101c2"
+    },
+    {
+      "path": "source_art/r1/shore_reference.json",
+      "bytes": 3568,
+      "sha256": "da008343e89ea8a79464a75570868ab10d3b14d6b7171b19d8c27d1499ea8ef1"
+    },
+    {
+      "path": "source_art/r1/west_coast_port.blend",
+      "bytes": 621023,
+      "sha256": "44e4d1ee758dd762d658f4c4999170eb8824f8f0503b5051e4e987ee2bf4918a"
+    },
+    {
+      "path": "tools/dnf_client_analysis/build_r0_scene.py",
+      "bytes": 9513,
+      "sha256": "df3a7407db52ed76bc19f58ae819c8220a943db6c83818a761c75c9f6e670416"
+    },
+    {
+      "path": "tools/dnf_client_analysis/export_audio.py",
+      "bytes": 8270,
+      "sha256": "525a4d9926f1cdbc06b3d4fb055ff1966cb146a24137af06837cf38046c4fbfc"
+    },
+    {
+      "path": "tools/dnf_client_analysis/export_motion_reference.py",
+      "bytes": 4338,
+      "sha256": "099dd6f8e4e6a9ab3f25c1eae5c219a2a4bd8ab0705c0ad157a0437312adc64f"
+    },
+    {
+      "path": "tools/dnf_client_analysis/export_r0.py",
+      "bytes": 10423,
+      "sha256": "7cc24dc9b3ccef1f9052fac449c747f85bd09b0a3c4bb47a0723ac8f0645a46a"
+    },
+    {
+      "path": "tools/dnf_client_analysis/pixel_imports.py",
+      "bytes": 2736,
+      "sha256": "90d6ea0c28a31b60af0012f6b0b0d25891af84e951ea52450795dc9a43f5b00d"
+    },
+    {
+      "path": "tools/r1/assemble_audio_demo.py",
+      "bytes": 3721,
+      "sha256": "5b1e751c4730f7b844510c07a3f9409f8c31917e3393053f573f95058201ac99"
+    },
+    {
+      "path": "tools/r1/assemble_motion_demo.py",
+      "bytes": 2334,
+      "sha256": "049d360f1747c8f47e4e7422beffb4f5b3a27b0cf25ff81664e1a29f3e6c3b7d"
+    },
+    {
+      "path": "tools/r1/audio_checks.gd",
+      "bytes": 9731,
+      "sha256": "24aef7527b0a1dd7697f6a245fd78a8f47ea2c71625ac7597eafbefe613e9b97"
+    },
+    {
+      "path": "tools/r1/build_port_model.py",
+      "bytes": 42093,
+      "sha256": "7ee5de130004073bc385eb4545893a9c21bb565f2c7fa43a80bd499f8aa00a57"
+    },
+    {
+      "path": "tools/r1/build_r1_scene.py",
+      "bytes": 9365,
+      "sha256": "e16bdde8b34b973b1a40923c11216304dcc93023c289a48c059e014da3b6129b"
+    },
+    {
+      "path": "tools/r1/capture_full_frame.gd",
+      "bytes": 2142,
+      "sha256": "dd664e0b1dd5cffa2165ed0eb168c2bbc744b81633ad6be70ddbe542e3d63638"
+    },
+    {
+      "path": "tools/r1/capture_motion_demo.gd",
+      "bytes": 3185,
+      "sha256": "71a1aebe2095f0551f027cb10cea011e06dc092c2f1ab85adf01b707eab5a228"
+    },
+    {
+      "path": "tools/r1/compose_billboards.py",
+      "bytes": 3245,
+      "sha256": "a268f7951c5ab019af67bd44e4278e8f66b8e450275875cd201f153453ed5f7e"
+    },
+    {
+      "path": "tools/r1/grove_checks.gd",
+      "bytes": 8364,
+      "sha256": "71fc4a03f016594a76b713310a5ac1a3126a0682dba8a85b47dd8845913922e1"
+    },
+    {
+      "path": "tools/r1/inspect_blend.py",
+      "bytes": 3551,
+      "sha256": "4b1a301b841f0dd341399769fca9b8e4f6ed9f5beb6fd0e0b693ec0ca5a8bb49"
+    },
+    {
+      "path": "tools/r1/jump_checks.gd",
+      "bytes": 11364,
+      "sha256": "9179b0817bd628e97c43c7645a1aac22e938b08be69aa50c76836f4899771fa3"
+    },
+    {
+      "path": "tools/r1/lamp_checks.gd",
+      "bytes": 7462,
+      "sha256": "83e8def71d4008233df7900c7b41168bd134a670b4daa4706aa599d59da3f21a"
+    },
+    {
+      "path": "tools/r1/mooring_checks.gd",
+      "bytes": 10279,
+      "sha256": "e32509e50e747f55440cd3d1ce66d25fe92d2a752a2d5625fd35e9358d3db149"
+    },
+    {
+      "path": "tools/r1/pose_check_job.gd",
+      "bytes": 1375,
+      "sha256": "89dbab2afed496d2be0fe8f589fdebba2217a27ae1a6f5479ed496a43fd24713"
+    },
+    {
+      "path": "tools/r1/pose_checks.gd",
+      "bytes": 8936,
+      "sha256": "41ac6bb90fa6bbcf4f45e77565a5d703cdf716811ee0ad8193e05156f711ee70"
+    },
+    {
+      "path": "tools/r1/prepare_facade_reference.py",
+      "bytes": 2451,
+      "sha256": "9520ef1613657205e985e9017adb75e6b29523f3abd0139856398e600ca39829"
+    },
+    {
+      "path": "tools/r1/prepare_grove_reference.py",
+      "bytes": 3771,
+      "sha256": "59f1c1bcbaaff6b27fbe5057c489e6f106918ad41e3d29c6c49a9aaf1d8d42c6"
+    },
+    {
+      "path": "tools/r1/prepare_lamp_reference.py",
+      "bytes": 2623,
+      "sha256": "833a4c89958521282a8f32eb6bb1956571e74d1c4eb7373599515834ece5c050"
+    },
+    {
+      "path": "tools/r1/prepare_mooring_reference.py",
+      "bytes": 2743,
+      "sha256": "a3b26cd11c54d665813600342473193dbb6a32f68710ce05eb459155bb25bb00"
+    },
+    {
+      "path": "tools/r1/prepare_shore_reference.py",
+      "bytes": 2939,
+      "sha256": "9d3267bb234fd26cc89396c7b07c12b214061c567ed5c3ebefd263d827954f1d"
+    },
+    {
+      "path": "tools/r1/quality_checks.gd",
+      "bytes": 9309,
+      "sha256": "0ea374b5a4173df5fe75f7ad27f063a2bcde590edb540c4750fa65c76a4f928c"
+    },
+    {
+      "path": "tools/r1/rebuild_r1.py",
+      "bytes": 2329,
+      "sha256": "83d19426bf38f440958155afa3e51e03643e0498f6027fef705c8c66c7bf3557"
+    },
+    {
+      "path": "tools/r1/render_observation.gd",
+      "bytes": 6540,
+      "sha256": "45e9dd19d72f043ccb1cd3b1d9a303635865aeeed599a5c13f4dc28e7c63cb58"
+    },
+    {
+      "path": "tools/r1/runtime_checks.gd",
+      "bytes": 7364,
+      "sha256": "ba8388ba1f8547087ddf9d5190f60d47df20d7dfd7f94dd956081d584c8dc935"
+    },
+    {
+      "path": "tools/r1/shore_checks.gd",
+      "bytes": 8655,
+      "sha256": "7a230245b15ae74e1a8db8c9d29528a9d56315288e49a8ba76a6e645c4552d96"
+    },
+    {
+      "path": "tools/r1/stall_checks.gd",
+      "bytes": 7377,
+      "sha256": "e67316f3f3879c2ca51f924f9a72b52a85dc2863fda7effa51dded16e2a0f4e5"
+    },
+    {
+      "path": "tools/r1/stamp_build.py",
+      "bytes": 3105,
+      "sha256": "03c8707b801d3abf0996002c5805b01c3a043534ba2d0bed46606c322075ec25"
+    },
+    {
+      "path": "tools/r1/verify_actor_sources.py",
+      "bytes": 4457,
+      "sha256": "05d31df7fe0df7b2ae531859e6f891299f3775de9e25db052a9ca26ddcb5434a"
+    },
+    {
+      "path": "tools/r1/verify_audio_sources.py",
+      "bytes": 1778,
+      "sha256": "198570fba0c8bc9838463a3fe6a83d421338097270085c1855a5df0bd3438149"
+    },
+    {
+      "path": "tools/r1/verify_grove_sources.py",
+      "bytes": 4618,
+      "sha256": "aace8cecc680f0ab500142dd4e790bc7ac225a99b36a2a129ef2e4b9724cb496"
+    },
+    {
+      "path": "tools/r1/verify_lamp_sources.py",
+      "bytes": 3319,
+      "sha256": "8c9e05bb900bcc6cffb9c23452b517af1b1d4821d6d14286803ada94adcac7c7"
+    },
+    {
+      "path": "tools/r1/verify_mooring_sources.py",
+      "bytes": 3494,
+      "sha256": "75f279d893bacafa8321719d8578965c83e26e18e5b68396163b81f05a7dfb9e"
+    },
+    {
+      "path": "tools/r1/verify_shore_sources.py",
+      "bytes": 4318,
+      "sha256": "cbf83edb443a40edb308d66fdee916f76be82b48c15da9c31c2c29a8b0b63840"
+    }
+  ],
+  "source_manifest": "docs/r0_asset_manifest.json",
+  "derivative_manifest": "docs/r1_derivative_manifest.json",
+  "reference_measurements": "source_art/r1/facade_reference.json",
+  "shore_measurements": "source_art/r1/shore_reference.json",
+  "grove_measurements": "source_art/r1/grove_reference.json",
+  "mooring_measurements": "source_art/r1/mooring_reference.json",
+  "lamp_measurements": "source_art/r1/lamp_reference.json",
+  "model_statistics": {
+    "source": "westile00/01/02/03/04 and westmobj00 images used as references; new 3D geometry, not recovered original meshes",
+    "blender": "5.2.2 LTS",
+    "objects": 302,
+    "mesh_faces_before_modifiers": 14147,
+    "coordinates": "Godot X/Y/Z; converted to Blender X/-Z/Y before glTF export",
+    "source_blend": "source_art/r1/west_coast_port.blend",
+    "export_glb": "assets/r1/models/west_coast_port.glb",
+    "stall_reference": "assets/r0/port/westmobj00/image/000.png",
+    "stall_projected_meshes": [
+      "Stall_Canopy",
+      "Stall_Canopy_Scalloped_Valance",
+      "Stall_Red_Drapery",
+      "Stall_Carved_Screen_Frame",
+      "Stall_Screen_Cloth_Inset",
+      "Stall_Counter",
+      "Stall_Green_Counter_Cloth",
+      "Stall_Blue_Counter_Cloth",
+      "Stall_Upper_Chest",
+      "Stall_Lower_Chest",
+      "Stall_Stock_Sack",
+      "Stall_Emblem_Post",
+      "Stall_Left_Barrel"
+    ],
+    "alpha_mask_materials": [
+      "Source_Painted_Stall",
+      "Source_Painted_Pier_Backwall",
+      "Source_Grove_Canopy"
+    ],
+    "unlit_materials": [
+      "Source_Grove_Canopy"
+    ],
+    "grove_reference": "source_art/r1/grove_reference.json",
+    "grove_meshes": [
+      "Grove_Connecting_Stone_Path",
+      "Grove_Planting_Bed_Base",
+      "Grove_Planting_Bed_Grass",
+      "Grove_Boundary_Wall_Front",
+      "Grove_Boundary_Wall_Return",
+      "Grove_Tree_Left_Trunk_0",
+      "Grove_Tree_Left_Trunk_1",
+      "Grove_Tree_Left_Trunk_2",
+      "Grove_Tree_Left_Branch_-1_0",
+      "Grove_Tree_Left_Branch_-1_1",
+      "Grove_Tree_Left_Branch_1_0",
+      "Grove_Tree_Left_Branch_1_1",
+      "Grove_Tree_Middle_Trunk_0",
+      "Grove_Tree_Middle_Trunk_1",
+      "Grove_Tree_Middle_Trunk_2",
+      "Grove_Tree_Middle_Branch_-1_0",
+      "Grove_Tree_Middle_Branch_-1_1",
+      "Grove_Tree_Middle_Branch_1_0",
+      "Grove_Tree_Middle_Branch_1_1",
+      "Grove_Tree_Right_Trunk_0",
+      "Grove_Tree_Right_Trunk_1",
+      "Grove_Tree_Right_Trunk_2",
+      "Grove_Tree_Right_Branch_-1_0",
+      "Grove_Tree_Right_Branch_-1_1",
+      "Grove_Tree_Right_Branch_1_0",
+      "Grove_Tree_Right_Branch_1_1",
+      "Grove_Source_Canopy"
+    ],
+    "mooring_reference": "source_art/r1/mooring_reference.json",
+    "lamp_reference": "source_art/r1/lamp_reference.json",
+    "lamp_meshes": [
+      "Pier_Lamp_FarSmall0_Base",
+      "Pier_Lamp_FarSmall0_Shaft",
+      "Pier_Lamp_FarSmall0_Collar",
+      "Pier_Lamp_FarSmall0_Glass",
+      "Pier_Lamp_FarSmall0_Glass_Rim",
+      "Pier_Lamp_FarSmall0_Hood",
+      "Pier_Lamp_FarSmall0_Spire",
+      "Pier_Lamp_FarSmall1_Base",
+      "Pier_Lamp_FarSmall1_Shaft",
+      "Pier_Lamp_FarSmall1_Collar",
+      "Pier_Lamp_FarSmall1_Glass",
+      "Pier_Lamp_FarSmall1_Glass_Rim",
+      "Pier_Lamp_FarSmall1_Hood",
+      "Pier_Lamp_FarSmall1_Spire",
+      "Pier_Lamp_FarSmall2_Base",
+      "Pier_Lamp_FarSmall2_Shaft",
+      "Pier_Lamp_FarSmall2_Collar",
+      "Pier_Lamp_FarSmall2_Glass",
+      "Pier_Lamp_FarSmall2_Glass_Rim",
+      "Pier_Lamp_FarSmall2_Hood",
+      "Pier_Lamp_FarSmall2_Spire",
+      "Pier_Lamp_Middle0_Base",
+      "Pier_Lamp_Middle0_Shaft",
+      "Pier_Lamp_Middle0_Collar",
+      "Pier_Lamp_Middle0_Glass",
+      "Pier_Lamp_Middle0_Glass_Rim",
+      "Pier_Lamp_Middle0_Hood",
+      "Pier_Lamp_Middle0_Spire",
+      "Pier_Lamp_Middle1_Base",
+      "Pier_Lamp_Middle1_Shaft",
+      "Pier_Lamp_Middle1_Collar",
+      "Pier_Lamp_Middle1_Glass",
+      "Pier_Lamp_Middle1_Glass_Rim",
+      "Pier_Lamp_Middle1_Hood",
+      "Pier_Lamp_Middle1_Spire",
+      "Pier_Lamp_Near_Base",
+      "Pier_Lamp_Near_Shaft",
+      "Pier_Lamp_Near_Collar",
+      "Pier_Lamp_Near_Glass",
+      "Pier_Lamp_Near_Glass_Rim",
+      "Pier_Lamp_Near_Hood",
+      "Pier_Lamp_Near_Spire"
+    ],
+    "dock_meshes": [
+      "Dock_Barrel_Left_Body",
+      "Dock_Barrel_Left_Hoop_0",
+      "Dock_Barrel_Left_Hoop_1",
+      "Dock_Barrel_Left_Hoop_2",
+      "Dock_Barrel_Right_Body",
+      "Dock_Barrel_Right_Hoop_0",
+      "Dock_Barrel_Right_Hoop_1",
+      "Dock_Barrel_Right_Hoop_2",
+      "Dock_Barrel_Upper_Body",
+      "Dock_Barrel_Upper_Hoop_0",
+      "Dock_Barrel_Upper_Hoop_1",
+      "Dock_Barrel_Upper_Hoop_2",
+      "Dock_Barrel_Upper_Dark_Interior",
+      "Dock_Mooring_Core",
+      "Dock_Mooring_Limestone_Cap",
+      "Dock_Rope_Coil",
+      "Dock_Rope_Tail"
+    ],
+    "nearest_without_mipmaps": true,
+    "shore_reference": "source_art/r1/shore_reference.json",
+    "shore_masonry_uv_meshes": [
+      "Quay_Coping_Left_00",
+      "Quay_Coping_Left_01",
+      "Quay_Coping_Left_02",
+      "Quay_Coping_Left_03",
+      "Quay_Coping_Left_04",
+      "Quay_Coping_Left_05",
+      "Quay_Coping_Left_06",
+      "Quay_Coping_Left_07",
+      "Quay_Coping_Left_08",
+      "Quay_Coping_Left_09",
+      "Quay_Coping_Left_10",
+      "Quay_Coping_Left_11",
+      "Quay_Coping_Left_12",
+      "Quay_Coping_Left_13",
+      "Quay_Coping_Left_14",
+      "Quay_Coping_Left_15",
+      "Quay_Coping_Left_16",
+      "Quay_Coping_Left_17",
+      "Quay_Coping_Diagonal_00",
+      "Quay_Coping_Diagonal_01",
+      "Quay_Coping_Diagonal_02",
+      "Quay_Coping_Diagonal_03",
+      "Quay_Coping_Diagonal_04",
+      "Quay_Coping_Diagonal_05",
+      "Quay_Coping_Diagonal_06",
+      "Quay_Coping_Diagonal_07",
+      "Quay_Coping_Diagonal_08",
+      "Quay_Coping_Front_00",
+      "Quay_Coping_Front_01",
+      "Quay_Coping_Front_02",
+      "Quay_Coping_Front_03",
+      "Quay_Coping_Front_04",
+      "Quay_Coping_Front_05",
+      "Quay_Coping_Front_06",
+      "Quay_Coping_Front_07",
+      "Quay_Coping_Front_08",
+      "Quay_Coping_Front_09",
+      "Pier_Far_Slab",
+      "Pier_Middle_Slab",
+      "Pier_Connecting_Spine",
+      "Pier_Landward_Backwall"
+    ]
+  },
+  "notes": [
+    "New 3D geometry referenced from source art; not recovered original meshes.",
+    "The source .blend contains packed reference and paving images.",
+    "R0 preserved for F4 comparison. Visual approval is pending.",
+    "Default native scene render 1792x808; F6 selects 896x404 or 1792x808."
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "candidate": "R1/19",
+  "source": "data/swordman_r0.json",
+  "clips": {
+    "stay": {
+      "frames": 6,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "cycle_ms": 720,
+      "mean_image_updates_per_second": 8.333333333333334
+    },
+    "move": {
+      "frames": 8,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycle_ms": 800,
+      "mean_image_updates_per_second": 10.0
+    },
+    "dash": {
+      "frames": 8,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycle_ms": 800,
+      "mean_image_updates_per_second": 10.0
+    },
+    "attack1": {
+      "frames": 10,
+      "durations_ms": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        150
+      ],
+      "cycle_ms": 600,
+      "mean_image_updates_per_second": 16.666666666666668
+    },
+    "attack2": {
+      "frames": 11,
+      "durations_ms": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        150
+      ],
+      "cycle_ms": 650,
+      "mean_image_updates_per_second": 16.923076923076923
+    },
+    "attack3": {
+      "frames": 9,
+      "durations_ms": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        150
+      ],
+      "cycle_ms": 550,
+      "mean_image_updates_per_second": 16.363636363636363
+    },
+    "hopsmash": {
+      "frames": 7,
+      "durations_ms": [
+        120,
+        240,
+        60,
+        180,
+        60,
+        60,
+        180
+      ],
+      "cycle_ms": 900,
+      "mean_image_updates_per_second": 7.777777777777778
+    }
+  },
+  "native_physics_ticks_per_second": 60,
+  "physics_interpolation_enabled": false,
+  "render_observation": "docs/r1_19_render_observation.json",
+  "first_observation": "docs/r1_19_first_render_observation.json",
+  "user_feedback": "画面感觉帧率不高，是动画帧不够吗？有解决方案吗",
+  "next": [
+    "先核对并改善60Hz地面平移在高刷新渲染下的插值，复位与F4需重置插值状态",
+    "为行走、奔跑评估保持800ms周期的中间帧派生版，保留原始版本作为对照",
+    "攻击的挥砍、命中和收招节奏单独处理；补帧不等同于缩短动作周期"
+  ],
+  "limits": [
+    "首次观察有1016.389ms长帧；复测未复现，原因仍未定位。",
+    "144FPS是本机完整画面短时渲染结果，人物换图频率仍为8.3至约20次/秒。"
+  ]
+}

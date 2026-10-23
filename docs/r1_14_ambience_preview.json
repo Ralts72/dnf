@@ -1,0 +1,12 @@
+{
+  "candidate": "R1/14",
+  "path": "docs/previews/r1_14_ambience_preview.wav",
+  "channels": 2,
+  "sample_rate": 44100,
+  "duration_seconds": 8.0,
+  "source": "assets/r0/ambience/amb_port_01.ogg",
+  "gain": 0.21,
+  "intro_fade_seconds": 1,
+  "preview_only_fade_out_seconds": 0.35,
+  "note": "Offline near-shore gain example at 60% effects volume; no music or action sound mixed in, not a native mixer recording."
+}

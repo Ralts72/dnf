@@ -1,0 +1,78 @@
+{
+  "candidate": "R1/13",
+  "baseline": "R1/12",
+  "checks": [
+    {
+      "path": "assets/r1/models/west_coast_port.glb",
+      "unchanged_sha256": "74c2b2497b41112c691fcb8a8abe991894bee8314a9a38d2cca0844ccf9cf3c9"
+    },
+    {
+      "path": "data/swordman_audio.json",
+      "unchanged_sha256": "fab2c861cb972a6615b8af0eb115fb277824565ad6654fe0517f06e784323106"
+    },
+    {
+      "path": "data/swordman_motion.json",
+      "unchanged_sha256": "3523b6a3f5a2c9b7cc4164fb6a7bbeda59c0a2fa0001c5f5d215907ab2898983"
+    },
+    {
+      "path": "scripts/billboard_prop.gd",
+      "unchanged_sha256": "20c4268a41dc10a69bae7df912fc5ce68ff50d4a3f3579b437b0e6a2024dbf55"
+    },
+    {
+      "path": "scripts/demo_input.gd",
+      "unchanged_sha256": "21cfa1b3e2cee71b9266367cc83b7e77a530e6bcb7bfffaf4e3c7d172bbac139"
+    },
+    {
+      "path": "scripts/demo_walk_area.gd",
+      "unchanged_sha256": "0a9dafb6a9083d1911c9b00884319a5d9a5968c93edfc239f7c7734a17110485"
+    },
+    {
+      "path": "scripts/harbor_water.gd",
+      "unchanged_sha256": "bee00b4dc38d9c66437df92e98b9d189446772ab23fbe7143edf57be7aa16baa"
+    },
+    {
+      "path": "scripts/source_actor.gd",
+      "unchanged_sha256": "09b9f82624a892407513fa5faa458cc3abc48750d29a77c352acc86fcbdc9f9b"
+    },
+    {
+      "path": "scripts/source_actor_3d.gd",
+      "unchanged_sha256": "a3348e8dbb12ff868dbc919dedf46448fca42a15bda7bdc1b74b538165fad56c"
+    },
+    {
+      "path": "scripts/source_actor_audio.gd",
+      "unchanged_sha256": "0559ac92fe0ef8ee7ed372a682df6413851809410b74f32081e413930c5beb71"
+    },
+    {
+      "path": "scripts/source_jump.gd",
+      "unchanged_sha256": "5ca03ad47e0f653b1e13c23003fbfde5b5e91a7037d36dfc5aebe08e6429de0e"
+    },
+    {
+      "path": "scripts/source_prop.gd",
+      "unchanged_sha256": "3ff78008da3a277bb9aac38c7f0ef4090439fa722f045a89633ff76a4f2d673b"
+    },
+    {
+      "path": "shaders/contact_shadow.gdshader",
+      "unchanged_sha256": "3f17332b0d781548bc458da34e9a25bee76e33c875e3b914a8b5da24f04b3b50"
+    },
+    {
+      "path": "shaders/harbor_water.gdshader",
+      "unchanged_sha256": "4711e044b3c56853a0db09a12c2f1017b9b2956adf18b12a8cee7b2ed05f032a"
+    },
+    {
+      "path": "shaders/source_billboard.gdshader",
+      "unchanged_sha256": "f82b408fb3bc9424a49e6c3735e1afbbdfb05576458b2d7f7a141b4670395934"
+    },
+    {
+      "path": "source_art/r1/west_coast_port.blend",
+      "unchanged_sha256": "44e4d1ee758dd762d658f4c4999170eb8824f8f0503b5051e4e987ee2bf4918a"
+    }
+  ],
+  "changed_runtime": [
+    "project.godot",
+    "scripts/port_music.gd",
+    "scripts/source_preview_controls.gd",
+    "scripts/west_coast_r0.gd",
+    "scripts/west_coast_r1.gd"
+  ],
+  "note": "Music lifecycle, menus and shortcut wiring changed. Listed actor, action-audio, navigation, water/shader and model sources retain exact hashes."
+}

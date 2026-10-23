@@ -1,0 +1,189 @@
+{
+  "ambient_play_starts": 1,
+  "ambient_player_id": 73349991150,
+  "ambient_script_sha256": "5d3094c90763ea42f54978d06265a437d672ef7757070ab198ffcabc31537363",
+  "candidate": "R1/14",
+  "capture_samples": [
+    {
+      "frames": 30720,
+      "label": "near_shore",
+      "peak": 0.0504658482968807,
+      "rms": 0.00463536714086986
+    },
+    {
+      "frames": 30720,
+      "label": "effects_muted",
+      "peak": 0.0,
+      "rms": 0.0
+    },
+    {
+      "frames": 30720,
+      "label": "effects_resumed",
+      "peak": 0.0166937187314034,
+      "rms": 0.00185781084315254
+    },
+    {
+      "frames": 32768,
+      "label": "after_native_loop",
+      "peak": 0.0150158507749438,
+      "rms": 0.00163071034701525
+    }
+  ],
+  "checks": [
+    {
+      "check": "mapped_ambient_tag",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "native_duration_forty_seconds",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "native_loop_at_zero",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "separate_ambient_bus",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "single_ambient_player",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "near_shore_mix_is_quiet",
+      "details": {
+        "distance": 36.1258277893066,
+        "gain": 0.21
+      },
+      "pass": true
+    },
+    {
+      "check": "native_ambient_mix_is_nonzero",
+      "details": {
+        "frames": 30720,
+        "label": "near_shore",
+        "peak": 0.0504658482968807,
+        "rms": 0.00463536714086986
+      },
+      "pass": true
+    },
+    {
+      "check": "street_is_quieter_than_shore",
+      "details": {
+        "far_distance": 365.924865722656,
+        "far_gain": 0.0735,
+        "near_gain": 0.21
+      },
+      "pass": true
+    },
+    {
+      "check": "return_to_shore_restores_mix_without_restart",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "effects_volume_scales_ambience",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "actual_f8_mutes_ambient",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "muted_ambient_mix_is_zero",
+      "details": {
+        "frames": 30720,
+        "label": "effects_muted",
+        "peak": 0.0,
+        "rms": 0.0
+      },
+      "pass": true
+    },
+    {
+      "check": "mute_keeps_ambient_position",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "effects_mute_keeps_music_playing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "actual_f8_resumes_same_ambient_player",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "resume_restores_ambient_mix",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "music_mute_does_not_mute_ambient",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "pose_pause_keeps_environment_running",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "pose_pause_keeps_water_frozen",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "r0_keeps_same_ambient_and_music_players",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "r0_retains_equivalent_source_distance_mix",
+      "details": {
+        "r0_gain": 0.21,
+        "r1_gain": 0.21
+      },
+      "pass": true
+    },
+    {
+      "check": "r0_keeps_ambient_progress",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "r1_keeps_same_ambient_and_progress",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "capture_clone_does_not_change_distance_mix",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "ambient_loop_wraps_without_restart",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "loop_keeps_native_ambient_mix",
+      "details": {},
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "far_gain": 0.0735,
+  "near_gain": 0.21,
+  "note": "Native ambient bus mix captured before its temporary 80 dB attenuation; gain/effects restored. Stereo source recording stays unchanged; only gain depends on the active player's source position.",
+  "qa_source_sha256": "28fbc1030106008fefe575c051ceb880867e51f566d50cb25661586846d01039"
+}

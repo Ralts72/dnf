@@ -1,0 +1,175 @@
+{
+  "actor_sha256": "e35516e03c9438e60442b58d73d4831b7f1f1886ec9433d8852d67957e538dd7",
+  "all_endpoints_exact": true,
+  "cases": [
+    {
+      "endpoint_exact": true,
+      "frame": 0,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_00_0.png",
+      "sha256": "5bdf436a982f623f37eaf20b7ef98fbd9cbac5eaf2b8c021d5d0dc22727c485e",
+      "subframe": 0
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 0,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_00_1.png",
+      "sha256": "091bfe11e3e4c00f830318255a558c3e9a1102cca2e6f9aa4fc81c3ab1aa5016",
+      "subframe": 1
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 0,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_00_2.png",
+      "sha256": "2406319e2b21bceb659aa63075c0d46522531fe8bffd7b1c6a3037b5896892f7",
+      "subframe": 2
+    },
+    {
+      "endpoint_exact": true,
+      "frame": 1,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_01_0.png",
+      "sha256": "fccc3d0ee95123c92cabc807f841b697a2c03d31ca840eb1811700bb5522b4c1",
+      "subframe": 0
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 1,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_01_1.png",
+      "sha256": "16c71c5b075fa4d9379da032d2429b021ea0fc7cbe2418abd82151c202fcbb5b",
+      "subframe": 1
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 1,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_01_2.png",
+      "sha256": "b4b5f60cb8904ecbbce9e1960135f1b8884be3183ed19377a44e80454427bece",
+      "subframe": 2
+    },
+    {
+      "endpoint_exact": true,
+      "frame": 2,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_02_0.png",
+      "sha256": "663b1d15b57a57b2689416761d8347f3a79b08f0ece11f9e9aea5ff06f112a09",
+      "subframe": 0
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 2,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_02_1.png",
+      "sha256": "7ea492a09739ce9e065f3b091acd31578186f409e96e4d53f176c3ef144dec97",
+      "subframe": 1
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 2,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_02_2.png",
+      "sha256": "29328208d26db77d5c3930284e227eb0426d08a50fa498895345a2e2ab892d99",
+      "subframe": 2
+    },
+    {
+      "endpoint_exact": true,
+      "frame": 3,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_03_0.png",
+      "sha256": "6b37991a8b98ce3feff41d2a64d055b335191dfceb7bb6522f728aeec24ca909",
+      "subframe": 0
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 3,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_03_1.png",
+      "sha256": "88fc7c796a50c833eb9fa2eaf2ca41c55eb325e9d7f8e186edd9edce64e84268",
+      "subframe": 1
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 3,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_03_2.png",
+      "sha256": "85fa63cfbe87b1b9cf01221659fcc1a344995fcdfce061d6c74eeb9f061863f1",
+      "subframe": 2
+    },
+    {
+      "endpoint_exact": true,
+      "frame": 4,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_04_0.png",
+      "sha256": "0a139fc577afeeba2e086b84eea07bcc24b7a743815d6290a0f742a9187d5169",
+      "subframe": 0
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 4,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_04_1.png",
+      "sha256": "fd0c7751670c498ad2781edaa307ec4aafe454071f41aec6031e6ed988be829c",
+      "subframe": 1
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 4,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_04_2.png",
+      "sha256": "d0d45862d0e7272e861f33e83cf9a2c0ef656781f1997089cef90c6794d8867e",
+      "subframe": 2
+    },
+    {
+      "endpoint_exact": true,
+      "frame": 5,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_05_0.png",
+      "sha256": "39df109bef29eaa0ece6daf0e55e2b7d6d7730b750902d18a588b5b02bf62d88",
+      "subframe": 0
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 5,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_05_1.png",
+      "sha256": "049b81a6a47c2a29512872aecb20b21ee55c2c91e4cf9c33891464bd5af272cf",
+      "subframe": 1
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 5,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_05_2.png",
+      "sha256": "c251c2c773ac0756efb6debb4d3dd058f606c8c7169dfb24ed6c75c283907530",
+      "subframe": 2
+    },
+    {
+      "endpoint_exact": true,
+      "frame": 6,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_06_0.png",
+      "sha256": "f595b08664fd9121dca9289ac07bf89b3290d5033c4587e39142da1294792c93",
+      "subframe": 0
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 6,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_06_1.png",
+      "sha256": "eeea94bf44cfa62e3db6b68f2b420526a9d733e3e94876b8081b1307e58fab41",
+      "subframe": 1
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 6,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_06_2.png",
+      "sha256": "764055ed242753c5a1d78841fd59cea68c02f0e4967b1b17d7b071c9ff8740bc",
+      "subframe": 2
+    },
+    {
+      "endpoint_exact": true,
+      "frame": 7,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_07_0.png",
+      "sha256": "3971e68afdd2f797677b205f0a770710d68ad801e4f9f7ed3f7f499d6a48be51",
+      "subframe": 0
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 7,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_07_1.png",
+      "sha256": "28795aa1caf60ab23bc6ae8edcf71389601acccbfc5356b71efb9def4dbc20dd",
+      "subframe": 1
+    },
+    {
+      "endpoint_exact": null,
+      "frame": 7,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/apparel/dash_07_2.png",
+      "sha256": "fa629b0f02a43166eec32c9f571c50b5bc48e532519e82880452d88ef4ec2e54",
+      "subframe": 2
+    }
+  ],
+  "qa_sha256": "9923e5d95966ac84a39bf18fd54194ea464d456b8d9226f412b1bdc9756c17cb"
+}

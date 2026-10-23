@@ -1,0 +1,59 @@
+{
+  "active_effects": [
+    {
+      "blend": "normal",
+      "offset": "(-24.0, -104.0)",
+      "start_ms": 250.0,
+      "texture": "res://assets/r4/ghost_slash/effects/hardattackblade1/002.png",
+      "track": "hardattack1"
+    },
+    {
+      "blend": "add",
+      "offset": "(-32.0, -122.0)",
+      "start_ms": 250.0,
+      "texture": "res://assets/r4/ghost_slash/effects/hardattackblade2/002.png",
+      "track": "hardattack2"
+    }
+  ],
+  "actor": {
+    "action": "hardattack",
+    "audio": {
+      "clock_ms": 251.067,
+      "pending": []
+    },
+    "elapsed_ms": 1.06699999999999,
+    "facing": 1,
+    "frame": 6,
+    "jump": {
+      "air_attack_started": -1.0,
+      "air_attack_used": false,
+      "elapsed": -1.0,
+      "travel_speed": 95.0
+    },
+    "next_attack": "attack1",
+    "one_shot": true,
+    "paused": true,
+    "position": "(440.0, 320.0)",
+    "preview": false
+  },
+  "path": "res://docs/previews/r4_02_ghost_slash_port.png",
+  "save_error": 0,
+  "scope": "Actual Z input paused at about250ms for visual inspection; timing/gameplay QA recorded separately.",
+  "skill": {
+    "accepted_casts": 1,
+    "action": "hardattack",
+    "actor_id": 73316436592,
+    "can_cast": false,
+    "cooldown_remaining": 5.748933,
+    "cooldown_seconds": 6.0,
+    "freeze_reason": "paused",
+    "frozen": true,
+    "hud_text": "Z 鬼斩 · 5.8 秒",
+    "hud_visible": true,
+    "last_reject_reason": "",
+    "ready": false,
+    "rejected_casts": 0,
+    "reset_count": 0,
+    "scene": "res://scenes/west_coast_r1.tscn"
+  }
+}

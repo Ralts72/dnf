@@ -1,0 +1,253 @@
+{
+  "candidate": "R4/04",
+  "verified_at_utc": "2026-10-23T10:15:39.835563+00:00",
+  "native_runs": {
+    "supplies": "r54264977-135",
+    "quest": "r54362475-136",
+    "fresh": "r54421419-137"
+  },
+  "checks": {
+    "native_supplies_and_assets": 25,
+    "native_original_quest_regression": 21,
+    "isolated_profile5_storage": 41
+  },
+  "total_checks": 87,
+  "failed": [],
+  "artifact_hashes_passed": 2197,
+  "manifest_sha256": "6ec282c0dc1aa51a2e9f6d87f2de243476b6dd37cbe324da2e6f642f9200bdf2",
+  "native_durations_seconds": {
+    "supplies": 6.57486,
+    "quest": 17.947123
+  },
+  "source": {
+    "item_id": 1106,
+    "native_imported_png": 2,
+    "exact_rgba_pixels": 892,
+    "retained_pvf_crc": 10,
+    "direct_vendor_proof": "lorian.npc item shop6 → itemshop.lst Magic1.shp → NPC10 → sell list1106"
+  },
+  "formal_profile_before": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "formal_profile_after": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "fresh_state": {
+    "actor": {
+      "action": "stay",
+      "blocked": false,
+      "paused": false,
+      "position": "(440.0, 320.0)",
+      "preview": false
+    },
+    "boss_meta": false,
+    "first_meta": false,
+    "formal": {
+      "user://adventure/first_route_v1.json": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.bak": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "sha256": ""
+      }
+    },
+    "hp_meta": false,
+    "loaded_scripts": {
+      "res://scripts/adventure_progress.gd": {
+        "disk": "ef068fd6d1222c9489fb62f5e2fc731eab5fa82448a4586852e2e7ce1038a1af",
+        "loaded": "ef068fd6d1222c9489fb62f5e2fc731eab5fa82448a4586852e2e7ce1038a1af",
+        "matches": true
+      },
+      "res://scripts/first_loot.gd": {
+        "disk": "1c004f8be23ef26f9604f3cf655b62c460fa05f7925fdd013866957c701f6a76",
+        "loaded": "1c004f8be23ef26f9604f3cf655b62c460fa05f7925fdd013866957c701f6a76",
+        "matches": true
+      },
+      "res://scripts/hp_potion_runtime.gd": {
+        "disk": "8887bea3aca5519ee06022dc3624ce20c49ce1e70d99062452a1b8bb21b4f5b7",
+        "loaded": "8887bea3aca5519ee06022dc3624ce20c49ce1e70d99062452a1b8bb21b4f5b7",
+        "matches": true
+      },
+      "res://scripts/port_supply_shop.gd": {
+        "disk": "118fa57d22d409aeea0106e13de3cb7f530cbb708adf6dbd416bad84cb0fbb06",
+        "loaded": "118fa57d22d409aeea0106e13de3cb7f530cbb708adf6dbd416bad84cb0fbb06",
+        "matches": true
+      },
+      "res://scripts/west_coast_r1.gd": {
+        "disk": "b378b1783ecfebb51eec7f2881519e180ce930bae40a079b4f81384dd9bdcaaa",
+        "loaded": "b378b1783ecfebb51eec7f2881519e180ce930bae40a079b4f81384dd9bdcaaa",
+        "matches": true
+      }
+    },
+    "physics_tps": 60,
+    "potion": {
+      "accepted_uses": 0,
+      "actor_id": 74557950579,
+      "can_use": false,
+      "cooldown_remaining": 0.0,
+      "cooldown_seconds": 10.0,
+      "count": 0,
+      "freeze_reason": "",
+      "frozen": false,
+      "heal_hp": 35,
+      "hud_text": "H 药剂×0 · 就绪",
+      "hud_visible": false,
+      "item_id": 1106,
+      "last_heal": {},
+      "last_reject_reason": "",
+      "player_hp": 100,
+      "ready": true,
+      "rejected_uses": 0,
+      "reset_count": 0,
+      "scene": "res://scenes/west_coast_r1.tscn"
+    },
+    "profile": {
+      "dialog_open": false,
+      "encounter_cleared": false,
+      "last_error": "",
+      "loaded_from_backup": false,
+      "pending_save": false,
+      "progress": {
+        "chapter_flags": {
+          "lakius_cleared": false
+        },
+        "coins": 0,
+        "equipment": {
+          "equipped_key": "practice_lswd0000",
+          "owned": {
+            "27304": false
+          }
+        },
+        "first_drop": {
+          "id": "mirkius_first_eye_v1",
+          "position": [
+            640,
+            300
+          ],
+          "region": "hall",
+          "state": "unearned"
+        },
+        "inventory": {
+          "1106": 0,
+          "3128": 0
+        },
+        "objective_cleared": false,
+        "quest_stage": "available",
+        "reward_granted": false,
+        "schema": 5
+      },
+      "region_scene": "res://scenes/west_coast_r1.tscn",
+      "save_attempts": 0,
+      "storage_path": "user://adventure/first_route_v1.json",
+      "storage_ready": true
+    },
+    "scene": "res://scenes/west_coast_r1.tscn",
+    "shop": {
+      "buy_text": "购买 1 瓶 · 10 金币",
+      "can_buy": false,
+      "capacity": 4,
+      "coins": 0,
+      "dialog_open": false,
+      "pending_save": false,
+      "potion_count": 0,
+      "price": 10
+    },
+    "skill": {
+      "accepted_casts": 0,
+      "action": "hardattack",
+      "actor_id": 74557950579,
+      "can_cast": true,
+      "cooldown_remaining": 0.0,
+      "cooldown_seconds": 6.0,
+      "freeze_reason": "",
+      "frozen": false,
+      "hud_text": "Z 鬼斩 · 就绪",
+      "hud_visible": true,
+      "last_reject_reason": "",
+      "ready": true,
+      "rejected_casts": 0,
+      "reset_count": 0,
+      "scene": "res://scenes/west_coast_r1.tscn"
+    }
+  },
+  "clean_log_evidence": [
+    "docs/r4_04_supplies_game_logs.json",
+    "docs/r4_04_supplies_editor_logs.json",
+    "docs/r4_04_quest_game_logs.json",
+    "docs/r4_04_quest_editor_logs.json",
+    "docs/r4_04_fresh_game_logs.json",
+    "docs/r4_04_fresh_editor_logs.json"
+  ],
+  "screenshots": {
+    "bag": {
+      "path": "res://docs/previews/r4_04_supplies_bag.png",
+      "save_error": 0,
+      "scene": "res://scenes/west_coast_r1.tscn"
+    },
+    "combat_heal": {
+      "path": "res://docs/previews/r4_04_supplies_combat_heal.png",
+      "save_error": 0,
+      "scene": "res://scenes/tower_depths.tscn"
+    },
+    "shop": {
+      "path": "res://docs/previews/r4_04_supplies_shop.png",
+      "save_error": 0,
+      "scene": "res://scenes/west_coast_r1.tscn"
+    }
+  },
+  "quota_boundary": {
+    "used_percent": 28,
+    "remaining_percent": 72,
+    "reset_at": 1793293820,
+    "credits_balance": "62480.2337700000",
+    "reset_credits_untouched": 2,
+    "stop_condition": "Remaining quota below50% or an actual reset; no extra paid resources"
+  },
+  "known_limits": [
+    "10coin price, immediate35HP and four lifetime purchases from the existing40coin reward are prototype adaptations. No enemy/new map/reward added at this stage.",
+    "Same-stack commit then transient HP is guaranteed on normal return; process crash between those operations is not a durable HP transaction.",
+    "Dedicated drinking sound, original70HP tuple timing and full item-use engine are not restored.",
+    "Focused QA uses explicit profile/HP/position fixtures; the separate21check quest regression performs the real original quest route.",
+    "No new FPS/Windows/long-running performance claim."
+  ],
+  "preserved_first_attempt": "source_art/r4/experiments/supplies_first_134: four JSON numeric type comparison failures and two source-image QA warnings; final QA corrected, production unchanged."
+}

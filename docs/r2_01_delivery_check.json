@@ -1,0 +1,125 @@
+{
+  "candidate": "R2/01",
+  "verified_at_utc": "2026-10-23T06:55:08.997339+00:00",
+  "run_id": "r42267168-86",
+  "artifact_hashes_passed": 416,
+  "build_manifest_sha256": "c9177b94ac1bf137d377cbd6a029e8a914937ab277b2636089d1b81fd5ee5f50",
+  "native_checks": 14,
+  "native_job_seconds": 11.60848,
+  "failed": [],
+  "actual_route": [
+    "harbor",
+    "approach",
+    "hall",
+    "approach",
+    "harbor"
+  ],
+  "native_texture_count": 21,
+  "native_exact_rgba_pixels": 2624475,
+  "harbor_GLB_unchanged_from_R1_29": true,
+  "fresh_state": {
+    "camera": "(0.0, 12.0)",
+    "diagnostics_active": false,
+    "diagnostics_processing": false,
+    "motion": true,
+    "physics_ticks": 60,
+    "player": {
+      "action": "stay",
+      "audio": {
+        "clock_ms": 0.0,
+        "pending": []
+      },
+      "elapsed_ms": 106.890666666657,
+      "facing": 1,
+      "frame": 4,
+      "jump": {
+        "air_attack_started": -1.0,
+        "air_attack_used": false,
+        "elapsed": -1.0,
+        "travel_speed": 95.0
+      },
+      "next_attack": "attack1",
+      "one_shot": false,
+      "paused": false,
+      "position": "(440.0, 320.0)",
+      "preview": false
+    },
+    "quality": 2,
+    "root_children": [
+      "_mcp_game_helper",
+      "PortMusic",
+      "PortAmbience",
+      "FrameDiagnostics",
+      "WestCoastR1"
+    ],
+    "scene": "res://scenes/west_coast_r1.tscn",
+    "script_hashes": {
+      "res://scripts/exploration_stage.gd": {
+        "disk": "b114a54495793c5ad8e4982c04a38d75bc5e72b3b8b3415c87f83d0027accc71",
+        "loaded": "b114a54495793c5ad8e4982c04a38d75bc5e72b3b8b3415c87f83d0027accc71"
+      },
+      "res://scripts/source_actor_3d.gd": {
+        "disk": "99d0b6a93a504ffebc66768611bb67e4f39fd2df99bb32756ad2e70007283424",
+        "loaded": "99d0b6a93a504ffebc66768611bb67e4f39fd2df99bb32756ad2e70007283424"
+      },
+      "res://scripts/west_coast_r1.gd": {
+        "disk": "73a080bffeaee4bf24de836c76761fc57c6a175cb518bdd909096ac0b6799a84",
+        "loaded": "73a080bffeaee4bf24de836c76761fc57c6a175cb518bdd909096ac0b6799a84"
+      },
+      "res://scripts/world_travel.gd": {
+        "disk": "085e9ea8a010ba9b2cbd758574d2531e6cf2ca60ed96830d531a74958d934c31",
+        "loaded": "085e9ea8a010ba9b2cbd758574d2531e6cf2ca60ed96830d531a74958d934c31"
+      }
+    },
+    "travel": {
+      "can_exit": true,
+      "current_region": "harbor",
+      "exit_hold_id": "",
+      "exit_hold_required_seconds": 0.15,
+      "exit_hold_seconds": 0.0,
+      "fade_alpha": 0.0,
+      "grounded": true,
+      "harbor_return_position": "(60.0, 320.0)",
+      "last_error": "",
+      "last_exit": "",
+      "pending_target": "",
+      "phase": "ready",
+      "region": "harbor",
+      "reset_positions": {
+        "harbor": "(440.0, 320.0)"
+      },
+      "schema_version": 1,
+      "source_position": "(440.0, 320.0)",
+      "spawn_position": "(440.0, 320.0)",
+      "transition_count": 0,
+      "transitioning": false,
+      "ui_input_blocked": false,
+      "visited": [
+        "harbor"
+      ]
+    },
+    "walk": true
+  },
+  "current_game_errors": 0,
+  "current_game_warnings": 0,
+  "new_editor_entries_since_cursor_17": 0,
+  "evidence_sha256": {
+    "docs/r2_01_travel_job.json": "2eafcd9c56267ab7912722b51e588299baab4833aa6cdcf96d5551b0caa63098",
+    "docs/r2_01_travel_checks.json": "1f53f9ad2c2f3c4762b5abe772acda44fb3dcdfd107d26c536bef99623698b4c",
+    "docs/r2_01_asset_checks.json": "ac91ea27279c0801c1399048f61f1426dadaac6c7cd58edbca0b7fb280215213",
+    "docs/r2_01_final_state.json": "ad97506793d1088ded734ef545dbafa8b234b335272f7eafecb2479024ecedc2",
+    "docs/r2_01_final_logs.json": "fa57537f129d2a3208f70da988cd7ac94050720d9cc75481e02b6e452065e248",
+    "docs/r2_asset_manifest.json": "277e3e806fa1567bc847ee1362bf3a545521698fb5ee7f9fe9e71fbfa151072e",
+    "source_art/r2/layout_reference.json": "964fab7c2ac8fc9b0e7f5a666d7630f1b3983e365cb4a234d0c595dd6625f86f",
+    "docs/previews/r2_01_approach.png": "a0245ad8f47589372f0eff0a335f4be16d3febe37f38a5ad2f8b1db2b4bb3306",
+    "docs/previews/r2_01_hall.png": "3623202bd042d56bfb51f99ba8567f47b3b46acd3cfa4b44f62d82dbb0fe9398",
+    "docs/previews/r2_01_harbor.png": "934efb14d3a1f25842e7f253fb7f7e86dcb014e0311d36a6e1efffa77987b80c"
+  },
+  "limitations": [
+    "Connected exploration only; no combat, quest, rewards or disk save in this candidate.",
+    "Route layout and3Darchitecture are new adaptations; tower art explicitly uses95cataclysm/skytower source namespace.",
+    "Sourcecards retain originaltexturepixels; tower rightedge uses interpreted mirrored180px padding.",
+    "No dedicated R2 performance study or Windows run. Historical R1checks not counted as a newR2regression.",
+    "Native texture comparison uses developer-only diskPNG readback;21 warnings from that devprobe and initialQA metadata/focus issues were in run85, fixedQA rerun86 isclean. EarlierQA retainedunder source_art/r2/experiments/travel_first/."
+  ]
+}

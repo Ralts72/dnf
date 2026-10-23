@@ -1,0 +1,208 @@
+{
+  "candidate": "R4/01",
+  "verified_at_utc": "2026-10-23T09:07:31.219668+00:00",
+  "native_runs": {
+    "visual_and_imports": "r49274508-114",
+    "equipment": "r49410700-115",
+    "loot_and_final_imports": "r49505842-116",
+    "boss": "r49999397-118",
+    "fresh": "r50308347-120"
+  },
+  "checks": {
+    "native_boss_and_route": 37,
+    "native_equipment_regression": 20,
+    "native_loot_regression": 23,
+    "isolated_storage": 38
+  },
+  "total_function_checks": 118,
+  "failed": [],
+  "artifact_hashes_passed": 1612,
+  "manifest_sha256": "f4f9d634713eafa6179c807385a7b5243ff9b979988cdc784c0100719789c140",
+  "native_imports": {
+    "textures": 69,
+    "exact_rgba_pixels": 3373472,
+    "source_actions": 10,
+    "master_frames": 37,
+    "world_reused_png": 10
+  },
+  "profile_schema": 4,
+  "formal_profile_before": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "formal_profile_after": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "fresh_state": {
+    "actor_action": "stay",
+    "appearance": {
+      "action": "stay",
+      "clip_paths": {
+        "dash": "res://data/swordman_dash_inbetweens.json",
+        "move": "res://data/swordman_walk_inbetweens.json"
+      },
+      "data_path": "res://data/swordman_r1.json",
+      "elapsed_ms": 72.3599999999983,
+      "frame": 5,
+      "inbetweens_enabled": true,
+      "key": "practice_lswd0000",
+      "last_error": "",
+      "spatial": true,
+      "texture_count": 92
+    },
+    "blocked": false,
+    "boss_meta": false,
+    "camera": {
+      "x": 0,
+      "y": 12
+    },
+    "diagnostics_active": false,
+    "diagnostics_processing": false,
+    "equipment_runtime": {
+      "applied_actor_id": 72578239086,
+      "applied_key": "practice_lswd0000",
+      "apply_count": 1,
+      "last_error": "",
+      "scene": "res://scenes/west_coast_r1.tscn"
+    },
+    "first_meta": false,
+    "formal_profile": {
+      "user://adventure/first_route_v1.json": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.bak": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "sha256": ""
+      }
+    },
+    "hero_position": {
+      "x": 440,
+      "y": 320
+    },
+    "inbetweens": true,
+    "interpolation": true,
+    "paused": false,
+    "physics_tps": 60,
+    "preview": false,
+    "profile": {
+      "dialog_open": false,
+      "encounter_cleared": false,
+      "last_error": "",
+      "loaded_from_backup": false,
+      "pending_save": false,
+      "progress": {
+        "chapter_flags": {
+          "lakius_cleared": false
+        },
+        "coins": 0,
+        "equipment": {
+          "equipped_key": "practice_lswd0000",
+          "owned": {
+            "27304": false
+          }
+        },
+        "first_drop": {
+          "id": "mirkius_first_eye_v1",
+          "position": [
+            640,
+            300
+          ],
+          "region": "hall",
+          "state": "unearned"
+        },
+        "inventory": {
+          "3128": 0
+        },
+        "objective_cleared": false,
+        "quest_stage": "available",
+        "reward_granted": false,
+        "schema": 4
+      },
+      "region_scene": "res://scenes/west_coast_r1.tscn",
+      "save_attempts": 0,
+      "storage_path": "user://adventure/first_route_v1.json",
+      "storage_ready": true
+    },
+    "scene": "res://scenes/west_coast_r1.tscn",
+    "shared_hp_meta": false,
+    "source_versions_match": {
+      "equipment_runtime": true,
+      "loot": true,
+      "profile": true,
+      "travel": true
+    }
+  },
+  "timing_seconds": {
+    "boss_native_job": 37.048976,
+    "equipment_job": 25.414899,
+    "loot_job": 24.674628,
+    "native_imports": 0.15109
+  },
+  "scope_notes": [
+    "New44-native-mesh and8-source-card wide hall; source textures reused unchanged. All42 decoration AABBs, expanded by actor foot radius, lie outside the walk rectangle; its native collision root is intentionally empty. Route camera floor coverage was inspected and numerically reviewed.",
+    "Real AI attempt starts100/220HP and uses actual movement/facing/Q inputs, without HP/position/clock/AI-freeze changes during the attempt. Its equipped27304/completed first quest is an explicitly marked prior-profile fixture, not a new actual reward claim; independent43 regressions validate the actual first-route reward/equip/loot loop.",
+    "Runtime boss rules, new ground warning, AI pattern, armor, HP, damage and route layout are prototype adaptations; ten distinct original source actions and original source clocks are retained.",
+    "First boss QA117 had one overly strict frame assertion: physics183.333ms vs render176.144ms. Original evidence retained under source_art/r4/experiments/boss_first_117; corrected QA strictly validates source clock/frame plus one-physics-tick skew; full118 rerun passed37 checks.",
+    "Read-only fresh probe119 triggered an eval indentation parser break. No production source changed. Note preserved under source_art/r4/experiments/fresh_eval_119; fresh120 uses a single-line read and is clean.",
+    "Current gameplay regressions and final startup had no new game/editor errors. Historical logs/debugger rows were not cleared.",
+    "No new FPS benchmark or Windows performance claim. Local QA/import durations are validation costs, not gameplay performance.",
+    "Human formal primary/backup/tmp/backup-tmp were absent and remain absent. QA uses isolated profiles.",
+    "User continuous-development boundary currently remaining75%, same reset1793293820, no reset credits or extra paid usage. Continue content after this stable checkpoint."
+  ],
+  "screenshots": {
+    "charge": {
+      "path": "res://docs/previews/r4_01_boss_charge.png",
+      "save_error": 0,
+      "scene": "res://scenes/tower_depths.tscn"
+    },
+    "return_harbor": {
+      "path": "res://docs/previews/r4_01_boss_return_harbor.png",
+      "save_error": 0,
+      "scene": "res://scenes/west_coast_r1.tscn"
+    },
+    "victory": {
+      "path": "res://docs/previews/r4_01_boss_victory.png",
+      "save_error": 0,
+      "scene": "res://scenes/tower_depths.tscn"
+    }
+  },
+  "checkpoint": "source_art/r4/checkpoints/candidate_01"
+}

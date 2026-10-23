@@ -1,0 +1,655 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/r2/approach/bridge_0.png" id="1"]
+[ext_resource type="Texture2D" path="res://assets/r2/approach/paving.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/r2/entrance/tower.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/r2/entrance/gate.png" id="4"]
+
+[sub_resource type="StandardMaterial3D" id="R2_1"]
+shading_mode = 1
+albedo_texture = ExtResource("1")
+roughness = 1.0
+texture_filter = 0
+uv1_scale = Vector3(0.28571429, 0.10457516, 1.00000000)
+uv1_offset = Vector3(0.10714286, 0.26143791, 0.00000000)
+
+[sub_resource type="StandardMaterial3D" id="R2_2"]
+shading_mode = 1
+albedo_texture = ExtResource("2")
+roughness = 1.0
+texture_filter = 0
+uv1_scale = Vector3(1.80000000, 1.00000000, 1.00000000)
+uv1_offset = Vector3(0.00000000, 0.00000000, 0.00000000)
+
+[sub_resource type="BoxMesh" id="R2_3"]
+material = SubResource("R2_1")
+size = Vector3(20.50000000, 0.20000000, 5.95565390)
+
+[sub_resource type="StandardMaterial3D" id="R2_4"]
+shading_mode = 0
+albedo_texture = ExtResource("2")
+roughness = 1.0
+texture_filter = 0
+uv1_scale = Vector3(6.40625000, 2.29166667, 1.00000000)
+uv1_offset = Vector3(0.00000000, 0.00000000, 0.00000000)
+
+[sub_resource type="PlaneMesh" id="R2_5"]
+material = SubResource("R2_4")
+size = Vector2(20.5, 5.955653900103395)
+
+[sub_resource type="BoxMesh" id="R2_6"]
+material = SubResource("R2_1")
+size = Vector3(8.66666667, 0.29000000, 0.24000000)
+
+[sub_resource type="BoxMesh" id="R2_7"]
+material = SubResource("R2_1")
+size = Vector3(8.66666667, 0.06500000, 0.34000000)
+
+[sub_resource type="BoxMesh" id="R2_8"]
+material = SubResource("R2_1")
+size = Vector3(9.16666667, 0.29000000, 0.24000000)
+
+[sub_resource type="BoxMesh" id="R2_9"]
+material = SubResource("R2_1")
+size = Vector3(9.16666667, 0.06500000, 0.34000000)
+
+[sub_resource type="BoxMesh" id="R2_10"]
+material = SubResource("R2_1")
+size = Vector3(0.34000000, 0.10000000, 0.34000000)
+
+[sub_resource type="CylinderMesh" id="R2_11"]
+material = SubResource("R2_1")
+bottom_radius = 0.145
+top_radius = 0.145
+height = 0.14
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R2_12"]
+material = SubResource("R2_1")
+bottom_radius = 0.072
+top_radius = 0.062
+height = 0.47
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R2_13"]
+material = SubResource("R2_1")
+bottom_radius = 0.105
+top_radius = 0.105
+height = 0.07
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxMesh" id="R2_14"]
+material = SubResource("R2_1")
+size = Vector3(0.27000000, 0.08000000, 0.27000000)
+
+[sub_resource type="BoxMesh" id="R2_15"]
+material = SubResource("R2_1")
+size = Vector3(20.50000000, 0.22000000, 0.24000000)
+
+[sub_resource type="BoxMesh" id="R2_16"]
+material = SubResource("R2_1")
+size = Vector3(20.50000000, 0.06000000, 0.34000000)
+
+[sub_resource type="CylinderMesh" id="R2_17"]
+material = SubResource("R2_1")
+bottom_radius = 0.072
+top_radius = 0.062
+height = 0.14
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxMesh" id="R2_18"]
+material = SubResource("R2_2")
+size = Vector3(2.50000000, 0.02500000, 0.10000000)
+
+[sub_resource type="AtlasTexture" id="R2_19"]
+atlas = ExtResource("3")
+region = Rect2(702, 0, 180, 600)
+
+[sub_resource type="BoxMesh" id="R2_20"]
+material = SubResource("R2_1")
+size = Vector3(0.20000000, 3.35000000, 0.32000000)
+
+[sub_resource type="BoxMesh" id="R2_21"]
+material = SubResource("R2_1")
+size = Vector3(0.37000000, 0.18000000, 0.43000000)
+
+[sub_resource type="BoxMesh" id="R2_22"]
+material = SubResource("R2_1")
+size = Vector3(0.37000000, 0.16000000, 0.43000000)
+
+[node name="TowerApproachWorld" type="Node3D"]
+metadata/layout_policy = "Adapted R2 route; original source pixels, new3D geometry."
+
+[node name="CausewayStoneFoundation" type="MeshInstance3D" parent="."]
+position = Vector3(-0.05000000, -0.09000000, 3.29987889)
+mesh = SubResource("R2_3")
+
+[node name="WalkablePaving" type="MeshInstance3D" parent="."]
+position = Vector3(-0.05000000, 0.01500000, 3.29987889)
+mesh = SubResource("R2_5")
+
+[node name="FarBalustrade_Left" type="MeshInstance3D" parent="."]
+position = Vector3(-5.96666667, 0.16000000, 0.21376732)
+mesh = SubResource("R2_6")
+
+[node name="FarCoping_Left" type="MeshInstance3D" parent="."]
+position = Vector3(-5.96666667, 0.33750000, 0.21376732)
+mesh = SubResource("R2_7")
+
+[node name="FarBalustrade_Right" type="MeshInstance3D" parent="."]
+position = Vector3(5.61666667, 0.16000000, 0.21376732)
+mesh = SubResource("R2_8")
+
+[node name="FarCoping_Right" type="MeshInstance3D" parent="."]
+position = Vector3(5.61666667, 0.33750000, 0.21376732)
+mesh = SubResource("R2_9")
+
+[node name="FarCarvedPost_0_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(-9.33333333, 0.06500000, 0.21376732)
+mesh = SubResource("R2_10")
+
+[node name="FarCarvedPost_0_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(-9.33333333, 0.18500000, 0.21376732)
+mesh = SubResource("R2_11")
+
+[node name="FarCarvedPost_0_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(-9.33333333, 0.49000000, 0.21376732)
+mesh = SubResource("R2_12")
+
+[node name="FarCarvedPost_0_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(-9.33333333, 0.76000000, 0.21376732)
+mesh = SubResource("R2_13")
+
+[node name="FarCarvedPost_0_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(-9.33333333, 0.83500000, 0.21376732)
+mesh = SubResource("R2_14")
+
+[node name="FarCarvedPost_1_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(-7.46666667, 0.06500000, 0.21376732)
+mesh = SubResource("R2_10")
+
+[node name="FarCarvedPost_1_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(-7.46666667, 0.18500000, 0.21376732)
+mesh = SubResource("R2_11")
+
+[node name="FarCarvedPost_1_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(-7.46666667, 0.49000000, 0.21376732)
+mesh = SubResource("R2_12")
+
+[node name="FarCarvedPost_1_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(-7.46666667, 0.76000000, 0.21376732)
+mesh = SubResource("R2_13")
+
+[node name="FarCarvedPost_1_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(-7.46666667, 0.83500000, 0.21376732)
+mesh = SubResource("R2_14")
+
+[node name="FarCarvedPost_2_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(-5.60000000, 0.06500000, 0.21376732)
+mesh = SubResource("R2_10")
+
+[node name="FarCarvedPost_2_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(-5.60000000, 0.18500000, 0.21376732)
+mesh = SubResource("R2_11")
+
+[node name="FarCarvedPost_2_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(-5.60000000, 0.49000000, 0.21376732)
+mesh = SubResource("R2_12")
+
+[node name="FarCarvedPost_2_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(-5.60000000, 0.76000000, 0.21376732)
+mesh = SubResource("R2_13")
+
+[node name="FarCarvedPost_2_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(-5.60000000, 0.83500000, 0.21376732)
+mesh = SubResource("R2_14")
+
+[node name="FarCarvedPost_3_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(-3.73333333, 0.06500000, 0.21376732)
+mesh = SubResource("R2_10")
+
+[node name="FarCarvedPost_3_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(-3.73333333, 0.18500000, 0.21376732)
+mesh = SubResource("R2_11")
+
+[node name="FarCarvedPost_3_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(-3.73333333, 0.49000000, 0.21376732)
+mesh = SubResource("R2_12")
+
+[node name="FarCarvedPost_3_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(-3.73333333, 0.76000000, 0.21376732)
+mesh = SubResource("R2_13")
+
+[node name="FarCarvedPost_3_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(-3.73333333, 0.83500000, 0.21376732)
+mesh = SubResource("R2_14")
+
+[node name="FarCarvedPost_4_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(-1.86666667, 0.06500000, 0.21376732)
+mesh = SubResource("R2_10")
+
+[node name="FarCarvedPost_4_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(-1.86666667, 0.18500000, 0.21376732)
+mesh = SubResource("R2_11")
+
+[node name="FarCarvedPost_4_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(-1.86666667, 0.49000000, 0.21376732)
+mesh = SubResource("R2_12")
+
+[node name="FarCarvedPost_4_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(-1.86666667, 0.76000000, 0.21376732)
+mesh = SubResource("R2_13")
+
+[node name="FarCarvedPost_4_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(-1.86666667, 0.83500000, 0.21376732)
+mesh = SubResource("R2_14")
+
+[node name="FarCarvedPost_5_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(1.86666667, 0.06500000, 0.21376732)
+mesh = SubResource("R2_10")
+
+[node name="FarCarvedPost_5_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(1.86666667, 0.18500000, 0.21376732)
+mesh = SubResource("R2_11")
+
+[node name="FarCarvedPost_5_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(1.86666667, 0.49000000, 0.21376732)
+mesh = SubResource("R2_12")
+
+[node name="FarCarvedPost_5_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(1.86666667, 0.76000000, 0.21376732)
+mesh = SubResource("R2_13")
+
+[node name="FarCarvedPost_5_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(1.86666667, 0.83500000, 0.21376732)
+mesh = SubResource("R2_14")
+
+[node name="FarCarvedPost_6_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(3.73333333, 0.06500000, 0.21376732)
+mesh = SubResource("R2_10")
+
+[node name="FarCarvedPost_6_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(3.73333333, 0.18500000, 0.21376732)
+mesh = SubResource("R2_11")
+
+[node name="FarCarvedPost_6_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(3.73333333, 0.49000000, 0.21376732)
+mesh = SubResource("R2_12")
+
+[node name="FarCarvedPost_6_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(3.73333333, 0.76000000, 0.21376732)
+mesh = SubResource("R2_13")
+
+[node name="FarCarvedPost_6_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(3.73333333, 0.83500000, 0.21376732)
+mesh = SubResource("R2_14")
+
+[node name="FarCarvedPost_7_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(5.60000000, 0.06500000, 0.21376732)
+mesh = SubResource("R2_10")
+
+[node name="FarCarvedPost_7_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(5.60000000, 0.18500000, 0.21376732)
+mesh = SubResource("R2_11")
+
+[node name="FarCarvedPost_7_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(5.60000000, 0.49000000, 0.21376732)
+mesh = SubResource("R2_12")
+
+[node name="FarCarvedPost_7_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(5.60000000, 0.76000000, 0.21376732)
+mesh = SubResource("R2_13")
+
+[node name="FarCarvedPost_7_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(5.60000000, 0.83500000, 0.21376732)
+mesh = SubResource("R2_14")
+
+[node name="FarCarvedPost_8_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(7.46666667, 0.06500000, 0.21376732)
+mesh = SubResource("R2_10")
+
+[node name="FarCarvedPost_8_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(7.46666667, 0.18500000, 0.21376732)
+mesh = SubResource("R2_11")
+
+[node name="FarCarvedPost_8_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(7.46666667, 0.49000000, 0.21376732)
+mesh = SubResource("R2_12")
+
+[node name="FarCarvedPost_8_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(7.46666667, 0.76000000, 0.21376732)
+mesh = SubResource("R2_13")
+
+[node name="FarCarvedPost_8_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(7.46666667, 0.83500000, 0.21376732)
+mesh = SubResource("R2_14")
+
+[node name="FarCarvedPost_9_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(9.33333333, 0.06500000, 0.21376732)
+mesh = SubResource("R2_10")
+
+[node name="FarCarvedPost_9_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(9.33333333, 0.18500000, 0.21376732)
+mesh = SubResource("R2_11")
+
+[node name="FarCarvedPost_9_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(9.33333333, 0.49000000, 0.21376732)
+mesh = SubResource("R2_12")
+
+[node name="FarCarvedPost_9_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(9.33333333, 0.76000000, 0.21376732)
+mesh = SubResource("R2_13")
+
+[node name="FarCarvedPost_9_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(9.33333333, 0.83500000, 0.21376732)
+mesh = SubResource("R2_14")
+
+[node name="NearBalustrade" type="MeshInstance3D" parent="."]
+position = Vector3(-0.05000000, 0.12500000, 4.92414814)
+mesh = SubResource("R2_15")
+
+[node name="NearCoping" type="MeshInstance3D" parent="."]
+position = Vector3(-0.05000000, 0.26500000, 4.92414814)
+mesh = SubResource("R2_16")
+
+[node name="NearCarvedPost_0_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(-9.33333333, 0.06500000, 5.05950391)
+mesh = SubResource("R2_10")
+
+[node name="NearCarvedPost_0_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(-9.33333333, 0.18500000, 5.05950391)
+mesh = SubResource("R2_11")
+
+[node name="NearCarvedPost_0_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(-9.33333333, 0.32500000, 5.05950391)
+mesh = SubResource("R2_17")
+
+[node name="NearCarvedPost_0_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(-9.33333333, 0.43000000, 5.05950391)
+mesh = SubResource("R2_13")
+
+[node name="NearCarvedPost_0_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(-9.33333333, 0.50500000, 5.05950391)
+mesh = SubResource("R2_14")
+
+[node name="NearCarvedPost_1_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(-7.46666667, 0.06500000, 5.05950391)
+mesh = SubResource("R2_10")
+
+[node name="NearCarvedPost_1_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(-7.46666667, 0.18500000, 5.05950391)
+mesh = SubResource("R2_11")
+
+[node name="NearCarvedPost_1_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(-7.46666667, 0.32500000, 5.05950391)
+mesh = SubResource("R2_17")
+
+[node name="NearCarvedPost_1_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(-7.46666667, 0.43000000, 5.05950391)
+mesh = SubResource("R2_13")
+
+[node name="NearCarvedPost_1_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(-7.46666667, 0.50500000, 5.05950391)
+mesh = SubResource("R2_14")
+
+[node name="NearCarvedPost_2_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(-5.60000000, 0.06500000, 5.05950391)
+mesh = SubResource("R2_10")
+
+[node name="NearCarvedPost_2_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(-5.60000000, 0.18500000, 5.05950391)
+mesh = SubResource("R2_11")
+
+[node name="NearCarvedPost_2_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(-5.60000000, 0.32500000, 5.05950391)
+mesh = SubResource("R2_17")
+
+[node name="NearCarvedPost_2_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(-5.60000000, 0.43000000, 5.05950391)
+mesh = SubResource("R2_13")
+
+[node name="NearCarvedPost_2_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(-5.60000000, 0.50500000, 5.05950391)
+mesh = SubResource("R2_14")
+
+[node name="NearCarvedPost_3_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(-3.73333333, 0.06500000, 5.05950391)
+mesh = SubResource("R2_10")
+
+[node name="NearCarvedPost_3_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(-3.73333333, 0.18500000, 5.05950391)
+mesh = SubResource("R2_11")
+
+[node name="NearCarvedPost_3_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(-3.73333333, 0.32500000, 5.05950391)
+mesh = SubResource("R2_17")
+
+[node name="NearCarvedPost_3_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(-3.73333333, 0.43000000, 5.05950391)
+mesh = SubResource("R2_13")
+
+[node name="NearCarvedPost_3_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(-3.73333333, 0.50500000, 5.05950391)
+mesh = SubResource("R2_14")
+
+[node name="NearCarvedPost_4_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(-1.86666667, 0.06500000, 5.05950391)
+mesh = SubResource("R2_10")
+
+[node name="NearCarvedPost_4_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(-1.86666667, 0.18500000, 5.05950391)
+mesh = SubResource("R2_11")
+
+[node name="NearCarvedPost_4_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(-1.86666667, 0.32500000, 5.05950391)
+mesh = SubResource("R2_17")
+
+[node name="NearCarvedPost_4_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(-1.86666667, 0.43000000, 5.05950391)
+mesh = SubResource("R2_13")
+
+[node name="NearCarvedPost_4_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(-1.86666667, 0.50500000, 5.05950391)
+mesh = SubResource("R2_14")
+
+[node name="NearCarvedPost_5_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(0.00000000, 0.06500000, 5.05950391)
+mesh = SubResource("R2_10")
+
+[node name="NearCarvedPost_5_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(0.00000000, 0.18500000, 5.05950391)
+mesh = SubResource("R2_11")
+
+[node name="NearCarvedPost_5_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(0.00000000, 0.32500000, 5.05950391)
+mesh = SubResource("R2_17")
+
+[node name="NearCarvedPost_5_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(0.00000000, 0.43000000, 5.05950391)
+mesh = SubResource("R2_13")
+
+[node name="NearCarvedPost_5_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(0.00000000, 0.50500000, 5.05950391)
+mesh = SubResource("R2_14")
+
+[node name="NearCarvedPost_6_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(1.86666667, 0.06500000, 5.05950391)
+mesh = SubResource("R2_10")
+
+[node name="NearCarvedPost_6_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(1.86666667, 0.18500000, 5.05950391)
+mesh = SubResource("R2_11")
+
+[node name="NearCarvedPost_6_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(1.86666667, 0.32500000, 5.05950391)
+mesh = SubResource("R2_17")
+
+[node name="NearCarvedPost_6_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(1.86666667, 0.43000000, 5.05950391)
+mesh = SubResource("R2_13")
+
+[node name="NearCarvedPost_6_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(1.86666667, 0.50500000, 5.05950391)
+mesh = SubResource("R2_14")
+
+[node name="NearCarvedPost_7_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(3.73333333, 0.06500000, 5.05950391)
+mesh = SubResource("R2_10")
+
+[node name="NearCarvedPost_7_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(3.73333333, 0.18500000, 5.05950391)
+mesh = SubResource("R2_11")
+
+[node name="NearCarvedPost_7_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(3.73333333, 0.32500000, 5.05950391)
+mesh = SubResource("R2_17")
+
+[node name="NearCarvedPost_7_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(3.73333333, 0.43000000, 5.05950391)
+mesh = SubResource("R2_13")
+
+[node name="NearCarvedPost_7_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(3.73333333, 0.50500000, 5.05950391)
+mesh = SubResource("R2_14")
+
+[node name="NearCarvedPost_8_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(5.60000000, 0.06500000, 5.05950391)
+mesh = SubResource("R2_10")
+
+[node name="NearCarvedPost_8_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(5.60000000, 0.18500000, 5.05950391)
+mesh = SubResource("R2_11")
+
+[node name="NearCarvedPost_8_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(5.60000000, 0.32500000, 5.05950391)
+mesh = SubResource("R2_17")
+
+[node name="NearCarvedPost_8_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(5.60000000, 0.43000000, 5.05950391)
+mesh = SubResource("R2_13")
+
+[node name="NearCarvedPost_8_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(5.60000000, 0.50500000, 5.05950391)
+mesh = SubResource("R2_14")
+
+[node name="NearCarvedPost_9_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(7.46666667, 0.06500000, 5.05950391)
+mesh = SubResource("R2_10")
+
+[node name="NearCarvedPost_9_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(7.46666667, 0.18500000, 5.05950391)
+mesh = SubResource("R2_11")
+
+[node name="NearCarvedPost_9_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(7.46666667, 0.32500000, 5.05950391)
+mesh = SubResource("R2_17")
+
+[node name="NearCarvedPost_9_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(7.46666667, 0.43000000, 5.05950391)
+mesh = SubResource("R2_13")
+
+[node name="NearCarvedPost_9_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(7.46666667, 0.50500000, 5.05950391)
+mesh = SubResource("R2_14")
+
+[node name="NearCarvedPost_10_Foot" type="MeshInstance3D" parent="."]
+position = Vector3(9.33333333, 0.06500000, 5.05950391)
+mesh = SubResource("R2_10")
+
+[node name="NearCarvedPost_10_Plinth" type="MeshInstance3D" parent="."]
+position = Vector3(9.33333333, 0.18500000, 5.05950391)
+mesh = SubResource("R2_11")
+
+[node name="NearCarvedPost_10_Shaft" type="MeshInstance3D" parent="."]
+position = Vector3(9.33333333, 0.32500000, 5.05950391)
+mesh = SubResource("R2_17")
+
+[node name="NearCarvedPost_10_Collar" type="MeshInstance3D" parent="."]
+position = Vector3(9.33333333, 0.43000000, 5.05950391)
+mesh = SubResource("R2_13")
+
+[node name="NearCarvedPost_10_Cap" type="MeshInstance3D" parent="."]
+position = Vector3(9.33333333, 0.50500000, 5.05950391)
+mesh = SubResource("R2_14")
+
+[node name="DoorApproachStep_0" type="MeshInstance3D" parent="."]
+position = Vector3(-0.30000000, 0.02850000, 0.61983464)
+mesh = SubResource("R2_18")
+
+[node name="DoorApproachStep_1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.30000000, 0.02850000, 0.75519041)
+mesh = SubResource("R2_18")
+
+[node name="DoorApproachStep_2" type="MeshInstance3D" parent="."]
+position = Vector3(-0.30000000, 0.02850000, 0.89054618)
+mesh = SubResource("R2_18")
+
+[node name="TowerGalleryLandmark" type="Sprite3D" parent="."]
+texture = ExtResource("3")
+position = Vector3(0.00000000, -1.02162451, -0.85513942)
+rotation = Vector3(-0.66322512, 0.00000000, 0.00000000)
+pixel_size = 0.016666666666666666
+offset = Vector2(0, 300.0)
+billboard = 0
+alpha_cut = 1
+alpha_scissor_threshold = 0.25
+texture_filter = 0
+shaded = false
+cast_shadow = 0
+metadata/source_pixel_policy = "Original crop at1 source pixel per logical view pixel; only view-ray depth offset."
+
+[node name="RightEdgePad" type="Sprite3D" parent="TowerGalleryLandmark"]
+texture = SubResource("R2_19")
+position = Vector3(8.85000000, 0.00000000, 0.00000000)
+pixel_size = 0.016666666666666666
+offset = Vector2(0, 300.0)
+billboard = 0
+flip_h = true
+alpha_cut = 1
+alpha_scissor_threshold = 0.25
+texture_filter = 0
+shaded = false
+cast_shadow = 0
+metadata/source_pixel_policy = "Interpreted mirrored right-edge overscan; original PNG unchanged."
+
+[node name="PointedTowerDoor" type="Sprite3D" parent="."]
+texture = ExtResource("4")
+position = Vector3(-0.30000000, -0.03656615, 0.40567779)
+rotation = Vector3(-0.66322512, 0.00000000, 0.00000000)
+pixel_size = 0.016666666666666666
+offset = Vector2(0, 109.0)
+billboard = 0
+alpha_cut = 1
+alpha_scissor_threshold = 0.25
+texture_filter = 0
+shaded = false
+cast_shadow = 0
+metadata/source_pixel_policy = "Original crop at1 source pixel per logical view pixel; only view-ray depth offset."
+
+[node name="GatePier_Left" type="MeshInstance3D" parent="."]
+position = Vector3(-1.26666667, 1.69000000, 0.32205194)
+mesh = SubResource("R2_20")
+
+[node name="GatePierBase_Left" type="MeshInstance3D" parent="."]
+position = Vector3(-1.26666667, 0.10500000, 0.32205194)
+mesh = SubResource("R2_21")
+
+[node name="GatePierCapital_Left" type="MeshInstance3D" parent="."]
+position = Vector3(-1.26666667, 3.33000000, 0.32205194)
+mesh = SubResource("R2_22")
+
+[node name="GatePier_Right" type="MeshInstance3D" parent="."]
+position = Vector3(0.66666667, 1.69000000, 0.32205194)
+mesh = SubResource("R2_20")
+
+[node name="GatePierBase_Right" type="MeshInstance3D" parent="."]
+position = Vector3(0.66666667, 0.10500000, 0.32205194)
+mesh = SubResource("R2_21")
+
+[node name="GatePierCapital_Right" type="MeshInstance3D" parent="."]
+position = Vector3(0.66666667, 3.33000000, 0.32205194)
+mesh = SubResource("R2_22")

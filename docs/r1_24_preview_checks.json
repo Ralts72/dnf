@@ -1,0 +1,21 @@
+{
+  "path": "docs/previews/r1_24_walk_comparison.png",
+  "format": "APNG losslessRGB",
+  "frames": 144,
+  "size": [
+    1280,
+    448
+  ],
+  "total_duration_ms": 4800.0,
+  "duration_ms_each_cycle": [
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0
+  ],
+  "decoded_RGB_pixel_mismatches": 0,
+  "sha256": "e6e215400e009c0c8c24395b476c8dd52514ca13e7d3f7c9796701d5dbb69ffc",
+  "note": "Lossless preview assembled from actual native PNG captures, left8source/right24sample. Not a runtime character asset."
+}

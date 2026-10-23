@@ -1,0 +1,141 @@
+{
+  "candidate": "R1/09",
+  "source": "assets/r0/port/westile01/image/000.png",
+  "source_sha256": "e5bbe394d79a4187b4a8d8a0c0e36deb65f0f8e0952be65d3ad57d79af014a44",
+  "source_origin": [
+    225,
+    -42
+  ],
+  "source_manifest": "docs/r0_asset_manifest.json",
+  "crops": [
+    {
+      "name": "grove_bark",
+      "rect": [
+        90,
+        149,
+        103,
+        197
+      ],
+      "output": "assets/r1/grove_bark.png",
+      "sha256": "d8670b7b4d0c5bbe787a7596b5cbab89d4d2e31e40f54569ebd20011c4bfef56",
+      "operation": "Exact rectangular RGBA crop; no resampling or color changes"
+    },
+    {
+      "name": "grove_plaster",
+      "rect": [
+        108,
+        149,
+        134,
+        194
+      ],
+      "output": "assets/r1/grove_plaster.png",
+      "sha256": "bb6e18a5e3278bd27a766ab7fa26744d340e5ebd97fc05843aede4cea86bd9d5",
+      "operation": "Exact rectangular RGBA crop; no resampling or color changes"
+    },
+    {
+      "name": "grove_path",
+      "rect": [
+        184,
+        185,
+        224,
+        211
+      ],
+      "output": "assets/r1/grove_path.png",
+      "sha256": "f718d8cf6a84644528fedb9eabbd4c7f9d0188013154b65e6e9fd2a1bc45843f",
+      "operation": "Exact rectangular RGBA crop; no resampling or color changes"
+    },
+    {
+      "name": "grove_grass",
+      "rect": [
+        109,
+        201,
+        133,
+        209
+      ],
+      "output": "assets/r1/grove_grass.png",
+      "sha256": "30c1f817c610799990a8fa4a2c63edcab192d3383d9df7aefdfe1694a2aace62",
+      "operation": "Exact rectangular RGBA crop; no resampling or color changes"
+    }
+  ],
+  "canopy": {
+    "rect": [
+      0,
+      0,
+      224,
+      140
+    ],
+    "output": "assets/r1/grove_canopy.png",
+    "sha256": "0df73a6721348b936e55e9bd30e3ca99a53781c4bb492d625991d3b3ad7f6051",
+    "retained_pixels": 16663,
+    "removed_opaque_pixels": 4272,
+    "mask_rule": "y<90, otherwise green or blue-shadow foliage; preserve selected RGBA, set only removed alpha to zero",
+    "green_rule": "g>1.12*r and g>0.88*b and g>35",
+    "shadow_rule": "r,g,b<125 and b>1.05*r"
+  },
+  "geometry": {
+    "root_height": 0.11,
+    "root_source_y": 167,
+    "trees": [
+      {
+        "name": "Left",
+        "foot": [
+          247,
+          167
+        ],
+        "radius": 0.1,
+        "top_y": 43
+      },
+      {
+        "name": "Middle",
+        "foot": [
+          320,
+          167
+        ],
+        "radius": 0.125,
+        "top_y": 72
+      },
+      {
+        "name": "Right",
+        "foot": [
+          373,
+          167
+        ],
+        "radius": 0.11,
+        "top_y": 85
+      }
+    ],
+    "bed_source_bounds": [
+      290,
+      155,
+      402,
+      171
+    ],
+    "connection_source_bounds": [
+      410,
+      130,
+      449,
+      190
+    ],
+    "wall_front_source_bounds": [
+      270,
+      84,
+      411,
+      158
+    ],
+    "wall_return_source_points": [
+      [
+        411,
+        158
+      ],
+      [
+        449,
+        130
+      ]
+    ]
+  },
+  "notes": [
+    "RGB is never synthesized or repainted; the canopy cutout mask is an explicit inferred selection.",
+    "Canopy stays source art on a native 3D surface. Trunks, branches, bed, wall and connecting path are new meshes.",
+    "The canopy depth, hidden wall profile and tree volumes are new interpretation; no new navigation is opened."
+  ]
+}

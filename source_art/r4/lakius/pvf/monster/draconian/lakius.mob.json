@@ -1,0 +1,856 @@
+{
+  "path": "monster/draconian/lakius.mob",
+  "bytes": 952,
+  "sha256_decoded_bytes": "992f3660464feba19645f97a6f4fbfe97ff0e6259bd3257149309be76a40e177",
+  "crc": {
+    "expected": 1339102042,
+    "actual_seed_file_number": 1339102042,
+    "actual_seed_zero": 363609460
+  },
+  "crc_matches": true,
+  "original_reference": "source_art/r4/lakius/pvf/monster/draconian/lakius.mob.bin",
+  "decoded_reference": "source_art/r4/lakius/pvf/monster/draconian/lakius.mob.json",
+  "decoded": [
+    {
+      "type": 5,
+      "index": 7431,
+      "text": "[width]"
+    },
+    {
+      "type": 2,
+      "value": 40
+    },
+    {
+      "type": 2,
+      "value": 10
+    },
+    {
+      "type": 5,
+      "index": 305256,
+      "text": "[ability category]"
+    },
+    {
+      "type": 7,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 195
+    },
+    {
+      "type": 7,
+      "index": 305258,
+      "text": "[EQUIPMENT_PHYSICAL_ATTACK]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 7,
+      "index": 89605,
+      "text": "[EQUIPMENT_PHYSICAL_DEFENSE]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 7,
+      "index": 305259,
+      "text": "[EQUIPMENT_MAGICAL_ATTACK]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 7,
+      "index": 88347,
+      "text": "[EQUIPMENT_MAGICAL_DEFENSE]"
+    },
+    {
+      "type": 7,
+      "index": 305257,
+      "text": "*"
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 5,
+      "index": 305260,
+      "text": "[/ability category]"
+    },
+    {
+      "type": 5,
+      "index": 278490,
+      "text": "[category]"
+    },
+    {
+      "type": 7,
+      "index": 305261,
+      "text": "[human]"
+    },
+    {
+      "type": 7,
+      "index": 305552,
+      "text": "[melee combat]"
+    },
+    {
+      "type": 7,
+      "index": 306541,
+      "text": "[close-carefully]"
+    },
+    {
+      "type": 5,
+      "index": 305263,
+      "text": "[/category]"
+    },
+    {
+      "type": 5,
+      "index": 6037,
+      "text": "[level]"
+    },
+    {
+      "type": 2,
+      "value": 24
+    },
+    {
+      "type": 2,
+      "value": 25
+    },
+    {
+      "type": 5,
+      "index": 7438,
+      "text": "[dark resistance]"
+    },
+    {
+      "type": 2,
+      "value": -30
+    },
+    {
+      "type": 2,
+      "value": -30
+    },
+    {
+      "type": 5,
+      "index": 7439,
+      "text": "[light resistance]"
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 5,
+      "index": 27123,
+      "text": "[poison resistance]"
+    },
+    {
+      "type": 2,
+      "value": 30
+    },
+    {
+      "type": 2,
+      "value": 30
+    },
+    {
+      "type": 5,
+      "index": 18823,
+      "text": "[curse resistance]"
+    },
+    {
+      "type": 2,
+      "value": 30
+    },
+    {
+      "type": 2,
+      "value": 30
+    },
+    {
+      "type": 5,
+      "index": 2861,
+      "text": "[move speed]"
+    },
+    {
+      "type": 2,
+      "value": 1100
+    },
+    {
+      "type": 2,
+      "value": 1100
+    },
+    {
+      "type": 5,
+      "index": 2860,
+      "text": "[attack speed]"
+    },
+    {
+      "type": 2,
+      "value": 600
+    },
+    {
+      "type": 2,
+      "value": 600
+    },
+    {
+      "type": 5,
+      "index": 7442,
+      "text": "[cast speed]"
+    },
+    {
+      "type": 2,
+      "value": 910
+    },
+    {
+      "type": 2,
+      "value": 1000
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 2,
+      "value": 1000
+    },
+    {
+      "type": 2,
+      "value": 1000
+    },
+    {
+      "type": 5,
+      "index": 7444,
+      "text": "[weight]"
+    },
+    {
+      "type": 2,
+      "value": 60000
+    },
+    {
+      "type": 2,
+      "value": 60000
+    },
+    {
+      "type": 5,
+      "index": 306513,
+      "text": "[sight]"
+    },
+    {
+      "type": 2,
+      "value": 500
+    },
+    {
+      "type": 5,
+      "index": 306512,
+      "text": "[targeting time term]"
+    },
+    {
+      "type": 2,
+      "value": 500
+    },
+    {
+      "type": 5,
+      "index": 307438,
+      "text": "[targeting high level]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 555,
+      "text": "[warlike]"
+    },
+    {
+      "type": 2,
+      "value": 90
+    },
+    {
+      "type": 5,
+      "index": 306543,
+      "text": "[attack delay]"
+    },
+    {
+      "type": 2,
+      "value": 2000
+    },
+    {
+      "type": 5,
+      "index": 305265,
+      "text": "[stuckbonus on damage]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 6176,
+      "text": "[item]"
+    },
+    {
+      "type": 2,
+      "value": 1063
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 2,
+      "value": 1002
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 1047
+    },
+    {
+      "type": 2,
+      "value": 200
+    },
+    {
+      "type": 2,
+      "value": 3128
+    },
+    {
+      "type": 2,
+      "value": 7000
+    },
+    {
+      "type": 5,
+      "index": 6193,
+      "text": "[/item]"
+    },
+    {
+      "type": 5,
+      "index": 305266,
+      "text": "[common champion drop item]"
+    },
+    {
+      "type": 5,
+      "index": 305267,
+      "text": "[/common champion drop item]"
+    },
+    {
+      "type": 5,
+      "index": 306514,
+      "text": "[attack kind]"
+    },
+    {
+      "type": 4,
+      "value": 40.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 4,
+      "value": 5.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 110
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 20
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 20
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 4,
+      "value": 40.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 110
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 20
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 20
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 4,
+      "value": 15.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 4,
+      "value": 10.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 200
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 200
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 306515,
+      "text": "[/attack kind]"
+    },
+    {
+      "type": 5,
+      "index": 305421,
+      "text": "[die effect]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 23
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 305245,
+      "text": "[face image]"
+    },
+    {
+      "type": 7,
+      "index": 305246,
+      "text": "Monster/MonsterFace.img"
+    },
+    {
+      "type": 2,
+      "value": 45
+    },
+    {
+      "type": 5,
+      "index": 7465,
+      "text": "[waiting motion]"
+    },
+    {
+      "type": 7,
+      "index": 307466,
+      "text": "DLAni/Stay.ani"
+    },
+    {
+      "type": 5,
+      "index": 7467,
+      "text": "[move motion]"
+    },
+    {
+      "type": 7,
+      "index": 307467,
+      "text": "DLAni/MoveFoward.ani"
+    },
+    {
+      "type": 5,
+      "index": 7469,
+      "text": "[sit motion]"
+    },
+    {
+      "type": 7,
+      "index": 307468,
+      "text": "DLAni/Sit.ani"
+    },
+    {
+      "type": 5,
+      "index": 7471,
+      "text": "[damage motion 1]"
+    },
+    {
+      "type": 7,
+      "index": 307469,
+      "text": "DLAni/Damage1.ani"
+    },
+    {
+      "type": 5,
+      "index": 7473,
+      "text": "[damage motion 2]"
+    },
+    {
+      "type": 7,
+      "index": 307470,
+      "text": "DLAni/Damage2.ani"
+    },
+    {
+      "type": 5,
+      "index": 7475,
+      "text": "[down motion]"
+    },
+    {
+      "type": 7,
+      "index": 307471,
+      "text": "DLAni/Down.ani"
+    },
+    {
+      "type": 5,
+      "index": 7477,
+      "text": "[overturn motion]"
+    },
+    {
+      "type": 7,
+      "index": 307472,
+      "text": "DLAni/Overturn.ani"
+    },
+    {
+      "type": 5,
+      "index": 7511,
+      "text": "[attack motion]"
+    },
+    {
+      "type": 7,
+      "index": 307473,
+      "text": "DLAni/Attack.ani"
+    },
+    {
+      "type": 7,
+      "index": 307474,
+      "text": "DLAni/AttackHeart.ani"
+    },
+    {
+      "type": 7,
+      "index": 307475,
+      "text": "DLAni/AttackLong.ani"
+    },
+    {
+      "type": 7,
+      "index": 307476,
+      "text": "DLAni/AttackSpark.ani"
+    },
+    {
+      "type": 7,
+      "index": 307477,
+      "text": "DLAni/SummonCage.ani"
+    },
+    {
+      "type": 5,
+      "index": 7516,
+      "text": "[/attack motion]"
+    },
+    {
+      "type": 5,
+      "index": 7521,
+      "text": "[etc motion]"
+    },
+    {
+      "type": 7,
+      "index": 307478,
+      "text": "DLAni/MoveBack.ani"
+    },
+    {
+      "type": 7,
+      "index": 307479,
+      "text": "DLAni/Guard.ani"
+    },
+    {
+      "type": 7,
+      "index": 307453,
+      "text": "PassiveObject/Shield.ani"
+    },
+    {
+      "type": 7,
+      "index": 307454,
+      "text": "PassiveObject/Spark.ani"
+    },
+    {
+      "type": 7,
+      "index": 307480,
+      "text": "DLAni/EF_AttackHeart1.ani"
+    },
+    {
+      "type": 7,
+      "index": 307481,
+      "text": "DLAni/EF_AttackHeart2.ani"
+    },
+    {
+      "type": 5,
+      "index": 7647,
+      "text": "[/etc motion]"
+    },
+    {
+      "type": 5,
+      "index": 7652,
+      "text": "[attack info]"
+    },
+    {
+      "type": 7,
+      "index": 307457,
+      "text": "DLAttackInfo/Attack.atk"
+    },
+    {
+      "type": 7,
+      "index": 307458,
+      "text": "DLAttackInfo/AttackHeart.atk"
+    },
+    {
+      "type": 7,
+      "index": 307459,
+      "text": "DLAttackInfo/AttackLong.atk"
+    },
+    {
+      "type": 7,
+      "index": 307460,
+      "text": "DLAttackInfo/AttackSpark.atk"
+    },
+    {
+      "type": 7,
+      "index": 307461,
+      "text": "DLAttackInfo/SummonCage.atk"
+    },
+    {
+      "type": 5,
+      "index": 7657,
+      "text": "[/attack info]"
+    },
+    {
+      "type": 5,
+      "index": 11429,
+      "text": "[name]"
+    },
+    {
+      "type": 9,
+      "value": 7
+    },
+    {
+      "type": 10,
+      "index": 307482,
+      "text": "name_525"
+    }
+  ]
+}

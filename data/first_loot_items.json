@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "items": {
+    "3128": {
+      "item_id": 3128,
+      "name": "龙人之眼",
+      "source_name": "龍人之眼",
+      "kind": "material",
+      "icon_path": "res://assets/r3/items/dragon_eye_icon.png",
+      "field_path": "res://assets/r3/items/dragon_eye_field.png",
+      "source_refs": {
+        "pvf": "stackable/material/eye_dragonman.stk",
+        "item_list": "stackable/stackable.lst",
+        "icon": {
+          "npk": "sprite_item_stackable.NPK",
+          "img": "sprite/item/stackable/material.img",
+          "index": 32
+        },
+        "field": {
+          "npk": "sprite_item.NPK",
+          "img": "sprite/item/fieldimage.img",
+          "index": 23
+        },
+        "monster": "monster/draconian/mirkius.mob",
+        "monster_item_pair_raw": [
+          3128,
+          500
+        ],
+        "reference": "res://docs/r3_loot_source_reference.json"
+      }
+    }
+  },
+  "adapted_drop_rule": {
+    "encounter": "first_mirkius",
+    "trigger": "first_encounter_clear",
+    "item_id": 3128,
+    "count": 1,
+    "once_per_profile": true,
+    "rule_origin": "prototype_adaptation",
+    "note": "本原型首次清怪一次必掉1个；原Mirkius表3128,500原样记录，未解释为原版掉率。"
+  }
+}

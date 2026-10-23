@@ -1,0 +1,208 @@
+{
+  "path": "monster/draconian/dlani/attacklong.ani",
+  "bytes": 406,
+  "sha256_decoded_bytes": "91ee75ff7075c419e609130d5ab3e57f45dbd58112f6f642610bcfea13320698",
+  "crc": {
+    "expected": 2360158290,
+    "actual_seed_file_number": 2360158290,
+    "actual_seed_zero": 4034709653
+  },
+  "crc_matches": true,
+  "original_reference": "source_art/r4/lakius/pvf/monster/draconian/dlani/attacklong.ani.bin",
+  "decoded_reference": "source_art/r4/lakius/pvf/monster/draconian/dlani/attacklong.ani.json",
+  "decoded": {
+    "frames_count": 7,
+    "resources": [
+      "monster/draconian/draco_lakius.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 25,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -24,
+              -17,
+              -7,
+              55,
+              35,
+              109
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 26,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -31,
+              -17,
+              -6,
+              55,
+              35,
+              109
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 27,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -30,
+              -17,
+              -6,
+              55,
+              35,
+              109
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 28,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 15,
+            "xyz_size": [
+              52,
+              -10,
+              47,
+              150,
+              20,
+              20
+            ]
+          },
+          {
+            "type": 14,
+            "xyz_size": [
+              -11,
+              -17,
+              -3,
+              86,
+              35,
+              76
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 29,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              2,
+              -17,
+              -5,
+              84,
+              35,
+              79
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 30,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              3,
+              -17,
+              -4,
+              81,
+              35,
+              80
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 31,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -19,
+              -17,
+              -7,
+              73,
+              35,
+              99
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      }
+    ]
+  }
+}

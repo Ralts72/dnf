@@ -1,0 +1,338 @@
+{
+  "candidate": "R3/01",
+  "failed": [],
+  "note": "Native Texture2D imported images compared with ownedPNG decoded from bytes; originalNPK/ANI proof is separate.",
+  "pixels": 3154100,
+  "textures": [
+    {
+      "exact_rgba": true,
+      "size": "(159, 126)",
+      "texture": "res://assets/r3/draconian/src/033.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(130, 152)",
+      "texture": "res://assets/r3/draconian/src/016.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(136, 152)",
+      "texture": "res://assets/r3/draconian/src/017.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(136, 149)",
+      "texture": "res://assets/r3/draconian/src/018.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(143, 151)",
+      "texture": "res://assets/r3/draconian/src/019.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(135, 149)",
+      "texture": "res://assets/r3/draconian/src/020.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(133, 151)",
+      "texture": "res://assets/r3/draconian/src/021.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(132, 152)",
+      "texture": "res://assets/r3/draconian/src/022.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(167, 127)",
+      "texture": "res://assets/r3/draconian/src/000.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(174, 127)",
+      "texture": "res://assets/r3/draconian/src/001.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(255, 113)",
+      "texture": "res://assets/r3/draconian/src/002.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(212, 122)",
+      "texture": "res://assets/r3/draconian/src/003.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(140, 127)",
+      "texture": "res://assets/r3/draconian/src/012.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(139, 116)",
+      "texture": "res://assets/r3/draconian/src/011.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(122, 139)",
+      "texture": "res://assets/r3/draconian/src/013.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(142, 140)",
+      "texture": "res://assets/r3/draconian/src/014.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(192, 95)",
+      "texture": "res://assets/r3/draconian/src/015.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(135, 140)",
+      "texture": "res://assets/r3/draconian/src/004.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(141, 140)",
+      "texture": "res://assets/r3/draconian/src/005.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(144, 139)",
+      "texture": "res://assets/r3/draconian/src/006.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(149, 139)",
+      "texture": "res://assets/r3/draconian/src/007.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(140, 139)",
+      "texture": "res://assets/r3/draconian/src/008.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(136, 139)",
+      "texture": "res://assets/r3/draconian/src/009.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(137, 140)",
+      "texture": "res://assets/r3/draconian/src/010.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(153, 89)",
+      "texture": "res://assets/r3/draconian/src/032.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(162, 124)",
+      "texture": "res://assets/r3/draconian/src/025.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(167, 127)",
+      "texture": "res://assets/r3/draconian/src/026.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(169, 127)",
+      "texture": "res://assets/r3/draconian/src/027.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(306, 92)",
+      "texture": "res://assets/r3/draconian/src/028.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(308, 92)",
+      "texture": "res://assets/r3/draconian/src/029.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(303, 92)",
+      "texture": "res://assets/r3/draconian/src/030.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(183, 113)",
+      "texture": "res://assets/r3/draconian/src/031.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/stay/000.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/move/000.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/move/001.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/move/002.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/move/003.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/move/004.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/move/005.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/move/006.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/attack1/000.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/attack1/001.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/attack1/002.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/attack1/003.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/damage1/000.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/damage2/000.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/down/000.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/down/001.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/down/002.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/down/003.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/down/004.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/moveback/000.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/moveback/001.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/moveback/002.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/moveback/003.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/moveback/004.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/moveback/005.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/moveback/006.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/sit/000.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/attacklong/000.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/attacklong/001.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/attacklong/002.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/attacklong/003.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/attacklong/004.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/attacklong/005.png"
+    },
+    {
+      "exact_rgba": true,
+      "size": "(362, 202)",
+      "texture": "res://assets/r3/draconian/frames/attacklong/006.png"
+    }
+  ]
+}

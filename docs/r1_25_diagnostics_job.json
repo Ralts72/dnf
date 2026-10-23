@@ -1,0 +1,23 @@
+{
+  "check_script": "res://tools/r1/frame_diagnostics_checks.gd",
+  "elapsed_seconds": 0.831344,
+  "qa_source_sha256": "048dde91f0a098409cb037254c8cce1e2df51b9e6a753070cd57f65845b3e75a",
+  "render_cases_completed": 0,
+  "result": {
+    "checks": 25,
+    "exports": [
+      {
+        "path": "user://diagnostics/frame_trace_341586234.json",
+        "rows": 2048.0,
+        "sha256": "c083005a50b5ca17df40494fa85d8b18d228b60b343a778e7d8492077079aca4"
+      },
+      {
+        "path": "user://diagnostics/frame_trace_342390727.json",
+        "rows": 2048.0,
+        "sha256": "af743f914b88c5b86251c6676d848c65491fe0f68975101b111c03d2e0e37237"
+      }
+    ],
+    "failed": []
+  },
+  "status": "complete"
+}

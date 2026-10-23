@@ -1,0 +1,127 @@
+{
+  "cycle_ms": 800,
+  "qa_sha256": "2fdc42e450ca23ae7f5e83237ced8f9a9b7e3b1e763bc6c8da44e1fc230ef596",
+  "records": [
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_00.png",
+      "phase": 0,
+      "sha256": "7845abe1246a63a139bec45824ea1b42eee2922d5bdccf904811f9e171977abb"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_01.png",
+      "phase": 1,
+      "sha256": "7b01e3182935e199072cd23cf5a0419bbb27b111a8061243b5e653c763b8a4c2"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_02.png",
+      "phase": 2,
+      "sha256": "a6060eb538a3e536827501ca372ea2ac692abba8b1d33ba6beda05e182747c1e"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_03.png",
+      "phase": 3,
+      "sha256": "62be16e6369c1ed4fba873307641e489a20a96e059bb8b2f3dcad068ebc66584"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_04.png",
+      "phase": 4,
+      "sha256": "a4d8436b2bee50f8ce9b1586b3c338adad4b5102b31a25439736686ed8393d3c"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_05.png",
+      "phase": 5,
+      "sha256": "e127baac1fb13fca4fb5ee67b9fb62623ce281785a55f95d2f391082c0bffaf2"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_06.png",
+      "phase": 6,
+      "sha256": "ba22e1498d496fdc7d717de6278e449d6b5494b840cd6e3698b384dd5bc24e31"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_07.png",
+      "phase": 7,
+      "sha256": "04f502b7a27ac64d2bdab7832ff6836abcadc0f567b5543f5c96cd52361513c6"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_08.png",
+      "phase": 8,
+      "sha256": "c626cb7d8f71f0b15559f16c79d88608672c13acf9b72d44390b4b5f2913efb9"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_09.png",
+      "phase": 9,
+      "sha256": "997d32b2c6e65def596bb4527a068a6dc6b408087be69ae4fd33cb42dd349070"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_10.png",
+      "phase": 10,
+      "sha256": "41bbfa2a12d93527ed39a850de435fb91a19304f7c3ecc778b113bbbc1f3e42c"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_11.png",
+      "phase": 11,
+      "sha256": "8452f5b88fefb958a18e6d6f1bc00261a707f1923c9b4410f24e4f11e7817df3"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_12.png",
+      "phase": 12,
+      "sha256": "ab306e7c0e0f4e831c86fbe4c13d88a9edc3b5f9213022af76e3c9c5d2def5dd"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_13.png",
+      "phase": 13,
+      "sha256": "fe324e02cf9105f12520bc708ca72a7715a1b3421d17fbe184c29dfa84cd38f2"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_14.png",
+      "phase": 14,
+      "sha256": "b4aba0f67a96689741dd61c3b4c909549578155ed2cbfee1f178876c607bb53e"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_15.png",
+      "phase": 15,
+      "sha256": "a2b1f4c7343b032aa530192eff63628d4df254b3e0d04653077936d37d0a2362"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_16.png",
+      "phase": 16,
+      "sha256": "fc334834e0dd486769b98288345363c3375e152ce4d7664b75b84c4df2b92fd9"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_17.png",
+      "phase": 17,
+      "sha256": "6ccbc59c0307339ee86516b27b185fe562f1552ed1b9b9a0434fff38f56efc2b"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_18.png",
+      "phase": 18,
+      "sha256": "d09ff569d6fd4ffce28ccce898524d07b6cefb4eef392a3277e9fd2b815eade2"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_19.png",
+      "phase": 19,
+      "sha256": "79cbdc6590f7e31f828dafb82b025b54416c5ff0e75c3c3df600733aec7c8005"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_20.png",
+      "phase": 20,
+      "sha256": "ffd6ea61c910af3553359f1ad5908f48e67838ccc918932b821453f07ab04053"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_21.png",
+      "phase": 21,
+      "sha256": "e68899c1f550269f97df763a5ee292b582df789f33f3e59466d0c4dc757707e1"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_22.png",
+      "phase": 22,
+      "sha256": "48bee6a983cf3e55a788ebfc610d48b38dce7fae450b91f74e08710e8d1a60f2"
+    },
+    {
+      "path": "res://source_art/r1/experiments/dash_cycle_26/comparison/pair_23.png",
+      "phase": 23,
+      "sha256": "25355d3514a3c4d32a36c667df636b69d1834ce29d310916feb134c8d3a1fbe6"
+    }
+  ],
+  "size": "(1280, 488)"
+}

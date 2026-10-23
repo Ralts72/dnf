@@ -1,0 +1,180 @@
+{
+  "candidate": "R1/11",
+  "checks": [
+    {
+      "check": "two_loaded_native_pier_slabs",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "piers_have_depth_below_water",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "piers_connected_to_near_shore",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "diagonal_shore_replaces_rectangular_return",
+      "details": {
+        "diagonal_cap_meshes": 9
+      },
+      "pass": true
+    },
+    {
+      "check": "shore_has_source_diagonal_depth",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "painted_landward_wall_keeps_alpha_cutout",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "masonry_materials_use_nearest_sampling",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "lamp_source_projection_FarSmall0",
+      "details": {
+        "error": 0.00006103515625,
+        "foot": "(495.0, 141.0)",
+        "top": "(495.0, 98.99994)"
+      },
+      "pass": true
+    },
+    {
+      "check": "lamp_source_projection_FarSmall1",
+      "details": {
+        "error": 0.00006103515625,
+        "foot": "(564.0, 141.0)",
+        "top": "(564.0, 98.99994)"
+      },
+      "pass": true
+    },
+    {
+      "check": "lamp_source_projection_FarSmall2",
+      "details": {
+        "error": 0.00006103515625,
+        "foot": "(592.0, 148.0001)",
+        "top": "(592.0, 110.0001)"
+      },
+      "pass": true
+    },
+    {
+      "check": "lamp_source_projection_Middle0",
+      "details": {
+        "error": 0.0000152587890625,
+        "foot": "(509.0, 188.0)",
+        "top": "(509.0, 99.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "lamp_source_projection_Middle1",
+      "details": {
+        "error": 0.0000152587890625,
+        "foot": "(546.0, 178.0)",
+        "top": "(546.0, 99.99998)"
+      },
+      "pass": true
+    },
+    {
+      "check": "lamp_source_projection_Near",
+      "details": {
+        "error": 0.00006103515625,
+        "foot": "(636.0, 253.0001)",
+        "top": "(636.0, 117.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "loaded_ground_covers_retained_walk_strips",
+      "details": {
+        "grid_pixels": 2,
+        "points": 16119,
+        "triangles": 4,
+        "uncovered": []
+      },
+      "pass": true
+    },
+    {
+      "check": "water_extends_under_near_channel",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "rendered_pier_over_water_Far",
+      "details": {
+        "distance": 0.68212753534317,
+        "pier": "(0.8078, 0.8, 0.8039, 1.0)",
+        "point": "(570.0, 146.0)",
+        "water": "(0.1961, 0.5333, 0.6627, 1.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "rendered_pier_over_water_Middle",
+      "details": {
+        "distance": 0.840662121772766,
+        "pier": "(0.9373, 0.9059, 0.8784, 1.0)",
+        "point": "(610.0, 181.0)",
+        "water": "(0.2039, 0.549, 0.6745, 1.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "original_ship_timing_retained_westnearship",
+      "details": {
+        "frames": 8
+      },
+      "pass": true
+    },
+    {
+      "check": "original_ship_timing_retained_westmmidship",
+      "details": {
+        "frames": 4
+      },
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "glb_sha256": "74c2b2497b41112c691fcb8a8abe991894bee8314a9a38d2cca0844ccf9cf3c9",
+  "ground_grid_points": 16119,
+  "ground_grid_uncovered": 0,
+  "lamp_projection": [
+    {
+      "name": "FarSmall0",
+      "pixel_error": 0.00006103515625
+    },
+    {
+      "name": "FarSmall1",
+      "pixel_error": 0.00006103515625
+    },
+    {
+      "name": "FarSmall2",
+      "pixel_error": 0.00006103515625
+    },
+    {
+      "name": "Middle0",
+      "pixel_error": 0.0000152587890625
+    },
+    {
+      "name": "Middle1",
+      "pixel_error": 0.0000152587890625
+    },
+    {
+      "name": "Near",
+      "pixel_error": 0.00006103515625
+    }
+  ],
+  "notes": [
+    "Native imported triangles and rendered pier/water comparisons.",
+    "2px walk-grid coverage does not assert original game geometry or add far-pier navigation."
+  ],
+  "source_script_sha256": "7a230245b15ae74e1a8db8c9d29528a9d56315288e49a8ba76a6e645c4552d96"
+}

@@ -1,0 +1,32 @@
+{
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "build": "R1   /   18",
+  "architecture_meshes": 302,
+  "hierarchy_complete": true,
+  "autoloads": [
+    {
+      "name": "_mcp_game_helper",
+      "path": "res://addons/godot_ai/runtime/game_helper.gd",
+      "singleton": true
+    },
+    {
+      "name": "PortMusic",
+      "path": "res://scripts/port_music.gd",
+      "singleton": true
+    },
+    {
+      "name": "PortAmbience",
+      "path": "res://scripts/port_ambience.gd",
+      "singleton": true
+    }
+  ],
+  "preserved_scenes": [
+    "res://work/r1_18_editor_r0_before_reload.tscn",
+    "res://work/r1_18_editor_r1_before_reload.tscn"
+  ],
+  "note": "Only scene/script scan required; model and active texture sources are unchanged.",
+  "preserved_scene_sha256": {
+    "res://work/r1_18_editor_r0_before_reload.tscn": "017abb1056893b84c1abf13b81e0cc306a19d059f1d533a9d7a7f4661d25c7af",
+    "res://work/r1_18_editor_r1_before_reload.tscn": "2103006b51e553b0d7c20f813c55cd11cc413f9668dac270e3cdb6794d5fba6f"
+  }
+}

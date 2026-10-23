@@ -1,0 +1,79 @@
+{
+  "candidate": "R1/05",
+  "checks": [
+    {
+      "check": "actual_menu_select_attack3_while_unpaused",
+      "pass": true
+    },
+    {
+      "check": "menu_input_does_not_walk_or_attack_and_recovers_after_close",
+      "details": {
+        "movement_resumed_after_close": true,
+        "while_open": {
+          "move_down_held": true,
+          "next_attack": "attack1",
+          "one_shot": false,
+          "player_blocked": true,
+          "player_paused": false,
+          "popup_visible": true,
+          "position_delta": 0.0
+        }
+      },
+      "pass": true
+    },
+    {
+      "check": "actual_menu_select_jump",
+      "pass": true
+    },
+    {
+      "check": "actual_f7_turn_preserves_pose",
+      "pass": true
+    },
+    {
+      "check": "actual_pointer_drag_scrubs_jump",
+      "details": {
+        "duration_ms": 10000.0,
+        "frame": 14.0,
+        "slider_value": 14.0
+      },
+      "pass": true
+    },
+    {
+      "check": "actual_slider_press_pauses_without_pointer_motion",
+      "details": {
+        "elapsed_ms": 0.0,
+        "frame": 7,
+        "paused_on_press": true,
+        "pointer_motion_sent": false
+      },
+      "pass": true
+    },
+    {
+      "check": "actual_x_three_source_attacks_and_return_to_idle",
+      "details": {
+        "actions": [
+          {
+            "action": "attack1",
+            "next_attack": "attack2",
+            "returned_to_idle": true
+          },
+          {
+            "action": "attack2",
+            "next_attack": "attack3",
+            "returned_to_idle": true
+          },
+          {
+            "action": "attack3",
+            "next_attack": "attack1",
+            "returned_to_idle": true
+          }
+        ]
+      },
+      "pass": true
+    }
+  ],
+  "failed": 0,
+  "method": "Actual MCP input_mouse and input_key events through native Godot UI and gameplay input routing",
+  "source_actor_sha256": "efc010adb1f38b9554286820026cbf447da6069fb00eb15c4a3a056661606791",
+  "source_controls_sha256": "24b2783ed98632369d19fd765590e8f9ba59875cc6fc5a15f001e7abe8b12c91"
+}

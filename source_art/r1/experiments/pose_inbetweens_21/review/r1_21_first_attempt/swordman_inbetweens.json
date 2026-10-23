@@ -1,0 +1,192 @@
+{
+  "schema": 1,
+  "source_animation_data": "res://data/swordman_r1.json",
+  "source_animation_sha256": "1c4b47cf4d2ce09a9f65a506f4f906d495f3088e2dd5d2f8e487bdb254ae4e18",
+  "canvas_size": [
+    320,
+    224
+  ],
+  "foot_anchor": [
+    133,
+    167
+  ],
+  "subframes_per_source_frame": 3,
+  "target_image_rate": 30,
+  "actions": {
+    "move": [
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_00.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_01.png",
+        "current_png_sha256": "9f498877e7af78e62c45565c88c573e24cd0f1d4879d61c431ba225ebc915cf1",
+        "next_png_sha256": "a0c751aff7f1a1445aecba6b7c10bc55cd71802f90975e011730a76a458c03a6",
+        "flow_texture": "res://assets/r1/motion/move_00.res",
+        "raw_flow": "res://source_art/r1/motion/move_00.flow16",
+        "raw_flow_sha256": "f07cad1aa0125d02109ff65fba1be31e25e78f25984e78a665138bbea5480722",
+        "raw_flow_bytes": 573440
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_01.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_02.png",
+        "current_png_sha256": "a0c751aff7f1a1445aecba6b7c10bc55cd71802f90975e011730a76a458c03a6",
+        "next_png_sha256": "9a4e13ae3d4c5cdf38a7511bd54f593c5d15e31164889a08a82b6adb0879541f",
+        "flow_texture": "res://assets/r1/motion/move_01.res",
+        "raw_flow": "res://source_art/r1/motion/move_01.flow16",
+        "raw_flow_sha256": "ef68f540043f300473b8963cd8b9f083c453d57d695c2cefbef7d6ba3b8e0ecc",
+        "raw_flow_bytes": 573440
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_02.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_03.png",
+        "current_png_sha256": "9a4e13ae3d4c5cdf38a7511bd54f593c5d15e31164889a08a82b6adb0879541f",
+        "next_png_sha256": "3cede234a82618bf224170c08a33549426e7c8c39107fd4ac675c3ec299faf2a",
+        "flow_texture": "res://assets/r1/motion/move_02.res",
+        "raw_flow": "res://source_art/r1/motion/move_02.flow16",
+        "raw_flow_sha256": "109f02308beff204c9f4f356d2e05e81c0fe15600470f8f114104a5baac0410b",
+        "raw_flow_bytes": 573440
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_03.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_04.png",
+        "current_png_sha256": "3cede234a82618bf224170c08a33549426e7c8c39107fd4ac675c3ec299faf2a",
+        "next_png_sha256": "4feb392be270bced1394f5b7fa3837759f480a57b50bd6f4cba6b3e4a01e1bb1",
+        "flow_texture": "res://assets/r1/motion/move_03.res",
+        "raw_flow": "res://source_art/r1/motion/move_03.flow16",
+        "raw_flow_sha256": "cccf4a5e83bfb634e9d04db27c7d29e7177fbe58db2a1651b9c1469b6dde5be8",
+        "raw_flow_bytes": 573440
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_04.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_05.png",
+        "current_png_sha256": "4feb392be270bced1394f5b7fa3837759f480a57b50bd6f4cba6b3e4a01e1bb1",
+        "next_png_sha256": "d49ba850eea751ba943637666d6bc509ae52f1ebaf74b9eeaf9d07471386f528",
+        "flow_texture": "res://assets/r1/motion/move_04.res",
+        "raw_flow": "res://source_art/r1/motion/move_04.flow16",
+        "raw_flow_sha256": "51d3fa9ff1a79db305482dbefc29446b6ebe57287b564c050b2c5158178535bb",
+        "raw_flow_bytes": 573440
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_05.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_06.png",
+        "current_png_sha256": "d49ba850eea751ba943637666d6bc509ae52f1ebaf74b9eeaf9d07471386f528",
+        "next_png_sha256": "561281313c62cce6d91c4a21b5841ffe4fdfea4a01dfc094028e92b327276181",
+        "flow_texture": "res://assets/r1/motion/move_05.res",
+        "raw_flow": "res://source_art/r1/motion/move_05.flow16",
+        "raw_flow_sha256": "ce4d099fe00173c9c697323d5e84da9866127beb5ba810ec74edfa1440bf049a",
+        "raw_flow_bytes": 573440
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_06.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_07.png",
+        "current_png_sha256": "561281313c62cce6d91c4a21b5841ffe4fdfea4a01dfc094028e92b327276181",
+        "next_png_sha256": "cff0f09d5110f502cdfd350a5506ef597aae43405c07976706d4348cd8ee193b",
+        "flow_texture": "res://assets/r1/motion/move_06.res",
+        "raw_flow": "res://source_art/r1/motion/move_06.flow16",
+        "raw_flow_sha256": "ea8c639764d28024dd66a0ee3dbc12ced89db5950b345c4a87290c91581a078a",
+        "raw_flow_bytes": 573440
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/move_07.png",
+        "next_texture": "res://assets/r1/actors/swordman/move_00.png",
+        "current_png_sha256": "cff0f09d5110f502cdfd350a5506ef597aae43405c07976706d4348cd8ee193b",
+        "next_png_sha256": "9f498877e7af78e62c45565c88c573e24cd0f1d4879d61c431ba225ebc915cf1",
+        "flow_texture": "res://assets/r1/motion/move_07.res",
+        "raw_flow": "res://source_art/r1/motion/move_07.flow16",
+        "raw_flow_sha256": "42e95460bdd856c263da73e22d0846494918b11565be14673140cc417643bbd0",
+        "raw_flow_bytes": 573440
+      }
+    ],
+    "dash": [
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_00.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_01.png",
+        "current_png_sha256": "27ed2471651a972383ecc158fff46b4e1dae496ff2f7a946c0fd75c5a7c0c392",
+        "next_png_sha256": "337e5ca16b046e73b192fa078d3c4b435601e3364612b9930458151e122d9b6c",
+        "flow_texture": "res://assets/r1/motion/dash_00.res",
+        "raw_flow": "res://source_art/r1/motion/dash_00.flow16",
+        "raw_flow_sha256": "0879b2a8386d733e82f054340bf898b5a4a8e3b32f5348794afdd6a241086b7b",
+        "raw_flow_bytes": 573440
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_01.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_02.png",
+        "current_png_sha256": "337e5ca16b046e73b192fa078d3c4b435601e3364612b9930458151e122d9b6c",
+        "next_png_sha256": "cd17f1ada94d6eb3441aacd9fea20c2354841a319862f340a0531557205c9e19",
+        "flow_texture": "res://assets/r1/motion/dash_01.res",
+        "raw_flow": "res://source_art/r1/motion/dash_01.flow16",
+        "raw_flow_sha256": "de579f99afe5da9ca846a5da908ad2f1b6666aa7953c7f1f899601ecbfa9e087",
+        "raw_flow_bytes": 573440
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_02.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_03.png",
+        "current_png_sha256": "cd17f1ada94d6eb3441aacd9fea20c2354841a319862f340a0531557205c9e19",
+        "next_png_sha256": "208fb867f881b6daea134e343e1f7d41af37c2005664a9e5dff255ee6f691ef9",
+        "flow_texture": "res://assets/r1/motion/dash_02.res",
+        "raw_flow": "res://source_art/r1/motion/dash_02.flow16",
+        "raw_flow_sha256": "9cdc9cd5422e68190b88845cd0f6b19f5e186cc19cbfa551e15224bfc431e3cf",
+        "raw_flow_bytes": 573440
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_03.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_04.png",
+        "current_png_sha256": "208fb867f881b6daea134e343e1f7d41af37c2005664a9e5dff255ee6f691ef9",
+        "next_png_sha256": "661636d8da28b24480280864bd98f16db03f0fbbc363a352228a040070059302",
+        "flow_texture": "res://assets/r1/motion/dash_03.res",
+        "raw_flow": "res://source_art/r1/motion/dash_03.flow16",
+        "raw_flow_sha256": "c5c2170a2c621f5f667f3f6e07a64106d0d35c0c98bee2acc4451c77b700aabb",
+        "raw_flow_bytes": 573440
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_04.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_05.png",
+        "current_png_sha256": "661636d8da28b24480280864bd98f16db03f0fbbc363a352228a040070059302",
+        "next_png_sha256": "687d93e9547099cc9473adda59e2aaba9e58735f7029a9bd06d3d297f75bf456",
+        "flow_texture": "res://assets/r1/motion/dash_04.res",
+        "raw_flow": "res://source_art/r1/motion/dash_04.flow16",
+        "raw_flow_sha256": "2cd6ba956c4541a05da1b2994e678a03fa554611ecde0a93f50e80c6ed2652ce",
+        "raw_flow_bytes": 573440
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_05.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_06.png",
+        "current_png_sha256": "687d93e9547099cc9473adda59e2aaba9e58735f7029a9bd06d3d297f75bf456",
+        "next_png_sha256": "781fb85b34ae92289b7e0175848816f3ea9da87359396cbe9c711160d045da59",
+        "flow_texture": "res://assets/r1/motion/dash_05.res",
+        "raw_flow": "res://source_art/r1/motion/dash_05.flow16",
+        "raw_flow_sha256": "a3182593163383bbe926cc6d954f8751c2604d82a8879d00052ded6d120dbd4f",
+        "raw_flow_bytes": 573440
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_06.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_07.png",
+        "current_png_sha256": "781fb85b34ae92289b7e0175848816f3ea9da87359396cbe9c711160d045da59",
+        "next_png_sha256": "1104468119ad68347d49b9fd920f4c2bd069bc5b522e709b2838b2e5a31e3f52",
+        "flow_texture": "res://assets/r1/motion/dash_06.res",
+        "raw_flow": "res://source_art/r1/motion/dash_06.flow16",
+        "raw_flow_sha256": "e19a66267263b484ad68c3e5155eb9fedbcd65d4399512e3c11407f3f16e4f65",
+        "raw_flow_bytes": 573440
+      },
+      {
+        "current_texture": "res://assets/r1/actors/swordman/dash_07.png",
+        "next_texture": "res://assets/r1/actors/swordman/dash_00.png",
+        "current_png_sha256": "1104468119ad68347d49b9fd920f4c2bd069bc5b522e709b2838b2e5a31e3f52",
+        "next_png_sha256": "27ed2471651a972383ecc158fff46b4e1dae496ff2f7a946c0fd75c5a7c0c392",
+        "flow_texture": "res://assets/r1/motion/dash_07.res",
+        "raw_flow": "res://source_art/r1/motion/dash_07.flow16",
+        "raw_flow_sha256": "990295e9ffc51c91acea6986d7337145b610f3d21636abe6a0b3c33408f67630",
+        "raw_flow_bytes": 573440
+      }
+    ]
+  },
+  "numeric_channels": [
+    "forward_x",
+    "forward_y",
+    "backward_x",
+    "backward_y"
+  ],
+  "notes": [
+    "Source PNGs and ANI timings are unchanged. These fields estimate correspondence, not recovered original poses.",
+    "Only move and dash use motion-compensated intermediate samples. Their cycles remain 800 ms.",
+    "Runtime chooses nearest sampled source colors rather than cross-fading two silhouettes."
+  ]
+}

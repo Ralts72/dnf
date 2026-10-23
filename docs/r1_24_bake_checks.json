@@ -1,0 +1,224 @@
+{
+  "all_png_roundtrips_exact": true,
+  "endpoint_full_rgba_exact": true,
+  "qa_source_sha256": "f73e864f05b372dcac5c73593b9ba3e9f203ac9ed136c20ea78f27dadd1b1899",
+  "records": [
+    {
+      "frame": 0,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_00_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "3757efa06bbf61dcb88eb17579a9808883df44f8cd6897356f3377a5990b0343",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 0,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_00_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "28514b29b59da82345e9930b8b03a746a23d8b210b7e3934ef04c3b76b7d49f4",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 0,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_00_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "3c7df4bd2267ea42e9a40c2d08360d9d2cc140974a00337d22319e087e392631",
+      "size": "(320, 224)",
+      "subframe": 2
+    },
+    {
+      "frame": 1,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_01_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "7453d79a9a984b0b7848c5ba5ab588e3cb3421297e1b9008467f23adc3b1a78e",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 1,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_01_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "b3079cddda2d0f7f9166b91a93f3fc4388c81c0d6ee7b1b031815c55fa0dd926",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 1,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_01_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "c458763280ce2393e17aa033c4c55269074ff9ffbc0f38818c89e452b93d3952",
+      "size": "(320, 224)",
+      "subframe": 2
+    },
+    {
+      "frame": 2,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_02_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "e06088ef247af93c389b4b20d705d1e76069b258f5a41ac950278f7e9cc1c29e",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 2,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_02_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "ffa2864bdfb9ac322e6807ec13c45adc47063f050971ace6107b0a5f2b3711d9",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 2,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_02_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "236fa545e912236a8bfe87d17594b138abf804fb2602b24b526d862797cfa775",
+      "size": "(320, 224)",
+      "subframe": 2
+    },
+    {
+      "frame": 3,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_03_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "e938a6623b9a6180a0d1014e8d680525a42a5b8d2a1dcefcb46858d147cd8762",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 3,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_03_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "67b8e0b73a00403ea3e7c5479e412f93063ef4a32865d78395f77bf2d9818403",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 3,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_03_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "609bb613a5ece89075a238d1ca10b111ff0685304fdb1ead9cbe106ea180940d",
+      "size": "(320, 224)",
+      "subframe": 2
+    },
+    {
+      "frame": 4,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_04_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "a272a923ea4c84ca9ca249d5ecc7d53eee2d87a0338f47db0eab36bc566cf868",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 4,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_04_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "c90020bc2676cb100d13e505a201b67256c597c243a772d86eff565a0c505632",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 4,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_04_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "11183a27f5c54ddb0ba090fd101ef14f1d136a786ee7a61cd8b001d363675bfa",
+      "size": "(320, 224)",
+      "subframe": 2
+    },
+    {
+      "frame": 5,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_05_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "142da55f6a1111ba8206be81e4ecd887246a557fa2caf983c7529b01f22d5fc0",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 5,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_05_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "f148b287c599bd7273a6156434a0eaea8dbfbd20a5574516d407a5586fef7969",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 5,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_05_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "f94b67067cb7502d19f6277a404ac4f5ff2f38974396c7b9cad981ffb565127d",
+      "size": "(320, 224)",
+      "subframe": 2
+    },
+    {
+      "frame": 6,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_06_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "550bf4a87e887324f303741db026d8e1311bd0378de9fe541acdbfc9691beb18",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 6,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_06_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "41f5d8c78f572179fb2fdbbd57c9778e42f0457845b250286307a7bbd9fe2623",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 6,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_06_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "5ce4697cf8b29eb47631156f78b06c3c38ff6ac5b570c1aec1e532273d34ec75",
+      "size": "(320, 224)",
+      "subframe": 2
+    },
+    {
+      "frame": 7,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_07_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "b8e7fda3be3907cde747c063aee66022d5e95a097a02cb11c3c18bf5f1b7e129",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 7,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_07_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "7d116e5ea18379060149df896a530917c91de4de0d225cc3b616284736230e99",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 7,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/walk_cycle_24/baked/move_07_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "c28d933543cd489f891c4246079a433310762ad8cf49a27ebb2faf1c565c7a08",
+      "size": "(320, 224)",
+      "subframe": 2
+    }
+  ],
+  "study": "R1/24 native transparent bake"
+}

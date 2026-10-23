@@ -1,0 +1,1658 @@
+[
+  {
+    "frame": 0,
+    "duration_ms": 100,
+    "layers": [
+      {
+        "slot": 0,
+        "name": "weapon_back",
+        "texture": "res://assets/r0/swordman/weapon_back/105.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 1,
+        "name": "body",
+        "texture": "res://assets/r0/swordman/body/105.png",
+        "offset": [
+          -24,
+          -95
+        ],
+        "size": [
+          71,
+          99
+        ],
+        "opaque": 2418,
+        "canvas_bbox": [
+          109,
+          72,
+          180,
+          171
+        ],
+        "centroid": [
+          143.12034739454094,
+          113.4251447477254
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "pants_back",
+        "texture": "res://assets/r0/swordman/pants_back/105.png",
+        "offset": [
+          -9,
+          -46
+        ],
+        "size": [
+          30,
+          29
+        ],
+        "opaque": 142,
+        "canvas_bbox": [
+          124,
+          121,
+          154,
+          150
+        ],
+        "centroid": [
+          142.7887323943662,
+          136.67605633802816
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "shoes_back",
+        "texture": "res://assets/r0/swordman/shoes_back/105.png",
+        "offset": [
+          -18,
+          -23
+        ],
+        "size": [
+          14,
+          20
+        ],
+        "opaque": 141,
+        "canvas_bbox": [
+          115,
+          144,
+          129,
+          164
+        ],
+        "centroid": [
+          121.67021276595744,
+          151.3368794326241
+        ],
+        "top4_ankle": [
+          123.04838709677419,
+          146.5
+        ]
+      },
+      {
+        "slot": 4,
+        "name": "pants",
+        "texture": "res://assets/r0/swordman/pants/105.png",
+        "offset": [
+          -7,
+          -65
+        ],
+        "size": [
+          30,
+          57
+        ],
+        "opaque": 826,
+        "canvas_bbox": [
+          126,
+          102,
+          156,
+          159
+        ],
+        "centroid": [
+          139.9915254237288,
+          127.7953995157385
+        ]
+      },
+      {
+        "slot": 5,
+        "name": "shoes",
+        "texture": "res://assets/r0/swordman/shoes/105.png",
+        "offset": [
+          -14,
+          -15
+        ],
+        "size": [
+          19,
+          20
+        ],
+        "opaque": 214,
+        "canvas_bbox": [
+          119,
+          152,
+          138,
+          172
+        ],
+        "centroid": [
+          128.84112149532712,
+          162.99532710280374
+        ],
+        "top4_ankle": [
+          128.26470588235293,
+          154.6764705882353
+        ]
+      },
+      {
+        "slot": 6,
+        "name": "coat",
+        "texture": "res://assets/r0/swordman/coat/105.png",
+        "offset": [
+          6,
+          -94
+        ],
+        "size": [
+          30,
+          29
+        ],
+        "opaque": 379,
+        "canvas_bbox": [
+          139,
+          73,
+          169,
+          102
+        ],
+        "centroid": [
+          151.84300791556728,
+          88.5712401055409
+        ]
+      },
+      {
+        "slot": 7,
+        "name": "hair",
+        "texture": "res://assets/r0/swordman/hair/105.png",
+        "offset": [
+          21,
+          -101
+        ],
+        "size": [
+          17,
+          17
+        ],
+        "opaque": 165,
+        "canvas_bbox": [
+          154,
+          66,
+          171,
+          83
+        ],
+        "centroid": [
+          163.6757575757576,
+          74.85151515151514
+        ]
+      },
+      {
+        "slot": 8,
+        "name": "weapon_front",
+        "texture": "res://assets/r0/swordman/weapon_front/105.png",
+        "offset": [
+          -97,
+          -63
+        ],
+        "size": [
+          81,
+          67
+        ],
+        "opaque": 941,
+        "canvas_bbox": [
+          36,
+          104,
+          117,
+          171
+        ],
+        "centroid": [
+          78.26195536663124,
+          137.21838469713072
+        ]
+      }
+    ]
+  },
+  {
+    "frame": 1,
+    "duration_ms": 100,
+    "layers": [
+      {
+        "slot": 0,
+        "name": "weapon_back",
+        "texture": "res://assets/r0/swordman/weapon_back/106.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 1,
+        "name": "body",
+        "texture": "res://assets/r0/swordman/body/106.png",
+        "offset": [
+          -39,
+          -97
+        ],
+        "size": [
+          80,
+          92
+        ],
+        "opaque": 2600,
+        "canvas_bbox": [
+          94,
+          70,
+          174,
+          162
+        ],
+        "centroid": [
+          141.1153846153846,
+          112.3876923076923
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "pants_back",
+        "texture": "res://assets/r0/swordman/pants_back/106.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 3,
+        "name": "shoes_back",
+        "texture": "res://assets/r0/swordman/shoes_back/106.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 4,
+        "name": "pants",
+        "texture": "res://assets/r0/swordman/pants/106.png",
+        "offset": [
+          -32,
+          -67
+        ],
+        "size": [
+          69,
+          48
+        ],
+        "opaque": 1290,
+        "canvas_bbox": [
+          101,
+          100,
+          170,
+          148
+        ],
+        "centroid": [
+          140.16124031007752,
+          123.1968992248062
+        ]
+      },
+      {
+        "slot": 5,
+        "name": "shoes",
+        "texture": "res://assets/r0/swordman/shoes/106.png",
+        "offset": [
+          -41,
+          -28
+        ],
+        "size": [
+          68,
+          23
+        ],
+        "opaque": 423,
+        "canvas_bbox": [
+          92,
+          139,
+          160,
+          162
+        ],
+        "centroid": [
+          123.95626477541371,
+          151.6418439716312
+        ],
+        "top4_ankle": [
+          109.32608695652173,
+          141.80434782608697
+        ]
+      },
+      {
+        "slot": 6,
+        "name": "coat",
+        "texture": "res://assets/r0/swordman/coat/106.png",
+        "offset": [
+          8,
+          -95
+        ],
+        "size": [
+          30,
+          28
+        ],
+        "opaque": 379,
+        "canvas_bbox": [
+          141,
+          72,
+          171,
+          100
+        ],
+        "centroid": [
+          153.71899736147756,
+          86.62928759894459
+        ]
+      },
+      {
+        "slot": 7,
+        "name": "hair",
+        "texture": "res://assets/r0/swordman/hair/106.png",
+        "offset": [
+          23,
+          -101
+        ],
+        "size": [
+          17,
+          15
+        ],
+        "opaque": 154,
+        "canvas_bbox": [
+          156,
+          66,
+          173,
+          81
+        ],
+        "centroid": [
+          165.51298701298703,
+          73.27272727272727
+        ]
+      },
+      {
+        "slot": 8,
+        "name": "weapon_front",
+        "texture": "res://assets/r0/swordman/weapon_front/106.png",
+        "offset": [
+          -94,
+          -64
+        ],
+        "size": [
+          81,
+          67
+        ],
+        "opaque": 941,
+        "canvas_bbox": [
+          39,
+          103,
+          120,
+          170
+        ],
+        "centroid": [
+          81.26195536663124,
+          136.21838469713072
+        ]
+      }
+    ]
+  },
+  {
+    "frame": 2,
+    "duration_ms": 100,
+    "layers": [
+      {
+        "slot": 0,
+        "name": "weapon_back",
+        "texture": "res://assets/r0/swordman/weapon_back/107.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 1,
+        "name": "body",
+        "texture": "res://assets/r0/swordman/body/107.png",
+        "offset": [
+          -47,
+          -96
+        ],
+        "size": [
+          100,
+          93
+        ],
+        "opaque": 2512,
+        "canvas_bbox": [
+          86,
+          71,
+          186,
+          164
+        ],
+        "centroid": [
+          142.08041401273886,
+          112.12300955414013
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "pants_back",
+        "texture": "res://assets/r0/swordman/pants_back/107.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 3,
+        "name": "shoes_back",
+        "texture": "res://assets/r0/swordman/shoes_back/107.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 4,
+        "name": "pants",
+        "texture": "res://assets/r0/swordman/pants/107.png",
+        "offset": [
+          -37,
+          -66
+        ],
+        "size": [
+          79,
+          55
+        ],
+        "opaque": 1342,
+        "canvas_bbox": [
+          96,
+          101,
+          175,
+          156
+        ],
+        "centroid": [
+          141.5849478390462,
+          124.19150521609538
+        ]
+      },
+      {
+        "slot": 5,
+        "name": "shoes",
+        "texture": "res://assets/r0/swordman/shoes/107.png",
+        "offset": [
+          -49,
+          -46
+        ],
+        "size": [
+          104,
+          45
+        ],
+        "opaque": 436,
+        "canvas_bbox": [
+          84,
+          121,
+          188,
+          166
+        ],
+        "centroid": [
+          134.05275229357798,
+          144.47935779816513
+        ],
+        "top4_ankle": [
+          91.6,
+          123.12
+        ]
+      },
+      {
+        "slot": 6,
+        "name": "coat",
+        "texture": "res://assets/r0/swordman/coat/107.png",
+        "offset": [
+          8,
+          -94
+        ],
+        "size": [
+          30,
+          28
+        ],
+        "opaque": 377,
+        "canvas_bbox": [
+          141,
+          73,
+          171,
+          101
+        ],
+        "centroid": [
+          153.76259946949602,
+          87.57692307692308
+        ]
+      },
+      {
+        "slot": 7,
+        "name": "hair",
+        "texture": "res://assets/r0/swordman/hair/107.png",
+        "offset": [
+          22,
+          -100
+        ],
+        "size": [
+          18,
+          15
+        ],
+        "opaque": 155,
+        "canvas_bbox": [
+          155,
+          67,
+          173,
+          82
+        ],
+        "centroid": [
+          165.3967741935484,
+          74.33870967741936
+        ]
+      },
+      {
+        "slot": 8,
+        "name": "weapon_front",
+        "texture": "res://assets/r0/swordman/weapon_front/107.png",
+        "offset": [
+          -94,
+          -63
+        ],
+        "size": [
+          81,
+          67
+        ],
+        "opaque": 941,
+        "canvas_bbox": [
+          39,
+          104,
+          120,
+          171
+        ],
+        "centroid": [
+          81.26195536663124,
+          137.21838469713072
+        ]
+      }
+    ]
+  },
+  {
+    "frame": 3,
+    "duration_ms": 100,
+    "layers": [
+      {
+        "slot": 0,
+        "name": "weapon_back",
+        "texture": "res://assets/r0/swordman/weapon_back/108.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 1,
+        "name": "body",
+        "texture": "res://assets/r0/swordman/body/108.png",
+        "offset": [
+          -36,
+          -95
+        ],
+        "size": [
+          77,
+          97
+        ],
+        "opaque": 2652,
+        "canvas_bbox": [
+          97,
+          72,
+          174,
+          169
+        ],
+        "centroid": [
+          143.37820512820514,
+          114.23755656108597
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "pants_back",
+        "texture": "res://assets/r0/swordman/pants_back/108.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 3,
+        "name": "shoes_back",
+        "texture": "res://assets/r0/swordman/shoes_back/108.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 4,
+        "name": "pants",
+        "texture": "res://assets/r0/swordman/pants/108.png",
+        "offset": [
+          -26,
+          -65
+        ],
+        "size": [
+          53,
+          58
+        ],
+        "opaque": 1209,
+        "canvas_bbox": [
+          107,
+          102,
+          160,
+          160
+        ],
+        "centroid": [
+          141.16666666666666,
+          128.6166253101737
+        ]
+      },
+      {
+        "slot": 5,
+        "name": "shoes",
+        "texture": "res://assets/r0/swordman/shoes/108.png",
+        "offset": [
+          -38,
+          -36
+        ],
+        "size": [
+          74,
+          40
+        ],
+        "opaque": 413,
+        "canvas_bbox": [
+          95,
+          131,
+          169,
+          171
+        ],
+        "centroid": [
+          128.61380145278451,
+          152.27481840193704
+        ],
+        "top4_ankle": [
+          102.6,
+          133.12
+        ]
+      },
+      {
+        "slot": 6,
+        "name": "coat",
+        "texture": "res://assets/r0/swordman/coat/108.png",
+        "offset": [
+          8,
+          -92
+        ],
+        "size": [
+          29,
+          27
+        ],
+        "opaque": 364,
+        "canvas_bbox": [
+          141,
+          75,
+          170,
+          102
+        ],
+        "centroid": [
+          153.23901098901098,
+          89.01098901098901
+        ]
+      },
+      {
+        "slot": 7,
+        "name": "hair",
+        "texture": "res://assets/r0/swordman/hair/108.png",
+        "offset": [
+          22,
+          -99
+        ],
+        "size": [
+          17,
+          15
+        ],
+        "opaque": 154,
+        "canvas_bbox": [
+          155,
+          68,
+          172,
+          83
+        ],
+        "centroid": [
+          164.51298701298703,
+          75.27272727272727
+        ]
+      },
+      {
+        "slot": 8,
+        "name": "weapon_front",
+        "texture": "res://assets/r0/swordman/weapon_front/108.png",
+        "offset": [
+          -96,
+          -63
+        ],
+        "size": [
+          81,
+          67
+        ],
+        "opaque": 941,
+        "canvas_bbox": [
+          37,
+          104,
+          118,
+          171
+        ],
+        "centroid": [
+          79.26195536663124,
+          137.21838469713072
+        ]
+      }
+    ]
+  },
+  {
+    "frame": 4,
+    "duration_ms": 100,
+    "layers": [
+      {
+        "slot": 0,
+        "name": "weapon_back",
+        "texture": "res://assets/r0/swordman/weapon_back/109.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 1,
+        "name": "body",
+        "texture": "res://assets/r0/swordman/body/109.png",
+        "offset": [
+          -24,
+          -95
+        ],
+        "size": [
+          74,
+          97
+        ],
+        "opaque": 2379,
+        "canvas_bbox": [
+          109,
+          72,
+          183,
+          169
+        ],
+        "centroid": [
+          143.2767969735183,
+          113.5928961748634
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "pants_back",
+        "texture": "res://assets/r0/swordman/pants_back/109.png",
+        "offset": [
+          -4,
+          -30
+        ],
+        "size": [
+          22,
+          20
+        ],
+        "opaque": 123,
+        "canvas_bbox": [
+          129,
+          137,
+          151,
+          157
+        ],
+        "centroid": [
+          137.0528455284553,
+          149.58130081300814
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "shoes_back",
+        "texture": "res://assets/r0/swordman/shoes_back/109.png",
+        "offset": [
+          -8,
+          -17
+        ],
+        "size": [
+          16,
+          20
+        ],
+        "opaque": 199,
+        "canvas_bbox": [
+          125,
+          150,
+          141,
+          170
+        ],
+        "centroid": [
+          132.4145728643216,
+          161.16834170854273
+        ],
+        "top4_ankle": [
+          131.26470588235293,
+          152.6764705882353
+        ]
+      },
+      {
+        "slot": 4,
+        "name": "pants",
+        "texture": "res://assets/r0/swordman/pants/109.png",
+        "offset": [
+          -12,
+          -64
+        ],
+        "size": [
+          33,
+          50
+        ],
+        "opaque": 754,
+        "canvas_bbox": [
+          121,
+          103,
+          154,
+          153
+        ],
+        "centroid": [
+          140.4787798408488,
+          126.73474801061008
+        ]
+      },
+      {
+        "slot": 5,
+        "name": "shoes",
+        "texture": "res://assets/r0/swordman/shoes/109.png",
+        "offset": [
+          -20,
+          -22
+        ],
+        "size": [
+          14,
+          23
+        ],
+        "opaque": 221,
+        "canvas_bbox": [
+          113,
+          145,
+          127,
+          168
+        ],
+        "centroid": [
+          120.26923076923077,
+          156.38235294117646
+        ],
+        "top4_ankle": [
+          120.3076923076923,
+          147.57692307692307
+        ]
+      },
+      {
+        "slot": 6,
+        "name": "coat",
+        "texture": "res://assets/r0/swordman/coat/109.png",
+        "offset": [
+          6,
+          -94
+        ],
+        "size": [
+          30,
+          29
+        ],
+        "opaque": 379,
+        "canvas_bbox": [
+          139,
+          73,
+          169,
+          102
+        ],
+        "centroid": [
+          151.84300791556728,
+          88.5712401055409
+        ]
+      },
+      {
+        "slot": 7,
+        "name": "hair",
+        "texture": "res://assets/r0/swordman/hair/109.png",
+        "offset": [
+          21,
+          -101
+        ],
+        "size": [
+          17,
+          17
+        ],
+        "opaque": 165,
+        "canvas_bbox": [
+          154,
+          66,
+          171,
+          83
+        ],
+        "centroid": [
+          163.6757575757576,
+          74.85151515151514
+        ]
+      },
+      {
+        "slot": 8,
+        "name": "weapon_front",
+        "texture": "res://assets/r0/swordman/weapon_front/109.png",
+        "offset": [
+          -97,
+          -63
+        ],
+        "size": [
+          81,
+          67
+        ],
+        "opaque": 941,
+        "canvas_bbox": [
+          36,
+          104,
+          117,
+          171
+        ],
+        "centroid": [
+          78.26195536663124,
+          137.21838469713072
+        ]
+      }
+    ]
+  },
+  {
+    "frame": 5,
+    "duration_ms": 100,
+    "layers": [
+      {
+        "slot": 0,
+        "name": "weapon_back",
+        "texture": "res://assets/r0/swordman/weapon_back/110.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 1,
+        "name": "body",
+        "texture": "res://assets/r0/swordman/body/110.png",
+        "offset": [
+          -36,
+          -97
+        ],
+        "size": [
+          97,
+          93
+        ],
+        "opaque": 2763,
+        "canvas_bbox": [
+          97,
+          70,
+          194,
+          163
+        ],
+        "centroid": [
+          144.21733622873688,
+          111.35088671733624
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "pants_back",
+        "texture": "res://assets/r0/swordman/pants_back/110.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 3,
+        "name": "shoes_back",
+        "texture": "res://assets/r0/swordman/shoes_back/110.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 4,
+        "name": "pants",
+        "texture": "res://assets/r0/swordman/pants/110.png",
+        "offset": [
+          -29,
+          -67
+        ],
+        "size": [
+          63,
+          49
+        ],
+        "opaque": 1226,
+        "canvas_bbox": [
+          104,
+          100,
+          167,
+          149
+        ],
+        "centroid": [
+          140.86867862969007,
+          123.3588907014682
+        ]
+      },
+      {
+        "slot": 5,
+        "name": "shoes",
+        "texture": "res://assets/r0/swordman/shoes/110.png",
+        "offset": [
+          -38,
+          -30
+        ],
+        "size": [
+          63,
+          27
+        ],
+        "opaque": 427,
+        "canvas_bbox": [
+          95,
+          137,
+          158,
+          164
+        ],
+        "centroid": [
+          124.38056206088993,
+          151.68501170960187
+        ],
+        "top4_ankle": [
+          103.27777777777777,
+          139.72222222222223
+        ]
+      },
+      {
+        "slot": 6,
+        "name": "coat",
+        "texture": "res://assets/r0/swordman/coat/110.png",
+        "offset": [
+          8,
+          -95
+        ],
+        "size": [
+          30,
+          28
+        ],
+        "opaque": 380,
+        "canvas_bbox": [
+          141,
+          72,
+          171,
+          100
+        ],
+        "centroid": [
+          153.69736842105263,
+          86.59210526315789
+        ]
+      },
+      {
+        "slot": 7,
+        "name": "hair",
+        "texture": "res://assets/r0/swordman/hair/110.png",
+        "offset": [
+          23,
+          -101
+        ],
+        "size": [
+          17,
+          15
+        ],
+        "opaque": 154,
+        "canvas_bbox": [
+          156,
+          66,
+          173,
+          81
+        ],
+        "centroid": [
+          165.51298701298703,
+          73.27272727272727
+        ]
+      },
+      {
+        "slot": 8,
+        "name": "weapon_front",
+        "texture": "res://assets/r0/swordman/weapon_front/110.png",
+        "offset": [
+          -95,
+          -66
+        ],
+        "size": [
+          81,
+          67
+        ],
+        "opaque": 941,
+        "canvas_bbox": [
+          38,
+          101,
+          119,
+          168
+        ],
+        "centroid": [
+          80.26195536663124,
+          134.21838469713072
+        ]
+      }
+    ]
+  },
+  {
+    "frame": 6,
+    "duration_ms": 100,
+    "layers": [
+      {
+        "slot": 0,
+        "name": "weapon_back",
+        "texture": "res://assets/r0/swordman/weapon_back/111.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 1,
+        "name": "body",
+        "texture": "res://assets/r0/swordman/body/111.png",
+        "offset": [
+          -44,
+          -96
+        ],
+        "size": [
+          99,
+          95
+        ],
+        "opaque": 2767,
+        "canvas_bbox": [
+          89,
+          71,
+          188,
+          166
+        ],
+        "centroid": [
+          145.74575352367185,
+          110.97452114203108
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "pants_back",
+        "texture": "res://assets/r0/swordman/pants_back/111.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 3,
+        "name": "shoes_back",
+        "texture": "res://assets/r0/swordman/shoes_back/111.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 4,
+        "name": "pants",
+        "texture": "res://assets/r0/swordman/pants/111.png",
+        "offset": [
+          -34,
+          -66
+        ],
+        "size": [
+          74,
+          57
+        ],
+        "opaque": 1262,
+        "canvas_bbox": [
+          99,
+          101,
+          173,
+          158
+        ],
+        "centroid": [
+          142.12044374009508,
+          124.53090332805071
+        ]
+      },
+      {
+        "slot": 5,
+        "name": "shoes",
+        "texture": "res://assets/r0/swordman/shoes/111.png",
+        "offset": [
+          -46,
+          -48
+        ],
+        "size": [
+          99,
+          49
+        ],
+        "opaque": 437,
+        "canvas_bbox": [
+          87,
+          119,
+          186,
+          168
+        ],
+        "centroid": [
+          134.57551487414187,
+          144.54805491990845
+        ],
+        "top4_ankle": [
+          94.6,
+          121.12
+        ]
+      },
+      {
+        "slot": 6,
+        "name": "coat",
+        "texture": "res://assets/r0/swordman/coat/111.png",
+        "offset": [
+          8,
+          -94
+        ],
+        "size": [
+          30,
+          28
+        ],
+        "opaque": 377,
+        "canvas_bbox": [
+          141,
+          73,
+          171,
+          101
+        ],
+        "centroid": [
+          153.76259946949602,
+          87.57692307692308
+        ]
+      },
+      {
+        "slot": 7,
+        "name": "hair",
+        "texture": "res://assets/r0/swordman/hair/111.png",
+        "offset": [
+          22,
+          -100
+        ],
+        "size": [
+          18,
+          15
+        ],
+        "opaque": 155,
+        "canvas_bbox": [
+          155,
+          67,
+          173,
+          82
+        ],
+        "centroid": [
+          165.3967741935484,
+          74.33870967741936
+        ]
+      },
+      {
+        "slot": 8,
+        "name": "weapon_front",
+        "texture": "res://assets/r0/swordman/weapon_front/111.png",
+        "offset": [
+          -95,
+          -65
+        ],
+        "size": [
+          81,
+          67
+        ],
+        "opaque": 941,
+        "canvas_bbox": [
+          38,
+          102,
+          119,
+          169
+        ],
+        "centroid": [
+          80.26195536663124,
+          135.21838469713072
+        ]
+      }
+    ]
+  },
+  {
+    "frame": 7,
+    "duration_ms": 100,
+    "layers": [
+      {
+        "slot": 0,
+        "name": "weapon_back",
+        "texture": "res://assets/r0/swordman/weapon_back/112.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 1,
+        "name": "body",
+        "texture": "res://assets/r0/swordman/body/112.png",
+        "offset": [
+          -34,
+          -95
+        ],
+        "size": [
+          88,
+          99
+        ],
+        "opaque": 2670,
+        "canvas_bbox": [
+          99,
+          72,
+          187,
+          171
+        ],
+        "centroid": [
+          145.3614232209738,
+          113.78539325842696
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "pants_back",
+        "texture": "res://assets/r0/swordman/pants_back/112.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 3,
+        "name": "shoes_back",
+        "texture": "res://assets/r0/swordman/shoes_back/112.png",
+        "offset": [
+          268,
+          -333
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "opaque": 0,
+        "canvas_bbox": null,
+        "centroid": null
+      },
+      {
+        "slot": 4,
+        "name": "pants",
+        "texture": "res://assets/r0/swordman/pants/112.png",
+        "offset": [
+          -24,
+          -65
+        ],
+        "size": [
+          51,
+          60
+        ],
+        "opaque": 1179,
+        "canvas_bbox": [
+          109,
+          102,
+          160,
+          162
+        ],
+        "centroid": [
+          141.4406276505513,
+          128.89185750636133
+        ]
+      },
+      {
+        "slot": 5,
+        "name": "shoes",
+        "texture": "res://assets/r0/swordman/shoes/112.png",
+        "offset": [
+          -36,
+          -38
+        ],
+        "size": [
+          71,
+          44
+        ],
+        "opaque": 421,
+        "canvas_bbox": [
+          97,
+          129,
+          168,
+          173
+        ],
+        "centroid": [
+          129.40736342042754,
+          152.52137767220904
+        ],
+        "top4_ankle": [
+          104.6,
+          131.12
+        ]
+      },
+      {
+        "slot": 6,
+        "name": "coat",
+        "texture": "res://assets/r0/swordman/coat/112.png",
+        "offset": [
+          8,
+          -92
+        ],
+        "size": [
+          29,
+          27
+        ],
+        "opaque": 364,
+        "canvas_bbox": [
+          141,
+          75,
+          170,
+          102
+        ],
+        "centroid": [
+          153.23901098901098,
+          89.01098901098901
+        ]
+      },
+      {
+        "slot": 7,
+        "name": "hair",
+        "texture": "res://assets/r0/swordman/hair/112.png",
+        "offset": [
+          22,
+          -99
+        ],
+        "size": [
+          17,
+          15
+        ],
+        "opaque": 154,
+        "canvas_bbox": [
+          155,
+          68,
+          172,
+          83
+        ],
+        "centroid": [
+          164.51298701298703,
+          75.27272727272727
+        ]
+      },
+      {
+        "slot": 8,
+        "name": "weapon_front",
+        "texture": "res://assets/r0/swordman/weapon_front/112.png",
+        "offset": [
+          -96,
+          -63
+        ],
+        "size": [
+          81,
+          67
+        ],
+        "opaque": 941,
+        "canvas_bbox": [
+          37,
+          104,
+          118,
+          171
+        ],
+        "centroid": [
+          79.26195536663124,
+          137.21838469713072
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "restore": [
+    {
+      "path": "scenes/west_coast_r0.tscn",
+      "experiment_sha256": "8b69c2a5db841ce8afb701d274169b498df79d852e4ece7a420c5d10da7d7774",
+      "restored_sha256": "0ba464776951354b490d97e244ae67a9c48f2f4df3eec4bd9345fda13b9f9d27"
+    },
+    {
+      "path": "scenes/west_coast_r1.tscn",
+      "experiment_sha256": "1502f8bc384e0ad2b5d965c2aa69e2f2bfa7577f91ab9c9c52a85d86dbd21c83",
+      "restored_sha256": "12dc04b2c99366d1170c42f5b39d40ea09c184f85f0779af88edb0e91f19e12f"
+    },
+    {
+      "path": "scripts/source_actor_3d.gd",
+      "experiment_sha256": "dbca0eeb291dbd6b8eb34c952736b530a0aebf206b9656852d815bdde0db2892",
+      "restored_sha256": "d7ac3316b8d6334f942b69205c3d9e127f21b7a922b24b1b2987078f5e847512"
+    },
+    {
+      "path": "scripts/source_preview_controls.gd",
+      "experiment_sha256": "e45df0613603df9cdbf310b98526b6b20a633aeb30abc3d34728645fd9619e5a",
+      "restored_sha256": "4a5f6774d500df19e5ea33f469c857c28f27c44fa358e746fa7e76ec6e68653b"
+    },
+    {
+      "path": "scripts/source_actor.gd",
+      "experiment_sha256": "f794708631600b013b5a800e8c234d1c152fb87e3b5b75eb204549a3e0d6422a",
+      "restored_sha256": "313e960cc48d88e60d53c20dd8e8d7dedb9247ef6abdb949f8a4488da6bfb8f6"
+    },
+    {
+      "path": "scripts/west_coast_r1.gd",
+      "experiment_sha256": "fb17a96ffa0740824fd75bb6bd091d9a9af2374e73c54759629bd50c688c9aeb",
+      "restored_sha256": "be9d96c5e966fadb010be21dc154b3c403012ab052398a34d362e124b3df4dff"
+    },
+    {
+      "path": "scripts/west_coast_r0.gd",
+      "experiment_sha256": "4ed4e8ebc20e84d8b6751adda1d9b9aad6e835ec6cb7b17eca55880eaf2e4807",
+      "restored_sha256": "ec537e634395ebdcf1133e346905a50a81d294ecf0ed064b727d7b9536249af9"
+    },
+    {
+      "path": "shaders/source_billboard.gdshader",
+      "experiment_sha256": "1b8fda8448cb21c76ca931f00b7026f2ea9ece535c59de5174ecc1ac42e00345",
+      "restored_sha256": "f82b408fb3bc9424a49e6c3735e1afbbdfb05576458b2d7f7a141b4670395934"
+    },
+    {
+      "path": "tools/dnf_client_analysis/build_r0_scene.py",
+      "experiment_sha256": "8dc594de69d7bfd94e7afa8951b3a8c629782dd27b6807b8919d2ebe8863829a",
+      "restored_sha256": "b667f0aa8d74a9c242b6beebeeeb25ea3c2eeae33c26b95b2f0a1cd666737efc"
+    },
+    {
+      "path": "tools/r1/build_r1_scene.py",
+      "experiment_sha256": "c81f1985b36a32390eb8374047f96f92953f300fb8c89a83054a9c9a9f7fb117",
+      "restored_sha256": "d265073289c1e884d93534f7c81872c87c5f0ab232eac4344ecc68994e15639f"
+    }
+  ],
+  "production_manifest_artifacts_exact": 236,
+  "note": "Rejected experiment. Original res:// paths are recorded inside experiment_files and modified_runtime. Not loaded by the current project; source_art is ignored by Godot."
+}

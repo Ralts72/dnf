@@ -1,0 +1,85 @@
+{
+  "check_script": "res://tools/r1/door_approach_checks.gd",
+  "elapsed_seconds": 13.850326,
+  "qa_source_sha256": "1890cc68adc54ec2f869fb7c135495b6452f19e356b835e5a002cd59f038bd7e",
+  "render_cases_completed": 8,
+  "result": {
+    "checks": 22,
+    "failed": [],
+    "render_cases": [
+      {
+        "clipped": 0,
+        "facing": 1,
+        "height_pixels": 0.0,
+        "jumping": false,
+        "matching": 347,
+        "samples": 347,
+        "scale": 1
+      },
+      {
+        "clipped": 0,
+        "facing": 1,
+        "height_pixels": 106.425,
+        "jumping": true,
+        "matching": 304,
+        "samples": 304,
+        "scale": 1
+      },
+      {
+        "clipped": 0,
+        "facing": -1,
+        "height_pixels": 0.0,
+        "jumping": false,
+        "matching": 347,
+        "samples": 347,
+        "scale": 1
+      },
+      {
+        "clipped": 0,
+        "facing": -1,
+        "height_pixels": 106.425,
+        "jumping": true,
+        "matching": 304,
+        "samples": 304,
+        "scale": 1
+      },
+      {
+        "clipped": 0,
+        "facing": 1,
+        "height_pixels": 0.0,
+        "jumping": false,
+        "matching": 347,
+        "samples": 347,
+        "scale": 2
+      },
+      {
+        "clipped": 0,
+        "facing": 1,
+        "height_pixels": 106.425,
+        "jumping": true,
+        "matching": 304,
+        "samples": 304,
+        "scale": 2
+      },
+      {
+        "clipped": 0,
+        "facing": -1,
+        "height_pixels": 0.0,
+        "jumping": false,
+        "matching": 347,
+        "samples": 347,
+        "scale": 2
+      },
+      {
+        "clipped": 0,
+        "facing": -1,
+        "height_pixels": 106.425,
+        "jumping": true,
+        "matching": 304,
+        "samples": 304,
+        "scale": 2
+      }
+    ]
+  },
+  "status": "complete"
+}

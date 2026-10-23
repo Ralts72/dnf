@@ -1,0 +1,212 @@
+{
+  "candidate": "R3/02",
+  "verified_at_utc": "2026-10-23T07:42:19.395956+00:00",
+  "qa_run_id": "r45163344-96",
+  "fresh_run_id": "r45208073-97",
+  "checks": {
+    "native_quest_flow": 21,
+    "isolated_storage": 43
+  },
+  "failed": [],
+  "native_quest_seconds": 17.90695,
+  "artifact_hashes_passed": 603,
+  "manifest_sha256": "a02906258881623ae4016df518d2a59a8462ad0c23d91708da6ea960b635e1ff",
+  "formal_profile_before": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "formal_profile_after": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "fresh_state": {
+    "camera": "(0.0, 12.0)",
+    "dialog_owned": true,
+    "encounter_meta": false,
+    "formal_profile_exists": false,
+    "input_blocked": false,
+    "owned_layer_count": 1,
+    "physics_ticks": 60.0,
+    "player": {
+      "action": "stay",
+      "audio": {
+        "clock_ms": 0.0,
+        "pending": []
+      },
+      "elapsed_ms": 78.014,
+      "facing": 1.0,
+      "frame": 1.0,
+      "jump": {
+        "air_attack_started": -1.0,
+        "air_attack_used": false,
+        "elapsed": -1.0,
+        "travel_speed": 95.0
+      },
+      "next_attack": "attack1",
+      "one_shot": false,
+      "paused": false,
+      "position": "(440.0, 320.0)",
+      "preview": false
+    },
+    "progress": {
+      "dialog_open": false,
+      "encounter_cleared": false,
+      "last_error": "",
+      "loaded_from_backup": false,
+      "progress": {
+        "coins": 0.0,
+        "objective_cleared": false,
+        "quest_stage": "available",
+        "reward_granted": false,
+        "schema": 1.0
+      },
+      "region_scene": "res://scenes/west_coast_r1.tscn",
+      "save_attempts": 0.0,
+      "storage_path": "user://adventure/first_route_v1.json",
+      "storage_ready": true
+    },
+    "root_children": [
+      "_mcp_game_helper",
+      "PortMusic",
+      "PortAmbience",
+      "WestCoastR1",
+      "FrameDiagnostics",
+      "AdventureProgress"
+    ],
+    "scene": "res://scenes/west_coast_r1.tscn",
+    "scene_meta": {
+      "first_encounter_state": {
+        "present": false,
+        "value": null
+      },
+      "world_region": {
+        "present": true,
+        "value": "harbor"
+      },
+      "world_travel_spawn": {
+        "present": false,
+        "value": null
+      },
+      "world_travel_state": {
+        "present": true,
+        "value": {
+          "current_region": "harbor",
+          "harbor_return_position": "(60.0, 320.0)",
+          "last_exit": "",
+          "reset_positions": {
+            "harbor": "(440.0, 320.0)"
+          },
+          "schema_version": 1,
+          "transition_count": 0,
+          "visited": [
+            "harbor"
+          ]
+        }
+      }
+    },
+    "script_hashes": {
+      "res://scripts/adventure_progress.gd": {
+        "disk": "c899f2192574ca5ab0c430d807a2e73b508833315b48f09da0b7585dcb80f4a5",
+        "loaded": "c899f2192574ca5ab0c430d807a2e73b508833315b48f09da0b7585dcb80f4a5"
+      },
+      "res://scripts/exploration_stage.gd": {
+        "disk": "03329b34f0263fa06590c3a579fc4e87c53432e5152870578d85cdb7767d8678",
+        "loaded": "03329b34f0263fa06590c3a579fc4e87c53432e5152870578d85cdb7767d8678"
+      },
+      "res://scripts/first_encounter.gd": {
+        "disk": "143f9723a82d5e573b72783b8e60ddfd97dfc3b2509d46da1ea9722962fd8e0f",
+        "loaded": "143f9723a82d5e573b72783b8e60ddfd97dfc3b2509d46da1ea9722962fd8e0f"
+      },
+      "res://scripts/west_coast_r1.gd": {
+        "disk": "c803451d6922e6d1c217140342eb22abd4261f04ececde31b4240db2bc9aa146",
+        "loaded": "c803451d6922e6d1c217140342eb22abd4261f04ececde31b4240db2bc9aa146"
+      }
+    },
+    "settings": {
+      "audio_muted": false,
+      "audio_volume": 0.6,
+      "effects": true,
+      "motion": true,
+      "music_muted": false,
+      "music_volume": 0.2,
+      "quality": 2,
+      "walk": true
+    },
+    "spawn": "(440.0, 320.0)",
+    "travel": {
+      "can_exit": true,
+      "current_region": "harbor",
+      "exit_hold_id": "",
+      "exit_hold_required_seconds": 0.15,
+      "exit_hold_seconds": 0.0,
+      "fade_alpha": 0.0,
+      "grounded": true,
+      "harbor_return_position": "(60.0, 320.0)",
+      "last_error": "",
+      "last_exit": "",
+      "pending_target": "",
+      "phase": "ready",
+      "region": "harbor",
+      "reset_positions": {
+        "harbor": "(440.0, 320.0)"
+      },
+      "schema_version": 1.0,
+      "source_position": "(440.0, 320.0)",
+      "spawn_position": "(440.0, 320.0)",
+      "transition_count": 0.0,
+      "transitioning": false,
+      "ui_input_blocked": false,
+      "visited": [
+        "harbor"
+      ]
+    }
+  },
+  "evidence_sha256": {
+    "docs/r3_02_quest_checks.json": "113388eb24e0a5f5649c7e5081135bbe2e713a9917f11cdc4090afcd9e426c45",
+    "docs/r3_02_quest_job.json": "f3efff1abdae3f53b8f8c4b80ae564c7f4d348646e5ba91580a87df14c955f5b",
+    "docs/r3_02_storage_checks.json": "337e22700ea58a5aa015a81a63871b714ee269e447b9b22d790f17245b56d095",
+    "docs/r3_02_quest_game_logs.json": "072f75f4634a8c86e700568069a3c52b9d0c8cebba301a6c17f6d32a9fd5a04b",
+    "docs/r3_02_final_state.json": "676bd1bd7bb2de737ae1fe188c9c38dbee76b177222b7ff185364d905a01bbda",
+    "docs/previews/r3_02_quest_completed.png": "5a077ccbc538dbb18d39fdd6773b8ad531d6b00878376360bd12ac23022444fa",
+    "docs/previews/r3_02_reward_dialog.png": "c998b289e34b18ca605e81ff73bce007cf2fe55baac95c8f866707ef9cabe1f3",
+    "docs/previews/r3_02_quest_dialog.png": "cbcbe5c84d0a8ea1bf494029b619b376ea18c26c7a5db2b45eb0efda5546d566",
+    "docs/previews/r3_02_quest_victory.png": "62922724f986d1a7bd75322a193c8d9ef03ebc2cca468aa031d2df7e3b871da9"
+  },
+  "game_errors": 0,
+  "game_warnings": 0,
+  "notes": [
+    "Actual E/Enter, directional route, AI-enabled Q spacing victory, practice reset, return, forty-coin claim, reload and F4/Tab checks. Earlier encounter hit/attack matrices are historical, not recounted.",
+    "Quest/reward/persistence are prototype adaptations. Source graphics and audio retain R3/01 provenance.",
+    "Initial run95 had 24 stale-UI reference errors and one structural failure; report/source/log retained under source_art/r3/experiments/quest_first. Fixed run96 is clean; historical debugger rows were not cleared.",
+    "Formal primary, backup and temporary files remain absent; QA uses isolated storage.",
+    "No new performance study or Windows validation. Architectural collision completion and loot remain future content."
+  ]
+}

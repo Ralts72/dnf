@@ -1,0 +1,13 @@
+{
+  "check_script": "res://tools/r1/effect_checks.gd",
+  "elapsed_seconds": 3.738756,
+  "qa_source_sha256": "989a7b382505e4cc13df9470bc46d1cfb6b8a7ef4648d17bd368fc214ede2ddd",
+  "render_cases_completed": 48,
+  "result": {
+    "checks": 35,
+    "failed": [],
+    "failed_render_cases": [],
+    "render_cases": 48
+  },
+  "status": "complete"
+}

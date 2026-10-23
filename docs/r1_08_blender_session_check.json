@@ -1,0 +1,8 @@
+{
+  "scene": "Elvenguard_3D_Review",
+  "filepath": "",
+  "is_dirty": true,
+  "objects": 679,
+  "read_only": true,
+  "verification": "Interactive Blender MCP read before final source build; builds and inspections use independent background Blender processes."
+}

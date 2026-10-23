@@ -1,0 +1,18 @@
+{
+  "check_script": "res://tools/r1/framing_checks.gd",
+  "elapsed_seconds": 11.947728,
+  "qa_source_sha256": "452d1572826e74a3b3333e9bcaa5099e0a460d0786b5e1f60e67936fad84cc4e",
+  "render_cases_completed": 680,
+  "result": {
+    "checks": 10,
+    "failed": [
+      {
+        "check": "both_renderers_preserve_source_RGB_interiors",
+        "details": {},
+        "pass": false
+      }
+    ],
+    "render_cases": 680
+  },
+  "status": "complete"
+}

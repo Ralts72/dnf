@@ -1,0 +1,238 @@
+{
+  "candidate": "R4/03",
+  "verified_at_utc": "2026-10-23T09:53:55.452377+00:00",
+  "native_runs": {
+    "visual": "r52412437-129",
+    "sharan": "r52621946-131",
+    "quest": "r52814913-132",
+    "fresh": "r53088142-133"
+  },
+  "checks": {
+    "native_sharan_interaction_and_assets": 14,
+    "native_original_quest_regression": 21
+  },
+  "total_checks": 35,
+  "failed": [],
+  "artifact_hashes_passed": 2170,
+  "manifest_sha256": "1fbd686aef3a3f9e406b4b79c208737cd2063bf770641600dca3c4ad74660f13",
+  "source": {
+    "NPC_id": 12,
+    "name_big5": "莎蘭",
+    "big_face_img": "NpcFace01.img",
+    "portrait_frame": 20,
+    "portrait_size": [
+      64,
+      130
+    ],
+    "native_imported_png": 3,
+    "exact_rgba_pixels": 14265,
+    "retained_pvf_crc": 5
+  },
+  "formal_profile_before": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "formal_profile_after": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "fresh_state": {
+    "action": "stay",
+    "appearance": {
+      "action": "stay",
+      "clip_paths": {
+        "dash": "res://data/swordman_dash_inbetweens.json",
+        "move": "res://data/swordman_walk_inbetweens.json"
+      },
+      "data_path": "res://data/swordman_ghost_practice_r1.json",
+      "elapsed_ms": 5.63033333333082,
+      "frame": 2,
+      "inbetweens_enabled": true,
+      "key": "practice_lswd0000",
+      "last_error": "",
+      "spatial": true,
+      "texture_count": 110
+    },
+    "blocked": false,
+    "boss_meta": false,
+    "camera": {
+      "x": 0,
+      "y": 12
+    },
+    "diagnostics_active": false,
+    "diagnostics_processing": false,
+    "first_meta": false,
+    "formal": {
+      "user://adventure/first_route_v1.json": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.bak": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "sha256": ""
+      }
+    },
+    "paused": false,
+    "physics_tps": 60,
+    "position": {
+      "x": 440,
+      "y": 320
+    },
+    "preview": false,
+    "profile": {
+      "dialog_open": false,
+      "encounter_cleared": false,
+      "last_error": "",
+      "loaded_from_backup": false,
+      "pending_save": false,
+      "progress": {
+        "chapter_flags": {
+          "lakius_cleared": false
+        },
+        "coins": 0,
+        "equipment": {
+          "equipped_key": "practice_lswd0000",
+          "owned": {
+            "27304": false
+          }
+        },
+        "first_drop": {
+          "id": "mirkius_first_eye_v1",
+          "position": [
+            640,
+            300
+          ],
+          "region": "hall",
+          "state": "unearned"
+        },
+        "inventory": {
+          "3128": 0
+        },
+        "objective_cleared": false,
+        "quest_stage": "available",
+        "reward_granted": false,
+        "schema": 4
+      },
+      "region_scene": "res://scenes/west_coast_r1.tscn",
+      "save_attempts": 0,
+      "storage_path": "user://adventure/first_route_v1.json",
+      "storage_ready": true
+    },
+    "scene": "res://scenes/west_coast_r1.tscn",
+    "sharan": {
+      "can_interact": false,
+      "confirm_text": "",
+      "dialog_open": false,
+      "dialogue_key": "available",
+      "dialogue_text": "",
+      "interaction_half_extent": [
+        55,
+        50
+      ],
+      "npc_source_position": {
+        "x": 150,
+        "y": 267
+      },
+      "portrait_path": "res://assets/r4/sharan/portrait.png",
+      "portrait_visible": false,
+      "prompt_visible": false,
+      "restore_count": 0,
+      "route_hp": 100
+    },
+    "shared_hp_meta": false,
+    "skill": {
+      "accepted_casts": 0,
+      "action": "hardattack",
+      "actor_id": 73651980913,
+      "can_cast": true,
+      "cooldown_remaining": 0,
+      "cooldown_seconds": 6,
+      "freeze_reason": "",
+      "frozen": false,
+      "hud_text": "Z 鬼斩 · 就绪",
+      "hud_visible": true,
+      "last_reject_reason": "",
+      "ready": true,
+      "rejected_casts": 0,
+      "reset_count": 0,
+      "scene": "res://scenes/west_coast_r1.tscn"
+    },
+    "source_versions_match": {
+      "main": true,
+      "profile": true,
+      "sharan": true,
+      "skill": true
+    }
+  },
+  "timing_seconds": {
+    "sharan_native_job": 4.4533,
+    "quest_native_job": 17.901034
+  },
+  "scope_notes": [
+    "HarborR1 only: actualwalk/E/Enter dialogue uses the direct NPC big-face reference, original64x130 portrait, and native480x300 panel inside960x540. R0 has no Sharan interaction.",
+    "Four short dialogue branches are prototype text. Historical profile or strict current-session clear drives the stage, including after practiceR. Free healing is an explicit adaptation, not restored client healing/quest behavior.",
+    "Rest only restores route_hero_hp plus player_hp in already-existing dictionary first_encounter_state/tower_boss_state. It preserves enemies, clearedflags, eventcounters, positions, profile, coins, materials, equipment and cooldown. At fullHP it changes no metadata, including absence of battle metadata.",
+    "The new14-check suite includes native3PNG sourceRGBA/hash proof; this is not14 purely gameplay checks. Its small explicit injured/session/story fixtures are distinguished from actualwalking/E/Enter, modal-input, focus, cooldown, encounter-reader and F4 checks.",
+    "Independent21-check originalLorian quest regression uses actualE/Enter, first-fight AI victory and return/reward, proving interaction priority and original journey remain functional.",
+    "Initial130 passed14 but its QA Image.load_from_file emitted3 export-related warnings. QA source now uses byte-bufferPNG decoding; production Texture2D loading was already correct. Evidence preserved under source_art/r4/experiments/sharan_first_130.",
+    "A first screenshot-record eval128 had one extra brace and was replaced with small reads and rerun129; no production file changed. See source_art/r4/experiments/sharan_visual_eval_128.",
+    "Sharan131 validation interval logs were captured clean after all14 checks. A subsequent attempt to reload its live quest-helper dependency in that same process returnedERR_ALREADY_IN_USE22 before any quest check ran. This harness-only attempt is archived under source_art/r4/experiments/quest_reload_131; fresh132 standalone quest run passed21 clean. Historical logs/debugger rows were preserved.",
+    "No new profile schema, save mutation, reward, enemy, skill, FPS benchmark or Windows claim. FutureHP consumable source research/assets are excluded from this frozen candidate.",
+    "Quota atfreeze used27%,remaining73%, same reset1793293820, credits62480.2337700000 unchanged, no reset credits used. Continue requested development."
+  ],
+  "screenshots": {
+    "chapter_story": {
+      "path": "res://docs/previews/r4_03_sharan_chapter_story.png",
+      "save_error": 0,
+      "scene": "res://scenes/west_coast_r1.tscn"
+    },
+    "dialog": {
+      "path": "res://docs/previews/r4_03_sharan_dialog.png",
+      "save_error": 0,
+      "scene": "res://scenes/west_coast_r1.tscn"
+    },
+    "restore": {
+      "path": "res://docs/previews/r4_03_sharan_restore.png",
+      "save_error": 0,
+      "scene": "res://scenes/west_coast_r1.tscn"
+    }
+  },
+  "manual_visual": "docs/previews/r4_03_sharan_dialog.png",
+  "checkpoint": "source_art/r4/checkpoints/candidate_03"
+}

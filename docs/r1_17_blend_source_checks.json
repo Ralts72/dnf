@@ -1,0 +1,325 @@
+{
+  "candidate": "R1/17",
+  "failed": [],
+  "meshes": 302,
+  "changed_uv_layers": [
+    {
+      "mesh": "Curved_Plaster_Facade",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Dark_Recess",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Blue_Gate_Plank_00",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Blue_Gate_Plank_01",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Blue_Gate_Plank_02",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Blue_Gate_Plank_03",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Blue_Gate_Plank_04",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Blue_Gate_Plank_05",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Blue_Gate_Plank_06",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Blue_Gate_Plank_07",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Blue_Gate_Plank_08",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Blue_Gate_Plank_09",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_00",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_01",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_02",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_03",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_04",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_05",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_06",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_07",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_08",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_09",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_10",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_11",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_12",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_13",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_14",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_15",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_16",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_-1_0",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_-1_1",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_-1_2",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_-1_3",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_-1_4",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_-1_5",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_-1_6",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_1_0",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_1_1",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_1_2",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_1_3",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_1_4",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_1_5",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_1_6",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Arch_Window_Shadow",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_00",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_01",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_02",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_03",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_04",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_05",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_06",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_07",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_08",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_09",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_10",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_11",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_12",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_13",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_14",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_15",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_16",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_-1_0",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_-1_1",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_-1_2",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_-1_3",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_-1_4",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_-1_5",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_-1_6",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_1_0",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_1_1",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_1_2",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_1_3",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_1_4",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_1_5",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_1_6",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Window_Sill",
+      "layer": "Source_Facade_Projection"
+    },
+    {
+      "mesh": "Dock_Mooring_Core",
+      "layer": "Source_Dock_Masonry"
+    },
+    {
+      "mesh": "Dock_Mooring_Limestone_Cap",
+      "layer": "Source_Dock_Masonry"
+    }
+  ],
+  "geometry_and_world_transforms_unchanged": true,
+  "packed_images_unchanged": 27,
+  "facade_pbr_alpha_connected": true,
+  "source_sha256": "bc2637bc8180c8e67e902cd87b27a7dfa23b03d9032c443b5890b3285a836261",
+  "qa_source_sha256": "c3fcde56331e183e75d906775c778dbd01965a3ea18f44cd6552b6b574267fda",
+  "source_modified_by_inspection": false
+}

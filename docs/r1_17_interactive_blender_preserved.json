@@ -1,0 +1,16 @@
+{
+  "before": {
+    "scene": "Elvenguard_3D_Review",
+    "filepath": "",
+    "dirty": true,
+    "objects": 679
+  },
+  "after": {
+    "scene": "Elvenguard_3D_Review",
+    "filepath": "",
+    "dirty": true,
+    "objects": 679
+  },
+  "unchanged": true,
+  "note": "Only read-only MCP inspection; all source edits used separate background Blender processes."
+}

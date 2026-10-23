@@ -1,0 +1,1781 @@
+{
+  "schema_version": 1,
+  "stage": "R4/08 1280px continuous statue gallery",
+  "region_id": "statue_gallery",
+  "layout_policy": "One continuous long corridor with three rear window bays; no internal room transition. Adapted native architecture, not recovered original map adjacency or source 3D geometry.",
+  "camera": {
+    "viewport_size": [
+      896,
+      404
+    ],
+    "logical_region_width": 1280,
+    "elevation_degrees": 38,
+    "pixels_per_meter": 60,
+    "ground_formula": "X=(sourceX-448)/60; Y=.025; Z=(sourceY-159)/(60*sin38)-1.6",
+    "screen_ground_formula": "screenX=sourceX-offsetX; screenY=sourceY+43-offsetY",
+    "required_region_horizontal_limits": [
+      -152,
+      536
+    ],
+    "pose_radius_px": 176,
+    "pose_margin_px": 8,
+    "integration_status": "Parent configures region-specific camera limits; this builder does not modify SourceFraming."
+  },
+  "walk_bounds_xyxy": [
+    36,
+    245,
+    1244,
+    345
+  ],
+  "arrival": [
+    176,
+    320
+  ],
+  "enemy_staging_suggestion": [
+    1056,
+    300
+  ],
+  "floor_source_bounds_xyxy": [
+    -170,
+    220,
+    1444,
+    450
+  ],
+  "return_route": {
+    "trigger_xywh": [
+      36,
+      295,
+      6,
+      50
+    ],
+    "action": "move_left",
+    "target_region": "doll_gallery",
+    "target_spawn_suggestion": [
+      816,
+      320
+    ]
+  },
+  "end_landmark": {
+    "rear_pilaster_source": [
+      1304,
+      218
+    ],
+    "walk_end_x": 1244,
+    "policy": "Rear wall pilaster marks the end beyond the legal foot lane. Foreground supports and side beam are absent, preserving the full sword pose at every legal walk depth; no forward route is implied."
+  },
+  "visual_revision": {
+    "basis": "Paused native preview run158, pure visual iteration; no runtime error",
+    "initial_archive": "source_art/r4/experiments/statue_layout_first_158",
+    "columns": "Base bottom .685/top .865; shaft .865..4.295; capital 4.295..4.535. Six columns are vertically continuous above the coping; footprints unchanged.",
+    "side_supports": "Removed both foreground side piers and side beams. Two retained rear pilasters moved to y218, so their front edge y226.496 remains behind the entire y245..345 foot lane."
+  },
+  "source_cards": [
+    {
+      "node": "OriginalWindowVista_0",
+      "texture": "res://assets/r2/interior/far.png",
+      "size": [
+        630,
+        355
+      ],
+      "visible_crop_bottom_center": [
+        224,
+        230
+      ],
+      "view_ray_depth_m": -3.0,
+      "pixel_scale": 1,
+      "ground_collision": false,
+      "source_projected_rect_xyxy": [
+        -91.0,
+        -125,
+        539.0,
+        230
+      ]
+    },
+    {
+      "node": "OriginalWindowVista_1",
+      "texture": "res://assets/r2/interior/far.png",
+      "size": [
+        630,
+        355
+      ],
+      "visible_crop_bottom_center": [
+        640,
+        230
+      ],
+      "view_ray_depth_m": -3.0,
+      "pixel_scale": 1,
+      "ground_collision": false,
+      "source_projected_rect_xyxy": [
+        325.0,
+        -125,
+        955.0,
+        230
+      ]
+    },
+    {
+      "node": "OriginalWindowVista_2",
+      "texture": "res://assets/r2/interior/far.png",
+      "size": [
+        630,
+        355
+      ],
+      "visible_crop_bottom_center": [
+        1056,
+        230
+      ],
+      "view_ray_depth_m": -3.0,
+      "pixel_scale": 1,
+      "ground_collision": false,
+      "source_projected_rect_xyxy": [
+        741.0,
+        -125,
+        1371.0,
+        230
+      ]
+    }
+  ],
+  "rear_window_masking": {
+    "openings_x": [
+      [
+        128,
+        320
+      ],
+      [
+        544,
+        736
+      ],
+      [
+        960,
+        1152
+      ]
+    ],
+    "wall_fields_x": [
+      [
+        -170,
+        128
+      ],
+      [
+        320,
+        544
+      ],
+      [
+        736,
+        960
+      ],
+      [
+        1152,
+        1444
+      ]
+    ],
+    "whole_PNG_coverage_x": [
+      [
+        -91,
+        539
+      ],
+      [
+        325,
+        955
+      ],
+      [
+        741,
+        1371
+      ]
+    ],
+    "adjacent_bitmap_overlaps_x": [
+      [
+        325,
+        539
+      ],
+      [
+        741,
+        955
+      ]
+    ],
+    "wall_mask_margin_each_overlap_px": [
+      5,
+      5
+    ],
+    "upper_beam_source_bottom": -5.637451873587651,
+    "policy": "All three source PNGs remain whole 630x355, at 1:1. Native wall fields hide full bitmap edges/overlaps; a continuous upper beam and low dado frame the rear windows."
+  },
+  "material_policy": {
+    "source_cards": "Original full RGBA crops, no resampling, tint, flip or new bitmap; view-facing at 38 degrees, unlit nearest.",
+    "architecture": "Existing source textures, native lighting and recorded albedo multipliers. Rendered geometry RGB is not claimed source exact.",
+    "floor": "Existing opaque 192x96 paving repeated over the full 26.9m plane with nearest unlit sampling.",
+    "albedo_multipliers": {
+      "stone": [
+        0.78,
+        0.77,
+        0.72,
+        1
+      ],
+      "wall": [
+        0.48,
+        0.47,
+        0.44,
+        1
+      ],
+      "gold": [
+        0.7,
+        0.66,
+        0.56,
+        1
+      ],
+      "floor": [
+        0.74,
+        0.73,
+        0.7,
+        1
+      ]
+    },
+    "UV_subrects_xyxy": {
+      "approach/bridge_0.png": [
+        24,
+        80,
+        88,
+        112
+      ],
+      "interior/column.png": [
+        9,
+        16,
+        20,
+        76
+      ]
+    }
+  },
+  "native_mesh_instances": 36,
+  "source_card_count": 3,
+  "native_mesh_world_aabb": {
+    "world_aabb_min": [
+      -10.3,
+      -0.23,
+      -0.48280190860863503
+    ],
+    "world_aabb_max": [
+      16.599999999999998,
+      6.205,
+      6.277705840591309
+    ]
+  },
+  "collision_audit": {
+    "actor_foot_radius_m": 0.18,
+    "source_radius_xy": [
+      10.799999999999999,
+      6.6491439335171085
+    ],
+    "minimum_required_gap_px": 2.0,
+    "minimum_actual_gap_px": 2.619805577103932,
+    "decorative_meshes": 34,
+    "below_foot_support_meshes": 2,
+    "obstacle_shapes": 0,
+    "all_decorative_expanded_aabbs_outside_walk": true,
+    "meshes": [
+      {
+        "node": "LongGalleryFoundation",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          637.0,
+          335.0
+        ],
+        "source_ground_aabb_xyxy": [
+          -170.0,
+          220.0,
+          1444.0,
+          450.0
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -180.8,
+          213.3508560664829,
+          1454.8,
+          456.6491439335171
+        ],
+        "world_aabb_min": [
+          -10.299999999999999,
+          -0.23,
+          0.05134039957412284
+        ],
+        "world_aabb_max": [
+          16.599999999999998,
+          0.009999999999999981,
+          6.277705840591309
+        ],
+        "below_foot_support": true,
+        "outside_walk_with_actor_clearance": false,
+        "walk_separation_px": null,
+        "separated_axis": null
+      },
+      {
+        "node": "ContinuousLongGalleryFloor",
+        "mesh_type": "PlaneMesh",
+        "source_ground_center": [
+          637.0,
+          335.0
+        ],
+        "source_ground_aabb_xyxy": [
+          -170.0,
+          220.0,
+          1444.0,
+          450.0
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -180.8,
+          213.3508560664829,
+          1454.8,
+          456.6491439335171
+        ],
+        "world_aabb_min": [
+          -10.299999999999999,
+          0.015,
+          0.05134039957412284
+        ],
+        "world_aabb_max": [
+          16.599999999999998,
+          0.015,
+          6.277705840591309
+        ],
+        "below_foot_support": true,
+        "outside_walk_with_actor_clearance": false,
+        "walk_separation_px": null,
+        "separated_axis": null
+      },
+      {
+        "node": "RearWindowWall_0",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          -21.0,
+          207
+        ],
+        "source_ground_aabb_xyxy": [
+          -170.0,
+          201.82844360726446,
+          128.0,
+          212.17155639273554
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -180.8,
+          195.17929967374735,
+          138.8,
+          218.82070032625265
+        ],
+        "world_aabb_min": [
+          -10.3,
+          0.015,
+          -0.4405846036138047
+        ],
+        "world_aabb_max": [
+          -5.333333333333333,
+          5.614999999999999,
+          -0.16058460361380467
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 26.17929967374735,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "RearWindowWall_1",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          432.0,
+          207
+        ],
+        "source_ground_aabb_xyxy": [
+          320.0,
+          201.82844360726446,
+          544.0,
+          212.17155639273554
+        ],
+        "actor_expanded_aabb_xyxy": [
+          309.2,
+          195.17929967374735,
+          554.8,
+          218.82070032625265
+        ],
+        "world_aabb_min": [
+          -2.1333333333333333,
+          0.015,
+          -0.4405846036138047
+        ],
+        "world_aabb_max": [
+          1.6,
+          5.614999999999999,
+          -0.16058460361380467
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 26.17929967374735,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "RearWindowWall_2",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          848.0,
+          207
+        ],
+        "source_ground_aabb_xyxy": [
+          736.0,
+          201.82844360726446,
+          960.0,
+          212.17155639273554
+        ],
+        "actor_expanded_aabb_xyxy": [
+          725.2,
+          195.17929967374735,
+          970.8,
+          218.82070032625265
+        ],
+        "world_aabb_min": [
+          4.800000000000001,
+          0.015,
+          -0.4405846036138047
+        ],
+        "world_aabb_max": [
+          8.533333333333333,
+          5.614999999999999,
+          -0.16058460361380467
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 26.17929967374735,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "RearWindowWall_3",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          1298.0,
+          207
+        ],
+        "source_ground_aabb_xyxy": [
+          1152.0,
+          201.82844360726446,
+          1444.0,
+          212.17155639273554
+        ],
+        "actor_expanded_aabb_xyxy": [
+          1141.2,
+          195.17929967374735,
+          1454.8,
+          218.82070032625265
+        ],
+        "world_aabb_min": [
+          11.733333333333333,
+          0.015,
+          -0.4405846036138047
+        ],
+        "world_aabb_max": [
+          16.599999999999998,
+          5.614999999999999,
+          -0.16058460361380467
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 26.17929967374735,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "ContinuousRearDado",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          637.0,
+          225
+        ],
+        "source_ground_aabb_xyxy": [
+          -170.0,
+          220.19784049245987,
+          1444.0,
+          229.80215950754013
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -180.8,
+          213.54869655894277,
+          1454.8,
+          236.45130344105723
+        ],
+        "world_aabb_min": [
+          -10.299999999999999,
+          0.015,
+          0.056696170031018345
+        ],
+        "world_aabb_max": [
+          16.599999999999998,
+          0.595,
+          0.31669617003101835
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 8.548696558942765,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "ContinuousRearCoping",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          637.0,
+          225
+        ],
+        "source_ground_aabb_xyxy": [
+          -170.0,
+          218.72025295167828,
+          1444.0,
+          231.27974704832172
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -180.8,
+          212.07110901816117,
+          1454.8,
+          237.92889098183883
+        ],
+        "world_aabb_min": [
+          -10.299999999999999,
+          0.595,
+          0.016696170031018337
+        ],
+        "world_aabb_max": [
+          16.599999999999998,
+          0.6849999999999999,
+          0.3566961700310184
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 7.071109018161167,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_0_Left_Base",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          116,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          89.6,
+          201.7465370514026,
+          142.4,
+          234.2534629485974
+        ],
+        "actor_expanded_aabb_xyxy": [
+          78.8,
+          195.0973931178855,
+          153.20000000000002,
+          240.9026068821145
+        ],
+        "world_aabb_min": [
+          -5.973333333333334,
+          0.685,
+          -0.44280190860863505
+        ],
+        "world_aabb_max": [
+          -5.093333333333333,
+          0.865,
+          0.43719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 4.0973931178855025,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_0_Left_Shaft",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          116,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          102.8,
+          209.87326852570132,
+          129.2,
+          226.12673147429868
+        ],
+        "actor_expanded_aabb_xyxy": [
+          92.0,
+          203.2241245921842,
+          140.0,
+          232.7758754078158
+        ],
+        "world_aabb_min": [
+          -5.753333333333333,
+          0.865,
+          -0.22280190860863505
+        ],
+        "world_aabb_max": [
+          -5.3133333333333335,
+          4.295,
+          0.21719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 12.22412459218421,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_0_Left_Capital",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          116,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          87.2,
+          200.26894951062104,
+          144.8,
+          235.73105048937896
+        ],
+        "actor_expanded_aabb_xyxy": [
+          76.4,
+          193.61980557710393,
+          155.60000000000002,
+          242.38019442289607
+        ],
+        "world_aabb_min": [
+          -6.013333333333334,
+          4.295,
+          -0.48280190860863503
+        ],
+        "world_aabb_max": [
+          -5.053333333333333,
+          4.535,
+          0.47719809139136493
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 2.619805577103932,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_0_Right_Base",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          332,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          305.6,
+          201.7465370514026,
+          358.4,
+          234.2534629485974
+        ],
+        "actor_expanded_aabb_xyxy": [
+          294.8,
+          195.0973931178855,
+          369.2,
+          240.9026068821145
+        ],
+        "world_aabb_min": [
+          -2.3733333333333335,
+          0.685,
+          -0.44280190860863505
+        ],
+        "world_aabb_max": [
+          -1.4933333333333334,
+          0.865,
+          0.43719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 4.0973931178855025,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_0_Right_Shaft",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          332,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          318.8,
+          209.87326852570132,
+          345.2,
+          226.12673147429868
+        ],
+        "actor_expanded_aabb_xyxy": [
+          308.0,
+          203.2241245921842,
+          356.0,
+          232.7758754078158
+        ],
+        "world_aabb_min": [
+          -2.1533333333333333,
+          0.865,
+          -0.22280190860863505
+        ],
+        "world_aabb_max": [
+          -1.7133333333333334,
+          4.295,
+          0.21719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 12.22412459218421,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_0_Right_Capital",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          332,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          303.2,
+          200.26894951062104,
+          360.8,
+          235.73105048937896
+        ],
+        "actor_expanded_aabb_xyxy": [
+          292.4,
+          193.61980557710393,
+          371.6,
+          242.38019442289607
+        ],
+        "world_aabb_min": [
+          -2.413333333333333,
+          4.295,
+          -0.48280190860863503
+        ],
+        "world_aabb_max": [
+          -1.4533333333333334,
+          4.535,
+          0.47719809139136493
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 2.619805577103932,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowLintel_0",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          224,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          106.4,
+          210.9814591812875,
+          341.6,
+          225.0185408187125
+        ],
+        "actor_expanded_aabb_xyxy": [
+          95.60000000000001,
+          204.3323152477704,
+          352.40000000000003,
+          231.6676847522296
+        ],
+        "world_aabb_min": [
+          -5.693333333333333,
+          4.535,
+          -0.19280190860863505
+        ],
+        "world_aabb_max": [
+          -1.7733333333333334,
+          4.755,
+          0.18719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 13.332315247770396,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_1_Left_Base",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          532,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          505.6,
+          201.7465370514026,
+          558.4,
+          234.2534629485974
+        ],
+        "actor_expanded_aabb_xyxy": [
+          494.8,
+          195.0973931178855,
+          569.1999999999999,
+          240.9026068821145
+        ],
+        "world_aabb_min": [
+          0.96,
+          0.685,
+          -0.44280190860863505
+        ],
+        "world_aabb_max": [
+          1.8399999999999999,
+          0.865,
+          0.43719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 4.0973931178855025,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_1_Left_Shaft",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          532,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          518.8,
+          209.87326852570132,
+          545.2,
+          226.12673147429868
+        ],
+        "actor_expanded_aabb_xyxy": [
+          507.99999999999994,
+          203.2241245921842,
+          556.0,
+          232.7758754078158
+        ],
+        "world_aabb_min": [
+          1.18,
+          0.865,
+          -0.22280190860863505
+        ],
+        "world_aabb_max": [
+          1.6199999999999999,
+          4.295,
+          0.21719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 12.22412459218421,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_1_Left_Capital",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          532,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          503.2,
+          200.26894951062104,
+          560.8,
+          235.73105048937896
+        ],
+        "actor_expanded_aabb_xyxy": [
+          492.4,
+          193.61980557710393,
+          571.5999999999999,
+          242.38019442289607
+        ],
+        "world_aabb_min": [
+          0.9199999999999999,
+          4.295,
+          -0.48280190860863503
+        ],
+        "world_aabb_max": [
+          1.88,
+          4.535,
+          0.47719809139136493
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 2.619805577103932,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_1_Right_Base",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          748,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          721.6,
+          201.7465370514026,
+          774.4,
+          234.2534629485974
+        ],
+        "actor_expanded_aabb_xyxy": [
+          710.8000000000001,
+          195.0973931178855,
+          785.1999999999999,
+          240.9026068821145
+        ],
+        "world_aabb_min": [
+          4.56,
+          0.685,
+          -0.44280190860863505
+        ],
+        "world_aabb_max": [
+          5.44,
+          0.865,
+          0.43719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 4.0973931178855025,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_1_Right_Shaft",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          748,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          734.8,
+          209.87326852570132,
+          761.2,
+          226.12673147429868
+        ],
+        "actor_expanded_aabb_xyxy": [
+          724.0,
+          203.2241245921842,
+          772.0,
+          232.7758754078158
+        ],
+        "world_aabb_min": [
+          4.78,
+          0.865,
+          -0.22280190860863505
+        ],
+        "world_aabb_max": [
+          5.22,
+          4.295,
+          0.21719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 12.22412459218421,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_1_Right_Capital",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          748,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          719.2,
+          200.26894951062104,
+          776.8,
+          235.73105048937896
+        ],
+        "actor_expanded_aabb_xyxy": [
+          708.4000000000001,
+          193.61980557710393,
+          787.5999999999999,
+          242.38019442289607
+        ],
+        "world_aabb_min": [
+          4.52,
+          4.295,
+          -0.48280190860863503
+        ],
+        "world_aabb_max": [
+          5.48,
+          4.535,
+          0.47719809139136493
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 2.619805577103932,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowLintel_1",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          640,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          522.4,
+          210.9814591812875,
+          757.6,
+          225.0185408187125
+        ],
+        "actor_expanded_aabb_xyxy": [
+          511.59999999999997,
+          204.3323152477704,
+          768.4,
+          231.6676847522296
+        ],
+        "world_aabb_min": [
+          1.2400000000000002,
+          4.535,
+          -0.19280190860863505
+        ],
+        "world_aabb_max": [
+          5.16,
+          4.755,
+          0.18719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 13.332315247770396,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_2_Left_Base",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          948,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          921.6,
+          201.7465370514026,
+          974.4,
+          234.2534629485974
+        ],
+        "actor_expanded_aabb_xyxy": [
+          910.8000000000001,
+          195.0973931178855,
+          985.1999999999999,
+          240.9026068821145
+        ],
+        "world_aabb_min": [
+          7.8933333333333335,
+          0.685,
+          -0.44280190860863505
+        ],
+        "world_aabb_max": [
+          8.773333333333333,
+          0.865,
+          0.43719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 4.0973931178855025,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_2_Left_Shaft",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          948,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          934.8,
+          209.87326852570132,
+          961.2,
+          226.12673147429868
+        ],
+        "actor_expanded_aabb_xyxy": [
+          924.0,
+          203.2241245921842,
+          972.0,
+          232.7758754078158
+        ],
+        "world_aabb_min": [
+          8.113333333333333,
+          0.865,
+          -0.22280190860863505
+        ],
+        "world_aabb_max": [
+          8.553333333333335,
+          4.295,
+          0.21719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 12.22412459218421,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_2_Left_Capital",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          948,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          919.2,
+          200.26894951062104,
+          976.8,
+          235.73105048937896
+        ],
+        "actor_expanded_aabb_xyxy": [
+          908.4000000000001,
+          193.61980557710393,
+          987.5999999999999,
+          242.38019442289607
+        ],
+        "world_aabb_min": [
+          7.8533333333333335,
+          4.295,
+          -0.48280190860863503
+        ],
+        "world_aabb_max": [
+          8.813333333333334,
+          4.535,
+          0.47719809139136493
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 2.619805577103932,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_2_Right_Base",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          1164,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          1137.6,
+          201.7465370514026,
+          1190.4,
+          234.2534629485974
+        ],
+        "actor_expanded_aabb_xyxy": [
+          1126.8,
+          195.0973931178855,
+          1201.2,
+          240.9026068821145
+        ],
+        "world_aabb_min": [
+          11.493333333333334,
+          0.685,
+          -0.44280190860863505
+        ],
+        "world_aabb_max": [
+          12.373333333333333,
+          0.865,
+          0.43719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 4.0973931178855025,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_2_Right_Shaft",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          1164,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          1150.8,
+          209.87326852570132,
+          1177.2,
+          226.12673147429868
+        ],
+        "actor_expanded_aabb_xyxy": [
+          1140.0,
+          203.2241245921842,
+          1188.0,
+          232.7758754078158
+        ],
+        "world_aabb_min": [
+          11.713333333333333,
+          0.865,
+          -0.22280190860863505
+        ],
+        "world_aabb_max": [
+          12.153333333333334,
+          4.295,
+          0.21719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 12.22412459218421,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowColumn_2_Right_Capital",
+        "mesh_type": "CylinderMesh",
+        "source_ground_center": [
+          1164,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          1135.2,
+          200.26894951062104,
+          1192.8,
+          235.73105048937896
+        ],
+        "actor_expanded_aabb_xyxy": [
+          1124.4,
+          193.61980557710393,
+          1203.6,
+          242.38019442289607
+        ],
+        "world_aabb_min": [
+          11.453333333333333,
+          4.295,
+          -0.48280190860863503
+        ],
+        "world_aabb_max": [
+          12.413333333333334,
+          4.535,
+          0.47719809139136493
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 2.619805577103932,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "WindowLintel_2",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          1056,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          938.4,
+          210.9814591812875,
+          1173.6,
+          225.0185408187125
+        ],
+        "actor_expanded_aabb_xyxy": [
+          927.6,
+          204.3323152477704,
+          1184.3999999999999,
+          231.6676847522296
+        ],
+        "world_aabb_min": [
+          8.173333333333332,
+          4.535,
+          -0.19280190860863505
+        ],
+        "world_aabb_max": [
+          12.093333333333334,
+          4.755,
+          0.18719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 13.332315247770396,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "ContinuousRearUpperBeam",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          637.0,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          -170.0,
+          212.0896498368737,
+          1444.0,
+          223.9103501631263
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -180.8,
+          205.44050590335658,
+          1454.8,
+          230.55949409664342
+        ],
+        "world_aabb_min": [
+          -10.299999999999999,
+          4.755,
+          -0.16280190860863505
+        ],
+        "world_aabb_max": [
+          16.599999999999998,
+          6.205,
+          0.15719809139136495
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 14.44050590335658,
+        "separated_axis": "rear"
+      },
+      {
+        "node": "ReturnArchPier_Rear",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          -20,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          -35.0,
+          209.5038716405059,
+          -5.0,
+          226.4961283594941
+        ],
+        "actor_expanded_aabb_xyxy": [
+          -45.8,
+          202.8547277069888,
+          5.799999999999999,
+          233.1452722930112
+        ],
+        "world_aabb_min": [
+          -8.05,
+          0.015,
+          -0.23280190860863506
+        ],
+        "world_aabb_max": [
+          -7.55,
+          2.815,
+          0.22719809139136496
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 30.200000000000003,
+        "separated_axis": "left"
+      },
+      {
+        "node": "EndArchPier_Rear",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          1304,
+          218
+        ],
+        "source_ground_aabb_xyxy": [
+          1289.0,
+          209.5038716405059,
+          1319.0,
+          226.4961283594941
+        ],
+        "actor_expanded_aabb_xyxy": [
+          1278.2,
+          202.8547277069888,
+          1329.8,
+          233.1452722930112
+        ],
+        "world_aabb_min": [
+          14.016666666666667,
+          0.015,
+          -0.23280190860863506
+        ],
+        "world_aabb_max": [
+          14.516666666666667,
+          2.815,
+          0.22719809139136496
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 34.200000000000045,
+        "separated_axis": "right"
+      },
+      {
+        "node": "FrontLowWall_0",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          336,
+          386
+        ],
+        "source_ground_aabb_xyxy": [
+          240.0,
+          380.08964983687366,
+          432.0,
+          391.91035016312634
+        ],
+        "actor_expanded_aabb_xyxy": [
+          229.2,
+          373.44050590335655,
+          442.8,
+          398.55949409664345
+        ],
+        "world_aabb_min": [
+          -3.466666666666667,
+          0.015,
+          4.385151978743048
+        ],
+        "world_aabb_max": [
+          -0.2666666666666666,
+          0.265,
+          4.705151978743048
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 28.440505903356552,
+        "separated_axis": "front"
+      },
+      {
+        "node": "FrontLowCoping_0",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          336,
+          386
+        ],
+        "source_ground_aabb_xyxy": [
+          237.0,
+          378.6120622960921,
+          435.0,
+          393.3879377039079
+        ],
+        "actor_expanded_aabb_xyxy": [
+          226.2,
+          371.962918362575,
+          445.8,
+          400.037081637425
+        ],
+        "world_aabb_min": [
+          -3.5166666666666666,
+          0.265,
+          4.345151978743048
+        ],
+        "world_aabb_max": [
+          -0.21666666666666679,
+          0.335,
+          4.745151978743048
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 26.96291836257501,
+        "separated_axis": "front"
+      },
+      {
+        "node": "FrontLowWall_1",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          1008,
+          386
+        ],
+        "source_ground_aabb_xyxy": [
+          912.0,
+          380.08964983687366,
+          1104.0,
+          391.91035016312634
+        ],
+        "actor_expanded_aabb_xyxy": [
+          901.2,
+          373.44050590335655,
+          1114.8,
+          398.55949409664345
+        ],
+        "world_aabb_min": [
+          7.733333333333334,
+          0.015,
+          4.385151978743048
+        ],
+        "world_aabb_max": [
+          10.933333333333334,
+          0.265,
+          4.705151978743048
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 28.440505903356552,
+        "separated_axis": "front"
+      },
+      {
+        "node": "FrontLowCoping_1",
+        "mesh_type": "BoxMesh",
+        "source_ground_center": [
+          1008,
+          386
+        ],
+        "source_ground_aabb_xyxy": [
+          909.0,
+          378.6120622960921,
+          1107.0,
+          393.3879377039079
+        ],
+        "actor_expanded_aabb_xyxy": [
+          898.2,
+          371.962918362575,
+          1117.8,
+          400.037081637425
+        ],
+        "world_aabb_min": [
+          7.683333333333334,
+          0.265,
+          4.345151978743048
+        ],
+        "world_aabb_max": [
+          10.983333333333334,
+          0.335,
+          4.745151978743048
+        ],
+        "below_foot_support": false,
+        "outside_walk_with_actor_clearance": true,
+        "walk_separation_px": 26.96291836257501,
+        "separated_axis": "front"
+      }
+    ]
+  },
+  "edge_camera_floor_audit": {
+    "conservative_pan_limits": [
+      -152,
+      536
+    ],
+    "legal_walk_endpoint_offsets": [
+      -148,
+      532
+    ],
+    "conservative_view_union_source_x": [
+      -152,
+      1432
+    ],
+    "conservative_floor_left_right_margins_px": [
+      18,
+      12
+    ],
+    "legal_view_union_source_x": [
+      -148,
+      1428
+    ],
+    "legal_floor_left_right_margins_px": [
+      22,
+      16
+    ],
+    "vertical_pan_limit": 40,
+    "required_ground_bottom_source_y": 401,
+    "floor_bottom_margin_px": 49,
+    "rear_floor_overlap": "Floor begins y220 underneath the rear dado centered y225, so the rear foundation joins continuously.",
+    "end_walk_screen_x": 712,
+    "end_maximum_pose_screen_x": 888
+  },
+  "sources": {
+    "manifest": "docs/r2_asset_manifest.json",
+    "assets": [
+      {
+        "texture": "res://assets/r2/interior/paving.png",
+        "width": 192,
+        "height": 96,
+        "sha256_png": "b9a5baa51c5c8436496b9ce51c19a3194b39169d9a55031a08d1fe237ad7f956",
+        "sha256_rgba": "56063816059c0828093b2ea2f0451c855d0c99f3f02f70c7ced130670cdd351c",
+        "alpha_range": [
+          255,
+          255
+        ],
+        "role": "interior/paving",
+        "original_img_crop": false,
+        "derived_subrect": true,
+        "source_texture": "res://assets/r2/interior/floor.png",
+        "source_rect_xyxy": [
+          16,
+          16,
+          208,
+          112
+        ],
+        "export": "Exact RGBA subrectangle of exported source crop; no resampling, rectification or color edits.",
+        "verified_alpha_range": [
+          255,
+          255
+        ],
+        "use_policy": "Existing unchanged PNG and full RGBA; no new crop or image export",
+        "original_source_frame_reference": {
+          "texture": "res://assets/r2/interior/floor.png",
+          "width": 224,
+          "height": 120,
+          "sha256_png": "3b91d4726297fa475ccedfcaebae9ca6e6005f9935bf98b568ba67dfffdfccf5",
+          "sha256_rgba": "7f97ee756bc22d2432a1a7ee15dc6121421cc314d47711d6e43e99dab3c284cd",
+          "alpha_range": [
+            255,
+            255
+          ],
+          "role": "interior/floor",
+          "original_img_crop": true,
+          "derived_subrect": false,
+          "img_frame": 0,
+          "resolved_img_frame": 0,
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 224,
+            "height": 120,
+            "x": 0,
+            "y": 0,
+            "canvas_width": 224,
+            "canvas_height": 120,
+            "data_offset": 284,
+            "data_bytes": 4753,
+            "version": 2
+          },
+          "source": {
+            "client": "95",
+            "npk": "sprite_map_act2_amon.NPK",
+            "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+            "img": "sprite/map/act2/amon/200amonnewex.img",
+            "npk_entry_offset": 68884,
+            "payload_bytes": 32533,
+            "sha256_img_payload": "dbfacce69649666b3ae64debb1e70a52e2eaa7f44ac3eb02cdef876ba0cba1c3"
+          },
+          "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction."
+        }
+      },
+      {
+        "texture": "res://assets/r2/interior/column.png",
+        "width": 29,
+        "height": 93,
+        "sha256_png": "4eafb3ddd62e4af5b8d0fe874e5bf98864e21dfd7006e88bd858f3cdc7cb290d",
+        "sha256_rgba": "3c353ccd201c43355658636cdad46f037629c6d878300a0c8d32a9c3f13479ef",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "role": "interior/column",
+        "original_img_crop": true,
+        "derived_subrect": false,
+        "img_frame": 0,
+        "resolved_img_frame": 0,
+        "img_metadata": {
+          "type": 14,
+          "mode": 6,
+          "width": 29,
+          "height": 93,
+          "x": 0,
+          "y": 0,
+          "canvas_width": 29,
+          "canvas_height": 93,
+          "data_offset": 68,
+          "data_bytes": 1234,
+          "version": 2
+        },
+        "source": {
+          "client": "95",
+          "npk": "sprite_map_act2.NPK",
+          "npk_sha256": "d262997bbe267fd4ccbcd84509e024bc8e1aead1aace03bfe21a7ea9a543f8ba",
+          "img": "sprite/map/act2/marblestonepillar.img",
+          "npk_entry_offset": 212989,
+          "payload_bytes": 1302,
+          "sha256_img_payload": "9b25110ab97418b60bcce378ac0663f64c751d93624460982c99689f67109734"
+        },
+        "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction.",
+        "verified_alpha_range": [
+          0,
+          255
+        ],
+        "use_policy": "Existing unchanged PNG and full RGBA; no new crop or image export"
+      },
+      {
+        "texture": "res://assets/r2/approach/bridge_0.png",
+        "width": 224,
+        "height": 306,
+        "sha256_png": "0ecf8db65e61067fb8a034356e7d9cf3eef94a61f4f30c9be9d1060495ae7896",
+        "sha256_rgba": "2fe62588805e6491d2e2074900aaec4a10164f114e981a14aabb1cffe1f3151d",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "role": "approach/bridge_0",
+        "original_img_crop": true,
+        "derived_subrect": false,
+        "img_frame": 0,
+        "resolved_img_frame": 0,
+        "img_metadata": {
+          "type": 14,
+          "mode": 6,
+          "width": 224,
+          "height": 306,
+          "x": 0,
+          "y": 254,
+          "canvas_width": 224,
+          "canvas_height": 560,
+          "data_offset": 176,
+          "data_bytes": 8068,
+          "version": 2
+        },
+        "source": {
+          "client": "95",
+          "npk": "sprite_map_hendonmyre.NPK",
+          "npk_sha256": "9c2ec086ce0c368c7be33807bfa8220d14007156cf40f05f20210f3d5121ef7f",
+          "img": "sprite/map/hendonmyre/skybridge.img",
+          "npk_entry_offset": 3161025,
+          "payload_bytes": 82889,
+          "sha256_img_payload": "5722dfc76d2766c1a8042c797024f819e952e0e8957de4769631f050ebcad179"
+        },
+        "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction.",
+        "verified_alpha_range": [
+          0,
+          255
+        ],
+        "use_policy": "Existing unchanged PNG and full RGBA; no new crop or image export"
+      },
+      {
+        "texture": "res://assets/r2/interior/far.png",
+        "width": 630,
+        "height": 355,
+        "sha256_png": "68355157b25e188eef2d05adcf76f3681b6a53144991f8c7d7e5f7ccfbf2c2b0",
+        "sha256_rgba": "8d43407836639a9b6c7ec14f38e93b6e39cfe273dff04267cbdf391db1d7c433",
+        "alpha_range": [
+          255,
+          255
+        ],
+        "role": "interior/far",
+        "original_img_crop": true,
+        "derived_subrect": false,
+        "img_frame": 0,
+        "resolved_img_frame": 0,
+        "img_metadata": {
+          "type": 14,
+          "mode": 6,
+          "width": 630,
+          "height": 355,
+          "x": 0,
+          "y": 0,
+          "canvas_width": 630,
+          "canvas_height": 355,
+          "data_offset": 68,
+          "data_bytes": 26318,
+          "version": 2
+        },
+        "source": {
+          "client": "95",
+          "npk": "sprite_map_act2_amon.NPK",
+          "npk_sha256": "c8890e7e9b7f0a7cbe0ec50f0961353a4f41809a5567083658f5002f3616d293",
+          "img": "sprite/map/act2/amon/far_dr.img",
+          "npk_entry_offset": 357359,
+          "payload_bytes": 26386,
+          "sha256_img_payload": "65c32fdfec403205d39848d6fdef885f38175b42c5157c85fe876e887e444fce"
+        },
+        "export": "Exact decoded RGBA crop; no resizing, color/alpha edits or canvas reconstruction.",
+        "verified_alpha_range": [
+          255,
+          255
+        ],
+        "use_policy": "Existing unchanged PNG and full RGBA; no new crop or image export"
+      }
+    ],
+    "pixel_exports_added": 0,
+    "unchanged_reused_PNGs": 4
+  },
+  "outputs": [
+    {
+      "scene": "scenes/tower_statue_gallery_world.tscn",
+      "native_mesh_instances": 36,
+      "subresources": 19,
+      "sha256": "9ab9ca931cbb355e60cd83803d2b4620c33d83513ce0f46c928c29d0dec5685c"
+    },
+    {
+      "scene": "scenes/tower_statue_gallery_collisions.tscn",
+      "sha256": "364182aaa6d82eb2ba24405dae773763bf98c6cf0f34d2bf8fd8600b486db358",
+      "obstacle_shapes": 0
+    }
+  ],
+  "producer": "tools/r4/build_statue_gallery_world.py",
+  "producer_sha256": "053cdcbfce267668d4ce3d847331dc3f67789f0c9a5f4bdf6343b4e383282850",
+  "offline_checks": {
+    "source_PNG_and_full_RGBA_match_existing_manifest": true,
+    "source_PNGs_unchanged_after_build": true,
+    "material_subrects_fully_opaque": true,
+    "all_34_decorative_AABBs_plus_foot_radius_separated_by_at_least_2px": true,
+    "full_conservative_camera_view_has_floor": true
+  },
+  "integration_pending": [
+    "Parent adds statue_gallery region scene, enum/world selection and route definitions",
+    "Parent configures SourceFraming horizontal limits [-152,536] before travel spawn/snap",
+    "Parent maps the intentionally empty collision scene and adds standard UI/audio/runtime region allowlists",
+    "Separate statue encounter, damage type and gate belong to parent; no battle or profile behavior is authored here",
+    "Parent native preview verifies window masking, lit architecture and both extreme camera views"
+  ],
+  "not_run": [
+    "Godot process, parser, editor or live scene",
+    "Blender",
+    "client executable"
+  ],
+  "runtime_integration": {
+    "stage": "R4/08",
+    "camera_config": "region.horizontal_pan_limits[-152,536], default±152 elsewhere",
+    "root_scene": "res://scenes/tower_statue_gallery.tscn",
+    "enemy_spawn": [
+      960,
+      300
+    ],
+    "route": "doll_gallery clear strictbool permits forward D; return A always available while free/alive",
+    "native_acceptance": "pending separate check report"
+  }
+}

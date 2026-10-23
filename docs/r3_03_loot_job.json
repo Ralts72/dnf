@@ -1,0 +1,13 @@
+{
+  "check_script": "res://tools/r3/loot_checks.gd",
+  "elapsed_seconds": 24.645413,
+  "qa_source_sha256": "b3c1e6145fb8588aab007179865a8a179fc16afd5ec4eeb2f390a341c07f875d",
+  "render_cases_completed": 23,
+  "result": {
+    "checks": 23,
+    "failed": [],
+    "recorded_rows": 2763,
+    "render_cases": 23
+  },
+  "status": "complete"
+}

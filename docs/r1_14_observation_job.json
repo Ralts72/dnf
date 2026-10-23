@@ -1,0 +1,97 @@
+{
+  "duration_seconds": 30.0,
+  "elapsed_seconds": 60.893325,
+  "report": {
+    "ambient_active_frames": 4323,
+    "ambient_play_starts": 1,
+    "ambient_player_id": 73349991150,
+    "candidate": "R1/14",
+    "checks": [
+      {
+        "check": "full_1080_native_targets",
+        "pass": true
+      },
+      {
+        "check": "all_six_clips_observed",
+        "pass": true
+      },
+      {
+        "check": "full_3d_pass_active",
+        "pass": true
+      },
+      {
+        "check": "main_3d_disabled",
+        "pass": true
+      },
+      {
+        "check": "sample_duration_at_least_30_seconds",
+        "pass": true
+      },
+      {
+        "check": "p95_within_60fps_frame_budget",
+        "pass": true
+      },
+      {
+        "check": "water_clock_advances_during_observation",
+        "pass": true
+      },
+      {
+        "check": "music_remains_active_during_observation",
+        "pass": true
+      },
+      {
+        "check": "one_music_player_retained_during_observation",
+        "pass": true
+      },
+      {
+        "check": "ambient_remains_active_during_observation",
+        "pass": true
+      },
+      {
+        "check": "one_ambient_player_retained_during_observation",
+        "pass": true
+      }
+    ],
+    "clips": [
+      "stay",
+      "move",
+      "dash",
+      "attack1",
+      "attack2",
+      "hopsmash"
+    ],
+    "draw_calls_max": 319,
+    "draw_calls_min": 319,
+    "failed": 0,
+    "full_target": "(1920, 1080)",
+    "godot": "4.7.2-stable (official)",
+    "music_active_frames": 4323,
+    "music_elapsed_seconds": 32.1799527220428,
+    "music_play_starts": 1,
+    "music_player_id": 73081555689,
+    "notes": [
+      "30 seconds in the current Mac session; not long-term stability or Windows validation.",
+      "Frame intervals include the offscreen full scene; the visible main 3D pass was disabled.",
+      "Six source poses, both facings, changing positions, NPC animations, ship motion, shadows and water remain active.",
+      "Direct pose movement is a rendering load only, not a collision or gameplay fidelity test."
+    ],
+    "observation": {
+      "elapsed_sample_seconds": 30.009866,
+      "fps_from_mean": 144.052625893098,
+      "frames": 4323,
+      "frames_over_16_67_ms": 0,
+      "max_ms": 10.352,
+      "mean_ms": 6.94190747166321,
+      "median_ms": 6.9,
+      "p95_ms": 8.7,
+      "percent_over_16_67_ms": 0.0
+    },
+    "platform": "macOS",
+    "qa_source_sha256": "d268e89d48a6b38a36bf878796d25a245ae0b1a451ab6a3dfd0e6730a6ad6b6d",
+    "scene_target": "(1792, 808)",
+    "warmup_seconds": 2.0,
+    "water_elapsed_seconds": 32.0454833333539
+  },
+  "sampled_frames": 4323,
+  "status": "complete"
+}

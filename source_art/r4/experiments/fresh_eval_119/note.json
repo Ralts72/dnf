@@ -1,0 +1,33 @@
+{
+  "run": "r50116697-119",
+  "scope": "Read-only fresh-state probe failed; not a gameplay failure or counted validation run.",
+  "reason": "The inline game_eval multi-line loop used space indentation inside the tab-indented eval wrapper, causing Mixed use of tabs and spaces parser break. No project source changed; replace probe with a single-line read and relaunch. Historical debugger rows are preserved.",
+  "state": {
+    "current_scene": "res://scenes/west_coast_r1.tscn",
+    "game_capture_ready": true,
+    "game_status": {
+      "active": true,
+      "break": {
+        "can_debug": false,
+        "pre_live": false,
+        "reason": "Parser Error: Mixed use of tabs and spaces for indentation."
+      },
+      "editor_log_cursor": 17,
+      "elapsed_msec": 191536,
+      "helper_expected": true,
+      "helper_live": false,
+      "ready": true,
+      "ready_wait_msec": 20000,
+      "run_started_msec": 50116697,
+      "run_token": 119,
+      "session_active": true,
+      "status": "break"
+    },
+    "godot_version": "4.7.2-stable (official)",
+    "helper_live": false,
+    "is_playing": true,
+    "project_name": "dnf",
+    "readiness": "playing",
+    "session_active": true
+  }
+}

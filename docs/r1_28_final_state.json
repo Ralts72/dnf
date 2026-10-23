@@ -1,0 +1,60 @@
+{
+  "build": "R1   /   28",
+  "camera_offset_pixels": 12.0,
+  "camera_physics_interpolation_mode": 2,
+  "camera_target_pixels": 12.0,
+  "derived_locomotion_enabled": true,
+  "derived_texture_counts": {
+    "dash": 16.0,
+    "move": 16.0
+  },
+  "diagnostics_active": false,
+  "diagnostics_processing": false,
+  "diagnostics_visible": false,
+  "loaded_scripts": {
+    "res://scripts/source_actor_3d.gd": {
+      "disk_sha256": "c1ee0f6ff5fbcf84cb894fc1d8e762fdce813bc66328419860b4c9bb5640e39e",
+      "loaded_sha256": "c1ee0f6ff5fbcf84cb894fc1d8e762fdce813bc66328419860b4c9bb5640e39e"
+    },
+    "res://scripts/source_framing.gd": {
+      "disk_sha256": "3cfc4d1379eac78d17df9e16d0d37e532c89d66c3bc34bae676214229f9fabe5",
+      "loaded_sha256": "3cfc4d1379eac78d17df9e16d0d37e532c89d66c3bc34bae676214229f9fabe5"
+    },
+    "res://scripts/west_coast_r1.gd": {
+      "disk_sha256": "3eab7b34109dd04e5c0c87d2d8b97e24739027d0980ba7a036ea1643e93bf952",
+      "loaded_sha256": "3eab7b34109dd04e5c0c87d2d8b97e24739027d0980ba7a036ea1643e93bf952"
+    }
+  },
+  "native_actor_interpolation": true,
+  "physics_ticks": 60,
+  "player": {
+    "action": "stay",
+    "audio": {
+      "clock_ms": 0.0,
+      "pending": []
+    },
+    "elapsed_ms": 1.84666666666665,
+    "facing": 1,
+    "frame": 2,
+    "jump": {
+      "air_attack_started": -1.0,
+      "air_attack_used": false,
+      "elapsed": -1.0,
+      "travel_speed": 95.0
+    },
+    "next_attack": "attack1",
+    "one_shot": false,
+    "paused": false,
+    "position": "(440.0, 320.0)",
+    "preview": false
+  },
+  "render_scale": 2,
+  "root_children": [
+    "_mcp_game_helper",
+    "PortMusic",
+    "PortAmbience",
+    "WestCoastR1",
+    "FrameDiagnostics"
+  ],
+  "scene": "res://scenes/west_coast_r1.tscn"
+}

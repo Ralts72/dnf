@@ -1,0 +1,9 @@
+{
+  "capture": "res://docs/previews/r1_08_full1080.png",
+  "draw_calls": 272,
+  "full_target": "(1920, 1080)",
+  "note": "Native Godot full-frame output with animation paused for the snapshot. Main scene is restored afterward. Not a performance benchmark.",
+  "own_texture_binding": true,
+  "qa_source_sha256": "bdef411799eb5e0297654c1353246b4972c6f71dded68be7618c0d749235690b",
+  "scene_target": "(1792, 808)"
+}

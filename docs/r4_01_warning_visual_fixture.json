@@ -1,0 +1,66 @@
+{
+  "formal": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "path": "res://docs/previews/r4_01_heavy_warning_fixture.png",
+  "save_error": 0,
+  "scope": "Explicit staged visual fixture only. Hero/boss positioned at515/640,y320; _start_attack(heavy), player paused at attack_clock0. This screenshot proves warning composition, not timing/gameplay.",
+  "state": {
+    "armor_remaining": 0.85,
+    "attack_clock": 0.0,
+    "attack_clock_ms": 0.0,
+    "attack_kind": "heavy",
+    "cleared": false,
+    "combat_blocked": true,
+    "enemy_action_elapsed_ms": 0.0,
+    "enemy_attack_instance": 1,
+    "enemy_cooldown": 0.366666666666667,
+    "enemy_hit_used": false,
+    "enemy_hp": 220,
+    "enemy_hurt_remaining": 0.0,
+    "enemy_mode": "attack",
+    "enemy_source_position": "(640.0, 320.0)",
+    "enemy_visible": true,
+    "event_counters": {
+      "armored_hits": 0,
+      "defeats": 0,
+      "enemy_attacks": 1,
+      "enemy_hits": 0,
+      "heavy_attacks": 1,
+      "hero_hits": 0,
+      "normal_attacks": 0,
+      "resets": 0,
+      "stagger_immune_hits": 0,
+      "victories": 0
+    },
+    "hero_attack_instance": 0,
+    "hero_hit_used": false,
+    "hero_hurt_remaining": 0.0,
+    "hero_lock": false,
+    "last_attack_kind": "heavy",
+    "locked_facing": -1,
+    "pattern_index": 1,
+    "player_hp": 100,
+    "player_source_position": "(515.0, 320.0)",
+    "punish_remaining": 0.0,
+    "qa_freeze_enemy": false,
+    "release_pending": false,
+    "stagger_immunity_remaining": 0.0,
+    "telegraph_visible": true
+  }
+}

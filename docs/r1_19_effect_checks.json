@@ -1,0 +1,1152 @@
+{
+  "candidate": "R1/19",
+  "checks": [
+    {
+      "check": "imported_fx_rgba_b-start_001.png",
+      "details": {
+        "path": "res://assets/r0/effects/hopsmash/b-start/001.png",
+        "rgba_pixels": 5400,
+        "size": "(90, 60)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_fx_rgba_b-middle_000.png",
+      "details": {
+        "path": "res://assets/r0/effects/hopsmash/b-middle/000.png",
+        "rgba_pixels": 10080,
+        "size": "(72, 140)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_fx_rgba_b-middle_001.png",
+      "details": {
+        "path": "res://assets/r0/effects/hopsmash/b-middle/001.png",
+        "rgba_pixels": 5194,
+        "size": "(49, 106)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_fx_rgba_d-end_000.png",
+      "details": {
+        "path": "res://assets/r0/effects/hopsmash/d-end/000.png",
+        "rgba_pixels": 14980,
+        "size": "(107, 140)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_fx_rgba_d-end_001.png",
+      "details": {
+        "path": "res://assets/r0/effects/hopsmash/d-end/001.png",
+        "rgba_pixels": 16641,
+        "size": "(129, 129)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_fx_rgba_d-end_002.png",
+      "details": {
+        "path": "res://assets/r0/effects/hopsmash/d-end/002.png",
+        "rgba_pixels": 14496,
+        "size": "(151, 96)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_fx_rgba_d-end_003.png",
+      "details": {
+        "path": "res://assets/r0/effects/hopsmash/d-end/003.png",
+        "rgba_pixels": 17069,
+        "size": "(169, 101)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_fx_rgba_d-end_004.png",
+      "details": {
+        "path": "res://assets/r0/effects/hopsmash/d-end/004.png",
+        "rgba_pixels": 12483,
+        "size": "(171, 73)"
+      },
+      "pass": true
+    },
+    {
+      "check": "imported_fx_rgba_d-end_005.png",
+      "details": {
+        "path": "res://assets/r0/effects/hopsmash/d-end/005.png",
+        "rgba_pixels": 8957,
+        "size": "(169, 53)"
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_all_source_delay_and_frame_boundaries",
+      "details": {
+        "rows": [
+          {
+            "actual": [],
+            "expected": [],
+            "ms": 0.0,
+            "pass": true
+          },
+          {
+            "actual": [],
+            "expected": [],
+            "ms": 359.99,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/b-start/001.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/b-start/001.png"
+            ],
+            "ms": 360.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/b-start/001.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/b-start/001.png"
+            ],
+            "ms": 419.99,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/b-middle/000.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/b-middle/000.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "ms": 420.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/b-middle/000.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/b-middle/000.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "ms": 479.99,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/b-middle/001.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/b-middle/001.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "ms": 480.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/b-middle/001.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/b-middle/001.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "ms": 539.99,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "ms": 540.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "ms": 599.99,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/001.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/001.png"
+            ],
+            "ms": 600.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/002.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/002.png"
+            ],
+            "ms": 660.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/003.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/003.png"
+            ],
+            "ms": 720.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/004.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/004.png"
+            ],
+            "ms": 780.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/005.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/005.png"
+            ],
+            "ms": 840.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/005.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/005.png"
+            ],
+            "ms": 899.99,
+            "pass": true
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_pause_freezes_pose_and_fx",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_checkbox_hides_fx_without_changing_pose",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_F10_restores_same_effect_frame",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_single_step_uses_pose_time",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_loop_wrap_clears_previous_effects",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_one_shot_returns_to_idle_without_fx",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_real_Q_runs_source_tracks",
+      "details": {
+        "active": [
+          {
+            "offset": "(67.0, -159.0)",
+            "start_ms": 420.0,
+            "texture": "res://assets/r0/effects/hopsmash/b-middle/000.png",
+            "track": "sword"
+          },
+          {
+            "offset": "(56.0, -116.0)",
+            "start_ms": 420.0,
+            "texture": "res://assets/r0/effects/hopsmash/d-end/000.png",
+            "track": "smash"
+          }
+        ],
+        "pose_ms": 425.717222222222
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_other_actions_hide_effects",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_toggle_inside_footer_without_help_overlap",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_native_additive_pixels_1",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_native_additive_pixels_2",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "native_foreground_mesh_occludes_additive_fx",
+      "details": {
+        "independent_source_effect_overlap_samples": 285,
+        "opaque_green_pixels": 11772,
+        "unchanged_pixels": 11772
+      },
+      "pass": true
+    },
+    {
+      "check": "F4_to_R0_retains_pose_and_effect_frames",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_all_source_delay_and_frame_boundaries",
+      "details": {
+        "rows": [
+          {
+            "actual": [],
+            "expected": [],
+            "ms": 0.0,
+            "pass": true
+          },
+          {
+            "actual": [],
+            "expected": [],
+            "ms": 359.99,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/b-start/001.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/b-start/001.png"
+            ],
+            "ms": 360.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/b-start/001.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/b-start/001.png"
+            ],
+            "ms": 419.99,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/b-middle/000.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/b-middle/000.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "ms": 420.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/b-middle/000.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/b-middle/000.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "ms": 479.99,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/b-middle/001.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/b-middle/001.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "ms": 480.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/b-middle/001.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/b-middle/001.png",
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "ms": 539.99,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "ms": 540.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/000.png"
+            ],
+            "ms": 599.99,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/001.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/001.png"
+            ],
+            "ms": 600.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/002.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/002.png"
+            ],
+            "ms": 660.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/003.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/003.png"
+            ],
+            "ms": 720.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/004.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/004.png"
+            ],
+            "ms": 780.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/005.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/005.png"
+            ],
+            "ms": 840.0,
+            "pass": true
+          },
+          {
+            "actual": [
+              "res://assets/r0/effects/hopsmash/d-end/005.png"
+            ],
+            "expected": [
+              "res://assets/r0/effects/hopsmash/d-end/005.png"
+            ],
+            "ms": 899.99,
+            "pass": true
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "check": "R0_pause_freezes_pose_and_fx",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_checkbox_hides_fx_without_changing_pose",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_F10_restores_same_effect_frame",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_single_step_uses_pose_time",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_loop_wrap_clears_previous_effects",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_one_shot_returns_to_idle_without_fx",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_real_Q_runs_source_tracks",
+      "details": {
+        "active": [],
+        "pose_ms": 426.825
+      },
+      "pass": true
+    },
+    {
+      "check": "R0_other_actions_hide_effects",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_toggle_inside_footer_without_help_overlap",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_native_additive_pixels_1",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "F4_back_retains_disabled_toggle_and_pose",
+      "details": {},
+      "pass": true
+    }
+  ],
+  "effect_data_sha256": "cb389677f0166223c3dde3a68d8a58caf41ba552f48fedd898e34ba1846605d9",
+  "failed": [],
+  "notes": [
+    "Nine imported RGBA textures are compared with unmodified source crops.",
+    "Expected native additive pixels are computed from PNG bytes and a same-pose no-effect frame, including overlapping tracks.",
+    "R1 uses native linear-light additive blending; R0 canvas uses native display-space addition. Original engine color space is unverified.",
+    "Checks cover source delays, real Q/F10 input, pause/step/loop/finish and F4 transfer; no skill movement or damage semantics are added."
+  ],
+  "qa_source_sha256": "5199a8e9a29918b14c16c773a8a227513c7eada036050be7698f934f27177093",
+  "render_cases": [
+    {
+      "bad": [],
+      "changed": 314,
+      "facing": 1,
+      "matching": 325,
+      "max_rgb_distance": 0.00255554914474487,
+      "pass": true,
+      "samples": 325,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 390.0
+    },
+    {
+      "bad": [],
+      "changed": 314,
+      "facing": -1,
+      "matching": 325,
+      "max_rgb_distance": 0.00364404916763306,
+      "pass": true,
+      "samples": 325,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 390.0
+    },
+    {
+      "bad": [],
+      "changed": 1428,
+      "facing": 1,
+      "matching": 1623,
+      "max_rgb_distance": 0.00387084484100342,
+      "pass": true,
+      "samples": 1623,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 450.0
+    },
+    {
+      "bad": [],
+      "changed": 1428,
+      "facing": -1,
+      "matching": 1623,
+      "max_rgb_distance": 0.00373983383178711,
+      "pass": true,
+      "samples": 1623,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 450.0
+    },
+    {
+      "bad": [],
+      "changed": 1250,
+      "facing": 1,
+      "matching": 1476,
+      "max_rgb_distance": 0.00387084484100342,
+      "pass": true,
+      "samples": 1476,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 510.0
+    },
+    {
+      "bad": [],
+      "changed": 1250,
+      "facing": -1,
+      "matching": 1476,
+      "max_rgb_distance": 0.00373983383178711,
+      "pass": true,
+      "samples": 1476,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 510.0
+    },
+    {
+      "bad": [],
+      "changed": 941,
+      "facing": 1,
+      "matching": 987,
+      "max_rgb_distance": 0.00381654500961304,
+      "pass": true,
+      "samples": 987,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 630.0
+    },
+    {
+      "bad": [],
+      "changed": 941,
+      "facing": -1,
+      "matching": 987,
+      "max_rgb_distance": 0.00376302003860474,
+      "pass": true,
+      "samples": 987,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 630.0
+    },
+    {
+      "bad": [],
+      "changed": 942,
+      "facing": 1,
+      "matching": 968,
+      "max_rgb_distance": 0.00358718633651733,
+      "pass": true,
+      "samples": 968,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 690.0
+    },
+    {
+      "bad": [],
+      "changed": 939,
+      "facing": -1,
+      "matching": 968,
+      "max_rgb_distance": 0.00377577543258667,
+      "pass": true,
+      "samples": 968,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 690.0
+    },
+    {
+      "bad": [],
+      "changed": 859,
+      "facing": 1,
+      "matching": 876,
+      "max_rgb_distance": 0.00374782085418701,
+      "pass": true,
+      "samples": 876,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 750.0
+    },
+    {
+      "bad": [],
+      "changed": 850,
+      "facing": -1,
+      "matching": 876,
+      "max_rgb_distance": 0.00363326072692871,
+      "pass": true,
+      "samples": 876,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 750.0
+    },
+    {
+      "bad": [],
+      "changed": 539,
+      "facing": 1,
+      "matching": 546,
+      "max_rgb_distance": 0.00383758544921875,
+      "pass": true,
+      "samples": 546,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 810.0
+    },
+    {
+      "bad": [],
+      "changed": 529,
+      "facing": -1,
+      "matching": 546,
+      "max_rgb_distance": 0.00369337201118469,
+      "pass": true,
+      "samples": 546,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 810.0
+    },
+    {
+      "bad": [],
+      "changed": 143,
+      "facing": 1,
+      "matching": 143,
+      "max_rgb_distance": 0.00388646125793457,
+      "pass": true,
+      "samples": 143,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 870.0
+    },
+    {
+      "bad": [],
+      "changed": 137,
+      "facing": -1,
+      "matching": 143,
+      "max_rgb_distance": 0.00304776430130005,
+      "pass": true,
+      "samples": 143,
+      "scale": 1,
+      "scene": "R1",
+      "time_ms": 870.0
+    },
+    {
+      "bad": [],
+      "changed": 314,
+      "facing": 1,
+      "matching": 325,
+      "max_rgb_distance": 0.00325751304626465,
+      "pass": true,
+      "samples": 325,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 390.0
+    },
+    {
+      "bad": [],
+      "changed": 314,
+      "facing": -1,
+      "matching": 325,
+      "max_rgb_distance": 0.00389939546585083,
+      "pass": true,
+      "samples": 325,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 390.0
+    },
+    {
+      "bad": [],
+      "changed": 1428,
+      "facing": 1,
+      "matching": 1623,
+      "max_rgb_distance": 0.00383844971656799,
+      "pass": true,
+      "samples": 1623,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 450.0
+    },
+    {
+      "bad": [],
+      "changed": 1428,
+      "facing": -1,
+      "matching": 1623,
+      "max_rgb_distance": 0.0038163959980011,
+      "pass": true,
+      "samples": 1623,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 450.0
+    },
+    {
+      "bad": [],
+      "changed": 1250,
+      "facing": 1,
+      "matching": 1476,
+      "max_rgb_distance": 0.00378543138504028,
+      "pass": true,
+      "samples": 1476,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 510.0
+    },
+    {
+      "bad": [],
+      "changed": 1250,
+      "facing": -1,
+      "matching": 1476,
+      "max_rgb_distance": 0.00381678342819214,
+      "pass": true,
+      "samples": 1476,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 510.0
+    },
+    {
+      "bad": [],
+      "changed": 941,
+      "facing": 1,
+      "matching": 987,
+      "max_rgb_distance": 0.00373458862304688,
+      "pass": true,
+      "samples": 987,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 630.0
+    },
+    {
+      "bad": [],
+      "changed": 941,
+      "facing": -1,
+      "matching": 987,
+      "max_rgb_distance": 0.00365763902664185,
+      "pass": true,
+      "samples": 987,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 630.0
+    },
+    {
+      "bad": [],
+      "changed": 942,
+      "facing": 1,
+      "matching": 968,
+      "max_rgb_distance": 0.00383996963500977,
+      "pass": true,
+      "samples": 968,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 690.0
+    },
+    {
+      "bad": [],
+      "changed": 939,
+      "facing": -1,
+      "matching": 968,
+      "max_rgb_distance": 0.00384092330932617,
+      "pass": true,
+      "samples": 968,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 690.0
+    },
+    {
+      "bad": [],
+      "changed": 859,
+      "facing": 1,
+      "matching": 876,
+      "max_rgb_distance": 0.00374782085418701,
+      "pass": true,
+      "samples": 876,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 750.0
+    },
+    {
+      "bad": [],
+      "changed": 850,
+      "facing": -1,
+      "matching": 876,
+      "max_rgb_distance": 0.00390833616256714,
+      "pass": true,
+      "samples": 876,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 750.0
+    },
+    {
+      "bad": [],
+      "changed": 535,
+      "facing": 1,
+      "matching": 546,
+      "max_rgb_distance": 0.00383758544921875,
+      "pass": true,
+      "samples": 546,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 810.0
+    },
+    {
+      "bad": [],
+      "changed": 527,
+      "facing": -1,
+      "matching": 546,
+      "max_rgb_distance": 0.00347790122032166,
+      "pass": true,
+      "samples": 546,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 810.0
+    },
+    {
+      "bad": [],
+      "changed": 143,
+      "facing": 1,
+      "matching": 143,
+      "max_rgb_distance": 0.00388646125793457,
+      "pass": true,
+      "samples": 143,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 870.0
+    },
+    {
+      "bad": [],
+      "changed": 137,
+      "facing": -1,
+      "matching": 143,
+      "max_rgb_distance": 0.0035749077796936,
+      "pass": true,
+      "samples": 143,
+      "scale": 2,
+      "scene": "R1",
+      "time_ms": 870.0
+    },
+    {
+      "bad": [],
+      "changed": 315,
+      "facing": 1,
+      "matching": 325,
+      "max_rgb_distance": 0.00195309519767761,
+      "pass": true,
+      "samples": 325,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 390.0
+    },
+    {
+      "bad": [],
+      "changed": 315,
+      "facing": -1,
+      "matching": 325,
+      "max_rgb_distance": 0.00195309519767761,
+      "pass": true,
+      "samples": 325,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 390.0
+    },
+    {
+      "bad": [],
+      "changed": 1433,
+      "facing": 1,
+      "matching": 1623,
+      "max_rgb_distance": 0.00375241041183472,
+      "pass": true,
+      "samples": 1623,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 450.0
+    },
+    {
+      "bad": [],
+      "changed": 1433,
+      "facing": -1,
+      "matching": 1623,
+      "max_rgb_distance": 0.00386005640029907,
+      "pass": true,
+      "samples": 1623,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 450.0
+    },
+    {
+      "bad": [],
+      "changed": 1255,
+      "facing": 1,
+      "matching": 1476,
+      "max_rgb_distance": 0.00369089841842651,
+      "pass": true,
+      "samples": 1476,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 510.0
+    },
+    {
+      "bad": [],
+      "changed": 1255,
+      "facing": -1,
+      "matching": 1476,
+      "max_rgb_distance": 0.00378316640853882,
+      "pass": true,
+      "samples": 1476,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 510.0
+    },
+    {
+      "bad": [],
+      "changed": 941,
+      "facing": 1,
+      "matching": 987,
+      "max_rgb_distance": 0.001953125,
+      "pass": true,
+      "samples": 987,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 630.0
+    },
+    {
+      "bad": [],
+      "changed": 941,
+      "facing": -1,
+      "matching": 987,
+      "max_rgb_distance": 0.001953125,
+      "pass": true,
+      "samples": 987,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 630.0
+    },
+    {
+      "bad": [],
+      "changed": 942,
+      "facing": 1,
+      "matching": 968,
+      "max_rgb_distance": 0.00195309519767761,
+      "pass": true,
+      "samples": 968,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 690.0
+    },
+    {
+      "bad": [],
+      "changed": 939,
+      "facing": -1,
+      "matching": 968,
+      "max_rgb_distance": 0.00195309519767761,
+      "pass": true,
+      "samples": 968,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 690.0
+    },
+    {
+      "bad": [],
+      "changed": 859,
+      "facing": 1,
+      "matching": 876,
+      "max_rgb_distance": 0.001953125,
+      "pass": true,
+      "samples": 876,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 750.0
+    },
+    {
+      "bad": [],
+      "changed": 850,
+      "facing": -1,
+      "matching": 876,
+      "max_rgb_distance": 0.001953125,
+      "pass": true,
+      "samples": 876,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 750.0
+    },
+    {
+      "bad": [],
+      "changed": 546,
+      "facing": 1,
+      "matching": 546,
+      "max_rgb_distance": 0.001953125,
+      "pass": true,
+      "samples": 546,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 810.0
+    },
+    {
+      "bad": [],
+      "changed": 535,
+      "facing": -1,
+      "matching": 546,
+      "max_rgb_distance": 0.001953125,
+      "pass": true,
+      "samples": 546,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 810.0
+    },
+    {
+      "bad": [],
+      "changed": 143,
+      "facing": 1,
+      "matching": 143,
+      "max_rgb_distance": 0.00195309519767761,
+      "pass": true,
+      "samples": 143,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 870.0
+    },
+    {
+      "bad": [],
+      "changed": 137,
+      "facing": -1,
+      "matching": 143,
+      "max_rgb_distance": 0.00195306539535522,
+      "pass": true,
+      "samples": 143,
+      "scale": 1,
+      "scene": "R0",
+      "time_ms": 870.0
+    }
+  ]
+}

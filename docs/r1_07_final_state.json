@@ -1,0 +1,29 @@
+{
+  "actual_action_master_peak": 0.484657645225525,
+  "audio_players": 8,
+  "build": "R1   /   07",
+  "candidate": "R1/07",
+  "jump_active": false,
+  "markers": false,
+  "master_bus_effects_restored": true,
+  "mix_rate": 48000.0,
+  "muted": false,
+  "paused": false,
+  "preview": false,
+  "render_scale": 2,
+  "root_children": [
+    "_mcp_game_helper",
+    "WestCoastR1"
+  ],
+  "scene": "WestCoastR1",
+  "source_hashes": {
+    "actor_disk": "1c1afa14e11b7948591b088425f8a137b3e94706bf1c22c129f66fd50a1970f9",
+    "actor_loaded": "1c1afa14e11b7948591b088425f8a137b3e94706bf1c22c129f66fd50a1970f9",
+    "audio_disk": "0559ac92fe0ef8ee7ed372a682df6413851809410b74f32081e413930c5beb71",
+    "audio_loaded": "0559ac92fe0ef8ee7ed372a682df6413851809410b74f32081e413930c5beb71"
+  },
+  "speaker_mode": 3,
+  "stream_count": 12,
+  "ui_input_blocked": false,
+  "volume": 0.6
+}

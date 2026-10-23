@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "mapping": {
+    "takeoff_speed_px_s": 430.0,
+    "gravity_px_s2": 860.0,
+    "air_move_speed_px_s": 95,
+    "run_jump_multiplier": 1.9,
+    "takeoff_frame": 0,
+    "rising_frames": [
+      1,
+      7
+    ],
+    "falling_frames": [
+      8,
+      14
+    ],
+    "landing_frame": 15
+  },
+  "source_reference": "docs/r1_jump_source_reference.json",
+  "notes": [
+    "CHR values and ANI bytes are source evidence; their original engine unit conversion is not recovered.",
+    "This sample maps jump power to vertical screen pixels/second and jump speed to air travel pixels/second.",
+    "Gravity is chosen so the apex follows the 500ms finite ascent; prep/landing keep source frame durations.",
+    "The phase partition is inferred from the pose sequence and its two hold frames.",
+    "Ground navigation and height remain independent, matching the sample's fixed-view 2.5D model."
+  ]
+}

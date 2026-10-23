@@ -1,0 +1,1960 @@
+{
+  "study": "R1/29 published model preservation and appended overscan audit",
+  "before": {
+    "path": "source_art/r1/checkpoints/candidate_28/assets/r1/models/west_coast_port.glb",
+    "sha256": "ca75b6b591b354329266790e51d1a4bd1f2825b36379fe9f449f188b0bb9db97",
+    "meshes": 302,
+    "triangles": 106730
+  },
+  "after": {
+    "path": "assets/r1/models/west_coast_port.glb",
+    "sha256": "1163ffa227be2edee92d14ca80a0ab718026d1c8408e218ffeb11e1232833ff5",
+    "meshes": 316,
+    "triangles": 119812
+  },
+  "checks": [
+    {
+      "check": "all_original302_mesh_accessor_payloads_and_material_assignments_exact",
+      "pass": true
+    },
+    {
+      "check": "all_original39_material_entries_exact",
+      "pass": true
+    },
+    {
+      "check": "all_original_node_transforms_and_hierarchy_exact",
+      "pass": true
+    },
+    {
+      "check": "all_original_accessor_and_bufferView_definitions_exact",
+      "pass": true
+    },
+    {
+      "check": "original_binary_chunk_preserved_byte_for_byte",
+      "pass": true
+    },
+    {
+      "check": "original27_image_definitions_and_payloads_exact",
+      "pass": true
+    },
+    {
+      "check": "only14_visual_overscan_meshes_added",
+      "pass": true
+    },
+    {
+      "check": "overscan_extends_source_x_minus160_to1056",
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "original_meshes_exact": 302,
+  "original_meshes_changed": [],
+  "original_mesh_checks": [
+    {
+      "mesh": "Blue_Gate_Plank_00",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Blue_Gate_Plank_01",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Blue_Gate_Plank_02",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Blue_Gate_Plank_03",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Blue_Gate_Plank_04",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Blue_Gate_Plank_05",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Blue_Gate_Plank_06",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Blue_Gate_Plank_07",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Blue_Gate_Plank_08",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Blue_Gate_Plank_09",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Blue_Gate_Threshold",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Curved_Plaster_Facade",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Dock_Barrel_Left_Body",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Dock_Barrel_Left_Hoop_0",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Dock_Barrel_Left_Hoop_1",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Dock_Barrel_Left_Hoop_2",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Dock_Barrel_Right_Body",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Dock_Barrel_Right_Hoop_0",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Dock_Barrel_Right_Hoop_1",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Dock_Barrel_Right_Hoop_2",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Dock_Barrel_Upper_Body",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Dock_Barrel_Upper_Hoop_0",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Dock_Barrel_Upper_Hoop_1",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Dock_Barrel_Upper_Hoop_2",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.001",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.002",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Dock_Rope_Coil",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Dock_Rope_Tail",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Exposed_Plaster_Stone_00",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Exposed_Plaster_Stone_01",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Exposed_Plaster_Stone_02",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Exposed_Plaster_Stone_03",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Exposed_Plaster_Stone_04",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Exposed_Plaster_Stone_05",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Exposed_Plaster_Stone_06",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Facade_Left_Return",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Facade_Right_Return",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Foundation_00",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Foundation_01",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Foundation_02",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Foundation_09",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Foundation_10",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Foundation_11",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Foundation_12",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Foundation_13",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Foundation_14",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Foundation_15",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Foundation_16",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Foundation_17",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Dark_Recess",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Handle_Plate",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Handle_Plate.001",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_1_0",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_1_1",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_1_2",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_1_3",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_1_4",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_1_5",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_1_6",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_-1_0",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_-1_1",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_-1_2",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_-1_3",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_-1_4",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_-1_5",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_jamb_-1_6",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_00",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_01",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_02",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_03",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_04",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_05",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_06",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_07",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_08",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_09",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_10",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_11",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_12",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_13",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_14",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_15",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Gate_Stone_Arch_keystone_16",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Grove_Boundary_Wall_Front",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Grove_Boundary_Wall_Return",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Grove_Connecting_Stone_Path",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Grove_Planting_Bed_Base",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Grove_Planting_Bed_Grass",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Grove_Source_Canopy",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.005",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.006",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.003",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.004",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.001",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.002",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.012",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.013",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.010",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.011",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.007",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.008",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.009",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.019",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.020",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.017",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.018",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.014",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.015",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.016",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Mortar_Bed_Shore_Polygon",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Occlusion_Stone_0",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Occlusion_Stone_1",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Occlusion_Stone_2",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Connecting_Spine",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Far_Slab",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall0_Base",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall0_Collar",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall0_Glass",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall0_Glass_Rim",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall0_Hood",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall0_Shaft",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall0_Spire",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall1_Base",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall1_Collar",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall1_Glass",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall1_Glass_Rim",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall1_Hood",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall1_Shaft",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall1_Spire",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall2_Base",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall2_Collar",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall2_Glass",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall2_Glass_Rim",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall2_Hood",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall2_Shaft",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_FarSmall2_Spire",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Middle0_Base",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Middle0_Collar",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Middle0_Glass",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Middle0_Glass_Rim",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Middle0_Hood",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Middle0_Shaft",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Middle0_Spire",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Middle1_Base",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Middle1_Collar",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Middle1_Glass",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Middle1_Glass_Rim",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Middle1_Hood",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Middle1_Shaft",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Middle1_Spire",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Near_Base",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Near_Collar",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Near_Glass",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Near_Glass_Rim",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Near_Hood",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Near_Shaft",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Lamp_Near_Spire",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Landward_Backwall",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Pier_Middle_Slab",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Diagonal_00",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Diagonal_01",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Diagonal_02",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Diagonal_03",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Diagonal_04",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Diagonal_05",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Diagonal_06",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Diagonal_07",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Diagonal_08",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Front_00",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Front_01",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Front_02",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Front_03",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Front_04",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Front_05",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Front_06",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Front_07",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Front_08",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Front_09",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_00",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_01",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_02",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_03",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_04",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_05",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_06",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_07",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_08",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_09",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_10",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_11",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_12",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_13",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_14",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_15",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_16",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Coping_Left_17",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Retaining_Wall_Diagonal",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Retaining_Wall_Front",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Quay_Retaining_Wall_Left",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Arch_Window_Shadow",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_1_0",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_1_1",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_1_2",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_1_3",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_1_4",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_1_5",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_1_6",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_-1_0",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_-1_1",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_-1_2",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_-1_3",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_-1_4",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_-1_5",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_jamb_-1_6",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_00",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_01",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_02",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_03",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_04",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_05",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_06",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_07",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_08",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_09",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_10",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_11",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_12",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_13",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_14",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_15",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Small_Window_Stone_keystone_16",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.005",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.008",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.011",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.014",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.017",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.007",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.010",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.013",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.016",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.019",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Sphere",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Sphere.001",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Sphere.002",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Sphere.003",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Sphere.004",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.006",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.009",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.012",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.015",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.018",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Back_Rope_0",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Back_Rope_1",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Back_Rope_2",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Back_Rope_3",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Blue_Counter_Cloth",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Canopy",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Canopy_Scalloped_Valance",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Carved_Screen_Frame",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.003",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Counter",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Emblem_Post",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.020",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.023",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.026",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.029",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.032",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.022",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.025",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.028",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.031",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.034",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Sphere.005",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Sphere.006",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Sphere.007",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Sphere.008",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Sphere.009",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.021",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.024",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.027",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.030",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.033",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Front_Rope_0",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Front_Rope_1",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Front_Rope_2",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Front_Rope_3",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Green_Counter_Cloth",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cylinder.004",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Lower_Chest",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Cone.021",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Red_Drapery",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Screen_Cloth_Inset",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Stock_Sack",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Stall_Upper_Chest",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Terracotta_Diamond_Paving",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Window_Bar_0",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Window_Bar_1",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Window_Bar_2",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Window_Sill",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    },
+    {
+      "mesh": "Worn_Curved_Coping",
+      "pass": true,
+      "geometry_and_named_material_assignments_exact": true,
+      "material_semantics_exact": true
+    }
+  ],
+  "added_mesh_count": 14,
+  "added_triangles": 13082,
+  "added_meshes": [
+    {
+      "mesh": "Overscan_Left_Mortar_Bed_Shore_Polygon",
+      "source_x_min": -160.00004959106445,
+      "source_x_max": -62.0,
+      "triangles": 10
+    },
+    {
+      "mesh": "Overscan_Left_Quay_Coping_Left_00",
+      "source_x_min": -90.02886962890625,
+      "source_x_max": -62.3599739074707,
+      "triangles": 108
+    },
+    {
+      "mesh": "Overscan_Left_Quay_Coping_Left_01",
+      "source_x_min": -118.41777038574219,
+      "source_x_max": -90.74887466430664,
+      "triangles": 108
+    },
+    {
+      "mesh": "Overscan_Left_Quay_Coping_Left_02",
+      "source_x_min": -146.80667114257812,
+      "source_x_max": -119.13777542114258,
+      "triangles": 108
+    },
+    {
+      "mesh": "Overscan_Left_Quay_Coping_Left_03",
+      "source_x_min": -159.99999237060547,
+      "source_x_max": -147.52667617797852,
+      "triangles": 66
+    },
+    {
+      "mesh": "Overscan_Left_Quay_Retaining_Wall_Left",
+      "source_x_min": -159.99999237060547,
+      "source_x_max": -62.0,
+      "triangles": 10
+    },
+    {
+      "mesh": "Overscan_Left_Terracotta_Diamond_Paving",
+      "source_x_min": -159.99999237060547,
+      "source_x_max": -62.0,
+      "triangles": 7132
+    },
+    {
+      "mesh": "Overscan_Right_Mortar_Bed_Shore_Polygon",
+      "source_x_min": 958.0,
+      "source_x_max": 1056.0000495910645,
+      "triangles": 10
+    },
+    {
+      "mesh": "Overscan_Right_Quay_Coping_Front_06",
+      "source_x_min": 1043.8599853515625,
+      "source_x_max": 1055.9999923706055,
+      "triangles": 66
+    },
+    {
+      "mesh": "Overscan_Right_Quay_Coping_Front_07",
+      "source_x_min": 1015.3599624633789,
+      "source_x_max": 1043.140037536621,
+      "triangles": 108
+    },
+    {
+      "mesh": "Overscan_Right_Quay_Coping_Front_08",
+      "source_x_min": 986.8599967956543,
+      "source_x_max": 1014.6400146484375,
+      "triangles": 108
+    },
+    {
+      "mesh": "Overscan_Right_Quay_Coping_Front_09",
+      "source_x_min": 958.3599739074707,
+      "source_x_max": 986.1399917602539,
+      "triangles": 108
+    },
+    {
+      "mesh": "Overscan_Right_Quay_Retaining_Wall_Front",
+      "source_x_min": 958.0,
+      "source_x_max": 1055.9999923706055,
+      "triangles": 10
+    },
+    {
+      "mesh": "Overscan_Right_Terracotta_Diamond_Paving",
+      "source_x_min": 958.0,
+      "source_x_max": 1055.9999923706055,
+      "triangles": 5130
+    }
+  ],
+  "first_failed_export_audit": "source_art/r1/experiments/framing_29/r1_29_model_geometry_checks_first_export.json",
+  "source_assembly": "Original baseline .blend plus the14 captured generated Overscan objects; no GLB re-export of old meshes.",
+  "notes": [
+    "Original GLB arrays retain their original numeric IDs, definitions and binary payloads.",
+    "Audit does not establish native framebuffer coverage or runtime performance."
+  ]
+}

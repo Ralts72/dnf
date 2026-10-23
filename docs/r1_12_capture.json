@@ -1,0 +1,12 @@
+{
+  "capture": "res://docs/previews/r1_12_full1080.png",
+  "captured_water_seconds": 422.589678889186,
+  "draw_calls": 319,
+  "full_target": "(1920, 1080)",
+  "note": "Native Godot full-frame output with animation paused for the snapshot. Main scene is restored afterward. Not a performance benchmark.",
+  "own_texture_binding": true,
+  "private_water_material": true,
+  "qa_source_sha256": "c5cc51c79315ee34bc3777561f8708423971309187c0178fe19ae9ac86ad2953",
+  "scene_target": "(1792, 808)",
+  "source_water_seconds": 422.589678889186
+}

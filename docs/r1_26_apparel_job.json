@@ -1,0 +1,11 @@
+{
+  "check_script": "res://source_art/r1/experiments/dash_cycle_26/apparel.gd",
+  "elapsed_seconds": 0.866886,
+  "qa_source_sha256": "9923e5d95966ac84a39bf18fd54194ea464d456b8d9226f412b1bdc9756c17cb",
+  "render_cases_completed": 0,
+  "result": {
+    "all_endpoints_exact": true,
+    "cases": 24
+  },
+  "status": "complete"
+}

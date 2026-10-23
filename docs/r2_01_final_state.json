@@ -1,0 +1,83 @@
+{
+  "camera": "(0.0, 12.0)",
+  "diagnostics_active": false,
+  "diagnostics_processing": false,
+  "motion": true,
+  "physics_ticks": 60,
+  "player": {
+    "action": "stay",
+    "audio": {
+      "clock_ms": 0.0,
+      "pending": []
+    },
+    "elapsed_ms": 106.890666666657,
+    "facing": 1,
+    "frame": 4,
+    "jump": {
+      "air_attack_started": -1.0,
+      "air_attack_used": false,
+      "elapsed": -1.0,
+      "travel_speed": 95.0
+    },
+    "next_attack": "attack1",
+    "one_shot": false,
+    "paused": false,
+    "position": "(440.0, 320.0)",
+    "preview": false
+  },
+  "quality": 2,
+  "root_children": [
+    "_mcp_game_helper",
+    "PortMusic",
+    "PortAmbience",
+    "FrameDiagnostics",
+    "WestCoastR1"
+  ],
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "script_hashes": {
+    "res://scripts/exploration_stage.gd": {
+      "disk": "b114a54495793c5ad8e4982c04a38d75bc5e72b3b8b3415c87f83d0027accc71",
+      "loaded": "b114a54495793c5ad8e4982c04a38d75bc5e72b3b8b3415c87f83d0027accc71"
+    },
+    "res://scripts/source_actor_3d.gd": {
+      "disk": "99d0b6a93a504ffebc66768611bb67e4f39fd2df99bb32756ad2e70007283424",
+      "loaded": "99d0b6a93a504ffebc66768611bb67e4f39fd2df99bb32756ad2e70007283424"
+    },
+    "res://scripts/west_coast_r1.gd": {
+      "disk": "73a080bffeaee4bf24de836c76761fc57c6a175cb518bdd909096ac0b6799a84",
+      "loaded": "73a080bffeaee4bf24de836c76761fc57c6a175cb518bdd909096ac0b6799a84"
+    },
+    "res://scripts/world_travel.gd": {
+      "disk": "085e9ea8a010ba9b2cbd758574d2531e6cf2ca60ed96830d531a74958d934c31",
+      "loaded": "085e9ea8a010ba9b2cbd758574d2531e6cf2ca60ed96830d531a74958d934c31"
+    }
+  },
+  "travel": {
+    "can_exit": true,
+    "current_region": "harbor",
+    "exit_hold_id": "",
+    "exit_hold_required_seconds": 0.15,
+    "exit_hold_seconds": 0.0,
+    "fade_alpha": 0.0,
+    "grounded": true,
+    "harbor_return_position": "(60.0, 320.0)",
+    "last_error": "",
+    "last_exit": "",
+    "pending_target": "",
+    "phase": "ready",
+    "region": "harbor",
+    "reset_positions": {
+      "harbor": "(440.0, 320.0)"
+    },
+    "schema_version": 1,
+    "source_position": "(440.0, 320.0)",
+    "spawn_position": "(440.0, 320.0)",
+    "transition_count": 0,
+    "transitioning": false,
+    "ui_input_blocked": false,
+    "visited": [
+      "harbor"
+    ]
+  },
+  "walk": true
+}

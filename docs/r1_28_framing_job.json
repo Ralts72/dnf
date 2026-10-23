@@ -1,0 +1,12 @@
+{
+  "check_script": "res://source_art/r1/experiments/framing_28/gallery.gd",
+  "elapsed_seconds": 16.673364,
+  "qa_source_sha256": "b527060d1bbfd7936eba57cf389864df50ffb74be499381b8c98efae2b8897fc",
+  "render_cases_completed": 992,
+  "result": {
+    "cases": 992,
+    "checks": 5,
+    "failed": []
+  },
+  "status": "complete"
+}

@@ -1,0 +1,4735 @@
+{
+  "path": "character/swordman/swordman.chr",
+  "sha256_decoded_bytes": "4f9eb58249037a099616861eb4fa9c2fddf90fb14b4277e70ead85af1147c91e",
+  "bytes": 5112,
+  "crc": {
+    "expected": 2448814309,
+    "actual_seed_file_number": 2448814309,
+    "actual_seed_zero": 3111286404
+  },
+  "crc_matches": true,
+  "decoded": [
+    {
+      "type": 5,
+      "index": 7424,
+      "text": "[job]"
+    },
+    {
+      "type": 7,
+      "index": 3782,
+      "text": "[swordman]"
+    },
+    {
+      "type": 5,
+      "index": 7425,
+      "text": "[growtype name]"
+    },
+    {
+      "type": 7,
+      "index": 553449,
+      "text": "鬼劍士"
+    },
+    {
+      "type": 7,
+      "index": 574614,
+      "text": "劍魂"
+    },
+    {
+      "type": 7,
+      "index": 574615,
+      "text": "鬼泣"
+    },
+    {
+      "type": 7,
+      "index": 574616,
+      "text": "狂戰士"
+    },
+    {
+      "type": 7,
+      "index": 574617,
+      "text": "阿修羅"
+    },
+    {
+      "type": 7,
+      "index": 574618,
+      "text": "征服者"
+    },
+    {
+      "type": 5,
+      "index": 7431,
+      "text": "[width]"
+    },
+    {
+      "type": 2,
+      "value": 40
+    },
+    {
+      "type": 2,
+      "value": 10
+    },
+    {
+      "type": 5,
+      "index": 7432,
+      "text": "[initial value]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 180.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 140.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 7.5
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 7.5
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 4.5
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 4.5
+    },
+    {
+      "type": 5,
+      "index": 7438,
+      "text": "[dark resistance]"
+    },
+    {
+      "type": 4,
+      "value": 20.0
+    },
+    {
+      "type": 5,
+      "index": 7439,
+      "text": "[light resistance]"
+    },
+    {
+      "type": 4,
+      "value": -20.0
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 48000.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 50.0
+    },
+    {
+      "type": 5,
+      "index": 2861,
+      "text": "[move speed]"
+    },
+    {
+      "type": 4,
+      "value": 850.0
+    },
+    {
+      "type": 5,
+      "index": 2860,
+      "text": "[attack speed]"
+    },
+    {
+      "type": 4,
+      "value": 850.0
+    },
+    {
+      "type": 5,
+      "index": 7442,
+      "text": "[cast speed]"
+    },
+    {
+      "type": 4,
+      "value": 700.0
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 600.0
+    },
+    {
+      "type": 5,
+      "index": 7443,
+      "text": "[jump power]"
+    },
+    {
+      "type": 4,
+      "value": 430.0
+    },
+    {
+      "type": 5,
+      "index": 7444,
+      "text": "[weight]"
+    },
+    {
+      "type": 4,
+      "value": 68000.0
+    },
+    {
+      "type": 5,
+      "index": 7445,
+      "text": "[jump speed]"
+    },
+    {
+      "type": 2,
+      "value": 95
+    },
+    {
+      "type": 5,
+      "index": 546,
+      "text": "[skill]"
+    },
+    {
+      "type": 2,
+      "value": 181
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 2,
+      "value": 182
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 2,
+      "value": 184
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 179
+    },
+    {
+      "type": 2,
+      "value": 7
+    },
+    {
+      "type": 2,
+      "value": 5
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 46
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 169
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 174
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 547,
+      "text": "[/skill]"
+    },
+    {
+      "type": 5,
+      "index": 7447,
+      "text": "[growtype 1]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 45.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 25.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 4.800000190734863
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 4.800000190734863
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 4.199999809265137
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 4.199999809265137
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 300.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 2.5
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 1.5
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 0.949999988079071
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 0.949999988079071
+    },
+    {
+      "type": 5,
+      "index": 7448,
+      "text": "[growtype 2]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 50.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 20.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 5.0
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 5.0
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 4.0
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 4.0
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 300.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 2.5
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 2.0
+    },
+    {
+      "type": 5,
+      "index": 546,
+      "text": "[skill]"
+    },
+    {
+      "type": 2,
+      "value": 27
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 33
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 37
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 8
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 25
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 65
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 94
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 197
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 547,
+      "text": "[/skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 0.699999988079071
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.100000023841858
+    },
+    {
+      "type": 4,
+      "value": 0.699999988079071
+    },
+    {
+      "type": 5,
+      "index": 7449,
+      "text": "[awakening name]"
+    },
+    {
+      "type": 7,
+      "index": 574620,
+      "text": "劍神"
+    },
+    {
+      "type": 7,
+      "index": 574620,
+      "text": "劍神"
+    },
+    {
+      "type": 5,
+      "index": 7452,
+      "text": "[awakening 1]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 50.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 20.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 5.0
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 5.0
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 4.0
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 4.0
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 300.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 2.5
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 2.0
+    },
+    {
+      "type": 5,
+      "index": 7453,
+      "text": "[awakening skill]"
+    },
+    {
+      "type": 2,
+      "value": 91
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 7454,
+      "text": "[/awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 0.699999988079071
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.100000023841858
+    },
+    {
+      "type": 4,
+      "value": 0.699999988079071
+    },
+    {
+      "type": 5,
+      "index": 7455,
+      "text": "[awakening 2]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 50.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 20.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 5.0
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 5.0
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 4.0
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 4.0
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 300.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 2.5
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 2.0
+    },
+    {
+      "type": 5,
+      "index": 7453,
+      "text": "[awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7454,
+      "text": "[/awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 0.699999988079071
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.100000023841858
+    },
+    {
+      "type": 4,
+      "value": 0.699999988079071
+    },
+    {
+      "type": 5,
+      "index": 7456,
+      "text": "[growtype 3]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 40.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 30.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 5.5
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 5.5
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 300.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 5.0
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 5,
+      "index": 546,
+      "text": "[skill]"
+    },
+    {
+      "type": 2,
+      "value": 35
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 29
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 25
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 65
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 93
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 197
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 547,
+      "text": "[/skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.2000000476837158
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 5,
+      "index": 7449,
+      "text": "[awakening name]"
+    },
+    {
+      "type": 7,
+      "index": 574622,
+      "text": "黑暗君主"
+    },
+    {
+      "type": 7,
+      "index": 574622,
+      "text": "黑暗君主"
+    },
+    {
+      "type": 5,
+      "index": 7452,
+      "text": "[awakening 1]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 40.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 30.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 5.5
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 5.5
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 300.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 5.0
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 5,
+      "index": 7453,
+      "text": "[awakening skill]"
+    },
+    {
+      "type": 2,
+      "value": 89
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 7454,
+      "text": "[/awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.2000000476837158
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 5,
+      "index": 7455,
+      "text": "[awakening 2]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 40.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 30.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 5.5
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 5.5
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 300.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 5.0
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 5,
+      "index": 7453,
+      "text": "[awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7454,
+      "text": "[/awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.2000000476837158
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 5,
+      "index": 7459,
+      "text": "[growtype 4]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 55.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 15.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 5.5
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 5.5
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 300.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 2.5
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 2.0
+    },
+    {
+      "type": 5,
+      "index": 546,
+      "text": "[skill]"
+    },
+    {
+      "type": 2,
+      "value": 56
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 25
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 65
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 76
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 197
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 547,
+      "text": "[/skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 0.8399999737739563
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 0.800000011920929
+    },
+    {
+      "type": 4,
+      "value": 0.8999999761581421
+    },
+    {
+      "type": 5,
+      "index": 7449,
+      "text": "[awakening name]"
+    },
+    {
+      "type": 7,
+      "index": 574624,
+      "text": "帝血弒天"
+    },
+    {
+      "type": 7,
+      "index": 574624,
+      "text": "帝血弒天"
+    },
+    {
+      "type": 5,
+      "index": 7452,
+      "text": "[awakening 1]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 55.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 15.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 5.5
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 5.5
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 300.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 2.5
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 2.0
+    },
+    {
+      "type": 5,
+      "index": 7453,
+      "text": "[awakening skill]"
+    },
+    {
+      "type": 2,
+      "value": 90
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 7454,
+      "text": "[/awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 0.8399999737739563
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 0.800000011920929
+    },
+    {
+      "type": 4,
+      "value": 0.8999999761581421
+    },
+    {
+      "type": 5,
+      "index": 7455,
+      "text": "[awakening 2]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 55.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 15.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 5.5
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 5.5
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 300.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 2.5
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 2.0
+    },
+    {
+      "type": 5,
+      "index": 7453,
+      "text": "[awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7454,
+      "text": "[/awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 0.8399999737739563
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 0.800000011920929
+    },
+    {
+      "type": 4,
+      "value": 0.8999999761581421
+    },
+    {
+      "type": 5,
+      "index": 7462,
+      "text": "[growtype 5]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 45.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 25.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 4.5
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 4.5
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 4.5
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 4.5
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 300.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 4.0
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 2.0
+    },
+    {
+      "type": 5,
+      "index": 546,
+      "text": "[skill]"
+    },
+    {
+      "type": 2,
+      "value": 47
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 55
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 61
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 25
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 65
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 20
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 197
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 547,
+      "text": "[/skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 0.8100000023841858
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.100000023841858
+    },
+    {
+      "type": 4,
+      "value": 0.8999999761581421
+    },
+    {
+      "type": 5,
+      "index": 7449,
+      "text": "[awakening name]"
+    },
+    {
+      "type": 7,
+      "index": 574626,
+      "text": "天帝"
+    },
+    {
+      "type": 7,
+      "index": 574626,
+      "text": "天帝"
+    },
+    {
+      "type": 5,
+      "index": 7452,
+      "text": "[awakening 1]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 45.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 25.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 4.5
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 4.5
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 4.5
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 4.5
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 300.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 4.0
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 2.0
+    },
+    {
+      "type": 5,
+      "index": 7453,
+      "text": "[awakening skill]"
+    },
+    {
+      "type": 2,
+      "value": 92
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 7454,
+      "text": "[/awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 0.8100000023841858
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.100000023841858
+    },
+    {
+      "type": 4,
+      "value": 0.8999999761581421
+    },
+    {
+      "type": 5,
+      "index": 7455,
+      "text": "[awakening 2]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 45.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 25.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 4.5
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 4.5
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 4.5
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 4.5
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 300.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 4.0
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 2.0
+    },
+    {
+      "type": 5,
+      "index": 7453,
+      "text": "[awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7454,
+      "text": "[/awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 0.8999999761581421
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.100000023841858
+    },
+    {
+      "type": 4,
+      "value": 0.8999999761581421
+    },
+    {
+      "type": 5,
+      "index": 8137,
+      "text": "[growtype 6]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 47.5
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 22.5
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 5.0
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 4.0
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 5.0
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 4.0
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 270.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 2.0
+    },
+    {
+      "type": 5,
+      "index": 546,
+      "text": "[skill]"
+    },
+    {
+      "type": 2,
+      "value": 8
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 25
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 65
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 20
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 94
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 27
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 33
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 37
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 56
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 2,
+      "value": 187
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 547,
+      "text": "[/skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 5,
+      "index": 7449,
+      "text": "[awakening name]"
+    },
+    {
+      "type": 7,
+      "index": 574626,
+      "text": "天帝"
+    },
+    {
+      "type": 7,
+      "index": 574626,
+      "text": "天帝"
+    },
+    {
+      "type": 5,
+      "index": 7452,
+      "text": "[awakening 1]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 55.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 15.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 5.0
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 6.0
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 270.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 3.0
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 3.0
+    },
+    {
+      "type": 5,
+      "index": 7453,
+      "text": "[awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7454,
+      "text": "[/awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 5,
+      "index": 7455,
+      "text": "[awakening 2]"
+    },
+    {
+      "type": 5,
+      "index": 7433,
+      "text": "[HP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 55.0
+    },
+    {
+      "type": 5,
+      "index": 7434,
+      "text": "[MP MAX]"
+    },
+    {
+      "type": 4,
+      "value": 15.0
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 4,
+      "value": 5.0
+    },
+    {
+      "type": 5,
+      "index": 7435,
+      "text": "[physical defense]"
+    },
+    {
+      "type": 4,
+      "value": 6.0
+    },
+    {
+      "type": 5,
+      "index": 7436,
+      "text": "[magical attack]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7437,
+      "text": "[magical defense]"
+    },
+    {
+      "type": 4,
+      "value": 3.5
+    },
+    {
+      "type": 5,
+      "index": 7440,
+      "text": "[inventory limit]"
+    },
+    {
+      "type": 4,
+      "value": 270.0
+    },
+    {
+      "type": 5,
+      "index": 7441,
+      "text": "[MP regen speed]"
+    },
+    {
+      "type": 4,
+      "value": 3.0
+    },
+    {
+      "type": 5,
+      "index": 5019,
+      "text": "[hit recovery]"
+    },
+    {
+      "type": 4,
+      "value": 3.0
+    },
+    {
+      "type": 5,
+      "index": 7453,
+      "text": "[awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7454,
+      "text": "[/awakening skill]"
+    },
+    {
+      "type": 5,
+      "index": 7446,
+      "text": "[module damage rate]"
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 5,
+      "index": 7465,
+      "text": "[waiting motion]"
+    },
+    {
+      "type": 7,
+      "index": 7846,
+      "text": "Animation/Stay.ani"
+    },
+    {
+      "type": 5,
+      "index": 7467,
+      "text": "[move motion]"
+    },
+    {
+      "type": 7,
+      "index": 7847,
+      "text": "Animation/Move.ani"
+    },
+    {
+      "type": 5,
+      "index": 7469,
+      "text": "[sit motion]"
+    },
+    {
+      "type": 7,
+      "index": 7848,
+      "text": "Animation/Sit.ani"
+    },
+    {
+      "type": 5,
+      "index": 7471,
+      "text": "[damage motion 1]"
+    },
+    {
+      "type": 7,
+      "index": 7849,
+      "text": "Animation/Damage1.ani"
+    },
+    {
+      "type": 5,
+      "index": 7473,
+      "text": "[damage motion 2]"
+    },
+    {
+      "type": 7,
+      "index": 7850,
+      "text": "Animation/Damage2.ani"
+    },
+    {
+      "type": 5,
+      "index": 7475,
+      "text": "[down motion]"
+    },
+    {
+      "type": 7,
+      "index": 7851,
+      "text": "Animation/Down.ani"
+    },
+    {
+      "type": 5,
+      "index": 7477,
+      "text": "[overturn motion]"
+    },
+    {
+      "type": 7,
+      "index": 7852,
+      "text": "Animation/Overturn.ani"
+    },
+    {
+      "type": 5,
+      "index": 7479,
+      "text": "[jump motion]"
+    },
+    {
+      "type": 7,
+      "index": 7853,
+      "text": "Animation/Jump.ani"
+    },
+    {
+      "type": 5,
+      "index": 7481,
+      "text": "[jumpattack motion]"
+    },
+    {
+      "type": 7,
+      "index": 7854,
+      "text": "Animation/JumpAttack.ani"
+    },
+    {
+      "type": 5,
+      "index": 7483,
+      "text": "[rest motion]"
+    },
+    {
+      "type": 7,
+      "index": 7855,
+      "text": "Animation/Rest.ani"
+    },
+    {
+      "type": 5,
+      "index": 7485,
+      "text": "[throw motion 1-1]"
+    },
+    {
+      "type": 7,
+      "index": 7856,
+      "text": "Animation/Throw1.ani"
+    },
+    {
+      "type": 5,
+      "index": 7487,
+      "text": "[throw motion 1-2]"
+    },
+    {
+      "type": 7,
+      "index": 7857,
+      "text": "Animation/Throw2.ani"
+    },
+    {
+      "type": 5,
+      "index": 7489,
+      "text": "[throw motion 2-1]"
+    },
+    {
+      "type": 7,
+      "index": 10623,
+      "text": "Animation/Summon1.ani"
+    },
+    {
+      "type": 5,
+      "index": 7491,
+      "text": "[throw motion 2-2]"
+    },
+    {
+      "type": 7,
+      "index": 10624,
+      "text": "Animation/Summon2.ani"
+    },
+    {
+      "type": 5,
+      "index": 7497,
+      "text": "[dash motion]"
+    },
+    {
+      "type": 7,
+      "index": 7860,
+      "text": "Animation/Dash.ani"
+    },
+    {
+      "type": 5,
+      "index": 7499,
+      "text": "[dashattack motion]"
+    },
+    {
+      "type": 7,
+      "index": 7861,
+      "text": "Animation/DashAttack.ani"
+    },
+    {
+      "type": 5,
+      "index": 7501,
+      "text": "[getitem motion]"
+    },
+    {
+      "type": 7,
+      "index": 7862,
+      "text": "Animation/GetItem.ani"
+    },
+    {
+      "type": 5,
+      "index": 7503,
+      "text": "[buff motion]"
+    },
+    {
+      "type": 7,
+      "index": 10624,
+      "text": "Animation/Summon2.ani"
+    },
+    {
+      "type": 5,
+      "index": 7505,
+      "text": "[simple rest motion]"
+    },
+    {
+      "type": 7,
+      "index": 7864,
+      "text": "Animation/SIMPLE_Rest.ani"
+    },
+    {
+      "type": 5,
+      "index": 7507,
+      "text": "[simple move motion]"
+    },
+    {
+      "type": 7,
+      "index": 7865,
+      "text": "Animation/SIMPLE_Move.ani"
+    },
+    {
+      "type": 5,
+      "index": 7509,
+      "text": "[back motion]"
+    },
+    {
+      "type": 7,
+      "index": 7869,
+      "text": "Animation/Attack3.ani"
+    },
+    {
+      "type": 5,
+      "index": 7511,
+      "text": "[attack motion]"
+    },
+    {
+      "type": 7,
+      "index": 7867,
+      "text": "Animation/Attack1.ani"
+    },
+    {
+      "type": 7,
+      "index": 7868,
+      "text": "Animation/Attack2.ani"
+    },
+    {
+      "type": 7,
+      "index": 7869,
+      "text": "Animation/Attack3.ani"
+    },
+    {
+      "type": 5,
+      "index": 7516,
+      "text": "[/attack motion]"
+    },
+    {
+      "type": 5,
+      "index": 7517,
+      "text": "[ghost motion]"
+    },
+    {
+      "type": 7,
+      "index": 7871,
+      "text": "Animation/Ghost.ani"
+    },
+    {
+      "type": 7,
+      "index": 7872,
+      "text": "Animation/Ghost_Dodge.ani"
+    },
+    {
+      "type": 5,
+      "index": 7520,
+      "text": "[/ghost motion]"
+    },
+    {
+      "type": 5,
+      "index": 7521,
+      "text": "[etc motion]"
+    },
+    {
+      "type": 7,
+      "index": 10625,
+      "text": "Animation/Guard.ani"
+    },
+    {
+      "type": 7,
+      "index": 10626,
+      "text": "Animation/HardAttack.ani"
+    },
+    {
+      "type": 7,
+      "index": 10627,
+      "text": "Animation/HitBack.ani"
+    },
+    {
+      "type": 7,
+      "index": 10628,
+      "text": "Animation/TripleSlash1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10629,
+      "text": "Animation/TripleSlash2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10630,
+      "text": "Animation/TripleSlash3.ani"
+    },
+    {
+      "type": 7,
+      "index": 10631,
+      "text": "Animation/TripleSlash4.ani"
+    },
+    {
+      "type": 7,
+      "index": 10632,
+      "text": "Animation/TripleSlash5.ani"
+    },
+    {
+      "type": 7,
+      "index": 10633,
+      "text": "Animation/MomentarySlash.ani"
+    },
+    {
+      "type": 7,
+      "index": 10634,
+      "text": "Animation/Wave.ani"
+    },
+    {
+      "type": 7,
+      "index": 10635,
+      "text": "Animation/Grab.ani"
+    },
+    {
+      "type": 7,
+      "index": 10636,
+      "text": "Animation/DashAttackMultiHit.ani"
+    },
+    {
+      "type": 7,
+      "index": 10637,
+      "text": "Animation/ShockWaveAreaCast.ani"
+    },
+    {
+      "type": 7,
+      "index": 10638,
+      "text": "Animation/ShockWaveAreaSmash.ani"
+    },
+    {
+      "type": 7,
+      "index": 10639,
+      "text": "Animation/VaneSlashTry.ani"
+    },
+    {
+      "type": 7,
+      "index": 10640,
+      "text": "Animation/VaneSlash.ani"
+    },
+    {
+      "type": 7,
+      "index": 10641,
+      "text": "Animation/UpperSlashAfter.ani"
+    },
+    {
+      "type": 7,
+      "index": 10642,
+      "text": "Animation/HardAttackChargeAfter.ani"
+    },
+    {
+      "type": 7,
+      "index": 10643,
+      "text": "Animation/GhostStepSlashReady.ani"
+    },
+    {
+      "type": 7,
+      "index": 10644,
+      "text": "Animation/GhostStepSlashMove.ani"
+    },
+    {
+      "type": 7,
+      "index": 10645,
+      "text": "Animation/StandAloneWaveReady.ani"
+    },
+    {
+      "type": 7,
+      "index": 10646,
+      "text": "Animation/StandAloneWaveBasic.ani"
+    },
+    {
+      "type": 7,
+      "index": 10647,
+      "text": "Animation/StandAloneWaveStrong.ani"
+    },
+    {
+      "type": 7,
+      "index": 10648,
+      "text": "Animation/JumpAttackMultiSlash1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10649,
+      "text": "Animation/JumpAttackMultiSlash2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10650,
+      "text": "Animation/GoreCross.ani"
+    },
+    {
+      "type": 7,
+      "index": 10651,
+      "text": "Animation/HopSmashReady.ani"
+    },
+    {
+      "type": 7,
+      "index": 10652,
+      "text": "Animation/HopSmash.ani"
+    },
+    {
+      "type": 7,
+      "index": 10653,
+      "text": "Animation/WeaponComboShort1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10654,
+      "text": "Animation/WeaponComboShort2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10655,
+      "text": "Animation/WeaponComboShort3.ani"
+    },
+    {
+      "type": 7,
+      "index": 10656,
+      "text": "Animation/WeaponComboBlade1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10657,
+      "text": "Animation/WeaponComboBlade2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10658,
+      "text": "Animation/WeaponComboBlade3.ani"
+    },
+    {
+      "type": 7,
+      "index": 10659,
+      "text": "Animation/WeaponComboBlade4.ani"
+    },
+    {
+      "type": 7,
+      "index": 10660,
+      "text": "Animation/WeaponComboBlunt1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10661,
+      "text": "Animation/WeaponComboBlunt2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10662,
+      "text": "Animation/WeaponComboBlunt3.ani"
+    },
+    {
+      "type": 7,
+      "index": 10663,
+      "text": "Animation/WeaponComboHeavy1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10664,
+      "text": "Animation/WeaponComboHeavy2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10665,
+      "text": "Animation/WeaponComboLight1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10666,
+      "text": "Animation/WeaponComboLight2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10667,
+      "text": "Animation/WeaponComboLight3.ani"
+    },
+    {
+      "type": 7,
+      "index": 10668,
+      "text": "Animation/ChargeCrashDash.ani"
+    },
+    {
+      "type": 7,
+      "index": 10669,
+      "text": "Animation/ChargeCrashUpper.ani"
+    },
+    {
+      "type": 7,
+      "index": 10670,
+      "text": "Animation/ChargeCrashFinish.ani"
+    },
+    {
+      "type": 7,
+      "index": 10671,
+      "text": "Animation/ReflectGuard.ani"
+    },
+    {
+      "type": 7,
+      "index": 10672,
+      "text": "Animation/RapidMoveSlashReady1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10673,
+      "text": "Animation/RapidMoveSlashReady2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10674,
+      "text": "Animation/RapidMoveSlashMove1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10675,
+      "text": "Animation/RapidMoveSlashMove2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10676,
+      "text": "Animation/IllusionSlash1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10677,
+      "text": "Animation/IllusionSlash2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10678,
+      "text": "Animation/IllusionSlash3.ani"
+    },
+    {
+      "type": 7,
+      "index": 10679,
+      "text": "Animation/IllusionSlash4.ani"
+    },
+    {
+      "type": 7,
+      "index": 10680,
+      "text": "Animation/IllusionSlashFinal.ani"
+    },
+    {
+      "type": 7,
+      "index": 10681,
+      "text": "Animation/WaveSpinAreaBomb.ani"
+    },
+    {
+      "type": 7,
+      "index": 10682,
+      "text": "Animation/Frenzy1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10683,
+      "text": "Animation/Frenzy2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10684,
+      "text": "Animation/Frenzy3.ani"
+    },
+    {
+      "type": 7,
+      "index": 10685,
+      "text": "Animation/Frenzy4.ani"
+    },
+    {
+      "type": 7,
+      "index": 10686,
+      "text": "Animation/MoonlightSlash1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10687,
+      "text": "Animation/MoonlightSlash2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10688,
+      "text": "Animation/BloodyRaveInhale.ani"
+    },
+    {
+      "type": 7,
+      "index": 10689,
+      "text": "Animation/BloodyRaveSlash.ani"
+    },
+    {
+      "type": 7,
+      "index": 10690,
+      "text": "Animation/MoonlightSlashFull.ani"
+    },
+    {
+      "type": 7,
+      "index": 10691,
+      "text": "Animation/OutRageBreakReady.ani"
+    },
+    {
+      "type": 7,
+      "index": 10692,
+      "text": "Animation/OutRageBreakSlash.ani"
+    },
+    {
+      "type": 7,
+      "index": 10693,
+      "text": "Animation/KallaLand.ani"
+    },
+    {
+      "type": 7,
+      "index": 10694,
+      "text": "Animation/KallaAir.ani"
+    },
+    {
+      "type": 7,
+      "index": 10695,
+      "text": "Animation/KallaFinishReady.ani"
+    },
+    {
+      "type": 7,
+      "index": 10696,
+      "text": "Animation/KallaFinish1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10697,
+      "text": "Animation/KallaFinish2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10698,
+      "text": "Animation/KallaFinish3.ani"
+    },
+    {
+      "type": 7,
+      "index": 10699,
+      "text": "Animation/HellbenterFinish.ani"
+    },
+    {
+      "type": 7,
+      "index": 10700,
+      "text": "Animation/HundredSwordReady.ani"
+    },
+    {
+      "type": 7,
+      "index": 10701,
+      "text": "Animation/HundredSwordMoveReady1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10702,
+      "text": "Animation/HundredSwordMoveReady2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10703,
+      "text": "Animation/HundredSwordMoveReady3.ani"
+    },
+    {
+      "type": 7,
+      "index": 10704,
+      "text": "Animation/HundredSwordMoveReady4.ani"
+    },
+    {
+      "type": 7,
+      "index": 10705,
+      "text": "Animation/HundredSwordMoveReady5.ani"
+    },
+    {
+      "type": 7,
+      "index": 10706,
+      "text": "Animation/HundredSwordMoveSlash1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10707,
+      "text": "Animation/HundredSwordMoveSlash2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10708,
+      "text": "Animation/HundredSwordMoveSlash3.ani"
+    },
+    {
+      "type": 7,
+      "index": 10709,
+      "text": "Animation/HundredSwordMoveSlash4.ani"
+    },
+    {
+      "type": 7,
+      "index": 10710,
+      "text": "Animation/HundredSwordMoveSlash5.ani"
+    },
+    {
+      "type": 7,
+      "index": 10711,
+      "text": "Animation/HundredSwordFinish.ani"
+    },
+    {
+      "type": 7,
+      "index": 10712,
+      "text": "Animation/BlacheCast.ani"
+    },
+    {
+      "type": 7,
+      "index": 10713,
+      "text": "Animation/BlacheSmash.ani"
+    },
+    {
+      "type": 7,
+      "index": 10714,
+      "text": "Animation/WaveEyeCast.ani"
+    },
+    {
+      "type": 7,
+      "index": 10715,
+      "text": "Animation/WaveEyeStart.ani"
+    },
+    {
+      "type": 7,
+      "index": 10716,
+      "text": "Animation/WaveEyeAttack1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10717,
+      "text": "Animation/WaveEyeAttack2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10718,
+      "text": "Animation/WaveEyeAttack3.ani"
+    },
+    {
+      "type": 7,
+      "index": 10719,
+      "text": "Animation/WaveEyeClaw.ani"
+    },
+    {
+      "type": 7,
+      "index": 10720,
+      "text": "Animation/WaveEyeWing.ani"
+    },
+    {
+      "type": 7,
+      "index": 10721,
+      "text": "Animation/WaveEyeSpear.ani"
+    },
+    {
+      "type": 7,
+      "index": 10722,
+      "text": "Animation/TombStoneEx.ani"
+    },
+    {
+      "type": 7,
+      "index": 10723,
+      "text": "Animation/MomentarySlashEx.ani"
+    },
+    {
+      "type": 7,
+      "index": 10724,
+      "text": "Animation/ChargeCrashExShoulder.ani"
+    },
+    {
+      "type": 7,
+      "index": 10725,
+      "text": "Animation/ChargeCrashExPick.ani"
+    },
+    {
+      "type": 7,
+      "index": 10726,
+      "text": "Animation/ChargeCrashExUpper.ani"
+    },
+    {
+      "type": 7,
+      "index": 10727,
+      "text": "Animation/BloodSwordMake.ani"
+    },
+    {
+      "type": 7,
+      "index": 10728,
+      "text": "Animation/BloodSwordCharge.ani"
+    },
+    {
+      "type": 7,
+      "index": 10729,
+      "text": "Animation/FlowMindStart.ani"
+    },
+    {
+      "type": 7,
+      "index": 10730,
+      "text": "Animation/FlowMindStay.ani"
+    },
+    {
+      "type": 7,
+      "index": 10731,
+      "text": "Animation/FlowMindOne.ani"
+    },
+    {
+      "type": 7,
+      "index": 10732,
+      "text": "Animation/FlowMindOneAdd.ani"
+    },
+    {
+      "type": 7,
+      "index": 10733,
+      "text": "Animation/FlowMindTwoJump.ani"
+    },
+    {
+      "type": 7,
+      "index": 10734,
+      "text": "Animation/FlowMindTwoLanding.ani"
+    },
+    {
+      "type": 7,
+      "index": 10735,
+      "text": "Animation/FlowMindTwoAttack1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10736,
+      "text": "Animation/FlowMindTwoAttack2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10737,
+      "text": "Animation/FlowMindThreeReady.ani"
+    },
+    {
+      "type": 7,
+      "index": 10738,
+      "text": "Animation/FlowMindThreeAttack.ani"
+    },
+    {
+      "type": 7,
+      "index": 10739,
+      "text": "Animation/StaySacrifice.ani"
+    },
+    {
+      "type": 7,
+      "index": 10740,
+      "text": "Animation/SpiritAttack1.ani"
+    },
+    {
+      "type": 7,
+      "index": 10741,
+      "text": "Animation/SpiritAttack2.ani"
+    },
+    {
+      "type": 7,
+      "index": 10742,
+      "text": "Animation/SpiritAttack3.ani"
+    },
+    {
+      "type": 7,
+      "index": 10743,
+      "text": "Animation/SpiritAttack4.ani"
+    },
+    {
+      "type": 7,
+      "index": 10744,
+      "text": "Animation/SpiritDashAttack.ani"
+    },
+    {
+      "type": 7,
+      "index": 10745,
+      "text": "Animation/GhostSideWind.ani"
+    },
+    {
+      "type": 7,
+      "index": 10746,
+      "text": "Animation/TripleStab.ani"
+    },
+    {
+      "type": 7,
+      "index": 585626,
+      "text": "Animation/BloodBoom.ani"
+    },
+    {
+      "type": 7,
+      "index": 585627,
+      "text": "Animation/BloodMarbleExtractReady.ani"
+    },
+    {
+      "type": 7,
+      "index": 585628,
+      "text": "Animation/BloodMarbleExtractLoop.ani"
+    },
+    {
+      "type": 7,
+      "index": 585629,
+      "text": "Animation/BloodMarbleThrow.ani"
+    },
+    {
+      "type": 7,
+      "index": 538407,
+      "text": "Animation/BloodRivenCast.ani"
+    },
+    {
+      "type": 7,
+      "index": 538408,
+      "text": "Animation/BloodRivenCharge.ani"
+    },
+    {
+      "type": 7,
+      "index": 538409,
+      "text": "Animation/BloodRivenChange.ani"
+    },
+    {
+      "type": 7,
+      "index": 538410,
+      "text": "Animation/BloodRivenJump.ani"
+    },
+    {
+      "type": 7,
+      "index": 538411,
+      "text": "Animation/BloodRivenFinish.ani"
+    },
+    {
+      "type": 7,
+      "index": 538412,
+      "text": "Animation/LightningGod.ani"
+    },
+    {
+      "type": 7,
+      "index": 585630,
+      "text": "Animation/FlashCutReady.ani"
+    },
+    {
+      "type": 7,
+      "index": 585631,
+      "text": "Animation/FlashCutAtk.ani"
+    },
+    {
+      "type": 7,
+      "index": 585632,
+      "text": "Animation/FlashCutEnd.ani"
+    },
+    {
+      "type": 7,
+      "index": 538394,
+      "text": "Animation/SwordOfMindCharge.ani"
+    },
+    {
+      "type": 7,
+      "index": 538395,
+      "text": "Animation/SwordOfMindChargeAttract.ani"
+    },
+    {
+      "type": 7,
+      "index": 538396,
+      "text": "Animation/SwordOfMindChargeAttack.ani"
+    },
+    {
+      "type": 7,
+      "index": 585633,
+      "text": "Animation/LiuXing1.ani"
+    },
+    {
+      "type": 7,
+      "index": 585634,
+      "text": "Animation/LiuXing2.ani"
+    },
+    {
+      "type": 7,
+      "index": 585635,
+      "text": "Animation/LiuXing3.ani"
+    },
+    {
+      "type": 7,
+      "index": 585636,
+      "text": "Animation/LiuXing4.ani"
+    },
+    {
+      "type": 7,
+      "index": 585637,
+      "text": "Animation/LiuXing5.ani"
+    },
+    {
+      "type": 7,
+      "index": 585638,
+      "text": "Animation/LiuXing6.ani"
+    },
+    {
+      "type": 7,
+      "index": 585639,
+      "text": "Animation/LiuXing7.ani"
+    },
+    {
+      "type": 7,
+      "index": 538414,
+      "text": "Animation/Handlingsword_Srart_Body.ani"
+    },
+    {
+      "type": 7,
+      "index": 586224,
+      "text": "Animation/zigadventcast.ani"
+    },
+    {
+      "type": 7,
+      "index": 586225,
+      "text": "animation/zrr/sword75/sword75_0.ani"
+    },
+    {
+      "type": 7,
+      "index": 586226,
+      "text": "animation/zrr/sword75/sword75_1.ani"
+    },
+    {
+      "type": 7,
+      "index": 586227,
+      "text": "animation/zrr/swordmain/swordmain_boby.ani"
+    },
+    {
+      "type": 7,
+      "index": 586228,
+      "text": "animation/zrr/swordbehind/flashcutready_body.ani"
+    },
+    {
+      "type": 7,
+      "index": 586229,
+      "text": "animation/zrr/swordbehind/flashcutatk_body.ani"
+    },
+    {
+      "type": 7,
+      "index": 586230,
+      "text": "animation/zrr/swordbehind/flashcutend_body.ani"
+    },
+    {
+      "type": 7,
+      "index": 586231,
+      "text": "animation/zrr/sword80/meteorswordstart.ani"
+    },
+    {
+      "type": 7,
+      "index": 586232,
+      "text": "animation/zrr/sword80/meteorswordcharge.ani"
+    },
+    {
+      "type": 7,
+      "index": 586233,
+      "text": "animation/zrr/sword80/meteorswordup.ani"
+    },
+    {
+      "type": 7,
+      "index": 586234,
+      "text": "animation/zrr/sword80/circle.ani"
+    },
+    {
+      "type": 7,
+      "index": 586235,
+      "text": "animation/zrr/sword80/meteorsworddrop.ani"
+    },
+    {
+      "type": 7,
+      "index": 586236,
+      "text": "animation/zrr/sword80/meteorswordexplosion.ani"
+    },
+    {
+      "type": 7,
+      "index": 586237,
+      "text": "animation/zrr/heardattack_0/slashofboom_ready.ani"
+    },
+    {
+      "type": 7,
+      "index": 586238,
+      "text": "animation/zrr/heardattack_0/slashofboom_attack.ani"
+    },
+    {
+      "type": 7,
+      "index": 586239,
+      "text": "animation/zrr/hardattack_hell/slashofhell.ani"
+    },
+    {
+      "type": 7,
+      "index": 586240,
+      "text": "animation/zrr/ghostout/bladephantomex_cast_body.ani"
+    },
+    {
+      "type": 7,
+      "index": 586241,
+      "text": "animation/zrr/ghostout/bladephantomex_jump_body.ani"
+    },
+    {
+      "type": 7,
+      "index": 586242,
+      "text": "animation/zrr/ghostout/bladephantomex_slash_body.ani"
+    },
+    {
+      "type": 7,
+      "index": 586243,
+      "text": "animation/zrr/bloodboom/bloodboom_ready.ani"
+    },
+    {
+      "type": 7,
+      "index": 586244,
+      "text": "animation/zrr/bloodboom/bloodboom_throw.ani"
+    },
+    {
+      "type": 7,
+      "index": 586245,
+      "text": "animation/zrr/bloodboom/bloodboom_drop.ani"
+    },
+    {
+      "type": 7,
+      "index": 586246,
+      "text": "animation/zrr/ghost75/ghost75_boby.ani"
+    },
+    {
+      "type": 5,
+      "index": 7647,
+      "text": "[/etc motion]"
+    },
+    {
+      "type": 5,
+      "index": 7648,
+      "text": "[jumpattack info]"
+    },
+    {
+      "type": 7,
+      "index": 7968,
+      "text": "AttackInfo/JumpAttack.atk"
+    },
+    {
+      "type": 5,
+      "index": 7650,
+      "text": "[dashattack info]"
+    },
+    {
+      "type": 7,
+      "index": 7969,
+      "text": "AttackInfo/DashAttack.atk"
+    },
+    {
+      "type": 5,
+      "index": 7652,
+      "text": "[attack info]"
+    },
+    {
+      "type": 7,
+      "index": 7970,
+      "text": "AttackInfo/Attack1.atk"
+    },
+    {
+      "type": 7,
+      "index": 7971,
+      "text": "AttackInfo/Attack2.atk"
+    },
+    {
+      "type": 7,
+      "index": 7972,
+      "text": "AttackInfo/Attack3.atk"
+    },
+    {
+      "type": 5,
+      "index": 7657,
+      "text": "[/attack info]"
+    },
+    {
+      "type": 5,
+      "index": 7658,
+      "text": "[etc attack info]"
+    },
+    {
+      "type": 7,
+      "index": 10747,
+      "text": "AttackInfo/HardAttack.atk"
+    },
+    {
+      "type": 7,
+      "index": 10748,
+      "text": "AttackInfo/HitBack.atk"
+    },
+    {
+      "type": 7,
+      "index": 10749,
+      "text": "AttackInfo/TripleSlash1.atk"
+    },
+    {
+      "type": 7,
+      "index": 10750,
+      "text": "AttackInfo/TripleSlash2.atk"
+    },
+    {
+      "type": 7,
+      "index": 10751,
+      "text": "AttackInfo/TripleSlash3.atk"
+    },
+    {
+      "type": 7,
+      "index": 10752,
+      "text": "AttackInfo/TripleSlash4.atk"
+    },
+    {
+      "type": 7,
+      "index": 10753,
+      "text": "AttackInfo/TripleSlash5.atk"
+    },
+    {
+      "type": 7,
+      "index": 10754,
+      "text": "AttackInfo/TripleSlash3Down.atk"
+    },
+    {
+      "type": 7,
+      "index": 10755,
+      "text": "AttackInfo/MomentarySlash.atk"
+    },
+    {
+      "type": 7,
+      "index": 10756,
+      "text": "AttackInfo/GiveBlood.atk"
+    },
+    {
+      "type": 7,
+      "index": 10757,
+      "text": "AttackInfo/AshenFork.atk"
+    },
+    {
+      "type": 7,
+      "index": 10758,
+      "text": "AttackInfo/UpperSlash.atk"
+    },
+    {
+      "type": 7,
+      "index": 10759,
+      "text": "AttackInfo/Grab.atk"
+    },
+    {
+      "type": 7,
+      "index": 10760,
+      "text": "AttackInfo/GrabBlastBlood.atk"
+    },
+    {
+      "type": 7,
+      "index": 10761,
+      "text": "AttackInfo/DashAttackMultiHIt.atk"
+    },
+    {
+      "type": 7,
+      "index": 10762,
+      "text": "AttackInfo/ShockWaveArea.atk"
+    },
+    {
+      "type": 7,
+      "index": 10763,
+      "text": "AttackInfo/VaneSlashTry.atk"
+    },
+    {
+      "type": 7,
+      "index": 10764,
+      "text": "AttackInfo/VaneSlashUpper.atk"
+    },
+    {
+      "type": 7,
+      "index": 10765,
+      "text": "AttackInfo/VaneSlashSmash.atk"
+    },
+    {
+      "type": 7,
+      "index": 10766,
+      "text": "AttackInfo/UpperSlashAfter.atk"
+    },
+    {
+      "type": 7,
+      "index": 10767,
+      "text": "AttackInfo/HardAttackChargeAfter.atk"
+    },
+    {
+      "type": 7,
+      "index": 10768,
+      "text": "AttackInfo/GhostStepSlash.atk"
+    },
+    {
+      "type": 7,
+      "index": 10769,
+      "text": "AttackInfo/StandAloneWave.atk"
+    },
+    {
+      "type": 7,
+      "index": 10770,
+      "text": "AttackInfo/GoreCross1.atk"
+    },
+    {
+      "type": 7,
+      "index": 10771,
+      "text": "AttackInfo/GoreCross2.atk"
+    },
+    {
+      "type": 7,
+      "index": 10772,
+      "text": "AttackInfo/HopSmash.atk"
+    },
+    {
+      "type": 7,
+      "index": 10773,
+      "text": "AttackInfo/HopSmashFinal.atk"
+    },
+    {
+      "type": 7,
+      "index": 10774,
+      "text": "AttackInfo/WeaponComboShort1.atk"
+    },
+    {
+      "type": 7,
+      "index": 10775,
+      "text": "AttackInfo/WeaponComboShort2.atk"
+    },
+    {
+      "type": 7,
+      "index": 10776,
+      "text": "AttackInfo/WeaponComboShort3.atk"
+    },
+    {
+      "type": 7,
+      "index": 10777,
+      "text": "AttackInfo/WeaponComboBlade1.atk"
+    },
+    {
+      "type": 7,
+      "index": 10778,
+      "text": "AttackInfo/WeaponComboBlade2.atk"
+    },
+    {
+      "type": 7,
+      "index": 10779,
+      "text": "AttackInfo/WeaponComboBlade3.atk"
+    },
+    {
+      "type": 7,
+      "index": 10780,
+      "text": "AttackInfo/WeaponComboBlade4.atk"
+    },
+    {
+      "type": 7,
+      "index": 10781,
+      "text": "AttackInfo/WeaponComboBlunt1.atk"
+    },
+    {
+      "type": 7,
+      "index": 10782,
+      "text": "AttackInfo/WeaponComboBlunt2.atk"
+    },
+    {
+      "type": 7,
+      "index": 10783,
+      "text": "AttackInfo/WeaponComboBlunt3.atk"
+    },
+    {
+      "type": 7,
+      "index": 10784,
+      "text": "AttackInfo/WeaponComboHeavy1.atk"
+    },
+    {
+      "type": 7,
+      "index": 10785,
+      "text": "AttackInfo/WeaponComboHeavy2.atk"
+    },
+    {
+      "type": 7,
+      "index": 10786,
+      "text": "AttackInfo/WeaponComboLight1.atk"
+    },
+    {
+      "type": 7,
+      "index": 10787,
+      "text": "AttackInfo/WeaponComboLight2.atk"
+    },
+    {
+      "type": 7,
+      "index": 10788,
+      "text": "AttackInfo/WeaponComboLight3.atk"
+    },
+    {
+      "type": 7,
+      "index": 10789,
+      "text": "AttackInfo/ChargeCrashDash.atk"
+    },
+    {
+      "type": 7,
+      "index": 10790,
+      "text": "AttackInfo/ChargeCrashUpper.atk"
+    },
+    {
+      "type": 7,
+      "index": 10791,
+      "text": "AttackInfo/ChargeCrashFinish.atk"
+    },
+    {
+      "type": 7,
+      "index": 10792,
+      "text": "AttackInfo/RapidMoveSlash1.atk"
+    },
+    {
+      "type": 7,
+      "index": 10793,
+      "text": "AttackInfo/RapidMoveSlash2.atk"
+    },
+    {
+      "type": 7,
+      "index": 10794,
+      "text": "AttackInfo/IllusionSlashUpper.atk"
+    },
+    {
+      "type": 7,
+      "index": 10795,
+      "text": "AttackInfo/IllusionSlashSmash.atk"
+    },
+    {
+      "type": 7,
+      "index": 10796,
+      "text": "AttackInfo/Frenzy1.atk"
+    },
+    {
+      "type": 7,
+      "index": 10797,
+      "text": "AttackInfo/Frenzy2.atk"
+    },
+    {
+      "type": 7,
+      "index": 10798,
+      "text": "AttackInfo/Frenzy3.atk"
+    },
+    {
+      "type": 7,
+      "index": 10799,
+      "text": "AttackInfo/Frenzy4.atk"
+    },
+    {
+      "type": 7,
+      "index": 10800,
+      "text": "AttackInfo/BloodyRave.atk"
+    },
+    {
+      "type": 7,
+      "index": 10801,
+      "text": "AttackInfo/MoonlightSlash1.atk"
+    },
+    {
+      "type": 7,
+      "index": 10802,
+      "text": "AttackInfo/MoonlightSlash2.atk"
+    },
+    {
+      "type": 7,
+      "index": 10803,
+      "text": "AttackInfo/MoonlightSlashFull.atk"
+    },
+    {
+      "type": 7,
+      "index": 10804,
+      "text": "AttackInfo/OutRageBreak.atk"
+    },
+    {
+      "type": 7,
+      "index": 10805,
+      "text": "AttackInfo/KallaFinish1.atk"
+    },
+    {
+      "type": 7,
+      "index": 10806,
+      "text": "AttackInfo/KallaFinish2.atk"
+    },
+    {
+      "type": 7,
+      "index": 10807,
+      "text": "AttackInfo/KallaFinish3.atk"
+    },
+    {
+      "type": 7,
+      "index": 10808,
+      "text": "AttackInfo/HellbenterFinish.atk"
+    },
+    {
+      "type": 7,
+      "index": 10809,
+      "text": "AttackInfo/HundredSwordFinish.atk"
+    },
+    {
+      "type": 7,
+      "index": 10810,
+      "text": "AttackInfo/WaveEyeAttack1.atk"
+    },
+    {
+      "type": 7,
+      "index": 10811,
+      "text": "AttackInfo/WaveEyeAttack2.atk"
+    },
+    {
+      "type": 7,
+      "index": 10812,
+      "text": "AttackInfo/WaveEyeAttack3.atk"
+    },
+    {
+      "type": 7,
+      "index": 10813,
+      "text": "AttackInfo/WaveEyeWing.atk"
+    },
+    {
+      "type": 7,
+      "index": 10814,
+      "text": "AttackInfo/MomentarySlashEx.atk"
+    },
+    {
+      "type": 7,
+      "index": 10815,
+      "text": "AttackInfo/ChargeCrashExShoulder.atk"
+    },
+    {
+      "type": 7,
+      "index": 10816,
+      "text": "AttackInfo/ChargeCrashExPick.atk"
+    },
+    {
+      "type": 7,
+      "index": 10817,
+      "text": "AttackInfo/ChargeCrashExUpper.atk"
+    },
+    {
+      "type": 7,
+      "index": 10818,
+      "text": "AttackInfo/GrabBlastBloodEx.atk"
+    },
+    {
+      "type": 7,
+      "index": 10819,
+      "text": "AttackInfo/BloodSword.atk"
+    },
+    {
+      "type": 7,
+      "index": 10820,
+      "text": "AttackInfo/FlowMindOne.atk"
+    },
+    {
+      "type": 7,
+      "index": 10821,
+      "text": "AttackInfo/FlowMindOneAdd.atk"
+    },
+    {
+      "type": 7,
+      "index": 10822,
+      "text": "AttackInfo/FlowMindTwoAttack1.atk"
+    },
+    {
+      "type": 7,
+      "index": 10823,
+      "text": "AttackInfo/FlowMindTwoAttack2.atk"
+    },
+    {
+      "type": 7,
+      "index": 10824,
+      "text": "AttackInfo/FlowMindTwoAttack3.atk"
+    },
+    {
+      "type": 7,
+      "index": 10825,
+      "text": "AttackInfo/FlowMindThreeAttack.atk"
+    },
+    {
+      "type": 7,
+      "index": 10826,
+      "text": "AttackInfo/SpiritAttack1.atk"
+    },
+    {
+      "type": 7,
+      "index": 10827,
+      "text": "AttackInfo/SpiritAttack2.atk"
+    },
+    {
+      "type": 7,
+      "index": 10828,
+      "text": "AttackInfo/SpiritAttack3.atk"
+    },
+    {
+      "type": 7,
+      "index": 10829,
+      "text": "AttackInfo/SpiritAttack4.atk"
+    },
+    {
+      "type": 7,
+      "index": 10830,
+      "text": "AttackInfo/SpiritDashAttack.atk"
+    },
+    {
+      "type": 7,
+      "index": 10831,
+      "text": "AttackInfo/GhostSideWind.atk"
+    },
+    {
+      "type": 7,
+      "index": 10832,
+      "text": "AttackInfo/TripleStab.atk"
+    },
+    {
+      "type": 7,
+      "index": 10833,
+      "text": "AttackInfo/TripleStabFinish.atk"
+    },
+    {
+      "type": 7,
+      "index": 585640,
+      "text": "AttackInfo/BloodRivenCast.atk"
+    },
+    {
+      "type": 7,
+      "index": 585641,
+      "text": "AttackInfo/BloodRivenCharge.atk"
+    },
+    {
+      "type": 7,
+      "index": 585642,
+      "text": "AttackInfo/BloodRivenChange.atk"
+    },
+    {
+      "type": 7,
+      "index": 585643,
+      "text": "AttackInfo/BloodRivenJump.atk"
+    },
+    {
+      "type": 7,
+      "index": 538416,
+      "text": "AttackInfo/SwordOfMindAttack.atk"
+    },
+    {
+      "type": 7,
+      "index": 586247,
+      "text": "attackinfo/zrr/sword75.atk"
+    },
+    {
+      "type": 7,
+      "index": 586248,
+      "text": "attackinfo/zrr/swordbehind.atk"
+    },
+    {
+      "type": 7,
+      "index": 586249,
+      "text": "attackinfo/zrr/hardattack_hell.atk"
+    },
+    {
+      "type": 7,
+      "index": 586250,
+      "text": "attackinfo/zrr/bloodboom_ready.atk"
+    },
+    {
+      "type": 5,
+      "index": 7732,
+      "text": "[/etc attack info]"
+    },
+    {
+      "type": 5,
+      "index": 7733,
+      "text": "[weapon wav]"
+    },
+    {
+      "type": 7,
+      "index": 10513,
+      "text": "R_MINERALSWDA"
+    },
+    {
+      "type": 7,
+      "index": 10514,
+      "text": "MINERALSWDB"
+    },
+    {
+      "type": 7,
+      "index": 10515,
+      "text": "R_MINERALSWDA_HIT"
+    },
+    {
+      "type": 7,
+      "index": 10516,
+      "text": "MINERAL_SWDB_HIT"
+    },
+    {
+      "type": 5,
+      "index": 7738,
+      "text": "[/weapon wav]"
+    },
+    {
+      "type": 5,
+      "index": 7733,
+      "text": "[weapon wav]"
+    },
+    {
+      "type": 7,
+      "index": 10517,
+      "text": "R_KATANAA"
+    },
+    {
+      "type": 7,
+      "index": 10518,
+      "text": "KATANAB"
+    },
+    {
+      "type": 7,
+      "index": 10519,
+      "text": "R_KATANAA_HIT"
+    },
+    {
+      "type": 7,
+      "index": 10520,
+      "text": "KATANAB_HIT"
+    },
+    {
+      "type": 5,
+      "index": 7738,
+      "text": "[/weapon wav]"
+    },
+    {
+      "type": 5,
+      "index": 7733,
+      "text": "[weapon wav]"
+    },
+    {
+      "type": 7,
+      "index": 10521,
+      "text": "R_STICKA"
+    },
+    {
+      "type": 7,
+      "index": 10522,
+      "text": "STICKB_01"
+    },
+    {
+      "type": 7,
+      "index": 10523,
+      "text": "R_STICKA_HIT"
+    },
+    {
+      "type": 7,
+      "index": 10524,
+      "text": "STICKB_HIT_01"
+    },
+    {
+      "type": 5,
+      "index": 7738,
+      "text": "[/weapon wav]"
+    },
+    {
+      "type": 5,
+      "index": 7733,
+      "text": "[weapon wav]"
+    },
+    {
+      "type": 7,
+      "index": 10525,
+      "text": "R_SQUARESWDA"
+    },
+    {
+      "type": 7,
+      "index": 10526,
+      "text": "SQUARESWDB"
+    },
+    {
+      "type": 7,
+      "index": 8120,
+      "text": "R_SQUARESWDA_HIT"
+    },
+    {
+      "type": 7,
+      "index": 10527,
+      "text": "SQUARESWDB_HIT"
+    },
+    {
+      "type": 5,
+      "index": 7738,
+      "text": "[/weapon wav]"
+    },
+    {
+      "type": 5,
+      "index": 7733,
+      "text": "[weapon wav]"
+    },
+    {
+      "type": 5,
+      "index": 7738,
+      "text": "[/weapon wav]"
+    },
+    {
+      "type": 5,
+      "index": 7733,
+      "text": "[weapon wav]"
+    },
+    {
+      "type": 7,
+      "index": 10528,
+      "text": "R_BEAMSWDA"
+    },
+    {
+      "type": 7,
+      "index": 10529,
+      "text": "BEAMSWDB"
+    },
+    {
+      "type": 7,
+      "index": 10254,
+      "text": "R_BEAMSWDA_HIT"
+    },
+    {
+      "type": 7,
+      "index": 10530,
+      "text": "BEAMSWDB_HIT"
+    },
+    {
+      "type": 5,
+      "index": 7738,
+      "text": "[/weapon wav]"
+    },
+    {
+      "type": 5,
+      "index": 7751,
+      "text": "[weapon hit info]"
+    },
+    {
+      "type": 7,
+      "index": 1123,
+      "text": "[cut]"
+    },
+    {
+      "type": 7,
+      "index": 1124,
+      "text": "[blood]"
+    },
+    {
+      "type": 2,
+      "value": 90
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 7,
+      "index": 1123,
+      "text": "[cut]"
+    },
+    {
+      "type": 7,
+      "index": 1124,
+      "text": "[blood]"
+    },
+    {
+      "type": 2,
+      "value": 70
+    },
+    {
+      "type": 4,
+      "value": 0.8600000143051147
+    },
+    {
+      "type": 4,
+      "value": -0.10000000149011612
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 7,
+      "index": 1116,
+      "text": "[blow]"
+    },
+    {
+      "type": 7,
+      "index": 1117,
+      "text": "[no blood]"
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 4,
+      "value": 1.2000000476837158
+    },
+    {
+      "type": 4,
+      "value": 0.10000000149011612
+    },
+    {
+      "type": 4,
+      "value": -0.949999988079071
+    },
+    {
+      "type": 7,
+      "index": 1123,
+      "text": "[cut]"
+    },
+    {
+      "type": 7,
+      "index": 1124,
+      "text": "[blood]"
+    },
+    {
+      "type": 2,
+      "value": 120
+    },
+    {
+      "type": 4,
+      "value": 1.399999976158142
+    },
+    {
+      "type": 4,
+      "value": 0.20000000298023224
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 7,
+      "index": 1123,
+      "text": "[cut]"
+    },
+    {
+      "type": 7,
+      "index": 1124,
+      "text": "[blood]"
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 7,
+      "index": 1123,
+      "text": "[cut]"
+    },
+    {
+      "type": 7,
+      "index": 1124,
+      "text": "[blood]"
+    },
+    {
+      "type": 2,
+      "value": 60
+    },
+    {
+      "type": 4,
+      "value": 0.8500000238418579
+    },
+    {
+      "type": 4,
+      "value": -0.15000000596046448
+    },
+    {
+      "type": 4,
+      "value": 0.0
+    },
+    {
+      "type": 5,
+      "index": 7752,
+      "text": "[/weapon hit info]"
+    },
+    {
+      "type": 5,
+      "index": 7753,
+      "text": "[weapon skill info]"
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.149999976158142
+    },
+    {
+      "type": 4,
+      "value": 1.0499999523162842
+    },
+    {
+      "type": 4,
+      "value": 0.949999988079071
+    },
+    {
+      "type": 4,
+      "value": 0.949999988079071
+    },
+    {
+      "type": 4,
+      "value": 1.0499999523162842
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.100000023841858
+    },
+    {
+      "type": 4,
+      "value": 1.0499999523162842
+    },
+    {
+      "type": 4,
+      "value": 0.949999988079071
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.2000000476837158
+    },
+    {
+      "type": 4,
+      "value": 1.100000023841858
+    },
+    {
+      "type": 4,
+      "value": 0.8999999761581421
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 0.8999999761581421
+    },
+    {
+      "type": 4,
+      "value": 0.8999999761581421
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 5,
+      "index": 7754,
+      "text": "[/weapon skill info]"
+    },
+    {
+      "type": 5,
+      "index": 7755,
+      "text": "[upgrade weapon attack power rate]"
+    },
+    {
+      "type": 4,
+      "value": 0.949999988079071
+    },
+    {
+      "type": 4,
+      "value": 1.149999976158142
+    },
+    {
+      "type": 4,
+      "value": 0.949999988079071
+    },
+    {
+      "type": 4,
+      "value": 1.0499999523162842
+    },
+    {
+      "type": 4,
+      "value": 1.100000023841858
+    },
+    {
+      "type": 4,
+      "value": 0.949999988079071
+    },
+    {
+      "type": 4,
+      "value": 1.2000000476837158
+    },
+    {
+      "type": 4,
+      "value": 0.8999999761581421
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 0.9300000071525574
+    },
+    {
+      "type": 4,
+      "value": 0.8999999761581421
+    },
+    {
+      "type": 5,
+      "index": 7756,
+      "text": "[/upgrade weapon attack power rate]"
+    },
+    {
+      "type": 5,
+      "index": 7757,
+      "text": "[body image path]"
+    },
+    {
+      "type": 7,
+      "index": 10531,
+      "text": "Character/swordman/Equipment/Avatar/skin/sm_body%04d.img"
+    },
+    {
+      "type": 5,
+      "index": 7759,
+      "text": "[weapon durability decrease rate]"
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 0.8999999761581421
+    },
+    {
+      "type": 4,
+      "value": 1.0499999523162842
+    },
+    {
+      "type": 4,
+      "value": 0.8999999761581421
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    }
+  ],
+  "raw_reference": "source_art/r4/ghost_slash/pvf/character/swordman/swordman.chr.bin"
+}

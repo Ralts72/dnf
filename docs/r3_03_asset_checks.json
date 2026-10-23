@@ -1,0 +1,20 @@
+{
+  "all_passed": true,
+  "native_pixels": 1543,
+  "textures": [
+    {
+      "exact_rgba": true,
+      "height": 28,
+      "path": "res://assets/r3/items/dragon_eye_icon.png",
+      "rgba_sha256": "c27fd28e11a8a0ac768bceb2ae8bf68bbd7f3a52f77553e554967456519bf108",
+      "width": 28
+    },
+    {
+      "exact_rgba": true,
+      "height": 23,
+      "path": "res://assets/r3/items/dragon_eye_field.png",
+      "rgba_sha256": "2f03f2b2266fab237719c98cb450ccf7a4e8dd6ad77d19bd112fd2664f026cba",
+      "width": 33
+    }
+  ]
+}

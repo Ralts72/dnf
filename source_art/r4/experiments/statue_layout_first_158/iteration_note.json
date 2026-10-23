@@ -1,0 +1,48 @@
+{
+  "stage": "R4/08 initial paused native preview run158",
+  "reason": "Pure visual layout iteration: column bases appear disconnected below the rear coping; tall foreground end support occludes the player sword. No runtime or import failure is being repaired.",
+  "screenshots": "Initial left/middle/right screenshots are retained here and are not overwritten by the next preview.",
+  "logs": "Root reports clean game/editor logs and will add those records to this experiment folder.",
+  "artifacts": [
+    {
+      "path": "tools/r4/build_statue_gallery_world.py",
+      "bytes": 16635,
+      "sha256": "1ee606f34bd5921e94b237ae13433b18263373bdaa1e6aa21601e13369a9dbdf"
+    },
+    {
+      "path": "scenes/tower_statue_gallery_world.tscn",
+      "bytes": 11414,
+      "sha256": "b08d506827b4431817510312e3042966fbb54a48781a1c9a9ac19ce40ca568b8"
+    },
+    {
+      "path": "scenes/tower_statue_gallery_collisions.tscn",
+      "bytes": 377,
+      "sha256": "364182aaa6d82eb2ba24405dae773763bf98c6cf0f34d2bf8fd8600b486db358"
+    },
+    {
+      "path": "docs/r4_statue_gallery_layout_reference.json",
+      "bytes": 49199,
+      "sha256": "46762a793a55112d52f8c8f96d448e2f446e72c28b9a5cda30f55039996d551f"
+    },
+    {
+      "path": "docs/previews/r4_08_manual_left.png",
+      "bytes": 221720,
+      "sha256": "3a699f5839a148efb60d3cbae71ab994445c78c82c3fc26cad4bf045baee8281"
+    },
+    {
+      "path": "docs/previews/r4_08_manual_middle.png",
+      "bytes": 230015,
+      "sha256": "447a59d0857cb295454fc29fed82e39a5a432047b908445f2799ba20638df3c9"
+    },
+    {
+      "path": "docs/previews/r4_08_manual_right.png",
+      "bytes": 231132,
+      "sha256": "ba5769e55f92ce62d5ae05d4d20e342c1b5f209c7232380a818ad1a42c06d048"
+    },
+    {
+      "path": "docs/r4_08_visual_state.json",
+      "bytes": 2090,
+      "sha256": "79c9e4f7072ed17fee643df167e2e27b318a37eea56170f11a6cd34497d001fe"
+    }
+  ]
+}

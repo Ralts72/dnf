@@ -1,0 +1,110 @@
+{
+  "candidate": "R1/27",
+  "source_bake_report": "docs/r1_26_bake_checks.json",
+  "source_bake_sha256": "c1f90530688bde1b9868a5b104b974b0191501785500cc8276521cbd8da44694",
+  "recipe_sha256": "d2ddc2ef3c8eb35b127d6fb2594debef183211074148b157766c8f478b2d97d8",
+  "actor_script_sha256": "e35516e03c9438e60442b58d73d4831b7f1f1886ec9433d8852d67957e538dd7",
+  "actor_shader_sha256": "8adfbb006076fa4326a2ec32d946d5fe686534733a6a0f3e5afa18dd798fb55e",
+  "source_animation_sha256": "1c4b47cf4d2ce09a9f65a506f4f906d495f3088e2dd5d2f8e487bdb254ae4e18",
+  "runtime_data_sha256": "4526db111174f67fbd0994d70584d61fa8a1024200fcf6e9a7b4cea6b0acc4d8",
+  "textures": [
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_00_1.png",
+      "sha256": "76772455144cf051723a4e090a457de996d19557d5ae5dc92bc8b430f2af3464",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_00_1.png",
+      "bytes": 6406
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_00_2.png",
+      "sha256": "cd71471f83ab8ba3225386e3c3209e0c0dd70a7223e61923818db2c0cb6a4657",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_00_2.png",
+      "bytes": 6483
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_01_1.png",
+      "sha256": "8c1a1a217f138af06160fbae91a836c27f2993ac06dec797b613389760eebb95",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_01_1.png",
+      "bytes": 6261
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_01_2.png",
+      "sha256": "755339d39262e3583482715c0db20f4594d4c7d198cde713de37bbc85c4831f8",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_01_2.png",
+      "bytes": 6347
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_02_1.png",
+      "sha256": "f139d0e3fb26d7c3d73774d8ef999511cafd8eccadf20bedd9d572ee504fd45a",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_02_1.png",
+      "bytes": 6229
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_02_2.png",
+      "sha256": "5070df4a8eb37830438dfb756b2e9e26dba91695315b9eb2a12d2efe6e3311db",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_02_2.png",
+      "bytes": 6357
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_03_1.png",
+      "sha256": "9794cc8df61db7f2e5231a2dd092d79db03ce6c1f95b6895dfc835ac152141b3",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_03_1.png",
+      "bytes": 6417
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_03_2.png",
+      "sha256": "d842a63e8cab7757359c1cd46b6880696224aaf9a19c8813a197f36935fc3dac",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_03_2.png",
+      "bytes": 6510
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_04_1.png",
+      "sha256": "c4ebb46aab9c414012c460531748eac59f7d2a65adc214c4e4388adaee945edc",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_04_1.png",
+      "bytes": 6037
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_04_2.png",
+      "sha256": "95ccb53b34736326fdebf3b3ee076165c8d94189483b1f6ddb74232ec1504f58",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_04_2.png",
+      "bytes": 6462
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_05_1.png",
+      "sha256": "13617fe5614053983cd64f53ffdafcddda3e0702de046648d559b0aa789a928a",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_05_1.png",
+      "bytes": 6509
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_05_2.png",
+      "sha256": "cd421ce98cadf36b959ae83c5fcb59ac829c5d2042548ab90a7875b446b1ff4f",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_05_2.png",
+      "bytes": 6596
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_06_1.png",
+      "sha256": "b106bbf58de7af7103b811c4bb43c453597696f53f8edaa7e8e89e29aa8f91e2",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_06_1.png",
+      "bytes": 6588
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_06_2.png",
+      "sha256": "e2a1f0f8d95b28dfdb3f485e4bb7a5110419f045eb1d5198944dd3f436dad242",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_06_2.png",
+      "bytes": 6746
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_07_1.png",
+      "sha256": "493ad3f09db545f6232c1497e881c3260208a2c750d2c19dca030bb339a59df0",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_07_1.png",
+      "bytes": 6564
+    },
+    {
+      "path": "res://assets/r1/actors/swordman_dash/dash_07_2.png",
+      "sha256": "c4c29adcfdd6bd9cea518fb0bbb31d3e4a5a494506cb2bda411de450441bfaa4",
+      "source": "source_art/r1/experiments/dash_cycle_26/baked/dash_07_2.png",
+      "bytes": 6430
+    }
+  ],
+  "qa_source_sha256": "152b0d46c2a3a4f0a42f879d4d971c2743fa81c52c7ea625f18ac5fa6eb42529",
+  "derived_texture_count": 16
+}

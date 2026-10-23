@@ -1,0 +1,298 @@
+{
+  "path": "character/swordman/animation/attack2.ani",
+  "role": "character master clock",
+  "sha256": "49eeebacfd486ef05558c7ede2a6d31c9e298706828c24fcd2aca0f5e4f08a83",
+  "crc": {
+    "expected": 4022890889,
+    "actual_seed_file_number": 4022890889,
+    "actual_seed_zero": 3090050405
+  },
+  "decoded": {
+    "frames_count": 11,
+    "resources": [
+      "character/swordman/equipment/avatar/skin/sm_body%04d.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 10,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -18,
+              -5,
+              -6,
+              25,
+              10,
+              43
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 11,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -24,
+              -2,
+              -5,
+              20,
+              5,
+              23
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 12,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -25,
+              -1,
+              -7,
+              20,
+              5,
+              20
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 13,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -41,
+              -4,
+              59,
+              36,
+              7,
+              20
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          },
+          {
+            "type": 23,
+            "value": 2
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 14,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -40,
+              -4,
+              63,
+              21,
+              7,
+              20
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 15,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -36,
+              -3,
+              63,
+              25,
+              5,
+              20
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 16,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -40,
+              -3,
+              65,
+              28,
+              7,
+              20
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 17,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -38,
+              -3,
+              66,
+              20,
+              6,
+              20
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 18,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -38,
+              -3,
+              66,
+              20,
+              6,
+              20
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 19,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -38,
+              -3,
+              63,
+              22,
+              7,
+              20
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 20,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -36,
+              -4,
+              62,
+              19,
+              8,
+              20
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 150
+          }
+        ]
+      }
+    ]
+  }
+}

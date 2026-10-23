@@ -1,0 +1,13 @@
+{
+  "check_script": "res://tools/r3/quest_checks.gd",
+  "elapsed_seconds": 17.848883,
+  "qa_source_sha256": "1750750237cedf209c37664b2bc6e6bf0addeec0ff9532413a2bf7812b470ba8",
+  "render_cases_completed": 21,
+  "result": {
+    "checks": 21,
+    "failed": [],
+    "recorded_rows": 1986,
+    "render_cases": 21
+  },
+  "status": "complete"
+}

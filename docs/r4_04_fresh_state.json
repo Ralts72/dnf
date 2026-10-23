@@ -1,0 +1,147 @@
+{
+  "actor": {
+    "action": "stay",
+    "blocked": false,
+    "paused": false,
+    "position": "(440.0, 320.0)",
+    "preview": false
+  },
+  "boss_meta": false,
+  "first_meta": false,
+  "formal": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "hp_meta": false,
+  "loaded_scripts": {
+    "res://scripts/adventure_progress.gd": {
+      "disk": "ef068fd6d1222c9489fb62f5e2fc731eab5fa82448a4586852e2e7ce1038a1af",
+      "loaded": "ef068fd6d1222c9489fb62f5e2fc731eab5fa82448a4586852e2e7ce1038a1af",
+      "matches": true
+    },
+    "res://scripts/first_loot.gd": {
+      "disk": "1c004f8be23ef26f9604f3cf655b62c460fa05f7925fdd013866957c701f6a76",
+      "loaded": "1c004f8be23ef26f9604f3cf655b62c460fa05f7925fdd013866957c701f6a76",
+      "matches": true
+    },
+    "res://scripts/hp_potion_runtime.gd": {
+      "disk": "8887bea3aca5519ee06022dc3624ce20c49ce1e70d99062452a1b8bb21b4f5b7",
+      "loaded": "8887bea3aca5519ee06022dc3624ce20c49ce1e70d99062452a1b8bb21b4f5b7",
+      "matches": true
+    },
+    "res://scripts/port_supply_shop.gd": {
+      "disk": "118fa57d22d409aeea0106e13de3cb7f530cbb708adf6dbd416bad84cb0fbb06",
+      "loaded": "118fa57d22d409aeea0106e13de3cb7f530cbb708adf6dbd416bad84cb0fbb06",
+      "matches": true
+    },
+    "res://scripts/west_coast_r1.gd": {
+      "disk": "b378b1783ecfebb51eec7f2881519e180ce930bae40a079b4f81384dd9bdcaaa",
+      "loaded": "b378b1783ecfebb51eec7f2881519e180ce930bae40a079b4f81384dd9bdcaaa",
+      "matches": true
+    }
+  },
+  "physics_tps": 60,
+  "potion": {
+    "accepted_uses": 0,
+    "actor_id": 74557950579,
+    "can_use": false,
+    "cooldown_remaining": 0.0,
+    "cooldown_seconds": 10.0,
+    "count": 0,
+    "freeze_reason": "",
+    "frozen": false,
+    "heal_hp": 35,
+    "hud_text": "H 药剂×0 · 就绪",
+    "hud_visible": false,
+    "item_id": 1106,
+    "last_heal": {},
+    "last_reject_reason": "",
+    "player_hp": 100,
+    "ready": true,
+    "rejected_uses": 0,
+    "reset_count": 0,
+    "scene": "res://scenes/west_coast_r1.tscn"
+  },
+  "profile": {
+    "dialog_open": false,
+    "encounter_cleared": false,
+    "last_error": "",
+    "loaded_from_backup": false,
+    "pending_save": false,
+    "progress": {
+      "chapter_flags": {
+        "lakius_cleared": false
+      },
+      "coins": 0,
+      "equipment": {
+        "equipped_key": "practice_lswd0000",
+        "owned": {
+          "27304": false
+        }
+      },
+      "first_drop": {
+        "id": "mirkius_first_eye_v1",
+        "position": [
+          640,
+          300
+        ],
+        "region": "hall",
+        "state": "unearned"
+      },
+      "inventory": {
+        "1106": 0,
+        "3128": 0
+      },
+      "objective_cleared": false,
+      "quest_stage": "available",
+      "reward_granted": false,
+      "schema": 5
+    },
+    "region_scene": "res://scenes/west_coast_r1.tscn",
+    "save_attempts": 0,
+    "storage_path": "user://adventure/first_route_v1.json",
+    "storage_ready": true
+  },
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "shop": {
+    "buy_text": "购买 1 瓶 · 10 金币",
+    "can_buy": false,
+    "capacity": 4,
+    "coins": 0,
+    "dialog_open": false,
+    "pending_save": false,
+    "potion_count": 0,
+    "price": 10
+  },
+  "skill": {
+    "accepted_casts": 0,
+    "action": "hardattack",
+    "actor_id": 74557950579,
+    "can_cast": true,
+    "cooldown_remaining": 0.0,
+    "cooldown_seconds": 6.0,
+    "freeze_reason": "",
+    "frozen": false,
+    "hud_text": "Z 鬼斩 · 就绪",
+    "hud_visible": true,
+    "last_reject_reason": "",
+    "ready": true,
+    "rejected_casts": 0,
+    "reset_count": 0,
+    "scene": "res://scenes/west_coast_r1.tscn"
+  }
+}

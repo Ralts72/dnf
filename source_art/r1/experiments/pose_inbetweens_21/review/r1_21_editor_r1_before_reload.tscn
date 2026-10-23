@@ -1,0 +1,675 @@
+[gd_scene format=3 uid="uid://c86jl0pf25gcy"]
+
+[ext_resource type="Script" uid="uid://c7kfjs8ghq28x" path="res://scripts/west_coast_r1.gd" id="1_if3e5"]
+[ext_resource type="Texture2D" uid="uid://d386cveuq7q73" path="res://assets/r0/port/far/000.png" id="2_bdk2q"]
+[ext_resource type="PackedScene" uid="uid://dskcfsigxbo3j" path="res://assets/r1/models/west_coast_port.glb" id="3_fkgis"]
+[ext_resource type="Shader" uid="uid://d3vmlvotf6h23" path="res://shaders/harbor_water.gdshader" id="4_u5vrc"]
+[ext_resource type="Script" uid="uid://dtts720rylmf4" path="res://scripts/harbor_water.gd" id="5_gxer1"]
+[ext_resource type="Script" uid="uid://86qr8h60kfwr" path="res://scripts/billboard_prop.gd" id="6_6klj3"]
+[ext_resource type="Texture2D" uid="uid://c65vb0jegg2ft" path="res://assets/r0/port/westmmidship/image/000.png" id="7_uuhxi"]
+[ext_resource type="Texture2D" uid="uid://d2ckvxj6i4e" path="res://assets/r0/port/westnearship/image/000.png" id="8_mw8iq"]
+[ext_resource type="Texture2D" uid="uid://bwpy3eemwpt8h" path="res://assets/r0/port/westmid00/image/000.png" id="9_quc44"]
+[ext_resource type="Texture2D" uid="uid://dn5bpncm5vqo2" path="res://assets/r1/foliage_top.png" id="10_30v3t"]
+[ext_resource type="Script" uid="uid://6l0d140i2hm0" path="res://scripts/source_actor_3d.gd" id="11_g46p8"]
+[ext_resource type="Shader" uid="uid://cye3rejlxcb4o" path="res://shaders/source_billboard.gdshader" id="12_kxxb1"]
+[ext_resource type="Texture2D" uid="uid://s30pxu3tiome" path="res://assets/r1/actors/npc_sr/stay_00.png" id="13_iimbw"]
+[ext_resource type="Shader" uid="uid://66r0uksm7r8j" path="res://shaders/contact_shadow.gdshader" id="14_xynu8"]
+[ext_resource type="Texture2D" uid="uid://c31wdw7ty3lcp" path="res://assets/r1/actors/npc_lo/stay_00.png" id="15_wg6da"]
+[ext_resource type="Texture2D" uid="uid://byxj8lsue7re4" path="res://assets/r1/actors/swordman/stay_00.png" id="16_7jgn3"]
+
+[sub_resource type="ViewportTexture" id="Texture_port"]
+viewport_path = NodePath("PortClip/ViewportContainer/Viewport")
+
+[sub_resource type="Environment" id="Environment_port"]
+ambient_light_source = 2
+ambient_light_color = Color(0.76, 0.85, 1, 1)
+ambient_light_energy = 0.55
+reflected_light_source = 1
+ssao_enabled = true
+ssao_radius = 1.2
+ssao_intensity = 0.7
+ssao_light_affect = 0.08
+
+[sub_resource type="ShaderMaterial" id="Material_water"]
+render_priority = 0
+shader = ExtResource("4_u5vrc")
+shader_parameter/water_time = 0.0
+shader_parameter/phase_steps_per_second = 8.0
+shader_parameter/shore_start = Vector2(449, 190)
+shader_parameter/shore_bend = Vector2(673, 254)
+shader_parameter/shore_end = Vector2(958, 254)
+shader_parameter/far_pier_bounds = Vector4(510, 135, 958, 153)
+shader_parameter/middle_pier_bounds = Vector4(510, 175, 958, 187)
+shader_parameter/deep = Color(0, 0.5176471, 0.77254903, 1)
+shader_parameter/shade = Color(0.0627451, 0.6117647, 0.87058824, 1)
+shader_parameter/blue = Color(0.12941177, 0.6784314, 0.9019608, 1)
+shader_parameter/body_dark = Color(0.16078432, 0.70980394, 0.9372549, 1)
+shader_parameter/body = Color(0.16078432, 0.7411765, 0.96862745, 1)
+shader_parameter/cyan = Color(0.25882354, 0.80784315, 1, 1)
+shader_parameter/ripple = Color(0.3882353, 0.9019608, 1, 1)
+shader_parameter/glint = Color(0.6117647, 0.9372549, 1, 1)
+shader_parameter/foam = Color(0.9372549, 1, 1, 1)
+
+[sub_resource type="PlaneMesh" id="Mesh_water"]
+material = SubResource("Material_water")
+size = Vector2(18, 4.1)
+
+[sub_resource type="BoxShape3D" id="Shape_stones"]
+size = Vector3(1.05, 0.42, 0.47)
+
+[sub_resource type="BoxShape3D" id="Shape_stall_sign"]
+size = Vector3(0.46, 1.7, 0.14)
+
+[sub_resource type="ShaderMaterial" id="Material_actor_Sharan"]
+render_priority = 0
+shader = ExtResource("12_kxxb1")
+shader_parameter/source_texture = ExtResource("13_iimbw")
+shader_parameter/ground_y = 0.025
+
+[sub_resource type="CapsuleShape3D" id="Shape_actor"]
+radius = 0.18
+height = 1.5
+
+[sub_resource type="ShaderMaterial" id="Material_contact"]
+render_priority = 0
+shader = ExtResource("14_xynu8")
+
+[sub_resource type="PlaneMesh" id="Mesh_contact"]
+material = SubResource("Material_contact")
+size = Vector2(0.85, 0.48)
+
+[sub_resource type="StandardMaterial3D" id="Material_marker"]
+shading_mode = 0
+albedo_color = Color(0.05, 0.9, 1, 1)
+
+[sub_resource type="TorusMesh" id="Mesh_marker"]
+material = SubResource("Material_marker")
+inner_radius = 0.205
+outer_radius = 0.23
+rings = 24
+ring_segments = 6
+
+[sub_resource type="ShaderMaterial" id="Material_actor_Lorian"]
+render_priority = 0
+shader = ExtResource("12_kxxb1")
+shader_parameter/source_texture = ExtResource("15_wg6da")
+shader_parameter/ground_y = 0.025
+
+[sub_resource type="ShaderMaterial" id="Material_actor_Swordman"]
+render_priority = 0
+shader = ExtResource("12_kxxb1")
+shader_parameter/source_texture = ExtResource("16_7jgn3")
+shader_parameter/ground_y = 0.025
+
+[sub_resource type="StyleBoxFlat" id="ButtonHover"]
+content_margin_left = 11.0
+content_margin_top = 5.0
+content_margin_right = 11.0
+content_margin_bottom = 5.0
+bg_color = Color(0.25, 0.29, 0.3, 1)
+border_width_bottom = 2
+border_color = Color(0.86, 0.71, 0.41, 1)
+
+[sub_resource type="StyleBoxFlat" id="ButtonNormal"]
+content_margin_left = 11.0
+content_margin_top = 5.0
+content_margin_right = 11.0
+content_margin_bottom = 5.0
+bg_color = Color(0.12, 0.17, 0.22, 1)
+border_width_bottom = 1
+border_color = Color(0.36, 0.4, 0.43, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_zh"]
+font_names = PackedStringArray("PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC")
+
+[sub_resource type="Theme" id="Theme_r0"]
+default_font = SubResource("SystemFont_zh")
+default_font_size = 12
+Button/colors/font_color = Color(0.87, 0.88, 0.85, 1)
+Button/styles/hover = SubResource("ButtonHover")
+Button/styles/normal = SubResource("ButtonNormal")
+Button/styles/pressed = SubResource("ButtonHover")
+
+[node name="WestCoastR1" type="Node2D" unique_id=1480435015]
+script = ExtResource("1_if3e5")
+
+[node name="Backdrop" type="ColorRect" parent="." unique_id=1129285024]
+offset_right = 960.0
+offset_bottom = 540.0
+mouse_filter = 2
+color = Color(0.055, 0.085, 0.12, 1)
+
+[node name="PortClip" type="Control" parent="." unique_id=803494622]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = 32.0
+offset_top = 62.0
+offset_right = 928.0
+offset_bottom = 466.0
+mouse_filter = 2
+
+[node name="SeaColor" type="ColorRect" parent="PortClip" unique_id=2103946672]
+layout_mode = 0
+offset_right = 896.0
+offset_bottom = 404.0
+mouse_filter = 2
+color = Color(0.1, 0.4, 0.6, 1)
+
+[node name="Far" type="Sprite2D" parent="PortClip" unique_id=749714649]
+position = Vector2(0, -37)
+texture = ExtResource("2_bdk2q")
+centered = false
+
+[node name="ViewportContainer" type="TextureRect" parent="PortClip" unique_id=1634681767]
+texture_filter = 1
+layout_mode = 0
+offset_right = 896.0
+offset_bottom = 404.0
+mouse_filter = 2
+texture = SubResource("Texture_port")
+expand_mode = 1
+
+[node name="Viewport" type="SubViewport" parent="PortClip/ViewportContainer" unique_id=1464166096]
+own_world_3d = true
+transparent_bg = true
+handle_input_locally = false
+msaa_3d = 2
+size = Vector2i(1792, 808)
+render_target_update_mode = 4
+
+[node name="World" type="Node3D" parent="PortClip/ViewportContainer/Viewport" unique_id=181754620]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="PortClip/ViewportContainer/Viewport/World" unique_id=914127548]
+environment = SubResource("Environment_port")
+
+[node name="Camera" type="Camera3D" parent="PortClip/ViewportContainer/Viewport/World" unique_id=1855499388]
+transform = Transform3D(1, 0, 0, 0, 0.7880108, 0.6156615, 0, -0.6156615, 0.7880108, 0, 11.106907, 12.584193)
+projection = 1
+current = true
+size = 6.733333
+far = 60.0
+
+[node name="Sun" type="DirectionalLight3D" parent="PortClip/ViewportContainer/Viewport/World" unique_id=1988619766]
+transform = Transform3D(0.8660254, 0.38302222, -0.32139382, 0, 0.64278764, 0.76604444, 0.5, -0.66341394, 0.5566704, 0, 0, 0)
+light_color = Color(1, 0.94, 0.81, 1)
+light_energy = 0.8
+light_angular_distance = 1.1
+shadow_enabled = true
+directional_shadow_max_distance = 32.0
+
+[node name="PortArchitecture" parent="PortClip/ViewportContainer/Viewport/World" unique_id=1281468611 instance=ExtResource("3_fkgis")]
+
+[node name="Water" type="MeshInstance3D" parent="PortClip/ViewportContainer/Viewport/World" unique_id=2122169462]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.3, -0.9)
+cast_shadow = 0
+mesh = SubResource("Mesh_water")
+script = ExtResource("5_gxer1")
+
+[node name="StoneCollision" type="StaticBody3D" parent="PortClip/ViewportContainer/Viewport/World" unique_id=736770333]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.99, 0.21, 2.45)
+
+[node name="Shape" type="CollisionShape3D" parent="PortClip/ViewportContainer/Viewport/World/StoneCollision" unique_id=1727084281]
+shape = SubResource("Shape_stones")
+disabled = true
+
+[node name="StallSignCollision" type="StaticBody3D" parent="PortClip/ViewportContainer/Viewport/World" unique_id=1716878276]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.42, 0.85, 0.6)
+
+[node name="Shape" type="CollisionShape3D" parent="PortClip/ViewportContainer/Viewport/World/StallSignCollision" unique_id=433007540]
+shape = SubResource("Shape_stall_sign")
+
+[node name="SourceProps" type="Node3D" parent="PortClip/ViewportContainer/Viewport/World" unique_id=766091901]
+
+[node name="westmmidship" type="Node3D" parent="PortClip/ViewportContainer/Viewport/World/SourceProps" unique_id=2007105177]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.4166665, 0.025, -4.902681)
+script = ExtResource("6_6klj3")
+frames = Array[Dictionary]([{
+"duration_ms": 300,
+"offset": [-176, -256]
+}, {
+"duration_ms": 300,
+"offset": [-176, -257]
+}, {
+"duration_ms": 300,
+"offset": [-176, -258]
+}, {
+"duration_ms": 300,
+"offset": [-176, -257]
+}])
+image_size = Vector2(299, 350)
+source_anchor = Vector2(773, 37)
+
+[node name="Sprite" type="Sprite3D" parent="PortClip/ViewportContainer/Viewport/World/SourceProps/westmmidship" unique_id=844563015]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.44166666, 1.0638145, -0.83114296)
+cast_shadow = 0
+pixel_size = 0.016666668
+billboard = 1
+alpha_cut = 1
+alpha_scissor_threshold = 0.15
+texture_filter = 0
+texture = ExtResource("7_uuhxi")
+
+[node name="westnearship" type="Node3D" parent="PortClip/ViewportContainer/Viewport/World/SourceProps" unique_id=1434346347]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.75, 0.025, 2.0546057)
+script = ExtResource("6_6klj3")
+frames = Array[Dictionary]([{
+"duration_ms": 250,
+"offset": [-190, -310]
+}, {
+"duration_ms": 230,
+"offset": [-190, -312]
+}, {
+"duration_ms": 180,
+"offset": [-190, -314]
+}, {
+"duration_ms": 150,
+"offset": [-190, -316]
+}, {
+"duration_ms": 180,
+"offset": [-190, -314]
+}, {
+"duration_ms": 230,
+"offset": [-190, -312]
+}, {
+"duration_ms": 350,
+"offset": [-190, -310]
+}, {
+"duration_ms": 350,
+"offset": [-190, -308]
+}])
+image_size = Vector2(293, 341)
+source_anchor = Vector2(793, 294)
+view_depth_offset = -0.95
+
+[node name="Sprite" type="Sprite3D" parent="PortClip/ViewportContainer/Viewport/World/SourceProps/westnearship" unique_id=1408712416]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.725, 1.832125, -1.4314129)
+cast_shadow = 0
+pixel_size = 0.016666668
+billboard = 1
+alpha_cut = 1
+alpha_scissor_threshold = 0.15
+texture_filter = 0
+texture = ExtResource("8_mw8iq")
+
+[node name="westmid00" type="Node3D" parent="PortClip/ViewportContainer/Viewport/World/SourceProps" unique_id=1306154158]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.4666667, 0.025, -8.070005)
+script = ExtResource("6_6klj3")
+frames = Array[Dictionary]([{
+"duration_ms": 120,
+"offset": [0, 38]
+}])
+image_size = Vector2(564, 192)
+source_anchor = Vector2(0, -80)
+
+[node name="Sprite" type="Sprite3D" parent="PortClip/ViewportContainer/Viewport/World/SourceProps/westmid00" unique_id=1449709432]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.7, -1.7598907, 1.3749772)
+cast_shadow = 0
+pixel_size = 0.016666668
+billboard = 1
+alpha_cut = 1
+alpha_scissor_threshold = 0.15
+texture_filter = 0
+texture = ExtResource("9_quc44")
+
+[node name="foliage_top" type="Node3D" parent="PortClip/ViewportContainer/Viewport/World/SourceProps" unique_id=1306109641]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.0333333, 0.025, -6.5810924)
+script = ExtResource("6_6klj3")
+frames = Array[Dictionary]([{
+"duration_ms": 1000,
+"offset": [0, 0]
+}])
+image_size = Vector2(139, 85)
+source_anchor = Vector2(86, -25)
+
+[node name="Sprite" type="Sprite3D" parent="PortClip/ViewportContainer/Viewport/World/SourceProps/foliage_top" unique_id=637642855]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1583333, -0.55817425, 0.43609354)
+cast_shadow = 0
+pixel_size = 0.016666668
+billboard = 1
+alpha_cut = 1
+alpha_scissor_threshold = 0.15
+texture_filter = 0
+texture = ExtResource("10_30v3t")
+
+[node name="Actors" type="Node3D" parent="PortClip/ViewportContainer/Viewport/World" unique_id=1633299405]
+
+[node name="Sharan" type="CharacterBody3D" parent="PortClip/ViewportContainer/Viewport/World/Actors" unique_id=1815001611]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9666667, 0.025, 1.3236847)
+script = ExtResource("11_g46p8")
+animation_data = "res://data/npc_sr_r1.json"
+source_position = Vector2(150, 267)
+
+[node name="Sprite" type="Sprite3D" parent="PortClip/ViewportContainer/Viewport/World/Actors/Sharan" unique_id=596015964]
+transform = Transform3D(1, 0, 0, 0, 1.2690182, 0, 0, 0, 1, 0, 0, 0)
+material_override = SubResource("Material_actor_Sharan")
+cast_shadow = 2
+offset = Vector2(6, 62)
+pixel_size = 0.016666668
+alpha_cut = 1
+alpha_scissor_threshold = 0.25
+texture_filter = 0
+texture = ExtResource("13_iimbw")
+
+[node name="Collider" type="CollisionShape3D" parent="PortClip/ViewportContainer/Viewport/World/Actors/Sharan" unique_id=12748438]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75, 0)
+shape = SubResource("Shape_actor")
+
+[node name="ContactShadow" type="MeshInstance3D" parent="PortClip/ViewportContainer/Viewport/World/Actors/Sharan" unique_id=760997803]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.01, 0)
+cast_shadow = 0
+mesh = SubResource("Mesh_contact")
+
+[node name="FootMarker" type="MeshInstance3D" parent="PortClip/ViewportContainer/Viewport/World/Actors/Sharan" unique_id=1704904454]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.02, 0)
+visible = false
+cast_shadow = 0
+mesh = SubResource("Mesh_marker")
+
+[node name="Lorian" type="CharacterBody3D" parent="PortClip/ViewportContainer/Viewport/World/Actors" unique_id=944167678]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7166667, 0.025, 1.4590404)
+script = ExtResource("11_g46p8")
+animation_data = "res://data/npc_lo_r1.json"
+source_position = Vector2(285, 272)
+
+[node name="Sprite" type="Sprite3D" parent="PortClip/ViewportContainer/Viewport/World/Actors/Lorian" unique_id=93991963]
+transform = Transform3D(1, 0, 0, 0, 1.2690182, 0, 0, 0, 1, 0, 0, 0)
+material_override = SubResource("Material_actor_Lorian")
+cast_shadow = 2
+offset = Vector2(22, 41)
+pixel_size = 0.016666668
+alpha_cut = 1
+alpha_scissor_threshold = 0.25
+texture_filter = 0
+texture = ExtResource("15_wg6da")
+
+[node name="Collider" type="CollisionShape3D" parent="PortClip/ViewportContainer/Viewport/World/Actors/Lorian" unique_id=772876066]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75, 0)
+shape = SubResource("Shape_actor")
+
+[node name="ContactShadow" type="MeshInstance3D" parent="PortClip/ViewportContainer/Viewport/World/Actors/Lorian" unique_id=1740120963]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.01, 0)
+cast_shadow = 0
+mesh = SubResource("Mesh_contact")
+
+[node name="FootMarker" type="MeshInstance3D" parent="PortClip/ViewportContainer/Viewport/World/Actors/Lorian" unique_id=1525257471]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.02, 0)
+visible = false
+cast_shadow = 0
+mesh = SubResource("Mesh_marker")
+
+[node name="Swordman" type="CharacterBody3D" parent="PortClip/ViewportContainer/Viewport/World/Actors" unique_id=1815375426]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.13333333, 0.025, 2.7584558)
+script = ExtResource("11_g46p8")
+animation_data = "res://data/swordman_r1.json"
+controllable = true
+
+[node name="Sprite" type="Sprite3D" parent="PortClip/ViewportContainer/Viewport/World/Actors/Swordman" unique_id=640430988]
+transform = Transform3D(1, 0, 0, 0, 1.2690182, 0, 0, 0, 1, 0, 0, 0)
+material_override = SubResource("Material_actor_Swordman")
+cast_shadow = 2
+offset = Vector2(27, 55)
+pixel_size = 0.016666668
+alpha_cut = 1
+alpha_scissor_threshold = 0.25
+texture_filter = 0
+texture = ExtResource("16_7jgn3")
+
+[node name="Collider" type="CollisionShape3D" parent="PortClip/ViewportContainer/Viewport/World/Actors/Swordman" unique_id=399318933]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75, 0)
+shape = SubResource("Shape_actor")
+
+[node name="ContactShadow" type="MeshInstance3D" parent="PortClip/ViewportContainer/Viewport/World/Actors/Swordman" unique_id=67585180]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.01, 0)
+cast_shadow = 0
+mesh = SubResource("Mesh_contact")
+
+[node name="FootMarker" type="MeshInstance3D" parent="PortClip/ViewportContainer/Viewport/World/Actors/Swordman" unique_id=349071]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.02, 0)
+visible = false
+cast_shadow = 0
+mesh = SubResource("Mesh_marker")
+
+[node name="Interface" type="CanvasLayer" parent="." unique_id=2806971]
+layer = 10
+
+[node name="Header" type="ColorRect" parent="Interface" unique_id=319200169]
+offset_right = 960.0
+offset_bottom = 62.0
+mouse_filter = 2
+color = Color(0.055, 0.085, 0.12, 0.98)
+
+[node name="Footer" type="ColorRect" parent="Interface" unique_id=689074103]
+offset_top = 466.0
+offset_right = 960.0
+offset_bottom = 540.0
+mouse_filter = 2
+color = Color(0.055, 0.085, 0.12, 0.98)
+
+[node name="GoldLine" type="ColorRect" parent="Interface" unique_id=84683439]
+offset_left = 32.0
+offset_top = 60.0
+offset_right = 928.0
+offset_bottom = 61.0
+mouse_filter = 2
+color = Color(0.69, 0.53, 0.29, 0.6)
+
+[node name="Title" type="Label" parent="Interface" unique_id=727324689]
+offset_left = 32.0
+offset_top = 10.0
+theme = SubResource("Theme_r0")
+theme_override_colors/font_color = Color(0.94, 0.85, 0.64, 1)
+theme_override_font_sizes/font_size = 21
+text = "西海岸  /  港口"
+
+[node name="Subtitle" type="Label" parent="Interface" unique_id=304993717]
+offset_left = 33.0
+offset_top = 38.0
+theme = SubResource("Theme_r0")
+theme_override_colors/font_color = Color(0.83, 0.86, 0.87, 1)
+theme_override_font_sizes/font_size = 11
+text = "鬼剑士 · 2D 人物 × 3D 港口"
+
+[node name="Build" type="Label" parent="Interface" unique_id=1170278936]
+offset_left = 856.0
+offset_top = 17.0
+theme = SubResource("Theme_r0")
+theme_override_colors/font_color = Color(0.78, 0.65, 0.43, 1)
+theme_override_font_sizes/font_size = 13
+text = "R1   /   20"
+
+[node name="Status" type="Label" parent="Interface" unique_id=1258115656]
+offset_left = 650.0
+offset_top = 39.0
+theme = SubResource("Theme_r0")
+theme_override_colors/font_color = Color(0.83, 0.86, 0.87, 1)
+theme_override_font_sizes/font_size = 11
+
+[node name="Compare" type="Button" parent="Interface" unique_id=1082567374]
+offset_left = 453.0
+offset_top = 17.0
+offset_right = 566.0
+offset_bottom = 44.0
+focus_mode = 0
+theme = SubResource("Theme_r0")
+text = "R0 原图 F4"
+
+[node name="AudioMenu" type="OptionButton" parent="Interface" unique_id=1425074387]
+offset_left = 211.0
+offset_top = 17.0
+offset_right = 328.0
+offset_bottom = 44.0
+tooltip_text = "人物动作与港口环境声音量；F8 静音或恢复，背景音乐由 F9 独立控制"
+focus_mode = 0
+theme = SubResource("Theme_r0")
+
+[node name="MusicMenu" type="OptionButton" parent="Interface" unique_id=904059512]
+offset_left = 334.0
+offset_top = 17.0
+offset_right = 447.0
+offset_bottom = 44.0
+tooltip_text = "背景音乐音量；F9 静音保留进度，音乐独立于动作暂停，F4 连续播放"
+focus_mode = 0
+theme = SubResource("Theme_r0")
+
+[node name="MoreActions" type="OptionButton" parent="Interface" unique_id=857856034]
+offset_left = 650.0
+offset_top = 8.0
+offset_right = 824.0
+offset_bottom = 34.0
+tooltip_text = "原始姿势预览；跳跃、倒地与防御中的长保持帧可用 F1 拖动选帧或 F3 逐帧查看"
+focus_mode = 0
+theme = SubResource("Theme_r0")
+
+[node name="Help" type="Label" parent="Interface" unique_id=640543526]
+offset_left = 32.0
+offset_top = 511.0
+theme = SubResource("Theme_r0")
+theme_override_colors/font_color = Color(0.83, 0.86, 0.87, 1)
+theme_override_font_sizes/font_size = 11
+text = "WASD 移动 · Shift 奔跑 · Space 跳跃 · X 攻击 · Q 动作 · R 复位 · Esc 自由 · Tab 界面"
+
+[node name="MotionToggle" type="CheckButton" parent="Interface" unique_id=1439601534]
+offset_left = 650.0
+offset_top = 506.0
+offset_right = 780.0
+offset_bottom = 536.0
+tooltip_text = "平滑角色移动与跳跃位置；F11 开关对照，动作原图与周期保持不变"
+focus_mode = 0
+theme = SubResource("Theme_r0")
+theme_override_font_sizes/font_size = 11
+button_pressed = true
+text = "平移 F11"
+
+[node name="EffectsToggle" type="CheckButton" parent="Interface" unique_id=1047354077]
+offset_left = 782.0
+offset_top = 506.0
+offset_right = 928.0
+offset_bottom = 536.0
+tooltip_text = "崩山击刀光与落地特效；F10 开关。动作演示，无伤害判定"
+focus_mode = 0
+theme = SubResource("Theme_r0")
+theme_override_font_sizes/font_size = 11
+button_pressed = true
+text = "特效 F10"
+
+[node name="Inspector" type="Label" parent="Interface" unique_id=312894640]
+visible = false
+offset_left = 46.0
+offset_top = 76.0
+theme = SubResource("Theme_r0")
+theme_override_colors/font_color = Color(0.93, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 12
+
+[node name="FrameSlider" type="HSlider" parent="Interface" unique_id=1549924500]
+visible = false
+offset_left = 46.0
+offset_top = 164.0
+offset_right = 266.0
+offset_bottom = 184.0
+focus_mode = 0
+mouse_default_cursor_shape = 2
+max_value = 5.0
+
+[node name="FrameLabel" type="Label" parent="Interface" unique_id=1260304742]
+visible = false
+offset_left = 46.0
+offset_top = 187.0
+theme = SubResource("Theme_r0")
+theme_override_colors/font_color = Color(0.93, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 11
+
+[node name="Buttons" type="HBoxContainer" parent="Interface" unique_id=947518781]
+offset_left = 32.0
+offset_top = 477.0
+offset_right = 928.0
+offset_bottom = 503.0
+theme = SubResource("Theme_r0")
+theme_override_constants/separation = 5
+
+[node name="Free" type="Button" parent="Interface/Buttons" unique_id=578718237]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "自由"
+
+[node name="Jump" type="Button" parent="Interface/Buttons" unique_id=1758936785]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "跳跃 Space"
+
+[node name="Action0" type="Button" parent="Interface/Buttons" unique_id=1586955585]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "1 待机"
+
+[node name="Action1" type="Button" parent="Interface/Buttons" unique_id=1376244955]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "2 行走"
+
+[node name="Action2" type="Button" parent="Interface/Buttons" unique_id=716800886]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "3 奔跑"
+
+[node name="Action3" type="Button" parent="Interface/Buttons" unique_id=2104260136]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "4 普攻一"
+
+[node name="Action4" type="Button" parent="Interface/Buttons" unique_id=729691299]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "5 普攻二"
+
+[node name="Action5" type="Button" parent="Interface/Buttons" unique_id=1732368307]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "6 崩山击"
+
+[node name="Pause" type="Button" parent="Interface/Buttons" unique_id=1164082629]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "暂停 F2"
+
+[node name="Step" type="Button" parent="Interface/Buttons" unique_id=1651872650]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "逐帧 F3"
+
+[node name="Markers" type="Button" parent="Interface/Buttons" unique_id=1033707576]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "脚底 F1"
+
+[node name="Facing" type="Button" parent="Interface/Buttons" unique_id=139890099]
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "转向 F7"
+
+[node name="Quality" type="Button" parent="Interface" unique_id=1371839555]
+offset_left = 572.0
+offset_top = 17.0
+offset_right = 644.0
+offset_bottom = 44.0
+focus_mode = 0
+theme = SubResource("Theme_r0")
+text = "清晰 F6"

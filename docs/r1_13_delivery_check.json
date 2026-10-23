@@ -1,0 +1,12 @@
+{
+  "candidate": "R1/13",
+  "native_and_ui_checks": 79,
+  "build_hashes_verified": 130,
+  "run_id": "r18445946-44",
+  "music_started_once": true,
+  "music_bus_restored": true,
+  "loaded_scripts_match_disk": true,
+  "remaining_quota_percent": 93,
+  "goal_status": "active",
+  "preview_sha256": "caa34ae2dbf38e4269924198e029e535152d97d678d3d2f3bef123ba878319a2"
+}

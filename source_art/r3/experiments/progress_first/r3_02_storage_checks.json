@@ -1,0 +1,194 @@
+{
+	"all_passed": true,
+	"checks": [
+		{
+			"detail": null,
+			"name": "accept persists active bundle",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "observed clear persists return once",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "return state does not save every frame",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "claim commits exactly40 coins",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "repeated claim rejected",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "reload completed rejects second reward",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "completed load seeds absent encounter flag",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "successful atomic save consumes temporary file",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "backup is a consistent prior bundle",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "corrupt primary recovers valid backup",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "backup recovery preserves corrupt primary before commit",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "recovered bundle can safely claim40",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "commit archives exact corrupt source bytes",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "post-recovery reload remains40 once",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "both invalid disable writes",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "both invalid files retained byte-exact",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "malformed bundle rejected0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "malformed bundle rejected1",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "malformed bundle rejected2",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "malformed bundle rejected3",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "malformed bundle rejected4",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "malformed bundle rejected5",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "malformed bundle rejected6",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "oversized file rejected and retained",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "failed accept write rolls memory back",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "failed write does not replace blocking directory",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "latch setup accepted",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "failed clear save retains active zero-coin bundle",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "failed clear save attempts once until explicit retry",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "manual retry persists return after storage recovers",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "reward rejected without current real cleared flag",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "numeric truthy flag cannot award reward",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "clear before accepting moves directly to return",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "configuration rejects non-QA legacy path",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "human primary presence and bytes unchanged",
+			"passed": true
+		}
+	],
+	"controller_sha256": "e651930feb0787f62e78c928265bd52a5df93d6da4a3d1b6366d3217eb6671c2",
+	"count": 35,
+	"created_at": "2026-10-23T07:15:21",
+	"failed": [],
+	"godot": "4.7.2-stable (official)",
+	"human_primary_exists_after": false,
+	"human_primary_exists_before": false,
+	"human_primary_initialized_or_written": false,
+	"human_primary_sha256_after": "",
+	"human_primary_sha256_before": "",
+	"isolated_storage_prefix": "user://qa/first_route_1792739721_35655_140403",
+	"quest_data_sha256": "53caedb81c54326d28af78dca64727168b3a0c9e75eb22c4c026746054a73d05",
+	"schema": 1,
+	"test_script": "res://tools/r3/progress_storage_checks.gd"
+}

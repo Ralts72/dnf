@@ -1,0 +1,181 @@
+{
+  "candidate": "R1/16",
+  "checks": [
+    {
+      "check": "thirteen_separate_painted_meshes",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "painted_color_uses_unlit_material",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "painted_alpha_uses_cutout",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "painted_pixels_use_nearest_sampling",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "painted_geometry_retains_cast_shadow",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "native_wood_still_uses_scene_lighting",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "imported_texture_preserves_all_source_rgba",
+      "details": {
+        "pixels": 101890,
+        "vram_compressed": false
+      },
+      "pass": true
+    },
+    {
+      "check": "original_stall_rgb_under_red_light_1x",
+      "details": {
+        "clear_source_samples": 11078,
+        "light_color": "(1.0, 0.05, 0.02, 1.0)",
+        "light_energy": 8.0,
+        "matching": 8397,
+        "max_rgb_distance": 0.0,
+        "samples": 8397,
+        "scale": 1,
+        "transparent": 11078
+      },
+      "pass": true
+    },
+    {
+      "check": "source_transparent_pixels_remain_empty_1x",
+      "details": {
+        "clear_source_samples": 11078,
+        "light_color": "(1.0, 0.05, 0.02, 1.0)",
+        "light_energy": 8.0,
+        "matching": 8397,
+        "max_rgb_distance": 0.0,
+        "samples": 8397,
+        "scale": 1,
+        "transparent": 11078
+      },
+      "pass": true
+    },
+    {
+      "check": "region_red_drapery_1x",
+      "details": {
+        "matching": 1155,
+        "samples": 1155
+      },
+      "pass": true
+    },
+    {
+      "check": "region_canopy_1x",
+      "details": {
+        "matching": 130,
+        "samples": 130
+      },
+      "pass": true
+    },
+    {
+      "check": "region_blue_counter_cloth_1x",
+      "details": {
+        "matching": 40,
+        "samples": 40
+      },
+      "pass": true
+    },
+    {
+      "check": "original_stall_rgb_under_red_light_2x",
+      "details": {
+        "clear_source_samples": 11078,
+        "light_color": "(1.0, 0.05, 0.02, 1.0)",
+        "light_energy": 8.0,
+        "matching": 8397,
+        "max_rgb_distance": 0.0,
+        "samples": 8397,
+        "scale": 2,
+        "transparent": 11078
+      },
+      "pass": true
+    },
+    {
+      "check": "source_transparent_pixels_remain_empty_2x",
+      "details": {
+        "clear_source_samples": 11078,
+        "light_color": "(1.0, 0.05, 0.02, 1.0)",
+        "light_energy": 8.0,
+        "matching": 8397,
+        "max_rgb_distance": 0.0,
+        "samples": 8397,
+        "scale": 2,
+        "transparent": 11078
+      },
+      "pass": true
+    },
+    {
+      "check": "region_red_drapery_2x",
+      "details": {
+        "matching": 1155,
+        "samples": 1155
+      },
+      "pass": true
+    },
+    {
+      "check": "region_canopy_2x",
+      "details": {
+        "matching": 130,
+        "samples": 130
+      },
+      "pass": true
+    },
+    {
+      "check": "region_blue_counter_cloth_2x",
+      "details": {
+        "matching": 40,
+        "samples": 40
+      },
+      "pass": true
+    },
+    {
+      "check": "unlit_stall_still_shadows_native_wall",
+      "details": {
+        "changed_pixels": 528,
+        "samples": 528
+      },
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "glb_sha256": "552875ca515f914e106049087c9005cfe2fdab435bda1349af85c18f3ea22dee",
+  "note": "Original source PNG RGB measured in isolated native 3D targets under red light. Actual wall shadow checked separately in the main scene.",
+  "qa_source_sha256": "874ef6af10300aba43186d198ff55cceda7a3a67784adf15e7b263b04219b09f",
+  "render_cases": [
+    {
+      "clear_source_samples": 11078,
+      "light_color": "(1.0, 0.05, 0.02, 1.0)",
+      "light_energy": 8.0,
+      "matching": 8397,
+      "max_rgb_distance": 0.0,
+      "samples": 8397,
+      "scale": 1,
+      "transparent": 11078
+    },
+    {
+      "clear_source_samples": 11078,
+      "light_color": "(1.0, 0.05, 0.02, 1.0)",
+      "light_energy": 8.0,
+      "matching": 8397,
+      "max_rgb_distance": 0.0,
+      "samples": 8397,
+      "scale": 2,
+      "transparent": 11078
+    }
+  ]
+}

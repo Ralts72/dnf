@@ -1,0 +1,387 @@
+{
+  "baseline": "R1/15",
+  "candidate": "R1/16",
+  "compressed": 17,
+  "textures": [
+    {
+      "compressed": true,
+      "format": 19,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_000.png",
+      "runtime_size": [
+        224,
+        388
+      ],
+      "source_size": [
+        224,
+        386
+      ]
+    },
+    {
+      "compressed": false,
+      "format": 5,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_dock_wood.png",
+      "runtime_size": [
+        13,
+        9
+      ],
+      "source_size": [
+        13,
+        9
+      ]
+    },
+    {
+      "compressed": false,
+      "format": 5,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_dock_metal.png",
+      "runtime_size": [
+        15,
+        4
+      ],
+      "source_size": [
+        15,
+        4
+      ]
+    },
+    {
+      "compressed": false,
+      "format": 5,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_dock_stone.png",
+      "runtime_size": [
+        28,
+        7
+      ],
+      "source_size": [
+        28,
+        7
+      ]
+    },
+    {
+      "compressed": false,
+      "format": 5,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_dock_rope.png",
+      "runtime_size": [
+        23,
+        4
+      ],
+      "source_size": [
+        23,
+        4
+      ]
+    },
+    {
+      "compressed": false,
+      "format": 5,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_grove_plaster.png",
+      "runtime_size": [
+        26,
+        45
+      ],
+      "source_size": [
+        26,
+        45
+      ]
+    },
+    {
+      "compressed": false,
+      "format": 5,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_grove_path.png",
+      "runtime_size": [
+        40,
+        26
+      ],
+      "source_size": [
+        40,
+        26
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_quay_coping.png",
+      "runtime_size": [
+        96,
+        20
+      ],
+      "source_size": [
+        94,
+        18
+      ]
+    },
+    {
+      "compressed": false,
+      "format": 5,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_grove_grass.png",
+      "runtime_size": [
+        24,
+        8
+      ],
+      "source_size": [
+        24,
+        8
+      ]
+    },
+    {
+      "compressed": false,
+      "format": 5,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_grove_canopy.png",
+      "runtime_size": [
+        224,
+        140
+      ],
+      "source_size": [
+        224,
+        140
+      ]
+    },
+    {
+      "compressed": false,
+      "format": 5,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_grove_bark.png",
+      "runtime_size": [
+        13,
+        48
+      ],
+      "source_size": [
+        13,
+        48
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_pier_top.png",
+      "runtime_size": [
+        100,
+        8
+      ],
+      "source_size": [
+        100,
+        7
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_pier_face.png",
+      "runtime_size": [
+        100,
+        20
+      ],
+      "source_size": [
+        100,
+        17
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_lamp_collar.png",
+      "runtime_size": [
+        12,
+        4
+      ],
+      "source_size": [
+        11,
+        3
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_lamp_glass.png",
+      "runtime_size": [
+        16,
+        8
+      ],
+      "source_size": [
+        15,
+        8
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_lamp_blue.png",
+      "runtime_size": [
+        16,
+        8
+      ],
+      "source_size": [
+        14,
+        8
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_lamp_shaft.png",
+      "runtime_size": [
+        8,
+        28
+      ],
+      "source_size": [
+        7,
+        28
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 19,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_000_17.png",
+      "runtime_size": [
+        224,
+        280
+      ],
+      "source_size": [
+        224,
+        277
+      ]
+    },
+    {
+      "compressed": false,
+      "format": 5,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_000_18.png",
+      "runtime_size": [
+        443,
+        230
+      ],
+      "source_size": [
+        443,
+        230
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_0.png",
+      "runtime_size": [
+        64,
+        64
+      ],
+      "source_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_1.png",
+      "runtime_size": [
+        64,
+        64
+      ],
+      "source_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_2.png",
+      "runtime_size": [
+        64,
+        64
+      ],
+      "source_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_3.png",
+      "runtime_size": [
+        64,
+        64
+      ],
+      "source_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_4.png",
+      "runtime_size": [
+        64,
+        64
+      ],
+      "source_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_5.png",
+      "runtime_size": [
+        64,
+        64
+      ],
+      "source_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_6.png",
+      "runtime_size": [
+        64,
+        64
+      ],
+      "source_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "compressed": true,
+      "format": 17,
+      "materials": [],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_7.png",
+      "runtime_size": [
+        64,
+        64
+      ],
+      "source_size": [
+        64,
+        64
+      ]
+    }
+  ],
+  "readback_size_mismatch": 9,
+  "note": "Sizes refer to get_image() readback; compressed block padding can differ from the original PNG dimensions. This is not a claim that Godot changed mesh geometry or necessarily stretched the GPU texture."
+}

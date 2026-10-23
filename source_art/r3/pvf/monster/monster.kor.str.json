@@ -1,0 +1,21 @@
+{
+  "path": "monster/monster.kor.str",
+  "sha256": "b083b402fc49ce79ca2ca5e9ef961f69f18f91e53a4a90725e3a3c001ce98982",
+  "bytes": 105777,
+  "crc": {
+    "expected": 2305317670,
+    "actual_seed_file_number": 2305317670,
+    "actual_seed_zero": 923912519
+  },
+  "raw_reference": "source_art/r3/pvf/monster/monster.kor.str.bin",
+  "decoded": {
+    "encoding": "Big5",
+    "selection": "Mirkius and adjacent variant names; complete bytes retained in .bin",
+    "lines": [
+      "name_2005>藍龍人",
+      "name_515>雷環休斯",
+      "name_525>魯卡斯",
+      "name_530>龍人"
+    ]
+  }
+}

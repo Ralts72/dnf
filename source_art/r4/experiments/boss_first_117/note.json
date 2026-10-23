@@ -1,0 +1,6 @@
+{
+  "run": "r49712252-117",
+  "checks": 37,
+  "failed": 1,
+  "failure": "Physics contact183.333ms vs source ANI176.144ms/frame1. Difference7.189ms is below one60Hz physics tick, but the QA asserted frame2 despite declaring one-tick tolerance. Actual220HP AI victory, return and persistent chapter flag passed. Original report/script/screenshots preserved before correcting the QA assertion; production timing remains unchanged."
+}

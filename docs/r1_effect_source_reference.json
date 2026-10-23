@@ -1,0 +1,533 @@
+{
+  "client": "95",
+  "canonical_npk": "sprite_character_swordman_effect_hopsmash.NPK",
+  "source_pvf_sha256": "dc0e1acbc98b03b160e9ddb0643efdc7752cdf9c8969937507720a4ca2705c7b",
+  "source_animations": [
+    {
+      "path": "character/swordman/effect/animation/hopsmash/sword.ani",
+      "sha256": "4eb881bca9dcd79c18a3128b80c14df039b9672495b368ec026997638d7f3d93",
+      "crc": {
+        "expected": 179554146,
+        "actual_seed_file_number": 179554146,
+        "actual_seed_zero": 3021696939
+      },
+      "decoded": {
+        "frames_count": 4,
+        "resources": [
+          "character/swordman/effect/hopsmash/b-start.img",
+          "character/swordman/effect/hopsmash/b-middle.img"
+        ],
+        "globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "resource": null,
+            "image_frame": -1,
+            "x": -122,
+            "y": -161,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 11,
+                "value": {
+                  "effect": 2
+                }
+              },
+              {
+                "type": 12,
+                "value": 360
+              }
+            ]
+          },
+          {
+            "resource": "character/swordman/effect/hopsmash/b-start.img",
+            "image_frame": 1,
+            "x": -122,
+            "y": -161,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 11,
+                "value": {
+                  "effect": 2
+                }
+              },
+              {
+                "type": 12,
+                "value": 60
+              }
+            ]
+          },
+          {
+            "resource": "character/swordman/effect/hopsmash/b-middle.img",
+            "image_frame": 0,
+            "x": 67,
+            "y": -159,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 11,
+                "value": {
+                  "effect": 2
+                }
+              },
+              {
+                "type": 12,
+                "value": 60
+              }
+            ]
+          },
+          {
+            "resource": "character/swordman/effect/hopsmash/b-middle.img",
+            "image_frame": 1,
+            "x": 67,
+            "y": -159,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 11,
+                "value": {
+                  "effect": 2
+                }
+              },
+              {
+                "type": 12,
+                "value": 60
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "character/swordman/effect/animation/hopsmash/smash.ani",
+      "sha256": "448d8c102ed0ed184fd61e6e7cd100ee9cf70de15cc9bc1fbe80396e53967da7",
+      "crc": {
+        "expected": 2698815192,
+        "actual_seed_file_number": 2698815192,
+        "actual_seed_zero": 2763847223
+      },
+      "decoded": {
+        "frames_count": 7,
+        "resources": [
+          "character/swordman/effect/hopsmash/d-end.img"
+        ],
+        "globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "resource": null,
+            "image_frame": -1,
+            "x": 30,
+            "y": -218,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 11,
+                "value": {
+                  "effect": 2
+                }
+              },
+              {
+                "type": 12,
+                "value": 420
+              }
+            ]
+          },
+          {
+            "resource": "character/swordman/effect/hopsmash/d-end.img",
+            "image_frame": 0,
+            "x": 30,
+            "y": -218,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 11,
+                "value": {
+                  "effect": 2
+                }
+              },
+              {
+                "type": 12,
+                "value": 180
+              }
+            ]
+          },
+          {
+            "resource": "character/swordman/effect/hopsmash/d-end.img",
+            "image_frame": 1,
+            "x": 30,
+            "y": -218,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 11,
+                "value": {
+                  "effect": 2
+                }
+              },
+              {
+                "type": 12,
+                "value": 60
+              }
+            ]
+          },
+          {
+            "resource": "character/swordman/effect/hopsmash/d-end.img",
+            "image_frame": 2,
+            "x": 30,
+            "y": -218,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 11,
+                "value": {
+                  "effect": 2
+                }
+              },
+              {
+                "type": 12,
+                "value": 60
+              }
+            ]
+          },
+          {
+            "resource": "character/swordman/effect/hopsmash/d-end.img",
+            "image_frame": 3,
+            "x": 30,
+            "y": -218,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 11,
+                "value": {
+                  "effect": 2
+                }
+              },
+              {
+                "type": 12,
+                "value": 60
+              }
+            ]
+          },
+          {
+            "resource": "character/swordman/effect/hopsmash/d-end.img",
+            "image_frame": 4,
+            "x": 30,
+            "y": -218,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 11,
+                "value": {
+                  "effect": 2
+                }
+              },
+              {
+                "type": 12,
+                "value": 60
+              }
+            ]
+          },
+          {
+            "resource": "character/swordman/effect/hopsmash/d-end.img",
+            "image_frame": 5,
+            "x": 30,
+            "y": -218,
+            "boxes": [],
+            "properties": [
+              {
+                "type": 11,
+                "value": {
+                  "effect": 2
+                }
+              },
+              {
+                "type": 12,
+                "value": 60
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "source_crops": [
+    {
+      "texture": "res://assets/r0/effects/hopsmash/b-start/001.png",
+      "img_frame": 1,
+      "resolved_img_frame": 1,
+      "source": {
+        "client": "95",
+        "npk": "sprite_character_swordman_effect_hopsmash.NPK",
+        "img": "sprite/character/swordman/effect/hopsmash/b-start.img",
+        "npk_entry_offset": 398102,
+        "payload_bytes": 14483,
+        "sha256_img_payload": "409e6eb2f131789907a1f79180636a4d287fac63419a36f06394a4a32992853c",
+        "selection": "Explicit canonical NPK, no mod overlay inference"
+      },
+      "img_metadata": {
+        "type": 16,
+        "mode": 6,
+        "width": 90,
+        "height": 60,
+        "x": 11,
+        "y": 4,
+        "canvas_width": 101,
+        "canvas_height": 64,
+        "data_offset": 4016,
+        "data_bytes": 10467,
+        "version": 2
+      },
+      "sha256_png": "f517799f9a53df2e370721adc0ed63dc5e4d9eb04ef9139f808be5c859852618",
+      "export": "Raw RGBA crop; no resampling, retouching or palette edits"
+    },
+    {
+      "texture": "res://assets/r0/effects/hopsmash/b-middle/000.png",
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "source": {
+        "client": "95",
+        "npk": "sprite_character_swordman_effect_hopsmash.NPK",
+        "img": "sprite/character/swordman/effect/hopsmash/b-middle.img",
+        "npk_entry_offset": 380168,
+        "payload_bytes": 17934,
+        "sha256_img_payload": "cc45a52d3b04a426ef5cfaf687f7fd8dfbc3345c5bc61077de7f2b27f41019f6",
+        "selection": "Explicit canonical NPK, no mod overlay inference"
+      },
+      "img_metadata": {
+        "type": 16,
+        "mode": 6,
+        "width": 72,
+        "height": 140,
+        "x": 0,
+        "y": 0,
+        "canvas_width": 74,
+        "canvas_height": 150,
+        "data_offset": 104,
+        "data_bytes": 10191,
+        "version": 2
+      },
+      "sha256_png": "f6d8ba9f156237efb0f2845ca5e710ce548931cf1ee762ecb9ad0145bbc4c532",
+      "export": "Raw RGBA crop; no resampling, retouching or palette edits"
+    },
+    {
+      "texture": "res://assets/r0/effects/hopsmash/b-middle/001.png",
+      "img_frame": 1,
+      "resolved_img_frame": 1,
+      "source": {
+        "client": "95",
+        "npk": "sprite_character_swordman_effect_hopsmash.NPK",
+        "img": "sprite/character/swordman/effect/hopsmash/b-middle.img",
+        "npk_entry_offset": 380168,
+        "payload_bytes": 17934,
+        "sha256_img_payload": "cc45a52d3b04a426ef5cfaf687f7fd8dfbc3345c5bc61077de7f2b27f41019f6",
+        "selection": "Explicit canonical NPK, no mod overlay inference"
+      },
+      "img_metadata": {
+        "type": 16,
+        "mode": 6,
+        "width": 49,
+        "height": 106,
+        "x": 25,
+        "y": 44,
+        "canvas_width": 74,
+        "canvas_height": 150,
+        "data_offset": 10295,
+        "data_bytes": 7639,
+        "version": 2
+      },
+      "sha256_png": "f6fad4663e83b4c426d840f051aa4fb3acc3626616bf6e97422c02068229ce4a",
+      "export": "Raw RGBA crop; no resampling, retouching or palette edits"
+    },
+    {
+      "texture": "res://assets/r0/effects/hopsmash/d-end/000.png",
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "source": {
+        "client": "95",
+        "npk": "sprite_character_swordman_effect_hopsmash.NPK",
+        "img": "sprite/character/swordman/effect/hopsmash/d-end.img",
+        "npk_entry_offset": 622223,
+        "payload_bytes": 93113,
+        "sha256_img_payload": "88930af15e74d0f53000b86d2735c5a78172bf912de9f479edb6cfaa927d570b",
+        "selection": "Explicit canonical NPK, no mod overlay inference"
+      },
+      "img_metadata": {
+        "type": 16,
+        "mode": 6,
+        "width": 107,
+        "height": 140,
+        "x": 26,
+        "y": 102,
+        "canvas_width": 172,
+        "canvas_height": 242,
+        "data_offset": 248,
+        "data_bytes": 25233,
+        "version": 2
+      },
+      "sha256_png": "4aebe7773f39a6bc6e7bace0a7b9f770f008f368486212b59040a77d325ec0e2",
+      "export": "Raw RGBA crop; no resampling, retouching or palette edits"
+    },
+    {
+      "texture": "res://assets/r0/effects/hopsmash/d-end/001.png",
+      "img_frame": 1,
+      "resolved_img_frame": 1,
+      "source": {
+        "client": "95",
+        "npk": "sprite_character_swordman_effect_hopsmash.NPK",
+        "img": "sprite/character/swordman/effect/hopsmash/d-end.img",
+        "npk_entry_offset": 622223,
+        "payload_bytes": 93113,
+        "sha256_img_payload": "88930af15e74d0f53000b86d2735c5a78172bf912de9f479edb6cfaa927d570b",
+        "selection": "Explicit canonical NPK, no mod overlay inference"
+      },
+      "img_metadata": {
+        "type": 16,
+        "mode": 6,
+        "width": 129,
+        "height": 129,
+        "x": 22,
+        "y": 113,
+        "canvas_width": 172,
+        "canvas_height": 242,
+        "data_offset": 25481,
+        "data_bytes": 20904,
+        "version": 2
+      },
+      "sha256_png": "1c08a70ed709cebe456ab24b2f3d0a6206ad778f82ede6f3e159bcbedb9dbf89",
+      "export": "Raw RGBA crop; no resampling, retouching or palette edits"
+    },
+    {
+      "texture": "res://assets/r0/effects/hopsmash/d-end/002.png",
+      "img_frame": 2,
+      "resolved_img_frame": 2,
+      "source": {
+        "client": "95",
+        "npk": "sprite_character_swordman_effect_hopsmash.NPK",
+        "img": "sprite/character/swordman/effect/hopsmash/d-end.img",
+        "npk_entry_offset": 622223,
+        "payload_bytes": 93113,
+        "sha256_img_payload": "88930af15e74d0f53000b86d2735c5a78172bf912de9f479edb6cfaa927d570b",
+        "selection": "Explicit canonical NPK, no mod overlay inference"
+      },
+      "img_metadata": {
+        "type": 16,
+        "mode": 6,
+        "width": 151,
+        "height": 96,
+        "x": 11,
+        "y": 146,
+        "canvas_width": 172,
+        "canvas_height": 242,
+        "data_offset": 46385,
+        "data_bytes": 16507,
+        "version": 2
+      },
+      "sha256_png": "e6ba06c04b16d4bd09c4680e9d8a6622a3df04c39602906dad42fc6e0cd5d32d",
+      "export": "Raw RGBA crop; no resampling, retouching or palette edits"
+    },
+    {
+      "texture": "res://assets/r0/effects/hopsmash/d-end/003.png",
+      "img_frame": 3,
+      "resolved_img_frame": 3,
+      "source": {
+        "client": "95",
+        "npk": "sprite_character_swordman_effect_hopsmash.NPK",
+        "img": "sprite/character/swordman/effect/hopsmash/d-end.img",
+        "npk_entry_offset": 622223,
+        "payload_bytes": 93113,
+        "sha256_img_payload": "88930af15e74d0f53000b86d2735c5a78172bf912de9f479edb6cfaa927d570b",
+        "selection": "Explicit canonical NPK, no mod overlay inference"
+      },
+      "img_metadata": {
+        "type": 16,
+        "mode": 6,
+        "width": 169,
+        "height": 101,
+        "x": 2,
+        "y": 140,
+        "canvas_width": 172,
+        "canvas_height": 242,
+        "data_offset": 62892,
+        "data_bytes": 15920,
+        "version": 2
+      },
+      "sha256_png": "e23b7529258cfdd5be825e4cb86a5d08c1ebfa5aecfac934d0c09444ac93c364",
+      "export": "Raw RGBA crop; no resampling, retouching or palette edits"
+    },
+    {
+      "texture": "res://assets/r0/effects/hopsmash/d-end/004.png",
+      "img_frame": 4,
+      "resolved_img_frame": 4,
+      "source": {
+        "client": "95",
+        "npk": "sprite_character_swordman_effect_hopsmash.NPK",
+        "img": "sprite/character/swordman/effect/hopsmash/d-end.img",
+        "npk_entry_offset": 622223,
+        "payload_bytes": 93113,
+        "sha256_img_payload": "88930af15e74d0f53000b86d2735c5a78172bf912de9f479edb6cfaa927d570b",
+        "selection": "Explicit canonical NPK, no mod overlay inference"
+      },
+      "img_metadata": {
+        "type": 16,
+        "mode": 6,
+        "width": 171,
+        "height": 73,
+        "x": 1,
+        "y": 143,
+        "canvas_width": 172,
+        "canvas_height": 242,
+        "data_offset": 78812,
+        "data_bytes": 10016,
+        "version": 2
+      },
+      "sha256_png": "51dfa881e21f91d4f22d1706f6869e4eb430a33f19b1b1ed70512fb2d7f8121f",
+      "export": "Raw RGBA crop; no resampling, retouching or palette edits"
+    },
+    {
+      "texture": "res://assets/r0/effects/hopsmash/d-end/005.png",
+      "img_frame": 5,
+      "resolved_img_frame": 5,
+      "source": {
+        "client": "95",
+        "npk": "sprite_character_swordman_effect_hopsmash.NPK",
+        "img": "sprite/character/swordman/effect/hopsmash/d-end.img",
+        "npk_entry_offset": 622223,
+        "payload_bytes": 93113,
+        "sha256_img_payload": "88930af15e74d0f53000b86d2735c5a78172bf912de9f479edb6cfaa927d570b",
+        "selection": "Explicit canonical NPK, no mod overlay inference"
+      },
+      "img_metadata": {
+        "type": 16,
+        "mode": 6,
+        "width": 169,
+        "height": 53,
+        "x": 2,
+        "y": 141,
+        "canvas_width": 172,
+        "canvas_height": 242,
+        "data_offset": 88828,
+        "data_bytes": 4285,
+        "version": 2
+      },
+      "sha256_png": "3ab6ec3e89c4eac2f7756b6360c8345e32c2c23c5dfba796321841add5023ad4",
+      "export": "Raw RGBA crop; no resampling, retouching or palette edits"
+    }
+  ],
+  "runtime_data_sha256": "cb389677f0166223c3dde3a68d8a58caf41ba552f48fedd898e34ba1846605d9",
+  "interpretation": [
+    "Track offsets, empty delay frames and durations come directly from source ANI.",
+    "The sample starts both tracks at pose time zero. Original engine attachment/dispatch is not recovered.",
+    "Source type 11 effect value 2 is retained. Godot additive rendering is the sample interpretation.",
+    "No berserker shockwave, damage, movement or sound dispatch is added."
+  ]
+}

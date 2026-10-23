@@ -1,0 +1,730 @@
+{
+  "candidate": "R1/28",
+  "verified_at_utc": "2026-10-23T05:43:09.809648+00:00",
+  "qa_run_id": "r37721504-79",
+  "fresh_run_id": "r38091912-80",
+  "artifact_hashes_passed": 330,
+  "build_manifest_sha256": "920a2f499bc40fbde26001534db271953caa16e83bd4cc083650ceb8867fe186",
+  "native_function_checks": {
+    "native_framing": 10,
+    "framing_motion": 8,
+    "locomotion": 49,
+    "runtime": 17,
+    "pose": 17,
+    "effect": 35,
+    "jump": 48,
+    "interpolation": 43
+  },
+  "total_native_function_checks": 227,
+  "failed": 0,
+  "native_job_seconds": {
+    "native_framing": 11.931382,
+    "framing_motion": 10.771753,
+    "locomotion": 3.963296,
+    "runtime": 4.706524,
+    "pose": 9.474793,
+    "effect": 3.714026,
+    "jump": 3.907156,
+    "interpolation": 7.38095
+  },
+  "bottom_framebuffer_cases": 680,
+  "bottom_opaque_interior_samples": 117096,
+  "bottom_RGB_mismatches": 0,
+  "framing": {
+    "candidate": "R1/28",
+    "source_pose_extents": "source_art/r1/experiments/framing_28/source_pose_extents.json",
+    "source_pose_extents_sha256": "995f59c5f46cfe12ad96b2818ecedc1ab6738bcfcab5e494540a3adad80ff165",
+    "framing_script": "scripts/source_framing.gd",
+    "viewport_logical_pixels": [
+      896,
+      404
+    ],
+    "source_origin_y": 43,
+    "maximum_source_pose_bottom_pixels": 45,
+    "margin_pixels": 8,
+    "maximum_camera_offset_pixels": 40,
+    "default_offset_pixels": 12,
+    "legal_bottom_center_ground_point": [
+      440,
+      345
+    ],
+    "bottom_offset_pixels": 37,
+    "follow_rate_per_second": 20,
+    "snap_behavior": "Pause and explicit reset use logical ground coordinates; hold two render updates while native histories settle.",
+    "R0_rendering": "Independent896x404 native2D viewport; canvas transform moves the view without changing interpolated actor ancestors.",
+    "R0_floor_overscan": "Mirror the final40 rows of each original floor PNG below the old source crop. Original sprites and PNG bytes remain unchanged. This edge extension is an interpretation, not recovered original map content.",
+    "limits": [
+      "Horizontal world-edge clipping remains unresolved.",
+      "Exhaustive RGB/bounds proof uses legal lower-center ground point(440,345), not all map positions.",
+      "No new navigation area, source action timing, move speed or jump rules."
+    ]
+  },
+  "actual_input_observation": {
+    "summary": {
+      "count": 3812,
+      "mean_ms": 8.339133263378804,
+      "median_ms": 8.312,
+      "p95_ms": 9.684,
+      "p99_ms": 10.27,
+      "maximum_ms": 16.917,
+      "frames_over_16_67_ms": 2,
+      "frames_over_33_33_ms": 0,
+      "frames_over_100_ms": 0,
+      "elapsed_sample_seconds": 31.788776000000002,
+      "fps_from_mean": 119.91653909543419
+    },
+    "coverage_checks": 12,
+    "failed": [],
+    "source": "docs/r1_28_live_analysis.json",
+    "plan_cycles": 1
+  },
+  "source_verification": {
+    "candidate": "R1/28",
+    "source_pvf_sha256": "dc0e1acbc98b03b160e9ddb0643efdc7752cdf9c8969937507720a4ca2705c7b",
+    "source_crops_checked": 769,
+    "source_ani_crc_checked": 27,
+    "previous_crops_unchanged": 481,
+    "exact_rgba_composites": 107,
+    "lossless_import_profiles_checked": 961,
+    "clips": {
+      "stay": {
+        "frames": 6,
+        "duration_ms": 720,
+        "long_hold_frames": []
+      },
+      "move": {
+        "frames": 8,
+        "duration_ms": 800,
+        "long_hold_frames": []
+      },
+      "dash": {
+        "frames": 8,
+        "duration_ms": 800,
+        "long_hold_frames": []
+      },
+      "attack1": {
+        "frames": 10,
+        "duration_ms": 600,
+        "long_hold_frames": []
+      },
+      "attack2": {
+        "frames": 11,
+        "duration_ms": 650,
+        "long_hold_frames": []
+      },
+      "hopsmash": {
+        "frames": 7,
+        "duration_ms": 900,
+        "long_hold_frames": []
+      },
+      "attack3": {
+        "frames": 9,
+        "duration_ms": 550,
+        "long_hold_frames": []
+      },
+      "jump": {
+        "frames": 16,
+        "duration_ms": 21150,
+        "long_hold_frames": [
+          7,
+          14
+        ]
+      },
+      "jumpattack": {
+        "frames": 6,
+        "duration_ms": 300,
+        "long_hold_frames": []
+      },
+      "sit": {
+        "frames": 1,
+        "duration_ms": 150,
+        "long_hold_frames": []
+      },
+      "damage1": {
+        "frames": 1,
+        "duration_ms": 10000,
+        "long_hold_frames": [
+          0
+        ]
+      },
+      "damage2": {
+        "frames": 1,
+        "duration_ms": 10000,
+        "long_hold_frames": [
+          0
+        ]
+      },
+      "down": {
+        "frames": 6,
+        "duration_ms": 20660,
+        "long_hold_frames": [
+          2,
+          3
+        ]
+      },
+      "guard": {
+        "frames": 2,
+        "duration_ms": 20000,
+        "long_hold_frames": [
+          0,
+          1
+        ]
+      }
+    },
+    "failed": 0,
+    "qa_source_sha256": "fac17ad26942ffd959f1c45f0d9c4be096080339d69148c379fab302491a2a56",
+    "notes": [
+      "Every derivative is reconstructed from R0 layer offsets; exact RGBA bytes are compared.",
+      "Durations, raw properties and boxes are retained without interpreting them as gameplay rules.",
+      "This verifies local files and import settings; native render checks are recorded separately."
+    ]
+  },
+  "model_source_verification": {
+    "candidate": "R1/28",
+    "failed": [],
+    "textures": [
+      {
+        "path": "assets/r1/models/west_coast_port_000.png",
+        "materials": [
+          "Source_Painted_Facade"
+        ],
+        "source_assets": [
+          "assets/r0/port/westile00/image/000.png"
+        ],
+        "pixels": 86464,
+        "source_dimensions": [
+          224,
+          386
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "2836de3ea9331e67e969cd9fed51254805543f9f307178fa09dcbbe13225f1dd"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_000_17.png",
+        "materials": [
+          "Source_Painted_Pier_Backwall"
+        ],
+        "source_assets": [
+          "assets/r0/port/westile02/image/000.png"
+        ],
+        "pixels": 62048,
+        "source_dimensions": [
+          224,
+          277
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "25a536c5a73e52f3610830874e81d64e46201940788237f5ad5924c322acd86c"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_000_18.png",
+        "materials": [
+          "Source_Painted_Stall"
+        ],
+        "source_assets": [
+          "assets/r0/port/westmobj00/image/000.png"
+        ],
+        "pixels": 101890,
+        "source_dimensions": [
+          443,
+          230
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "09fe09bd4e90e1133b1066e239a169650af1f2aba93b68198c3a5cb6b2f946bd"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_dock_metal.png",
+        "materials": [
+          "Source_Dock_Metal"
+        ],
+        "source_assets": [
+          "assets/r1/dock_metal.png"
+        ],
+        "pixels": 60,
+        "source_dimensions": [
+          15,
+          4
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "ae775a4251f7a9d0de83d030e0dd291226b224142d2d1b9d4e048fa1a222551c"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_dock_rope.png",
+        "materials": [
+          "Source_Dock_Rope"
+        ],
+        "source_assets": [
+          "assets/r1/dock_rope.png"
+        ],
+        "pixels": 92,
+        "source_dimensions": [
+          23,
+          4
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "7d36ce8e7b0c47e1fdbbf0313e874fecfe41bcdd5e7581dea69a131c21ce8b06"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_dock_stone.png",
+        "materials": [
+          "Source_Dock_Stone"
+        ],
+        "source_assets": [
+          "assets/r1/dock_stone.png"
+        ],
+        "pixels": 196,
+        "source_dimensions": [
+          28,
+          7
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "e2300a18d9e691f4ba43773f2ed2399a2346b1f46863b2fd20948f969646168e"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_dock_wood.png",
+        "materials": [
+          "Source_Dock_Wood"
+        ],
+        "source_assets": [
+          "assets/r1/dock_wood.png"
+        ],
+        "pixels": 117,
+        "source_dimensions": [
+          13,
+          9
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "147a0e359ff133e0d52cc684705ec300d6033fb56292312ba6367647eb63b41a"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_grove_bark.png",
+        "materials": [
+          "Source_Grove_Bark"
+        ],
+        "source_assets": [
+          "assets/r1/grove_bark.png"
+        ],
+        "pixels": 624,
+        "source_dimensions": [
+          13,
+          48
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "fae9f26e6a568c635bcbafb5545ec904e2cd267aeb243940f3b9e7a51951554b"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_grove_canopy.png",
+        "materials": [
+          "Source_Grove_Canopy"
+        ],
+        "source_assets": [
+          "assets/r1/grove_canopy.png"
+        ],
+        "pixels": 31360,
+        "source_dimensions": [
+          224,
+          140
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "3d17da10a1698e7a6b992ac9a3d2cee50a9cea45c3ff53497ed3e851ea045853"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_grove_grass.png",
+        "materials": [
+          "Source_Grove_Grass"
+        ],
+        "source_assets": [
+          "assets/r1/grove_grass.png"
+        ],
+        "pixels": 192,
+        "source_dimensions": [
+          24,
+          8
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "50afe94a02d8e2c3bf46b7904976fa0edff8fd1750dc9f7c1e0a9679f8c0b4cc"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_grove_path.png",
+        "materials": [
+          "Source_Grove_Path"
+        ],
+        "source_assets": [
+          "assets/r1/grove_path.png"
+        ],
+        "pixels": 1040,
+        "source_dimensions": [
+          40,
+          26
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "4c5e921432d0bc4421c975680749a06f9e5c2a0ae6cb4e6a62598c79ed44b68f"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_grove_plaster.png",
+        "materials": [
+          "Source_Grove_Plaster"
+        ],
+        "source_assets": [
+          "assets/r1/grove_plaster.png"
+        ],
+        "pixels": 1170,
+        "source_dimensions": [
+          26,
+          45
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "3625bd8814a6bd9cc33da86ed4e8af1ba0e9107275994251fa6ffc43a85ec2cd"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_lamp_blue.png",
+        "materials": [
+          "Source_Lamp_Blue"
+        ],
+        "source_assets": [
+          "assets/r1/lamp_blue.png"
+        ],
+        "pixels": 112,
+        "source_dimensions": [
+          14,
+          8
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "112e23ac914acd3db107e79441f69fe1bfea1fb1feaeafa59d2da2094291bdc2"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_lamp_collar.png",
+        "materials": [
+          "Source_Lamp_Collar"
+        ],
+        "source_assets": [
+          "assets/r1/lamp_collar.png"
+        ],
+        "pixels": 33,
+        "source_dimensions": [
+          11,
+          3
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "62a4fada2c054f395ca0342c19c4bf372b30d18534583fe7909eb524902484b8"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_lamp_glass.png",
+        "materials": [
+          "Source_Lamp_Glass"
+        ],
+        "source_assets": [
+          "assets/r1/lamp_glass.png"
+        ],
+        "pixels": 120,
+        "source_dimensions": [
+          15,
+          8
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "d073921168028d208121e055ef821a1430281fba3daf08e4f1b2ce2ee228f0ba"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_lamp_shaft.png",
+        "materials": [
+          "Source_Lamp_Shaft"
+        ],
+        "source_assets": [
+          "assets/r1/lamp_shaft.png"
+        ],
+        "pixels": 196,
+        "source_dimensions": [
+          7,
+          28
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "ca71ecda1fe7a2aea86bfbcc9885aa6e6d59039a465879be3e5afa75a27d648b"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_paving_tile_0.png",
+        "materials": [
+          "Paving_Clay_0"
+        ],
+        "source_assets": [
+          "assets/r1/paving_tile_0.png"
+        ],
+        "pixels": 4096,
+        "source_dimensions": [
+          64,
+          64
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "1ebec0f693c9eccebc61557d7a4cd85978c69b0d361463295e2426ab44030977"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_paving_tile_1.png",
+        "materials": [
+          "Paving_Clay_1"
+        ],
+        "source_assets": [
+          "assets/r1/paving_tile_1.png"
+        ],
+        "pixels": 4096,
+        "source_dimensions": [
+          64,
+          64
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "d45bcaed8e42d0e7539122730d419c399d861b8d5e7a13b0709f6dea63301ecc"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_paving_tile_2.png",
+        "materials": [
+          "Paving_Clay_2"
+        ],
+        "source_assets": [
+          "assets/r1/paving_tile_2.png"
+        ],
+        "pixels": 4096,
+        "source_dimensions": [
+          64,
+          64
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "5775751a6812dfcd645fc45d029b73abad8232e7a0940346f59752a804a764ee"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_paving_tile_3.png",
+        "materials": [
+          "Paving_Clay_3"
+        ],
+        "source_assets": [
+          "assets/r1/paving_tile_3.png"
+        ],
+        "pixels": 4096,
+        "source_dimensions": [
+          64,
+          64
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "e3646bdb4a2a0c0188f224b4c7db2bebb53bab4175dbc4c06d088d7ca281461b"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_paving_tile_4.png",
+        "materials": [
+          "Paving_Clay_4"
+        ],
+        "source_assets": [
+          "assets/r1/paving_tile_4.png"
+        ],
+        "pixels": 4096,
+        "source_dimensions": [
+          64,
+          64
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "f1580585ee486e0760364090a6d832a59544ba29bc4bc30e26eb140ab10d34dc"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_paving_tile_5.png",
+        "materials": [
+          "Paving_Clay_5"
+        ],
+        "source_assets": [
+          "assets/r1/paving_tile_5.png"
+        ],
+        "pixels": 4096,
+        "source_dimensions": [
+          64,
+          64
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "1c5081b8566c082f086f9b1a8f6f58997fb91717186300e6d99cbf29b460eb19"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_paving_tile_6.png",
+        "materials": [
+          "Paving_Clay_6"
+        ],
+        "source_assets": [
+          "assets/r1/paving_tile_6.png"
+        ],
+        "pixels": 4096,
+        "source_dimensions": [
+          64,
+          64
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "22851d8125fb964efc70aa85102834b489988a17c6905c50bc08fe90f0daf892"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_paving_tile_7.png",
+        "materials": [
+          "Paving_Clay_7"
+        ],
+        "source_assets": [
+          "assets/r1/paving_tile_7.png"
+        ],
+        "pixels": 4096,
+        "source_dimensions": [
+          64,
+          64
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "e86dfce157bbf7c549017b8622510ce754682961c860a998a3421f83980d293f"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_pier_face.png",
+        "materials": [
+          "Source_Pier_Face"
+        ],
+        "source_assets": [
+          "assets/r1/pier_face.png"
+        ],
+        "pixels": 1700,
+        "source_dimensions": [
+          100,
+          17
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "2950ee2acd3017454ede8dbdf36087685d09634d622d1d3575f3373cfe219ca5"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_pier_top.png",
+        "materials": [
+          "Source_Pier_Top"
+        ],
+        "source_assets": [
+          "assets/r1/pier_top.png"
+        ],
+        "pixels": 700,
+        "source_dimensions": [
+          100,
+          7
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "fba1813d5856538785e9d98c4843c255e420c45ed6a1c0eb0bb8a7ea68ef10ad"
+      },
+      {
+        "path": "assets/r1/models/west_coast_port_quay_coping.png",
+        "materials": [
+          "Source_Quay_Coping"
+        ],
+        "source_assets": [
+          "assets/r1/quay_coping.png"
+        ],
+        "pixels": 1692,
+        "source_dimensions": [
+          94,
+          18
+        ],
+        "exact_source_and_glb_rgba": true,
+        "import_profile_sha256": "245992f79f9a8d654795c6b6491483d90a4c39d3e52b30d5a5e09659e389aec5"
+      }
+    ],
+    "texture_count": 27,
+    "total_exact_rgba_pixels": 322574,
+    "glb_images_covered": 27,
+    "unchanged_model_baseline": "candidate_27",
+    "glb_sha256": "ca75b6b591b354329266790e51d1a4bd1f2825b36379fe9f449f188b0bb9db97",
+    "collector_sha256": "5ead429c57b60aa2868ecf9087f1aab8f2a14dcd5ec70bfbbf6571c52b969a37",
+    "qa_source_sha256": "72a0f8a63cc494b688102d26699cae2a0b4a4f99b96760c6d669792fcd11572c",
+    "note": "Every actual model base-color PNG is compared with its GLB image and owned source asset. Geometry and UV changes have separate checks."
+  },
+  "fresh_state": {
+    "build": "R1   /   28",
+    "camera_offset_pixels": 12.0,
+    "camera_physics_interpolation_mode": 2,
+    "camera_target_pixels": 12.0,
+    "derived_locomotion_enabled": true,
+    "derived_texture_counts": {
+      "dash": 16.0,
+      "move": 16.0
+    },
+    "diagnostics_active": false,
+    "diagnostics_processing": false,
+    "diagnostics_visible": false,
+    "loaded_scripts": {
+      "res://scripts/source_actor_3d.gd": {
+        "disk_sha256": "c1ee0f6ff5fbcf84cb894fc1d8e762fdce813bc66328419860b4c9bb5640e39e",
+        "loaded_sha256": "c1ee0f6ff5fbcf84cb894fc1d8e762fdce813bc66328419860b4c9bb5640e39e"
+      },
+      "res://scripts/source_framing.gd": {
+        "disk_sha256": "3cfc4d1379eac78d17df9e16d0d37e532c89d66c3bc34bae676214229f9fabe5",
+        "loaded_sha256": "3cfc4d1379eac78d17df9e16d0d37e532c89d66c3bc34bae676214229f9fabe5"
+      },
+      "res://scripts/west_coast_r1.gd": {
+        "disk_sha256": "3eab7b34109dd04e5c0c87d2d8b97e24739027d0980ba7a036ea1643e93bf952",
+        "loaded_sha256": "3eab7b34109dd04e5c0c87d2d8b97e24739027d0980ba7a036ea1643e93bf952"
+      }
+    },
+    "native_actor_interpolation": true,
+    "physics_ticks": 60,
+    "player": {
+      "action": "stay",
+      "audio": {
+        "clock_ms": 0.0,
+        "pending": []
+      },
+      "elapsed_ms": 1.84666666666665,
+      "facing": 1,
+      "frame": 2,
+      "jump": {
+        "air_attack_started": -1.0,
+        "air_attack_used": false,
+        "elapsed": -1.0,
+        "travel_speed": 95.0
+      },
+      "next_attack": "attack1",
+      "one_shot": false,
+      "paused": false,
+      "position": "(440.0, 320.0)",
+      "preview": false
+    },
+    "render_scale": 2,
+    "root_children": [
+      "_mcp_game_helper",
+      "PortMusic",
+      "PortAmbience",
+      "WestCoastR1",
+      "FrameDiagnostics"
+    ],
+    "scene": "res://scenes/west_coast_r1.tscn"
+  },
+  "current_game_errors": 0,
+  "current_game_warnings": 0,
+  "new_editor_errors_since_cursor_15": 0,
+  "goal": {
+    "objective": "持续迭代吧，直到额度低于50%",
+    "app_goal_status": "paused",
+    "resume_requested_by_user": true,
+    "last_known_used_percent_before_iteration": 14,
+    "last_known_remaining_percent_before_iteration": 86,
+    "window_resets_at": 1793293820,
+    "stop_when_remaining_below_percent": 50,
+    "automatic_resume_api_available": false,
+    "UI_resume_attempt": "Computer Use denied access to com.openai.codex; user must resume goal through app UI.",
+    "no_extra_paid_or_reset_credit_use": true,
+    "current_used_percent": 15,
+    "current_remaining_percent": 85,
+    "usage_verified_at_utc": "2026-10-23T05:43:38.225987+00:00"
+  },
+  "limitations": [
+    "Horizontal world-edge clipping remains unresolved.",
+    "Exhaustive bottom framing proof uses the legal lower-center ground point(440,345).",
+    "R0 floor edge is mirrored reference overscan, not recovered map content.",
+    "One31.8s Mac observation, not Windows or long-term stability validation. GPU duration fields unavailable.",
+    "Historical first failures and prototype reports remain in ignored source_art/r1/experiments/framing_28/."
+  ],
+  "evidence_sha256": {
+    "docs/r1_28_native_framing_job.json": "7063cef0da8d07540a856ff8d22bbf539656bbd5219d7ac4db5322249d6c2433",
+    "docs/r1_28_framing_motion_job.json": "3a63156616daaed15531c7e7cfa83052316651086c8f7f9ffc8635a899279321",
+    "docs/r1_28_locomotion_job.json": "a90c7a8181f7109def923c1218be1a73c423a9b004a2185d1e4322b64c414874",
+    "docs/r1_28_runtime_job.json": "fcc2de7e44ea62f2fb3d37134691077ee535eb0721fc75d1737bc8a6dbf2a6f0",
+    "docs/r1_28_pose_job.json": "05cb10d70a7ffa84fb985b2e7b35a83ea8cae845432a111462a02543876663c4",
+    "docs/r1_28_effect_job.json": "9aedf1b8b2976fed711a9699d6f182e7586685780b8962c530bbee652e2420fa",
+    "docs/r1_28_jump_job.json": "3a8d8bcfef579735c6b073d9cb7fafd51899ead3ea033cdb78b71b44647df9ad",
+    "docs/r1_28_interpolation_job.json": "9f8d966bf88c473deeee8be27c06290fa10669a6d5da26eee9c462c0b5c891b7",
+    "docs/r1_28_native_framing_checks.json": "7570e0f71c00b2686d01f6f169c7be5bc8fad346a2757c07db1c1ee1659744e2",
+    "docs/r1_28_framing_motion_checks.json": "42b01ea15f12523bfc820a7747d4ed4dcb21d471972d9ca7d0511b2e79829f1d",
+    "docs/r1_28_live_analysis.json": "781cc327c243ec6bde53a45f64d6def81557e2409bb61c2dec8539e74e750402",
+    "docs/r1_28_final_state.json": "1c3fe7e3a858ac82d76194aef7671e01d14c55252bb604ed6e43e7d562aff014",
+    "docs/previews/r1_28_current.png": "a173a39a5f1abbda54c9fdde644dcadd79e5b39f85ccbeb6183e29c1e3ce5046",
+    "docs/previews/r1_28_bottom_R1.png": "c146e78142b5919dfe10b3a0c9dcccefa52c2ad5f1bf3e2d54eee91ed427fb07",
+    "docs/previews/r1_28_bottom_R0.png": "feef439cb1a4523e8cf5bfcdbad8334b551a989779eba7ebaf72220c8e065434"
+  }
+}

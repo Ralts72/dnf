@@ -1,0 +1,81 @@
+{
+"lo": {
+"action": "stay",
+"audio": {},
+"elapsed_ms": 79.17633333332344,
+"facing": 1,
+"frame": 5,
+"jump": {
+"air_attack_started": -1.0,
+"air_attack_used": false,
+"elapsed": -1.0,
+"travel_speed": 0.0
+},
+"next_attack": "attack1",
+"one_shot": false,
+"paused": false,
+"position": Vector2(285, 272),
+"preview": false
+},
+"player": {
+"action": "stay",
+"audio": {
+"clock_ms": 0.0,
+"pending": []
+},
+"elapsed_ms": 19.176333333345234,
+"facing": 1,
+"frame": 2,
+"jump": {
+"air_attack_started": -1.0,
+"air_attack_used": false,
+"elapsed": -1.0,
+"travel_speed": 95.0
+},
+"next_attack": "attack1",
+"one_shot": false,
+"paused": false,
+"position": Vector2(440, 320),
+"preview": false
+},
+"props": {
+"foliage_top": {
+"elapsed_ms": 0.0,
+"frame": 0
+},
+"westmid00": {
+"elapsed_ms": 0.0,
+"frame": 0
+},
+"westmmidship": {
+"elapsed_ms": 19.176333333381727,
+"frame": 0
+},
+"westnearship": {
+"elapsed_ms": 129.17633333336187,
+"frame": 7
+}
+},
+"sr": {
+"action": "stay",
+"audio": {},
+"elapsed_ms": 79.17633333332344,
+"facing": 1,
+"frame": 5,
+"jump": {
+"air_attack_started": -1.0,
+"air_attack_used": false,
+"elapsed": -1.0,
+"travel_speed": 0.0
+},
+"next_attack": "attack1",
+"one_shot": false,
+"paused": false,
+"position": Vector2(150, 267),
+"preview": false
+},
+"water": {
+"paused": false,
+"seconds": 214.8191763333934
+}
+}

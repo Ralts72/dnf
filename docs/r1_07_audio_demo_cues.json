@@ -1,0 +1,44 @@
+{
+  "candidate": "R1/07",
+  "source": "Godot source_actor_audio.gd audit during live jump and air attack; scheduled_ms are the sample action clock.",
+  "speaker_mode": 3,
+  "mix_rate": 48000,
+  "cues": [
+    {
+      "audible": true,
+      "cue": "JUMP_START",
+      "dispatched_ms": 100.0,
+      "scheduled_ms": 100.0,
+      "tag": "JUMP_START"
+    },
+    {
+      "audible": true,
+      "cue": "SM_JUMP",
+      "dispatched_ms": 100.0,
+      "scheduled_ms": 100.0,
+      "tag": "SM_JUMP"
+    },
+    {
+      "audible": true,
+      "cue": "R_SM_JUMP_ATK",
+      "dispatched_ms": 350.0,
+      "scheduled_ms": 350.0,
+      "tag": "SM_JUMP_ATK_02"
+    },
+    {
+      "audible": true,
+      "cue": "R_SQUARESWDC",
+      "dispatched_ms": 500.0,
+      "scheduled_ms": 500.0,
+      "tag": "SQUARESWDB"
+    },
+    {
+      "audible": true,
+      "cue": "JUMP_END",
+      "dispatched_ms": 1100.0,
+      "scheduled_ms": 1100.0,
+      "tag": "JUMP_END"
+    }
+  ],
+  "note": "Master capture on this host contained four stereo-pair blocks per mix period. Offline preview uses the audited cue times and original audio decoding."
+}

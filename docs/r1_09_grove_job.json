@@ -1,0 +1,25 @@
+{
+  "check_script": "res://tools/r1/grove_checks.gd",
+  "elapsed_seconds": 0.486,
+  "qa_source_sha256": "6992de8c0b13f0e6fb31926c35d0e0c7e5ba867bce7bd6023e4b4f21d2d7a601",
+  "render_cases_completed": 2,
+  "result": {
+    "checks": 16,
+    "failed": [],
+    "render_cases": [
+      {
+        "matching": 1714,
+        "max_rgb_distance": 0.0,
+        "samples": 1714,
+        "scale": 1
+      },
+      {
+        "matching": 1714,
+        "max_rgb_distance": 0.0,
+        "samples": 1714,
+        "scale": 2
+      }
+    ]
+  },
+  "status": "complete"
+}

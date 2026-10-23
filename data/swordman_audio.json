@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "sounds": {
+    "SM_ATK_01": {
+      "path": "res://assets/r0/audio/sm_atk_01.ogg"
+    },
+    "SM_ATK_02": {
+      "path": "res://assets/r0/audio/sm_atk_02.ogg"
+    },
+    "SM_ATK_03": {
+      "path": "res://assets/r0/audio/sm_atk_03.ogg"
+    },
+    "SM_JUMP": {
+      "path": "res://assets/r0/audio/sm_jump.ogg"
+    },
+    "SM_JUMP_ATK_01": {
+      "path": "res://assets/r0/audio/sm_jump_atk_01.ogg"
+    },
+    "SM_JUMP_ATK_02": {
+      "path": "res://assets/r0/audio/sm_jump_atk_02.ogg"
+    },
+    "JUMP_START": {
+      "path": "res://assets/r0/audio/jump_start.ogg"
+    },
+    "JUMP_END": {
+      "path": "res://assets/r0/audio/jump_end.ogg"
+    },
+    "SQUARESWDA_01": {
+      "path": "res://assets/r0/audio/squareswda_01.ogg"
+    },
+    "SQUARESWDA_02": {
+      "path": "res://assets/r0/audio/squareswda_02.ogg"
+    },
+    "SQUARESWDB": {
+      "path": "res://assets/r0/audio/squareswdb.ogg"
+    },
+    "SQUARESWDC_01": {
+      "path": "res://assets/r0/audio/squareswdc_01.ogg"
+    }
+  },
+  "groups": {
+    "R_SM_ATK": [
+      {
+        "tag": "SM_ATK_01",
+        "weight": 33
+      },
+      {
+        "tag": "SM_ATK_02",
+        "weight": 33
+      },
+      {
+        "tag": "SM_ATK_03",
+        "weight": 34
+      }
+    ],
+    "R_SM_JUMP_ATK": [
+      {
+        "tag": "SM_JUMP_ATK_01",
+        "weight": 50
+      },
+      {
+        "tag": "SM_JUMP_ATK_02",
+        "weight": 50
+      }
+    ],
+    "R_SQUARESWDA": [
+      {
+        "tag": "SQUARESWDA_01",
+        "weight": 50
+      },
+      {
+        "tag": "SQUARESWDA_02",
+        "weight": 50
+      }
+    ],
+    "R_SQUARESWDC": [
+      {
+        "tag": "SQUARESWDB",
+        "weight": 50
+      },
+      {
+        "tag": "SQUARESWDC_01",
+        "weight": 50
+      }
+    ]
+  },
+  "actions": {
+    "attack1": [
+      {
+        "at_ms": 0,
+        "tag": "R_SM_ATK"
+      },
+      {
+        "at_ms": 150,
+        "tag": "R_SQUARESWDA"
+      }
+    ],
+    "attack2": [
+      {
+        "at_ms": 0,
+        "tag": "R_SM_ATK"
+      },
+      {
+        "at_ms": 150,
+        "tag": "SQUARESWDB"
+      }
+    ],
+    "attack3": [
+      {
+        "at_ms": 0,
+        "tag": "R_SM_ATK"
+      },
+      {
+        "at_ms": 100,
+        "tag": "R_SQUARESWDC"
+      }
+    ],
+    "jumpattack": [
+      {
+        "at_ms": 0,
+        "tag": "R_SM_JUMP_ATK"
+      },
+      {
+        "at_ms": 150,
+        "tag": "R_SQUARESWDC"
+      }
+    ]
+  },
+  "jump": {
+    "takeoff": [
+      "JUMP_START",
+      "SM_JUMP"
+    ],
+    "landing": [
+      "JUMP_END"
+    ]
+  },
+  "default_volume": 0.6,
+  "source_reference": "docs/r1_audio_source_reference.json",
+  "notes": [
+    "Original OGG payloads retained unchanged in source_art/audio; only explicit canonical NPKs are used.",
+    "Runtime OGG files prefix one bare Vorbis comment with COMMENT= and update its page CRC; all noncomment packets are identical.",
+    "Tag paths and random probabilities come from audio.xml.",
+    "Action timing is inferred for this sample; source ANI has no type-16 sound properties.",
+    "The square-sword family is selected for the lswd visual sample; original weapon-to-sound dispatch is not recovered.",
+    "No hit, damage or hopsmash sound is assigned without corresponding gameplay."
+  ]
+}

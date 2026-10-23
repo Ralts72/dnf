@@ -1,0 +1,227 @@
+{
+  "actor_sha256": "e35516e03c9438e60442b58d73d4831b7f1f1886ec9433d8852d67957e538dd7",
+  "all_png_roundtrips_exact": true,
+  "endpoint_full_rgba_exact": true,
+  "qa_source_sha256": "5893173cf741594c97506f10b038874ff9c891a828c01f1d61c44fe220cad283",
+  "recipe_sha256": "d2ddc2ef3c8eb35b127d6fb2594debef183211074148b157766c8f478b2d97d8",
+  "records": [
+    {
+      "frame": 0,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_00_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "7d6fc2eead6f27727adb3a565d0b6f0d5134a57b54ed800b4f1af3596ac456a4",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 0,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_00_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "76772455144cf051723a4e090a457de996d19557d5ae5dc92bc8b430f2af3464",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 0,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_00_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "cd71471f83ab8ba3225386e3c3209e0c0dd70a7223e61923818db2c0cb6a4657",
+      "size": "(320, 224)",
+      "subframe": 2
+    },
+    {
+      "frame": 1,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_01_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "7b132dcf14e239612d3b15f37d985a444715cf3eea65c6b85caf53ec0f0c26d3",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 1,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_01_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "8c1a1a217f138af06160fbae91a836c27f2993ac06dec797b613389760eebb95",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 1,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_01_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "755339d39262e3583482715c0db20f4594d4c7d198cde713de37bbc85c4831f8",
+      "size": "(320, 224)",
+      "subframe": 2
+    },
+    {
+      "frame": 2,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_02_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "2ecb06fe78b24ff178167ac84ce1d3c6348e1cca319a78eca770c5cae61b1c12",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 2,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_02_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "f139d0e3fb26d7c3d73774d8ef999511cafd8eccadf20bedd9d572ee504fd45a",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 2,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_02_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "5070df4a8eb37830438dfb756b2e9e26dba91695315b9eb2a12d2efe6e3311db",
+      "size": "(320, 224)",
+      "subframe": 2
+    },
+    {
+      "frame": 3,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_03_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "27cbeaeb50029dbcdcf7e5c8b6242db762672b01cebc408a89c925c3f91bc546",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 3,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_03_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "9794cc8df61db7f2e5231a2dd092d79db03ce6c1f95b6895dfc835ac152141b3",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 3,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_03_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "d842a63e8cab7757359c1cd46b6880696224aaf9a19c8813a197f36935fc3dac",
+      "size": "(320, 224)",
+      "subframe": 2
+    },
+    {
+      "frame": 4,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_04_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "ded0a32ed5c7d8c4ccd2a332da0aeee1eff9aa4a5f799757f20dee9f6d053aac",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 4,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_04_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "c4ebb46aab9c414012c460531748eac59f7d2a65adc214c4e4388adaee945edc",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 4,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_04_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "95ccb53b34736326fdebf3b3ee076165c8d94189483b1f6ddb74232ec1504f58",
+      "size": "(320, 224)",
+      "subframe": 2
+    },
+    {
+      "frame": 5,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_05_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "df7cd39efe10efc3c828b8d6b84bdd38447d45d04d9ec914c9fb41aa66f693cb",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 5,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_05_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "13617fe5614053983cd64f53ffdafcddda3e0702de046648d559b0aa789a928a",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 5,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_05_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "cd421ce98cadf36b959ae83c5fcb59ac829c5d2042548ab90a7875b446b1ff4f",
+      "size": "(320, 224)",
+      "subframe": 2
+    },
+    {
+      "frame": 6,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_06_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "8d3110faed7931f144f07829f39d2ae2e930d70a139cbe0690cfe0f4847871b0",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 6,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_06_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "b106bbf58de7af7103b811c4bb43c453597696f53f8edaa7e8e89e29aa8f91e2",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 6,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_06_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "e2a1f0f8d95b28dfdb3f485e4bb7a5110419f045eb1d5198944dd3f436dad242",
+      "size": "(320, 224)",
+      "subframe": 2
+    },
+    {
+      "frame": 7,
+      "original_endpoint_rgba_exact": true,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_07_0.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "821139975a8d2224abb11573b8ef9274488704435c4f803b50e4775e64c4ab2e",
+      "size": "(320, 224)",
+      "subframe": 0
+    },
+    {
+      "frame": 7,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_07_1.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "493ad3f09db545f6232c1497e881c3260208a2c750d2c19dca030bb339a59df0",
+      "size": "(320, 224)",
+      "subframe": 1
+    },
+    {
+      "frame": 7,
+      "original_endpoint_rgba_exact": null,
+      "path": "res://source_art/r1/experiments/dash_cycle_26/baked/dash_07_2.png",
+      "png_roundtrip_exact": true,
+      "png_sha256": "c4c29adcfdd6bd9cea518fb0bbb31d3e4a5a494506cb2bda411de450441bfaa4",
+      "size": "(320, 224)",
+      "subframe": 2
+    }
+  ],
+  "shader_sha256": "8adfbb006076fa4326a2ec32d946d5fe686534733a6a0f3e5afa18dd798fb55e",
+  "study": "R1/26 native transparent bake"
+}

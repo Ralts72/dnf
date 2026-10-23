@@ -1,0 +1,417 @@
+{
+  "candidate": "R1/18",
+  "checks": [
+    {
+      "check": "loaded_ground_supports_all_door_approach_grid_points",
+      "details": {
+        "grid_pixels": 2,
+        "points": 525,
+        "uncovered": []
+      },
+      "pass": true
+    },
+    {
+      "check": "original_street_grid_remains_walkable_and_grounded",
+      "details": {
+        "clipped": 0,
+        "points": 16119,
+        "uncovered": []
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_real_w_key_reaches_door_front",
+      "details": {
+        "all_points_in_walk_area": true,
+        "end": "(73.0, 216.0)",
+        "label": "R1_walk_to_door",
+        "maximum_step_pixels": 0.9666748046875,
+        "samples": 122,
+        "scene": "WestCoastR1",
+        "start": "(73.0, 300.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "logical_foot_stops_in_front_of_threshold",
+      "details": {
+        "foot_y": 216.0,
+        "threshold_front_y": 214.409530639648
+      },
+      "pass": true
+    },
+    {
+      "check": "door_right_side_slides_without_downward_snap",
+      "details": {
+        "all_points_in_walk_area": true,
+        "end": "(112.0, 230.0)",
+        "label": "door_right_side",
+        "maximum_step_pixels": 1.66666412353516,
+        "samples": 46,
+        "scene": "WestCoastR1",
+        "start": "(73.0, 230.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "door_left_side_slides_without_downward_snap",
+      "details": {
+        "all_points_in_walk_area": true,
+        "end": "(44.00002, 230.0)",
+        "label": "door_left_side",
+        "maximum_step_pixels": 1.66666412353516,
+        "samples": 39,
+        "scene": "WestCoastR1",
+        "start": "(73.0, 230.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "diagonal_exit_reopens_existing_street",
+      "details": {
+        "all_points_in_walk_area": true,
+        "end": "(134.76, 257.5549)",
+        "label": "leave_door_diagonally",
+        "maximum_step_pixels": 1.36239087581635,
+        "samples": 60,
+        "scene": "WestCoastR1",
+        "start": "(112.0, 230.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "actual_keys_return_from_door_to_front_street",
+      "details": {
+        "across": {
+          "all_points_in_walk_area": true,
+          "end": "(212.9995, 311.7003)",
+          "label": "return_to_front_street",
+          "maximum_step_pixels": 1.66667175292969,
+          "samples": 84,
+          "scene": "WestCoastR1",
+          "start": "(73.0, 311.7003)"
+        },
+        "down": {
+          "all_points_in_walk_area": true,
+          "end": "(73.0, 311.7003)",
+          "label": "return_from_door_down",
+          "maximum_step_pixels": 0.9666748046875,
+          "samples": 99,
+          "scene": "WestCoastR1",
+          "start": "(73.0, 216.0)"
+        }
+      },
+      "pass": true
+    },
+    {
+      "check": "upper_street_stays_closed_beside_door",
+      "details": {
+        "all_points_in_walk_area": true,
+        "end": "(125.0, 245.0)",
+        "label": "outside_door_corridor",
+        "maximum_step_pixels": 0.9666748046875,
+        "samples": 48,
+        "scene": "WestCoastR1",
+        "start": "(125.0, 260.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_jump_respects_door_foot_boundary",
+      "details": {
+        "height_pixels": 107.5,
+        "landed": "(73.0, 216.0)",
+        "minimum_ground_y": 216.0
+      },
+      "pass": true
+    },
+    {
+      "check": "door_front_pose_1x_1_false",
+      "details": {
+        "clipped": 0,
+        "facing": 1,
+        "height_pixels": 0.0,
+        "jumping": false,
+        "matching": 347,
+        "samples": 347,
+        "scale": 1
+      },
+      "pass": true
+    },
+    {
+      "check": "door_front_pose_1x_1_true",
+      "details": {
+        "clipped": 0,
+        "facing": 1,
+        "height_pixels": 106.425,
+        "jumping": true,
+        "matching": 304,
+        "samples": 304,
+        "scale": 1
+      },
+      "pass": true
+    },
+    {
+      "check": "door_front_pose_1x_-1_false",
+      "details": {
+        "clipped": 0,
+        "facing": -1,
+        "height_pixels": 0.0,
+        "jumping": false,
+        "matching": 347,
+        "samples": 347,
+        "scale": 1
+      },
+      "pass": true
+    },
+    {
+      "check": "door_front_pose_1x_-1_true",
+      "details": {
+        "clipped": 0,
+        "facing": -1,
+        "height_pixels": 106.425,
+        "jumping": true,
+        "matching": 304,
+        "samples": 304,
+        "scale": 1
+      },
+      "pass": true
+    },
+    {
+      "check": "door_front_pose_2x_1_false",
+      "details": {
+        "clipped": 0,
+        "facing": 1,
+        "height_pixels": 0.0,
+        "jumping": false,
+        "matching": 347,
+        "samples": 347,
+        "scale": 2
+      },
+      "pass": true
+    },
+    {
+      "check": "door_front_pose_2x_1_true",
+      "details": {
+        "clipped": 0,
+        "facing": 1,
+        "height_pixels": 106.425,
+        "jumping": true,
+        "matching": 304,
+        "samples": 304,
+        "scale": 2
+      },
+      "pass": true
+    },
+    {
+      "check": "door_front_pose_2x_-1_false",
+      "details": {
+        "clipped": 0,
+        "facing": -1,
+        "height_pixels": 0.0,
+        "jumping": false,
+        "matching": 347,
+        "samples": 347,
+        "scale": 2
+      },
+      "pass": true
+    },
+    {
+      "check": "door_front_pose_2x_-1_true",
+      "details": {
+        "clipped": 0,
+        "facing": -1,
+        "height_pixels": 106.425,
+        "jumping": true,
+        "matching": 304,
+        "samples": 304,
+        "scale": 2
+      },
+      "pass": true
+    },
+    {
+      "check": "F4_retains_door_position_in_R0",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_real_w_key_matches_door_limit",
+      "details": {
+        "all_points_in_walk_area": true,
+        "end": "(73.0, 216.0)",
+        "label": "R0_walk_to_door",
+        "maximum_step_pixels": 0.9666748046875,
+        "samples": 129,
+        "scene": "WestCoastR0",
+        "start": "(73.0, 300.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "R0_jump_respects_door_foot_boundary",
+      "details": {
+        "height_pixels": 107.5,
+        "landed": "(73.0, 216.0)",
+        "minimum_ground_y": 216.0
+      },
+      "pass": true
+    },
+    {
+      "check": "F4_returns_to_same_door_foot",
+      "details": {},
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "note": "Actual physical-key events and physics, actual imported floor triangles and native pose RGB. The added approach is an adaptation inside existing geometry.",
+  "qa_source_sha256": "1890cc68adc54ec2f869fb7c135495b6452f19e356b835e5a002cd59f038bd7e",
+  "render_cases": [
+    {
+      "clipped": 0,
+      "facing": 1,
+      "height_pixels": 0.0,
+      "jumping": false,
+      "matching": 347,
+      "samples": 347,
+      "scale": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "height_pixels": 106.425,
+      "jumping": true,
+      "matching": 304,
+      "samples": 304,
+      "scale": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "height_pixels": 0.0,
+      "jumping": false,
+      "matching": 347,
+      "samples": 347,
+      "scale": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "height_pixels": 106.425,
+      "jumping": true,
+      "matching": 304,
+      "samples": 304,
+      "scale": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "height_pixels": 0.0,
+      "jumping": false,
+      "matching": 347,
+      "samples": 347,
+      "scale": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "height_pixels": 106.425,
+      "jumping": true,
+      "matching": 304,
+      "samples": 304,
+      "scale": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "height_pixels": 0.0,
+      "jumping": false,
+      "matching": 347,
+      "samples": 347,
+      "scale": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "height_pixels": 106.425,
+      "jumping": true,
+      "matching": 304,
+      "samples": 304,
+      "scale": 2
+    }
+  ],
+  "routes": [
+    {
+      "all_points_in_walk_area": true,
+      "end": "(73.0, 216.0)",
+      "label": "R1_walk_to_door",
+      "maximum_step_pixels": 0.9666748046875,
+      "samples": 122,
+      "scene": "WestCoastR1",
+      "start": "(73.0, 300.0)"
+    },
+    {
+      "all_points_in_walk_area": true,
+      "end": "(112.0, 230.0)",
+      "label": "door_right_side",
+      "maximum_step_pixels": 1.66666412353516,
+      "samples": 46,
+      "scene": "WestCoastR1",
+      "start": "(73.0, 230.0)"
+    },
+    {
+      "all_points_in_walk_area": true,
+      "end": "(44.00002, 230.0)",
+      "label": "door_left_side",
+      "maximum_step_pixels": 1.66666412353516,
+      "samples": 39,
+      "scene": "WestCoastR1",
+      "start": "(73.0, 230.0)"
+    },
+    {
+      "all_points_in_walk_area": true,
+      "end": "(134.76, 257.5549)",
+      "label": "leave_door_diagonally",
+      "maximum_step_pixels": 1.36239087581635,
+      "samples": 60,
+      "scene": "WestCoastR1",
+      "start": "(112.0, 230.0)"
+    },
+    {
+      "all_points_in_walk_area": true,
+      "end": "(73.0, 311.7003)",
+      "label": "return_from_door_down",
+      "maximum_step_pixels": 0.9666748046875,
+      "samples": 99,
+      "scene": "WestCoastR1",
+      "start": "(73.0, 216.0)"
+    },
+    {
+      "all_points_in_walk_area": true,
+      "end": "(212.9995, 311.7003)",
+      "label": "return_to_front_street",
+      "maximum_step_pixels": 1.66667175292969,
+      "samples": 84,
+      "scene": "WestCoastR1",
+      "start": "(73.0, 311.7003)"
+    },
+    {
+      "all_points_in_walk_area": true,
+      "end": "(125.0, 245.0)",
+      "label": "outside_door_corridor",
+      "maximum_step_pixels": 0.9666748046875,
+      "samples": 48,
+      "scene": "WestCoastR1",
+      "start": "(125.0, 260.0)"
+    },
+    {
+      "all_points_in_walk_area": true,
+      "end": "(73.0, 216.0)",
+      "label": "R0_walk_to_door",
+      "maximum_step_pixels": 0.9666748046875,
+      "samples": 129,
+      "scene": "WestCoastR0",
+      "start": "(73.0, 300.0)"
+    }
+  ],
+  "walk_script_sha256": "064fb33080c2b4cbaac83d19f60c6337ade1e0235848de7ea756ca011ba06394"
+}

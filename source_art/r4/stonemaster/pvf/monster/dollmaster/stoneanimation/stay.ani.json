@@ -1,0 +1,222 @@
+{
+  "path": "monster/dollmaster/stoneanimation/stay.ani",
+  "crc": {
+    "expected": 3286482859,
+    "actual_seed_file_number": 3286482859,
+    "actual_seed_zero": 1166999440
+  },
+  "decoded": {
+    "frames_count": 8,
+    "resources": [
+      "monster/dollmaster/stonemaster.img"
+    ],
+    "globals": [
+      {
+        "type": 0,
+        "value": 1
+      }
+    ],
+    "frames": [
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 0,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 150
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 1,
+        "x": -107,
+        "y": -208,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 150
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 2,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 150
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 3,
+        "x": -107,
+        "y": -210,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 150
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 0,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 150
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 1,
+        "x": -107,
+        "y": -208,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 150
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 2,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 150
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 3,
+        "x": -107,
+        "y": -210,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 150
+          }
+        ]
+      }
+    ]
+  }
+}

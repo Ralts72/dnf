@@ -1,0 +1,124 @@
+{
+  "run": "r52412437-129",
+  "scope": "Actual walking from440320 followed byE, original portrait native render, thenEnter while fullHP; no gameplay fixture.",
+  "png": "docs/previews/r4_03_sharan_dialog.png",
+  "before": {
+    "formal": {
+      "user://adventure/first_route_v1.json": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.bak": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "sha256": ""
+      }
+    },
+    "profile": {
+      "dialog_open": false,
+      "encounter_cleared": false,
+      "last_error": "",
+      "loaded_from_backup": false,
+      "pending_save": false,
+      "progress": {
+        "chapter_flags": {
+          "lakius_cleared": false
+        },
+        "coins": 0,
+        "equipment": {
+          "equipped_key": "practice_lswd0000",
+          "owned": {
+            "27304": false
+          }
+        },
+        "first_drop": {
+          "id": "mirkius_first_eye_v1",
+          "position": [
+            640,
+            300
+          ],
+          "region": "hall",
+          "state": "unearned"
+        },
+        "inventory": {
+          "3128": 0
+        },
+        "objective_cleared": false,
+        "quest_stage": "available",
+        "reward_granted": false,
+        "schema": 4
+      },
+      "region_scene": "res://scenes/west_coast_r1.tscn",
+      "save_attempts": 0,
+      "storage_path": "user://adventure/first_route_v1.json",
+      "storage_ready": true
+    },
+    "sharan": {
+      "can_interact": false,
+      "confirm_text": "继续旅程",
+      "dialog_open": true,
+      "dialogue_key": "available",
+      "dialogue_text": "萝莉安也在留意塔里的动静。要进塔，可以沿港口左侧的石道走。出发前，先歇一歇吧。",
+      "interaction_half_extent": [
+        55,
+        50
+      ],
+      "npc_source_position": {
+        "x": 150,
+        "y": 267
+      },
+      "portrait_path": "res://assets/r4/sharan/portrait.png",
+      "portrait_visible": true,
+      "prompt_visible": false,
+      "restore_count": 0,
+      "route_hp": 100
+    },
+    "skill": {
+      "accepted_casts": 0,
+      "action": "hardattack",
+      "actor_id": 73651980913,
+      "can_cast": false,
+      "cooldown_remaining": 0,
+      "cooldown_seconds": 6,
+      "freeze_reason": "input_blocked",
+      "frozen": true,
+      "hud_text": "Z 鬼斩 · 就绪",
+      "hud_visible": true,
+      "last_reject_reason": "",
+      "ready": true,
+      "rejected_casts": 0,
+      "reset_count": 0,
+      "scene": "res://scenes/west_coast_r1.tscn"
+    }
+  },
+  "after": {
+    "sharan": {
+      "can_interact": true,
+      "confirm_text": "继续旅程",
+      "dialog_open": false,
+      "dialogue_key": "available",
+      "dialogue_text": "萝莉安也在留意塔里的动静。要进塔，可以沿港口左侧的石道走。出发前，先歇一歇吧。",
+      "interaction_half_extent": [
+        55,
+        50
+      ],
+      "npc_source_position": {
+        "x": 150,
+        "y": 267
+      },
+      "portrait_path": "res://assets/r4/sharan/portrait.png",
+      "portrait_visible": false,
+      "prompt_visible": true,
+      "restore_count": 0,
+      "route_hp": 100
+    },
+    "shared_hp_created": false
+  }
+}

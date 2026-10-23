@@ -1,0 +1,26 @@
+{
+  "candidate": "R1/14",
+  "verified_at_utc": "2026-10-23T00:28:43.341996+00:00",
+  "run_id": "r19151839-46",
+  "artifact_hashes_passed": 138,
+  "current_checks": {
+    "ambience": 26,
+    "music": 27,
+    "runtime": 17,
+    "pose": 17,
+    "render_observation": 11
+  },
+  "total_current_checks": 98,
+  "failed": 0,
+  "completed_qa_jobs": 5,
+  "unchanged_gameplay_files": 19,
+  "loaded_scripts_match_disk": true,
+  "clean_current_run": true,
+  "quota_remaining_percent": 93,
+  "goal_status": "active",
+  "previews": {
+    "r1_14_window.png": "61614fd2527757471ad9d84dbb820aa987e195772aa92adae1e6672c43c87f0d",
+    "r1_14_full1080.png": "c437d95ec304681069f959ef5258b27842f8e9698b8b870bc27a509d9cdb1820",
+    "r1_14_ambience_preview.wav": "6f79e16980fe4e907511a862ad89395d4e59500bbdc76712c639f8ecd2c9bb97"
+  }
+}

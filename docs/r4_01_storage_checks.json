@@ -1,0 +1,290 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "details": null,
+      "name": "schema4 default contains only a false chapter flag",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 migration preserves legitimate equipment material and receipts",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v1 migration does not rewrite or create sidecars",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 migration preserves legitimate equipment material and receipts",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v2 migration does not rewrite or create sidecars",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v3 migration preserves legitimate equipment material and receipts",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v3 migration does not rewrite or create sidecars",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "first mutation retains exact legacy backups for all three formats",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "strict v4 rejects malformed chapter flags 0",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "strict v4 rejects malformed chapter flags 1",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "strict v4 rejects malformed chapter flags 2",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "strict v4 rejects malformed chapter flags 3",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "strict v4 rejects malformed chapter flags 4",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "strict v4 rejects malformed chapter flags 5",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "strict v4 rejects malformed chapter flags 6",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "v4 requires chapter_flags and cannot infer a default",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "boss receipt without earned first encounter is invalid",
+      "passed": true
+    },
+    {
+      "details": [
+        {
+          "passed": true,
+          "value": 1
+        },
+        {
+          "passed": true,
+          "value": "true"
+        },
+        {
+          "passed": true,
+          "value": []
+        },
+        {
+          "passed": true,
+          "value": {
+            "cleared": true
+          }
+        }
+      ],
+      "name": "nonboolean boss metadata cannot mint a flag or write",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "real boss metadata alone cannot forge the prerequisite first kill",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "first and boss clear before quest commit one complete bundle",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "repeated real clear observation saves only once",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "practice reset cannot revoke the historical boss receipt",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "later quest acceptance uses history and retains boss flag",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "reward still grants40 and27304 once without altering boss flag",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "pickup preserves boss flag and commits one eye",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "equip preserves boss flag all receipts and existing bonus4",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "flagged load seeds absent boss and first-clear metadata",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "flagged load does not overwrite an existing practice reset",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "active quest setup stays unchanged",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "explicit save merges real first boss and active quest receipts atomically",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "failed boss write retains old committed profile and exact pending flag",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "failed boss event is latched across R without write retry loop",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "other operations cannot replace the pending boss transaction",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "retry after R commits original flag and equipped ownership once",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "boss retry preserves exact old primary as backup",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "valid backup recovers boss flag equipment material and reward together",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "recovery commit archives corrupt primary and keeps exact flagged backup",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "invalid flag prerequisite and invalid backup preserve both files write-blocked",
+      "passed": true
+    }
+  ],
+  "controller_sha256": "5503043445b42843087ca3cde56bf6df940297ca4e10a4358087444e90b95afc",
+  "count": 38,
+  "created_at": "2026-10-23T08:54:49",
+  "default_storage_initialized_or_written": false,
+  "equipment_data_sha256": "c22692564a0dcd5e483d6c5cfa38d79f6e7b714a855def5a02c5895bea8a1c99",
+  "failed": [],
+  "godot": "4.7.2-stable (official)",
+  "isolated_storage_prefix": "user://qa/tower_boss_126221",
+  "quest_data_sha256": "8ae4c6d7761f75a526b1060d4ebe9aac12b4d27171b7c9c713c22e93c7067c64",
+  "schema": 1,
+  "scope": "Disposable headless SceneTree; no main scene/autoload/gameplay. Temporary-directory write failures are expected isolated fixtures.",
+  "test_script": "res://tools/r4/boss_storage_checks.gd",
+  "test_script_sha256": "8eb36a7d86e61d8d9fff1f192f3cff94de9525b56c1d4bf673f3e650e02d84fd",
+  "isolation": {
+    "scratch_project": "/var/folders/8w/qkg_4djn7wv2zndv43xkt5c00000gn/T/dnf-boss-storage-tuojdzdo",
+    "autoloads": false,
+    "main_scene": false,
+    "copied_sources": {
+      "scripts/adventure_progress.gd": "5503043445b42843087ca3cde56bf6df940297ca4e10a4358087444e90b95afc",
+      "data/first_route_quest.json": "8ae4c6d7761f75a526b1060d4ebe9aac12b4d27171b7c9c713c22e93c7067c64",
+      "data/first_equipment.json": "c22692564a0dcd5e483d6c5cfa38d79f6e7b714a855def5a02c5895bea8a1c99",
+      "tools/r4/boss_storage_checks.gd": "8eb36a7d86e61d8d9fff1f192f3cff94de9525b56c1d4bf673f3e650e02d84fd"
+    },
+    "sources_unchanged_after_test": true,
+    "human_files_before": {
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      }
+    },
+    "human_files_after": {
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      }
+    },
+    "human_profile_bytes_unchanged": true
+  },
+  "execution": {
+    "returncode": 0,
+    "stdout": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n{\"all_passed\":true,\"count\":38,\"failed\":0,\"report\":\"docs/r4_01_storage_checks.json\"}\n",
+    "stderr": "",
+    "timeout": false
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "candidate": "R3/03",
+  "verified_at_utc": "2026-10-23T07:58:31.594950+00:00",
+  "native_runs": {
+    "loot": "r46050358-101",
+    "quest_regression": "r45814953-99",
+    "fresh": "r46206118-102"
+  },
+  "checks": {
+    "native_loot": 23,
+    "native_quest_regression": 21,
+    "isolated_storage": 62
+  },
+  "total_function_checks": 106,
+  "native_seconds": {
+    "loot": 24.645413,
+    "quest": 17.848883
+  },
+  "failed": [],
+  "artifact_hashes_passed": 613,
+  "manifest_sha256": "a83fc9cf236c8293c2d2bf277d3e2bcd933d9cb1cb53baf1abe41fd8ff3a6334",
+  "native_imported_textures": 2,
+  "native_exact_rgba_pixels": 1543,
+  "pvf_crc_checks": 6,
+  "formal_profile_before": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "formal_profile_after": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "fresh_state": {
+    "camera": "(0.0, 12.0)",
+    "diagnostics_active": false,
+    "diagnostics_processing": false,
+    "dialog_count": 1,
+    "dialog_owned": true,
+    "encounter_meta": false,
+    "formal_profile_exists": false,
+    "input_blocked": false,
+    "loot": {
+      "bag_open": false,
+      "can_pickup": false,
+      "drop_visible": false,
+      "inventory_count": 0,
+      "position": "(640.0, 300.0)",
+      "toast": ""
+    },
+    "physics_ticks": 60,
+    "player": {
+      "action": "stay",
+      "audio": {
+        "clock_ms": 0.0,
+        "pending": []
+      },
+      "elapsed_ms": 104.180666666667,
+      "facing": 1,
+      "frame": 1,
+      "jump": {
+        "air_attack_started": -1.0,
+        "air_attack_used": false,
+        "elapsed": -1.0,
+        "travel_speed": 95.0
+      },
+      "next_attack": "attack1",
+      "one_shot": false,
+      "paused": false,
+      "position": "(440.0, 320.0)",
+      "preview": false
+    },
+    "progress": {
+      "dialog_open": false,
+      "encounter_cleared": false,
+      "last_error": "",
+      "loaded_from_backup": false,
+      "pending_save": false,
+      "progress": {
+        "coins": 0,
+        "first_drop": {
+          "id": "mirkius_first_eye_v1",
+          "position": [
+            640,
+            300
+          ],
+          "region": "hall",
+          "state": "unearned"
+        },
+        "inventory": {
+          "3128": 0
+        },
+        "objective_cleared": false,
+        "quest_stage": "available",
+        "reward_granted": false,
+        "schema": 2
+      },
+      "region_scene": "res://scenes/west_coast_r1.tscn",
+      "save_attempts": 0,
+      "storage_path": "user://adventure/first_route_v1.json",
+      "storage_ready": true
+    },
+    "root_children": [
+      "_mcp_game_helper",
+      "PortMusic",
+      "PortAmbience",
+      "WestCoastR1",
+      "FrameDiagnostics",
+      "AdventureProgress"
+    ],
+    "scene": "res://scenes/west_coast_r1.tscn",
+    "script_hashes": {
+      "res://scripts/adventure_progress.gd": {
+        "disk": "e10ff614466ea79723fd25ced29d43a18bd6870a740726a363b9564c89632e8e",
+        "loaded": "e10ff614466ea79723fd25ced29d43a18bd6870a740726a363b9564c89632e8e"
+      },
+      "res://scripts/exploration_stage.gd": {
+        "disk": "56783c13a3dddf40b644d3d3db745442a8409ffe5633d28bb39279e925683c25",
+        "loaded": "56783c13a3dddf40b644d3d3db745442a8409ffe5633d28bb39279e925683c25"
+      },
+      "res://scripts/first_encounter.gd": {
+        "disk": "143f9723a82d5e573b72783b8e60ddfd97dfc3b2509d46da1ea9722962fd8e0f",
+        "loaded": "143f9723a82d5e573b72783b8e60ddfd97dfc3b2509d46da1ea9722962fd8e0f"
+      },
+      "res://scripts/first_loot.gd": {
+        "disk": "8fc41a831a1589d2e56ba35b97c5db56ab072d6ad8c423e1366a6905364edac4",
+        "loaded": "8fc41a831a1589d2e56ba35b97c5db56ab072d6ad8c423e1366a6905364edac4"
+      },
+      "res://scripts/west_coast_r1.gd": {
+        "disk": "7d8d9f743fcbb1aa450f9459dbfaffc42db09d39a66a351c99d8f3804b17e560",
+        "loaded": "7d8d9f743fcbb1aa450f9459dbfaffc42db09d39a66a351c99d8f3804b17e560"
+      }
+    },
+    "settings": {
+      "audio_muted": false,
+      "audio_volume": 0.6,
+      "effects": true,
+      "motion": true,
+      "music_muted": false,
+      "music_volume": 0.2,
+      "quality": 2,
+      "walk": true
+    },
+    "spawn": "(440.0, 320.0)",
+    "travel": {
+      "can_exit": true,
+      "current_region": "harbor",
+      "exit_hold_id": "",
+      "exit_hold_required_seconds": 0.15,
+      "exit_hold_seconds": 0.0,
+      "fade_alpha": 0.0,
+      "grounded": true,
+      "harbor_return_position": "(60.0, 320.0)",
+      "last_error": "",
+      "last_exit": "",
+      "pending_target": "",
+      "phase": "ready",
+      "region": "harbor",
+      "reset_positions": {
+        "harbor": "(440.0, 320.0)"
+      },
+      "schema_version": 1,
+      "source_position": "(440.0, 320.0)",
+      "spawn_position": "(440.0, 320.0)",
+      "transition_count": 0,
+      "transitioning": false,
+      "ui_input_blocked": false,
+      "visited": [
+        "harbor"
+      ]
+    }
+  },
+  "game_errors": 0,
+  "game_warnings": 0,
+  "evidence_sha256": {
+    "docs/r3_03_quest_checks.json": "af9b80920fb9b7b54f480481324506d45acaae911c51de7370eaf8ad60df0f52",
+    "docs/r3_03_final_game_logs.json": "c52a347d5454a44d89d672c27be87562d6d43ed32c132b9c34907fa6c087c932",
+    "docs/r3_03_final_state.json": "cb440763432b1a32d7f153227ff9c057f053a8d54fb5d8752cecd497d9a36422",
+    "docs/r3_03_loot_checks.json": "331c07d4b690381e635c14328bdb2c80fcaba5fcf7a7e36104e2eab134ba0c5d",
+    "docs/r3_03_asset_checks.json": "0cb3390e59115bf60eef8274800b7be637b2b9386a9a0abe1c9583c368ef288b",
+    "docs/r3_03_quest_job.json": "2a0405a6910f42542221b51cf49db87f51efab0a954c7bfef3677a073fc8a0b8",
+    "docs/r3_03_storage_checks.json": "8f09223cb902f98dec4231ad03c89675bfc60b24527186bde6ec3aa066a99bc1",
+    "docs/r3_03_loot_game_logs.json": "ebdd81ea48e2e23a78e72e027e589b6ac5a9496b1054f3a3fe0f87ed6a69d1b2",
+    "docs/r3_03_loot_job.json": "d52cb283f458c1761a10858d4c0a276c9e5cfd834ee52c0fd9cdf6b7af3a24ba",
+    "docs/r3_03_quest_game_logs.json": "3d9c69bc18be04c3d52bea4669c31c31063f0ed2bd76674b0f26876544e9e0c2",
+    "docs/previews/r3_03_quest_dialog.png": "7c0dc4edc3b06d27edce5ad3f387e1243cc3a6af6b80769d128141bd75958af6",
+    "docs/previews/r3_03_quest_completed.png": "0b535e7015a1779ab3f5232888d93c0c5b83dc84a32524e6b74d243e2533f174",
+    "docs/previews/r3_03_bag_with_item.png": "6bd66f281fdfd8785adb413f56a76bc304c9fce517644a85239475d686f12ba3",
+    "docs/previews/r3_03_ground_drop.png": "3eb94eca6af86041f8e7ecf544bd4dd40ff34895e2b90ffb5923636b664ecaaa",
+    "docs/previews/r3_03_reward_dialog.png": "37749ab5ee3062141cad7f8aff062c108c36e9480bc267ecdeaadf35db7c6e03",
+    "docs/previews/r3_03_quest_victory.png": "40fe965d7526ce49506d67a5f2acfc60027977986ace7a186129fb34dd7e7fdd",
+    "docs/r3_loot_source_reference.json": "886ef0b80fbe3cadda2f905bb82d474b95ca61047182cf6e47c6251078630f4e"
+  },
+  "notes": [
+    "One guaranteed first-clear source material is an explicit prototype adaptation; source pair3128,500 is retained without a probability interpretation.",
+    "Primary loot victory uses actual directional travel and full90HP AI-enabled Q spacing without health/position/freeze/clock writes. Only the separately labelled repeat-grant fixture reduces practice HP to36.",
+    "Schema1 migration is in-memory until a transaction; inventory and drop ledger share an atomic bundle and preserve the exact failed transaction for retry.",
+    "Run100 passed23 but pickup appeared during the death pose; its visual version is archived. Finalrun101 waits for the current death pose to end before revealing loot.",
+    "Historical R3/02 and R3/01 evidence is preserved and not recounted. No new performance study or Windows test. Equipment and architectural collision completion remain subsequent work."
+  ]
+}

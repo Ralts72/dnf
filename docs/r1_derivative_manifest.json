@@ -1,0 +1,6253 @@
+{
+  "source_manifest": "docs/r0_asset_manifest.json",
+  "derivatives": [
+    {
+      "texture": "res://assets/r1/actors/swordman/stay_00.png",
+      "source_animation": "character/swordman/animation/stay.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/090.png",
+        "res://assets/r0/swordman/body/090.png",
+        "res://assets/r0/swordman/pants_back/090.png",
+        "res://assets/r0/swordman/shoes_back/090.png",
+        "res://assets/r0/swordman/pants/090.png",
+        "res://assets/r0/swordman/shoes/090.png",
+        "res://assets/r0/swordman/coat/090.png",
+        "res://assets/r0/swordman/hair/090.png",
+        "res://assets/r0/swordman/weapon_front/090.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -45,
+          -79
+        ],
+        [
+          -32,
+          -100
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -25,
+          -64
+        ],
+        [
+          -30,
+          -12
+        ],
+        [
+          -11,
+          -95
+        ],
+        [
+          0,
+          -103
+        ],
+        [
+          -28,
+          -62
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "bc0e44cf6c44192a7c35dc4a842ab01cc949d10cb849902b595bb88788fdba97",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/stay_01.png",
+      "source_animation": "character/swordman/animation/stay.ani",
+      "source_frame": 1,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/091.png",
+        "res://assets/r0/swordman/body/091.png",
+        "res://assets/r0/swordman/pants_back/091.png",
+        "res://assets/r0/swordman/shoes_back/091.png",
+        "res://assets/r0/swordman/pants/091.png",
+        "res://assets/r0/swordman/shoes/091.png",
+        "res://assets/r0/swordman/coat/091.png",
+        "res://assets/r0/swordman/hair/091.png",
+        "res://assets/r0/swordman/weapon_front/091.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -45,
+          -78
+        ],
+        [
+          -32,
+          -99
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -25,
+          -63
+        ],
+        [
+          -30,
+          -12
+        ],
+        [
+          -11,
+          -94
+        ],
+        [
+          0,
+          -103
+        ],
+        [
+          -28,
+          -61
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "290abf02f8647e18adf547bafe351e77a3eaa55a1fda02de8ac8f7b7eb8a8c59",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/stay_02.png",
+      "source_animation": "character/swordman/animation/stay.ani",
+      "source_frame": 2,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/092.png",
+        "res://assets/r0/swordman/body/092.png",
+        "res://assets/r0/swordman/pants_back/092.png",
+        "res://assets/r0/swordman/shoes_back/092.png",
+        "res://assets/r0/swordman/pants/092.png",
+        "res://assets/r0/swordman/shoes/092.png",
+        "res://assets/r0/swordman/coat/092.png",
+        "res://assets/r0/swordman/hair/092.png",
+        "res://assets/r0/swordman/weapon_front/092.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -45,
+          -77
+        ],
+        [
+          -32,
+          -98
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -25,
+          -62
+        ],
+        [
+          -30,
+          -12
+        ],
+        [
+          -11,
+          -92
+        ],
+        [
+          0,
+          -102
+        ],
+        [
+          -28,
+          -60
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "f358371b21f827075b207532a7ed00bc8df89f210fa46d9c4ad1dc69bc87034e",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/stay_03.png",
+      "source_animation": "character/swordman/animation/stay.ani",
+      "source_frame": 3,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/093.png",
+        "res://assets/r0/swordman/body/093.png",
+        "res://assets/r0/swordman/pants_back/093.png",
+        "res://assets/r0/swordman/shoes_back/093.png",
+        "res://assets/r0/swordman/pants/093.png",
+        "res://assets/r0/swordman/shoes/093.png",
+        "res://assets/r0/swordman/coat/093.png",
+        "res://assets/r0/swordman/hair/093.png",
+        "res://assets/r0/swordman/weapon_front/093.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -45,
+          -76
+        ],
+        [
+          -32,
+          -98
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -25,
+          -62
+        ],
+        [
+          -30,
+          -12
+        ],
+        [
+          -11,
+          -92
+        ],
+        [
+          0,
+          -102
+        ],
+        [
+          -28,
+          -59
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "45a8c888736df5bcaf3f3b719b355a3454e157b16ae42f1c581cf352a36b97ae",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/stay_04.png",
+      "source_animation": "character/swordman/animation/stay.ani",
+      "source_frame": 4,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/094.png",
+        "res://assets/r0/swordman/body/094.png",
+        "res://assets/r0/swordman/pants_back/094.png",
+        "res://assets/r0/swordman/shoes_back/094.png",
+        "res://assets/r0/swordman/pants/094.png",
+        "res://assets/r0/swordman/shoes/094.png",
+        "res://assets/r0/swordman/coat/094.png",
+        "res://assets/r0/swordman/hair/094.png",
+        "res://assets/r0/swordman/weapon_front/094.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -45,
+          -77
+        ],
+        [
+          -32,
+          -99
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -25,
+          -63
+        ],
+        [
+          -30,
+          -12
+        ],
+        [
+          -11,
+          -93
+        ],
+        [
+          0,
+          -102
+        ],
+        [
+          -28,
+          -60
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "db7e6cfa55685cd385ba2e0b39b70319ecdd6b4899314f0572ea29f383653835",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/stay_05.png",
+      "source_animation": "character/swordman/animation/stay.ani",
+      "source_frame": 5,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/095.png",
+        "res://assets/r0/swordman/body/095.png",
+        "res://assets/r0/swordman/pants_back/095.png",
+        "res://assets/r0/swordman/shoes_back/095.png",
+        "res://assets/r0/swordman/pants/095.png",
+        "res://assets/r0/swordman/shoes/095.png",
+        "res://assets/r0/swordman/coat/095.png",
+        "res://assets/r0/swordman/hair/095.png",
+        "res://assets/r0/swordman/weapon_front/095.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -45,
+          -78
+        ],
+        [
+          -32,
+          -100
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -25,
+          -64
+        ],
+        [
+          -30,
+          -12
+        ],
+        [
+          -11,
+          -95
+        ],
+        [
+          0,
+          -102
+        ],
+        [
+          -28,
+          -61
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "0c142aca4610d0fff57aae7ac97224a8662125c0ec94461d9f926d532fd0fa4f",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/move_00.png",
+      "source_animation": "character/swordman/animation/move.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/180.png",
+        "res://assets/r0/swordman/body/180.png",
+        "res://assets/r0/swordman/pants_back/180.png",
+        "res://assets/r0/swordman/shoes_back/180.png",
+        "res://assets/r0/swordman/pants/180.png",
+        "res://assets/r0/swordman/shoes/180.png",
+        "res://assets/r0/swordman/coat/180.png",
+        "res://assets/r0/swordman/hair/180.png",
+        "res://assets/r0/swordman/weapon_front/180.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -32,
+          -69
+        ],
+        [
+          -23,
+          -109
+        ],
+        [
+          -1,
+          -35
+        ],
+        [
+          -2,
+          -10
+        ],
+        [
+          -18,
+          -71
+        ],
+        [
+          -26,
+          -20
+        ],
+        [
+          -15,
+          -99
+        ],
+        [
+          -7,
+          -111
+        ],
+        [
+          -15,
+          -52
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "9f498877e7af78e62c45565c88c573e24cd0f1d4879d61c431ba225ebc915cf1",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/move_01.png",
+      "source_animation": "character/swordman/animation/move.ani",
+      "source_frame": 1,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/181.png",
+        "res://assets/r0/swordman/body/181.png",
+        "res://assets/r0/swordman/pants_back/181.png",
+        "res://assets/r0/swordman/shoes_back/181.png",
+        "res://assets/r0/swordman/pants/181.png",
+        "res://assets/r0/swordman/shoes/181.png",
+        "res://assets/r0/swordman/coat/181.png",
+        "res://assets/r0/swordman/hair/181.png",
+        "res://assets/r0/swordman/weapon_front/181.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -34,
+          -69
+        ],
+        [
+          -21,
+          -109
+        ],
+        [
+          -6,
+          -50
+        ],
+        [
+          -8,
+          -5
+        ],
+        [
+          -7,
+          -71
+        ],
+        [
+          -7,
+          -15
+        ],
+        [
+          -16,
+          -99
+        ],
+        [
+          -7,
+          -112
+        ],
+        [
+          -17,
+          -52
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "a0c751aff7f1a1445aecba6b7c10bc55cd71802f90975e011730a76a458c03a6",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/move_02.png",
+      "source_animation": "character/swordman/animation/move.ani",
+      "source_frame": 2,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/182.png",
+        "res://assets/r0/swordman/body/182.png",
+        "res://assets/r0/swordman/pants_back/182.png",
+        "res://assets/r0/swordman/shoes_back/182.png",
+        "res://assets/r0/swordman/pants/182.png",
+        "res://assets/r0/swordman/shoes/182.png",
+        "res://assets/r0/swordman/coat/182.png",
+        "res://assets/r0/swordman/hair/182.png",
+        "res://assets/r0/swordman/weapon_front/182.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -35,
+          -68
+        ],
+        [
+          -22,
+          -108
+        ],
+        [
+          -19,
+          -53
+        ],
+        [
+          -22,
+          -13
+        ],
+        [
+          -8,
+          -70
+        ],
+        [
+          6,
+          -11
+        ],
+        [
+          -16,
+          -97
+        ],
+        [
+          -7,
+          -112
+        ],
+        [
+          -18,
+          -51
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "9a4e13ae3d4c5cdf38a7511bd54f593c5d15e31164889a08a82b6adb0879541f",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/move_03.png",
+      "source_animation": "character/swordman/animation/move.ani",
+      "source_frame": 3,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/183.png",
+        "res://assets/r0/swordman/body/183.png",
+        "res://assets/r0/swordman/pants_back/183.png",
+        "res://assets/r0/swordman/shoes_back/183.png",
+        "res://assets/r0/swordman/pants/183.png",
+        "res://assets/r0/swordman/shoes/183.png",
+        "res://assets/r0/swordman/coat/183.png",
+        "res://assets/r0/swordman/hair/183.png",
+        "res://assets/r0/swordman/weapon_front/183.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -34,
+          -68
+        ],
+        [
+          -24,
+          -108
+        ],
+        [
+          -20,
+          -51
+        ],
+        [
+          -26,
+          -17
+        ],
+        [
+          -8,
+          -70
+        ],
+        [
+          2,
+          -8
+        ],
+        [
+          -16,
+          -98
+        ],
+        [
+          -7,
+          -111
+        ],
+        [
+          -17,
+          -51
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "3cede234a82618bf224170c08a33549426e7c8c39107fd4ac675c3ec299faf2a",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/move_04.png",
+      "source_animation": "character/swordman/animation/move.ani",
+      "source_frame": 4,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/184.png",
+        "res://assets/r0/swordman/body/184.png",
+        "res://assets/r0/swordman/pants_back/184.png",
+        "res://assets/r0/swordman/shoes_back/184.png",
+        "res://assets/r0/swordman/pants/184.png",
+        "res://assets/r0/swordman/shoes/184.png",
+        "res://assets/r0/swordman/coat/184.png",
+        "res://assets/r0/swordman/hair/184.png",
+        "res://assets/r0/swordman/weapon_front/184.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -32,
+          -69
+        ],
+        [
+          -21,
+          -109
+        ],
+        [
+          -16,
+          -39
+        ],
+        [
+          -24,
+          -22
+        ],
+        [
+          -7,
+          -71
+        ],
+        [
+          -4,
+          -8
+        ],
+        [
+          -16,
+          -98
+        ],
+        [
+          -7,
+          -111
+        ],
+        [
+          -15,
+          -52
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "4feb392be270bced1394f5b7fa3837759f480a57b50bd6f4cba6b3e4a01e1bb1",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/move_05.png",
+      "source_animation": "character/swordman/animation/move.ani",
+      "source_frame": 5,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/185.png",
+        "res://assets/r0/swordman/body/185.png",
+        "res://assets/r0/swordman/pants_back/185.png",
+        "res://assets/r0/swordman/shoes_back/185.png",
+        "res://assets/r0/swordman/pants/185.png",
+        "res://assets/r0/swordman/shoes/185.png",
+        "res://assets/r0/swordman/coat/185.png",
+        "res://assets/r0/swordman/hair/185.png",
+        "res://assets/r0/swordman/weapon_front/185.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -29,
+          -69
+        ],
+        [
+          -16,
+          -109
+        ],
+        [
+          0,
+          -40
+        ],
+        [
+          0,
+          -18
+        ],
+        [
+          -10,
+          -71
+        ],
+        [
+          -10,
+          -8
+        ],
+        [
+          -15,
+          -99
+        ],
+        [
+          -7,
+          -112
+        ],
+        [
+          -12,
+          -52
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "d49ba850eea751ba943637666d6bc509ae52f1ebaf74b9eeaf9d07471386f528",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/move_06.png",
+      "source_animation": "character/swordman/animation/move.ani",
+      "source_frame": 6,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/186.png",
+        "res://assets/r0/swordman/body/186.png",
+        "res://assets/r0/swordman/pants_back/186.png",
+        "res://assets/r0/swordman/shoes_back/186.png",
+        "res://assets/r0/swordman/pants/186.png",
+        "res://assets/r0/swordman/shoes/186.png",
+        "res://assets/r0/swordman/coat/186.png",
+        "res://assets/r0/swordman/hair/186.png",
+        "res://assets/r0/swordman/weapon_front/186.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -28,
+          -68
+        ],
+        [
+          -23,
+          -108
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -21,
+          -70
+        ],
+        [
+          -24,
+          -14
+        ],
+        [
+          -15,
+          -97
+        ],
+        [
+          -7,
+          -112
+        ],
+        [
+          -11,
+          -51
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "561281313c62cce6d91c4a21b5841ffe4fdfea4a01dfc094028e92b327276181",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/move_07.png",
+      "source_animation": "character/swordman/animation/move.ani",
+      "source_frame": 7,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/187.png",
+        "res://assets/r0/swordman/body/187.png",
+        "res://assets/r0/swordman/pants_back/187.png",
+        "res://assets/r0/swordman/shoes_back/187.png",
+        "res://assets/r0/swordman/pants/187.png",
+        "res://assets/r0/swordman/shoes/187.png",
+        "res://assets/r0/swordman/coat/187.png",
+        "res://assets/r0/swordman/hair/187.png",
+        "res://assets/r0/swordman/weapon_front/187.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -29,
+          -68
+        ],
+        [
+          -26,
+          -108
+        ],
+        [
+          1,
+          -41
+        ],
+        [
+          4,
+          -10
+        ],
+        [
+          -21,
+          -70
+        ],
+        [
+          -28,
+          -16
+        ],
+        [
+          -15,
+          -98
+        ],
+        [
+          -7,
+          -111
+        ],
+        [
+          -12,
+          -51
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "cff0f09d5110f502cdfd350a5506ef597aae43405c07976706d4348cd8ee193b",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/dash_00.png",
+      "source_animation": "character/swordman/animation/dash.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/105.png",
+        "res://assets/r0/swordman/body/105.png",
+        "res://assets/r0/swordman/pants_back/105.png",
+        "res://assets/r0/swordman/shoes_back/105.png",
+        "res://assets/r0/swordman/pants/105.png",
+        "res://assets/r0/swordman/shoes/105.png",
+        "res://assets/r0/swordman/coat/105.png",
+        "res://assets/r0/swordman/hair/105.png",
+        "res://assets/r0/swordman/weapon_front/105.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -24,
+          -95
+        ],
+        [
+          -9,
+          -46
+        ],
+        [
+          -18,
+          -23
+        ],
+        [
+          -7,
+          -65
+        ],
+        [
+          -14,
+          -15
+        ],
+        [
+          6,
+          -94
+        ],
+        [
+          21,
+          -101
+        ],
+        [
+          -97,
+          -63
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "27ed2471651a972383ecc158fff46b4e1dae496ff2f7a946c0fd75c5a7c0c392",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/dash_01.png",
+      "source_animation": "character/swordman/animation/dash.ani",
+      "source_frame": 1,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/106.png",
+        "res://assets/r0/swordman/body/106.png",
+        "res://assets/r0/swordman/pants_back/106.png",
+        "res://assets/r0/swordman/shoes_back/106.png",
+        "res://assets/r0/swordman/pants/106.png",
+        "res://assets/r0/swordman/shoes/106.png",
+        "res://assets/r0/swordman/coat/106.png",
+        "res://assets/r0/swordman/hair/106.png",
+        "res://assets/r0/swordman/weapon_front/106.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -39,
+          -97
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -32,
+          -67
+        ],
+        [
+          -41,
+          -28
+        ],
+        [
+          8,
+          -95
+        ],
+        [
+          23,
+          -101
+        ],
+        [
+          -94,
+          -64
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "337e5ca16b046e73b192fa078d3c4b435601e3364612b9930458151e122d9b6c",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/dash_02.png",
+      "source_animation": "character/swordman/animation/dash.ani",
+      "source_frame": 2,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/107.png",
+        "res://assets/r0/swordman/body/107.png",
+        "res://assets/r0/swordman/pants_back/107.png",
+        "res://assets/r0/swordman/shoes_back/107.png",
+        "res://assets/r0/swordman/pants/107.png",
+        "res://assets/r0/swordman/shoes/107.png",
+        "res://assets/r0/swordman/coat/107.png",
+        "res://assets/r0/swordman/hair/107.png",
+        "res://assets/r0/swordman/weapon_front/107.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -47,
+          -96
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -37,
+          -66
+        ],
+        [
+          -49,
+          -46
+        ],
+        [
+          8,
+          -94
+        ],
+        [
+          22,
+          -100
+        ],
+        [
+          -94,
+          -63
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "cd17f1ada94d6eb3441aacd9fea20c2354841a319862f340a0531557205c9e19",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/dash_03.png",
+      "source_animation": "character/swordman/animation/dash.ani",
+      "source_frame": 3,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/108.png",
+        "res://assets/r0/swordman/body/108.png",
+        "res://assets/r0/swordman/pants_back/108.png",
+        "res://assets/r0/swordman/shoes_back/108.png",
+        "res://assets/r0/swordman/pants/108.png",
+        "res://assets/r0/swordman/shoes/108.png",
+        "res://assets/r0/swordman/coat/108.png",
+        "res://assets/r0/swordman/hair/108.png",
+        "res://assets/r0/swordman/weapon_front/108.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -36,
+          -95
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -26,
+          -65
+        ],
+        [
+          -38,
+          -36
+        ],
+        [
+          8,
+          -92
+        ],
+        [
+          22,
+          -99
+        ],
+        [
+          -96,
+          -63
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "208fb867f881b6daea134e343e1f7d41af37c2005664a9e5dff255ee6f691ef9",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/dash_04.png",
+      "source_animation": "character/swordman/animation/dash.ani",
+      "source_frame": 4,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/109.png",
+        "res://assets/r0/swordman/body/109.png",
+        "res://assets/r0/swordman/pants_back/109.png",
+        "res://assets/r0/swordman/shoes_back/109.png",
+        "res://assets/r0/swordman/pants/109.png",
+        "res://assets/r0/swordman/shoes/109.png",
+        "res://assets/r0/swordman/coat/109.png",
+        "res://assets/r0/swordman/hair/109.png",
+        "res://assets/r0/swordman/weapon_front/109.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -24,
+          -95
+        ],
+        [
+          -4,
+          -30
+        ],
+        [
+          -8,
+          -17
+        ],
+        [
+          -12,
+          -64
+        ],
+        [
+          -20,
+          -22
+        ],
+        [
+          6,
+          -94
+        ],
+        [
+          21,
+          -101
+        ],
+        [
+          -97,
+          -63
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "661636d8da28b24480280864bd98f16db03f0fbbc363a352228a040070059302",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/dash_05.png",
+      "source_animation": "character/swordman/animation/dash.ani",
+      "source_frame": 5,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/110.png",
+        "res://assets/r0/swordman/body/110.png",
+        "res://assets/r0/swordman/pants_back/110.png",
+        "res://assets/r0/swordman/shoes_back/110.png",
+        "res://assets/r0/swordman/pants/110.png",
+        "res://assets/r0/swordman/shoes/110.png",
+        "res://assets/r0/swordman/coat/110.png",
+        "res://assets/r0/swordman/hair/110.png",
+        "res://assets/r0/swordman/weapon_front/110.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -36,
+          -97
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -29,
+          -67
+        ],
+        [
+          -38,
+          -30
+        ],
+        [
+          8,
+          -95
+        ],
+        [
+          23,
+          -101
+        ],
+        [
+          -95,
+          -66
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "687d93e9547099cc9473adda59e2aaba9e58735f7029a9bd06d3d297f75bf456",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/dash_06.png",
+      "source_animation": "character/swordman/animation/dash.ani",
+      "source_frame": 6,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/111.png",
+        "res://assets/r0/swordman/body/111.png",
+        "res://assets/r0/swordman/pants_back/111.png",
+        "res://assets/r0/swordman/shoes_back/111.png",
+        "res://assets/r0/swordman/pants/111.png",
+        "res://assets/r0/swordman/shoes/111.png",
+        "res://assets/r0/swordman/coat/111.png",
+        "res://assets/r0/swordman/hair/111.png",
+        "res://assets/r0/swordman/weapon_front/111.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -44,
+          -96
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -34,
+          -66
+        ],
+        [
+          -46,
+          -48
+        ],
+        [
+          8,
+          -94
+        ],
+        [
+          22,
+          -100
+        ],
+        [
+          -95,
+          -65
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "781fb85b34ae92289b7e0175848816f3ea9da87359396cbe9c711160d045da59",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/dash_07.png",
+      "source_animation": "character/swordman/animation/dash.ani",
+      "source_frame": 7,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/112.png",
+        "res://assets/r0/swordman/body/112.png",
+        "res://assets/r0/swordman/pants_back/112.png",
+        "res://assets/r0/swordman/shoes_back/112.png",
+        "res://assets/r0/swordman/pants/112.png",
+        "res://assets/r0/swordman/shoes/112.png",
+        "res://assets/r0/swordman/coat/112.png",
+        "res://assets/r0/swordman/hair/112.png",
+        "res://assets/r0/swordman/weapon_front/112.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -34,
+          -95
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -24,
+          -65
+        ],
+        [
+          -36,
+          -38
+        ],
+        [
+          8,
+          -92
+        ],
+        [
+          22,
+          -99
+        ],
+        [
+          -96,
+          -63
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "1104468119ad68347d49b9fd920f4c2bd069bc5b522e709b2838b2e5a31e3f52",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack1_00.png",
+      "source_animation": "character/swordman/animation/attack1.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/000.png",
+        "res://assets/r0/swordman/body/000.png",
+        "res://assets/r0/swordman/pants_back/000.png",
+        "res://assets/r0/swordman/shoes_back/000.png",
+        "res://assets/r0/swordman/pants/000.png",
+        "res://assets/r0/swordman/shoes/000.png",
+        "res://assets/r0/swordman/coat/000.png",
+        "res://assets/r0/swordman/hair/000.png",
+        "res://assets/r0/swordman/weapon_front/000.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -75,
+          -85
+        ],
+        [
+          -43,
+          -102
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -33,
+          -65
+        ],
+        [
+          -38,
+          -15
+        ],
+        [
+          -28,
+          -95
+        ],
+        [
+          -26,
+          -107
+        ],
+        [
+          -37,
+          -95
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "22bc6e7dd1a3514030aa7a2746bc011f93b22d68f385ffafe0c2d41772b85397",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack1_01.png",
+      "source_animation": "character/swordman/animation/attack1.ani",
+      "source_frame": 1,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/001.png",
+        "res://assets/r0/swordman/body/001.png",
+        "res://assets/r0/swordman/pants_back/001.png",
+        "res://assets/r0/swordman/shoes_back/001.png",
+        "res://assets/r0/swordman/pants/001.png",
+        "res://assets/r0/swordman/shoes/001.png",
+        "res://assets/r0/swordman/coat/001.png",
+        "res://assets/r0/swordman/hair/001.png",
+        "res://assets/r0/swordman/weapon_front/001.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -75,
+          -85
+        ],
+        [
+          -43,
+          -102
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -33,
+          -65
+        ],
+        [
+          -38,
+          -15
+        ],
+        [
+          -29,
+          -95
+        ],
+        [
+          -26,
+          -107
+        ],
+        [
+          -37,
+          -95
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "f4b54b6635a052e7120372b1de5229bdc46c33a4b399cfa90d5bbbac05e18c29",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack1_02.png",
+      "source_animation": "character/swordman/animation/attack1.ani",
+      "source_frame": 2,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/002.png",
+        "res://assets/r0/swordman/body/002.png",
+        "res://assets/r0/swordman/pants_back/002.png",
+        "res://assets/r0/swordman/shoes_back/002.png",
+        "res://assets/r0/swordman/pants/002.png",
+        "res://assets/r0/swordman/shoes/002.png",
+        "res://assets/r0/swordman/coat/002.png",
+        "res://assets/r0/swordman/hair/002.png",
+        "res://assets/r0/swordman/weapon_front/002.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -93,
+          -93
+        ],
+        [
+          -39,
+          -102
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -32,
+          -65
+        ],
+        [
+          -35,
+          -15
+        ],
+        [
+          -23,
+          -95
+        ],
+        [
+          -22,
+          -107
+        ],
+        [
+          -26,
+          -94
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "a6a0e84f517dc5e4dd14b550a1870cd3bf419ee77a61b1e7b4a7fa093e82b062",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack1_03.png",
+      "source_animation": "character/swordman/animation/attack1.ani",
+      "source_frame": 3,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/003.png",
+        "res://assets/r0/swordman/body/003.png",
+        "res://assets/r0/swordman/pants_back/003.png",
+        "res://assets/r0/swordman/shoes_back/003.png",
+        "res://assets/r0/swordman/pants/003.png",
+        "res://assets/r0/swordman/shoes/003.png",
+        "res://assets/r0/swordman/coat/003.png",
+        "res://assets/r0/swordman/hair/003.png",
+        "res://assets/r0/swordman/weapon_front/003.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -31,
+          -88
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -27,
+          -57
+        ],
+        [
+          -31,
+          -13
+        ],
+        [
+          6,
+          -84
+        ],
+        [
+          19,
+          -92
+        ],
+        [
+          29,
+          -102
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "b2f8f53a061fba4d3340eccd8a8878d22dda71786e83f615ddc9b94321bb8ea6",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack1_04.png",
+      "source_animation": "character/swordman/animation/attack1.ani",
+      "source_frame": 4,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/004.png",
+        "res://assets/r0/swordman/body/004.png",
+        "res://assets/r0/swordman/pants_back/004.png",
+        "res://assets/r0/swordman/shoes_back/004.png",
+        "res://assets/r0/swordman/pants/004.png",
+        "res://assets/r0/swordman/shoes/004.png",
+        "res://assets/r0/swordman/coat/004.png",
+        "res://assets/r0/swordman/hair/004.png",
+        "res://assets/r0/swordman/weapon_front/004.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -30,
+          -51
+        ],
+        [
+          -30,
+          -84
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -24,
+          -54
+        ],
+        [
+          -32,
+          -15
+        ],
+        [
+          15,
+          -84
+        ],
+        [
+          30,
+          -88
+        ],
+        [
+          268,
+          -333
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "8c381b9e05e42bbfaf7943b23820207fafdaad56612de3f6ad2ec48226872cf8",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack1_05.png",
+      "source_animation": "character/swordman/animation/attack1.ani",
+      "source_frame": 5,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/005.png",
+        "res://assets/r0/swordman/body/005.png",
+        "res://assets/r0/swordman/pants_back/005.png",
+        "res://assets/r0/swordman/shoes_back/005.png",
+        "res://assets/r0/swordman/pants/005.png",
+        "res://assets/r0/swordman/shoes/005.png",
+        "res://assets/r0/swordman/coat/005.png",
+        "res://assets/r0/swordman/hair/005.png",
+        "res://assets/r0/swordman/weapon_front/005.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -66,
+          -51
+        ],
+        [
+          -30,
+          -84
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -24,
+          -54
+        ],
+        [
+          -32,
+          -15
+        ],
+        [
+          15,
+          -84
+        ],
+        [
+          31,
+          -88
+        ],
+        [
+          268,
+          -333
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "be54c5188b1f9612ecd59cdaf21c8dd2213d57d3f50d0d2380643c97da8b1867",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack1_06.png",
+      "source_animation": "character/swordman/animation/attack1.ani",
+      "source_frame": 6,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/006.png",
+        "res://assets/r0/swordman/body/006.png",
+        "res://assets/r0/swordman/pants_back/006.png",
+        "res://assets/r0/swordman/shoes_back/006.png",
+        "res://assets/r0/swordman/pants/006.png",
+        "res://assets/r0/swordman/shoes/006.png",
+        "res://assets/r0/swordman/coat/006.png",
+        "res://assets/r0/swordman/hair/006.png",
+        "res://assets/r0/swordman/weapon_front/006.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -66,
+          -51
+        ],
+        [
+          -30,
+          -84
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -24,
+          -54
+        ],
+        [
+          -32,
+          -15
+        ],
+        [
+          15,
+          -84
+        ],
+        [
+          31,
+          -88
+        ],
+        [
+          268,
+          -333
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "d27132fed843326ff8e11cc9ba9bddd286e382806dd25c56149f0d375e5012ff",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack1_07.png",
+      "source_animation": "character/swordman/animation/attack1.ani",
+      "source_frame": 7,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/007.png",
+        "res://assets/r0/swordman/body/007.png",
+        "res://assets/r0/swordman/pants_back/007.png",
+        "res://assets/r0/swordman/shoes_back/007.png",
+        "res://assets/r0/swordman/pants/007.png",
+        "res://assets/r0/swordman/shoes/007.png",
+        "res://assets/r0/swordman/coat/007.png",
+        "res://assets/r0/swordman/hair/007.png",
+        "res://assets/r0/swordman/weapon_front/007.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -66,
+          -51
+        ],
+        [
+          -31,
+          -84
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -24,
+          -54
+        ],
+        [
+          -32,
+          -15
+        ],
+        [
+          15,
+          -84
+        ],
+        [
+          31,
+          -90
+        ],
+        [
+          268,
+          -333
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "55309525d6135ec03b7038fb9b37eafee1bf223b2cdc30debadf78326605eeac",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack1_08.png",
+      "source_animation": "character/swordman/animation/attack1.ani",
+      "source_frame": 8,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/008.png",
+        "res://assets/r0/swordman/body/008.png",
+        "res://assets/r0/swordman/pants_back/008.png",
+        "res://assets/r0/swordman/shoes_back/008.png",
+        "res://assets/r0/swordman/pants/008.png",
+        "res://assets/r0/swordman/shoes/008.png",
+        "res://assets/r0/swordman/coat/008.png",
+        "res://assets/r0/swordman/hair/008.png",
+        "res://assets/r0/swordman/weapon_front/008.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -66,
+          -51
+        ],
+        [
+          -31,
+          -84
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -24,
+          -54
+        ],
+        [
+          -32,
+          -15
+        ],
+        [
+          15,
+          -84
+        ],
+        [
+          31,
+          -90
+        ],
+        [
+          268,
+          -333
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "59340677d167c5557ec8dfce6ec63c8fc7d9afefb90dc60dc9e8eeeeda06996c",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack1_09.png",
+      "source_animation": "character/swordman/animation/attack1.ani",
+      "source_frame": 9,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/009.png",
+        "res://assets/r0/swordman/body/009.png",
+        "res://assets/r0/swordman/pants_back/009.png",
+        "res://assets/r0/swordman/shoes_back/009.png",
+        "res://assets/r0/swordman/pants/009.png",
+        "res://assets/r0/swordman/shoes/009.png",
+        "res://assets/r0/swordman/coat/009.png",
+        "res://assets/r0/swordman/hair/009.png",
+        "res://assets/r0/swordman/weapon_front/009.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -66,
+          -51
+        ],
+        [
+          -32,
+          -84
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -24,
+          -54
+        ],
+        [
+          -32,
+          -15
+        ],
+        [
+          15,
+          -84
+        ],
+        [
+          31,
+          -90
+        ],
+        [
+          268,
+          -333
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "2104e069e66c7448624169acc2575cb1981cc0c5c265b998eb990464ef4914b1",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack2_00.png",
+      "source_animation": "character/swordman/animation/attack2.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/010.png",
+        "res://assets/r0/swordman/body/010.png",
+        "res://assets/r0/swordman/pants_back/010.png",
+        "res://assets/r0/swordman/shoes_back/010.png",
+        "res://assets/r0/swordman/pants/010.png",
+        "res://assets/r0/swordman/shoes/010.png",
+        "res://assets/r0/swordman/coat/010.png",
+        "res://assets/r0/swordman/hair/010.png",
+        "res://assets/r0/swordman/weapon_front/010.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -47,
+          -64
+        ],
+        [
+          -23,
+          -86
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -18,
+          -57
+        ],
+        [
+          -25,
+          -15
+        ],
+        [
+          17,
+          -83
+        ],
+        [
+          32,
+          -92
+        ],
+        [
+          268,
+          -333
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "f18616f7e2b201a420159d3fd5b2a91df32b41778c9b1d63437acfb3759b07e6",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack2_01.png",
+      "source_animation": "character/swordman/animation/attack2.ani",
+      "source_frame": 1,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/011.png",
+        "res://assets/r0/swordman/body/011.png",
+        "res://assets/r0/swordman/pants_back/011.png",
+        "res://assets/r0/swordman/shoes_back/011.png",
+        "res://assets/r0/swordman/pants/011.png",
+        "res://assets/r0/swordman/shoes/011.png",
+        "res://assets/r0/swordman/coat/011.png",
+        "res://assets/r0/swordman/hair/011.png",
+        "res://assets/r0/swordman/weapon_front/011.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -45,
+          -68
+        ],
+        [
+          -24,
+          -87
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -19,
+          -57
+        ],
+        [
+          -26,
+          -15
+        ],
+        [
+          18,
+          -83
+        ],
+        [
+          33,
+          -91
+        ],
+        [
+          268,
+          -333
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "13d48770d4bd7390ab3c296bb60d4e1677d79b4db375a5b619e7ba4e4fa7136d",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack2_02.png",
+      "source_animation": "character/swordman/animation/attack2.ani",
+      "source_frame": 2,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/012.png",
+        "res://assets/r0/swordman/body/012.png",
+        "res://assets/r0/swordman/pants_back/012.png",
+        "res://assets/r0/swordman/shoes_back/012.png",
+        "res://assets/r0/swordman/pants/012.png",
+        "res://assets/r0/swordman/shoes/012.png",
+        "res://assets/r0/swordman/coat/012.png",
+        "res://assets/r0/swordman/hair/012.png",
+        "res://assets/r0/swordman/weapon_front/012.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -25,
+          -87
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -20,
+          -56
+        ],
+        [
+          -27,
+          -15
+        ],
+        [
+          20,
+          -82
+        ],
+        [
+          33,
+          -91
+        ],
+        [
+          65,
+          -78
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "c9d68f83a7d9728b074d2749109094829c3b74c2649f296009dee1a4e4b287c7",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack2_03.png",
+      "source_animation": "character/swordman/animation/attack2.ani",
+      "source_frame": 3,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/013.png",
+        "res://assets/r0/swordman/body/013.png",
+        "res://assets/r0/swordman/pants_back/013.png",
+        "res://assets/r0/swordman/shoes_back/013.png",
+        "res://assets/r0/swordman/pants/013.png",
+        "res://assets/r0/swordman/shoes/013.png",
+        "res://assets/r0/swordman/coat/013.png",
+        "res://assets/r0/swordman/hair/013.png",
+        "res://assets/r0/swordman/weapon_front/013.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -42,
+          -85
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -26,
+          -52
+        ],
+        [
+          -32,
+          -13
+        ],
+        [
+          -11,
+          -83
+        ],
+        [
+          -3,
+          -92
+        ],
+        [
+          -71,
+          -68
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "6083a98bd0d5983b5f9babeab4a5b2d50bf098ff4a5814205e40e59e0bed0c15",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack2_04.png",
+      "source_animation": "character/swordman/animation/attack2.ani",
+      "source_frame": 4,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/014.png",
+        "res://assets/r0/swordman/body/014.png",
+        "res://assets/r0/swordman/pants_back/014.png",
+        "res://assets/r0/swordman/shoes_back/014.png",
+        "res://assets/r0/swordman/pants/014.png",
+        "res://assets/r0/swordman/shoes/014.png",
+        "res://assets/r0/swordman/coat/014.png",
+        "res://assets/r0/swordman/hair/014.png",
+        "res://assets/r0/swordman/weapon_front/014.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -43,
+          -85
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -31,
+          -51
+        ],
+        [
+          -37,
+          -15
+        ],
+        [
+          -15,
+          -84
+        ],
+        [
+          -7,
+          -92
+        ],
+        [
+          -129,
+          -86
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "e7ec059b4cf24a0ac678a2ec0ef2dcc199dc6a3734c8aab33d657bbd616e05c6",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack2_05.png",
+      "source_animation": "character/swordman/animation/attack2.ani",
+      "source_frame": 5,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/015.png",
+        "res://assets/r0/swordman/body/015.png",
+        "res://assets/r0/swordman/pants_back/015.png",
+        "res://assets/r0/swordman/shoes_back/015.png",
+        "res://assets/r0/swordman/pants/015.png",
+        "res://assets/r0/swordman/shoes/015.png",
+        "res://assets/r0/swordman/coat/015.png",
+        "res://assets/r0/swordman/hair/015.png",
+        "res://assets/r0/swordman/weapon_front/015.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -49,
+          -85
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -31,
+          -51
+        ],
+        [
+          -37,
+          -15
+        ],
+        [
+          -15,
+          -84
+        ],
+        [
+          -8,
+          -91
+        ],
+        [
+          -129,
+          -86
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "c69024f7442e59fa43ae2e999846dc9d796688d4916dddd9f233d60f4b9535b6",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack2_06.png",
+      "source_animation": "character/swordman/animation/attack2.ani",
+      "source_frame": 6,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/016.png",
+        "res://assets/r0/swordman/body/016.png",
+        "res://assets/r0/swordman/pants_back/016.png",
+        "res://assets/r0/swordman/shoes_back/016.png",
+        "res://assets/r0/swordman/pants/016.png",
+        "res://assets/r0/swordman/shoes/016.png",
+        "res://assets/r0/swordman/coat/016.png",
+        "res://assets/r0/swordman/hair/016.png",
+        "res://assets/r0/swordman/weapon_front/016.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -53,
+          -85
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -31,
+          -51
+        ],
+        [
+          -37,
+          -15
+        ],
+        [
+          -15,
+          -83
+        ],
+        [
+          -8,
+          -89
+        ],
+        [
+          -129,
+          -86
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "66d9165552429d4313c944ce2139c0d72fe44b41c9834b0afb1e97c85a3d352d",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack2_07.png",
+      "source_animation": "character/swordman/animation/attack2.ani",
+      "source_frame": 7,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/017.png",
+        "res://assets/r0/swordman/body/017.png",
+        "res://assets/r0/swordman/pants_back/017.png",
+        "res://assets/r0/swordman/shoes_back/017.png",
+        "res://assets/r0/swordman/pants/017.png",
+        "res://assets/r0/swordman/shoes/017.png",
+        "res://assets/r0/swordman/coat/017.png",
+        "res://assets/r0/swordman/hair/017.png",
+        "res://assets/r0/swordman/weapon_front/017.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -51,
+          -85
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -31,
+          -51
+        ],
+        [
+          -37,
+          -15
+        ],
+        [
+          -15,
+          -82
+        ],
+        [
+          -8,
+          -91
+        ],
+        [
+          -129,
+          -86
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "ef38b92dd54065d18e80216c32d7a4b1fed405560c0795f4fd59fd20a7d7b4a6",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack2_08.png",
+      "source_animation": "character/swordman/animation/attack2.ani",
+      "source_frame": 8,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/018.png",
+        "res://assets/r0/swordman/body/018.png",
+        "res://assets/r0/swordman/pants_back/018.png",
+        "res://assets/r0/swordman/shoes_back/018.png",
+        "res://assets/r0/swordman/pants/018.png",
+        "res://assets/r0/swordman/shoes/018.png",
+        "res://assets/r0/swordman/coat/018.png",
+        "res://assets/r0/swordman/hair/018.png",
+        "res://assets/r0/swordman/weapon_front/018.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -50,
+          -85
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -31,
+          -51
+        ],
+        [
+          -37,
+          -15
+        ],
+        [
+          -15,
+          -82
+        ],
+        [
+          -8,
+          -91
+        ],
+        [
+          -129,
+          -86
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "714888df2d419c7c88a41d9cababfeb70c523bdd01fbc89ce66fa5d10aa04364",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack2_09.png",
+      "source_animation": "character/swordman/animation/attack2.ani",
+      "source_frame": 9,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/019.png",
+        "res://assets/r0/swordman/body/019.png",
+        "res://assets/r0/swordman/pants_back/019.png",
+        "res://assets/r0/swordman/shoes_back/019.png",
+        "res://assets/r0/swordman/pants/019.png",
+        "res://assets/r0/swordman/shoes/019.png",
+        "res://assets/r0/swordman/coat/019.png",
+        "res://assets/r0/swordman/hair/019.png",
+        "res://assets/r0/swordman/weapon_front/019.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -43,
+          -85
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -31,
+          -51
+        ],
+        [
+          -37,
+          -15
+        ],
+        [
+          -15,
+          -82
+        ],
+        [
+          -8,
+          -91
+        ],
+        [
+          -129,
+          -86
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "92dd8e3a8830be186144ed3cab23029fcc36113be4c1c5692ae0d005b06078b1",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack2_10.png",
+      "source_animation": "character/swordman/animation/attack2.ani",
+      "source_frame": 10,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/020.png",
+        "res://assets/r0/swordman/body/020.png",
+        "res://assets/r0/swordman/pants_back/020.png",
+        "res://assets/r0/swordman/shoes_back/020.png",
+        "res://assets/r0/swordman/pants/020.png",
+        "res://assets/r0/swordman/shoes/020.png",
+        "res://assets/r0/swordman/coat/020.png",
+        "res://assets/r0/swordman/hair/020.png",
+        "res://assets/r0/swordman/weapon_front/020.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -43,
+          -85
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -31,
+          -51
+        ],
+        [
+          -37,
+          -15
+        ],
+        [
+          -15,
+          -82
+        ],
+        [
+          -8,
+          -91
+        ],
+        [
+          -129,
+          -86
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "4ff0fdd050a1dda4a800aa7f2f279f82191b8e4ce540b70b4564eef0800682bd",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/hopsmash_00.png",
+      "source_animation": "character/swordman/animation/hopsmash.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/126.png",
+        "res://assets/r0/swordman/body/126.png",
+        "res://assets/r0/swordman/pants_back/126.png",
+        "res://assets/r0/swordman/shoes_back/126.png",
+        "res://assets/r0/swordman/pants/126.png",
+        "res://assets/r0/swordman/shoes/126.png",
+        "res://assets/r0/swordman/coat/126.png",
+        "res://assets/r0/swordman/hair/126.png",
+        "res://assets/r0/swordman/weapon_front/126.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -36,
+          -87
+        ],
+        [
+          -30,
+          -104
+        ],
+        [
+          3,
+          -36
+        ],
+        [
+          0,
+          -23
+        ],
+        [
+          -11,
+          -68
+        ],
+        [
+          -11,
+          -11
+        ],
+        [
+          -9,
+          -98
+        ],
+        [
+          2,
+          -108
+        ],
+        [
+          -30,
+          -64
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "3413f2652f8c0fb72a23e3426c4988be4e5b354a2c4ba70de159474346b3cfc0",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/hopsmash_01.png",
+      "source_animation": "character/swordman/animation/hopsmash.ani",
+      "source_frame": 1,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/127.png",
+        "res://assets/r0/swordman/body/127.png",
+        "res://assets/r0/swordman/pants_back/127.png",
+        "res://assets/r0/swordman/shoes_back/127.png",
+        "res://assets/r0/swordman/pants/127.png",
+        "res://assets/r0/swordman/shoes/127.png",
+        "res://assets/r0/swordman/coat/127.png",
+        "res://assets/r0/swordman/hair/127.png",
+        "res://assets/r0/swordman/weapon_front/127.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -44,
+          -96
+        ],
+        [
+          -32,
+          -100
+        ],
+        [
+          -1,
+          -54
+        ],
+        [
+          -5,
+          -53
+        ],
+        [
+          -23,
+          -71
+        ],
+        [
+          -26,
+          -37
+        ],
+        [
+          -10,
+          -98
+        ],
+        [
+          3,
+          -104
+        ],
+        [
+          -27,
+          -79
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "1149cfb54eb59624f8eaa2c83a7d061118887c0c01ced962cfde6b02d581fe32",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/hopsmash_02.png",
+      "source_animation": "character/swordman/animation/hopsmash.ani",
+      "source_frame": 2,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/204.png",
+        "res://assets/r0/swordman/body/204.png",
+        "res://assets/r0/swordman/pants_back/204.png",
+        "res://assets/r0/swordman/shoes_back/204.png",
+        "res://assets/r0/swordman/pants/204.png",
+        "res://assets/r0/swordman/shoes/204.png",
+        "res://assets/r0/swordman/coat/204.png",
+        "res://assets/r0/swordman/hair/204.png",
+        "res://assets/r0/swordman/weapon_front/204.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -117,
+          -163
+        ],
+        [
+          -33,
+          -124
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -27,
+          -60
+        ],
+        [
+          -33,
+          -14
+        ],
+        [
+          -13,
+          -92
+        ],
+        [
+          -3,
+          -104
+        ],
+        [
+          -19,
+          -117
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "b18db4a787137351760f845811b5fc4ac9c4e31f684bc0c26c5f534d69528de4",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/hopsmash_03.png",
+      "source_animation": "character/swordman/animation/hopsmash.ani",
+      "source_frame": 3,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/206.png",
+        "res://assets/r0/swordman/body/206.png",
+        "res://assets/r0/swordman/pants_back/206.png",
+        "res://assets/r0/swordman/shoes_back/206.png",
+        "res://assets/r0/swordman/pants/206.png",
+        "res://assets/r0/swordman/shoes/206.png",
+        "res://assets/r0/swordman/coat/206.png",
+        "res://assets/r0/swordman/hair/206.png",
+        "res://assets/r0/swordman/weapon_front/206.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -35,
+          -75
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -30,
+          -36
+        ],
+        [
+          -35,
+          -8
+        ],
+        [
+          32,
+          -57
+        ],
+        [
+          52,
+          -53
+        ],
+        [
+          44,
+          -123
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "18de8df84058d4efd3826e978ae0e840c09f6a2c5cddc2d02b43a872af97062e",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/hopsmash_04.png",
+      "source_animation": "character/swordman/animation/hopsmash.ani",
+      "source_frame": 4,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/207.png",
+        "res://assets/r0/swordman/body/207.png",
+        "res://assets/r0/swordman/pants_back/207.png",
+        "res://assets/r0/swordman/shoes_back/207.png",
+        "res://assets/r0/swordman/pants/207.png",
+        "res://assets/r0/swordman/shoes/207.png",
+        "res://assets/r0/swordman/coat/207.png",
+        "res://assets/r0/swordman/hair/207.png",
+        "res://assets/r0/swordman/weapon_front/207.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -34,
+          -83
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -29,
+          -36
+        ],
+        [
+          -34,
+          -9
+        ],
+        [
+          34,
+          -56
+        ],
+        [
+          53,
+          -52
+        ],
+        [
+          43,
+          -45
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "5366d278b02819921f911866dacc5ee4952faea58073af45e18b1da4ac455f68",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/hopsmash_05.png",
+      "source_animation": "character/swordman/animation/hopsmash.ani",
+      "source_frame": 5,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/208.png",
+        "res://assets/r0/swordman/body/208.png",
+        "res://assets/r0/swordman/pants_back/208.png",
+        "res://assets/r0/swordman/shoes_back/208.png",
+        "res://assets/r0/swordman/pants/208.png",
+        "res://assets/r0/swordman/shoes/208.png",
+        "res://assets/r0/swordman/coat/208.png",
+        "res://assets/r0/swordman/hair/208.png",
+        "res://assets/r0/swordman/weapon_front/208.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -34,
+          -83
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -29,
+          -36
+        ],
+        [
+          -34,
+          -9
+        ],
+        [
+          34,
+          -56
+        ],
+        [
+          53,
+          -52
+        ],
+        [
+          43,
+          -3
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "11a7fb4d209c75120138562187d261d9dd0e1f8d32c4fe8ea7b176829c7a64ca",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/hopsmash_06.png",
+      "source_animation": "character/swordman/animation/hopsmash.ani",
+      "source_frame": 6,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/209.png",
+        "res://assets/r0/swordman/body/209.png",
+        "res://assets/r0/swordman/pants_back/209.png",
+        "res://assets/r0/swordman/shoes_back/209.png",
+        "res://assets/r0/swordman/pants/209.png",
+        "res://assets/r0/swordman/shoes/209.png",
+        "res://assets/r0/swordman/coat/209.png",
+        "res://assets/r0/swordman/hair/209.png",
+        "res://assets/r0/swordman/weapon_front/209.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -34,
+          -83
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -29,
+          -36
+        ],
+        [
+          -34,
+          -9
+        ],
+        [
+          34,
+          -56
+        ],
+        [
+          53,
+          -52
+        ],
+        [
+          43,
+          -3
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "81e64cb8fad3d2107af03ba6de27e7b0e711868db3a43bbf168a2f7f8ea9c915",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack3_00.png",
+      "source_animation": "character/swordman/animation/attack3.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/033.png",
+        "res://assets/r0/swordman/body/033.png",
+        "res://assets/r0/swordman/pants_back/033.png",
+        "res://assets/r0/swordman/shoes_back/033.png",
+        "res://assets/r0/swordman/pants/033.png",
+        "res://assets/r0/swordman/shoes/033.png",
+        "res://assets/r0/swordman/coat/033.png",
+        "res://assets/r0/swordman/hair/033.png",
+        "res://assets/r0/swordman/weapon_front/033.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -42,
+          -80
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -31,
+          -49
+        ],
+        [
+          -37,
+          -13
+        ],
+        [
+          -15,
+          -77
+        ],
+        [
+          -6,
+          -86
+        ],
+        [
+          -118,
+          -76
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "df8d558ae8e47724f3d6bf99afb5554126e5420e5fd2a654bffdcb9df55bf184",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack3_01.png",
+      "source_animation": "character/swordman/animation/attack3.ani",
+      "source_frame": 1,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/034.png",
+        "res://assets/r0/swordman/body/034.png",
+        "res://assets/r0/swordman/pants_back/034.png",
+        "res://assets/r0/swordman/shoes_back/034.png",
+        "res://assets/r0/swordman/pants/034.png",
+        "res://assets/r0/swordman/shoes/034.png",
+        "res://assets/r0/swordman/coat/034.png",
+        "res://assets/r0/swordman/hair/034.png",
+        "res://assets/r0/swordman/weapon_front/034.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -35,
+          -77
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -31,
+          -47
+        ],
+        [
+          -35,
+          -13
+        ],
+        [
+          -10,
+          -75
+        ],
+        [
+          2,
+          -83
+        ],
+        [
+          -110,
+          -72
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "ec896880ff86e2fe5e5a950bd1282f26d8d417c578e282c5f56b7a9f752de1ab",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack3_02.png",
+      "source_animation": "character/swordman/animation/attack3.ani",
+      "source_frame": 2,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/035.png",
+        "res://assets/r0/swordman/body/035.png",
+        "res://assets/r0/swordman/pants_back/035.png",
+        "res://assets/r0/swordman/shoes_back/035.png",
+        "res://assets/r0/swordman/pants/035.png",
+        "res://assets/r0/swordman/shoes/035.png",
+        "res://assets/r0/swordman/coat/035.png",
+        "res://assets/r0/swordman/hair/035.png",
+        "res://assets/r0/swordman/weapon_front/035.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          8,
+          -80
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          10,
+          -52
+        ],
+        [
+          8,
+          -13
+        ],
+        [
+          41,
+          -77
+        ],
+        [
+          57,
+          -84
+        ],
+        [
+          36,
+          -61
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "33f63dd5d3f51622bf5492d80f3a9e5c299c947f08d39cc351f38acec5fc69a8",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack3_03.png",
+      "source_animation": "character/swordman/animation/attack3.ani",
+      "source_frame": 3,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/036.png",
+        "res://assets/r0/swordman/body/036.png",
+        "res://assets/r0/swordman/pants_back/036.png",
+        "res://assets/r0/swordman/shoes_back/036.png",
+        "res://assets/r0/swordman/pants/036.png",
+        "res://assets/r0/swordman/shoes/036.png",
+        "res://assets/r0/swordman/coat/036.png",
+        "res://assets/r0/swordman/hair/036.png",
+        "res://assets/r0/swordman/weapon_front/036.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          5,
+          -105
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          12,
+          -57
+        ],
+        [
+          4,
+          -13
+        ],
+        [
+          50,
+          -87
+        ],
+        [
+          57,
+          -96
+        ],
+        [
+          79,
+          -126
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "1e2b831b1472de4fb0cc1defb02ef894011b001b447aedd518e82e2294becc57",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack3_04.png",
+      "source_animation": "character/swordman/animation/attack3.ani",
+      "source_frame": 4,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/037.png",
+        "res://assets/r0/swordman/body/037.png",
+        "res://assets/r0/swordman/pants_back/037.png",
+        "res://assets/r0/swordman/shoes_back/037.png",
+        "res://assets/r0/swordman/pants/037.png",
+        "res://assets/r0/swordman/shoes/037.png",
+        "res://assets/r0/swordman/coat/037.png",
+        "res://assets/r0/swordman/hair/037.png",
+        "res://assets/r0/swordman/weapon_front/037.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          5,
+          -108
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          12,
+          -57
+        ],
+        [
+          4,
+          -13
+        ],
+        [
+          49,
+          -87
+        ],
+        [
+          56,
+          -97
+        ],
+        [
+          67,
+          -156
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "9ff88706475fc67c1948ec41f3477dc6c4ae24c77dea0311c6b65e5ca94d176f",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack3_05.png",
+      "source_animation": "character/swordman/animation/attack3.ani",
+      "source_frame": 5,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/038.png",
+        "res://assets/r0/swordman/body/038.png",
+        "res://assets/r0/swordman/pants_back/038.png",
+        "res://assets/r0/swordman/shoes_back/038.png",
+        "res://assets/r0/swordman/pants/038.png",
+        "res://assets/r0/swordman/shoes/038.png",
+        "res://assets/r0/swordman/coat/038.png",
+        "res://assets/r0/swordman/hair/038.png",
+        "res://assets/r0/swordman/weapon_front/038.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          5,
+          -109
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          12,
+          -57
+        ],
+        [
+          4,
+          -13
+        ],
+        [
+          49,
+          -87
+        ],
+        [
+          56,
+          -97
+        ],
+        [
+          67,
+          -156
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "fb17cc139f16fb4fc9d2976fbbe441984c2c0c431fa6dbf45e22718b2e380384",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack3_06.png",
+      "source_animation": "character/swordman/animation/attack3.ani",
+      "source_frame": 6,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/039.png",
+        "res://assets/r0/swordman/body/039.png",
+        "res://assets/r0/swordman/pants_back/039.png",
+        "res://assets/r0/swordman/shoes_back/039.png",
+        "res://assets/r0/swordman/pants/039.png",
+        "res://assets/r0/swordman/shoes/039.png",
+        "res://assets/r0/swordman/coat/039.png",
+        "res://assets/r0/swordman/hair/039.png",
+        "res://assets/r0/swordman/weapon_front/039.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          5,
+          -108
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          12,
+          -57
+        ],
+        [
+          4,
+          -13
+        ],
+        [
+          49,
+          -87
+        ],
+        [
+          56,
+          -97
+        ],
+        [
+          67,
+          -156
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "318611a2aca6aae0653ad23c2e5534570aa2a9782a6fcc46b43754821cec360a",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack3_07.png",
+      "source_animation": "character/swordman/animation/attack3.ani",
+      "source_frame": 7,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/040.png",
+        "res://assets/r0/swordman/body/040.png",
+        "res://assets/r0/swordman/pants_back/040.png",
+        "res://assets/r0/swordman/shoes_back/040.png",
+        "res://assets/r0/swordman/pants/040.png",
+        "res://assets/r0/swordman/shoes/040.png",
+        "res://assets/r0/swordman/coat/040.png",
+        "res://assets/r0/swordman/hair/040.png",
+        "res://assets/r0/swordman/weapon_front/040.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          5,
+          -108
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          12,
+          -57
+        ],
+        [
+          4,
+          -13
+        ],
+        [
+          49,
+          -87
+        ],
+        [
+          56,
+          -97
+        ],
+        [
+          67,
+          -156
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "14a834b2e98852533f8b96821f1901ff98266ec9995e9dd5ec05569840b4d75e",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/attack3_08.png",
+      "source_animation": "character/swordman/animation/attack3.ani",
+      "source_frame": 8,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/041.png",
+        "res://assets/r0/swordman/body/041.png",
+        "res://assets/r0/swordman/pants_back/041.png",
+        "res://assets/r0/swordman/shoes_back/041.png",
+        "res://assets/r0/swordman/pants/041.png",
+        "res://assets/r0/swordman/shoes/041.png",
+        "res://assets/r0/swordman/coat/041.png",
+        "res://assets/r0/swordman/hair/041.png",
+        "res://assets/r0/swordman/weapon_front/041.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          5,
+          -108
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          12,
+          -57
+        ],
+        [
+          4,
+          -13
+        ],
+        [
+          49,
+          -87
+        ],
+        [
+          56,
+          -97
+        ],
+        [
+          67,
+          -156
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "70d7fcff31e3a830e9df495fc9face2019e39e4d869c6e66595f46eb3d735e40",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_00.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/125.png",
+        "res://assets/r0/swordman/body/125.png",
+        "res://assets/r0/swordman/pants_back/125.png",
+        "res://assets/r0/swordman/shoes_back/125.png",
+        "res://assets/r0/swordman/pants/125.png",
+        "res://assets/r0/swordman/shoes/125.png",
+        "res://assets/r0/swordman/coat/125.png",
+        "res://assets/r0/swordman/hair/125.png",
+        "res://assets/r0/swordman/weapon_front/125.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -37,
+          -77
+        ],
+        [
+          -31,
+          -94
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -24,
+          -60
+        ],
+        [
+          -29,
+          -12
+        ],
+        [
+          -10,
+          -89
+        ],
+        [
+          1,
+          -98
+        ],
+        [
+          -31,
+          -54
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "60a792ce6e8725f3f72b4c883d4f42b599753ca56f83162fb72b5665d3273ae7",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_01.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 1,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/126.png",
+        "res://assets/r0/swordman/body/126.png",
+        "res://assets/r0/swordman/pants_back/126.png",
+        "res://assets/r0/swordman/shoes_back/126.png",
+        "res://assets/r0/swordman/pants/126.png",
+        "res://assets/r0/swordman/shoes/126.png",
+        "res://assets/r0/swordman/coat/126.png",
+        "res://assets/r0/swordman/hair/126.png",
+        "res://assets/r0/swordman/weapon_front/126.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -36,
+          -87
+        ],
+        [
+          -30,
+          -104
+        ],
+        [
+          3,
+          -36
+        ],
+        [
+          0,
+          -23
+        ],
+        [
+          -11,
+          -68
+        ],
+        [
+          -11,
+          -11
+        ],
+        [
+          -9,
+          -98
+        ],
+        [
+          2,
+          -108
+        ],
+        [
+          -30,
+          -64
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "3413f2652f8c0fb72a23e3426c4988be4e5b354a2c4ba70de159474346b3cfc0",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_02.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 2,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/127.png",
+        "res://assets/r0/swordman/body/127.png",
+        "res://assets/r0/swordman/pants_back/127.png",
+        "res://assets/r0/swordman/shoes_back/127.png",
+        "res://assets/r0/swordman/pants/127.png",
+        "res://assets/r0/swordman/shoes/127.png",
+        "res://assets/r0/swordman/coat/127.png",
+        "res://assets/r0/swordman/hair/127.png",
+        "res://assets/r0/swordman/weapon_front/127.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -44,
+          -96
+        ],
+        [
+          -32,
+          -100
+        ],
+        [
+          -1,
+          -54
+        ],
+        [
+          -5,
+          -53
+        ],
+        [
+          -23,
+          -71
+        ],
+        [
+          -26,
+          -37
+        ],
+        [
+          -10,
+          -98
+        ],
+        [
+          3,
+          -104
+        ],
+        [
+          -27,
+          -79
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "1149cfb54eb59624f8eaa2c83a7d061118887c0c01ced962cfde6b02d581fe32",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_03.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 3,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/128.png",
+        "res://assets/r0/swordman/body/128.png",
+        "res://assets/r0/swordman/pants_back/128.png",
+        "res://assets/r0/swordman/shoes_back/128.png",
+        "res://assets/r0/swordman/pants/128.png",
+        "res://assets/r0/swordman/shoes/128.png",
+        "res://assets/r0/swordman/coat/128.png",
+        "res://assets/r0/swordman/hair/128.png",
+        "res://assets/r0/swordman/weapon_front/128.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -44,
+          -96
+        ],
+        [
+          -32,
+          -100
+        ],
+        [
+          -1,
+          -54
+        ],
+        [
+          -5,
+          -53
+        ],
+        [
+          -23,
+          -71
+        ],
+        [
+          -26,
+          -37
+        ],
+        [
+          -10,
+          -99
+        ],
+        [
+          3,
+          -104
+        ],
+        [
+          -27,
+          -79
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "27772013bbae0d9ba310b7d802c9287b237ec07e029081c50e4b498a87a96e92",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_04.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 4,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/128.png",
+        "res://assets/r0/swordman/body/128.png",
+        "res://assets/r0/swordman/pants_back/128.png",
+        "res://assets/r0/swordman/shoes_back/128.png",
+        "res://assets/r0/swordman/pants/128.png",
+        "res://assets/r0/swordman/shoes/128.png",
+        "res://assets/r0/swordman/coat/128.png",
+        "res://assets/r0/swordman/hair/128.png",
+        "res://assets/r0/swordman/weapon_front/128.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -44,
+          -96
+        ],
+        [
+          -32,
+          -100
+        ],
+        [
+          -1,
+          -54
+        ],
+        [
+          -5,
+          -53
+        ],
+        [
+          -23,
+          -71
+        ],
+        [
+          -26,
+          -37
+        ],
+        [
+          -10,
+          -99
+        ],
+        [
+          3,
+          -104
+        ],
+        [
+          -27,
+          -79
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "27772013bbae0d9ba310b7d802c9287b237ec07e029081c50e4b498a87a96e92",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_05.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 5,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/128.png",
+        "res://assets/r0/swordman/body/128.png",
+        "res://assets/r0/swordman/pants_back/128.png",
+        "res://assets/r0/swordman/shoes_back/128.png",
+        "res://assets/r0/swordman/pants/128.png",
+        "res://assets/r0/swordman/shoes/128.png",
+        "res://assets/r0/swordman/coat/128.png",
+        "res://assets/r0/swordman/hair/128.png",
+        "res://assets/r0/swordman/weapon_front/128.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -44,
+          -96
+        ],
+        [
+          -32,
+          -100
+        ],
+        [
+          -1,
+          -54
+        ],
+        [
+          -5,
+          -53
+        ],
+        [
+          -23,
+          -71
+        ],
+        [
+          -26,
+          -37
+        ],
+        [
+          -10,
+          -99
+        ],
+        [
+          3,
+          -104
+        ],
+        [
+          -27,
+          -79
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "27772013bbae0d9ba310b7d802c9287b237ec07e029081c50e4b498a87a96e92",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_06.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 6,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/128.png",
+        "res://assets/r0/swordman/body/128.png",
+        "res://assets/r0/swordman/pants_back/128.png",
+        "res://assets/r0/swordman/shoes_back/128.png",
+        "res://assets/r0/swordman/pants/128.png",
+        "res://assets/r0/swordman/shoes/128.png",
+        "res://assets/r0/swordman/coat/128.png",
+        "res://assets/r0/swordman/hair/128.png",
+        "res://assets/r0/swordman/weapon_front/128.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -44,
+          -96
+        ],
+        [
+          -32,
+          -100
+        ],
+        [
+          -1,
+          -54
+        ],
+        [
+          -5,
+          -53
+        ],
+        [
+          -23,
+          -71
+        ],
+        [
+          -26,
+          -37
+        ],
+        [
+          -10,
+          -99
+        ],
+        [
+          3,
+          -104
+        ],
+        [
+          -27,
+          -79
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "27772013bbae0d9ba310b7d802c9287b237ec07e029081c50e4b498a87a96e92",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_07.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 7,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/128.png",
+        "res://assets/r0/swordman/body/128.png",
+        "res://assets/r0/swordman/pants_back/128.png",
+        "res://assets/r0/swordman/shoes_back/128.png",
+        "res://assets/r0/swordman/pants/128.png",
+        "res://assets/r0/swordman/shoes/128.png",
+        "res://assets/r0/swordman/coat/128.png",
+        "res://assets/r0/swordman/hair/128.png",
+        "res://assets/r0/swordman/weapon_front/128.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -44,
+          -96
+        ],
+        [
+          -32,
+          -100
+        ],
+        [
+          -1,
+          -54
+        ],
+        [
+          -5,
+          -53
+        ],
+        [
+          -23,
+          -71
+        ],
+        [
+          -26,
+          -37
+        ],
+        [
+          -10,
+          -99
+        ],
+        [
+          3,
+          -104
+        ],
+        [
+          -27,
+          -79
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "27772013bbae0d9ba310b7d802c9287b237ec07e029081c50e4b498a87a96e92",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_08.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 8,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/129.png",
+        "res://assets/r0/swordman/body/129.png",
+        "res://assets/r0/swordman/pants_back/129.png",
+        "res://assets/r0/swordman/shoes_back/129.png",
+        "res://assets/r0/swordman/pants/129.png",
+        "res://assets/r0/swordman/shoes/129.png",
+        "res://assets/r0/swordman/coat/129.png",
+        "res://assets/r0/swordman/hair/129.png",
+        "res://assets/r0/swordman/weapon_front/129.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -43,
+          -100
+        ],
+        [
+          -31,
+          -102
+        ],
+        [
+          3,
+          -36
+        ],
+        [
+          0,
+          -23
+        ],
+        [
+          -11,
+          -68
+        ],
+        [
+          -11,
+          -11
+        ],
+        [
+          -9,
+          -99
+        ],
+        [
+          3,
+          -106
+        ],
+        [
+          -26,
+          -83
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "2aecba66b6f82978f2f05daca9fd3931bd170ab0a0092a5e2684e19c721f7cd6",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_09.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 9,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/130.png",
+        "res://assets/r0/swordman/body/130.png",
+        "res://assets/r0/swordman/pants_back/130.png",
+        "res://assets/r0/swordman/shoes_back/130.png",
+        "res://assets/r0/swordman/pants/130.png",
+        "res://assets/r0/swordman/shoes/130.png",
+        "res://assets/r0/swordman/coat/130.png",
+        "res://assets/r0/swordman/hair/130.png",
+        "res://assets/r0/swordman/weapon_front/130.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -43,
+          -107
+        ],
+        [
+          -31,
+          -104
+        ],
+        [
+          4,
+          -36
+        ],
+        [
+          1,
+          -23
+        ],
+        [
+          -10,
+          -68
+        ],
+        [
+          -10,
+          -11
+        ],
+        [
+          -10,
+          -100
+        ],
+        [
+          2,
+          -108
+        ],
+        [
+          -26,
+          -90
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "83e7cf4ca413a43f00ae033f32dd7bae323cf079f763384e2560fd65c8e50d2a",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_10.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 10,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/131.png",
+        "res://assets/r0/swordman/body/131.png",
+        "res://assets/r0/swordman/pants_back/131.png",
+        "res://assets/r0/swordman/shoes_back/131.png",
+        "res://assets/r0/swordman/pants/131.png",
+        "res://assets/r0/swordman/shoes/131.png",
+        "res://assets/r0/swordman/coat/131.png",
+        "res://assets/r0/swordman/hair/131.png",
+        "res://assets/r0/swordman/weapon_front/131.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -43,
+          -107
+        ],
+        [
+          -31,
+          -104
+        ],
+        [
+          4,
+          -36
+        ],
+        [
+          1,
+          -23
+        ],
+        [
+          -10,
+          -68
+        ],
+        [
+          -10,
+          -11
+        ],
+        [
+          -10,
+          -100
+        ],
+        [
+          2,
+          -108
+        ],
+        [
+          -26,
+          -90
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "d63ebb2acf9ddcffb47a2c2651a7df75268c7dbf46fa6bfacad6ca89ac9398a4",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_11.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 11,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/131.png",
+        "res://assets/r0/swordman/body/131.png",
+        "res://assets/r0/swordman/pants_back/131.png",
+        "res://assets/r0/swordman/shoes_back/131.png",
+        "res://assets/r0/swordman/pants/131.png",
+        "res://assets/r0/swordman/shoes/131.png",
+        "res://assets/r0/swordman/coat/131.png",
+        "res://assets/r0/swordman/hair/131.png",
+        "res://assets/r0/swordman/weapon_front/131.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -43,
+          -107
+        ],
+        [
+          -31,
+          -104
+        ],
+        [
+          4,
+          -36
+        ],
+        [
+          1,
+          -23
+        ],
+        [
+          -10,
+          -68
+        ],
+        [
+          -10,
+          -11
+        ],
+        [
+          -10,
+          -100
+        ],
+        [
+          2,
+          -108
+        ],
+        [
+          -26,
+          -90
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "d63ebb2acf9ddcffb47a2c2651a7df75268c7dbf46fa6bfacad6ca89ac9398a4",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_12.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 12,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/131.png",
+        "res://assets/r0/swordman/body/131.png",
+        "res://assets/r0/swordman/pants_back/131.png",
+        "res://assets/r0/swordman/shoes_back/131.png",
+        "res://assets/r0/swordman/pants/131.png",
+        "res://assets/r0/swordman/shoes/131.png",
+        "res://assets/r0/swordman/coat/131.png",
+        "res://assets/r0/swordman/hair/131.png",
+        "res://assets/r0/swordman/weapon_front/131.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -43,
+          -107
+        ],
+        [
+          -31,
+          -104
+        ],
+        [
+          4,
+          -36
+        ],
+        [
+          1,
+          -23
+        ],
+        [
+          -10,
+          -68
+        ],
+        [
+          -10,
+          -11
+        ],
+        [
+          -10,
+          -100
+        ],
+        [
+          2,
+          -108
+        ],
+        [
+          -26,
+          -90
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "d63ebb2acf9ddcffb47a2c2651a7df75268c7dbf46fa6bfacad6ca89ac9398a4",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_13.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 13,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/131.png",
+        "res://assets/r0/swordman/body/131.png",
+        "res://assets/r0/swordman/pants_back/131.png",
+        "res://assets/r0/swordman/shoes_back/131.png",
+        "res://assets/r0/swordman/pants/131.png",
+        "res://assets/r0/swordman/shoes/131.png",
+        "res://assets/r0/swordman/coat/131.png",
+        "res://assets/r0/swordman/hair/131.png",
+        "res://assets/r0/swordman/weapon_front/131.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -43,
+          -107
+        ],
+        [
+          -31,
+          -104
+        ],
+        [
+          4,
+          -36
+        ],
+        [
+          1,
+          -23
+        ],
+        [
+          -10,
+          -68
+        ],
+        [
+          -10,
+          -11
+        ],
+        [
+          -10,
+          -100
+        ],
+        [
+          2,
+          -108
+        ],
+        [
+          -26,
+          -90
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "d63ebb2acf9ddcffb47a2c2651a7df75268c7dbf46fa6bfacad6ca89ac9398a4",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_14.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 14,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/131.png",
+        "res://assets/r0/swordman/body/131.png",
+        "res://assets/r0/swordman/pants_back/131.png",
+        "res://assets/r0/swordman/shoes_back/131.png",
+        "res://assets/r0/swordman/pants/131.png",
+        "res://assets/r0/swordman/shoes/131.png",
+        "res://assets/r0/swordman/coat/131.png",
+        "res://assets/r0/swordman/hair/131.png",
+        "res://assets/r0/swordman/weapon_front/131.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -43,
+          -107
+        ],
+        [
+          -31,
+          -104
+        ],
+        [
+          4,
+          -36
+        ],
+        [
+          1,
+          -23
+        ],
+        [
+          -10,
+          -68
+        ],
+        [
+          -10,
+          -11
+        ],
+        [
+          -10,
+          -100
+        ],
+        [
+          2,
+          -108
+        ],
+        [
+          -26,
+          -90
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "d63ebb2acf9ddcffb47a2c2651a7df75268c7dbf46fa6bfacad6ca89ac9398a4",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jump_15.png",
+      "source_animation": "character/swordman/animation/jump.ani",
+      "source_frame": 15,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/132.png",
+        "res://assets/r0/swordman/body/132.png",
+        "res://assets/r0/swordman/pants_back/132.png",
+        "res://assets/r0/swordman/shoes_back/132.png",
+        "res://assets/r0/swordman/pants/132.png",
+        "res://assets/r0/swordman/shoes/132.png",
+        "res://assets/r0/swordman/coat/132.png",
+        "res://assets/r0/swordman/hair/132.png",
+        "res://assets/r0/swordman/weapon_front/132.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -37,
+          -77
+        ],
+        [
+          -31,
+          -94
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -24,
+          -60
+        ],
+        [
+          -29,
+          -12
+        ],
+        [
+          -10,
+          -89
+        ],
+        [
+          1,
+          -98
+        ],
+        [
+          -31,
+          -54
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "0cb65dab5c53cf0f265053a4b2ed733f5e7551047b33dac76e5ca15b1294cb2a",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jumpattack_00.png",
+      "source_animation": "character/swordman/animation/jumpattack.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/133.png",
+        "res://assets/r0/swordman/body/133.png",
+        "res://assets/r0/swordman/pants_back/133.png",
+        "res://assets/r0/swordman/shoes_back/133.png",
+        "res://assets/r0/swordman/pants/133.png",
+        "res://assets/r0/swordman/shoes/133.png",
+        "res://assets/r0/swordman/coat/133.png",
+        "res://assets/r0/swordman/hair/133.png",
+        "res://assets/r0/swordman/weapon_front/133.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -37,
+          -81
+        ],
+        [
+          -35,
+          -107
+        ],
+        [
+          -2,
+          -54
+        ],
+        [
+          -9,
+          -51
+        ],
+        [
+          -25,
+          -75
+        ],
+        [
+          -31,
+          -46
+        ],
+        [
+          -28,
+          -104
+        ],
+        [
+          -24,
+          -108
+        ],
+        [
+          268,
+          -333
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "701d799cf0d826a91c5becee028bb92364f4712063f5360dc302a268051a212b",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jumpattack_01.png",
+      "source_animation": "character/swordman/animation/jumpattack.ani",
+      "source_frame": 1,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/134.png",
+        "res://assets/r0/swordman/body/134.png",
+        "res://assets/r0/swordman/pants_back/134.png",
+        "res://assets/r0/swordman/shoes_back/134.png",
+        "res://assets/r0/swordman/pants/134.png",
+        "res://assets/r0/swordman/shoes/134.png",
+        "res://assets/r0/swordman/coat/134.png",
+        "res://assets/r0/swordman/hair/134.png",
+        "res://assets/r0/swordman/weapon_front/134.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -41,
+          -86
+        ],
+        [
+          -33,
+          -110
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -20,
+          -77
+        ],
+        [
+          -22,
+          -36
+        ],
+        [
+          -23,
+          -107
+        ],
+        [
+          -18,
+          -111
+        ],
+        [
+          268,
+          -333
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "e83c8683b2f8f33e491a5ef1a9fd84f924ef07c6e203fdceb131fc5989184eca",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jumpattack_02.png",
+      "source_animation": "character/swordman/animation/jumpattack.ani",
+      "source_frame": 2,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/135.png",
+        "res://assets/r0/swordman/body/135.png",
+        "res://assets/r0/swordman/pants_back/135.png",
+        "res://assets/r0/swordman/shoes_back/135.png",
+        "res://assets/r0/swordman/pants/135.png",
+        "res://assets/r0/swordman/shoes/135.png",
+        "res://assets/r0/swordman/coat/135.png",
+        "res://assets/r0/swordman/hair/135.png",
+        "res://assets/r0/swordman/weapon_front/135.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -16,
+          -94
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -15,
+          -66
+        ],
+        [
+          -16,
+          -35
+        ],
+        [
+          -13,
+          -93
+        ],
+        [
+          5,
+          -100
+        ],
+        [
+          7,
+          -101
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "87dd297c4a3718120d7ada84fff1eef1615482b899f334593d74c4232762d9cf",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jumpattack_03.png",
+      "source_animation": "character/swordman/animation/jumpattack.ani",
+      "source_frame": 3,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/136.png",
+        "res://assets/r0/swordman/body/136.png",
+        "res://assets/r0/swordman/pants_back/136.png",
+        "res://assets/r0/swordman/shoes_back/136.png",
+        "res://assets/r0/swordman/pants/136.png",
+        "res://assets/r0/swordman/shoes/136.png",
+        "res://assets/r0/swordman/coat/136.png",
+        "res://assets/r0/swordman/hair/136.png",
+        "res://assets/r0/swordman/weapon_front/136.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -16,
+          -94
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -15,
+          -66
+        ],
+        [
+          -16,
+          -35
+        ],
+        [
+          -13,
+          -93
+        ],
+        [
+          6,
+          -101
+        ],
+        [
+          7,
+          -51
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "eb37ce2afa2d05d7af34837f40aabec2cf6c08bec616b683e3c54b7deb9400bc",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jumpattack_04.png",
+      "source_animation": "character/swordman/animation/jumpattack.ani",
+      "source_frame": 4,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/137.png",
+        "res://assets/r0/swordman/body/137.png",
+        "res://assets/r0/swordman/pants_back/137.png",
+        "res://assets/r0/swordman/shoes_back/137.png",
+        "res://assets/r0/swordman/pants/137.png",
+        "res://assets/r0/swordman/shoes/137.png",
+        "res://assets/r0/swordman/coat/137.png",
+        "res://assets/r0/swordman/hair/137.png",
+        "res://assets/r0/swordman/weapon_front/137.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -16,
+          -94
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -15,
+          -66
+        ],
+        [
+          -16,
+          -35
+        ],
+        [
+          -13,
+          -92
+        ],
+        [
+          5,
+          -100
+        ],
+        [
+          7,
+          -51
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "1574d836714783b51a3dae603bcade78332bdfe7e388fe2d7359d30a46987d99",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/jumpattack_05.png",
+      "source_animation": "character/swordman/animation/jumpattack.ani",
+      "source_frame": 5,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/138.png",
+        "res://assets/r0/swordman/body/138.png",
+        "res://assets/r0/swordman/pants_back/138.png",
+        "res://assets/r0/swordman/shoes_back/138.png",
+        "res://assets/r0/swordman/pants/138.png",
+        "res://assets/r0/swordman/shoes/138.png",
+        "res://assets/r0/swordman/coat/138.png",
+        "res://assets/r0/swordman/hair/138.png",
+        "res://assets/r0/swordman/weapon_front/138.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -16,
+          -94
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -15,
+          -66
+        ],
+        [
+          -16,
+          -35
+        ],
+        [
+          -13,
+          -91
+        ],
+        [
+          5,
+          -100
+        ],
+        [
+          7,
+          -51
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "454514798e6f65bbdd610bdeab3bb84ca00a3d60d3f3a7409fbb28b25184c888",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/sit_00.png",
+      "source_animation": "character/swordman/animation/sit.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/157.png",
+        "res://assets/r0/swordman/body/157.png",
+        "res://assets/r0/swordman/pants_back/157.png",
+        "res://assets/r0/swordman/shoes_back/157.png",
+        "res://assets/r0/swordman/pants/157.png",
+        "res://assets/r0/swordman/shoes/157.png",
+        "res://assets/r0/swordman/coat/157.png",
+        "res://assets/r0/swordman/hair/157.png",
+        "res://assets/r0/swordman/weapon_front/157.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -40,
+          -59
+        ],
+        [
+          -35,
+          -73
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -26,
+          -41
+        ],
+        [
+          -28,
+          -13
+        ],
+        [
+          -14,
+          -71
+        ],
+        [
+          -1,
+          -79
+        ],
+        [
+          -34,
+          -38
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "41f71b10545e7a93688fd330811241f9302155e15dd8953b160e2d84e9f8a164",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/damage1_00.png",
+      "source_animation": "character/swordman/animation/damage1.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/096.png",
+        "res://assets/r0/swordman/body/096.png",
+        "res://assets/r0/swordman/pants_back/096.png",
+        "res://assets/r0/swordman/shoes_back/096.png",
+        "res://assets/r0/swordman/pants/096.png",
+        "res://assets/r0/swordman/shoes/096.png",
+        "res://assets/r0/swordman/coat/096.png",
+        "res://assets/r0/swordman/hair/096.png",
+        "res://assets/r0/swordman/weapon_front/096.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -43,
+          -67
+        ],
+        [
+          -34,
+          -93
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -24,
+          -59
+        ],
+        [
+          -27,
+          -12
+        ],
+        [
+          -28,
+          -86
+        ],
+        [
+          -13,
+          -99
+        ],
+        [
+          -26,
+          -50
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "64bc4296131bc25681239758411a333120608c6d761df9d927ec96bca299c292",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/damage2_00.png",
+      "source_animation": "character/swordman/animation/damage2.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/104.png",
+        "res://assets/r0/swordman/body/104.png",
+        "res://assets/r0/swordman/pants_back/104.png",
+        "res://assets/r0/swordman/shoes_back/104.png",
+        "res://assets/r0/swordman/pants/104.png",
+        "res://assets/r0/swordman/shoes/104.png",
+        "res://assets/r0/swordman/coat/104.png",
+        "res://assets/r0/swordman/hair/104.png",
+        "res://assets/r0/swordman/weapon_front/104.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -39,
+          -68
+        ],
+        [
+          -30,
+          -102
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -22,
+          -64
+        ],
+        [
+          -27,
+          -12
+        ],
+        [
+          -28,
+          -93
+        ],
+        [
+          -20,
+          -107
+        ],
+        [
+          -22,
+          -51
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "d50ccc4259e1facf788636ad6b3ed0ede61468a3b1106a33bd3fad62b8807586",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/down_00.png",
+      "source_animation": "character/swordman/animation/down.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/098.png",
+        "res://assets/r0/swordman/body/098.png",
+        "res://assets/r0/swordman/pants_back/098.png",
+        "res://assets/r0/swordman/shoes_back/098.png",
+        "res://assets/r0/swordman/pants/098.png",
+        "res://assets/r0/swordman/shoes/098.png",
+        "res://assets/r0/swordman/coat/098.png",
+        "res://assets/r0/swordman/hair/098.png",
+        "res://assets/r0/swordman/weapon_front/098.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -43,
+          -67
+        ],
+        [
+          -34,
+          -93
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -24,
+          -59
+        ],
+        [
+          -27,
+          -12
+        ],
+        [
+          -28,
+          -86
+        ],
+        [
+          -13,
+          -99
+        ],
+        [
+          -26,
+          -50
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "64bc4296131bc25681239758411a333120608c6d761df9d927ec96bca299c292",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/down_01.png",
+      "source_animation": "character/swordman/animation/down.ani",
+      "source_frame": 1,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/099.png",
+        "res://assets/r0/swordman/body/099.png",
+        "res://assets/r0/swordman/pants_back/099.png",
+        "res://assets/r0/swordman/shoes_back/099.png",
+        "res://assets/r0/swordman/pants/099.png",
+        "res://assets/r0/swordman/shoes/099.png",
+        "res://assets/r0/swordman/coat/099.png",
+        "res://assets/r0/swordman/hair/099.png",
+        "res://assets/r0/swordman/weapon_front/099.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -39,
+          -68
+        ],
+        [
+          -30,
+          -102
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -22,
+          -64
+        ],
+        [
+          -28,
+          -12
+        ],
+        [
+          -28,
+          -93
+        ],
+        [
+          -20,
+          -107
+        ],
+        [
+          -22,
+          -51
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "c8569726a49ddb3a8a3b3fca05e9d6f73c501f8fbc9ef6c6bdddd48875d54d5c",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/down_02.png",
+      "source_animation": "character/swordman/animation/down.ani",
+      "source_frame": 2,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/100.png",
+        "res://assets/r0/swordman/body/100.png",
+        "res://assets/r0/swordman/pants_back/100.png",
+        "res://assets/r0/swordman/shoes_back/100.png",
+        "res://assets/r0/swordman/pants/100.png",
+        "res://assets/r0/swordman/shoes/100.png",
+        "res://assets/r0/swordman/coat/100.png",
+        "res://assets/r0/swordman/hair/100.png",
+        "res://assets/r0/swordman/weapon_front/100.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -34,
+          8
+        ],
+        [
+          -61,
+          -58
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -27,
+          -39
+        ],
+        [
+          20,
+          -48
+        ],
+        [
+          -54,
+          -23
+        ],
+        [
+          -67,
+          -24
+        ],
+        [
+          -17,
+          -69
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "a2e2a8ed9508e5acf76f661cf1f13040c0d6d17aae90b7f909385012ee557d89",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/down_03.png",
+      "source_animation": "character/swordman/animation/down.ani",
+      "source_frame": 3,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/101.png",
+        "res://assets/r0/swordman/body/101.png",
+        "res://assets/r0/swordman/pants_back/101.png",
+        "res://assets/r0/swordman/shoes_back/101.png",
+        "res://assets/r0/swordman/pants/101.png",
+        "res://assets/r0/swordman/shoes/101.png",
+        "res://assets/r0/swordman/coat/101.png",
+        "res://assets/r0/swordman/hair/101.png",
+        "res://assets/r0/swordman/weapon_front/101.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -30,
+          6
+        ],
+        [
+          -64,
+          -62
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -26,
+          -38
+        ],
+        [
+          26,
+          -45
+        ],
+        [
+          -55,
+          -22
+        ],
+        [
+          -69,
+          -16
+        ],
+        [
+          -13,
+          -71
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "712d624d1a0680770255f7a36b76c9ab0b8c2739b05093e6bfe3f24671903d9b",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/down_04.png",
+      "source_animation": "character/swordman/animation/down.ani",
+      "source_frame": 4,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/102.png",
+        "res://assets/r0/swordman/body/102.png",
+        "res://assets/r0/swordman/pants_back/102.png",
+        "res://assets/r0/swordman/shoes_back/102.png",
+        "res://assets/r0/swordman/pants/102.png",
+        "res://assets/r0/swordman/shoes/102.png",
+        "res://assets/r0/swordman/coat/102.png",
+        "res://assets/r0/swordman/hair/102.png",
+        "res://assets/r0/swordman/weapon_front/102.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -64,
+          -25
+        ],
+        [
+          6,
+          -21
+        ],
+        [
+          18,
+          -14
+        ],
+        [
+          -26,
+          -25
+        ],
+        [
+          31,
+          -4
+        ],
+        [
+          -55,
+          -18
+        ],
+        [
+          -69,
+          -13
+        ],
+        [
+          -15,
+          -13
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "735e25e887cc278f9d2f5481373cb5d5f4068e4a6925d231080ef21f64cdd462",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/down_05.png",
+      "source_animation": "character/swordman/animation/down.ani",
+      "source_frame": 5,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/103.png",
+        "res://assets/r0/swordman/body/103.png",
+        "res://assets/r0/swordman/pants_back/103.png",
+        "res://assets/r0/swordman/shoes_back/103.png",
+        "res://assets/r0/swordman/pants/103.png",
+        "res://assets/r0/swordman/shoes/103.png",
+        "res://assets/r0/swordman/coat/103.png",
+        "res://assets/r0/swordman/hair/103.png",
+        "res://assets/r0/swordman/weapon_front/103.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -64,
+          -25
+        ],
+        [
+          6,
+          -21
+        ],
+        [
+          18,
+          -14
+        ],
+        [
+          -26,
+          -25
+        ],
+        [
+          31,
+          -4
+        ],
+        [
+          -55,
+          -18
+        ],
+        [
+          -69,
+          -13
+        ],
+        [
+          -15,
+          -13
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "735e25e887cc278f9d2f5481373cb5d5f4068e4a6925d231080ef21f64cdd462",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/guard_00.png",
+      "source_animation": "character/swordman/animation/guard.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/123.png",
+        "res://assets/r0/swordman/body/123.png",
+        "res://assets/r0/swordman/pants_back/123.png",
+        "res://assets/r0/swordman/shoes_back/123.png",
+        "res://assets/r0/swordman/pants/123.png",
+        "res://assets/r0/swordman/shoes/123.png",
+        "res://assets/r0/swordman/coat/123.png",
+        "res://assets/r0/swordman/hair/123.png",
+        "res://assets/r0/swordman/weapon_front/123.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -42,
+          -94
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -39,
+          -55
+        ],
+        [
+          -42,
+          -13
+        ],
+        [
+          -28,
+          -81
+        ],
+        [
+          -16,
+          -93
+        ],
+        [
+          -5,
+          -107
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "125f17c53e08c1e269ea691cf70a7dc0806ef01cbb5c840d96161403bc9f87b8",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/swordman/guard_01.png",
+      "source_animation": "character/swordman/animation/guard.ani",
+      "source_frame": 1,
+      "source_layer_textures": [
+        "res://assets/r0/swordman/weapon_back/124.png",
+        "res://assets/r0/swordman/body/124.png",
+        "res://assets/r0/swordman/pants_back/124.png",
+        "res://assets/r0/swordman/shoes_back/124.png",
+        "res://assets/r0/swordman/pants/124.png",
+        "res://assets/r0/swordman/shoes/124.png",
+        "res://assets/r0/swordman/coat/124.png",
+        "res://assets/r0/swordman/hair/124.png",
+        "res://assets/r0/swordman/weapon_front/124.png"
+      ],
+      "source_layer_offsets": [
+        [
+          268,
+          -333
+        ],
+        [
+          -44,
+          -93
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          268,
+          -333
+        ],
+        [
+          -41,
+          -54
+        ],
+        [
+          -44,
+          -14
+        ],
+        [
+          -30,
+          -80
+        ],
+        [
+          -18,
+          -92
+        ],
+        [
+          -9,
+          -106
+        ]
+      ],
+      "foot_anchor": [
+        133,
+        167
+      ],
+      "canvas_size": [
+        320,
+        224
+      ],
+      "sha256": "6b10bc98dc199f4088154cef75b4b9ad657f4974cf8a5723ee16c983ca411416",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_lo/stay_00.png",
+      "source_animation": "npc/animation/npc_lo.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/npc_lo/image/000.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -22,
+          -101
+        ]
+      ],
+      "foot_anchor": [
+        26,
+        105
+      ],
+      "canvas_size": [
+        96,
+        128
+      ],
+      "sha256": "eeb1f4db2337bf3d7f0cce71688afb09ea7540d5b24d458ae3ef11dc90c86c69",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_lo/stay_01.png",
+      "source_animation": "npc/animation/npc_lo.ani",
+      "source_frame": 1,
+      "source_layer_textures": [
+        "res://assets/r0/npc_lo/image/001.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -22,
+          -101
+        ]
+      ],
+      "foot_anchor": [
+        26,
+        105
+      ],
+      "canvas_size": [
+        96,
+        128
+      ],
+      "sha256": "645df3e26fe3e0ea393af9a4ada5f4383ac773e4245333d1607d641c25b035fe",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_lo/stay_02.png",
+      "source_animation": "npc/animation/npc_lo.ani",
+      "source_frame": 2,
+      "source_layer_textures": [
+        "res://assets/r0/npc_lo/image/002.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -22,
+          -101
+        ]
+      ],
+      "foot_anchor": [
+        26,
+        105
+      ],
+      "canvas_size": [
+        96,
+        128
+      ],
+      "sha256": "38e91a308a4c695e59b2cded44032af802a68f5e9616259441c581ba9461a8a7",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_lo/stay_03.png",
+      "source_animation": "npc/animation/npc_lo.ani",
+      "source_frame": 3,
+      "source_layer_textures": [
+        "res://assets/r0/npc_lo/image/003.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -22,
+          -101
+        ]
+      ],
+      "foot_anchor": [
+        26,
+        105
+      ],
+      "canvas_size": [
+        96,
+        128
+      ],
+      "sha256": "e6d1ed20fc498d76d89550c502759e32e4b42c7adc85215e6496c8e2d67a916b",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_lo/stay_04.png",
+      "source_animation": "npc/animation/npc_lo.ani",
+      "source_frame": 4,
+      "source_layer_textures": [
+        "res://assets/r0/npc_lo/image/004.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -22,
+          -101
+        ]
+      ],
+      "foot_anchor": [
+        26,
+        105
+      ],
+      "canvas_size": [
+        96,
+        128
+      ],
+      "sha256": "f5c31e7e28eeba72b80756de6fc2606111954efb53d08059cf6b8b635fe7e4c8",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_lo/stay_05.png",
+      "source_animation": "npc/animation/npc_lo.ani",
+      "source_frame": 5,
+      "source_layer_textures": [
+        "res://assets/r0/npc_lo/image/005.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -22,
+          -101
+        ]
+      ],
+      "foot_anchor": [
+        26,
+        105
+      ],
+      "canvas_size": [
+        96,
+        128
+      ],
+      "sha256": "1f7ff2be9580f527b5bc8c3fc4d7263f2aff01bd1654aef4acdfb66708228ea4",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_lo/stay_06.png",
+      "source_animation": "npc/animation/npc_lo.ani",
+      "source_frame": 6,
+      "source_layer_textures": [
+        "res://assets/r0/npc_lo/image/006.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -22,
+          -101
+        ]
+      ],
+      "foot_anchor": [
+        26,
+        105
+      ],
+      "canvas_size": [
+        96,
+        128
+      ],
+      "sha256": "e97f7536d899fc7e7d6733baced9ca39df3c4ecf106157fed93b7a179f8e5475",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_lo/stay_07.png",
+      "source_animation": "npc/animation/npc_lo.ani",
+      "source_frame": 7,
+      "source_layer_textures": [
+        "res://assets/r0/npc_lo/image/007.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -22,
+          -101
+        ]
+      ],
+      "foot_anchor": [
+        26,
+        105
+      ],
+      "canvas_size": [
+        96,
+        128
+      ],
+      "sha256": "b3f6e7bf8b0bc3184e070d4bb0d1443fdd91043a88171b6a22a6f8ae42e36332",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_lo/stay_08.png",
+      "source_animation": "npc/animation/npc_lo.ani",
+      "source_frame": 8,
+      "source_layer_textures": [
+        "res://assets/r0/npc_lo/image/008.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -22,
+          -101
+        ]
+      ],
+      "foot_anchor": [
+        26,
+        105
+      ],
+      "canvas_size": [
+        96,
+        128
+      ],
+      "sha256": "1f2ccc7db84cf58c1a2505fbd82da03b269c06c35ca87b17431dfbf18ddbc3c6",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_sr/stay_00.png",
+      "source_animation": "npc/animation/npc_sr.ani",
+      "source_frame": 0,
+      "source_layer_textures": [
+        "res://assets/r0/npc_sr/image/000.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -30,
+          -138
+        ]
+      ],
+      "foot_anchor": [
+        34,
+        142
+      ],
+      "canvas_size": [
+        80,
+        160
+      ],
+      "sha256": "c050a8e02284b738150e6738be8466822816625d05dbee9b57b371cac100c3b5",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_sr/stay_01.png",
+      "source_animation": "npc/animation/npc_sr.ani",
+      "source_frame": 1,
+      "source_layer_textures": [
+        "res://assets/r0/npc_sr/image/001.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -30,
+          -138
+        ]
+      ],
+      "foot_anchor": [
+        34,
+        142
+      ],
+      "canvas_size": [
+        80,
+        160
+      ],
+      "sha256": "5e99343a1bf92205e6a539201e5750874253621cdb343efb31349f28f8561ecb",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_sr/stay_02.png",
+      "source_animation": "npc/animation/npc_sr.ani",
+      "source_frame": 2,
+      "source_layer_textures": [
+        "res://assets/r0/npc_sr/image/002.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -30,
+          -138
+        ]
+      ],
+      "foot_anchor": [
+        34,
+        142
+      ],
+      "canvas_size": [
+        80,
+        160
+      ],
+      "sha256": "c13cbd5829923535243ab436412301863ee94f012555d6c6c3188f6030f7189a",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_sr/stay_03.png",
+      "source_animation": "npc/animation/npc_sr.ani",
+      "source_frame": 3,
+      "source_layer_textures": [
+        "res://assets/r0/npc_sr/image/003.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -30,
+          -138
+        ]
+      ],
+      "foot_anchor": [
+        34,
+        142
+      ],
+      "canvas_size": [
+        80,
+        160
+      ],
+      "sha256": "a90bc8b4bd1b0dc2834cee784190cb84fce200b3763c7ea374ea44e19c80d73d",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_sr/stay_04.png",
+      "source_animation": "npc/animation/npc_sr.ani",
+      "source_frame": 4,
+      "source_layer_textures": [
+        "res://assets/r0/npc_sr/image/004.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -30,
+          -138
+        ]
+      ],
+      "foot_anchor": [
+        34,
+        142
+      ],
+      "canvas_size": [
+        80,
+        160
+      ],
+      "sha256": "1e7ba032b07d129881fd5333f0f0857e43c04cd1ccaacd8d952d83f726ef2ec2",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    },
+    {
+      "texture": "res://assets/r1/actors/npc_sr/stay_05.png",
+      "source_animation": "npc/animation/npc_sr.ani",
+      "source_frame": 5,
+      "source_layer_textures": [
+        "res://assets/r0/npc_sr/image/005.png"
+      ],
+      "source_layer_offsets": [
+        [
+          -30,
+          -138
+        ]
+      ],
+      "foot_anchor": [
+        34,
+        142
+      ],
+      "canvas_size": [
+        80,
+        160
+      ],
+      "sha256": "efcc9df810a44007bd0b612ecd8ab91e1316e34dd64d0569bae37db720818005",
+      "operation": "Source alpha composite in retained layer order; no scaling or repaint"
+    }
+  ]
+}

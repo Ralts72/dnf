@@ -1,0 +1,40 @@
+{
+  "path": "monster/draconian/dmani/damage1.ani",
+  "sha256": "a8f39692a916ea5ba943a3704a27d24ea2fd500005e3c75ac0560ded33c96b65",
+  "bytes": 87,
+  "crc": {
+    "expected": 423128144,
+    "actual_seed_file_number": 423128144,
+    "actual_seed_zero": 2930608534
+  },
+  "raw_reference": "source_art/r3/pvf/monster/draconian/dmani/damage1.ani.bin",
+  "decoded": {
+    "frames_count": 1,
+    "resources": [
+      "monster/draconian/draco_mirkius.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 12,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -22,
+              -21,
+              -5,
+              57,
+              39,
+              113
+            ]
+          }
+        ],
+        "properties": []
+      }
+    ]
+  }
+}

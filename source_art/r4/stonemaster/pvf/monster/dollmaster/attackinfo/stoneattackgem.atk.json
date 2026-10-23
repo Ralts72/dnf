@@ -1,0 +1,119 @@
+{
+  "path": "monster/dollmaster/attackinfo/stoneattackgem.atk",
+  "crc": {
+    "expected": 4183727851,
+    "actual_seed_file_number": 4183727851,
+    "actual_seed_zero": 45821328
+  },
+  "decoded": [
+    {
+      "type": 5,
+      "index": 1103,
+      "text": "[attack type]"
+    },
+    {
+      "type": 5,
+      "index": 1104,
+      "text": "[physic]"
+    },
+    {
+      "type": 5,
+      "index": 1105,
+      "text": "[weapon damage apply]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 1106,
+      "text": "[attack enemy]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 1107,
+      "text": "[elemental property]"
+    },
+    {
+      "type": 5,
+      "index": 1108,
+      "text": "[no element]"
+    },
+    {
+      "type": 5,
+      "index": 1109,
+      "text": "[damage reaction]"
+    },
+    {
+      "type": 5,
+      "index": 1110,
+      "text": "[damage]"
+    },
+    {
+      "type": 5,
+      "index": 1111,
+      "text": "[push aside]"
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 5,
+      "index": 1112,
+      "text": "[lift up]"
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 5,
+      "index": 1118,
+      "text": "[hit wav]"
+    },
+    {
+      "type": 7,
+      "index": 307337,
+      "text": "JEWEL_HIT"
+    },
+    {
+      "type": 5,
+      "index": 1113,
+      "text": "[attack direction]"
+    },
+    {
+      "type": 5,
+      "index": 1121,
+      "text": "[hit horizon]"
+    },
+    {
+      "type": 5,
+      "index": 1115,
+      "text": "[hit info]"
+    },
+    {
+      "type": 5,
+      "index": 1116,
+      "text": "[blow]"
+    },
+    {
+      "type": 5,
+      "index": 1117,
+      "text": "[no blood]"
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "check_script": "res://tools/r1/shore_checks.gd",
+  "elapsed_seconds": 0.289421,
+  "qa_source_sha256": "30d97e545dcee1344ead6c0f1156aeb6bffff51a672cc689d17a6d1554f0ca04",
+  "render_cases_completed": 0,
+  "result": {
+    "checks": 19,
+    "failed": [],
+    "walk_grid_points": 16119
+  },
+  "status": "complete"
+}

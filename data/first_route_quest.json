@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "first_route_v1",
+  "title": "塔里的动静",
+  "npc_name": "萝莉安",
+  "npc_source_position": [
+    285,
+    272
+  ],
+  "interaction_half_extent": [
+    70,
+    55
+  ],
+  "reward_coins": 40,
+  "stages": {
+    "available": {
+      "objective": "去和萝莉安聊聊",
+      "dialog": "听说塔里又有龙人出没。能沿石道去看看吗？",
+      "confirm": "我去看看",
+      "close": "稍后"
+    },
+    "active": {
+      "objective": "到塔内击退龙人",
+      "dialog": "沿港口左边的石道进入塔门。遇到龙人时，记得留意它的长矛。",
+      "close": "知道了"
+    },
+    "return": {
+      "objective": "回港口找萝莉安",
+      "dialog": "你平安回来了！这 40 金币和普通巨剑是给你的谢礼。收进行囊后，可以按 B 装备。",
+      "confirm": "领取 40 金币 + 普通巨剑",
+      "close": "稍后"
+    },
+    "completed": {
+      "objective": "港口委托已完成",
+      "dialog": "谢谢你的帮忙。下次经过港口，记得再来打个招呼。",
+      "close": "再见"
+    }
+  },
+  "source_status": "Adapted prototype quest. The original client quest script, rewards and dialogue are not restored.",
+  "reward_rule": "Exactly once after accepting and observing first_encounter_state.cleared=true. One adapted grant atomically saves40 coins and ownership of ordinary greatsword27304, without auto-equipping. Quest stage, historical clear receipt, reward flag, coins, material inventory, first-drop ledger, weapon ownership and equipped key and chapter flags are one schema4 bundle. Practice reset never revokes these receipts.",
+  "profile": "user://adventure/first_route_v1.json",
+  "profile_schema": 4,
+  "migration": "Strictly valid schema1/2 profiles migrate in memory only. Schema1 retains its pending-eye migration; schema2 retains its existing inventory and drop ledger. Historical completed/reward_granted profiles own27304, while all legacy profiles keep practice_lswd0000 equipped. No automatic write on load; original bytes remain available as the backup at the next successful transaction. Invalid schema3 fields are rejected, not filled with defaults. Valid schema3 profiles retain the selected weapon and all receipts, adding a false Lakius chapter flag in memory.",
+  "first_drop_rule": "One adapted first-kill drop of item3128. First real clear atomically persists pending loot and its hall source-ground position, independently of quest acceptance. Pickup atomically commits inventory count1 and claimed ledger. Practice resets never reset this ledger.",
+  "equipment_rule": "practice_lswd0000 is a prototype appearance key named练习长剑, with no unique official item ID and bonus0. Source item27304普通巨剑 grants an adapted+4 per successful hero hit when equipped. Source minimum level6 and physical attack72 are references only; no original level gate or damage formula is applied. Ownership and equipped key save atomically; failed saves retain the old committed equipment and exact pending transaction.",
+  "chapter_rule": "A strictly observed tower_boss_state.cleared=true records chapter_flags.lakius_cleared in the same atomic profile. Practice resets never revoke it. No extra boss currency or material is minted in this stage."
+}

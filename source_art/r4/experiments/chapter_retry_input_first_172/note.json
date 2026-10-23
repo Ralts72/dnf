@@ -1,0 +1,7 @@
+{
+  "run": "r63031087-172",
+  "checks": 22,
+  "failed": 1,
+  "production_changed": false,
+  "cause": "QA tried to open Lorian using E after repairing storage; FirstLoot global E retry already committed A, then await allowed separate B before the later Enter capture. Update probe to capture A immediately after actual global E and await B separately. Original script/report and clean logs retained."
+}

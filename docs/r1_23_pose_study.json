@@ -1,0 +1,81 @@
+{
+  "study": "R1/23 pose production study",
+  "status": "single_transition_prototype_not_integrated",
+  "production_candidate": "R1/22",
+  "previous_goal_turn_classification": "progress",
+  "goal_status": "active",
+  "quota_remaining_percent": 89,
+  "quota_window_reset_at": 1793293820,
+  "imagegen": {
+    "skill": "/Users/mac/.codex/skills/.system/imagegen/SKILL.md",
+    "mode": "built-in image_gen",
+    "cli_or_external_api_used": false,
+    "selected_for_runtime": [],
+    "variants": [
+      {
+        "path": "/Users/mac/project/game/dnf/source_art/r1/experiments/pose_inbetweens_23/walk_01_to_02_strip_v1.png",
+        "prompt_path": "/Users/mac/project/game/dnf/source_art/r1/experiments/pose_inbetweens_23/prompt_strip_v1.txt",
+        "prompt": "Use case: precise-object-edit.\nAsset type: two-frame pixel-art walk in-between sprite strip for a 2D game, experimental.\nInput images: Image 1 is the exact current walk pose (A) and identity/style edit target. Image 2 is the next walk pose (B), a motion reference only.\nPrimary request: Draw two NEW intermediate walk poses between A and B, at 1/3 and 2/3 of the movement. Only adjust the legs and boots as needed for the transition. The legs must connect cleanly at hips, knees and ankles; keep exactly two legs and two boots, correct front/back overlaps, clean sword occlusion, no detached pixels or doubled contours.\nOutput: ONE genuinely transparent RGBA sprite strip, 640×224 pixels, exactly two equal 320×224 cells. Left cell = 1/3 pose, right cell = 2/3 pose. Each sprite uses the same scale and canvas placement as the references, logical foot anchor (133,167) within each cell. The figure should remain roughly 110 pixels tall, not expand to fill the cell.\nInvariants: Preserve the same male swordsman identity, spiky blond hair, face, dark blue sleeveless clothing, bare chest, red right gauntlet, blue trousers, silver buckled boots, and long straight silver-edged dark greatsword angled down-right. Preserve Image 1's head, hair, torso, arms, hand, sword silhouette and palette as closely as possible; only small leg-pose changes. Maintain the original one-pixel outlines, hard-edged tiny pixel clusters and limited palette. No new equipment, lighting or decorative details.\nBackground: actual alpha transparency. No floor, no cast shadow, no glow, no scenery.\nAvoid: softened vector edges, antialiasing, painted shading, high-resolution repaint, redesigned anatomy, larger face, shifted weapon, text, labels, watermark, checkerboard drawn into the image. Do not include either endpoint A or B in the strip; output only the two new intermediate poses.",
+        "status": "rejected",
+        "finding": "Redrawn face/equipment proportions; canvas placement differs; not a native pixel-grid replacement."
+      },
+      {
+        "path": "/Users/mac/project/game/dnf/source_art/r1/experiments/pose_inbetweens_23/walk_01_to_02_single_v2.png",
+        "prompt_path": "/Users/mac/project/game/dnf/source_art/r1/experiments/pose_inbetweens_23/prompt_single_v2.txt",
+        "prompt": "Precise pixel-art edit. Image 1 is the ONLY edit target; Image 2 is a reference for the next leg position.\nReturn ONE image with the identical full transparent 320×224 composition of Image 1. Preserve Image 1 entirely outside the trousers and boots below the hips: do not redraw the head, face, hair, torso, arms, hands, gauntlet, greatsword, edges, colors, or their placement. Do not redesign or enlarge anything. This is a very small pixel-pose edit, not an illustration or an upscale.\nChange only the two lower trouser legs and boots to the halfway walk pose between Images 1 and 2. In original 320×224 coordinates, approximate boot centers should be (140,162) and (127,165), with hips remaining at their Image 1 position. Exactly two clean attached legs and two boots. Preserve pants and boot thickness, one-pixel outlines, tiny hard-edged pixel clusters and the exact source palette. The sword must stay straight, unchanged, in front of the legs.\nKeep all transparent margins, original character size (roughly 110 pixels tall), and foot anchoring. No floor, shadow, labels, text, drawn checkerboard, smoothing, glow, extra equipment, detached details or duplicate outlines. Output only this one intermediate pose, on actual transparent alpha.",
+        "status": "rejected",
+        "finding": "Read-only normalized comparison: 1375/1375 protected upper opaque source samples differ. Does not satisfy unchanged-upper-body edit constraint."
+      }
+    ]
+  },
+  "source_layer_prototype": {
+    "pair": [
+      "move_01",
+      "move_02"
+    ],
+    "phases": [
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "method": "Original appearance textures; analytically inverted hip-to-ankle shear for pants; rigid boot translation; numeric original-clothing visibility mask for hidden base-body pixels; nearest sampling on original 320x224 grid.",
+    "authored_parameters": {
+      "hip_y": 114,
+      "ankle_y": 158,
+      "back_foot_delta": [
+        13.3,
+        4.5
+      ],
+      "front_foot_delta": [
+        -13.7,
+        -3.6
+      ]
+    },
+    "source_art_redrawn": false,
+    "source_pngs_changed": false,
+    "native_checks": "docs/r1_23_stance_checks.json",
+    "head_coat_weapon_exact_per_phase": 1819,
+    "front_boot_exact_per_phase": 201,
+    "logical_pixel_grid_2x_preserved": true,
+    "review": "/Users/mac/project/game/dnf/docs/previews/r1_23_stance_review.png",
+    "shader": "source_art/r1/experiments/pose_inbetweens_23/stance_shear.gdshader",
+    "review_script": "source_art/r1/experiments/pose_inbetweens_23/stance_review.gd",
+    "limits": [
+      "One transition only. Full 8-frame loop, source frame6 combined leg layers, reverse-side poses and R1 depth integration remain unfinished.",
+      "No default runtime changes; production still uses original8frames/800ms and position interpolation.",
+      "Protected-pixel and boot checks establish sampled invariants, not full animation visual acceptance."
+    ]
+  },
+  "runtime": {
+    "build": "R1/22",
+    "run_id": "r28429971-70",
+    "production_artifacts_exact": 240,
+    "code_matches_disk": true,
+    "free_control_at_default_start": true,
+    "diagnostics_hidden": true,
+    "current_game_errors": 0,
+    "new_editor_errors_since_cursor15": 0,
+    "evidence": "docs/r1_23_study_final_state.json"
+  },
+  "next_action": "Extend the authored source-layer transition to a full walk cycle. Reuse separated source7 layers around combined-source6, explicitly map physical feet, and inspect full-cycle native playback before R1 integration.",
+  "old_1016ms_stall_cause_known": false
+}

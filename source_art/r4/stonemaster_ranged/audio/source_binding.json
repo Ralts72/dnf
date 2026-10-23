@@ -1,0 +1,57 @@
+{
+  "tag": "JEWEL_HIT",
+  "path": "res://assets/r4/stonemaster_ranged/audio/jewel_hit.ogg",
+  "canonical_npk": "sounds_effect.npk",
+  "sha256_npk": "f44848765ad6cc282f609b50a5ffe32b7077a186ad53b2ffa649db0160e4c764",
+  "entry": {
+    "pack": "sounds_effect.npk",
+    "path": "sounds/effect/jewel_hit.ogg",
+    "offset": 5915937,
+    "bytes": 9070
+  },
+  "audio_xml_sha256": "709e314f1b7be9864fa0f5bdfa133279d005b3ae83a17d8594563d003fe5c37d",
+  "xml_attributes": {
+    "ID": "JEWEL_HIT",
+    "FILE": "sounds\\effect\\jewel_hit.ogg"
+  },
+  "retained_original": "source_art/r4/stonemaster_ranged/audio/jewel_hit.ogg",
+  "sha256_source_ogg": "e2e2d40bb60b1c25f0bd55805a90bd705d5cf3ede80751771e0ac299cb8a35d2",
+  "sha256_runtime_ogg": "a932a161d14fa00693a9ae534e0099b7f6f52c613e11641b1bb6b2a359971872",
+  "metadata_fix": {
+    "comments_fixed": 1,
+    "audio_packets": 34,
+    "audio_packet_sha256": "c64eed5e451a9c4f8edcc353fe862af96c90bb938b1ad7f9c5994ca4fe339bc0",
+    "all_noncomment_packets_identical": true
+  },
+  "source_PCM": {
+    "decoder": "ffmpeg",
+    "format": "interleaved float32 little-endian",
+    "sample_rate": 44100,
+    "channels": 1,
+    "frames": 17550,
+    "bytes": 70200,
+    "sha256": "23f220b72da53291ab2971b32f17834378a6b640f45e1300f9e193bb6f0ea076",
+    "container_duration_seconds": 0.397959
+  },
+  "runtime_PCM": {
+    "decoder": "ffmpeg",
+    "format": "interleaved float32 little-endian",
+    "sample_rate": 44100,
+    "channels": 1,
+    "frames": 17550,
+    "bytes": 70200,
+    "sha256": "23f220b72da53291ab2971b32f17834378a6b640f45e1300f9e193bb6f0ea076",
+    "container_duration_seconds": 0.397959
+  },
+  "PCM_byte_identical": true,
+  "all_noncomment_packets_identical": true,
+  "ogg_timing_headers_identical": true,
+  "source_binding": {
+    "pvf_path": "monster/dollmaster/attackinfo/stoneattackgem.atk",
+    "sha256_decoded": "5af65a014365ad3476e2b7b1ea0084b2f18db242a4ef91f698ef45306a096285",
+    "field": "[hit wav]",
+    "tag": "JEWEL_HIT"
+  },
+  "runtime_hooks_implemented": false,
+  "limit": "Direct physical contact-tag reference does not prove projectile spawn or sound scheduling."
+}

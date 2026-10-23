@@ -1,0 +1,12 @@
+{
+  "check_script": "res://source_art/r1/experiments/dash_cycle_26/bake.gd",
+  "elapsed_seconds": 0.737114,
+  "qa_source_sha256": "5893173cf741594c97506f10b038874ff9c891a828c01f1d61c44fe220cad283",
+  "render_cases_completed": 0,
+  "result": {
+    "endpoint_full_rgba_exact": true,
+    "frames": 24,
+    "png_roundtrips_exact": true
+  },
+  "status": "complete"
+}

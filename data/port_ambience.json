@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "tag": "AMB_PORT_01",
+  "path": "res://assets/r0/ambience/amb_port_01.ogg",
+  "bus_name": "PortAmbience",
+  "player_name": "WestCoastAmbience",
+  "loop": true,
+  "loop_offset_seconds": 0.0,
+  "default_volume": 0.35,
+  "volume_levels": [
+    0.0,
+    0.35
+  ],
+  "intro_fade_seconds": 1.0,
+  "volume_fade_seconds": 0.15,
+  "near_distance_pixels": 40,
+  "far_distance_pixels": 180,
+  "far_gain_factor": 0.35,
+  "shore_points": [
+    [
+      449,
+      190
+    ],
+    [
+      673,
+      254
+    ],
+    [
+      958,
+      254
+    ]
+  ],
+  "source_reference": "docs/r1_ambience_source_reference.json",
+  "notes": [
+    "The original stereo recording is retained; distance changes gain, not stereo placement.",
+    "Ambience follows the effects volume/F8; music remains independent on F9.",
+    "Ambience continues during pose/water pause, and retains one player across F4.",
+    "Gain, fades and distance mapping are new sample interpretation."
+  ]
+}

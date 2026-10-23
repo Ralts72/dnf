@@ -1,0 +1,2511 @@
+{
+  "schema": 1,
+  "character": "mirkius",
+  "monster_id": 70,
+  "canvas_size": [
+    362,
+    202
+  ],
+  "foot_anchor": [
+    134,
+    153
+  ],
+  "animations": {
+    "stay": {
+      "source_ani": "monster/draconian/dmani/stay.ani",
+      "source_action": "stay",
+      "source_sha256": "4b082885cc39f7c1d1030da786198b130b51a87722a87844afe30a865290f8bc",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_mirkius.img"
+      ],
+      "source_frames_count": 1,
+      "frames": [
+        {
+          "texture": "res://assets/r3/draconian/frames/stay/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "5073cc3d9dfb6a2e8c29170a1c1d0b107219a2cd30c3d06e6f3152f3cde2f6a6",
+          "sha256_rgba": "4c858a498430b632aa7f25344981c58b926fe3d8fb07d62a971fb174293b1386",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/stay/000.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 33,
+          "resolved_img_frame": 33,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 159,
+            "height": 126,
+            "x": 171,
+            "y": 265,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 85477,
+            "data_bytes": 3203,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/033.png",
+          "source_crop_rgba_sha256": "4525d21782ea2271750bbaa2a7ccc7eb8343624e74f1ee29bc013655a20ba147",
+          "logical_crop_offset": [
+            -72,
+            -115
+          ],
+          "composite_paste_offset": [
+            62,
+            38,
+            221,
+            164
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -14,
+                -21,
+                -3,
+                49,
+                41,
+                109
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        }
+      ]
+    },
+    "move": {
+      "source_ani": "monster/draconian/dmani/movefoward.ani",
+      "source_action": "movefoward",
+      "source_sha256": "6fc89f1c7c016d98805353d4d1017b72458a3afaee847be17975e37240313d1d",
+      "source_globals": [
+        {
+          "type": 0,
+          "value": 1
+        }
+      ],
+      "source_resources": [
+        "monster/draconian/draco_mirkius.img"
+      ],
+      "source_frames_count": 7,
+      "frames": [
+        {
+          "texture": "res://assets/r3/draconian/frames/move/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "4714327ae19047914190eecb752b4f66896d1d9c8af50a37443f273e964014c1",
+          "sha256_rgba": "1b0966c7ba106cbd8599523ce0f98c79dad85d7224f3ca3976460e9ad361fc6c",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/move/000.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 16,
+          "resolved_img_frame": 16,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 130,
+            "height": 152,
+            "x": 190,
+            "y": 235,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 41066,
+            "data_bytes": 3058,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/016.png",
+          "source_crop_rgba_sha256": "9f0ba6f9afdce6ad28b10dabb45008bf7403c3f49232a29b99079c39f3f6a755",
+          "logical_crop_offset": [
+            -53,
+            -145
+          ],
+          "composite_paste_offset": [
+            81,
+            8,
+            211,
+            160
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -8,
+                -20,
+                -2,
+                61,
+                36,
+                103
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/move/001.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "d31cfa53d2cf113184b6183b5bba8d1b4ce959c1cdbd42d97dccb9e03eb9d8a8",
+          "sha256_rgba": "cecccd5ca9c42ffb9d1480244a5797287115254946d4d28ebe1d4505d08dbe01",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/move/001.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 17,
+          "resolved_img_frame": 17,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 136,
+            "height": 152,
+            "x": 186,
+            "y": 235,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 44124,
+            "data_bytes": 3380,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/017.png",
+          "source_crop_rgba_sha256": "4cd56f04e4815c492188d479128536bd213bb7a30667bc86c58d66adef219f29",
+          "logical_crop_offset": [
+            -57,
+            -145
+          ],
+          "composite_paste_offset": [
+            77,
+            8,
+            213,
+            160
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -8,
+                -20,
+                -2,
+                61,
+                36,
+                103
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/move/002.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "68ed645052f6298f4f939f57b20d651972b379426bcd91529d1b354d195ea9fc",
+          "sha256_rgba": "56e5c5728670af3ca8e5eb9dcf719f7030748875dffcb89b1cb9bb4bafc301d6",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/move/002.png.import",
+          "duration_ms": 50,
+          "source_duration_ms": 50,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 18,
+          "resolved_img_frame": 18,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 136,
+            "height": 149,
+            "x": 184,
+            "y": 236,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 47504,
+            "data_bytes": 2053,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/018.png",
+          "source_crop_rgba_sha256": "8b2d9afa6e716b62c6a3962d2f67810d85d0b0191ce43ed6f4b562ac51152645",
+          "logical_crop_offset": [
+            -59,
+            -144
+          ],
+          "composite_paste_offset": [
+            75,
+            9,
+            211,
+            158
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -8,
+                -20,
+                -2,
+                61,
+                36,
+                103
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/move/003.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "448d9064d5ae3b29aef8f93422998b985d2281bd81d2a33c4781657bed8923f0",
+          "sha256_rgba": "2651cc14f99902230ca65f3260a958140e7f668734f07bf5b0dbaf2c2f1f6d46",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/move/003.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 19,
+          "resolved_img_frame": 19,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 143,
+            "height": 151,
+            "x": 177,
+            "y": 236,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 49557,
+            "data_bytes": 2127,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/019.png",
+          "source_crop_rgba_sha256": "6c12a9407fac838324ebca4fad353d0b42a98aa8248d9969eadd044df4a32a25",
+          "logical_crop_offset": [
+            -66,
+            -144
+          ],
+          "composite_paste_offset": [
+            68,
+            9,
+            211,
+            160
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -8,
+                -20,
+                -2,
+                61,
+                36,
+                103
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/move/004.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "572063442feeec3f8d2fff74796b95338b303f5a487c8c56867216da0117bd97",
+          "sha256_rgba": "bc881a344185d3075df71ebf0245c440e5e3ce984e65202f5792b76ac75112b1",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/move/004.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 20,
+          "resolved_img_frame": 20,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 135,
+            "height": 149,
+            "x": 185,
+            "y": 236,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 51684,
+            "data_bytes": 2019,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/020.png",
+          "source_crop_rgba_sha256": "0b83fc276b6328c2266035c4eadca25691a4fea95f30b1ae7889c333ab8e35cd",
+          "logical_crop_offset": [
+            -58,
+            -144
+          ],
+          "composite_paste_offset": [
+            76,
+            9,
+            211,
+            158
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -8,
+                -20,
+                -2,
+                61,
+                36,
+                103
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/move/005.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "da907815962030aa3e4a443bf2e24651749279e1b457f1027197fecd1cfde774",
+          "sha256_rgba": "a2a94aeae75a3bcfce0829f585709fba0daad136910dfc247604f78e7e80fa32",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/move/005.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 21,
+          "resolved_img_frame": 21,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 133,
+            "height": 151,
+            "x": 187,
+            "y": 236,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 53703,
+            "data_bytes": 1975,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/021.png",
+          "source_crop_rgba_sha256": "aac7cce9b87a2dbfcfc7f4e7aa43a5612f7148521351d2c58338e7855a176263",
+          "logical_crop_offset": [
+            -56,
+            -144
+          ],
+          "composite_paste_offset": [
+            78,
+            9,
+            211,
+            160
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -8,
+                -20,
+                -2,
+                61,
+                36,
+                103
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/move/006.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "60c48b171be0d1afe6d067c166e5c8bc60ef4bcbbd97e400c5f6437c81b2df6c",
+          "sha256_rgba": "f1b94d9ee4ce4ccd9e6908bfa80f2127c999e5c0fdbbc16ae9470ce426c877f0",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/move/006.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 22,
+          "resolved_img_frame": 22,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 132,
+            "height": 152,
+            "x": 190,
+            "y": 235,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 55678,
+            "data_bytes": 3236,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/022.png",
+          "source_crop_rgba_sha256": "0d6628a9eaa1604f706a191aed32c04dd73a4716e52f3ca3c06b285be0080d21",
+          "logical_crop_offset": [
+            -53,
+            -145
+          ],
+          "composite_paste_offset": [
+            81,
+            8,
+            213,
+            160
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -8,
+                -20,
+                -2,
+                61,
+                36,
+                103
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        }
+      ]
+    },
+    "attack1": {
+      "source_ani": "monster/draconian/dmani/attack.ani",
+      "source_action": "attack",
+      "source_sha256": "81ed48f2bc3f0444deab223cbf81c22f9d24e2f02b7bf5f4896727ac553eb541",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_mirkius.img"
+      ],
+      "source_frames_count": 4,
+      "frames": [
+        {
+          "texture": "res://assets/r3/draconian/frames/attack1/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "e4ae080c763945727e179b8639c2ad59e78ff2696a441a73fb42f987e351d4b3",
+          "sha256_rgba": "a925675345a248637854f0f6f4bb2c003a6e2b950ab8d5028670273e0572e181",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/attack1/000.png.import",
+          "duration_ms": 120,
+          "source_duration_ms": 120,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 0,
+          "resolved_img_frame": 0,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 167,
+            "height": 127,
+            "x": 131,
+            "y": 264,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 1328,
+            "data_bytes": 2893,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/000.png",
+          "source_crop_rgba_sha256": "d191d60f8089ae9166f71cefea32a30b760250e82f55afc72d7932fa0fe63e70",
+          "logical_crop_offset": [
+            -112,
+            -116
+          ],
+          "composite_paste_offset": [
+            22,
+            37,
+            189,
+            164
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 120
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -30,
+                -17,
+                -9,
+                54,
+                34,
+                118
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/attack1/001.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "e1fcfa340c3ee2865bd2c332a5ddde5d6c8a5ff03153c69e179f69f7547002b9",
+          "sha256_rgba": "66ac9b516349e62c03974d3dff6a1a646165810fc5692c0bedd8ae800cbee012",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/attack1/001.png.import",
+          "duration_ms": 190,
+          "source_duration_ms": 190,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 1,
+          "resolved_img_frame": 1,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 174,
+            "height": 127,
+            "x": 117,
+            "y": 264,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 4221,
+            "data_bytes": 2861,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/001.png",
+          "source_crop_rgba_sha256": "2691ec6d9b5eaff370742d83334b53e171e100ae6ee6c73e5ca0e58c185a643f",
+          "logical_crop_offset": [
+            -126,
+            -116
+          ],
+          "composite_paste_offset": [
+            8,
+            37,
+            182,
+            164
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 190
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -30,
+                -17,
+                -9,
+                54,
+                34,
+                118
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/attack1/002.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "ff527eeb600a0a1e2156ca44e071c81f1dd51fc379a3aca5871edf151384438f",
+          "sha256_rgba": "e1fee0dad74a8272a04de7f24b5006dc4e62adbda4a6ca7fe7f0a03383beca20",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/attack1/002.png.import",
+          "duration_ms": 150,
+          "source_duration_ms": 150,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 2,
+          "resolved_img_frame": 2,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 255,
+            "height": 113,
+            "x": 139,
+            "y": 278,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 7082,
+            "data_bytes": 2980,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/002.png",
+          "source_crop_rgba_sha256": "11745ec40a44c28b11070ebf4f48b306a209b0b51b84302f72e77d53bc309c2a",
+          "logical_crop_offset": [
+            -104,
+            -102
+          ],
+          "composite_paste_offset": [
+            30,
+            51,
+            285,
+            164
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 150
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 15,
+              "xyz_size": [
+                -22,
+                -10,
+                35,
+                173,
+                20,
+                50
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -13,
+                -17,
+                -5,
+                77,
+                34,
+                94
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/attack1/003.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "314c4f455cc39754e8fdbe5d855bdfdf6672fd47b04d0ffb18f60406a7f3d514",
+          "sha256_rgba": "40d571bad5e0d1f9e842e1427da96cb0458797f63eae423420cd89da20e56050",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/attack1/003.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 3,
+          "resolved_img_frame": 3,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 212,
+            "height": 122,
+            "x": 144,
+            "y": 269,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 10062,
+            "data_bytes": 3044,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/003.png",
+          "source_crop_rgba_sha256": "ad8a3639f8c261b364168892d215cddca3c0b1dc6cab6c58bf8c7dc15b7561cc",
+          "logical_crop_offset": [
+            -99,
+            -111
+          ],
+          "composite_paste_offset": [
+            35,
+            42,
+            247,
+            164
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -13,
+                -17,
+                -5,
+                54,
+                34,
+                106
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        }
+      ]
+    },
+    "damage1": {
+      "source_ani": "monster/draconian/dmani/damage1.ani",
+      "source_action": "damage1",
+      "source_sha256": "a8f39692a916ea5ba943a3704a27d24ea2fd500005e3c75ac0560ded33c96b65",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_mirkius.img"
+      ],
+      "source_frames_count": 1,
+      "frames": [
+        {
+          "texture": "res://assets/r3/draconian/frames/damage1/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "30c32f41b6606d9703717108730805f18a6364f958d77a6e41ad5dd0ce8c5314",
+          "sha256_rgba": "72cd7b69332e0fa189cbdaacb0a368f308f0ef0b5c176c84e82fb2a2ba78e40b",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/damage1/000.png.import",
+          "duration_ms": 10000,
+          "source_duration_ms": null,
+          "duration_origin": "Inspector-only static pose hold fallback; not original timing or combat hitstun",
+          "img_frame": 12,
+          "resolved_img_frame": 12,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 140,
+            "height": 127,
+            "x": 182,
+            "y": 264,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 30582,
+            "data_bytes": 2766,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/012.png",
+          "source_crop_rgba_sha256": "d31c0ddfa70796b575cec8fd24abbf83f72d561b3400af9010b7804769012097",
+          "logical_crop_offset": [
+            -61,
+            -116
+          ],
+          "composite_paste_offset": [
+            73,
+            37,
+            213,
+            164
+          ],
+          "source_properties": [],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -22,
+                -21,
+                -5,
+                57,
+                39,
+                113
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        }
+      ]
+    },
+    "damage2": {
+      "source_ani": "monster/draconian/dmani/damage2.ani",
+      "source_action": "damage2",
+      "source_sha256": "64636c48f9077c498a21b933abdc934bfeab6051c7f88dec4881bff7aae4b6cd",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_mirkius.img"
+      ],
+      "source_frames_count": 1,
+      "frames": [
+        {
+          "texture": "res://assets/r3/draconian/frames/damage2/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "b112b3a1857c39e138c7b9a358a2713a3e6a4a36567ddf63ba6d042ce5beb8d8",
+          "sha256_rgba": "2afc44b15828183095e41a3373d2f320231a96b03bca7f954b83d4337c7416fa",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/damage2/000.png.import",
+          "duration_ms": 10000,
+          "source_duration_ms": null,
+          "duration_origin": "Inspector-only static pose hold fallback; not original timing or combat hitstun",
+          "img_frame": 11,
+          "resolved_img_frame": 11,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 139,
+            "height": 116,
+            "x": 191,
+            "y": 275,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 27915,
+            "data_bytes": 2667,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/011.png",
+          "source_crop_rgba_sha256": "ae83a29e8cec3db15c47a946d4700043d53b31a8bd9948920877f19d318fe823",
+          "logical_crop_offset": [
+            -52,
+            -105
+          ],
+          "composite_paste_offset": [
+            82,
+            48,
+            221,
+            164
+          ],
+          "source_properties": [],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -16,
+                -18,
+                -4,
+                47,
+                35,
+                93
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        }
+      ]
+    },
+    "down": {
+      "source_ani": "monster/draconian/dmani/down.ani",
+      "source_action": "down",
+      "source_sha256": "c55b5637c967f71da70c6575d02141444361e349a5719dd102ec6f0e646e73a3",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_mirkius.img"
+      ],
+      "source_frames_count": 5,
+      "frames": [
+        {
+          "texture": "res://assets/r3/draconian/frames/down/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "b112b3a1857c39e138c7b9a358a2713a3e6a4a36567ddf63ba6d042ce5beb8d8",
+          "sha256_rgba": "2afc44b15828183095e41a3373d2f320231a96b03bca7f954b83d4337c7416fa",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/down/000.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 11,
+          "resolved_img_frame": 11,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 139,
+            "height": 116,
+            "x": 191,
+            "y": 275,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 27915,
+            "data_bytes": 2667,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/011.png",
+          "source_crop_rgba_sha256": "ae83a29e8cec3db15c47a946d4700043d53b31a8bd9948920877f19d318fe823",
+          "logical_crop_offset": [
+            -52,
+            -105
+          ],
+          "composite_paste_offset": [
+            82,
+            48,
+            221,
+            164
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -16,
+                -18,
+                -7,
+                49,
+                37,
+                97
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/down/001.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "30c32f41b6606d9703717108730805f18a6364f958d77a6e41ad5dd0ce8c5314",
+          "sha256_rgba": "72cd7b69332e0fa189cbdaacb0a368f308f0ef0b5c176c84e82fb2a2ba78e40b",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/down/001.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 12,
+          "resolved_img_frame": 12,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 140,
+            "height": 127,
+            "x": 182,
+            "y": 264,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 30582,
+            "data_bytes": 2766,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/012.png",
+          "source_crop_rgba_sha256": "d31c0ddfa70796b575cec8fd24abbf83f72d561b3400af9010b7804769012097",
+          "logical_crop_offset": [
+            -61,
+            -116
+          ],
+          "composite_paste_offset": [
+            73,
+            37,
+            213,
+            164
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -29,
+                -18,
+                -7,
+                62,
+                37,
+                114
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/down/002.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "ec809a6d21feaa9676ece6d57072975a9d9ea6e483615aefbecee26444e037b4",
+          "sha256_rgba": "767883110a1cd9d5d8fdd89189f8fadb7c97fa2f040bc523fa11a2518546a5c2",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/down/002.png.import",
+          "duration_ms": 10000,
+          "source_duration_ms": 10000,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 13,
+          "resolved_img_frame": 13,
+          "ani_offset": [
+            -240,
+            -336
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 122,
+            "height": 139,
+            "x": 172,
+            "y": 229,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 33348,
+            "data_bytes": 2588,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/013.png",
+          "source_crop_rgba_sha256": "a9ce63930a56d80972e2bb58c8844063d89d2f5c57e50113583e17da2bb12a2f",
+          "logical_crop_offset": [
+            -68,
+            -107
+          ],
+          "composite_paste_offset": [
+            66,
+            46,
+            188,
+            185
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 10000
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -49,
+                -18,
+                4,
+                91,
+                37,
+                50
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/down/003.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "4caeae49c2ea9ae7862f124dbb22fb7b58ad1792974af5e344421aca82f7ff14",
+          "sha256_rgba": "ef5482c3a745bc37113d1dc7022c7c2d691413c54cb8c6c9b5049860fe709366",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/down/003.png.import",
+          "duration_ms": 10000,
+          "source_duration_ms": 10000,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 14,
+          "resolved_img_frame": 14,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 142,
+            "height": 140,
+            "x": 155,
+            "y": 274,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 35936,
+            "data_bytes": 2868,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/014.png",
+          "source_crop_rgba_sha256": "1f2a6ad27d9120a5fc54bbf16d10b27d56d5f81f64e7f02b4374850b5fb53735",
+          "logical_crop_offset": [
+            -88,
+            -106
+          ],
+          "composite_paste_offset": [
+            46,
+            47,
+            188,
+            187
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 10000
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -68,
+                -18,
+                -2,
+                89,
+                37,
+                69
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/down/004.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "deb2414d7b49972881a51b5d169dc585a38f3b72c241006bdb8b9024ffbc7e7d",
+          "sha256_rgba": "63aecb3b4fa615f1b22a265f8108d4b97a9aa682b60920aa7c9b54d269a98ede",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/down/004.png.import",
+          "duration_ms": 300,
+          "source_duration_ms": 300,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 15,
+          "resolved_img_frame": 15,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 192,
+            "height": 95,
+            "x": 145,
+            "y": 326,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 38804,
+            "data_bytes": 2262,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/015.png",
+          "source_crop_rgba_sha256": "54b235a97f36e7865a871b926541dd811c767df8d8a7f0c29e522153dcd51bd2",
+          "logical_crop_offset": [
+            -98,
+            -54
+          ],
+          "composite_paste_offset": [
+            36,
+            99,
+            228,
+            194
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 300
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -86,
+                -18,
+                -7,
+                126,
+                37,
+                31
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        }
+      ]
+    },
+    "moveback": {
+      "source_ani": "monster/draconian/dmani/moveback.ani",
+      "source_action": "moveback",
+      "source_sha256": "ca51f430dae9baa5a02aab0cb0e9cefea158cb627ca9ce6a1b14a65276e1c817",
+      "source_globals": [
+        {
+          "type": 0,
+          "value": 1
+        }
+      ],
+      "source_resources": [
+        "monster/draconian/draco_mirkius.img"
+      ],
+      "source_frames_count": 7,
+      "frames": [
+        {
+          "texture": "res://assets/r3/draconian/frames/moveback/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "073567d1a05c8070b1a4d3c6848f62bbf060f7094627fe65c7a541957261f651",
+          "sha256_rgba": "95fbffc961a9ac1a4381fec2204b26d8d5c3e815a6d0e996dc24f7995ac2e879",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/moveback/000.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 4,
+          "resolved_img_frame": 4,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 135,
+            "height": 140,
+            "x": 149,
+            "y": 248,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 13106,
+            "data_bytes": 2563,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/004.png",
+          "source_crop_rgba_sha256": "cb993b7c2059001175cc25590a9d5ba67826f2ded3e67bbb4d3aecc3e9b9e07a",
+          "logical_crop_offset": [
+            -94,
+            -132
+          ],
+          "composite_paste_offset": [
+            40,
+            21,
+            175,
+            161
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -42,
+                -21,
+                -2,
+                53,
+                39,
+                116
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/moveback/001.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "f162f41ffffd6e1c597c074b44cff0a0a4bb0ba2eba6170f564daac2a84b145a",
+          "sha256_rgba": "144ac63a7dca7db598488236c5750eb08ac9f68543efc8a3610d97ad9820098e",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/moveback/001.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 5,
+          "resolved_img_frame": 5,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 141,
+            "height": 140,
+            "x": 149,
+            "y": 248,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 15669,
+            "data_bytes": 2789,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/005.png",
+          "source_crop_rgba_sha256": "b9b34e162aedaa53f76ec619c30e40370f14311dfad480155194cf946a007012",
+          "logical_crop_offset": [
+            -94,
+            -132
+          ],
+          "composite_paste_offset": [
+            40,
+            21,
+            181,
+            161
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -42,
+                -21,
+                -2,
+                53,
+                39,
+                116
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/moveback/002.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "b4c0ea9b35abbd62a4912d51a74312fce4f9b8d7028fac19e3bacf186c27aeb4",
+          "sha256_rgba": "34df04c1b3139e4bd4879cd1c7b4f5d5bb4cacdcf77f319eac9326499368640f",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/moveback/002.png.import",
+          "duration_ms": 50,
+          "source_duration_ms": 50,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 6,
+          "resolved_img_frame": 6,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 144,
+            "height": 139,
+            "x": 150,
+            "y": 248,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 18458,
+            "data_bytes": 1738,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/006.png",
+          "source_crop_rgba_sha256": "3be05bdb356ff4dfbc6e3a7c6815a2172b226bc98ca39207dfe57fcf216a0e68",
+          "logical_crop_offset": [
+            -93,
+            -132
+          ],
+          "composite_paste_offset": [
+            41,
+            21,
+            185,
+            160
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -42,
+                -21,
+                -2,
+                53,
+                39,
+                116
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/moveback/003.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "eb4f37660038c06dcd5e8c3a3b1fe9ed7aeae0c6d6b04152c257b0940e67dbce",
+          "sha256_rgba": "c7eb4c5fca293da734043c5fdacf9b1a64196731c456522f27b78cf876b21267",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/moveback/003.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 7,
+          "resolved_img_frame": 7,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 149,
+            "height": 139,
+            "x": 150,
+            "y": 248,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 20196,
+            "data_bytes": 1760,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/007.png",
+          "source_crop_rgba_sha256": "9771aea1db770c366192fb089ccdbcf8833cd2e58cf8caff1156ab62444ca2f2",
+          "logical_crop_offset": [
+            -93,
+            -132
+          ],
+          "composite_paste_offset": [
+            41,
+            21,
+            190,
+            160
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -42,
+                -21,
+                -2,
+                53,
+                39,
+                116
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/moveback/004.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "09741bd73b276662859e2e1436b2b4ed01325e79e17ee39720dcc80c0bf22ce7",
+          "sha256_rgba": "688b3c90a8948ec95c5d80ee1f460cfaf3fb36f4104383c2c2b8bf00aca90db2",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/moveback/004.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 8,
+          "resolved_img_frame": 8,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 140,
+            "height": 139,
+            "x": 150,
+            "y": 248,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 21956,
+            "data_bytes": 1674,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/008.png",
+          "source_crop_rgba_sha256": "018e92a528f312ae20e548ff4ea81aa5b39cf51b3f853a313bb14929f03f3a83",
+          "logical_crop_offset": [
+            -93,
+            -132
+          ],
+          "composite_paste_offset": [
+            41,
+            21,
+            181,
+            160
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -42,
+                -21,
+                -2,
+                53,
+                39,
+                116
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/moveback/005.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "1f9f43cda2f535fb286b046e2d79bb7cc0cda5a526051d48651fbf653f132425",
+          "sha256_rgba": "41bdb5f0b206e81c18a65399b02bd944ca4cfd957f0be7d7cd531a4ee1e3d00b",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/moveback/005.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 9,
+          "resolved_img_frame": 9,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 136,
+            "height": 139,
+            "x": 150,
+            "y": 248,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 23630,
+            "data_bytes": 1620,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/009.png",
+          "source_crop_rgba_sha256": "41c7e5f03f67621e1cf32f448046174d1e066fe855a1120371cc074524f01ede",
+          "logical_crop_offset": [
+            -93,
+            -132
+          ],
+          "composite_paste_offset": [
+            41,
+            21,
+            177,
+            160
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -42,
+                -21,
+                -2,
+                53,
+                39,
+                116
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/moveback/006.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "7d91652ae099a6e65b833463bd6d0bf836eec23757b6bd5ba7a63eb6d09a00a9",
+          "sha256_rgba": "041ab174716483975986b62a5f66fb4bd4da04a396bbbcd6ad4c22c531c70091",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/moveback/006.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 10,
+          "resolved_img_frame": 10,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 137,
+            "height": 140,
+            "x": 149,
+            "y": 248,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 25250,
+            "data_bytes": 2665,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/010.png",
+          "source_crop_rgba_sha256": "2435cdd4d46258358b14e3878966ba3bee6e7d05ae73215a040f2604ebc4a628",
+          "logical_crop_offset": [
+            -94,
+            -132
+          ],
+          "composite_paste_offset": [
+            40,
+            21,
+            177,
+            161
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -42,
+                -21,
+                -2,
+                53,
+                39,
+                116
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        }
+      ]
+    },
+    "sit": {
+      "source_ani": "monster/draconian/dmani/sit.ani",
+      "source_action": "sit",
+      "source_sha256": "1e386318fd4a8d087a29fe95694770e7298fd800300aceaad8830890ce4959bf",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_mirkius.img"
+      ],
+      "source_frames_count": 1,
+      "frames": [
+        {
+          "texture": "res://assets/r3/draconian/frames/sit/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "88563041e6d5f4bc0ccaa46f4cf588db4f1c7f7b04b39a88dab922f854501b9b",
+          "sha256_rgba": "24a2de72f87def0d1cb5209729003a4c1879e575d75e0b56e68ec44a2376d7de",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/sit/000.png.import",
+          "duration_ms": 100,
+          "source_duration_ms": 100,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 32,
+          "resolved_img_frame": 32,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 153,
+            "height": 89,
+            "x": 189,
+            "y": 303,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 83069,
+            "data_bytes": 2408,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/032.png",
+          "source_crop_rgba_sha256": "e095586211fd088e7aeae4499547c4507535b61b564b42644f7d7d2f72992e4b",
+          "logical_crop_offset": [
+            -54,
+            -77
+          ],
+          "composite_paste_offset": [
+            80,
+            76,
+            233,
+            165
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -10,
+                -20,
+                -1,
+                66,
+                41,
+                66
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        }
+      ]
+    },
+    "attacklong": {
+      "source_ani": "monster/draconian/dmani/attacklong.ani",
+      "source_action": "attacklong",
+      "source_sha256": "85de8186e158d024afeedd4ea1a955ac23fc3f8611ff2d30d375645d6a20baea",
+      "source_globals": [],
+      "source_resources": [
+        "monster/draconian/draco_mirkius.img"
+      ],
+      "source_frames_count": 7,
+      "frames": [
+        {
+          "texture": "res://assets/r3/draconian/frames/attacklong/000.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "04b8b270fb14184700e56768974406819c9987b3d6f9304813de975d3e4fe9b6",
+          "sha256_rgba": "81647066f329408d94547cffaaa3a8f679f5d0e677c23cf3b8a4a1a5c62fbcc4",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/attacklong/000.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 25,
+          "resolved_img_frame": 25,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 162,
+            "height": 124,
+            "x": 178,
+            "y": 270,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 64318,
+            "data_bytes": 2719,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/025.png",
+          "source_crop_rgba_sha256": "dce092b60c9b1175eea449e0eca84fa26423cc6396c91a2d127c93c88a9ac926",
+          "logical_crop_offset": [
+            -65,
+            -110
+          ],
+          "composite_paste_offset": [
+            69,
+            43,
+            231,
+            167
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -24,
+                -17,
+                -7,
+                55,
+                35,
+                109
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/attacklong/001.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "d5cc7f467e3bd44515a2b688b61f29b80291135bc4e511498c0f0728206d82a6",
+          "sha256_rgba": "99de9a0becea01fb3273f57839a5e0f5b353d49301ec61aff33ff61a1bcc37e4",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/attacklong/001.png.import",
+          "duration_ms": 120,
+          "source_duration_ms": 120,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 26,
+          "resolved_img_frame": 26,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 167,
+            "height": 127,
+            "x": 154,
+            "y": 265,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 67037,
+            "data_bytes": 2573,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/026.png",
+          "source_crop_rgba_sha256": "6688562b1ba94239e9313a6a6287f4df9746e67b6ee63bca152a1dda87b72933",
+          "logical_crop_offset": [
+            -89,
+            -115
+          ],
+          "composite_paste_offset": [
+            45,
+            38,
+            212,
+            165
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 120
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -31,
+                -17,
+                -6,
+                55,
+                35,
+                109
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/attacklong/002.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "1f5f4c34822a9b81dcc91571c99eab4ec732cbd4e89e917db97c58bec2b1a123",
+          "sha256_rgba": "5f6d68c8918a0ff9b216b2b3453d512c2c145ce3e950065fcf300a0db2ef952b",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/attacklong/002.png.import",
+          "duration_ms": 200,
+          "source_duration_ms": 200,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 27,
+          "resolved_img_frame": 27,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 169,
+            "height": 127,
+            "x": 152,
+            "y": 265,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 69610,
+            "data_bytes": 2594,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/027.png",
+          "source_crop_rgba_sha256": "470f149bdbde3f9809af274dba8f7505f44960d056ab5b2151b144dc1c187d24",
+          "logical_crop_offset": [
+            -91,
+            -115
+          ],
+          "composite_paste_offset": [
+            43,
+            38,
+            212,
+            165
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 200
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -30,
+                -17,
+                -6,
+                55,
+                35,
+                109
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/attacklong/003.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "613a63bd16e8abb35a536d401999d26441ae58c5420cf1566689abb2991c6102",
+          "sha256_rgba": "b20b0ea8806db83e53e16c7976d5726cad2138320bb63ea823bfab317dd36918",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/attacklong/003.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 28,
+          "resolved_img_frame": 28,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 306,
+            "height": 92,
+            "x": 154,
+            "y": 299,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 72204,
+            "data_bytes": 2651,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/028.png",
+          "source_crop_rgba_sha256": "a9f8adad38d8580ca684d6cff7a4fa27effae948d259f352396815613856e5ed",
+          "logical_crop_offset": [
+            -89,
+            -81
+          ],
+          "composite_paste_offset": [
+            45,
+            72,
+            351,
+            164
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 15,
+              "xyz_size": [
+                52,
+                -10,
+                47,
+                150,
+                20,
+                20
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -11,
+                -17,
+                -3,
+                86,
+                35,
+                76
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/attacklong/004.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "e67ef949a6adc789be26e3936248e8152094744907b19504765303aaf663bfcd",
+          "sha256_rgba": "45cf9a91eb598b602a781ceba697feed9a149c908d765f420a53c4fb3acd9c7e",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/attacklong/004.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 29,
+          "resolved_img_frame": 29,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 308,
+            "height": 92,
+            "x": 155,
+            "y": 299,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 74855,
+            "data_bytes": 2683,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/029.png",
+          "source_crop_rgba_sha256": "8dfcf6cb16e5aaa83ffd5b3dda54c21154c563e11cee7e8081311a70570c0293",
+          "logical_crop_offset": [
+            -88,
+            -81
+          ],
+          "composite_paste_offset": [
+            46,
+            72,
+            354,
+            164
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                2,
+                -17,
+                -5,
+                84,
+                35,
+                79
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/attacklong/005.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "bcdf94e3ad64ff42a24b06ba7df2c132f280d6bc00deb8b33a1b6609783eeae1",
+          "sha256_rgba": "43ac5257ed76f35fdbef465ffc78420de719e490c9eecc9cbba75f698184c455",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/attacklong/005.png.import",
+          "duration_ms": 150,
+          "source_duration_ms": 150,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 30,
+          "resolved_img_frame": 30,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 303,
+            "height": 92,
+            "x": 159,
+            "y": 299,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 77538,
+            "data_bytes": 2679,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/030.png",
+          "source_crop_rgba_sha256": "472b2a92876acb41cd5e7f28ec825231b67366d13ae637b2f09866429f900d80",
+          "logical_crop_offset": [
+            -84,
+            -81
+          ],
+          "composite_paste_offset": [
+            50,
+            72,
+            353,
+            164
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 150
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                3,
+                -17,
+                -4,
+                81,
+                35,
+                80
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        },
+        {
+          "texture": "res://assets/r3/draconian/frames/attacklong/006.png",
+          "size": [
+            362,
+            202
+          ],
+          "sha256_png": "737c56f0c0356eb50e462f87fc44552fe7c9882059e83859dfc0e707065f1736",
+          "sha256_rgba": "7d1ca74d07c6b5a3fd1b8504fd2eb7732d242257233404ae265a207ade8c90fe",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "import_sidecar": "assets/r3/draconian/frames/attacklong/006.png.import",
+          "duration_ms": 80,
+          "source_duration_ms": 80,
+          "duration_origin": "Original ANI property12",
+          "img_frame": 31,
+          "resolved_img_frame": 31,
+          "ani_offset": [
+            -243,
+            -380
+          ],
+          "img_metadata": {
+            "type": 14,
+            "mode": 6,
+            "width": 183,
+            "height": 113,
+            "x": 181,
+            "y": 278,
+            "canvas_width": 500,
+            "canvas_height": 500,
+            "data_offset": 80217,
+            "data_bytes": 2852,
+            "version": 2
+          },
+          "source_crop": "res://assets/r3/draconian/src/031.png",
+          "source_crop_rgba_sha256": "0326548c01b527ed337c1b7432bfdd4533e95b3a810fadbe96d0b20922a6b2e5",
+          "logical_crop_offset": [
+            -62,
+            -102
+          ],
+          "composite_paste_offset": [
+            72,
+            51,
+            255,
+            164
+          ],
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -19,
+                -17,
+                -7,
+                73,
+                35,
+                99
+              ]
+            }
+          ],
+          "derived_artifact": true,
+          "composition": "Exact unmasked RGBA crop copy on shared transparent canvas; no resampling or pixel edits."
+        }
+      ]
+    }
+  },
+  "source_data": "docs/r3_draconian_source_reference.json",
+  "logical_source_bbox": [
+    -126,
+    -145,
+    220,
+    41
+  ],
+  "transparent_margin": 8,
+  "preview_missing_duration_hold_ms": 10000,
+  "notes": [
+    "Legacy monsterID70 Mirkius resolves dictionaryID7/name_530 to 龍人. Simplified 龙人 is a display adaptation.",
+    "Minius/藍龍人, Lakius/魯卡斯, Sius/雷環休斯 and newer Magneus are separate variants; no AI/ACT assets are borrowed from them.",
+    "No gameplay implementation: HP, damage, AI, collision, hit timing, stun and death state machine are not supplied by this export.",
+    "Original ANI properties, XYZ boxes, frame indices, offsets and explicit durations are retained verbatim as decoded data.",
+    "damage1/2 contain no duration property: source_duration_ms=null; duration_ms=10000 is solely a safe static-pose inspector fallback, not original timing or a combat rule.",
+    "Down retains both original10000ms source holds. There is no standalone deathANI in the legacy tree; do not label this export as original death behavior.",
+    "Raw src PNGs contain exact source RGBA. Fixed-canvas frames are derived artifacts with exact unmasked crop copies and transparent padding.",
+    "A contact sheet adds labels and a checkerboard only in work/; exported textures are not changed.",
+    "No client EXE, DLL, game server, ACT interpreter, paid API or internet service was run."
+  ]
+}

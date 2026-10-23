@@ -1,0 +1,1 @@
+Run108 stopped on baker line35: JSON number arrays use float elements, so direct comparison against integer arrays rejected correct canvas320x224/foot133x167. The check now converts pairs to Vector2 before comparison. Finalrun109 completed48 native samples,32 runtime copies and16 exact endpoints. No source image or gameplay state changed by the correction.

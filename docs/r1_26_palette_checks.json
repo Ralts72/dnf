@@ -1,0 +1,397 @@
+{
+  "study": "R1/26 native1x dash source-palette and protected-source check",
+  "cases": [
+    {
+      "frame": 0,
+      "subframe": 0,
+      "opaque_pixels": 3638,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 3638,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "7d6fc2eead6f27727adb3a565d0b6f0d5134a57b54ed800b4f1af3596ac456a4"
+    },
+    {
+      "frame": 0,
+      "subframe": 1,
+      "opaque_pixels": 3759,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2571,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "76772455144cf051723a4e090a457de996d19557d5ae5dc92bc8b430f2af3464",
+      "front_boot_samples": 214,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 0,
+      "subframe": 2,
+      "opaque_pixels": 3834,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2571,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "cd71471f83ab8ba3225386e3c3209e0c0dd70a7223e61923818db2c0cb6a4657",
+      "front_boot_samples": 198,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 1,
+      "subframe": 0,
+      "opaque_pixels": 3840,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 3840,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "7b132dcf14e239612d3b15f37d985a444715cf3eea65c6b85caf53ec0f0c26d3"
+    },
+    {
+      "frame": 1,
+      "subframe": 1,
+      "opaque_pixels": 3824,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2535,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "8c1a1a217f138af06160fbae91a836c27f2993ac06dec797b613389760eebb95",
+      "front_boot_samples": 198,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 1,
+      "subframe": 2,
+      "opaque_pixels": 3884,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2535,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "755339d39262e3583482715c0db20f4594d4c7d198cde713de37bbc85c4831f8",
+      "front_boot_samples": 222,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 2,
+      "subframe": 0,
+      "opaque_pixels": 3631,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 3631,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "2ecb06fe78b24ff178167ac84ce1d3c6348e1cca319a78eca770c5cae61b1c12"
+    },
+    {
+      "frame": 2,
+      "subframe": 1,
+      "opaque_pixels": 3727,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2414,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "f139d0e3fb26d7c3d73774d8ef999511cafd8eccadf20bedd9d572ee504fd45a",
+      "front_boot_samples": 222,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 2,
+      "subframe": 2,
+      "opaque_pixels": 3808,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2414,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "5070df4a8eb37830438dfb756b2e9e26dba91695315b9eb2a12d2efe6e3311db",
+      "front_boot_samples": 199,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 3,
+      "subframe": 0,
+      "opaque_pixels": 3907,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 3907,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "27cbeaeb50029dbcdcf7e5c8b6242db762672b01cebc408a89c925c3f91bc546"
+    },
+    {
+      "frame": 3,
+      "subframe": 1,
+      "opaque_pixels": 3852,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2513,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "9794cc8df61db7f2e5231a2dd092d79db03ce6c1f95b6895dfc835ac152141b3",
+      "front_boot_samples": 199,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 3,
+      "subframe": 2,
+      "opaque_pixels": 3811,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2513,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "d842a63e8cab7757359c1cd46b6880696224aaf9a19c8813a197f36935fc3dac",
+      "front_boot_samples": 221,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 4,
+      "subframe": 0,
+      "opaque_pixels": 3641,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 3641,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "ded0a32ed5c7d8c4ccd2a332da0aeee1eff9aa4a5f799757f20dee9f6d053aac"
+    },
+    {
+      "frame": 4,
+      "subframe": 1,
+      "opaque_pixels": 3535,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2581,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "c4ebb46aab9c414012c460531748eac59f7d2a65adc214c4e4388adaee945edc",
+      "front_boot_samples": 221,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 4,
+      "subframe": 2,
+      "opaque_pixels": 3832,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2581,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "95ccb53b34736326fdebf3b3ee076165c8d94189483b1f6ddb74232ec1504f58",
+      "front_boot_samples": 198,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 5,
+      "subframe": 0,
+      "opaque_pixels": 4015,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 4015,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "df7cd39efe10efc3c828b8d6b84bdd38447d45d04d9ec914c9fb41aa66f693cb"
+    },
+    {
+      "frame": 5,
+      "subframe": 1,
+      "opaque_pixels": 4004,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2730,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "13617fe5614053983cd64f53ffdafcddda3e0702de046648d559b0aa789a928a",
+      "front_boot_samples": 198,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 5,
+      "subframe": 2,
+      "opaque_pixels": 4025,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2730,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "cd421ce98cadf36b959ae83c5fcb59ac829c5d2042548ab90a7875b446b1ff4f",
+      "front_boot_samples": 223,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 6,
+      "subframe": 0,
+      "opaque_pixels": 3922,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 3922,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "8d3110faed7931f144f07829f39d2ae2e930d70a139cbe0690cfe0f4847871b0"
+    },
+    {
+      "frame": 6,
+      "subframe": 1,
+      "opaque_pixels": 4027,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2717,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "b106bbf58de7af7103b811c4bb43c453597696f53f8edaa7e8e89e29aa8f91e2",
+      "front_boot_samples": 223,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 6,
+      "subframe": 2,
+      "opaque_pixels": 4118,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2717,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "e2a1f0f8d95b28dfdb3f485e4bb7a5110419f045eb1d5198944dd3f436dad242",
+      "front_boot_samples": 207,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 7,
+      "subframe": 0,
+      "opaque_pixels": 3989,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 3989,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "821139975a8d2224abb11573b8ef9274488704435c4f803b50e4775e64c4ab2e"
+    },
+    {
+      "frame": 7,
+      "subframe": 1,
+      "opaque_pixels": 3873,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2616,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "493ad3f09db545f6232c1497e881c3260208a2c750d2c19dca030bb339a59df0",
+      "front_boot_samples": 207,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    },
+    {
+      "frame": 7,
+      "subframe": 2,
+      "opaque_pixels": 3735,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "new_RGB_colors": 0,
+      "protected_samples": 2616,
+      "protected_mismatches": 0,
+      "mismatch_examples": [],
+      "png_sha256": "c4c29adcfdd6bd9cea518fb0bbb31d3e4a5a494506cb2bda411de450441bfaa4",
+      "front_boot_samples": 214,
+      "front_boot_mismatches": 0,
+      "front_boot_bad": []
+    }
+  ],
+  "failed": [],
+  "unique_poses": 24,
+  "source_RGB_colors": 73,
+  "opaque_pixels": 92231,
+  "protected_samples": 71937,
+  "front_boot_samples": 3364,
+  "analysis_sha256": "9d1ea92cefe47d1022ac9894ef824f74a7b0b9126ef35fcfd8c7154c50a4f3e9",
+  "note": "Palette, alpha, visible body/clothes/weapon and front-boot samples; does not by itself prove whole-pose aesthetics or all hidden leg geometry."
+}

@@ -1,0 +1,22 @@
+{
+  "check_script": "res://tools/r1/framing_motion_checks.gd",
+  "elapsed_seconds": 10.754081,
+  "qa_source_sha256": "4700aea5afd7ceda0a18f1f74919d66b8f7c883433be639291444a028827e2cd",
+  "render_cases_completed": 0,
+  "result": {
+    "checks": 8,
+    "elapsed_seconds": 10.733841,
+    "failed": [
+      {
+        "check": "moving_camera_has_no_large_jumps",
+        "details": {
+          "maximum_step_source_pixels": 1.43005826159205,
+          "violations": 14
+        },
+        "pass": false
+      }
+    ],
+    "rendered_rows": 1225
+  },
+  "status": "complete"
+}

@@ -1,0 +1,13 @@
+{
+  "check_script": "res://source_art/r1/experiments/dash_cycle_26/r1_checks.gd",
+  "elapsed_seconds": 1.936165,
+  "qa_source_sha256": "dc43ccca8ae4eb766335a04f4e24b100059a9944f5a0cab341ad95caf73d1350",
+  "render_cases_completed": 96,
+  "result": {
+    "cases": 96,
+    "checks": 4,
+    "failed": [],
+    "failed_cases": 0
+  },
+  "status": "complete"
+}

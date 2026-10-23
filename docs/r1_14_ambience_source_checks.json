@@ -1,0 +1,20 @@
+{
+  "candidate": "R1/14",
+  "failed": [],
+  "tag": "AMB_PORT_01",
+  "source_bytes": 498451,
+  "runtime_bytes": 498459,
+  "original_retained_exactly": true,
+  "all_noncomment_packets_identical": true,
+  "decoded_pcm_identical": true,
+  "decoded_pcm_sha256": "4b71418d9e2f5b8155ba948bbd9a80234343889944124198271112357cc185ef",
+  "ogg_pages_crc_checked": 118,
+  "decoded_frames": 1764000,
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration_seconds": 40.0,
+  "rms": 0.04244830086827278,
+  "peak": 0.3470076620578766,
+  "source_script_sha256": "6d99436b0f3f384ae084d5d855f07b5a4741990953fa54c7ab39f148f9c8785b",
+  "note": "Original mapped stereo recording; runtime only repairs one comment. Distance gain and fades are new interpretation."
+}

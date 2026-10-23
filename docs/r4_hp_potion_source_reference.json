@@ -1,0 +1,465 @@
+{
+  "schema": 1,
+  "created_at_utc": "2026-10-23T09:52:04.813006+00:00",
+  "status": "Isolated source-backed supply assets for a later stage; not hooked, no runtime/profile/shop change or live import in this task.",
+  "item_id": 1106,
+  "name_big5": "諾頓的新手HP藥劑",
+  "name_simplified": "诺顿的新手HP药剂",
+  "stk": "stackable/ptn_hplowest.stk",
+  "stackable_lst_pair": [
+    {
+      "type": 2,
+      "value": 1106
+    },
+    {
+      "type": 7,
+      "index": 415412,
+      "text": "ptn_hplowest.stk"
+    }
+  ],
+  "name_dictionary": {
+    "id": 13,
+    "path": "stackable/stackable.kor.str",
+    "keys": {
+      "name_1106": "諾頓的新手HP藥劑",
+      "name2_1106": "Rothon's Newbie HP Potion",
+      "explain_1106": "    可以向諾頓、 賽麗亞、 林納斯或羅莉安購買。",
+      "flavor_text_1106": "    專為首次訪問阿拉德大陸的冒險家準備的實用藥劑， 可以補充HP。"
+    }
+  },
+  "source_value_boundary": {
+    "minimum_level_raw": [
+      1
+    ],
+    "grade_raw": [
+      3
+    ],
+    "stack_limit_raw": [
+      1000
+    ],
+    "price_raw": [
+      100
+    ],
+    "cool_time_raw": [
+      10000
+    ],
+    "cooltime_group_raw": [
+      0
+    ],
+    "hp_recovery_raw": [
+      "+",
+      70,
+      1000,
+      "myself"
+    ],
+    "what_is_known": "The source names an HP potion and literally supplies additive-mode+, value70, another parameter1000, targetmyself. price100 and cool time10000 are direct STK values.",
+    "not_claimed": "No recovered original item-use engine, exact timing interpretation of the1000parameter, source character maxHP/scaling, NPC final-price multiplier, potion-group sharing rules or source use/FX/sound dispatch is implemented or asserted. POTION_TOUCH is [move wav], not proof of a drinking sound.",
+    "source_move_wav": [
+      "POTION_TOUCH"
+    ]
+  },
+  "images": {
+    "icon": {
+      "path": "res://assets/r4/supplies/hp_potion_icon.png",
+      "size": [
+        28,
+        28
+      ],
+      "sha256_png": "b8a85c1b05ef2a34c1a8844027c5be672d3ce20d23fd462c07c2f56dba6e5c8b",
+      "sha256_rgba": "92e6b5117cf164b77706dd80d7c2ed8b36c6e192bd9211544a071ebe28d74310",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "png_rgba_roundtrip_equal": true,
+      "import_sidecar": "assets/r4/supplies/hp_potion_icon.png.import",
+      "source": {
+        "npk": "sprite_item_stackable.NPK",
+        "npk_sha256": "1c475530b7c0504b9e3e6acc9554d976605ed7c6d4a2373d4c09165b008c1392",
+        "img": "sprite/item/stackable/consumption.img",
+        "img_index": 148,
+        "resolved_img_index": 148,
+        "size": [
+          28,
+          28
+        ],
+        "metadata": {
+          "type": 16,
+          "mode": 6,
+          "width": 28,
+          "height": 28,
+          "x": 0,
+          "y": 0,
+          "canvas_width": 28,
+          "canvas_height": 28,
+          "data_offset": 376144,
+          "data_bytes": 1472,
+          "version": 2
+        },
+        "entry": {
+          "pack": "sprite_item_stackable.NPK",
+          "path": "sprite/item/stackable/consumption.img",
+          "offset": 7618829,
+          "bytes": 4565199,
+          "version": 2,
+          "frames": 2176,
+          "index_bytes": 78336
+        },
+        "sha256_img_payload": "348a130370043bf9147dfd7b92d6c037b5182783180b8df55796cf47379de98d",
+        "sha256_decoded_RGBA": "92e6b5117cf164b77706dd80d7c2ed8b36c6e192bd9211544a071ebe28d74310",
+        "alpha_range": [
+          0,
+          255
+        ]
+      },
+      "original_img_crop": true,
+      "source_payload_evidence": "source_art/r4/supplies/npk/consumption.img",
+      "pixel_policy": "Exact decoded original RGBA crop including transparent RGB; no resize/redraw/alpha edits/flip/canvas rebuild."
+    },
+    "field": {
+      "path": "res://assets/r4/supplies/field.png",
+      "size": [
+        12,
+        9
+      ],
+      "sha256_png": "0168cae8f9e421fe2ff28e195b676898fd3d6138a2b32b7d6682c82011961300",
+      "sha256_rgba": "552e6a9cea7010554c93785d0a8549d19d8a17d6af0453ebac23781f26de7e49",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "png_rgba_roundtrip_equal": true,
+      "import_sidecar": "assets/r4/supplies/field.png.import",
+      "source": {
+        "npk": "sprite_item.NPK",
+        "npk_sha256": "6c91e3eb6452f921f4677579a904395b75a75d8d8e943127b8a2ece7b5b40ac9",
+        "img": "sprite/item/field_consumption.img",
+        "img_index": 7,
+        "resolved_img_index": 7,
+        "size": [
+          12,
+          9
+        ],
+        "metadata": {
+          "type": 14,
+          "mode": 6,
+          "width": 12,
+          "height": 9,
+          "x": 1,
+          "y": 1,
+          "canvas_width": 14,
+          "canvas_height": 11,
+          "data_offset": 7443,
+          "data_bytes": 99,
+          "version": 2
+        },
+        "entry": {
+          "pack": "sprite_item.NPK",
+          "path": "sprite/item/field_consumption.img",
+          "offset": 23931,
+          "bytes": 55551,
+          "version": 2,
+          "frames": 111,
+          "index_bytes": 3996
+        },
+        "sha256_img_payload": "96e7fc633345ad3083751f899308efa414aeae6fdbc341fc18d0089ef0ccabdc",
+        "sha256_decoded_RGBA": "552e6a9cea7010554c93785d0a8549d19d8a17d6af0453ebac23781f26de7e49",
+        "alpha_range": [
+          0,
+          255
+        ]
+      },
+      "original_img_crop": true,
+      "source_payload_evidence": "source_art/r4/supplies/npk/field_consumption.img",
+      "pixel_policy": "Exact decoded original RGBA crop including transparent RGB; no resize/redraw/alpha edits/flip/canvas rebuild."
+    }
+  },
+  "shop_proof": {
+    "verified_supplier": {
+      "npc_path": "npc/lorian.npc",
+      "role_values": [
+        "[item shop]",
+        6,
+        "[job change]",
+        2
+      ],
+      "itemshop_id": 6,
+      "shop_path": "itemshop/magic1.shp",
+      "shop_npc": [
+        10
+      ],
+      "shop_type": [
+        "[etc shop]"
+      ],
+      "raw_sell_item": [
+        1106,
+        1107,
+        1108,
+        -1,
+        1112,
+        1113,
+        1114,
+        3302,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        2600487,
+        2600488,
+        -1,
+        2600489,
+        2600490,
+        -1,
+        -1,
+        2600492,
+        2600493,
+        2600494,
+        2600495,
+        2600496,
+        2600576,
+        -1,
+        2600149,
+        2600150,
+        2600054,
+        2600055,
+        2600137,
+        -1,
+        -1,
+        2600151,
+        2600152,
+        2600056,
+        2600057,
+        2600138,
+        -1,
+        -1,
+        2600058,
+        2600059,
+        2600060,
+        2600061,
+        2600139,
+        -1,
+        -1,
+        2600062,
+        2600063,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        2600066,
+        2600067,
+        2600069,
+        2600070,
+        -1,
+        -1,
+        -1,
+        2600140,
+        2600073,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        2600077,
+        2600078,
+        2600082,
+        2600076,
+        -1,
+        -1,
+        -1,
+        2600401,
+        2600402,
+        2600403,
+        2600404,
+        2600405,
+        2600406,
+        -1,
+        2600407,
+        2600408,
+        2600409,
+        2600410,
+        2600411,
+        2600412,
+        -1,
+        2600563,
+        2600564,
+        2600577,
+        2600573,
+        2600574,
+        -1,
+        -1
+      ],
+      "has_selected_item": true
+    },
+    "not_sharan": {
+      "npc_path": "npc/sharan.npc",
+      "shop_id": 16,
+      "shop_path": "itemshop/magic2.shp",
+      "npc_id": 12,
+      "selected_item_present": false,
+      "direct_item_count": 72,
+      "all_recipe": true,
+      "HP_recovery_item_count": 0,
+      "detailed_CRC_analysis": "work/r4_hp_consumable_feasibility.json"
+    },
+    "tooltip_separate_from_membership": "explain_1106 listsNorton/Seria/Linus/Lorian. This report relies on current direct Lorian NPC→shop6→magic1.shp membership, not on assuming every textual vendor hint remains accurate in this modified95pack."
+  },
+  "source_scripts": [
+    {
+      "pvf": "stackable/stackable.lst",
+      "evidence": "source_art/r4/supplies/pvf/stackable/stackable.lst",
+      "bytes": 162942,
+      "sha256_decoded": "bb9fde9150fc8d7f72406e1c840ab7474f533974beee6b8b7a594b02968bf295",
+      "crc": {
+        "expected": 2602710813,
+        "actual_seed_file_number": 2602710813,
+        "actual_seed_zero": 1168476647
+      },
+      "crc_matches": true
+    },
+    {
+      "pvf": "stackable/ptn_hplowest.stk",
+      "evidence": "source_art/r4/supplies/pvf/stackable/ptn_hplowest.stk",
+      "bytes": 257,
+      "sha256_decoded": "a5658135da011fc68f7a950ef3229bde42e1933af2ace1757c4d248ddadcf376",
+      "crc": {
+        "expected": 1760058315,
+        "actual_seed_file_number": 1760058315,
+        "actual_seed_zero": 2660448184
+      },
+      "crc_matches": true
+    },
+    {
+      "pvf": "n_string.lst",
+      "evidence": "source_art/r4/supplies/pvf/n_string.lst",
+      "bytes": 262,
+      "sha256_decoded": "dcb2b4484b4f60dab1c784d83f6a49f1c4cdae145d158e55bd4767fe3f76909d",
+      "crc": {
+        "expected": 2697374422,
+        "actual_seed_file_number": 2697374422,
+        "actual_seed_zero": 1962917806
+      },
+      "crc_matches": true
+    },
+    {
+      "pvf": "stackable/stackable.kor.str",
+      "evidence": "source_art/r4/supplies/pvf/stackable/stackable.kor.str",
+      "bytes": 1827482,
+      "sha256_decoded": "a182b15f82cc1acdc6bec965e824769e1bc5e1d9c1486987158d3a841b8f4290",
+      "crc": {
+        "expected": 4178054023,
+        "actual_seed_file_number": 4178054023,
+        "actual_seed_zero": 361583772
+      },
+      "crc_matches": true
+    },
+    {
+      "pvf": "npc/npc.lst",
+      "evidence": "source_art/r4/supplies/pvf/npc/npc.lst",
+      "bytes": 3442,
+      "sha256_decoded": "ead2e8838817a0dd407fd469b7b3f51d9b3611e9c51858a0a7832aea1b4be697",
+      "crc": {
+        "expected": 4101900664,
+        "actual_seed_file_number": 4101900664,
+        "actual_seed_zero": 216562602
+      },
+      "crc_matches": true
+    },
+    {
+      "pvf": "npc/lorian.npc",
+      "evidence": "source_art/r4/supplies/pvf/npc/lorian.npc",
+      "bytes": 4307,
+      "sha256_decoded": "b01f51d67f7455112d6312f5fd79b69c3e67f8cd4e047591581f573c6f0f15eb",
+      "crc": {
+        "expected": 3621860216,
+        "actual_seed_file_number": 3621860216,
+        "actual_seed_zero": 2158087284
+      },
+      "crc_matches": true
+    },
+    {
+      "pvf": "itemshop/itemshop.lst",
+      "evidence": "source_art/r4/supplies/pvf/itemshop/itemshop.lst",
+      "bytes": 1432,
+      "sha256_decoded": "dc5f7fe7040386ccdc5e66d093cf18a325ad56625ea8d4037fd47bb1d61edbc4",
+      "crc": {
+        "expected": 2991318776,
+        "actual_seed_file_number": 2991318776,
+        "actual_seed_zero": 965709027
+      },
+      "crc_matches": true
+    },
+    {
+      "pvf": "itemshop/magic1.shp",
+      "evidence": "source_art/r4/supplies/pvf/itemshop/magic1.shp",
+      "bytes": 537,
+      "sha256_decoded": "df76d0488ecee467d352f13affa03ad54e66b27c7859cb67dcc80ad9f7d00984",
+      "crc": {
+        "expected": 80777687,
+        "actual_seed_file_number": 80777687,
+        "actual_seed_zero": 498740789
+      },
+      "crc_matches": true
+    },
+    {
+      "pvf": "npc/sharan.npc",
+      "evidence": "source_art/r4/supplies/pvf/npc/sharan.npc",
+      "bytes": 5587,
+      "sha256_decoded": "d243abdb27ecc67914117e310434add276c7e214244334d566c63206f7421dd1",
+      "crc": {
+        "expected": 2233606215,
+        "actual_seed_file_number": 2233606215,
+        "actual_seed_zero": 3314975481
+      },
+      "crc_matches": true
+    },
+    {
+      "pvf": "itemshop/magic2.shp",
+      "evidence": "source_art/r4/supplies/pvf/itemshop/magic2.shp",
+      "bytes": 607,
+      "sha256_decoded": "fa18bcc07c817748cbc504628a4a12b597227ce21f5a0c46ef393d72e65e83a4",
+      "crc": {
+        "expected": 3996227145,
+        "actual_seed_file_number": 3996227145,
+        "actual_seed_zero": 2008846600
+      },
+      "crc_matches": true
+    }
+  ],
+  "all_PVF_CRC_match": true,
+  "all_PNG_RGBA_roundtrip_exact": true,
+  "future_adaptation": {
+    "proposed_vendor": "Existing harbor Lorian (source shop6 Magic1 directly lists1106)",
+    "prototype_buy_cost_coins": 10,
+    "prototype_heal_HP": null,
+    "status": "Root favors cost10; healing amount/effect/use policy require explicit later tuning. Source[price]100 and [hp recovery][+,70,1000,myself] are references only; no original purchase/effect engine equivalence is claimed. No potion-use sound/FX is bound."
+  },
+  "pixel_import_policy": "Only these2new PNG sidecars use the existing scoped lossless/no-mipmap/nearest profile; no project-wide importer scan/configuration.",
+  "analysis": "work/r4_hp_consumable_feasibility.json",
+  "analyzer": "work/inspect_hp_consumable.py",
+  "client_root": "/Users/mac/Downloads/天堂95起源单机客户端",
+  "pvf_header": {
+    "version_raw": 3755924789,
+    "tree_bytes": 52325060,
+    "file_count": 597489,
+    "unique_paths": 597489,
+    "tree_consumed": 52325059,
+    "tree_padding": 1,
+    "tree_crc_expected": 3484566826,
+    "tree_crc_actual": 3484566826,
+    "payload_bounds_errors": [],
+    "parse_error": null
+  },
+  "runtime_integration": {
+    "candidate": "R4/04",
+    "status": "Source extraction was isolated; root subsequently accepted integrated shop and H use after native QA.",
+    "definition": "data/first_supplies.json",
+    "source_price_preserved": 100,
+    "adapted_price": 10,
+    "adapted_immediate_HP": 35,
+    "cooldown_seconds": 10,
+    "normal_return_persistence_boundary": "Inventory commits before synchronous transient healing; cross-process crash atomicity is not asserted."
+  }
+}

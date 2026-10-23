@@ -1,0 +1,133 @@
+{
+  "path": "monster/draconian/dlattackinfo/attack.atk",
+  "bytes": 127,
+  "sha256_decoded_bytes": "07fe1fc62dd429cd4e8759beb7f210529ab8ec55eaabb621ecef885e0c1e9d61",
+  "crc": {
+    "expected": 3174899827,
+    "actual_seed_file_number": 3174899827,
+    "actual_seed_zero": 1245835064
+  },
+  "crc_matches": true,
+  "original_reference": "source_art/r4/lakius/pvf/monster/draconian/dlattackinfo/attack.atk.bin",
+  "decoded_reference": "source_art/r4/lakius/pvf/monster/draconian/dlattackinfo/attack.atk.json",
+  "decoded": [
+    {
+      "type": 5,
+      "index": 7389,
+      "text": "[damage bonus]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 1103,
+      "text": "[attack type]"
+    },
+    {
+      "type": 5,
+      "index": 1104,
+      "text": "[physic]"
+    },
+    {
+      "type": 5,
+      "index": 1105,
+      "text": "[weapon damage apply]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 1106,
+      "text": "[attack enemy]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 1107,
+      "text": "[elemental property]"
+    },
+    {
+      "type": 5,
+      "index": 1108,
+      "text": "[no element]"
+    },
+    {
+      "type": 5,
+      "index": 1109,
+      "text": "[damage reaction]"
+    },
+    {
+      "type": 5,
+      "index": 1110,
+      "text": "[damage]"
+    },
+    {
+      "type": 5,
+      "index": 1111,
+      "text": "[push aside]"
+    },
+    {
+      "type": 2,
+      "value": 200
+    },
+    {
+      "type": 5,
+      "index": 1112,
+      "text": "[lift up]"
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 5,
+      "index": 1118,
+      "text": "[hit wav]"
+    },
+    {
+      "type": 7,
+      "index": 307464,
+      "text": "KNIFE_HIT"
+    },
+    {
+      "type": 5,
+      "index": 1113,
+      "text": "[attack direction]"
+    },
+    {
+      "type": 5,
+      "index": 1114,
+      "text": "[hit lift up]"
+    },
+    {
+      "type": 5,
+      "index": 1115,
+      "text": "[hit info]"
+    },
+    {
+      "type": 5,
+      "index": 1123,
+      "text": "[cut]"
+    },
+    {
+      "type": 5,
+      "index": 1124,
+      "text": "[blood]"
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    }
+  ]
+}

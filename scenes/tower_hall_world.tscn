@@ -1,0 +1,272 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/r2/interior/paving.png" id="1"]
+[ext_resource type="Texture2D" path="res://assets/r2/interior/column.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/r2/interior/wall_3.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/r2/interior/wall_4.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/r2/interior/banner.png" id="5"]
+
+[sub_resource type="StandardMaterial3D" id="R2_1"]
+shading_mode = 1
+albedo_texture = ExtResource("1")
+roughness = 1.0
+texture_filter = 0
+uv1_scale = Vector3(1.00000000, 1.00000000, 1.00000000)
+uv1_offset = Vector3(0.00000000, 0.00000000, 0.00000000)
+
+[sub_resource type="StandardMaterial3D" id="R2_2"]
+shading_mode = 1
+albedo_texture = ExtResource("2")
+roughness = 1.0
+texture_filter = 0
+uv1_scale = Vector3(0.37931034, 0.64516129, 1.00000000)
+uv1_offset = Vector3(0.31034483, 0.17204301, 0.00000000)
+
+[sub_resource type="BoxMesh" id="R2_3"]
+material = SubResource("R2_1")
+size = Vector3(20.50000000, 0.24000000, 5.82029813)
+
+[sub_resource type="StandardMaterial3D" id="R2_4"]
+shading_mode = 0
+albedo_texture = ExtResource("1")
+roughness = 1.0
+texture_filter = 0
+uv1_scale = Vector3(6.40625000, 2.23958333, 1.00000000)
+uv1_offset = Vector3(0.00000000, 0.00000000, 0.00000000)
+
+[sub_resource type="PlaneMesh" id="R2_5"]
+material = SubResource("R2_4")
+size = Vector2(20.5, 5.8202981296465)
+
+[sub_resource type="BoxMesh" id="R2_6"]
+material = SubResource("R2_1")
+size = Vector3(7.86666667, 0.62000000, 0.28000000)
+
+[sub_resource type="BoxMesh" id="R2_7"]
+material = SubResource("R2_2")
+size = Vector3(7.86666667, 0.08000000, 0.35000000)
+
+[sub_resource type="BoxMesh" id="R2_8"]
+material = SubResource("R2_1")
+size = Vector3(7.76666667, 0.62000000, 0.28000000)
+
+[sub_resource type="BoxMesh" id="R2_9"]
+material = SubResource("R2_2")
+size = Vector3(7.76666667, 0.08000000, 0.35000000)
+
+[sub_resource type="CylinderMesh" id="R2_10"]
+material = SubResource("R2_2")
+bottom_radius = 0.46
+top_radius = 0.46
+height = 0.18
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R2_11"]
+material = SubResource("R2_2")
+bottom_radius = 0.37
+top_radius = 0.37
+height = 0.15
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R2_12"]
+material = SubResource("R2_2")
+bottom_radius = 0.22
+top_radius = 0.17
+height = 3.15
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R2_13"]
+material = SubResource("R2_2")
+bottom_radius = 0.42
+top_radius = 0.48
+height = 0.2
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxMesh" id="R2_14"]
+material = SubResource("R2_2")
+size = Vector3(0.50000000, 0.17000000, 0.48000000)
+
+[sub_resource type="BoxMesh" id="R2_15"]
+material = SubResource("R2_1")
+size = Vector3(0.25000000, 2.25000000, 0.30000000)
+
+[sub_resource type="BoxMesh" id="R2_16"]
+material = SubResource("R2_2")
+size = Vector3(0.52000000, 0.16000000, 0.48000000)
+
+[sub_resource type="BoxMesh" id="R2_17"]
+material = SubResource("R2_2")
+size = Vector3(1.85000000, 0.01800000, 0.24000000)
+
+[sub_resource type="BoxMesh" id="R2_18"]
+material = SubResource("R2_1")
+size = Vector3(1.80000000, 0.24000000, 0.28000000)
+
+[sub_resource type="BoxMesh" id="R2_19"]
+material = SubResource("R2_2")
+size = Vector3(1.88000000, 0.06000000, 0.36000000)
+
+[node name="TowerHallWorld" type="Node3D"]
+metadata/layout_policy = "Adapted R2 route; original source pixels, new3D geometry."
+
+[node name="HallStoneFoundation" type="MeshInstance3D" parent="."]
+position = Vector3(-0.05000000, -0.11000000, 3.36755678)
+mesh = SubResource("R2_3")
+
+[node name="WalkablePaving" type="MeshInstance3D" parent="."]
+position = Vector3(-0.05000000, 0.01500000, 3.36755678)
+mesh = SubResource("R2_5")
+
+[node name="RearStoneDado_Left" type="MeshInstance3D" parent="."]
+position = Vector3(-6.36666667, 0.32500000, 0.43033656)
+mesh = SubResource("R2_6")
+
+[node name="RearGildedCoping_Left" type="MeshInstance3D" parent="."]
+position = Vector3(-6.36666667, 0.67500000, 0.43033656)
+mesh = SubResource("R2_7")
+
+[node name="RearStoneDado_Right" type="MeshInstance3D" parent="."]
+position = Vector3(6.31666667, 0.32500000, 0.43033656)
+mesh = SubResource("R2_8")
+
+[node name="RearGildedCoping_Right" type="MeshInstance3D" parent="."]
+position = Vector3(6.31666667, 0.67500000, 0.43033656)
+mesh = SubResource("R2_9")
+
+[node name="SourceSpiralColumn_0" type="Sprite3D" parent="."]
+texture = ExtResource("3")
+position = Vector3(-5.13333333, -0.22126459, 0.41291495)
+rotation = Vector3(-0.66322512, 0.00000000, 0.00000000)
+pixel_size = 0.016666666666666666
+offset = Vector2(0, 217.0)
+billboard = 0
+alpha_cut = 1
+alpha_scissor_threshold = 0.25
+texture_filter = 0
+shaded = false
+cast_shadow = 0
+metadata/source_pixel_policy = "Original crop at1 source pixel per logical view pixel; only view-ray depth offset."
+
+[node name="NativeColumnFoot_0" type="MeshInstance3D" parent="."]
+position = Vector3(-5.13333333, 0.10500000, 0.56569233)
+mesh = SubResource("R2_10")
+
+[node name="NativeColumnRing_0" type="MeshInstance3D" parent="."]
+position = Vector3(-5.13333333, 0.27000000, 0.56569233)
+mesh = SubResource("R2_11")
+
+[node name="NativeColumnShaft_0" type="MeshInstance3D" parent="."]
+position = Vector3(-5.13333333, 1.92000000, 0.56569233)
+mesh = SubResource("R2_12")
+
+[node name="NativeColumnCapital_0" type="MeshInstance3D" parent="."]
+position = Vector3(-5.13333333, 3.59500000, 0.56569233)
+mesh = SubResource("R2_13")
+
+[node name="SourceSpiralColumn_1" type="Sprite3D" parent="."]
+texture = ExtResource("4")
+position = Vector3(5.20000000, -0.22126459, 0.41291495)
+rotation = Vector3(-0.66322512, 0.00000000, 0.00000000)
+pixel_size = 0.016666666666666666
+offset = Vector2(0, 217.0)
+billboard = 0
+alpha_cut = 1
+alpha_scissor_threshold = 0.25
+texture_filter = 0
+shaded = false
+cast_shadow = 0
+metadata/source_pixel_policy = "Original crop at1 source pixel per logical view pixel; only view-ray depth offset."
+
+[node name="NativeColumnFoot_1" type="MeshInstance3D" parent="."]
+position = Vector3(5.20000000, 0.10500000, 0.56569233)
+mesh = SubResource("R2_10")
+
+[node name="NativeColumnRing_1" type="MeshInstance3D" parent="."]
+position = Vector3(5.20000000, 0.27000000, 0.56569233)
+mesh = SubResource("R2_11")
+
+[node name="NativeColumnShaft_1" type="MeshInstance3D" parent="."]
+position = Vector3(5.20000000, 1.92000000, 0.56569233)
+mesh = SubResource("R2_12")
+
+[node name="NativeColumnCapital_1" type="MeshInstance3D" parent="."]
+position = Vector3(5.20000000, 3.59500000, 0.56569233)
+mesh = SubResource("R2_13")
+
+[node name="BakalBannerReference" type="Sprite3D" parent="."]
+texture = ExtResource("5")
+position = Vector3(0.00000000, -0.49831225, -0.13118797)
+rotation = Vector3(-0.66322512, 0.00000000, 0.00000000)
+pixel_size = 0.016666666666666666
+offset = Vector2(0, 154.5)
+billboard = 0
+alpha_cut = 1
+alpha_scissor_threshold = 0.25
+texture_filter = 0
+shaded = false
+cast_shadow = 0
+metadata/source_pixel_policy = "Original crop at1 source pixel per logical view pixel; only view-ray depth offset."
+
+[node name="ReturnArchFoot_Left" type="MeshInstance3D" parent="."]
+position = Vector3(-1.73333333, 0.10000000, 4.00372890)
+mesh = SubResource("R2_14")
+
+[node name="ReturnArchPier_Left" type="MeshInstance3D" parent="."]
+position = Vector3(-1.73333333, 1.31000000, 4.00372890)
+mesh = SubResource("R2_15")
+
+[node name="ReturnArchCapital_Left" type="MeshInstance3D" parent="."]
+position = Vector3(-1.73333333, 2.51500000, 4.00372890)
+mesh = SubResource("R2_16")
+
+[node name="ReturnArchFoot_Right" type="MeshInstance3D" parent="."]
+position = Vector3(1.46666667, 0.10000000, 4.00372890)
+mesh = SubResource("R2_14")
+
+[node name="ReturnArchPier_Right" type="MeshInstance3D" parent="."]
+position = Vector3(1.46666667, 1.31000000, 4.00372890)
+mesh = SubResource("R2_15")
+
+[node name="ReturnArchCapital_Right" type="MeshInstance3D" parent="."]
+position = Vector3(1.46666667, 2.51500000, 4.00372890)
+mesh = SubResource("R2_16")
+
+[node name="ReturnThreshold" type="MeshInstance3D" parent="."]
+position = Vector3(-0.13333333, 0.02500000, 3.21866543)
+mesh = SubResource("R2_17")
+
+[node name="NearSideDado_0" type="MeshInstance3D" parent="."]
+position = Vector3(-5.46666667, 0.13500000, 4.84293467)
+mesh = SubResource("R2_18")
+
+[node name="NearSideCap_0" type="MeshInstance3D" parent="."]
+position = Vector3(-5.46666667, 0.28500000, 4.84293467)
+mesh = SubResource("R2_19")
+
+[node name="NearSideDado_1" type="MeshInstance3D" parent="."]
+position = Vector3(-3.06666667, 0.13500000, 4.84293467)
+mesh = SubResource("R2_18")
+
+[node name="NearSideCap_1" type="MeshInstance3D" parent="."]
+position = Vector3(-3.06666667, 0.28500000, 4.84293467)
+mesh = SubResource("R2_19")
+
+[node name="NearSideDado_2" type="MeshInstance3D" parent="."]
+position = Vector3(2.80000000, 0.13500000, 4.84293467)
+mesh = SubResource("R2_18")
+
+[node name="NearSideCap_2" type="MeshInstance3D" parent="."]
+position = Vector3(2.80000000, 0.28500000, 4.84293467)
+mesh = SubResource("R2_19")
+
+[node name="NearSideDado_3" type="MeshInstance3D" parent="."]
+position = Vector3(5.46666667, 0.13500000, 4.84293467)
+mesh = SubResource("R2_18")
+
+[node name="NearSideCap_3" type="MeshInstance3D" parent="."]
+position = Vector3(5.46666667, 0.28500000, 4.84293467)
+mesh = SubResource("R2_19")

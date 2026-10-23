@@ -1,0 +1,333 @@
+{
+  "collector_sha256": "5ead429c57b60aa2868ecf9087f1aab8f2a14dcd5ec70bfbbf6571c52b969a37",
+  "glb_sha256": "1163ffa227be2edee92d14ca80a0ab718026d1c8408e218ffeb11e1232833ff5",
+  "model": "res://assets/r1/models/west_coast_port.glb",
+  "note": "Actual imported model material paths. Sizes and RGBA hashes are read from the extracted PNG files, not compressed runtime images.",
+  "texture_count": 27,
+  "textures": [
+    {
+      "materials": [
+        "Source_Painted_Facade"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_000.png",
+      "png_sha256": "991fd297af75021435997ef9fec325c59c3d917bb3c126559cc60475773d3d04",
+      "rgba_sha256": "4fa308470d9126ab3e4084f88678320eb3f22e8ec82eff5102ca7c90ffa66fa2",
+      "size": [
+        224,
+        386
+      ]
+    },
+    {
+      "materials": [
+        "Source_Painted_Pier_Backwall"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_000_17.png",
+      "png_sha256": "d6a9ee58f8678512e0f8adb066c3e379013e84f112fbab8b9d77146696f8fd08",
+      "rgba_sha256": "2ee0e5234f5e345cfdb4f0a0be65bfbee9c695bb0058af565cf5dd13670bbf0a",
+      "size": [
+        224,
+        277
+      ]
+    },
+    {
+      "materials": [
+        "Source_Painted_Stall"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_000_18.png",
+      "png_sha256": "5eb65316942a473f59d486a38c327ddb81f6cf16569f20a07e59c1c9ffb67a4d",
+      "rgba_sha256": "25f99ca40f8d1c7c24d4881c8a3e540ef647050ecc72797d22c15314519da73f",
+      "size": [
+        443,
+        230
+      ]
+    },
+    {
+      "materials": [
+        "Source_Dock_Metal"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_dock_metal.png",
+      "png_sha256": "abc775c033aeb35a0c0200447e9b63ce88fc1620f481b897c00f51f7865db627",
+      "rgba_sha256": "934a84e291e43bf9f5931c070da5aba763742de82ad4dd168f83a4d7a13bad5b",
+      "size": [
+        15,
+        4
+      ]
+    },
+    {
+      "materials": [
+        "Source_Dock_Rope"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_dock_rope.png",
+      "png_sha256": "b3844cf4007a033d0bd6562107186dba48ae7233605103583d6545c344a4073b",
+      "rgba_sha256": "a595a5ce94041093e70317bfe75550d46b140f542a51d63a0063dc2542e5947e",
+      "size": [
+        23,
+        4
+      ]
+    },
+    {
+      "materials": [
+        "Source_Dock_Stone"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_dock_stone.png",
+      "png_sha256": "d523ad15d11a3c1f33d9f628fe2be89b0fc67c3afa0092c68dd719244fce5aa9",
+      "rgba_sha256": "74a4848718332e27ad4f84e7e4f70efb9b4bd481cc3f0336420405f4d50768b9",
+      "size": [
+        28,
+        7
+      ]
+    },
+    {
+      "materials": [
+        "Source_Dock_Wood"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_dock_wood.png",
+      "png_sha256": "74a1fd254aeac82389637119e70977509e334b536fbf1ecb8ed9da631bcd5cdc",
+      "rgba_sha256": "a9eaad3697e663f7e310916555b9ff9968b2a4ea3f1e6e83313e6821e46e4d0f",
+      "size": [
+        13,
+        9
+      ]
+    },
+    {
+      "materials": [
+        "Source_Grove_Bark"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_grove_bark.png",
+      "png_sha256": "d8670b7b4d0c5bbe787a7596b5cbab89d4d2e31e40f54569ebd20011c4bfef56",
+      "rgba_sha256": "d7d0501e4335fd6924e5736a1882eb6d071275c91c2af22c2a600ada9503a335",
+      "size": [
+        13,
+        48
+      ]
+    },
+    {
+      "materials": [
+        "Source_Grove_Canopy"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_grove_canopy.png",
+      "png_sha256": "0df73a6721348b936e55e9bd30e3ca99a53781c4bb492d625991d3b3ad7f6051",
+      "rgba_sha256": "229ab52104e59a52995e1ef4c008379e5191ff2c2f66ad6013fdc8cc37a7e6f1",
+      "size": [
+        224,
+        140
+      ]
+    },
+    {
+      "materials": [
+        "Source_Grove_Grass"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_grove_grass.png",
+      "png_sha256": "30c1f817c610799990a8fa4a2c63edcab192d3383d9df7aefdfe1694a2aace62",
+      "rgba_sha256": "3d3739381c0a9c0b46dde1258f25c2469de5c63f2be0e791b736f02b4d1ad0b8",
+      "size": [
+        24,
+        8
+      ]
+    },
+    {
+      "materials": [
+        "Source_Grove_Path"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_grove_path.png",
+      "png_sha256": "f718d8cf6a84644528fedb9eabbd4c7f9d0188013154b65e6e9fd2a1bc45843f",
+      "rgba_sha256": "ef5eb07f4b99066b09aa9100b2ed10c31564ee92984b14019d55a49c39091cc6",
+      "size": [
+        40,
+        26
+      ]
+    },
+    {
+      "materials": [
+        "Source_Grove_Plaster"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_grove_plaster.png",
+      "png_sha256": "bb6e18a5e3278bd27a766ab7fa26744d340e5ebd97fc05843aede4cea86bd9d5",
+      "rgba_sha256": "7b0a3ae63407c493e514e03047e793a567e2dbae99b198c52f168b68a77ad21c",
+      "size": [
+        26,
+        45
+      ]
+    },
+    {
+      "materials": [
+        "Source_Lamp_Blue"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_lamp_blue.png",
+      "png_sha256": "35827ab04cab769abfcb7997193061661f396dac97bdcb1725ef43f26d5dc3a8",
+      "rgba_sha256": "12e0c3b668ab2c619f55fce914abee0dabc411a5431aa6eed12034881d65c7bc",
+      "size": [
+        14,
+        8
+      ]
+    },
+    {
+      "materials": [
+        "Source_Lamp_Collar"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_lamp_collar.png",
+      "png_sha256": "6faf69f018a15c134d624b868bbb2cbdd6bfad541da0640dc6348d866ea00917",
+      "rgba_sha256": "029822693c8f87e419c301644a54ac5e7781ad9be7e792a19e1340d3a4dfce83",
+      "size": [
+        11,
+        3
+      ]
+    },
+    {
+      "materials": [
+        "Source_Lamp_Glass"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_lamp_glass.png",
+      "png_sha256": "1103849a87fce310d21123a15c1ccc7cfae055018eb0b08d9860ae2ad9c11050",
+      "rgba_sha256": "edaea97a760ec3b4882da4ab18783a081cbdea81ea1c63e1cd8c18693b30be84",
+      "size": [
+        15,
+        8
+      ]
+    },
+    {
+      "materials": [
+        "Source_Lamp_Shaft"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_lamp_shaft.png",
+      "png_sha256": "762f122dc6327781d5a0d039e16f255a51c212d557f9a5f6fb6023872b62b797",
+      "rgba_sha256": "0a8cb465e811865e2dc1fff4c07be4cb08b03925175d3b6d53d384be883c73fa",
+      "size": [
+        7,
+        28
+      ]
+    },
+    {
+      "materials": [
+        "Paving_Clay_0"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_0.png",
+      "png_sha256": "826474d96bc99a795290203ec3889e325fdfda9225e8b914cb4b24a604f6b9ec",
+      "rgba_sha256": "f92f2a68aa1084d7fd75378bef19b7abb3628b9e27897fc4ea5bc265ab9889fb",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "materials": [
+        "Paving_Clay_1"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_1.png",
+      "png_sha256": "e48746096f59cde621a9ef3859b7dd01a585d2d4be4cb05b7ea883b8f35bb719",
+      "rgba_sha256": "5e39cfc7d6cdef525344e960fab65b5729a0b452c4311a35041b6f05890538b1",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "materials": [
+        "Paving_Clay_2"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_2.png",
+      "png_sha256": "03fced7826b6e9930b8cfef06f7e6f7c85003b406a17f92d48a9d40b9db72085",
+      "rgba_sha256": "a7bd64939a479df7c7ba8ddcbde48049ebbb66d7324b39224930f5bb7d83ab92",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "materials": [
+        "Paving_Clay_3"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_3.png",
+      "png_sha256": "f92e92aea5c591bad59aae6ee95bc6547a3abaa4ddd895879625ef4bb2ca8f32",
+      "rgba_sha256": "eb59fd978053a81b99aca52610fa3d8351ba753caafb137bae168d9204c0c716",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "materials": [
+        "Paving_Clay_4"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_4.png",
+      "png_sha256": "746bac9af1ef56310a11bc1816be2d7591afa83c3a904c6b8f74990f9e25ed14",
+      "rgba_sha256": "eb7ab6b7f8de97c2c416a170a268c9aa5e47ffc05c9e8663075dd229f7a63bf6",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "materials": [
+        "Paving_Clay_5"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_5.png",
+      "png_sha256": "5bd29f7fc6978acdeadf98a4dc5498acad2bb3e74ba4f2850cc21a3230fd4f44",
+      "rgba_sha256": "9a21f9a4c9006e957f96faa4748d9b0d3e997baa7ad60544683bd07716d78206",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "materials": [
+        "Paving_Clay_6"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_6.png",
+      "png_sha256": "6cfbcf768dcdd6d7cd3f22e2223bf6cd67c3d9613f71349e727a7874fdae9382",
+      "rgba_sha256": "d6253ddbd15fc449b09ae1ef7a0b5038b4057fd1115c263b53db4b0ab2bef621",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "materials": [
+        "Paving_Clay_7"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_paving_tile_7.png",
+      "png_sha256": "e00b9d18e7c12adc7aa81f8aa94c0df92b2c9d3a672476eca7a57f0fb30af8bb",
+      "rgba_sha256": "70db5d3e3fb78308c5a6795054f76b3ed7f221441990db903f73d6e9b9122efa",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "materials": [
+        "Source_Pier_Face"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_pier_face.png",
+      "png_sha256": "25423f56aa1328530772111a78cec9dd8a806ea8615e6cd35987c264d4488980",
+      "rgba_sha256": "bb0f592825b325f1f08f5cd4658aa31ea35577c6029843c0fd7bdef5b47111cc",
+      "size": [
+        100,
+        17
+      ]
+    },
+    {
+      "materials": [
+        "Source_Pier_Top"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_pier_top.png",
+      "png_sha256": "b87cb20d2e3e2d2a5f40d3a9ec901a22867ff7cd6c91c2da4b4847841020260e",
+      "rgba_sha256": "fcdc41b494d6344f40948711b9b25d15de04e01219cb5dce93e787071efad8a8",
+      "size": [
+        100,
+        7
+      ]
+    },
+    {
+      "materials": [
+        "Source_Quay_Coping"
+      ],
+      "path": "res://assets/r1/models/west_coast_port_quay_coping.png",
+      "png_sha256": "06dc6074d92a2a58aab9dd1062d789262451f2a8135b31fd0400bfde4dc5e6ff",
+      "rgba_sha256": "6631a209552ea4edc8d1c80987068a8179ff2c01030950225190c6f41109bdd6",
+      "size": [
+        94,
+        18
+      ]
+    }
+  ]
+}

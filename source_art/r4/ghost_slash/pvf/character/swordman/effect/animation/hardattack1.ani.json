@@ -1,0 +1,130 @@
+{
+  "path": "character/swordman/effect/animation/hardattack1.ani",
+  "sha256_decoded_bytes": "18343fc163b9c347ac0059ebceceddeb3a823446d3446f3ae7318f0b816e6185",
+  "bytes": 231,
+  "crc": {
+    "expected": 60887258,
+    "actual_seed_file_number": 60887258,
+    "actual_seed_zero": 438384446
+  },
+  "crc_matches": true,
+  "decoded": {
+    "frames_count": 8,
+    "resources": [
+      "character/swordman/effect/hardattackblade1.img"
+    ],
+    "globals": [
+      {
+        "type": 1,
+        "value": 0
+      }
+    ],
+    "frames": [
+      {
+        "resource": null,
+        "image_frame": -1,
+        "x": -172,
+        "y": -233,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 150
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/hardattackblade1.img",
+        "image_frame": 0,
+        "x": -172,
+        "y": -233,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/hardattackblade1.img",
+        "image_frame": 1,
+        "x": -172,
+        "y": -233,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/hardattackblade1.img",
+        "image_frame": 2,
+        "x": -172,
+        "y": -233,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/hardattackblade1.img",
+        "image_frame": 3,
+        "x": -172,
+        "y": -233,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/hardattackblade1.img",
+        "image_frame": 4,
+        "x": -172,
+        "y": -233,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/effect/hardattackblade1.img",
+        "image_frame": 5,
+        "x": -172,
+        "y": -233,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "resource": null,
+        "image_frame": -1,
+        "x": -172,
+        "y": -233,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 100
+          }
+        ]
+      }
+    ]
+  },
+  "raw_reference": "source_art/r4/ghost_slash/pvf/character/swordman/effect/animation/hardattack1.ani.bin"
+}

@@ -1,0 +1,21 @@
+{
+  "candidate": "R3/04",
+  "scope": "Four low native solids for authored route ground footprints, not original client collisions.",
+  "scenes": [
+    "scenes/tower_approach_collisions.tscn",
+    "scenes/tower_hall_collisions.tscn"
+  ],
+  "foot_radius_m": 0.18,
+  "single_shape_source": "scripts/route_ground_obstacles.gd reads instantiated native CollisionShape3D shapes; no second obstacle coordinate table.",
+  "shared_paths": [
+    "walking and grounded jump footprint",
+    "FirstEncounter._push",
+    "WorldTravel arrival and safe reset",
+    "legacy pending loot display/pickup projection"
+  ],
+  "limits": [
+    "Only current upright unscaled native circle/box solids supported. Unsupported transforms assert rather than silently changing navigation.",
+    "Gate boxes use a conservative rectangle expansion at corners; original central exit trigger remains usable.",
+    "Full camera, environment, combat and client collision reconstruction remain outside this bounded change."
+  ]
+}

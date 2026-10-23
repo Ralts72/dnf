@@ -1,0 +1,33 @@
+{
+  "candidate": "R1/16",
+  "verified_at_utc": "2026-10-23T00:54:23.704127+00:00",
+  "run_id": "r20774096-52",
+  "artifact_hashes_passed": 200,
+  "current_checks": {
+    "model_texture": 84,
+    "stall_color": 18,
+    "runtime": 17,
+    "stall": 11,
+    "pose": 17,
+    "observation": 11
+  },
+  "total_current_checks": 158,
+  "failed": 0,
+  "completed_qa_jobs": 6,
+  "unchanged_runtime_and_model_files": 33,
+  "exact_model_rgba_pixels": 322574,
+  "model_texture_gpu_cases": 54,
+  "model_texture_gpu_samples": 120170,
+  "model_texture_gpu_matching": 120170,
+  "fresh_run_compressed_model_textures": 0,
+  "fresh_run_texture_mismatches": 0,
+  "clean_current_run": true,
+  "quota_remaining_percent": 92,
+  "goal_status": "active",
+  "previews": {
+    "r1_16_window.png": "4ed6afc605cfb02645c103e90e5b28ee76a4e6581c4e0d9ff7f612db8f65d5ca",
+    "r1_16_full1080.png": "271f52e232fbf513c2fc91f57a0eb769cac1d7ef3b2ee7171a32d0d40726c0df",
+    "r1_16_before_import.png": "1ebfb3cccafe568aef9231236654a86af7346b3471cf48d4fc64507265b9d993",
+    "r1_16_after_import.png": "4129e9e3986c345a5a217f2da8eb5bd23cc0fbbf6adc6c1187324a0f2c14103e"
+  }
+}

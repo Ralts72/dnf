@@ -1,0 +1,36 @@
+{
+  "path": "map/draconiantower/animation/far1.ani",
+  "sha256": "441a2268af46fde0fb41a0be2f12d4d7961bec99ee8e0ad787b2155fb4cfa259",
+  "crc": {
+    "expected": 352450423,
+    "actual_seed_file_number": 352450423,
+    "actual_seed_zero": 1930355212
+  },
+  "decoded": {
+    "frames_count": 1,
+    "resources": [
+      "map/act2/amon/far_dr.img"
+    ],
+    "globals": [
+      {
+        "type": 1,
+        "value": 0
+      }
+    ],
+    "frames": [
+      {
+        "resource": "map/act2/amon/far_dr.img",
+        "image_frame": 0,
+        "x": 0,
+        "y": -80,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      }
+    ]
+  }
+}

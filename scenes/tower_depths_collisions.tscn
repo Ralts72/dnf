@@ -1,0 +1,5 @@
+[gd_scene format=3]
+
+[node name="TowerDepthsCollisions" type="Node3D"]
+metadata/ground_policy = "No obstacle shapes: every decorative solid footprint, expanded by the shared 0.18m actor foot radius, is strictly outside walk [36,245,852,345]. Floor/foundation are support below the actor foot, not movement obstacles. See source_art/r4/depths_layout_reference.json."
+metadata/obstacle_count = 0

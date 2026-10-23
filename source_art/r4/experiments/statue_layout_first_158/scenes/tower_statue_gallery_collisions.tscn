@@ -1,0 +1,5 @@
+[gd_scene format=3]
+
+[node name="TowerStatueGalleryCollisions" type="Node3D"]
+metadata/obstacle_count = 0
+metadata/ground_policy = "Intentionally empty: every decorative native mesh AABB, expanded by 0.18m actor foot radius, is at least 2 source pixels outside walk [36,245,1244,345]. Floor/foundation are below-foot support. See docs/r4_statue_gallery_layout_reference.json."

@@ -1,0 +1,157 @@
+{
+  "blender": "5.2.2 LTS",
+  "source": "/Users/mac/project/game/dnf/source_art/r1/west_coast_port.blend",
+  "source_blend_sha256": "7f62ef857bc57048705095e5e37615a6908ec3267dc174889d3ea14fb0db4436",
+  "inspection_script_sha256": "17fce68445f98510e4c45a9643a1ef776f2ed432965e83a410ef27f078bf3407",
+  "scene": "WestCoast_R1_Architecture",
+  "mesh_objects": 258,
+  "images": [
+    {
+      "name": "000.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        224,
+        386
+      ],
+      "available": true
+    },
+    {
+      "name": "000.png.001",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        224,
+        277
+      ],
+      "available": true
+    },
+    {
+      "name": "000.png.002",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        443,
+        230
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_0.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_1.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_2.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_3.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_4.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_5.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_6.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_7.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "pier_face.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        100,
+        17
+      ],
+      "available": true
+    },
+    {
+      "name": "pier_top.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        100,
+        7
+      ],
+      "available": true
+    },
+    {
+      "name": "quay_coping.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        94,
+        18
+      ],
+      "available": true
+    }
+  ],
+  "missing_images": [],
+  "projected_uv_exists": true,
+  "paving_uv_exists": true,
+  "stall_uv_exists": true,
+  "shore_uv_exists": true,
+  "near_shore_diagonal_caps": 9,
+  "source_modified": false
+}

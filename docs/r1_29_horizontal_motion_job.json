@@ -1,0 +1,13 @@
+{
+  "check_script": "res://tools/r1/horizontal_motion_checks.gd",
+  "elapsed_seconds": 12.057655,
+  "qa_source_sha256": "a7e6b2cee14e6e98c941e26fe228c7d5b83074b9172a81cd6a5a15492e62d2a0",
+  "render_cases_completed": 2,
+  "result": {
+    "checks": 9,
+    "elapsed_seconds": 12.016297,
+    "failed": [],
+    "rendered_rows": 1408
+  },
+  "status": "complete"
+}

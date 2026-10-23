@@ -1,0 +1,153 @@
+{
+  "candidate": "R1/10",
+  "source": "assets/r0/port/westile04/image/000.png",
+  "source_sha256": "9b1f15b5ec2c710052f16f01cb42124bcb6072c4071d4e60c259f25e63f16f76",
+  "source_origin": [
+    592,
+    175
+  ],
+  "source_manifest": "docs/r0_asset_manifest.json",
+  "crops": [
+    {
+      "name": "dock_wood",
+      "rect": [
+        65,
+        39,
+        78,
+        48
+      ],
+      "output": "assets/r1/dock_wood.png",
+      "sha256": "74a1fd254aeac82389637119e70977509e334b536fbf1ecb8ed9da631bcd5cdc",
+      "operation": "Exact RGBA crop; no resampling or recoloring"
+    },
+    {
+      "name": "dock_metal",
+      "rect": [
+        63,
+        50,
+        78,
+        54
+      ],
+      "output": "assets/r1/dock_metal.png",
+      "sha256": "abc775c033aeb35a0c0200447e9b63ce88fc1620f481b897c00f51f7865db627",
+      "operation": "Exact RGBA crop; no resampling or recoloring"
+    },
+    {
+      "name": "dock_rope",
+      "rect": [
+        127,
+        77,
+        150,
+        81
+      ],
+      "output": "assets/r1/dock_rope.png",
+      "sha256": "b3844cf4007a033d0bd6562107186dba48ae7233605103583d6545c344a4073b",
+      "operation": "Exact RGBA crop; no resampling or recoloring"
+    },
+    {
+      "name": "dock_stone",
+      "rect": [
+        130,
+        58,
+        158,
+        65
+      ],
+      "output": "assets/r1/dock_stone.png",
+      "sha256": "d523ad15d11a3c1f33d9f628fe2be89b0fc67c3afa0092c68dd719244fce5aa9",
+      "operation": "Exact RGBA crop; no resampling or recoloring"
+    }
+  ],
+  "interior_palette": {
+    "source_pixel": [
+      70,
+      34
+    ],
+    "rgba": [
+      66,
+      41,
+      33,
+      255
+    ]
+  },
+  "barrels": [
+    {
+      "name": "Left",
+      "ground_center": [
+        653,
+        270
+      ],
+      "base_y": 0.025,
+      "height": 0.55,
+      "radius_x": 0.24,
+      "radius_z": 0.16
+    },
+    {
+      "name": "Right",
+      "ground_center": [
+        678,
+        270
+      ],
+      "base_y": 0.025,
+      "height": 0.52,
+      "radius_x": 0.205,
+      "radius_z": 0.14
+    },
+    {
+      "name": "Upper",
+      "ground_center": [
+        663,
+        267
+      ],
+      "base_y": 0.575,
+      "height": 0.62,
+      "radius_x": 0.21,
+      "radius_z": 0.12
+    }
+  ],
+  "mooring": {
+    "ground_center": [
+      734,
+      259
+    ],
+    "stone_bottom_y": 0.35,
+    "stone_height": 0.18,
+    "stone_radius_x": 0.35,
+    "stone_radius_z": 0.135,
+    "rope_tail_source": [
+      [
+        714,
+        256
+      ],
+      [
+        710,
+        253
+      ],
+      [
+        704,
+        252
+      ],
+      [
+        698,
+        254
+      ],
+      [
+        697,
+        258
+      ],
+      [
+        699,
+        260
+      ],
+      [
+        707,
+        257
+      ]
+    ]
+  },
+  "near_ship_view_depth_offset": -0.95,
+  "notes": [
+    "Visible placement follows westile04. Hidden volume, flattened depth and supporting geometry are new interpretation.",
+    "Near ship moves only along the camera ray; its projected source anchor and ANI offsets/timing stay unchanged.",
+    "Native props keep physical ground contact. The image-only ship is placed behind the quay foreground."
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "check_script": "res://tools/r1/pose_checks.gd",
+  "elapsed_seconds": 9.553018,
+  "qa_source_sha256": "bd7f55d8da24f6bf0a8c97ccf9e7abcca8e6e4be3f65ba14debc727ac888cb21",
+  "render_cases_completed": 552,
+  "result": {
+    "checks": [
+      {
+        "check": "R1_three_attack_sequence",
+        "details": {
+          "sequence": [
+            "attack1",
+            "attack2",
+            "attack3",
+            "attack1"
+          ]
+        },
+        "pass": true
+      },
+      {
+        "check": "R1_ui_focus_blocks_attack_without_advancing_queue",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "R1_unknown_action_does_not_lock_control",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "R1_long_source_hold_preserved",
+        "details": {
+          "hold_ms": 10000.0
+        },
+        "pass": true
+      },
+      {
+        "check": "R1_clip_selection_does_not_pause_on_slider_clamp",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "R1_scrub_pauses_and_locates_long_frame",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "R1_turn_retains_pose",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "r1_to_r0_preserves_attack_queue_and_one_shot",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "R0_three_attack_sequence",
+        "details": {
+          "sequence": [
+            "attack1",
+            "attack2",
+            "attack3",
+            "attack1"
+          ]
+        },
+        "pass": true
+      },
+      {
+        "check": "R0_ui_focus_blocks_attack_without_advancing_queue",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "R0_unknown_action_does_not_lock_control",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "R0_long_source_hold_preserved",
+        "details": {
+          "hold_ms": 10000.0
+        },
+        "pass": true
+      },
+      {
+        "check": "R0_clip_selection_does_not_pause_on_slider_clamp",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "R0_scrub_pauses_and_locates_long_frame",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "R0_turn_retains_pose",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "r0_to_r1_preserves_next_attack",
+        "details": {},
+        "pass": true
+      },
+      {
+        "check": "all_source_frames_and_facings_match_rendered_pixels",
+        "details": {
+          "cases": 552,
+          "expected_cases": 552,
+          "failed_cases": 0
+        },
+        "pass": true
+      }
+    ],
+    "failed": 0,
+    "failed_render_cases": 0,
+    "first_failures": [],
+    "render_case_count": 552
+  },
+  "status": "complete"
+}

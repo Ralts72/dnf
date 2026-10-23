@@ -1,0 +1,354 @@
+{
+  "check_script": "res://tools/r3/obstacle_checks.gd",
+  "elapsed_seconds": 22.661366,
+  "qa_source_sha256": "cbf4f2ebd042d6fc138f5637034981b7b485aad6fb478e50503eca7d5c036ad7",
+  "render_cases_completed": 17,
+  "result": {
+    "checks": 17,
+    "failed": [
+      {
+        "check": "right_column_foot_stops_actual_W_without_penetration",
+        "details": {
+          "position": {
+            "x": 620.742980957031,
+            "y": 245
+          }
+        },
+        "pass": false
+      },
+      {
+        "check": "actual_Space_W_cannot_land_inside_column_foot",
+        "details": {
+          "airborne": {
+            "action": "jump",
+            "blocked": false,
+            "combat": {
+              "cleared": false,
+              "combat_blocked": true,
+              "enemy_action_elapsed_ms": 0,
+              "enemy_attack_instance": 0,
+              "enemy_cooldown": 0.35,
+              "enemy_hit_used": false,
+              "enemy_hp": 90,
+              "enemy_hurt_remaining": 0,
+              "enemy_mode": "idle",
+              "enemy_source_position": {
+                "x": 640,
+                "y": 300
+              },
+              "enemy_visible": true,
+              "event_counters": {
+                "defeats": 0,
+                "enemy_attacks": 0,
+                "enemy_hits": 0,
+                "hero_hits": 0,
+                "resets": 0,
+                "victories": 0
+              },
+              "hero_attack_instance": 0,
+              "hero_hit_used": false,
+              "hero_hurt_remaining": 0,
+              "hero_lock": false,
+              "player_hp": 100,
+              "player_source_position": {
+                "x": 620.742980957031,
+                "y": 245
+              },
+              "qa_freeze_enemy": false,
+              "release_pending": false
+            },
+            "elapsed_seconds": 20.305249,
+            "inspection": true,
+            "jump_height": 20.425,
+            "native_foot": {
+              "clear": true,
+              "minimum_clearance_m": 1.6866265308857,
+              "native_count": 2,
+              "shapes": [
+                {
+                  "clearance_m": 7.37402854084969,
+                  "disabled": false,
+                  "name": "ColumnLeft"
+                },
+                {
+                  "clearance_m": 1.6866265308857,
+                  "disabled": false,
+                  "name": "ColumnRight"
+                }
+              ]
+            },
+            "paused": false,
+            "phase": "actual_jump_W_at_column",
+            "position": {
+              "x": 620.742980957031,
+              "y": 245
+            },
+            "quest": {
+              "dialog_open": false,
+              "encounter_cleared": false,
+              "last_error": "",
+              "loaded_from_backup": false,
+              "pending_save": false,
+              "progress": {
+                "coins": 0,
+                "first_drop": {
+                  "id": "mirkius_first_eye_v1",
+                  "position": [
+                    640,
+                    300
+                  ],
+                  "region": "hall",
+                  "state": "unearned"
+                },
+                "inventory": {
+                  "3128": 0
+                },
+                "objective_cleared": false,
+                "quest_stage": "available",
+                "reward_granted": false,
+                "schema": 2
+              },
+              "region_scene": "res://scenes/tower_hall.tscn",
+              "save_attempts": 0,
+              "storage_path": "user://qa/obstacle_live_1792742384_95841_14368358.json",
+              "storage_ready": true
+            },
+            "scene": "res://scenes/tower_hall.tscn",
+            "travel": {
+              "can_exit": false,
+              "current_region": "hall",
+              "exit_hold_id": "",
+              "exit_hold_required_seconds": 0.15,
+              "exit_hold_seconds": 0,
+              "fade_alpha": 0,
+              "grounded": false,
+              "harbor_return_position": {
+                "x": 60,
+                "y": 320
+              },
+              "last_error": "",
+              "last_exit": "approach_to_hall",
+              "last_transition": {
+                "exit_id": "approach_to_hall",
+                "facing": 1,
+                "from": "approach",
+                "next_attack": "attack1",
+                "position": {
+                  "x": 440,
+                  "y": 315
+                },
+                "region": "hall",
+                "started_msec": 24868,
+                "visual_settings": {
+                  "interface_visible": true,
+                  "markers_visible": false,
+                  "render_scale": 2
+                }
+              },
+              "pending_target": "",
+              "phase": "ready",
+              "region": "hall",
+              "reset_positions": {
+                "approach": {
+                  "x": 816,
+                  "y": 320
+                },
+                "hall": {
+                  "x": 440,
+                  "y": 315
+                },
+                "harbor": {
+                  "x": 440,
+                  "y": 320
+                }
+              },
+              "schema_version": 1,
+              "source_position": {
+                "x": 620.742980957031,
+                "y": 245
+              },
+              "spawn_position": {
+                "x": 440,
+                "y": 315
+              },
+              "transition_count": 2,
+              "transitioning": false,
+              "ui_input_blocked": false,
+              "visited": [
+                "harbor",
+                "approach",
+                "hall"
+              ]
+            }
+          },
+          "landed": {
+            "action": "stay",
+            "blocked": false,
+            "combat": {
+              "cleared": false,
+              "combat_blocked": true,
+              "enemy_action_elapsed_ms": 0,
+              "enemy_attack_instance": 0,
+              "enemy_cooldown": 0.35,
+              "enemy_hit_used": false,
+              "enemy_hp": 90,
+              "enemy_hurt_remaining": 0,
+              "enemy_mode": "idle",
+              "enemy_source_position": {
+                "x": 640,
+                "y": 300
+              },
+              "enemy_visible": true,
+              "event_counters": {
+                "defeats": 0,
+                "enemy_attacks": 0,
+                "enemy_hits": 0,
+                "hero_hits": 0,
+                "resets": 0,
+                "victories": 0
+              },
+              "hero_attack_instance": 0,
+              "hero_hit_used": false,
+              "hero_hurt_remaining": 0,
+              "hero_lock": false,
+              "player_hp": 100,
+              "player_source_position": {
+                "x": 620.742980957031,
+                "y": 245
+              },
+              "qa_freeze_enemy": false,
+              "release_pending": false
+            },
+            "elapsed_seconds": 21.305055,
+            "inspection": true,
+            "jump_height": 0,
+            "native_foot": {
+              "clear": true,
+              "minimum_clearance_m": 1.6866265308857,
+              "native_count": 2,
+              "shapes": [
+                {
+                  "clearance_m": 7.37402854084969,
+                  "disabled": false,
+                  "name": "ColumnLeft"
+                },
+                {
+                  "clearance_m": 1.6866265308857,
+                  "disabled": false,
+                  "name": "ColumnRight"
+                }
+              ]
+            },
+            "paused": false,
+            "phase": "actual_jump_lands_outside_column",
+            "position": {
+              "x": 620.742980957031,
+              "y": 245
+            },
+            "quest": {
+              "dialog_open": false,
+              "encounter_cleared": false,
+              "last_error": "",
+              "loaded_from_backup": false,
+              "pending_save": false,
+              "progress": {
+                "coins": 0,
+                "first_drop": {
+                  "id": "mirkius_first_eye_v1",
+                  "position": [
+                    640,
+                    300
+                  ],
+                  "region": "hall",
+                  "state": "unearned"
+                },
+                "inventory": {
+                  "3128": 0
+                },
+                "objective_cleared": false,
+                "quest_stage": "available",
+                "reward_granted": false,
+                "schema": 2
+              },
+              "region_scene": "res://scenes/tower_hall.tscn",
+              "save_attempts": 0,
+              "storage_path": "user://qa/obstacle_live_1792742384_95841_14368358.json",
+              "storage_ready": true
+            },
+            "scene": "res://scenes/tower_hall.tscn",
+            "travel": {
+              "can_exit": true,
+              "current_region": "hall",
+              "exit_hold_id": "",
+              "exit_hold_required_seconds": 0.15,
+              "exit_hold_seconds": 0,
+              "fade_alpha": 0,
+              "grounded": true,
+              "harbor_return_position": {
+                "x": 60,
+                "y": 320
+              },
+              "last_error": "",
+              "last_exit": "approach_to_hall",
+              "last_transition": {
+                "exit_id": "approach_to_hall",
+                "facing": 1,
+                "from": "approach",
+                "next_attack": "attack1",
+                "position": {
+                  "x": 440,
+                  "y": 315
+                },
+                "region": "hall",
+                "started_msec": 24868,
+                "visual_settings": {
+                  "interface_visible": true,
+                  "markers_visible": false,
+                  "render_scale": 2
+                }
+              },
+              "pending_target": "",
+              "phase": "ready",
+              "region": "hall",
+              "reset_positions": {
+                "approach": {
+                  "x": 816,
+                  "y": 320
+                },
+                "hall": {
+                  "x": 440,
+                  "y": 315
+                },
+                "harbor": {
+                  "x": 440,
+                  "y": 320
+                }
+              },
+              "schema_version": 1,
+              "source_position": {
+                "x": 620.742980957031,
+                "y": 245
+              },
+              "spawn_position": {
+                "x": 440,
+                "y": 315
+              },
+              "transition_count": 2,
+              "transitioning": false,
+              "ui_input_blocked": false,
+              "visited": [
+                "harbor",
+                "approach",
+                "hall"
+              ]
+            }
+          }
+        },
+        "pass": false
+      }
+    ],
+    "recorded_rows": 2654,
+    "render_cases": 17
+  },
+  "status": "complete"
+}

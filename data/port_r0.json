@@ -1,0 +1,1501 @@
+{
+  "reference_map": "map/hendonmyre/sky_westcoast2.map",
+  "objects": [
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        26,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        85,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        144,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        203,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        262,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        321,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        380,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        439,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        498,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        557,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        616,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        675,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        734,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        793,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        852,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmsafetybar",
+      "anchor": [
+        911,
+        372
+      ],
+      "source_layer": "[normal]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmsafetybar.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -30,
+              -52
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmsafetybar/image/000.png",
+                "offset": [
+                  -30,
+                  -52
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmmidship",
+      "anchor": [
+        773,
+        37
+      ],
+      "source_layer": "[bottom]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmmidship.ani",
+        "source_globals": [
+          {
+            "type": 0,
+            "value": 1
+          },
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 300,
+            "img_frame": 0,
+            "ani_offset": [
+              -176,
+              -256
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmmidship/image/000.png",
+                "offset": [
+                  -176,
+                  -256
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 10,
+                "value": 1
+              },
+              {
+                "type": 12,
+                "value": 300
+              }
+            ]
+          },
+          {
+            "duration_ms": 300,
+            "img_frame": 0,
+            "ani_offset": [
+              -176,
+              -257
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmmidship/image/000.png",
+                "offset": [
+                  -176,
+                  -257
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 10,
+                "value": 1
+              },
+              {
+                "type": 12,
+                "value": 300
+              }
+            ]
+          },
+          {
+            "duration_ms": 300,
+            "img_frame": 0,
+            "ani_offset": [
+              -176,
+              -258
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmmidship/image/000.png",
+                "offset": [
+                  -176,
+                  -258
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 10,
+                "value": 1
+              },
+              {
+                "type": 12,
+                "value": 300
+              }
+            ]
+          },
+          {
+            "duration_ms": 300,
+            "img_frame": 0,
+            "ani_offset": [
+              -176,
+              -257
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmmidship/image/000.png",
+                "offset": [
+                  -176,
+                  -257
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 10,
+                "value": 1
+              },
+              {
+                "type": 12,
+                "value": 300
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "skyclose00",
+      "anchor": [
+        0,
+        220
+      ],
+      "source_layer": "[bottom]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/skyclose00.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              0,
+              -143
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/skyclose00/image/000.png",
+                "offset": [
+                  0,
+                  -143
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westile00",
+      "anchor": [
+        104,
+        336
+      ],
+      "source_layer": "[bottom]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westile00.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -103,
+              -380
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westile00/image/000.png",
+                "offset": [
+                  -103,
+                  -361
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westile01",
+      "anchor": [
+        326,
+        335
+      ],
+      "source_layer": "[bottom]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westile01.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -101,
+              -379
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westile01/image/000.png",
+                "offset": [
+                  -101,
+                  -377
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westile02",
+      "anchor": [
+        549,
+        341
+      ],
+      "source_layer": "[bottom]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westile02.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -100,
+              -385
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westile02/image/000.png",
+                "offset": [
+                  -100,
+                  -257
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westile03",
+      "anchor": [
+        774,
+        335
+      ],
+      "source_layer": "[bottom]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westile03.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -101,
+              -379
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westile03/image/000.png",
+                "offset": [
+                  -101,
+                  -187
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westnearship",
+      "anchor": [
+        793,
+        294
+      ],
+      "source_layer": "[bottom]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westnearship.ani",
+        "source_globals": [
+          {
+            "type": 0,
+            "value": 1
+          },
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 250,
+            "img_frame": 0,
+            "ani_offset": [
+              -190,
+              -310
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westnearship/image/000.png",
+                "offset": [
+                  -190,
+                  -310
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 10,
+                "value": 1
+              },
+              {
+                "type": 12,
+                "value": 250
+              }
+            ]
+          },
+          {
+            "duration_ms": 230,
+            "img_frame": 0,
+            "ani_offset": [
+              -190,
+              -312
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westnearship/image/000.png",
+                "offset": [
+                  -190,
+                  -312
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 10,
+                "value": 1
+              },
+              {
+                "type": 12,
+                "value": 230
+              }
+            ]
+          },
+          {
+            "duration_ms": 180,
+            "img_frame": 0,
+            "ani_offset": [
+              -190,
+              -314
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westnearship/image/000.png",
+                "offset": [
+                  -190,
+                  -314
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 10,
+                "value": 1
+              },
+              {
+                "type": 12,
+                "value": 180
+              }
+            ]
+          },
+          {
+            "duration_ms": 150,
+            "img_frame": 0,
+            "ani_offset": [
+              -190,
+              -316
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westnearship/image/000.png",
+                "offset": [
+                  -190,
+                  -316
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 10,
+                "value": 1
+              },
+              {
+                "type": 12,
+                "value": 150
+              }
+            ]
+          },
+          {
+            "duration_ms": 180,
+            "img_frame": 0,
+            "ani_offset": [
+              -190,
+              -314
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westnearship/image/000.png",
+                "offset": [
+                  -190,
+                  -314
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 10,
+                "value": 1
+              },
+              {
+                "type": 12,
+                "value": 180
+              }
+            ]
+          },
+          {
+            "duration_ms": 230,
+            "img_frame": 0,
+            "ani_offset": [
+              -190,
+              -312
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westnearship/image/000.png",
+                "offset": [
+                  -190,
+                  -312
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 10,
+                "value": 1
+              },
+              {
+                "type": 12,
+                "value": 230
+              }
+            ]
+          },
+          {
+            "duration_ms": 350,
+            "img_frame": 0,
+            "ani_offset": [
+              -190,
+              -310
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westnearship/image/000.png",
+                "offset": [
+                  -190,
+                  -310
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 10,
+                "value": 1
+              },
+              {
+                "type": 12,
+                "value": 350
+              }
+            ]
+          },
+          {
+            "duration_ms": 350,
+            "img_frame": 0,
+            "ani_offset": [
+              -190,
+              -308
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westnearship/image/000.png",
+                "offset": [
+                  -190,
+                  -308
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 10,
+                "value": 1
+              },
+              {
+                "type": 12,
+                "value": 350
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westile04",
+      "anchor": [
+        743,
+        349
+      ],
+      "source_layer": "[bottom]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westile04.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -151,
+              -174
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westile04/image/000.png",
+                "offset": [
+                  -151,
+                  -174
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmobj00",
+      "anchor": [
+        386,
+        231
+      ],
+      "source_layer": "[bottom]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmobj00.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              -214,
+              -193
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmobj00/image/000.png",
+                "offset": [
+                  -214,
+                  -193
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "westmid00",
+      "anchor": [
+        0,
+        -80
+      ],
+      "source_layer": "[middleback]",
+      "sequence": {
+        "source_ani": "map/hendonmyre/animation/westmid00.ani",
+        "source_globals": [
+          {
+            "type": 1,
+            "value": 0
+          }
+        ],
+        "frames": [
+          {
+            "duration_ms": 120,
+            "img_frame": 0,
+            "ani_offset": [
+              0,
+              38
+            ],
+            "layers": [
+              {
+                "name": "image",
+                "texture": "res://assets/r0/port/westmid00/image/000.png",
+                "offset": [
+                  0,
+                  38
+                ]
+              }
+            ],
+            "source_boxes": [],
+            "source_properties": [
+              {
+                "type": 12,
+                "value": 120
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "floor": [
+    {
+      "texture": "res://assets/r0/port/floor/001.png",
+      "position": [
+        0,
+        241
+      ]
+    },
+    {
+      "texture": "res://assets/r0/port/floor/002.png",
+      "position": [
+        224,
+        206
+      ]
+    },
+    {
+      "texture": "res://assets/r0/port/floor/003.png",
+      "position": [
+        448,
+        116
+      ]
+    },
+    {
+      "texture": "res://assets/r0/port/floor/004.png",
+      "position": [
+        672,
+        179
+      ]
+    }
+  ],
+  "background": [
+    {
+      "texture": "res://assets/r0/port/far/000.png",
+      "position": [
+        0,
+        -80
+      ]
+    }
+  ],
+  "notes": [
+    "Original ANI placement coordinates retained for the port variant.",
+    "Older westfar00 IMG selected instead of current far ANI replacement.",
+    "Floor image canvas origin y=-99 is inferred by matching visible seams.",
+    "NPCs are a new comparison arrangement, not original port NPC positions.",
+    "brpost00 sign omitted; original layer meanings/scroll rates not fully emulated."
+  ]
+}

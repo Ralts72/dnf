@@ -1,0 +1,42 @@
+{
+  "build": "R1   /   12",
+  "candidate": "R1/12",
+  "glb_sha256": "74c2b2497b41112c691fcb8a8abe991894bee8314a9a38d2cca0844ccf9cf3c9",
+  "jump_active": false,
+  "markers": false,
+  "meshes": 302,
+  "muted": false,
+  "paused": false,
+  "preview": false,
+  "private_water_material": true,
+  "probe_disabled": true,
+  "render_scale": 2,
+  "root_children": [
+    "_mcp_game_helper",
+    "WestCoastR1"
+  ],
+  "root_script_disk_sha256": "985cd4ca8a3de1eba1b9e3b782cd45a068f5fef5426bb6c1c916581b20cd1f9f",
+  "root_script_loaded_sha256": "985cd4ca8a3de1eba1b9e3b782cd45a068f5fef5426bb6c1c916581b20cd1f9f",
+  "scene": "WestCoastR1",
+  "ui_input_blocked": false,
+  "volume": 0.6,
+  "water_body_rgba8": [
+    41,
+    189,
+    247,
+    255
+  ],
+  "water_foam_rgba8": [
+    239,
+    255,
+    255,
+    255
+  ],
+  "water_paused": false,
+  "water_script_disk_sha256": "bee00b4dc38d9c66437df92e98b9d189446772ab23fbe7143edf57be7aa16baa",
+  "water_script_loaded_sha256": "bee00b4dc38d9c66437df92e98b9d189446772ab23fbe7143edf57be7aa16baa",
+  "water_seconds": 34.8312951111072,
+  "water_shader_disk_sha256": "4711e044b3c56853a0db09a12c2f1017b9b2956adf18b12a8cee7b2ed05f032a",
+  "water_shader_loaded_sha256": "4711e044b3c56853a0db09a12c2f1017b9b2956adf18b12a8cee7b2ed05f032a",
+  "run_id": "r16833949-41"
+}

@@ -1,0 +1,1106 @@
+{
+  "stage": "R4 deep gallery native layout",
+  "region_id": "depths",
+  "layout_policy": "One continuous broad arena and recessed rear sanctum; adapted geometry, not recovered original map adjacency.",
+  "camera": {
+    "elevation_degrees": 38,
+    "source_pixels_per_meter": 60,
+    "ground_formula": "X=(sourceX-448)/60; Y=.025; Z=(sourceY-159)/(60*sin38)-1.6"
+  },
+  "walk_bounds": [
+    36,
+    245,
+    852,
+    345
+  ],
+  "floor_source_bounds": [
+    -170,
+    235,
+    1060,
+    450
+  ],
+  "arrival": [
+    176,
+    320
+  ],
+  "boss_initial": [
+    640,
+    300
+  ],
+  "left_exit": {
+    "trigger_bounds_xywh": [
+      36,
+      295,
+      6,
+      50
+    ],
+    "action": "move_left",
+    "target_region": "hall",
+    "target_safe_spawn": [
+      720,
+      320
+    ]
+  },
+  "hall_right_exit_integration": {
+    "trigger_bounds_xywh": [
+      770,
+      295,
+      6,
+      42
+    ],
+    "action": "move_right",
+    "target_safe_spawn": [
+      176,
+      320
+    ]
+  },
+  "new_landmarks": [
+    "Recessed three-level sanctum stair at x640 behind the legal walk strip",
+    "Tall native rear arch with protruding capital volumes and keystone",
+    "Cool dark continuous floor and rear colonnade; banner focal point shifted to x640",
+    "Side-facing left return arch outside the legal foot lane"
+  ],
+  "native_material_policy": "Source textures plus native light and recorded albedo multipliers; rendered geometry RGB is not claimed source exact. Original source-card RGBA and PNG bytes are unchanged.",
+  "material_multipliers": {
+    "lit_stone": [
+      0.5,
+      0.53,
+      0.64,
+      1
+    ],
+    "lit_gold": [
+      0.72,
+      0.64,
+      0.58,
+      1
+    ],
+    "unlit_floor": [
+      0.68,
+      0.71,
+      0.8,
+      1
+    ]
+  },
+  "footprint_audit": {
+    "actor_radius_m": 0.18,
+    "all_decorative_expanded_bounds_outside_walk": true,
+    "obstacle_shape_count": 0,
+    "ground_support_excluded": [
+      "DepthFoundation",
+      "ContinuousArenaFloor"
+    ],
+    "solids": [
+      {
+        "node": "DepthFoundation",
+        "source_ground_center": [
+          445,
+          342.5
+        ],
+        "source_ground_aabb": [
+          -170.0,
+          235.0,
+          1060.0,
+          450.0
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          -180.8,
+          228.3508560664829,
+          1070.8,
+          456.6491439335171
+        ],
+        "role": "below-foot ground support",
+        "outside_walk_with_actor_clearance": false
+      },
+      {
+        "node": "RearDado_Left",
+        "source_ground_center": [
+          150.0,
+          212
+        ],
+        "source_ground_aabb": [
+          -170.0,
+          205.72025295167828,
+          470.0,
+          218.27974704832172
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          -180.8,
+          199.07110901816117,
+          480.8,
+          224.92889098183883
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearCoping_Left",
+        "source_ground_center": [
+          150.0,
+          212
+        ],
+        "source_ground_aabb": [
+          -170.0,
+          204.2426654108967,
+          470.0,
+          219.7573345891033
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          -180.8,
+          197.5935214773796,
+          480.8,
+          226.4064785226204
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearDado_Right",
+        "source_ground_center": [
+          935.0,
+          212
+        ],
+        "source_ground_aabb": [
+          810.0,
+          205.72025295167828,
+          1060.0,
+          218.27974704832172
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          799.2,
+          199.07110901816117,
+          1070.8,
+          224.92889098183883
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearCoping_Right",
+        "source_ground_center": [
+          935.0,
+          212
+        ],
+        "source_ground_aabb": [
+          810.0,
+          204.2426654108967,
+          1060.0,
+          219.7573345891033
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          799.2,
+          197.5935214773796,
+          1070.8,
+          226.4064785226204
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_0_Foot",
+        "source_ground_center": [
+          112,
+          218
+        ],
+        "source_ground_aabb": [
+          84.4,
+          201.00774328101184,
+          139.6,
+          234.99225671898816
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          73.60000000000001,
+          194.35859934749473,
+          150.4,
+          241.64140065250527
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_0_Ring",
+        "source_ground_center": [
+          112,
+          218
+        ],
+        "source_ground_aabb": [
+          89.8,
+          204.3323152477704,
+          134.2,
+          231.6676847522296
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          79.0,
+          197.6831713142533,
+          145.0,
+          238.3168286857467
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_0_Shaft",
+        "source_ground_center": [
+          112,
+          218
+        ],
+        "source_ground_aabb": [
+          98.8,
+          209.87326852570132,
+          125.2,
+          226.12673147429868
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          88.0,
+          203.2241245921842,
+          136.0,
+          232.7758754078158
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_0_Capital",
+        "source_ground_center": [
+          112,
+          218
+        ],
+        "source_ground_aabb": [
+          83.2,
+          200.26894951062104,
+          140.8,
+          235.73105048937896
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          72.4,
+          193.61980557710393,
+          151.60000000000002,
+          242.38019442289607
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_1_Foot",
+        "source_ground_center": [
+          336,
+          218
+        ],
+        "source_ground_aabb": [
+          308.4,
+          201.00774328101184,
+          363.6,
+          234.99225671898816
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          297.59999999999997,
+          194.35859934749473,
+          374.40000000000003,
+          241.64140065250527
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_1_Ring",
+        "source_ground_center": [
+          336,
+          218
+        ],
+        "source_ground_aabb": [
+          313.8,
+          204.3323152477704,
+          358.2,
+          231.6676847522296
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          303.0,
+          197.6831713142533,
+          369.0,
+          238.3168286857467
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_1_Shaft",
+        "source_ground_center": [
+          336,
+          218
+        ],
+        "source_ground_aabb": [
+          322.8,
+          209.87326852570132,
+          349.2,
+          226.12673147429868
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          312.0,
+          203.2241245921842,
+          360.0,
+          232.7758754078158
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_1_Capital",
+        "source_ground_center": [
+          336,
+          218
+        ],
+        "source_ground_aabb": [
+          307.2,
+          200.26894951062104,
+          364.8,
+          235.73105048937896
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          296.4,
+          193.61980557710393,
+          375.6,
+          242.38019442289607
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_2_Foot",
+        "source_ground_center": [
+          808,
+          218
+        ],
+        "source_ground_aabb": [
+          780.4,
+          201.00774328101184,
+          835.6,
+          234.99225671898816
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          769.6,
+          194.35859934749473,
+          846.4,
+          241.64140065250527
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_2_Ring",
+        "source_ground_center": [
+          808,
+          218
+        ],
+        "source_ground_aabb": [
+          785.8,
+          204.3323152477704,
+          830.2,
+          231.6676847522296
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          775.0,
+          197.6831713142533,
+          841.0,
+          238.3168286857467
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_2_Shaft",
+        "source_ground_center": [
+          808,
+          218
+        ],
+        "source_ground_aabb": [
+          794.8,
+          209.87326852570132,
+          821.2,
+          226.12673147429868
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          784.0,
+          203.2241245921842,
+          832.0,
+          232.7758754078158
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_2_Capital",
+        "source_ground_center": [
+          808,
+          218
+        ],
+        "source_ground_aabb": [
+          779.2,
+          200.26894951062104,
+          836.8,
+          235.73105048937896
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          768.4000000000001,
+          193.61980557710393,
+          847.5999999999999,
+          242.38019442289607
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_3_Foot",
+        "source_ground_center": [
+          1032,
+          218
+        ],
+        "source_ground_aabb": [
+          1004.4,
+          201.00774328101184,
+          1059.6,
+          234.99225671898816
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          993.6,
+          194.35859934749473,
+          1070.3999999999999,
+          241.64140065250527
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_3_Ring",
+        "source_ground_center": [
+          1032,
+          218
+        ],
+        "source_ground_aabb": [
+          1009.8,
+          204.3323152477704,
+          1054.2,
+          231.6676847522296
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          999.0,
+          197.6831713142533,
+          1065.0,
+          238.3168286857467
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_3_Shaft",
+        "source_ground_center": [
+          1032,
+          218
+        ],
+        "source_ground_aabb": [
+          1018.8,
+          209.87326852570132,
+          1045.2,
+          226.12673147429868
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          1008.0,
+          203.2241245921842,
+          1056.0,
+          232.7758754078158
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "RearVolumeColumn_3_Capital",
+        "source_ground_center": [
+          1032,
+          218
+        ],
+        "source_ground_aabb": [
+          1003.2,
+          200.26894951062104,
+          1060.8,
+          235.73105048937896
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          992.4000000000001,
+          193.61980557710393,
+          1071.6,
+          242.38019442289607
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "SanctumStepLower",
+        "source_ground_center": [
+          640,
+          226
+        ],
+        "source_ground_aabb": [
+          469.0,
+          220.0,
+          811.0,
+          232.0
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          458.2,
+          213.3508560664829,
+          821.8,
+          238.6491439335171
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "SanctumStepMiddle",
+        "source_ground_center": [
+          640,
+          213
+        ],
+        "source_ground_aabb": [
+          484.0,
+          206.0,
+          796.0,
+          220.0
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          473.2,
+          199.3508560664829,
+          806.8,
+          226.6491439335171
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "SanctumDais",
+        "source_ground_center": [
+          640,
+          188
+        ],
+        "source_ground_aabb": [
+          496.0,
+          170.0,
+          784.0,
+          206.0
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          485.2,
+          163.3508560664829,
+          794.8,
+          212.6491439335171
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "SanctumArchFoot_Left",
+        "source_ground_center": [
+          516,
+          186
+        ],
+        "source_ground_aabb": [
+          497.4,
+          174.54869655894277,
+          534.6,
+          197.45130344105723
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          486.59999999999997,
+          167.89955262542566,
+          545.4,
+          204.10044737457434
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "SanctumArchPier_Left",
+        "source_ground_center": [
+          516,
+          186
+        ],
+        "source_ground_aabb": [
+          505.8,
+          178.057966968299,
+          526.2,
+          193.942033031701
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          495.0,
+          171.4088230347819,
+          537.0,
+          200.5911769652181
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "SanctumArchCapital_Left",
+        "source_ground_center": [
+          516,
+          186
+        ],
+        "source_ground_aabb": [
+          494.4,
+          173.80990278855197,
+          537.6,
+          198.19009721144803
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          483.59999999999997,
+          167.16075885503486,
+          548.4,
+          204.83924114496514
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "SanctumArchFoot_Right",
+        "source_ground_center": [
+          764,
+          186
+        ],
+        "source_ground_aabb": [
+          745.4,
+          174.54869655894277,
+          782.6,
+          197.45130344105723
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          734.6,
+          167.89955262542566,
+          793.4,
+          204.10044737457434
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "SanctumArchPier_Right",
+        "source_ground_center": [
+          764,
+          186
+        ],
+        "source_ground_aabb": [
+          753.8,
+          178.057966968299,
+          774.2,
+          193.942033031701
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          743.0,
+          171.4088230347819,
+          785.0,
+          200.5911769652181
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "SanctumArchCapital_Right",
+        "source_ground_center": [
+          764,
+          186
+        ],
+        "source_ground_aabb": [
+          742.4,
+          173.80990278855197,
+          785.6,
+          198.19009721144803
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          731.6,
+          167.16075885503486,
+          796.4,
+          204.83924114496514
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "SanctumLintel",
+        "source_ground_center": [
+          640,
+          186
+        ],
+        "source_ground_aabb": [
+          496.0,
+          177.5038716405059,
+          784.0,
+          194.4961283594941
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          485.2,
+          170.8547277069888,
+          794.8,
+          201.1452722930112
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "SanctumKeystone",
+        "source_ground_center": [
+          640,
+          186
+        ],
+        "source_ground_aabb": [
+          623.8,
+          174.54869655894277,
+          656.2,
+          197.45130344105723
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          613.0,
+          167.89955262542566,
+          667.0,
+          204.10044737457434
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "ReturnArchFoot_Rear",
+        "source_ground_center": [
+          -18,
+          278
+        ],
+        "source_ground_aabb": [
+          -36.6,
+          268.0262840997243,
+          0.6000000000000014,
+          287.9737159002757
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          -47.4,
+          261.3771401662072,
+          11.4,
+          294.6228598337928
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "ReturnArchPier_Rear",
+        "source_ground_center": [
+          -18,
+          278
+        ],
+        "source_ground_aabb": [
+          -27.0,
+          272.2743482794714,
+          -9.0,
+          283.7256517205286
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          -37.8,
+          265.6252043459543,
+          1.799999999999999,
+          290.3747956540457
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "ReturnArchCapital_Rear",
+        "source_ground_center": [
+          -18,
+          278
+        ],
+        "source_ground_aabb": [
+          -38.400000000000006,
+          267.28749032933354,
+          2.400000000000002,
+          288.71250967066646
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          -49.2,
+          260.6383463958164,
+          13.200000000000001,
+          295.3616536041836
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "ReturnArchFoot_Front",
+        "source_ground_center": [
+          -18,
+          362
+        ],
+        "source_ground_aabb": [
+          -36.6,
+          352.0262840997243,
+          0.6000000000000014,
+          371.9737159002757
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          -47.4,
+          345.3771401662072,
+          11.4,
+          378.6228598337928
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "ReturnArchPier_Front",
+        "source_ground_center": [
+          -18,
+          362
+        ],
+        "source_ground_aabb": [
+          -27.0,
+          356.2743482794714,
+          -9.0,
+          367.7256517205286
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          -37.8,
+          349.6252043459543,
+          1.799999999999999,
+          374.3747956540457
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "ReturnArchCapital_Front",
+        "source_ground_center": [
+          -18,
+          362
+        ],
+        "source_ground_aabb": [
+          -38.400000000000006,
+          351.28749032933354,
+          2.400000000000002,
+          372.71250967066646
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          -49.2,
+          344.6383463958164,
+          13.200000000000001,
+          379.3616536041836
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "ReturnArchSideBeam",
+        "source_ground_center": [
+          -18,
+          320
+        ],
+        "source_ground_aabb": [
+          -30.6,
+          272.0,
+          -5.4,
+          368.0
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          -41.4,
+          265.3508560664829,
+          5.399999999999999,
+          374.6491439335171
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "FrontLowDado_Left",
+        "source_ground_center": [
+          224,
+          386
+        ],
+        "source_ground_aabb": [
+          143.0,
+          380.08964983687366,
+          305.0,
+          391.91035016312634
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          132.2,
+          373.44050590335655,
+          315.8,
+          398.55949409664345
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "FrontLowCoping_Left",
+        "source_ground_center": [
+          224,
+          386
+        ],
+        "source_ground_aabb": [
+          140.0,
+          378.6120622960921,
+          308.0,
+          393.3879377039079
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          129.2,
+          371.962918362575,
+          318.8,
+          400.037081637425
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "FrontLowDado_Right",
+        "source_ground_center": [
+          784,
+          386
+        ],
+        "source_ground_aabb": [
+          703.0,
+          380.08964983687366,
+          865.0,
+          391.91035016312634
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          692.2,
+          373.44050590335655,
+          875.8,
+          398.55949409664345
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      },
+      {
+        "node": "FrontLowCoping_Right",
+        "source_ground_center": [
+          784,
+          386
+        ],
+        "source_ground_aabb": [
+          700.0,
+          378.6120622960921,
+          868.0,
+          393.3879377039079
+        ],
+        "aabb_with_0_18m_actor_clearance": [
+          689.2,
+          371.962918362575,
+          878.8,
+          400.037081637425
+        ],
+        "role": "decoration outside navigation",
+        "outside_walk_with_actor_clearance": true
+      }
+    ]
+  },
+  "source_cards": [
+    {
+      "node": "DistantSourceVista",
+      "texture": "res://assets/r2/interior/far.png",
+      "source_bottom_center": [
+        448,
+        210
+      ],
+      "view_ray_depth_m": -3.0,
+      "pixel_scale": 1,
+      "ground_collision": false
+    },
+    {
+      "node": "RearSourceArcade_0",
+      "texture": "res://assets/r2/interior/wall_0.png",
+      "source_bottom_center": [
+        -112,
+        218
+      ],
+      "view_ray_depth_m": -1.15,
+      "pixel_scale": 1,
+      "ground_collision": false
+    },
+    {
+      "node": "RearSourceArcade_1",
+      "texture": "res://assets/r2/interior/wall_1.png",
+      "source_bottom_center": [
+        112,
+        218
+      ],
+      "view_ray_depth_m": -1.15,
+      "pixel_scale": 1,
+      "ground_collision": false
+    },
+    {
+      "node": "RearSourceArcade_2",
+      "texture": "res://assets/r2/interior/wall_2.png",
+      "source_bottom_center": [
+        336,
+        218
+      ],
+      "view_ray_depth_m": -1.15,
+      "pixel_scale": 1,
+      "ground_collision": false
+    },
+    {
+      "node": "RearSourceArcade_3",
+      "texture": "res://assets/r2/interior/wall_3.png",
+      "source_bottom_center": [
+        560,
+        218
+      ],
+      "view_ray_depth_m": -1.15,
+      "pixel_scale": 1,
+      "ground_collision": false
+    },
+    {
+      "node": "RearSourceArcade_4",
+      "texture": "res://assets/r2/interior/wall_4.png",
+      "source_bottom_center": [
+        784,
+        218
+      ],
+      "view_ray_depth_m": -1.15,
+      "pixel_scale": 1,
+      "ground_collision": false
+    },
+    {
+      "node": "RearSourceArcade_5",
+      "texture": "res://assets/r2/interior/wall_5.png",
+      "source_bottom_center": [
+        1008,
+        218
+      ],
+      "view_ray_depth_m": -1.15,
+      "pixel_scale": 1,
+      "ground_collision": false
+    },
+    {
+      "node": "DeepSanctumBakalBanner",
+      "texture": "res://assets/r2/interior/banner.png",
+      "source_bottom_center": [
+        640,
+        205
+      ],
+      "view_ray_depth_m": -0.65,
+      "pixel_scale": 1,
+      "ground_collision": false
+    }
+  ],
+  "outputs": [
+    {
+      "scene": "scenes/tower_depths_world.tscn",
+      "native_mesh_instances": 44,
+      "subresources": 27
+    }
+  ],
+  "integration_pending": [
+    "Root extends exploration_stage region enum/world selection/title/backdrop for depths",
+    "Root adds route definitions, first-clear gate and obstacle scene mapping",
+    "Root attaches separate boss encounter; retain R3 quest/drop/equipment behavior"
+  ],
+  "not_run": [
+    "No Godot process or live scene call",
+    "No Blender",
+    "No client executable",
+    "No image export"
+  ]
+}

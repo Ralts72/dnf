@@ -1,0 +1,10 @@
+{
+  "actor_loaded_sha256": "1c1afa14e11b7948591b088425f8a137b3e94706bf1c22c129f66fd50a1970f9",
+  "matching": 223.0,
+  "note": "Standing in the near lane, in front of the barrel stack; comparison with source PNG opaque interiors.",
+  "occluded_samples": 124.0,
+  "samples": 347.0,
+  "ship_depth": -0.95,
+  "source_foot": "(653.0, 285.0)",
+  "stage": "R1/10 initial camera-facing actor"
+}

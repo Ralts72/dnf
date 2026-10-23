@@ -1,0 +1,18 @@
+{
+  "default_start": true,
+  "diagnostics_sampling": false,
+  "free": true,
+  "movement_clear": true,
+  "root_children": [
+    "_mcp_game_helper",
+    "PortMusic",
+    "PortAmbience",
+    "WestCoastR1",
+    "FrameDiagnostics"
+  ],
+  "run_pressed": false,
+  "ticks": 60,
+  "walk_active": false,
+  "walk_enabled": true,
+  "walk_spatial": true
+}

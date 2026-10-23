@@ -1,0 +1,23 @@
+{
+  "check_script": "res://tools/r1/shore_checks.gd",
+  "elapsed_seconds": 0.29022,
+  "qa_source_sha256": "dfe7688d60aef9d3d3c74f595952d4310989ed725c4f9c1fd26648518e9f1cb8",
+  "render_cases_completed": 0,
+  "result": {
+    "checks": 19,
+    "failed": [
+      {
+        "check": "rendered_pier_over_water_Middle",
+        "details": {
+          "distance": 0.150661736726761,
+          "pier": "(0.9373, 0.9059, 0.8824, 1.0)",
+          "point": "(610.0, 181.0)",
+          "water": "(0.9373, 1.0, 1.0, 1.0)"
+        },
+        "pass": false
+      }
+    ],
+    "walk_grid_points": 16119
+  },
+  "status": "complete"
+}

@@ -1,0 +1,143 @@
+{
+  "active_effect_tracks": [],
+  "ambience": {
+    "distance_factor": 0.593886481693813,
+    "gain": 0.124716161155701,
+    "muted": false,
+    "play_starts": 1,
+    "player_id": 74323069690,
+    "position": 12.5358734130859,
+    "source_distance_pixels": 127.470603942871,
+    "stream_paused": false,
+    "tag": "AMB_PORT_01",
+    "target_gain": 0.124716161155701,
+    "volume": 0.35
+  },
+  "ambient_bus_db": 0.0,
+  "ambient_bus_effects": 0,
+  "ambient_stream_loop": true,
+  "build": "R1   /   25",
+  "candidate": "R1/25",
+  "code_hashes": [
+    {
+      "disk_sha256": "8cda4dfc80a53ef585d618bc8413cbf1492fb7ed1184ff012d7158d39739808f",
+      "loaded_sha256": "8cda4dfc80a53ef585d618bc8413cbf1492fb7ed1184ff012d7158d39739808f",
+      "path": "res://scripts/west_coast_r1.gd"
+    },
+    {
+      "disk_sha256": "c1ee0f6ff5fbcf84cb894fc1d8e762fdce813bc66328419860b4c9bb5640e39e",
+      "loaded_sha256": "c1ee0f6ff5fbcf84cb894fc1d8e762fdce813bc66328419860b4c9bb5640e39e",
+      "path": "res://scripts/source_actor_3d.gd"
+    },
+    {
+      "disk_sha256": "7db185f9b3cc93962b4fab2c5977b891e37d8fbfa22456e275ce79b399a812b8",
+      "loaded_sha256": "7db185f9b3cc93962b4fab2c5977b891e37d8fbfa22456e275ce79b399a812b8",
+      "path": "res://scripts/source_actor_effects.gd"
+    },
+    {
+      "disk_sha256": "dd5cb82d78d7dbe16a850166bd94d3e1e35333544b833dd83bbf5af7057a3e58",
+      "loaded_sha256": "dd5cb82d78d7dbe16a850166bd94d3e1e35333544b833dd83bbf5af7057a3e58",
+      "path": "res://scripts/source_motion_smoothing.gd"
+    },
+    {
+      "disk_sha256": "a0a5b7c86bbffa7f32285880254d2d3d1e7ddd1d316958afc706a55a5b0b3e94",
+      "loaded_sha256": "a0a5b7c86bbffa7f32285880254d2d3d1e7ddd1d316958afc706a55a5b0b3e94",
+      "path": "res://scripts/source_walk_inbetweens.gd"
+    },
+    {
+      "disk_sha256": "598a457be48940edd409615d8e85e70e37db2e61ac40b6926580d8d4f3388d5c",
+      "loaded_sha256": "598a457be48940edd409615d8e85e70e37db2e61ac40b6926580d8d4f3388d5c",
+      "path": "res://scripts/source_preview_controls.gd"
+    },
+    {
+      "disk_sha256": "f4cf1e3819ba35eadf1cb4ab0071cb1b530ec632b524d2a59dcc1fc20183fc8a",
+      "loaded_sha256": "f4cf1e3819ba35eadf1cb4ab0071cb1b530ec632b524d2a59dcc1fc20183fc8a",
+      "path": "res://scripts/port_music.gd"
+    },
+    {
+      "disk_sha256": "5d3094c90763ea42f54978d06265a437d672ef7757070ab198ffcabc31537363",
+      "loaded_sha256": "5d3094c90763ea42f54978d06265a437d672ef7757070ab198ffcabc31537363",
+      "path": "res://scripts/port_ambience.gd"
+    },
+    {
+      "disk_sha256": "427ce05e79206587cc6120a426f20f3a5ffc4f41031f01d2e12a67f7c97caf3b",
+      "loaded_sha256": "427ce05e79206587cc6120a426f20f3a5ffc4f41031f01d2e12a67f7c97caf3b",
+      "path": "res://scripts/frame_diagnostics.gd"
+    },
+    {
+      "disk_sha256": "13dfc50a77f07327df3beceaa5869a5faf1bf70353cc846c43f9479c7148b242",
+      "loaded_sha256": "13dfc50a77f07327df3beceaa5869a5faf1bf70353cc846c43f9479c7148b242",
+      "path": "res://shaders/source_effect.gdshader"
+    }
+  ],
+  "code_matches_disk": true,
+  "effect_data_matches_disk": true,
+  "effect_toggle_enabled": true,
+  "effects_muted": false,
+  "effects_volume": 0.6,
+  "frame_diagnostics_active": false,
+  "frame_diagnostics_count": 1,
+  "frame_diagnostics_sampling": false,
+  "frame_diagnostics_visible": false,
+  "glb_sha256": "ca75b6b591b354329266790e51d1a4bd1f2825b36379fe9f449f188b0bb9db97",
+  "jump_active": false,
+  "markers": false,
+  "meshes": 302,
+  "model_texture_count": 27,
+  "model_texture_rgba_mismatches": [],
+  "model_texture_rgba_pixels": 322574,
+  "model_texture_vram_compressed": 0,
+  "motion_smoothing_enabled": true,
+  "motion_toggle_enabled": true,
+  "movement_input_clear": true,
+  "music": {
+    "gain": 0.2,
+    "muted": false,
+    "play_starts": 1,
+    "player_id": 74054634229,
+    "position": 12.5358734130859,
+    "stream_paused": false,
+    "tag": "M_WESTCOAST",
+    "target_gain": 0.2,
+    "volume": 0.2
+  },
+  "music_bus_db": 0.0,
+  "music_bus_effects": 0,
+  "music_stream_loop": true,
+  "native_actor_interpolation_active": true,
+  "native_tree_interpolation_active": true,
+  "one_shot": false,
+  "paused": false,
+  "physics_interpolation": true,
+  "physics_ticks_per_second": 60,
+  "player_at_default_start": true,
+  "preview": false,
+  "probe_disabled": true,
+  "render_scale": 2,
+  "root_children": [
+    "_mcp_game_helper",
+    "PortMusic",
+    "PortAmbience",
+    "WestCoastR1",
+    "FrameDiagnostics"
+  ],
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "scene_interpolation_mode": 2,
+  "source_effect_enabled": true,
+  "source_effect_textures": 9,
+  "source_position": "(440.0, 320.0)",
+  "sprite_offset": "(27.0, 55.0)",
+  "sprite_position": "(0.0, 0.0, 0.0)",
+  "ui_input_blocked": false,
+  "walk_data_matches_disk": true,
+  "walk_inbetweens_active": false,
+  "walk_inbetweens_enabled": true,
+  "walk_subframe": 0,
+  "walk_texture_RGBA_mismatches": [],
+  "walk_texture_RGBA_pixels": 1146880,
+  "walk_texture_compressed": 0,
+  "walk_texture_count": 16,
+  "walk_texture_mipmaps": 0,
+  "walk_toggle_enabled": true,
+  "water_paused": false
+}

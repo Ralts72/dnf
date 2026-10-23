@@ -1,0 +1,436 @@
+{
+  "path": "equipment/character/swordman/weapon/hsword/lswd.equ",
+  "sha256": "4c0b8de29e2e0b20e3478106eefb6a46d2b72fb6573f0662cfb4c208656c45a3",
+  "crc": {
+    "expected": 3745213867,
+    "actual_seed_file_number": 3745213867,
+    "actual_seed_zero": 3916033389
+  },
+  "tokens": [
+    {
+      "type": 5,
+      "index": 11429,
+      "text": "[name]"
+    },
+    {
+      "type": 7,
+      "index": 265041,
+      "text": "普通巨劍"
+    },
+    {
+      "type": 5,
+      "index": 18406,
+      "text": "[name2]"
+    },
+    {
+      "type": 7,
+      "index": 595623,
+      "text": "Large Sword"
+    },
+    {
+      "type": 5,
+      "index": 18481,
+      "text": "[flavor text]"
+    },
+    {
+      "type": 7,
+      "index": 595624,
+      "text": "    想把巨劍揮動得如自己的手足, 需要不斷的努力！  --帝國教官"
+    },
+    {
+      "type": 5,
+      "index": 18408,
+      "text": "[grade]"
+    },
+    {
+      "type": 2,
+      "value": 6
+    },
+    {
+      "type": 5,
+      "index": 1644,
+      "text": "[rarity]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 18409,
+      "text": "[usable job]"
+    },
+    {
+      "type": 7,
+      "index": 3782,
+      "text": "[swordman]"
+    },
+    {
+      "type": 7,
+      "index": 10258,
+      "text": "[demonic swordman]"
+    },
+    {
+      "type": 5,
+      "index": 18410,
+      "text": "[/usable job]"
+    },
+    {
+      "type": 5,
+      "index": 18411,
+      "text": "[attach type]"
+    },
+    {
+      "type": 7,
+      "index": 18456,
+      "text": "[free]"
+    },
+    {
+      "type": 5,
+      "index": 18413,
+      "text": "[minimum level]"
+    },
+    {
+      "type": 2,
+      "value": 6
+    },
+    {
+      "type": 5,
+      "index": 4709,
+      "text": "[physical attack]"
+    },
+    {
+      "type": 2,
+      "value": 4
+    },
+    {
+      "type": 5,
+      "index": 2860,
+      "text": "[attack speed]"
+    },
+    {
+      "type": 2,
+      "value": -70
+    },
+    {
+      "type": 5,
+      "index": 7442,
+      "text": "[cast speed]"
+    },
+    {
+      "type": 2,
+      "value": -20
+    },
+    {
+      "type": 5,
+      "index": 18414,
+      "text": "[price]"
+    },
+    {
+      "type": 2,
+      "value": 7200
+    },
+    {
+      "type": 5,
+      "index": 18415,
+      "text": "[repair price]"
+    },
+    {
+      "type": 2,
+      "value": 5760
+    },
+    {
+      "type": 5,
+      "index": 18416,
+      "text": "[value]"
+    },
+    {
+      "type": 2,
+      "value": 5184
+    },
+    {
+      "type": 5,
+      "index": 5050,
+      "text": "[equipment physical attack]"
+    },
+    {
+      "type": 2,
+      "value": 72
+    },
+    {
+      "type": 2,
+      "value": 72
+    },
+    {
+      "type": 5,
+      "index": 5051,
+      "text": "[equipment magical attack]"
+    },
+    {
+      "type": 2,
+      "value": 54
+    },
+    {
+      "type": 2,
+      "value": 54
+    },
+    {
+      "type": 5,
+      "index": 18937,
+      "text": "[separate attack]"
+    },
+    {
+      "type": 2,
+      "value": 45
+    },
+    {
+      "type": 2,
+      "value": 26
+    },
+    {
+      "type": 5,
+      "index": 18419,
+      "text": "[icon]"
+    },
+    {
+      "type": 7,
+      "index": 166152,
+      "text": "Item/weapon/swordman/lswd.img"
+    },
+    {
+      "type": 2,
+      "value": 2
+    },
+    {
+      "type": 5,
+      "index": 18421,
+      "text": "[field image]"
+    },
+    {
+      "type": 7,
+      "index": 18422,
+      "text": "Item/FieldImage.img"
+    },
+    {
+      "type": 2,
+      "value": 12
+    },
+    {
+      "type": 5,
+      "index": 18423,
+      "text": "[equipment type]"
+    },
+    {
+      "type": 7,
+      "index": 100466,
+      "text": "[weapon]"
+    },
+    {
+      "type": 2,
+      "value": 21
+    },
+    {
+      "type": 5,
+      "index": 4544,
+      "text": "[animation job]"
+    },
+    {
+      "type": 7,
+      "index": 3782,
+      "text": "[swordman]"
+    },
+    {
+      "type": 5,
+      "index": 25820,
+      "text": "[variation]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 7
+    },
+    {
+      "type": 5,
+      "index": 25821,
+      "text": "[layer variation]"
+    },
+    {
+      "type": 2,
+      "value": 2790
+    },
+    {
+      "type": 7,
+      "index": 166229,
+      "text": "mswdc"
+    },
+    {
+      "type": 5,
+      "index": 25823,
+      "text": "[equipment ani script]"
+    },
+    {
+      "type": 7,
+      "index": 154263,
+      "text": "equipment/character/swordman.lay"
+    },
+    {
+      "type": 5,
+      "index": 25821,
+      "text": "[layer variation]"
+    },
+    {
+      "type": 2,
+      "value": 650
+    },
+    {
+      "type": 7,
+      "index": 166230,
+      "text": "mswdb"
+    },
+    {
+      "type": 5,
+      "index": 25823,
+      "text": "[equipment ani script]"
+    },
+    {
+      "type": 7,
+      "index": 154263,
+      "text": "equipment/character/swordman.lay"
+    },
+    {
+      "type": 5,
+      "index": 4544,
+      "text": "[animation job]"
+    },
+    {
+      "type": 7,
+      "index": 10258,
+      "text": "[demonic swordman]"
+    },
+    {
+      "type": 5,
+      "index": 25820,
+      "text": "[variation]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 2,
+      "value": 7
+    },
+    {
+      "type": 5,
+      "index": 25821,
+      "text": "[layer variation]"
+    },
+    {
+      "type": 2,
+      "value": 2790
+    },
+    {
+      "type": 7,
+      "index": 166229,
+      "text": "mswdc"
+    },
+    {
+      "type": 5,
+      "index": 25823,
+      "text": "[equipment ani script]"
+    },
+    {
+      "type": 7,
+      "index": 154264,
+      "text": "equipment/character/dsswordman.lay"
+    },
+    {
+      "type": 5,
+      "index": 25821,
+      "text": "[layer variation]"
+    },
+    {
+      "type": 2,
+      "value": 650
+    },
+    {
+      "type": 7,
+      "index": 166230,
+      "text": "mswdb"
+    },
+    {
+      "type": 5,
+      "index": 25823,
+      "text": "[equipment ani script]"
+    },
+    {
+      "type": 7,
+      "index": 154264,
+      "text": "equipment/character/dsswordman.lay"
+    },
+    {
+      "type": 5,
+      "index": 25250,
+      "text": "[sub type]"
+    },
+    {
+      "type": 2,
+      "value": 3
+    },
+    {
+      "type": 5,
+      "index": 18425,
+      "text": "[move wav]"
+    },
+    {
+      "type": 7,
+      "index": 166155,
+      "text": "SQUARESWD_TOUCH"
+    },
+    {
+      "type": 5,
+      "index": 25252,
+      "text": "[durability]"
+    },
+    {
+      "type": 2,
+      "value": 35
+    },
+    {
+      "type": 5,
+      "index": 7444,
+      "text": "[weight]"
+    },
+    {
+      "type": 2,
+      "value": 4000
+    },
+    {
+      "type": 5,
+      "index": 18427,
+      "text": "[item group name]"
+    },
+    {
+      "type": 7,
+      "index": 166156,
+      "text": "lswd"
+    },
+    {
+      "type": 5,
+      "index": 18429,
+      "text": "[cool time]"
+    },
+    {
+      "type": 2,
+      "value": 10000
+    },
+    {
+      "type": 5,
+      "index": 18759,
+      "text": "[possible kiri protect]"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "path": "monster/draconian/dlani/down.ani",
+  "bytes": 284,
+  "sha256_decoded_bytes": "ba074d000aec97f1df4ad85af5845d0d388f9693b719d51f80a526affe21243d",
+  "crc": {
+    "expected": 2799286972,
+    "actual_seed_file_number": 2799286972,
+    "actual_seed_zero": 3962444692
+  },
+  "crc_matches": true,
+  "original_reference": "source_art/r4/lakius/pvf/monster/draconian/dlani/down.ani.bin",
+  "decoded_reference": "source_art/r4/lakius/pvf/monster/draconian/dlani/down.ani.json",
+  "decoded": {
+    "frames_count": 5,
+    "resources": [
+      "monster/draconian/draco_lakius.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 11,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -16,
+              -18,
+              -7,
+              49,
+              37,
+              97
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 12,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -29,
+              -18,
+              -7,
+              62,
+              37,
+              114
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 13,
+        "x": -240,
+        "y": -336,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -49,
+              -18,
+              4,
+              91,
+              37,
+              50
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 10000
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 14,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -68,
+              -18,
+              -2,
+              89,
+              37,
+              69
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 10000
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_lakius.img",
+        "image_frame": 15,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -86,
+              -18,
+              -7,
+              126,
+              37,
+              31
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 300
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "candidate": "R1/22",
+  "checks": [
+    {
+      "check": "default_hidden_and_no_sampling",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "real_F12_starts_visible_sampling",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "real_move_cadence_shown_as_10hz",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "live_trace_has_wrapped_at_native_render_rate",
+      "details": {
+        "capacity": 2048,
+        "retained_rows": 2048,
+        "session_samples": 10914
+      },
+      "pass": true
+    },
+    {
+      "check": "actual_Ctrl_F12_exports_native_user_file",
+      "details": {
+        "path": "user://diagnostics/frame_trace_148068699.json"
+      },
+      "pass": true
+    },
+    {
+      "check": "export_retains_exact_bounded_tail",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "trace_columns_and_positive_ordered_times",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "trace_hash_identifies_loaded_sampler",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "event_buffer_bounded",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "panel_does_not_capture_mouse",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "sampler_keeps_rendering_when_actor_is_paused",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "pause_is_visible_in_cadence_label",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "source_idle_average_cadence_8_3hz",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "source_dash_average_cadence_10hz",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "jump_uses_phase_label_not_long_raw_hold_rate",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "F4_retains_one_active_sampler",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "F4_keeps_actor_jump_and_pause_state",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_is_in_native_trace",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "F4_scene_change_is_traced",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "actual_F12_stops_all_hidden_sampling",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "closed_trace_can_be_saved_without_restarting",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "closed_export_contains_both_scenes",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "reopening_starts_new_bounded_session",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "restored_free_player_and_native_interpolation",
+      "details": {},
+      "pass": true
+    }
+  ],
+  "exports": [
+    {
+      "path": "user://diagnostics/frame_trace_148068699.json",
+      "rows": 2048.0,
+      "sha256": "2a0c8ac51c99e00a3a709e406a3794d694821f842f4a1a3eef38c904e8d15ebb"
+    },
+    {
+      "path": "user://diagnostics/frame_trace_149046753.json",
+      "rows": 2048.0,
+      "sha256": "7caeb7af05369440a0e03376371e8fa4cce3f5c96f4484df6fc7e20f62c2c2ba"
+    }
+  ],
+  "failed": [],
+  "note": "Actual F12 and Ctrl-F12 events, actual 60s bounded trace, pause and F4 checks. No synthetic buffer filling.",
+  "qa_source_sha256": "8c8590ea59087f28a6c679f31f2c4a2ddad0c400956f72bdc7c37e0580340940"
+}

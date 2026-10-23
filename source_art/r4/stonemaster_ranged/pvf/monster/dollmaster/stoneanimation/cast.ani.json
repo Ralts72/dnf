@@ -1,0 +1,292 @@
+{
+  "path": "monster/dollmaster/stoneanimation/cast.ani",
+  "crc": {
+    "expected": 3730187662,
+    "actual_seed_file_number": 3730187662,
+    "actual_seed_zero": 1793772289
+  },
+  "decoded": {
+    "frames_count": 11,
+    "resources": [
+      "monster/dollmaster/stonemaster.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 4,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 5,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 6,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 7,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 8,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 9,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 8,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 9,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 8,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 9,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 10,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -17,
+              -18,
+              4,
+              33,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 200
+          }
+        ]
+      }
+    ]
+  }
+}

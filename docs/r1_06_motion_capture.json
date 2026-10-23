@@ -1,0 +1,398 @@
+{
+  "candidate": "R1/06",
+  "frame_duration_ms": 40,
+  "frames": [
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 0,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 0
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 1,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 0
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 2,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 1
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 3,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 1
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 4,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 1
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 5,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 2
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 6,
+      "height": 0.0,
+      "phase": "takeoff",
+      "source_frame": 0
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 7,
+      "height": 0.0,
+      "phase": "takeoff",
+      "source_frame": 0
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 8,
+      "height": 8.428,
+      "phase": "rising",
+      "source_frame": 1
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 9,
+      "height": 24.252,
+      "phase": "rising",
+      "source_frame": 1
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 10,
+      "height": 38.7,
+      "phase": "rising",
+      "source_frame": 2
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 11,
+      "height": 51.772,
+      "phase": "rising",
+      "source_frame": 2
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 12,
+      "height": 63.468,
+      "phase": "rising",
+      "source_frame": 3
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 13,
+      "height": 73.788,
+      "phase": "rising",
+      "source_frame": 3
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 14,
+      "height": 82.732,
+      "phase": "rising",
+      "source_frame": 4
+    },
+    {
+      "action": "jumpattack",
+      "duration_ms": 40,
+      "frame": 15,
+      "height": 90.3,
+      "phase": "rising",
+      "source_frame": 0
+    },
+    {
+      "action": "jumpattack",
+      "duration_ms": 40,
+      "frame": 16,
+      "height": 96.492,
+      "phase": "rising",
+      "source_frame": 0
+    },
+    {
+      "action": "jumpattack",
+      "duration_ms": 40,
+      "frame": 17,
+      "height": 101.308,
+      "phase": "rising",
+      "source_frame": 1
+    },
+    {
+      "action": "jumpattack",
+      "duration_ms": 40,
+      "frame": 18,
+      "height": 104.748,
+      "phase": "rising",
+      "source_frame": 2
+    },
+    {
+      "action": "jumpattack",
+      "duration_ms": 40,
+      "frame": 19,
+      "height": 106.812,
+      "phase": "rising",
+      "source_frame": 2
+    },
+    {
+      "action": "jumpattack",
+      "duration_ms": 40,
+      "frame": 20,
+      "height": 107.5,
+      "phase": "falling",
+      "source_frame": 4
+    },
+    {
+      "action": "jumpattack",
+      "duration_ms": 40,
+      "frame": 21,
+      "height": 106.812,
+      "phase": "falling",
+      "source_frame": 5
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 22,
+      "height": 104.748,
+      "phase": "falling",
+      "source_frame": 8
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 23,
+      "height": 101.308,
+      "phase": "falling",
+      "source_frame": 9
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 24,
+      "height": 96.492,
+      "phase": "falling",
+      "source_frame": 9
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 25,
+      "height": 90.3,
+      "phase": "falling",
+      "source_frame": 10
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 26,
+      "height": 82.732,
+      "phase": "falling",
+      "source_frame": 10
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 27,
+      "height": 73.788,
+      "phase": "falling",
+      "source_frame": 11
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 28,
+      "height": 63.4679999999999,
+      "phase": "falling",
+      "source_frame": 11
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 29,
+      "height": 51.7719999999999,
+      "phase": "falling",
+      "source_frame": 12
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 30,
+      "height": 38.6999999999999,
+      "phase": "falling",
+      "source_frame": 12
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 31,
+      "height": 24.2519999999999,
+      "phase": "falling",
+      "source_frame": 13
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 32,
+      "height": 8.42799999999988,
+      "phase": "falling",
+      "source_frame": 13
+    },
+    {
+      "action": "jump",
+      "duration_ms": 40,
+      "frame": 33,
+      "height": 0.0,
+      "phase": "landing",
+      "source_frame": 15
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 34,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 0
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 35,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 0
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 36,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 0
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 37,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 1
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 38,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 1
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 39,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 1
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 40,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 2
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 41,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 2
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 42,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 2
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 43,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 3
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 44,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 3
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 45,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 3
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 46,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 4
+    },
+    {
+      "action": "stay",
+      "duration_ms": 40,
+      "frame": 47,
+      "height": 0.0,
+      "phase": "grounded",
+      "source_frame": 4
+    }
+  ],
+  "frames_directory": "res://work/r1_06_motion_frames",
+  "notes": [
+    "Native Godot offscreen output. Actors and original prop animations use fixed 40ms steps.",
+    "Environment shader TIME follows capture wall time. This is a motion demonstration, not a frame-rate benchmark."
+  ],
+  "qa_source_sha256": "71a1aebe2095f0551f027cb10cea011e06dc092c2f1ab85adf01b707eab5a228",
+  "scene_render_size": "(1792, 808)",
+  "size": "(960, 540)"
+}

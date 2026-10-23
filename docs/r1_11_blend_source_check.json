@@ -1,0 +1,294 @@
+{
+  "blender": "5.2.2 LTS",
+  "source": "/Users/mac/project/game/dnf/source_art/r1/west_coast_port.blend",
+  "source_blend_sha256": "44e4d1ee758dd762d658f4c4999170eb8824f8f0503b5051e4e987ee2bf4918a",
+  "inspection_script_sha256": "4b1a301b841f0dd341399769fca9b8e4f6ed9f5beb6fd0e0b693ec0ca5a8bb49",
+  "scene": "WestCoast_R1_Architecture",
+  "mesh_objects": 302,
+  "images": [
+    {
+      "name": "000.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        224,
+        386
+      ],
+      "available": true
+    },
+    {
+      "name": "000.png.001",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        224,
+        277
+      ],
+      "available": true
+    },
+    {
+      "name": "000.png.002",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        443,
+        230
+      ],
+      "available": true
+    },
+    {
+      "name": "dock_metal.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        15,
+        4
+      ],
+      "available": true
+    },
+    {
+      "name": "dock_rope.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        23,
+        4
+      ],
+      "available": true
+    },
+    {
+      "name": "dock_stone.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        28,
+        7
+      ],
+      "available": true
+    },
+    {
+      "name": "dock_wood.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        13,
+        9
+      ],
+      "available": true
+    },
+    {
+      "name": "grove_bark.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        13,
+        48
+      ],
+      "available": true
+    },
+    {
+      "name": "grove_canopy.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        224,
+        140
+      ],
+      "available": true
+    },
+    {
+      "name": "grove_grass.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        24,
+        8
+      ],
+      "available": true
+    },
+    {
+      "name": "grove_path.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        40,
+        26
+      ],
+      "available": true
+    },
+    {
+      "name": "grove_plaster.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        26,
+        45
+      ],
+      "available": true
+    },
+    {
+      "name": "lamp_blue.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        14,
+        8
+      ],
+      "available": true
+    },
+    {
+      "name": "lamp_collar.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        11,
+        3
+      ],
+      "available": true
+    },
+    {
+      "name": "lamp_glass.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        15,
+        8
+      ],
+      "available": true
+    },
+    {
+      "name": "lamp_shaft.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        7,
+        28
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_0.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_1.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_2.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_3.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_4.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_5.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_6.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "paving_tile_7.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        64,
+        64
+      ],
+      "available": true
+    },
+    {
+      "name": "pier_face.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        100,
+        17
+      ],
+      "available": true
+    },
+    {
+      "name": "pier_top.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        100,
+        7
+      ],
+      "available": true
+    },
+    {
+      "name": "quay_coping.png",
+      "packed": true,
+      "external_exists": true,
+      "size": [
+        94,
+        18
+      ],
+      "available": true
+    }
+  ],
+  "missing_images": [],
+  "projected_uv_exists": true,
+  "paving_uv_exists": true,
+  "stall_uv_exists": true,
+  "shore_uv_exists": true,
+  "near_shore_diagonal_caps": 9,
+  "grove_canopy_uv_exists": true,
+  "grove_trunk_meshes": 9,
+  "dock_meshes": 17,
+  "dock_wood_uv_exists": true,
+  "lamp_meshes": 42,
+  "lamp_uv_exists": true,
+  "lamp_positive_signed_volumes": 42,
+  "source_modified": false
+}

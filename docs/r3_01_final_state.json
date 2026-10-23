@@ -1,0 +1,92 @@
+{
+  "attack_instance": 0,
+  "camera": "(0.0, 12.0)",
+  "combat_buffer_enabled": false,
+  "diagnostics_active": false,
+  "diagnostics_processing": false,
+  "encounter_meta_present": false,
+  "human_profile_exists": false,
+  "motion": true,
+  "physics_ticks": 60,
+  "player": {
+    "action": "stay",
+    "audio": {
+      "clock_ms": 0.0,
+      "pending": []
+    },
+    "elapsed_ms": 36.9296666666425,
+    "facing": 1,
+    "frame": 4,
+    "jump": {
+      "air_attack_started": -1.0,
+      "air_attack_used": false,
+      "elapsed": -1.0,
+      "travel_speed": 95.0
+    },
+    "next_attack": "attack1",
+    "one_shot": false,
+    "paused": false,
+    "position": "(440.0, 320.0)",
+    "preview": false
+  },
+  "quality": 2,
+  "queued_attack": false,
+  "root_children": [
+    "_mcp_game_helper",
+    "PortMusic",
+    "PortAmbience",
+    "FrameDiagnostics",
+    "WestCoastR1"
+  ],
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "script_hashes": {
+    "res://scripts/draconian_enemy.gd": {
+      "disk": "287647a35755f5585f5926622354bc089f24b85aa5824c9a98ecdc01aaf66b41",
+      "loaded": "287647a35755f5585f5926622354bc089f24b85aa5824c9a98ecdc01aaf66b41"
+    },
+    "res://scripts/exploration_stage.gd": {
+      "disk": "0c8062478e958245f2ab19cd2d443b3dc6a8d9f620d7b05c06b433d2a0ade1da",
+      "loaded": "0c8062478e958245f2ab19cd2d443b3dc6a8d9f620d7b05c06b433d2a0ade1da"
+    },
+    "res://scripts/first_encounter.gd": {
+      "disk": "143f9723a82d5e573b72783b8e60ddfd97dfc3b2509d46da1ea9722962fd8e0f",
+      "loaded": "143f9723a82d5e573b72783b8e60ddfd97dfc3b2509d46da1ea9722962fd8e0f"
+    },
+    "res://scripts/source_actor_3d.gd": {
+      "disk": "cc45da047eacc5f074ce0f22b19fac460057312ddaa7c103f8de73b5ee5d6871",
+      "loaded": "cc45da047eacc5f074ce0f22b19fac460057312ddaa7c103f8de73b5ee5d6871"
+    },
+    "res://scripts/world_travel.gd": {
+      "disk": "e8c6ea9c40a7cdc67d3a19c8c13c2a42db9be3444559662647bb8026118ecb06",
+      "loaded": "e8c6ea9c40a7cdc67d3a19c8c13c2a42db9be3444559662647bb8026118ecb06"
+    }
+  },
+  "travel": {
+    "can_exit": true,
+    "current_region": "harbor",
+    "exit_hold_id": "",
+    "exit_hold_required_seconds": 0.15,
+    "exit_hold_seconds": 0.0,
+    "fade_alpha": 0.0,
+    "grounded": true,
+    "harbor_return_position": "(60.0, 320.0)",
+    "last_error": "",
+    "last_exit": "",
+    "pending_target": "",
+    "phase": "ready",
+    "region": "harbor",
+    "reset_positions": {
+      "harbor": "(440.0, 320.0)"
+    },
+    "schema_version": 1,
+    "source_position": "(440.0, 320.0)",
+    "spawn_position": "(440.0, 320.0)",
+    "transition_count": 0,
+    "transitioning": false,
+    "ui_input_blocked": false,
+    "visited": [
+      "harbor"
+    ]
+  },
+  "walk": true
+}

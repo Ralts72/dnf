@@ -1,0 +1,18 @@
+{
+  "frame_diagnostics_active": false,
+  "free_control": true,
+  "input_clear": true,
+  "native_interpolation": true,
+  "production_build": "R1   /   22",
+  "raw_texture_restored": true,
+  "root_children": [
+    "_mcp_game_helper",
+    "PortMusic",
+    "PortAmbience",
+    "WestCoastR1",
+    "FrameDiagnostics"
+  ],
+  "shader_texture_restored": true,
+  "source_position": "(440.0, 320.0)",
+  "temporary_boxes": 0
+}

@@ -1,0 +1,142 @@
+{
+  "path": "monster/dollmaster/stoneanimation/down.ani",
+  "crc": {
+    "expected": 2279164888,
+    "actual_seed_file_number": 2279164888,
+    "actual_seed_zero": 3468630132
+  },
+  "decoded": {
+    "frames_count": 5,
+    "resources": [
+      "monster/dollmaster/stonemaster.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 11,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -24,
+              -18,
+              4,
+              40,
+              39,
+              62
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 12,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -24,
+              -18,
+              4,
+              40,
+              39,
+              70
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 12,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -20,
+              -18,
+              -8,
+              60,
+              39,
+              72
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 10000
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 12,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -43,
+              -18,
+              -6,
+              53,
+              39,
+              60
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 10000
+          }
+        ]
+      },
+      {
+        "resource": "monster/dollmaster/stonemaster.img",
+        "image_frame": 12,
+        "x": -107,
+        "y": -209,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -74,
+              -18,
+              -20,
+              74,
+              39,
+              50
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 500
+          }
+        ]
+      }
+    ]
+  }
+}

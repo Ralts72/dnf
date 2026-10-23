@@ -1,0 +1,24 @@
+{
+  "manifest": "docs/r3_draconian_source_reference.json",
+  "manifest_sha256": "9cb1fbf8d74d65d21eb51f1ee3ec569cd070666930ab81b635e09fedcaff2d93",
+  "runtime_data": "data/draconian_animations.json",
+  "counts": {
+    "animations": 9,
+    "composite_frames": 34,
+    "unique_source_crops": 32,
+    "textures": 66,
+    "verified_pvf_crc": 17,
+    "copied_rgba_pixels": 701788
+  },
+  "notes": [
+    "Legacy monsterID70 Mirkius resolves dictionaryID7/name_530 to 龍人. Simplified 龙人 is a display adaptation.",
+    "Minius/藍龍人, Lakius/魯卡斯, Sius/雷環休斯 and newer Magneus are separate variants; no AI/ACT assets are borrowed from them.",
+    "No gameplay implementation: HP, damage, AI, collision, hit timing, stun and death state machine are not supplied by this export.",
+    "Original ANI properties, XYZ boxes, frame indices, offsets and explicit durations are retained verbatim as decoded data.",
+    "damage1/2 contain no duration property: source_duration_ms=null; duration_ms=10000 is solely a safe static-pose inspector fallback, not original timing or a combat rule.",
+    "Down retains both original10000ms source holds. There is no standalone deathANI in the legacy tree; do not label this export as original death behavior.",
+    "Raw src PNGs contain exact source RGBA. Fixed-canvas frames are derived artifacts with exact unmasked crop copies and transparent padding.",
+    "A contact sheet adds labels and a checkerboard only in work/; exported textures are not changed.",
+    "No client EXE, DLL, game server, ACT interpreter, paid API or internet service was run."
+  ]
+}

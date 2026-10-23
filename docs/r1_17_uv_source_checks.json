@@ -1,0 +1,18 @@
+{
+  "candidate": "R1/17",
+  "baseline": "R1/16",
+  "failed": [],
+  "facade_meshes": 76,
+  "dock_meshes": [
+    "Dock_Mooring_Core",
+    "Dock_Mooring_Limestone_Cap"
+  ],
+  "allowed_uv_accessors": 80,
+  "changed_uv_bytes": 83659,
+  "unchanged_non_uv_binary_bytes": 6712636,
+  "all_positions_normals_indices_images_and_transforms_unchanged": true,
+  "only_material_change": "Source_Painted_Facade alphaMode MASK / cutoff 0.25; PBR retained",
+  "glb_sha256": "ca75b6b591b354329266790e51d1a4bd1f2825b36379fe9f449f188b0bb9db97",
+  "qa_source_sha256": "032cfcd27cbb6afd48f8b1ceed04eed49ada53ad359e0af59e3a5d474e19897f",
+  "note": "Strict byte whitelist covers only 80 UV accessors. All other binary bytes and JSON properties are equal to candidate 16."
+}

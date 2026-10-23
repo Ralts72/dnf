@@ -1,0 +1,25 @@
+{
+  "path": "n_string.lst",
+  "sha256": "dcb2b4484b4f60dab1c784d83f6a49f1c4cdae145d158e55bd4767fe3f76909d",
+  "bytes": 262,
+  "crc": {
+    "expected": 2697374422,
+    "actual_seed_file_number": 2697374422,
+    "actual_seed_zero": 1962917806
+  },
+  "raw_reference": "source_art/r3/pvf/n_string.lst.bin",
+  "decoded": {
+    "selection": "DictionaryID7; complete bytes retained in .bin",
+    "tokens": [
+      {
+        "type": 2,
+        "value": 7
+      },
+      {
+        "type": 7,
+        "index": 343348,
+        "text": "Monster/Monster.kor.str"
+      }
+    ]
+  }
+}

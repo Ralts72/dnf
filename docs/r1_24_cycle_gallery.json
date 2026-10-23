@@ -1,0 +1,299 @@
+{
+  "actor_source_sha256": "26babbc6d68a3068ebb5a96fad46cdc8cdc7eb542c8b9b47a6008f68c856abf3",
+  "cases": [
+    {
+      "capture": "res://work/r1_24_cycle/r_00_0.png",
+      "facing": 1,
+      "frame": 0,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_00_1.png",
+      "facing": 1,
+      "frame": 0,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_00_2.png",
+      "facing": 1,
+      "frame": 0,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_01_0.png",
+      "facing": 1,
+      "frame": 1,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_01_1.png",
+      "facing": 1,
+      "frame": 1,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_01_2.png",
+      "facing": 1,
+      "frame": 1,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_02_0.png",
+      "facing": 1,
+      "frame": 2,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_02_1.png",
+      "facing": 1,
+      "frame": 2,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_02_2.png",
+      "facing": 1,
+      "frame": 2,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_03_0.png",
+      "facing": 1,
+      "frame": 3,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_03_1.png",
+      "facing": 1,
+      "frame": 3,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_03_2.png",
+      "facing": 1,
+      "frame": 3,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_04_0.png",
+      "facing": 1,
+      "frame": 4,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_04_1.png",
+      "facing": 1,
+      "frame": 4,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_04_2.png",
+      "facing": 1,
+      "frame": 4,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_05_0.png",
+      "facing": 1,
+      "frame": 5,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_05_1.png",
+      "facing": 1,
+      "frame": 5,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_05_2.png",
+      "facing": 1,
+      "frame": 5,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_06_0.png",
+      "facing": 1,
+      "frame": 6,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_06_1.png",
+      "facing": 1,
+      "frame": 6,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_06_2.png",
+      "facing": 1,
+      "frame": 6,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_07_0.png",
+      "facing": 1,
+      "frame": 7,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_07_1.png",
+      "facing": 1,
+      "frame": 7,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/r_07_2.png",
+      "facing": 1,
+      "frame": 7,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_00_0.png",
+      "facing": -1,
+      "frame": 0,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_00_1.png",
+      "facing": -1,
+      "frame": 0,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_00_2.png",
+      "facing": -1,
+      "frame": 0,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_01_0.png",
+      "facing": -1,
+      "frame": 1,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_01_1.png",
+      "facing": -1,
+      "frame": 1,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_01_2.png",
+      "facing": -1,
+      "frame": 1,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_02_0.png",
+      "facing": -1,
+      "frame": 2,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_02_1.png",
+      "facing": -1,
+      "frame": 2,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_02_2.png",
+      "facing": -1,
+      "frame": 2,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_03_0.png",
+      "facing": -1,
+      "frame": 3,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_03_1.png",
+      "facing": -1,
+      "frame": 3,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_03_2.png",
+      "facing": -1,
+      "frame": 3,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_04_0.png",
+      "facing": -1,
+      "frame": 4,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_04_1.png",
+      "facing": -1,
+      "frame": 4,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_04_2.png",
+      "facing": -1,
+      "frame": 4,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_05_0.png",
+      "facing": -1,
+      "frame": 5,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_05_1.png",
+      "facing": -1,
+      "frame": 5,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_05_2.png",
+      "facing": -1,
+      "frame": 5,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_06_0.png",
+      "facing": -1,
+      "frame": 6,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_06_1.png",
+      "facing": -1,
+      "frame": 6,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_06_2.png",
+      "facing": -1,
+      "frame": 6,
+      "subframe": 2
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_07_0.png",
+      "facing": -1,
+      "frame": 7,
+      "subframe": 0
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_07_1.png",
+      "facing": -1,
+      "frame": 7,
+      "subframe": 1
+    },
+    {
+      "capture": "res://work/r1_24_cycle/l_07_2.png",
+      "facing": -1,
+      "frame": 7,
+      "subframe": 2
+    }
+  ],
+  "cycle_ms": 800,
+  "nominal_samples_per_second": 30,
+  "qa_source_sha256": "b3cbf27ec8e780137da79d20e336ea6b073cfadaea12f6d1660620f3344dda7d",
+  "recipe_sha256": "94a4ce85dbdd96848ef6eb181d98c320bc4ffb10b2b61c370d9045216094f1a8",
+  "shader_sha256": "134802b92734c3a3cdf289e8ec123320f53c3b47c2167e10e6a9338756789606",
+  "study": "R1/24 authored full walk cycle, not integrated"
+}

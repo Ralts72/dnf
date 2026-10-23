@@ -1,0 +1,38 @@
+{
+  "study": "R1/23 manually authored source-layer single transition",
+  "source_pair": [
+    "move_01",
+    "move_02"
+  ],
+  "phases": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "cases": [
+    {
+      "case": 1,
+      "protected_head_coat_weapon_samples": 1819,
+      "identical": 1819,
+      "mismatched": 0,
+      "front_boot_opaque_samples": 201,
+      "front_boot_exact": 201,
+      "front_boot_mismatches": 0,
+      "integer_grid_2x_blocks_equal": true
+    },
+    {
+      "case": 2,
+      "protected_head_coat_weapon_samples": 1819,
+      "identical": 1819,
+      "mismatched": 0,
+      "front_boot_opaque_samples": 201,
+      "front_boot_exact": 201,
+      "front_boot_mismatches": 0,
+      "integer_grid_2x_blocks_equal": true
+    }
+  ],
+  "native_render": "Godot CanvasItem2x, original source colors, numeric visibility mask",
+  "scope": "One transition; no full cycle or R1 integration. Parameters are authored adaptations. Visual acceptance pending.",
+  "qa_script_sha256": "96fdca6acc87deac88d8d7b85f8469d263c5af3daf068a4438e96f3e2e252c4b",
+  "shader_sha256": "7d006988a22643f872da339aab4d9da5e097675b9bfb4ff831013a85adf916a4",
+  "analysis_source_sha256": "ead8121cc153a92e9411bba46fefa7bb050b3d3dd2e2db6a26fe4d5aa4098e69"
+}

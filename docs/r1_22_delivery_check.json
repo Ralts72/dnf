@@ -1,0 +1,195 @@
+{
+  "candidate": "R1/22",
+  "verified_at_utc": "2026-10-23T03:03:34.336355+00:00",
+  "run_id": "r28429971-70",
+  "artifact_hashes_passed": 240,
+  "native_function_checks": {
+    "diagnostics": 24,
+    "interpolation": 28,
+    "core": 17
+  },
+  "total_native_function_checks": 69,
+  "failed": 0,
+  "live_input_observations": [
+    {
+      "tag": "a",
+      "production_candidate": "R1/20",
+      "diagnostics_active": false,
+      "summary": {
+        "count": 7620,
+        "mean_ms": 8.339238976377953,
+        "median_ms": 8.307500000000001,
+        "p95_ms": 9.607,
+        "p99_ms": 10.193,
+        "maximum_ms": 17.538,
+        "frames_over_16_67_ms": 2,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0,
+        "elapsed_sample_seconds": 63.545001,
+        "fps_from_mean": 119.91501896427698
+      },
+      "coverage_checks": 10,
+      "pipeline_nearby_max_ms": 12.874,
+      "gpu_time_available": false
+    },
+    {
+      "tag": "b",
+      "production_candidate": "R1/22",
+      "diagnostics_active": true,
+      "summary": {
+        "count": 7622,
+        "mean_ms": 8.340960509052742,
+        "median_ms": 8.319,
+        "p95_ms": 9.717,
+        "p99_ms": 10.669,
+        "maximum_ms": 17.433,
+        "frames_over_16_67_ms": 5,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0,
+        "elapsed_sample_seconds": 63.574801,
+        "fps_from_mean": 119.89026910206137
+      },
+      "coverage_checks": 10,
+      "pipeline_nearby_max_ms": 13.424,
+      "gpu_time_available": false
+    }
+  ],
+  "fresh_run_matches_disk": true,
+  "fresh_run_texture_mismatches": 0,
+  "diagnostics_default_hidden_and_not_sampling": true,
+  "single_diagnostics_instance": true,
+  "free_control_at_default_start": true,
+  "native_physics_interpolation": true,
+  "physics_ticks": 60,
+  "source_locomotion_image_rate_hz": 10,
+  "source_locomotion_cycle_ms": 800,
+  "inbetween_experiment_enabled": false,
+  "previous_1016_ms_stall_cause_known": false,
+  "clean_current_run": true,
+  "new_editor_errors_since_cursor_15": 0,
+  "sources": {
+    "candidate": "R1/22",
+    "source_pvf_sha256": "dc0e1acbc98b03b160e9ddb0643efdc7752cdf9c8969937507720a4ca2705c7b",
+    "source_crops_checked": 769,
+    "source_ani_crc_checked": 27,
+    "previous_crops_unchanged": 481,
+    "exact_rgba_composites": 107,
+    "lossless_import_profiles_checked": 929,
+    "clips": {
+      "stay": {
+        "frames": 6,
+        "duration_ms": 720,
+        "long_hold_frames": []
+      },
+      "move": {
+        "frames": 8,
+        "duration_ms": 800,
+        "long_hold_frames": []
+      },
+      "dash": {
+        "frames": 8,
+        "duration_ms": 800,
+        "long_hold_frames": []
+      },
+      "attack1": {
+        "frames": 10,
+        "duration_ms": 600,
+        "long_hold_frames": []
+      },
+      "attack2": {
+        "frames": 11,
+        "duration_ms": 650,
+        "long_hold_frames": []
+      },
+      "hopsmash": {
+        "frames": 7,
+        "duration_ms": 900,
+        "long_hold_frames": []
+      },
+      "attack3": {
+        "frames": 9,
+        "duration_ms": 550,
+        "long_hold_frames": []
+      },
+      "jump": {
+        "frames": 16,
+        "duration_ms": 21150,
+        "long_hold_frames": [
+          7,
+          14
+        ]
+      },
+      "jumpattack": {
+        "frames": 6,
+        "duration_ms": 300,
+        "long_hold_frames": []
+      },
+      "sit": {
+        "frames": 1,
+        "duration_ms": 150,
+        "long_hold_frames": []
+      },
+      "damage1": {
+        "frames": 1,
+        "duration_ms": 10000,
+        "long_hold_frames": [
+          0
+        ]
+      },
+      "damage2": {
+        "frames": 1,
+        "duration_ms": 10000,
+        "long_hold_frames": [
+          0
+        ]
+      },
+      "down": {
+        "frames": 6,
+        "duration_ms": 20660,
+        "long_hold_frames": [
+          2,
+          3
+        ]
+      },
+      "guard": {
+        "frames": 2,
+        "duration_ms": 20000,
+        "long_hold_frames": [
+          0,
+          1
+        ]
+      }
+    },
+    "failed": 0,
+    "qa_source_sha256": "fac17ad26942ffd959f1c45f0d9c4be096080339d69148c379fab302491a2a56",
+    "notes": [
+      "Every derivative is reconstructed from R0 layer offsets; exact RGBA bytes are compared.",
+      "Durations, raw properties and boxes are retained without interpreting them as gameplay rules.",
+      "This verifies local files and import settings; native render checks are recorded separately."
+    ]
+  },
+  "model": {
+    "texture_count": 27,
+    "exact_rgba_pixels": 322574,
+    "glb_unchanged": true,
+    "glb_sha256": "ca75b6b591b354329266790e51d1a4bd1f2825b36379fe9f449f188b0bb9db97"
+  },
+  "diagnostic_exports": [
+    "docs/r1_22_diagnostic_export_1.json",
+    "docs/r1_22_diagnostic_export_2.json"
+  ],
+  "checkpoint": "source_art/r1/checkpoints/candidate_20_after_motion_study",
+  "quota_remaining_percent": 89,
+  "quota_window_reset_at": 1793293820,
+  "goal_status": "active",
+  "previous_goal_turn_classification": "progress",
+  "previews": {
+    "r1_22_window.png": "387fb73b9d10289bd76b7b35346949371e1a0a6d49ee48df073f30446966277c",
+    "r1_22_diagnostics.png": "3c9a0bf97082d04b88339dfbf104c0dfca80fa879fd77af9601b8ec82ebe1eda"
+  },
+  "limits": [
+    "Current Mac, visible native1438x809 window; not full1080p nor Windows verification.",
+    "No cause claimed for the old hitch; no quality claim for rejected inbetween poses.",
+    "Previous173 candidate20 checks are retained evidence, not a full rerun in this study."
+  ]
+}

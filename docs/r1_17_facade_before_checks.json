@@ -1,0 +1,155 @@
+{
+  "candidate": "R1/17",
+  "checks": [
+    {
+      "check": "all_seventy_six_facade_parts_present",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "facade_pbr_lighting_retained",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "facade_source_alpha_uses_cutout",
+      "details": {},
+      "pass": false
+    },
+    {
+      "check": "camera_aligned_facade_rgb_1x",
+      "details": {
+        "clear_samples": 1673,
+        "matching": 8668,
+        "max_rgb_distance": 0.807843133807182,
+        "samples": 9331,
+        "scale": 1,
+        "source_origin": "(1.0, 19.18089)",
+        "transparent": 1279
+      },
+      "pass": false
+    },
+    {
+      "check": "original_facade_gaps_remain_transparent_1x",
+      "details": {
+        "clear_samples": 1673,
+        "matching": 8668,
+        "max_rgb_distance": 0.807843133807182,
+        "samples": 9331,
+        "scale": 1,
+        "source_origin": "(1.0, 19.18089)",
+        "transparent": 1279
+      },
+      "pass": false
+    },
+    {
+      "check": "camera_aligned_facade_rgb_2x",
+      "details": {
+        "clear_samples": 1673,
+        "matching": 8705,
+        "max_rgb_distance": 0.807843133807182,
+        "samples": 9335,
+        "scale": 2,
+        "source_origin": "(1.0, 19.18089)",
+        "transparent": 1274
+      },
+      "pass": false
+    },
+    {
+      "check": "original_facade_gaps_remain_transparent_2x",
+      "details": {
+        "clear_samples": 1673,
+        "matching": 8705,
+        "max_rgb_distance": 0.807843133807182,
+        "samples": 9335,
+        "scale": 2,
+        "source_origin": "(1.0, 19.18089)",
+        "transparent": 1274
+      },
+      "pass": false
+    }
+  ],
+  "failed": [
+    {
+      "check": "facade_source_alpha_uses_cutout",
+      "details": {},
+      "pass": false
+    },
+    {
+      "check": "camera_aligned_facade_rgb_1x",
+      "details": {
+        "clear_samples": 1673,
+        "matching": 8668,
+        "max_rgb_distance": 0.807843133807182,
+        "samples": 9331,
+        "scale": 1,
+        "source_origin": "(1.0, 19.18089)",
+        "transparent": 1279
+      },
+      "pass": false
+    },
+    {
+      "check": "original_facade_gaps_remain_transparent_1x",
+      "details": {
+        "clear_samples": 1673,
+        "matching": 8668,
+        "max_rgb_distance": 0.807843133807182,
+        "samples": 9331,
+        "scale": 1,
+        "source_origin": "(1.0, 19.18089)",
+        "transparent": 1279
+      },
+      "pass": false
+    },
+    {
+      "check": "camera_aligned_facade_rgb_2x",
+      "details": {
+        "clear_samples": 1673,
+        "matching": 8705,
+        "max_rgb_distance": 0.807843133807182,
+        "samples": 9335,
+        "scale": 2,
+        "source_origin": "(1.0, 19.18089)",
+        "transparent": 1274
+      },
+      "pass": false
+    },
+    {
+      "check": "original_facade_gaps_remain_transparent_2x",
+      "details": {
+        "clear_samples": 1673,
+        "matching": 8705,
+        "max_rgb_distance": 0.807843133807182,
+        "samples": 9335,
+        "scale": 2,
+        "source_origin": "(1.0, 19.18089)",
+        "transparent": 1274
+      },
+      "pass": false
+    }
+  ],
+  "glb_sha256": "552875ca515f914e106049087c9005cfe2fdab435bda1349af85c18f3ea22dee",
+  "note": "Projection and alpha tested with actual meshes and UVs in isolated unlit 3D targets. Main scene facade retains PBR lighting.",
+  "phase": "before",
+  "qa_source_sha256": "8c95d49f039b47c74e6ea80006a03e5b9571afdec3bbf5d90d709dff0478b218",
+  "render_cases": [
+    {
+      "clear_samples": 1673,
+      "matching": 8668,
+      "max_rgb_distance": 0.807843133807182,
+      "samples": 9331,
+      "scale": 1,
+      "source_origin": "(1.0, 19.18089)",
+      "transparent": 1279
+    },
+    {
+      "clear_samples": 1673,
+      "matching": 8705,
+      "max_rgb_distance": 0.807843133807182,
+      "samples": 9335,
+      "scale": 2,
+      "source_origin": "(1.0, 19.18089)",
+      "transparent": 1274
+    }
+  ]
+}

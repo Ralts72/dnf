@@ -1,0 +1,149 @@
+{
+  "stage": "R2/01 route geometry study",
+  "layout_policy": "Adapted harbor-to-tower connection; no claim of recovered original adjacency or3D geometry.",
+  "camera": {
+    "elevation_degrees": 38,
+    "source_pixels_per_meter": 60,
+    "source_center": [
+      448,
+      202
+    ],
+    "source_y_origin_offset": 43,
+    "ground_height": 0.025,
+    "ground_formula": "X=(sourceX-448)/60; Z=(sourceY-159)/(60*sin38)-1.6; Y=.025"
+  },
+  "approach": {
+    "walk_rectangle": [
+      36,
+      236,
+      852,
+      345
+    ],
+    "floor_source_bounds": [
+      -170,
+      230,
+      1060,
+      450
+    ],
+    "tower_door_ground": [
+      430,
+      236
+    ],
+    "tower_card_bottom_center": [
+      448,
+      236
+    ],
+    "return_ground": [
+      846,
+      320
+    ],
+    "far_wall_ground_y": 226,
+    "front_wall_ground_y": 400,
+    "tower_right_padding": {
+      "source_texture": "res://assets/r2/entrance/tower.png",
+      "source_rect_xyxy": [
+        702,
+        0,
+        882,
+        600
+      ],
+      "flip_h": true,
+      "padding_pixels": 180,
+      "source_x_coverage": [
+        889,
+        1069
+      ],
+      "policy": "Interpreted mirrored right-edge extension beyond the original crop; shared view rotation and bottom anchor, no PNG edits."
+    },
+    "tower_art": "entrance/tower.png is the explicitly recorded95-client cataclysm/skytower gallery; its top intentionally extends above the view."
+  },
+  "hall": {
+    "walk_rectangle": [
+      120,
+      245,
+      776,
+      345
+    ],
+    "floor_source_bounds": [
+      -170,
+      235,
+      1060,
+      450
+    ],
+    "spiral_column_ground": [
+      [
+        140,
+        245
+      ],
+      [
+        760,
+        245
+      ]
+    ],
+    "banner_ground": [
+      448,
+      238
+    ],
+    "return_ground": [
+      440,
+      337
+    ],
+    "return_side_support_ground": [
+      [
+        344,
+        366
+      ],
+      [
+        536,
+        366
+      ]
+    ]
+  },
+  "pixel_policy": [
+    "Source PNGs and actor assets are unchanged. Native floors use opaque source subrects, unlit nearest sampling and UV repetition.",
+    "Carved stone/column material subrects use UV scale/offset on original source textures; no new bitmap colors are generated.",
+    "Architecture uses source textures with native light, so its screenRGB is not claimed to equal sourceRGB.",
+    "Source cards retain1source pixel per logical pixel and a38-degree view-facing surface; view-ray depth offsets only set layering.",
+    "Geometry has no new collision bodies. Parent travel bounds and scene portals define the initial route; full architectural collision remains a later step."
+  ],
+  "material_subrects": {
+    "approach_stone": {
+      "texture": "res://assets/r2/approach/bridge_0.png",
+      "rect_xyxy": [
+        24,
+        80,
+        88,
+        112
+      ],
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    "hall_gold": {
+      "texture": "res://assets/r2/interior/column.png",
+      "rect_xyxy": [
+        9,
+        16,
+        20,
+        76
+      ],
+      "alpha_range": [
+        255,
+        255
+      ]
+    }
+  },
+  "outputs": [
+    {
+      "scene": "scenes/tower_approach_world.tscn",
+      "native_mesh_instances": 122,
+      "subresources": 22
+    },
+    {
+      "scene": "scenes/tower_hall_world.tscn",
+      "native_mesh_instances": 29,
+      "subresources": 19
+    }
+  ]
+}

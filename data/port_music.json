@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "tag": "M_WESTCOAST",
+  "path": "res://assets/r0/music/westcoast_old.ogg",
+  "loop": true,
+  "loop_offset_seconds": 0.0,
+  "default_volume": 0.2,
+  "volume_levels": [
+    0.0,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "intro_fade_seconds": 0.6,
+  "volume_fade_seconds": 0.15,
+  "source_reference": "docs/r1_music_source_reference.json",
+  "notes": [
+    "Music continues during pose/water pause and retains one player across R0/R1.",
+    "F9 mutes with a short fade, then pauses the stream at its current position.",
+    "Source tag/track selection is verified; gain, fades and UI behavior are sample choices."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "candidate": "R1/12",
+  "native_checks": 111,
+  "build_hashes_verified": 122,
+  "terminal_jobs": {
+    "water": "complete",
+    "shore": "complete",
+    "core": "complete",
+    "mooring": "complete",
+    "pose": "complete",
+    "observation": "complete"
+  },
+  "run_id": "r16833949-41",
+  "root_script_loaded_matches_disk": true,
+  "water_script_loaded_matches_disk": true,
+  "water_shader_loaded_matches_disk": true,
+  "remaining_quota_percent": 94,
+  "goal_status": "active"
+}

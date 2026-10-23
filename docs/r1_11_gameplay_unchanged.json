@@ -1,0 +1,71 @@
+{
+  "candidate": "R1/11",
+  "baseline": "R1/10",
+  "checks": [
+    {
+      "path": "data/swordman_audio.json",
+      "unchanged_sha256": "fab2c861cb972a6615b8af0eb115fb277824565ad6654fe0517f06e784323106"
+    },
+    {
+      "path": "data/swordman_motion.json",
+      "unchanged_sha256": "3523b6a3f5a2c9b7cc4164fb6a7bbeda59c0a2fa0001c5f5d215907ab2898983"
+    },
+    {
+      "path": "scripts/billboard_prop.gd",
+      "unchanged_sha256": "20c4268a41dc10a69bae7df912fc5ce68ff50d4a3f3579b437b0e6a2024dbf55"
+    },
+    {
+      "path": "scripts/demo_input.gd",
+      "unchanged_sha256": "21cfa1b3e2cee71b9266367cc83b7e77a530e6bcb7bfffaf4e3c7d172bbac139"
+    },
+    {
+      "path": "scripts/demo_walk_area.gd",
+      "unchanged_sha256": "0a9dafb6a9083d1911c9b00884319a5d9a5968c93edfc239f7c7734a17110485"
+    },
+    {
+      "path": "scripts/source_actor.gd",
+      "unchanged_sha256": "09b9f82624a892407513fa5faa458cc3abc48750d29a77c352acc86fcbdc9f9b"
+    },
+    {
+      "path": "scripts/source_actor_3d.gd",
+      "unchanged_sha256": "a3348e8dbb12ff868dbc919dedf46448fca42a15bda7bdc1b74b538165fad56c"
+    },
+    {
+      "path": "scripts/source_actor_audio.gd",
+      "unchanged_sha256": "0559ac92fe0ef8ee7ed372a682df6413851809410b74f32081e413930c5beb71"
+    },
+    {
+      "path": "scripts/source_jump.gd",
+      "unchanged_sha256": "5ca03ad47e0f653b1e13c23003fbfde5b5e91a7037d36dfc5aebe08e6429de0e"
+    },
+    {
+      "path": "scripts/source_preview_controls.gd",
+      "unchanged_sha256": "43b2552d67d1f26e4925c4b1d2a3a874d5dd69ca5e603526baace701455c8c8c"
+    },
+    {
+      "path": "scripts/source_prop.gd",
+      "unchanged_sha256": "3ff78008da3a277bb9aac38c7f0ef4090439fa722f045a89633ff76a4f2d673b"
+    },
+    {
+      "path": "scripts/west_coast_r0.gd",
+      "unchanged_sha256": "115885a9160d103bbf1e884ade2ebaa3fd59157430946404c6653e535eba4e07"
+    },
+    {
+      "path": "scripts/west_coast_r1.gd",
+      "unchanged_sha256": "d577c9144fa8f1db772f596fb965609b6e8dd59b663022473f18344da08af76e"
+    },
+    {
+      "path": "shaders/contact_shadow.gdshader",
+      "unchanged_sha256": "3f17332b0d781548bc458da34e9a25bee76e33c875e3b914a8b5da24f04b3b50"
+    },
+    {
+      "path": "shaders/harbor_water.gdshader",
+      "unchanged_sha256": "a5166b47c5c3dd263fe02c29cb3a55dbbd4e16d3a679b8164d0e9d81c48cb767"
+    },
+    {
+      "path": "shaders/source_billboard.gdshader",
+      "unchanged_sha256": "f82b408fb3bc9424a49e6c3735e1afbbdfb05576458b2d7f7a141b4670395934"
+    }
+  ],
+  "note": "All listed runtime scripts, shaders and the motion/audio parameter files retain exact hashes. Native lamp model geometry and materials changed."
+}

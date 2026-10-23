@@ -1,0 +1,132 @@
+{
+  "path": "monster/draconian/dmattackinfo/attack.atk",
+  "sha256": "c846b39216daa05cb4889310a7808a22e9a51ec2867debbced18e9978e070914",
+  "bytes": 127,
+  "crc": {
+    "expected": 4088570885,
+    "actual_seed_file_number": 4088570885,
+    "actual_seed_zero": 1918585391
+  },
+  "raw_reference": "source_art/r3/pvf/monster/draconian/dmattackinfo/attack.atk.bin",
+  "decoded": [
+    {
+      "type": 5,
+      "index": 1103,
+      "text": "[attack type]"
+    },
+    {
+      "type": 5,
+      "index": 1104,
+      "text": "[physic]"
+    },
+    {
+      "type": 5,
+      "index": 1105,
+      "text": "[weapon damage apply]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 1106,
+      "text": "[attack enemy]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 1107,
+      "text": "[elemental property]"
+    },
+    {
+      "type": 5,
+      "index": 1108,
+      "text": "[no element]"
+    },
+    {
+      "type": 5,
+      "index": 1109,
+      "text": "[damage reaction]"
+    },
+    {
+      "type": 5,
+      "index": 1110,
+      "text": "[damage]"
+    },
+    {
+      "type": 5,
+      "index": 1111,
+      "text": "[push aside]"
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 5,
+      "index": 1112,
+      "text": "[lift up]"
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 5,
+      "index": 1118,
+      "text": "[hit wav]"
+    },
+    {
+      "type": 7,
+      "index": 306535,
+      "text": "FOX_ATK_HIT"
+    },
+    {
+      "type": 5,
+      "index": 1113,
+      "text": "[attack direction]"
+    },
+    {
+      "type": 5,
+      "index": 1114,
+      "text": "[hit lift up]"
+    },
+    {
+      "type": 5,
+      "index": 1115,
+      "text": "[hit info]"
+    },
+    {
+      "type": 5,
+      "index": 1123,
+      "text": "[cut]"
+    },
+    {
+      "type": 5,
+      "index": 1124,
+      "text": "[blood]"
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 5,
+      "index": 1118,
+      "text": "[hit wav]"
+    },
+    {
+      "type": 7,
+      "index": 307187,
+      "text": "SPEAR_HIT"
+    }
+  ]
+}

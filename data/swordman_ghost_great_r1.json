@@ -1,0 +1,3801 @@
+{
+  "schema": 1,
+  "source_data": "data/swordman_ghost_great_r0.json",
+  "canvas_size": [
+    320,
+    224
+  ],
+  "foot_anchor": [
+    133,
+    167
+  ],
+  "animations": {
+    "stay": {
+      "frames": [
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/stay_00.png",
+          "duration_ms": 120,
+          "img_frame": 90,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 120
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                0,
+                30,
+                10,
+                97
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                13,
+                -3,
+                0,
+                13,
+                7,
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/stay_01.png",
+          "duration_ms": 120,
+          "img_frame": 91,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 120
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                0,
+                30,
+                10,
+                97
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                13,
+                -3,
+                0,
+                13,
+                7,
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/stay_02.png",
+          "duration_ms": 120,
+          "img_frame": 92,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 120
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                0,
+                30,
+                10,
+                97
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                13,
+                -3,
+                0,
+                13,
+                7,
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/stay_03.png",
+          "duration_ms": 120,
+          "img_frame": 93,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 120
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                0,
+                30,
+                10,
+                97
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                13,
+                -3,
+                0,
+                13,
+                7,
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/stay_04.png",
+          "duration_ms": 120,
+          "img_frame": 94,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 120
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                0,
+                30,
+                10,
+                97
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                13,
+                -3,
+                0,
+                13,
+                7,
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/stay_05.png",
+          "duration_ms": 120,
+          "img_frame": 95,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 120
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                0,
+                30,
+                10,
+                97
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                13,
+                -3,
+                0,
+                13,
+                7,
+                73
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "move": {
+      "frames": [
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/move_00.png",
+          "duration_ms": 100,
+          "img_frame": 180,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -14,
+                -5,
+                0,
+                27,
+                10,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/move_01.png",
+          "duration_ms": 100,
+          "img_frame": 181,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -12,
+                -5,
+                0,
+                25,
+                10,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/move_02.png",
+          "duration_ms": 100,
+          "img_frame": 182,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -14,
+                -5,
+                0,
+                27,
+                10,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/move_03.png",
+          "duration_ms": 100,
+          "img_frame": 183,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -13,
+                -5,
+                0,
+                26,
+                10,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/move_04.png",
+          "duration_ms": 100,
+          "img_frame": 184,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -14,
+                -5,
+                0,
+                27,
+                10,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/move_05.png",
+          "duration_ms": 100,
+          "img_frame": 185,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -11,
+                -5,
+                0,
+                24,
+                10,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/move_06.png",
+          "duration_ms": 100,
+          "img_frame": 186,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -11,
+                -5,
+                0,
+                24,
+                10,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/move_07.png",
+          "duration_ms": 100,
+          "img_frame": 187,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -13,
+                -5,
+                0,
+                26,
+                10,
+                107
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "dash": {
+      "frames": [
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_00.png",
+          "duration_ms": 100,
+          "img_frame": 105,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                0,
+                -5,
+                2,
+                22,
+                10,
+                92
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                52,
+                20,
+                8,
+                43
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -21,
+                -4,
+                59,
+                20,
+                6,
+                20
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -15,
+                -5,
+                5,
+                20,
+                7,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_01.png",
+          "duration_ms": 100,
+          "img_frame": 106,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                2,
+                -5,
+                0,
+                30,
+                10,
+                91
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -20,
+                -4,
+                25,
+                23,
+                8,
+                50
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -38,
+                -4,
+                4,
+                20,
+                7,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_02.png",
+          "duration_ms": 100,
+          "img_frame": 107,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                8,
+                -5,
+                1,
+                22,
+                10,
+                94
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                29,
+                -3,
+                4,
+                22,
+                7,
+                25
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -11,
+                -1,
+                37,
+                20,
+                7,
+                45
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -45,
+                0,
+                32,
+                35,
+                6,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_03.png",
+          "duration_ms": 100,
+          "img_frame": 108,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                11,
+                -5,
+                0,
+                22,
+                10,
+                95
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -16,
+                -3,
+                29,
+                30,
+                6,
+                52
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -33,
+                -3,
+                24,
+                20,
+                7,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_04.png",
+          "duration_ms": 100,
+          "img_frame": 109,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -6,
+                -5,
+                0,
+                29,
+                10,
+                89
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                23,
+                -4,
+                55,
+                14,
+                8,
+                39
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -23,
+                -4,
+                55,
+                20,
+                6,
+                20
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -20,
+                -5,
+                3,
+                20,
+                8,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_05.png",
+          "duration_ms": 100,
+          "img_frame": 110,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -3,
+                -5,
+                1,
+                30,
+                10,
+                88
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                26,
+                -5,
+                53,
+                16,
+                8,
+                42
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -24,
+                -3,
+                9,
+                20,
+                8,
+                69
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -37,
+                -2,
+                11,
+                20,
+                6,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_06.png",
+          "duration_ms": 100,
+          "img_frame": 111,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                13,
+                -5,
+                0,
+                30,
+                10,
+                92
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -3,
+                39,
+                31,
+                7,
+                45
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -43,
+                -2,
+                37,
+                29,
+                6,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/dash_07.png",
+          "duration_ms": 100,
+          "img_frame": 112,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                7,
+                -5,
+                1,
+                18,
+                10,
+                93
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                26,
+                -4,
+                56,
+                20,
+                8,
+                37
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -15,
+                -4,
+                29,
+                23,
+                8,
+                55
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -33,
+                -3,
+                23,
+                20,
+                7,
+                20
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "attack1": {
+      "frames": [
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_00.png",
+          "duration_ms": 50,
+          "img_frame": 0,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                1,
+                -5,
+                1,
+                20,
+                10,
+                55
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_01.png",
+          "duration_ms": 50,
+          "img_frame": 1,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                1,
+                -5,
+                -4,
+                20,
+                9,
+                61
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_02.png",
+          "duration_ms": 50,
+          "img_frame": 2,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -1,
+                -5,
+                -4,
+                22,
+                10,
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_03.png",
+          "duration_ms": 50,
+          "img_frame": 3,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            },
+            {
+              "type": 23,
+              "value": 1
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                34,
+                -5,
+                43,
+                26,
+                10,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_04.png",
+          "duration_ms": 50,
+          "img_frame": 4,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -31,
+                -6,
+                -5,
+                20,
+                9,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_05.png",
+          "duration_ms": 50,
+          "img_frame": 5,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -28,
+                -2,
+                -6,
+                20,
+                7,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_06.png",
+          "duration_ms": 50,
+          "img_frame": 6,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -31,
+                -3,
+                -4,
+                23,
+                8,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_07.png",
+          "duration_ms": 50,
+          "img_frame": 7,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -30,
+                -3,
+                -6,
+                22,
+                8,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_08.png",
+          "duration_ms": 50,
+          "img_frame": 8,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -27,
+                -5,
+                -5,
+                20,
+                10,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack1_09.png",
+          "duration_ms": 150,
+          "img_frame": 9,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 150
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -31,
+                -4,
+                -6,
+                27,
+                8,
+                34
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "attack2": {
+      "frames": [
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_00.png",
+          "duration_ms": 50,
+          "img_frame": 10,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -18,
+                -5,
+                -6,
+                25,
+                10,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_01.png",
+          "duration_ms": 50,
+          "img_frame": 11,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -24,
+                -2,
+                -5,
+                20,
+                5,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_02.png",
+          "duration_ms": 50,
+          "img_frame": 12,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -25,
+                -1,
+                -7,
+                20,
+                5,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_03.png",
+          "duration_ms": 50,
+          "img_frame": 13,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            },
+            {
+              "type": 23,
+              "value": 2
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -41,
+                -4,
+                59,
+                36,
+                7,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_04.png",
+          "duration_ms": 50,
+          "img_frame": 14,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -40,
+                -4,
+                63,
+                21,
+                7,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_05.png",
+          "duration_ms": 50,
+          "img_frame": 15,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -36,
+                -3,
+                63,
+                25,
+                5,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_06.png",
+          "duration_ms": 50,
+          "img_frame": 16,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -40,
+                -3,
+                65,
+                28,
+                7,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_07.png",
+          "duration_ms": 50,
+          "img_frame": 17,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -38,
+                -3,
+                66,
+                20,
+                6,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_08.png",
+          "duration_ms": 50,
+          "img_frame": 18,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -38,
+                -3,
+                66,
+                20,
+                6,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_09.png",
+          "duration_ms": 50,
+          "img_frame": 19,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -38,
+                -3,
+                63,
+                22,
+                7,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack2_10.png",
+          "duration_ms": 150,
+          "img_frame": 20,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 150
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -36,
+                -4,
+                62,
+                19,
+                8,
+                20
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "hopsmash": {
+      "frames": [
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/hopsmash_00.png",
+          "duration_ms": 120,
+          "img_frame": 126,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 120
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -7,
+                -5,
+                3,
+                27,
+                10,
+                101
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -24,
+                -3,
+                61,
+                20,
+                7,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/hopsmash_01.png",
+          "duration_ms": 240,
+          "img_frame": 127,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 240
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                30,
+                35,
+                10,
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/hopsmash_02.png",
+          "duration_ms": 60,
+          "img_frame": 204,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 60
+            },
+            {
+              "type": 13,
+              "value": 1
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -16,
+                -5,
+                0,
+                44,
+                10,
+                98
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/hopsmash_03.png",
+          "duration_ms": 180,
+          "img_frame": 206,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            },
+            {
+              "type": 13,
+              "value": 1
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 15,
+              "xyz_size": [
+                -10,
+                -20,
+                -2,
+                86,
+                40,
+                49
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                17,
+                -5,
+                0,
+                46,
+                10,
+                54
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -16,
+                -10,
+                0,
+                37,
+                10,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/hopsmash_04.png",
+          "duration_ms": 60,
+          "img_frame": 207,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 60
+            },
+            {
+              "type": 13,
+              "value": 1
+            },
+            {
+              "type": 23,
+              "value": 65534
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 15,
+              "xyz_size": [
+                -10,
+                -20,
+                -2,
+                86,
+                40,
+                49
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                17,
+                -5,
+                0,
+                46,
+                10,
+                54
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -16,
+                -10,
+                0,
+                37,
+                10,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/hopsmash_05.png",
+          "duration_ms": 60,
+          "img_frame": 208,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 60
+            },
+            {
+              "type": 13,
+              "value": 1
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 15,
+              "xyz_size": [
+                -10,
+                -20,
+                -2,
+                86,
+                40,
+                49
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                17,
+                -5,
+                0,
+                46,
+                10,
+                54
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -16,
+                -10,
+                0,
+                37,
+                10,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/hopsmash_06.png",
+          "duration_ms": 180,
+          "img_frame": 209,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            },
+            {
+              "type": 13,
+              "value": 1
+            }
+          ],
+          "source_boxes": []
+        }
+      ]
+    },
+    "attack3": {
+      "frames": [
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_00.png",
+          "duration_ms": 50,
+          "img_frame": 33,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -6,
+                -3,
+                59,
+                20,
+                7,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_01.png",
+          "duration_ms": 50,
+          "img_frame": 34,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                8,
+                -4,
+                2,
+                20,
+                7,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_02.png",
+          "duration_ms": 50,
+          "img_frame": 35,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                15,
+                -3,
+                2,
+                22,
+                7,
+                39
+              ]
+            },
+            {
+              "type": 15,
+              "xyz_size": [
+                -32,
+                -13,
+                0,
+                179,
+                26,
+                94
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_03.png",
+          "duration_ms": 50,
+          "img_frame": 36,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            },
+            {
+              "type": 23,
+              "value": 3
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                11,
+                -3,
+                0,
+                21,
+                8,
+                33
+              ]
+            },
+            {
+              "type": 15,
+              "xyz_size": [
+                15,
+                -13,
+                1,
+                137,
+                26,
+                138
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_04.png",
+          "duration_ms": 50,
+          "img_frame": 37,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                10,
+                -3,
+                2,
+                20,
+                7,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_05.png",
+          "duration_ms": 50,
+          "img_frame": 38,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                15,
+                -3,
+                2,
+                20,
+                8,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_06.png",
+          "duration_ms": 50,
+          "img_frame": 39,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            },
+            {
+              "type": 23,
+              "value": 65534
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                16,
+                -1,
+                1,
+                20,
+                8,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_07.png",
+          "duration_ms": 50,
+          "img_frame": 40,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                11,
+                -3,
+                1,
+                20,
+                7,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/attack3_08.png",
+          "duration_ms": 150,
+          "img_frame": 41,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 150
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                11,
+                -2,
+                -1,
+                20,
+                6,
+                24
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "jump": {
+      "frames": [
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_00.png",
+          "duration_ms": 100,
+          "img_frame": 125,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                0,
+                30,
+                10,
+                92
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                13,
+                -4,
+                1,
+                18,
+                7,
+                64
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_01.png",
+          "duration_ms": 100,
+          "img_frame": 126,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -7,
+                -5,
+                3,
+                27,
+                10,
+                101
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -24,
+                -3,
+                61,
+                20,
+                7,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_02.png",
+          "duration_ms": 80,
+          "img_frame": 127,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                30,
+                35,
+                10,
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_03.png",
+          "duration_ms": 80,
+          "img_frame": 128,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                30,
+                35,
+                10,
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_04.png",
+          "duration_ms": 80,
+          "img_frame": 128,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                30,
+                35,
+                10,
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_05.png",
+          "duration_ms": 80,
+          "img_frame": 128,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                30,
+                35,
+                10,
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_06.png",
+          "duration_ms": 80,
+          "img_frame": 128,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                30,
+                35,
+                10,
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_07.png",
+          "duration_ms": 10000,
+          "img_frame": 128,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 10000
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                30,
+                35,
+                10,
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_08.png",
+          "duration_ms": 100,
+          "img_frame": 129,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -11,
+                -5,
+                0,
+                33,
+                10,
+                101
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -28,
+                -4,
+                78,
+                20,
+                7,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_09.png",
+          "duration_ms": 80,
+          "img_frame": 130,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -9,
+                -5,
+                0,
+                28,
+                10,
+                101
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                17,
+                -3,
+                68,
+                20,
+                7,
+                16
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -25,
+                -4,
+                85,
+                20,
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_10.png",
+          "duration_ms": 80,
+          "img_frame": 131,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -9,
+                -5,
+                0,
+                28,
+                10,
+                101
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                17,
+                -3,
+                68,
+                20,
+                7,
+                16
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -25,
+                -4,
+                85,
+                20,
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_11.png",
+          "duration_ms": 80,
+          "img_frame": 131,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -9,
+                -5,
+                0,
+                28,
+                10,
+                101
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                17,
+                -3,
+                68,
+                20,
+                7,
+                16
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -25,
+                -4,
+                85,
+                20,
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_12.png",
+          "duration_ms": 80,
+          "img_frame": 131,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -9,
+                -5,
+                0,
+                28,
+                10,
+                101
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                17,
+                -3,
+                68,
+                20,
+                7,
+                16
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -25,
+                -4,
+                85,
+                20,
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_13.png",
+          "duration_ms": 80,
+          "img_frame": 131,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -9,
+                -5,
+                0,
+                28,
+                10,
+                101
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                17,
+                -3,
+                68,
+                20,
+                7,
+                16
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -25,
+                -4,
+                85,
+                20,
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_14.png",
+          "duration_ms": 10000,
+          "img_frame": 131,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 10000
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -9,
+                -5,
+                0,
+                28,
+                10,
+                101
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                17,
+                -3,
+                68,
+                20,
+                7,
+                16
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -25,
+                -4,
+                85,
+                20,
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jump_15.png",
+          "duration_ms": 50,
+          "img_frame": 132,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -11,
+                -5,
+                1,
+                30,
+                10,
+                90
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                19,
+                -3,
+                -1,
+                11,
+                8,
+                65
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -24,
+                -4,
+                1,
+                16,
+                8,
+                74
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "jumpattack": {
+      "frames": [
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jumpattack_00.png",
+          "duration_ms": 100,
+          "img_frame": 133,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 100
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -29,
+                -4,
+                28,
+                14,
+                6,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jumpattack_01.png",
+          "duration_ms": 50,
+          "img_frame": 134,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                22,
+                30,
+                10,
+                85
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jumpattack_02.png",
+          "duration_ms": 50,
+          "img_frame": 135,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                22,
+                14,
+                7,
+                37
+              ]
+            },
+            {
+              "type": 15,
+              "xyz_size": [
+                13,
+                -13,
+                -11,
+                88,
+                26,
+                167
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jumpattack_03.png",
+          "duration_ms": 40,
+          "img_frame": 136,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 40
+            },
+            {
+              "type": 23,
+              "value": 30
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                22,
+                14,
+                7,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jumpattack_04.png",
+          "duration_ms": 30,
+          "img_frame": 137,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 30
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                22,
+                14,
+                7,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/jumpattack_05.png",
+          "duration_ms": 30,
+          "img_frame": 138,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 30
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                22,
+                14,
+                7,
+                37
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sit": {
+      "frames": [
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/sit_00.png",
+          "duration_ms": 150,
+          "img_frame": 157,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 150
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -17,
+                -5,
+                0,
+                30,
+                10,
+                60
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "damage1": {
+      "frames": [
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/damage1_00.png",
+          "duration_ms": 10000,
+          "img_frame": 96,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 10000
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -28,
+                -5,
+                0,
+                30,
+                10,
+                93
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                2,
+                -3,
+                1,
+                20,
+                8,
+                65
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "damage2": {
+      "frames": [
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/damage2_00.png",
+          "duration_ms": 10000,
+          "img_frame": 104,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 10000
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -20,
+                -5,
+                -1,
+                20,
+                10,
+                101
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                1,
+                -5,
+                0,
+                23,
+                9,
+                76
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "down": {
+      "frames": [
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/down_00.png",
+          "duration_ms": 80,
+          "img_frame": 98,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -26,
+                -5,
+                0,
+                30,
+                10,
+                90
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                4,
+                -4,
+                1,
+                16,
+                9,
+                65
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/down_01.png",
+          "duration_ms": 80,
+          "img_frame": 99,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 80
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -23,
+                -5,
+                0,
+                21,
+                10,
+                100
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -2,
+                -3,
+                1,
+                24,
+                7,
+                77
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/down_02.png",
+          "duration_ms": 10000,
+          "img_frame": 100,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 10000
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -57,
+                -5,
+                0,
+                85,
+                10,
+                26
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -37,
+                -5,
+                23,
+                64,
+                8,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/down_03.png",
+          "duration_ms": 10000,
+          "img_frame": 101,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 10000
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -64,
+                -5,
+                -1,
+                100,
+                10,
+                19
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -44,
+                -3,
+                16,
+                81,
+                6,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/down_04.png",
+          "duration_ms": 70,
+          "img_frame": 102,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 70
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -59,
+                -5,
+                0,
+                98,
+                10,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/down_05.png",
+          "duration_ms": 430,
+          "img_frame": 103,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 430
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -59,
+                -5,
+                0,
+                98,
+                10,
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "guard": {
+      "frames": [
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/guard_00.png",
+          "duration_ms": 10000,
+          "img_frame": 123,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 10000
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -27,
+                -5,
+                0,
+                27,
+                10,
+                88
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -3,
+                -4,
+                -2,
+                20,
+                7,
+                61
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r3/equipment/ordinary_greatsword/frames/guard_01.png",
+          "duration_ms": 10000,
+          "img_frame": 124,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 10000
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -31,
+                -5,
+                0,
+                29,
+                10,
+                88
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                -4,
+                -10,
+                0,
+                13,
+                20,
+                60
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "hardattack": {
+      "source_ani": "character/swordman/animation/hardattack.ani",
+      "source_globals": [],
+      "frames": [
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_00.png",
+          "duration_ms": 50,
+          "img_frame": 139,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -28,
+                -5,
+                0,
+                27,
+                10,
+                100
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                0,
+                -4,
+                1,
+                18,
+                7,
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_01.png",
+          "duration_ms": 50,
+          "img_frame": 140,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -28,
+                -5,
+                0,
+                27,
+                10,
+                100
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                0,
+                -4,
+                1,
+                18,
+                7,
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_02.png",
+          "duration_ms": 50,
+          "img_frame": 141,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                -28,
+                -5,
+                0,
+                27,
+                10,
+                100
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                0,
+                -4,
+                1,
+                18,
+                7,
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_03.png",
+          "duration_ms": 25,
+          "img_frame": 142,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 25
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_04.png",
+          "duration_ms": 25,
+          "img_frame": 143,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 25
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_05.png",
+          "duration_ms": 50,
+          "img_frame": 144,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_06.png",
+          "duration_ms": 50,
+          "img_frame": 145,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            },
+            {
+              "type": 23,
+              "value": 65534
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_07.png",
+          "duration_ms": 50,
+          "img_frame": 146,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_08.png",
+          "duration_ms": 50,
+          "img_frame": 147,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_09.png",
+          "duration_ms": 50,
+          "img_frame": 148,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_10.png",
+          "duration_ms": 50,
+          "img_frame": 149,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_11.png",
+          "duration_ms": 50,
+          "img_frame": 150,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            },
+            {
+              "type": 23,
+              "value": 65534
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_12.png",
+          "duration_ms": 50,
+          "img_frame": 151,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_13.png",
+          "duration_ms": 50,
+          "img_frame": 152,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_14.png",
+          "duration_ms": 50,
+          "img_frame": 153,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_15.png",
+          "duration_ms": 50,
+          "img_frame": 154,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_16.png",
+          "duration_ms": 50,
+          "img_frame": 155,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 50
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "texture": "res://assets/r4/ghost_slash/great/frames/hardattack_17.png",
+          "duration_ms": 150,
+          "img_frame": 156,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 150
+            }
+          ],
+          "source_boxes": [
+            {
+              "type": 14,
+              "xyz_size": [
+                71,
+                -5,
+                1,
+                36,
+                10,
+                59
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                47,
+                -4,
+                0,
+                27,
+                7,
+                41
+              ]
+            },
+            {
+              "type": 14,
+              "xyz_size": [
+                20,
+                -4,
+                1,
+                29,
+                7,
+                22
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

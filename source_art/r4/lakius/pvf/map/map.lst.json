@@ -1,0 +1,36 @@
+{
+  "path": "map/map.lst",
+  "bytes": 35172,
+  "sha256_decoded_bytes": "49c645e659ae5c92e877c22f1f12f7f741dda8fc14bb23964472315dbe95259e",
+  "crc": {
+    "expected": 3839206419,
+    "actual_seed_file_number": 3839206419,
+    "actual_seed_zero": 1776652307
+  },
+  "crc_matches": true,
+  "original_reference": "source_art/r4/lakius/pvf/map/map.lst.bin",
+  "decoded_reference": "source_art/r4/lakius/pvf/map/map.lst.json",
+  "decoded": {
+    "selection": "Two source boss-map references; complete bytes retained",
+    "tokens": [
+      {
+        "type": 2,
+        "value": 1601
+      },
+      {
+        "type": 7,
+        "index": 302624,
+        "text": "DraconianTower/(0,2)b1823.map"
+      },
+      {
+        "type": 2,
+        "value": 1615
+      },
+      {
+        "type": 7,
+        "index": 302638,
+        "text": "DraconianTower/(3,2)b1823.map"
+      }
+    ]
+  }
+}

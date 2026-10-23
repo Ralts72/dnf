@@ -1,0 +1,82 @@
+{
+  "fight": {
+    "awakened": false,
+    "cleared": false,
+    "combat_blocked": true,
+    "death_duration_ms": 860.0,
+    "death_elapsed_ms": 0.0,
+    "enemy_action": "attack",
+    "enemy_action_elapsed_ms": 0.0,
+    "enemy_attack_instance": 0,
+    "enemy_cooldown": 0.35,
+    "enemy_hit_used": false,
+    "enemy_hp": 140,
+    "enemy_hurt_remaining": 0.0,
+    "enemy_mode": "dormant",
+    "enemy_source_position": "(960.0, 300.0)",
+    "enemy_visible": true,
+    "event_counters": {
+      "defeats": 0,
+      "enemy_attacks": 0,
+      "enemy_hits": 0,
+      "hero_hits": 0,
+      "resets": 0,
+      "victories": 0
+    },
+    "hero_attack_instance": 0,
+    "hero_hit_used": false,
+    "hero_hurt_remaining": 0.0,
+    "hero_lock": false,
+    "phase": "dormant",
+    "player_hp": 100,
+    "player_source_position": "(1244.0, 345.0)",
+    "qa_freeze_enemy": false,
+    "release_pending": false,
+    "session_meta": "statue_gallery_state",
+    "wake_duration_ms": 2400.0,
+    "wake_elapsed_ms": 0.0,
+    "wake_trigger_count": 0
+  },
+  "fixture": "Direct scene + position fixtures, paused visual only; no gate/victory claims",
+  "formal": {
+    "user://adventure/first_route_v1.json": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.bak.tmp": {
+      "exists": false,
+      "sha256": ""
+    },
+    "user://adventure/first_route_v1.json.tmp": {
+      "exists": false,
+      "sha256": ""
+    }
+  },
+  "rows": [
+    {
+      "pan": -8.0,
+      "path": "res://docs/previews/r4_08_manual_left.png",
+      "save_error": 0,
+      "source_point": "(176.0, 320.0)",
+      "vertical": 12.0
+    },
+    {
+      "pan": 128.0,
+      "path": "res://docs/previews/r4_08_manual_middle.png",
+      "save_error": 0,
+      "source_point": "(840.0, 320.0)",
+      "vertical": 12.0
+    },
+    {
+      "pan": 532.0,
+      "path": "res://docs/previews/r4_08_manual_right.png",
+      "save_error": 0,
+      "source_point": "(1244.0, 345.0)",
+      "vertical": 37.0
+    }
+  ]
+}

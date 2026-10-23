@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "sharan_route_rest_v1",
+  "npc_name": "莎兰",
+  "title": "暂歇片刻",
+  "scene": "res://scenes/west_coast_r1.tscn",
+  "interaction_half_extent": [
+    55,
+    50
+  ],
+  "restore_hp": 100,
+  "portrait_path": "res://assets/r4/sharan/portrait.png",
+  "prompt": "E 与莎兰交谈",
+  "confirm_heal": "恢复生命（免费）",
+  "confirm_full": "继续旅程",
+  "close": "稍后再来",
+  "dialogues": {
+    "available": "萝莉安也在留意塔里的动静。要进塔，可以沿港口左侧的石道走。出发前，先歇一歇吧。",
+    "exploring": "塔里的龙人可不好对付。看清它的动作，再决定进退。受伤了就回来，我会帮你恢复。",
+    "first_clear": "你已经击退了门厅的龙人。右侧通道通向塔内更深处。继续深入前，先把伤养好。",
+    "lakius_cleared": "鲁卡斯已经被你击退，港口又能安静一阵了。旅途还长，需要休息就来找我。",
+    "stonemaster_cleared": "岩石人偶师已经被你击退了。挑起人偶后，也要留意飞来的宝石。回到港口就先歇一歇，把伤养好再练习。",
+    "statue_cleared": "鬼剑士雕像已经被你击退了。它的暗属性斩击要格外小心，挑空追击后也别急着冒进。先在港口养好伤吧。"
+  },
+  "source_status": "NPC12莎蘭 and big face NpcFace01.img20 are directly verified from npc/sharan.npc; original RGBA retained. Dialogue and free restoration are explicit prototype adaptations, not recovered original text, healing rules or quest rewards.",
+  "health_policy": "Restore only the transient route_hero_hp pool and player_hp in existing dictionary first_encounter_state/tower_boss_state/doll_gallery_state/statue_gallery_state. Do not create absent encounter metadata, modify enemies or clear flags, write a profile, charge coins, grant rewards or change schema.",
+  "source_reference": "res://docs/r4_sharan_source_reference.json"
+}

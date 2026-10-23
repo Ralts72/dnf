@@ -1,0 +1,3937 @@
+{
+  "candidate": "R1/28",
+  "checks": [
+    {
+      "check": "R1_native_interpolation_enabled",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_F11_disables_interpolation",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_F11_restores_interpolation",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_pause_snaps_and_stops_interpolation",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_paused_step_changes_height_without_render_delay",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_turn_changes_geometry_without_interpolating_transform",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_resume_restores_native_interpolation",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_motion_toggle_fits_footer",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_10tps_reset_snaps_native_render_false",
+      "details": {
+        "actual_marker_x": 880.0,
+        "pre_reset_logical": "(490.0, 320.0)",
+        "target_x": 880.0
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_10tps_actual_marker_found_false",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_10tps_native_render_holds_between_ticks",
+      "details": {
+        "between_tick_pairs": 37,
+        "maximum_between_tick_pixels": 0.0,
+        "render_moved_between_tick_pairs": 0
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_10tps_reset_snaps_native_render_true",
+      "details": {
+        "actual_marker_x": 880.0,
+        "pre_reset_logical": "(480.0, 320.0)",
+        "target_x": 880.0
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_10tps_actual_marker_found_true",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_10tps_native_render_interpolates_between_ticks",
+      "details": {
+        "between_tick_pairs": 38,
+        "maximum_between_tick_pixels": 3.5,
+        "render_moved_between_tick_pairs": 38
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_60tps_reset_snaps_native_render_false",
+      "details": {
+        "actual_marker_x": 880.0,
+        "pre_reset_logical": "(514.9996, 320.0)",
+        "target_x": 880.0
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_60tps_actual_marker_found_false",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_60tps_native_render_holds_between_ticks",
+      "details": {
+        "between_tick_pairs": 39,
+        "maximum_between_tick_pixels": 0.0,
+        "render_moved_between_tick_pairs": 0
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_60tps_reset_snaps_native_render_true",
+      "details": {
+        "actual_marker_x": 880.0,
+        "pre_reset_logical": "(521.6663, 320.0)",
+        "target_x": 880.0
+      },
+      "pass": true
+    },
+    {
+      "check": "R1_60tps_actual_marker_found_true",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R1_60tps_native_render_interpolates_between_ticks",
+      "details": {
+        "between_tick_pairs": 35,
+        "maximum_between_tick_pixels": 2.5,
+        "render_moved_between_tick_pairs": 35
+      },
+      "pass": true
+    },
+    {
+      "check": "F4_retains_paused_jump_and_smoothing_preference",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_native_interpolation_enabled",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_F11_disables_interpolation",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_F11_restores_interpolation",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_pause_snaps_and_stops_interpolation",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_paused_step_changes_height_without_render_delay",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_turn_is_instant_in_facing_child",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_resume_restores_native_interpolation",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_motion_toggle_fits_footer",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_10tps_reset_snaps_native_render_false",
+      "details": {
+        "actual_marker_x": 707.5,
+        "pre_reset_logical": "(480.0, 320.0)",
+        "target_x": 707.016662597656
+      },
+      "pass": true
+    },
+    {
+      "check": "R0_10tps_actual_marker_found_false",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_10tps_native_render_holds_between_ticks",
+      "details": {
+        "between_tick_pairs": 38,
+        "maximum_between_tick_pixels": 0.0,
+        "render_moved_between_tick_pairs": 0
+      },
+      "pass": true
+    },
+    {
+      "check": "R0_10tps_reset_snaps_native_render_true",
+      "details": {
+        "actual_marker_x": 707.5,
+        "pre_reset_logical": "(480.0, 320.0)",
+        "target_x": 707.016662597656
+      },
+      "pass": true
+    },
+    {
+      "check": "R0_10tps_actual_marker_found_true",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_10tps_native_render_interpolates_between_ticks",
+      "details": {
+        "between_tick_pairs": 38,
+        "maximum_between_tick_pixels": 2.0,
+        "render_moved_between_tick_pairs": 31
+      },
+      "pass": true
+    },
+    {
+      "check": "R0_60tps_reset_snaps_native_render_false",
+      "details": {
+        "actual_marker_x": 707.5,
+        "pre_reset_logical": "(509.9996, 320.0)",
+        "target_x": 707.016662597656
+      },
+      "pass": true
+    },
+    {
+      "check": "R0_60tps_actual_marker_found_false",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_60tps_native_render_holds_between_ticks",
+      "details": {
+        "between_tick_pairs": 42,
+        "maximum_between_tick_pixels": 0.0,
+        "render_moved_between_tick_pairs": 0
+      },
+      "pass": true
+    },
+    {
+      "check": "R0_60tps_reset_snaps_native_render_true",
+      "details": {
+        "actual_marker_x": 707.5,
+        "pre_reset_logical": "(509.9996, 320.0)",
+        "target_x": 707.016662597656
+      },
+      "pass": true
+    },
+    {
+      "check": "R0_60tps_actual_marker_found_true",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "R0_60tps_native_render_interpolates_between_ticks",
+      "details": {
+        "between_tick_pairs": 42,
+        "maximum_between_tick_pixels": 2.0,
+        "render_moved_between_tick_pairs": 39
+      },
+      "pass": true
+    },
+    {
+      "check": "F4_back_retains_disabled_smoothing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "production_tick_rate_restored",
+      "details": {},
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "note": "Actual GPU readback of markers inside the character visual hierarchy. Both production 60 TPS and temporary 10 TPS are tested. Production 60 TPS is restored. OFF and ON use identical InputEventKey movement and unchanged source animation timing.",
+  "qa_source_sha256": "bf4a20becc3d414e9636905682164907196b5c1fce0e44993103929bde7e0590",
+  "render_cases": [
+    {
+      "between_tick_pairs": 37,
+      "enabled": false,
+      "maximum_between_tick_pixels": 0.0,
+      "render_moved_between_tick_pairs": 0,
+      "rows": [
+        {
+          "fraction": 0.00528333333336573,
+          "logical_x": 450.0,
+          "physics_frame": 7395,
+          "pixels": 168,
+          "render_x": 900.0
+        },
+        {
+          "fraction": 0.0886133333333657,
+          "logical_x": 450.0,
+          "physics_frame": 7395,
+          "pixels": 168,
+          "render_x": 900.0
+        },
+        {
+          "fraction": 0.171943333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7395,
+          "pixels": 168,
+          "render_x": 900.0
+        },
+        {
+          "fraction": 0.255273333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7395,
+          "pixels": 168,
+          "render_x": 900.0
+        },
+        {
+          "fraction": 0.338603333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7395,
+          "pixels": 168,
+          "render_x": 900.0
+        },
+        {
+          "fraction": 0.421933333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7395,
+          "pixels": 168,
+          "render_x": 900.0
+        },
+        {
+          "fraction": 0.588593333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7395,
+          "pixels": 168,
+          "render_x": 900.0
+        },
+        {
+          "fraction": 0.671923333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7395,
+          "pixels": 168,
+          "render_x": 900.0
+        },
+        {
+          "fraction": 0.755253333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7395,
+          "pixels": 168,
+          "render_x": 900.0
+        },
+        {
+          "fraction": 0.838583333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7395,
+          "pixels": 168,
+          "render_x": 900.0
+        },
+        {
+          "fraction": 0.921913333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7395,
+          "pixels": 168,
+          "render_x": 900.0
+        },
+        {
+          "fraction": 0.00524333333336596,
+          "logical_x": 460.0,
+          "physics_frame": 7396,
+          "pixels": 168,
+          "render_x": 920.0
+        },
+        {
+          "fraction": 0.088573333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7396,
+          "pixels": 168,
+          "render_x": 920.0
+        },
+        {
+          "fraction": 0.171903333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7396,
+          "pixels": 168,
+          "render_x": 920.0
+        },
+        {
+          "fraction": 0.255233333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7396,
+          "pixels": 168,
+          "render_x": 920.0
+        },
+        {
+          "fraction": 0.338563333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7396,
+          "pixels": 168,
+          "render_x": 920.0
+        },
+        {
+          "fraction": 0.421893333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7396,
+          "pixels": 168,
+          "render_x": 920.0
+        },
+        {
+          "fraction": 0.505223333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7396,
+          "pixels": 168,
+          "render_x": 920.0
+        },
+        {
+          "fraction": 0.588553333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7396,
+          "pixels": 168,
+          "render_x": 920.0
+        },
+        {
+          "fraction": 0.671883333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7396,
+          "pixels": 168,
+          "render_x": 920.0
+        },
+        {
+          "fraction": 0.838543333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7396,
+          "pixels": 168,
+          "render_x": 920.0
+        },
+        {
+          "fraction": 0.921873333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7396,
+          "pixels": 168,
+          "render_x": 920.0
+        },
+        {
+          "fraction": 0.00520333333336592,
+          "logical_x": 470.0,
+          "physics_frame": 7397,
+          "pixels": 168,
+          "render_x": 940.0
+        },
+        {
+          "fraction": 0.171863333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7397,
+          "pixels": 168,
+          "render_x": 940.0
+        },
+        {
+          "fraction": 0.255193333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7397,
+          "pixels": 168,
+          "render_x": 940.0
+        },
+        {
+          "fraction": 0.421853333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7397,
+          "pixels": 168,
+          "render_x": 940.0
+        },
+        {
+          "fraction": 0.505183333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7397,
+          "pixels": 168,
+          "render_x": 940.0
+        },
+        {
+          "fraction": 0.671843333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7397,
+          "pixels": 168,
+          "render_x": 940.0
+        },
+        {
+          "fraction": 0.755173333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7397,
+          "pixels": 168,
+          "render_x": 940.0
+        },
+        {
+          "fraction": 0.921833333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7397,
+          "pixels": 168,
+          "render_x": 940.0
+        },
+        {
+          "fraction": 0.088493333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7398,
+          "pixels": 168,
+          "render_x": 960.0
+        },
+        {
+          "fraction": 0.171823333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7398,
+          "pixels": 168,
+          "render_x": 960.0
+        },
+        {
+          "fraction": 0.255153333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7398,
+          "pixels": 168,
+          "render_x": 960.0
+        },
+        {
+          "fraction": 0.338483333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7398,
+          "pixels": 168,
+          "render_x": 960.0
+        },
+        {
+          "fraction": 0.421813333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7398,
+          "pixels": 168,
+          "render_x": 960.0
+        },
+        {
+          "fraction": 0.505143333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7398,
+          "pixels": 168,
+          "render_x": 960.0
+        },
+        {
+          "fraction": 0.588473333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7398,
+          "pixels": 168,
+          "render_x": 960.0
+        },
+        {
+          "fraction": 0.671803333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7398,
+          "pixels": 168,
+          "render_x": 960.0
+        },
+        {
+          "fraction": 0.755133333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7398,
+          "pixels": 168,
+          "render_x": 960.0
+        },
+        {
+          "fraction": 0.838463333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7398,
+          "pixels": 168,
+          "render_x": 960.0
+        },
+        {
+          "fraction": 0.921793333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7398,
+          "pixels": 168,
+          "render_x": 960.0
+        },
+        {
+          "fraction": 0.00512333333336612,
+          "logical_x": 490.0,
+          "physics_frame": 7399,
+          "pixels": 168,
+          "render_x": 980.0
+        }
+      ],
+      "scene": "R1",
+      "settled_marker": {
+        "pixels": 168,
+        "x": 980.0,
+        "y": 422.0
+      },
+      "temporary_physics_ticks": 10
+    },
+    {
+      "between_tick_pairs": 38,
+      "enabled": true,
+      "maximum_between_tick_pixels": 3.5,
+      "render_moved_between_tick_pairs": 38,
+      "rows": [
+        {
+          "fraction": 0.00193333333336584,
+          "logical_x": 450.0,
+          "physics_frame": 7405,
+          "pixels": 168,
+          "render_x": 880.0
+        },
+        {
+          "fraction": 0.164373333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7405,
+          "pixels": 154,
+          "render_x": 883.5
+        },
+        {
+          "fraction": 0.266943333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7405,
+          "pixels": 154,
+          "render_x": 885.5
+        },
+        {
+          "fraction": 0.393163333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7405,
+          "pixels": 154,
+          "render_x": 887.5
+        },
+        {
+          "fraction": 0.502083333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7405,
+          "pixels": 168,
+          "render_x": 890.0
+        },
+        {
+          "fraction": 0.609563333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7405,
+          "pixels": 154,
+          "render_x": 892.5
+        },
+        {
+          "fraction": 0.725943333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7405,
+          "pixels": 154,
+          "render_x": 894.5
+        },
+        {
+          "fraction": 0.836193333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7405,
+          "pixels": 154,
+          "render_x": 896.5
+        },
+        {
+          "fraction": 0.946313333333366,
+          "logical_x": 450.0,
+          "physics_frame": 7405,
+          "pixels": 168,
+          "render_x": 899.0
+        },
+        {
+          "fraction": 0.0570233333333658,
+          "logical_x": 460.0,
+          "physics_frame": 7406,
+          "pixels": 154,
+          "render_x": 901.5
+        },
+        {
+          "fraction": 0.162973333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7406,
+          "pixels": 154,
+          "render_x": 903.5
+        },
+        {
+          "fraction": 0.252563333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7406,
+          "pixels": 168,
+          "render_x": 905.0
+        },
+        {
+          "fraction": 0.337843333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7406,
+          "pixels": 154,
+          "render_x": 906.5
+        },
+        {
+          "fraction": 0.453993333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7406,
+          "pixels": 168,
+          "render_x": 909.0
+        },
+        {
+          "fraction": 0.549693333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7406,
+          "pixels": 168,
+          "render_x": 911.0
+        },
+        {
+          "fraction": 0.681713333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7406,
+          "pixels": 154,
+          "render_x": 913.5
+        },
+        {
+          "fraction": 0.788593333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7406,
+          "pixels": 154,
+          "render_x": 915.5
+        },
+        {
+          "fraction": 0.892503333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7406,
+          "pixels": 154,
+          "render_x": 917.5
+        },
+        {
+          "fraction": 0.990643333333366,
+          "logical_x": 460.0,
+          "physics_frame": 7406,
+          "pixels": 154,
+          "render_x": 919.5
+        },
+        {
+          "fraction": 0.0870733333333659,
+          "logical_x": 470.0,
+          "physics_frame": 7407,
+          "pixels": 154,
+          "render_x": 921.5
+        },
+        {
+          "fraction": 0.179713333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7407,
+          "pixels": 154,
+          "render_x": 923.5
+        },
+        {
+          "fraction": 0.259203333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7407,
+          "pixels": 154,
+          "render_x": 925.5
+        },
+        {
+          "fraction": 0.330923333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7407,
+          "pixels": 154,
+          "render_x": 926.5
+        },
+        {
+          "fraction": 0.402613333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7407,
+          "pixels": 168,
+          "render_x": 928.0
+        },
+        {
+          "fraction": 0.475733333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7407,
+          "pixels": 154,
+          "render_x": 929.5
+        },
+        {
+          "fraction": 0.543803333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7407,
+          "pixels": 154,
+          "render_x": 930.5
+        },
+        {
+          "fraction": 0.635653333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7407,
+          "pixels": 154,
+          "render_x": 932.5
+        },
+        {
+          "fraction": 0.713993333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7407,
+          "pixels": 154,
+          "render_x": 934.5
+        },
+        {
+          "fraction": 0.796573333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7407,
+          "pixels": 168,
+          "render_x": 936.0
+        },
+        {
+          "fraction": 0.882923333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7407,
+          "pixels": 154,
+          "render_x": 937.5
+        },
+        {
+          "fraction": 0.966443333333366,
+          "logical_x": 470.0,
+          "physics_frame": 7407,
+          "pixels": 154,
+          "render_x": 939.5
+        },
+        {
+          "fraction": 0.0976033333333659,
+          "logical_x": 480.0,
+          "physics_frame": 7408,
+          "pixels": 168,
+          "render_x": 942.0
+        },
+        {
+          "fraction": 0.173133333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7408,
+          "pixels": 154,
+          "render_x": 943.5
+        },
+        {
+          "fraction": 0.244503333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7408,
+          "pixels": 168,
+          "render_x": 945.0
+        },
+        {
+          "fraction": 0.306693333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7408,
+          "pixels": 154,
+          "render_x": 946.5
+        },
+        {
+          "fraction": 0.410373333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7408,
+          "pixels": 154,
+          "render_x": 948.5
+        },
+        {
+          "fraction": 0.481883333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7408,
+          "pixels": 154,
+          "render_x": 949.5
+        },
+        {
+          "fraction": 0.546353333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7408,
+          "pixels": 168,
+          "render_x": 951.0
+        },
+        {
+          "fraction": 0.621673333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7408,
+          "pixels": 154,
+          "render_x": 952.5
+        },
+        {
+          "fraction": 0.707733333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7408,
+          "pixels": 154,
+          "render_x": 954.5
+        },
+        {
+          "fraction": 0.788303333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7408,
+          "pixels": 154,
+          "render_x": 955.5
+        },
+        {
+          "fraction": 0.864303333333366,
+          "logical_x": 480.0,
+          "physics_frame": 7408,
+          "pixels": 154,
+          "render_x": 957.5
+        }
+      ],
+      "scene": "R1",
+      "settled_marker": {
+        "pixels": 168,
+        "x": 960.0,
+        "y": 422.0
+      },
+      "temporary_physics_ticks": 10
+    },
+    {
+      "between_tick_pairs": 39,
+      "enabled": false,
+      "maximum_between_tick_pixels": 0.0,
+      "render_moved_between_tick_pairs": 0,
+      "rows": [
+        {
+          "fraction": 0.0264800000001939,
+          "logical_x": 441.666656494141,
+          "physics_frame": 7414,
+          "pixels": 154,
+          "render_x": 883.5
+        },
+        {
+          "fraction": 0.960980000000194,
+          "logical_x": 441.666656494141,
+          "physics_frame": 7414,
+          "pixels": 154,
+          "render_x": 883.5
+        },
+        {
+          "fraction": 0.541000000000194,
+          "logical_x": 443.333312988281,
+          "physics_frame": 7415,
+          "pixels": 154,
+          "render_x": 886.5
+        },
+        {
+          "fraction": 0.178320000000194,
+          "logical_x": 444.999969482422,
+          "physics_frame": 7416,
+          "pixels": 168,
+          "render_x": 890.0
+        },
+        {
+          "fraction": 0.879420000000194,
+          "logical_x": 444.999969482422,
+          "physics_frame": 7416,
+          "pixels": 168,
+          "render_x": 890.0
+        },
+        {
+          "fraction": 0.525140000000194,
+          "logical_x": 446.666625976562,
+          "physics_frame": 7417,
+          "pixels": 154,
+          "render_x": 893.5
+        },
+        {
+          "fraction": 0.214900000000194,
+          "logical_x": 448.333282470703,
+          "physics_frame": 7418,
+          "pixels": 154,
+          "render_x": 896.5
+        },
+        {
+          "fraction": 0.919240000000194,
+          "logical_x": 448.333282470703,
+          "physics_frame": 7418,
+          "pixels": 154,
+          "render_x": 896.5
+        },
+        {
+          "fraction": 0.524580000000194,
+          "logical_x": 449.999938964844,
+          "physics_frame": 7419,
+          "pixels": 168,
+          "render_x": 900.0
+        },
+        {
+          "fraction": 0.209960000000194,
+          "logical_x": 451.666595458984,
+          "physics_frame": 7420,
+          "pixels": 154,
+          "render_x": 903.5
+        },
+        {
+          "fraction": 0.860720000000194,
+          "logical_x": 451.666595458984,
+          "physics_frame": 7420,
+          "pixels": 154,
+          "render_x": 903.5
+        },
+        {
+          "fraction": 0.522640000000194,
+          "logical_x": 453.333251953125,
+          "physics_frame": 7421,
+          "pixels": 154,
+          "render_x": 906.5
+        },
+        {
+          "fraction": 0.123000000000194,
+          "logical_x": 454.999908447266,
+          "physics_frame": 7422,
+          "pixels": 168,
+          "render_x": 910.0
+        },
+        {
+          "fraction": 0.863640000000194,
+          "logical_x": 454.999908447266,
+          "physics_frame": 7422,
+          "pixels": 168,
+          "render_x": 910.0
+        },
+        {
+          "fraction": 0.448880000000194,
+          "logical_x": 456.666564941406,
+          "physics_frame": 7423,
+          "pixels": 154,
+          "render_x": 913.5
+        },
+        {
+          "fraction": 0.175720000000194,
+          "logical_x": 458.333221435547,
+          "physics_frame": 7424,
+          "pixels": 154,
+          "render_x": 916.5
+        },
+        {
+          "fraction": 0.892000000000194,
+          "logical_x": 458.333221435547,
+          "physics_frame": 7424,
+          "pixels": 154,
+          "render_x": 916.5
+        },
+        {
+          "fraction": 0.435000000000194,
+          "logical_x": 459.999877929688,
+          "physics_frame": 7425,
+          "pixels": 168,
+          "render_x": 920.0
+        },
+        {
+          "fraction": 0.966000000000194,
+          "logical_x": 459.999877929688,
+          "physics_frame": 7425,
+          "pixels": 168,
+          "render_x": 920.0
+        },
+        {
+          "fraction": 0.450740000000194,
+          "logical_x": 461.666534423828,
+          "physics_frame": 7426,
+          "pixels": 154,
+          "render_x": 923.5
+        },
+        {
+          "fraction": 0.930260000000194,
+          "logical_x": 461.666534423828,
+          "physics_frame": 7426,
+          "pixels": 154,
+          "render_x": 923.5
+        },
+        {
+          "fraction": 0.408820000000194,
+          "logical_x": 463.333190917969,
+          "physics_frame": 7427,
+          "pixels": 154,
+          "render_x": 926.5
+        },
+        {
+          "fraction": 0.897340000000194,
+          "logical_x": 463.333190917969,
+          "physics_frame": 7427,
+          "pixels": 154,
+          "render_x": 926.5
+        },
+        {
+          "fraction": 0.350280000000194,
+          "logical_x": 464.999847412109,
+          "physics_frame": 7428,
+          "pixels": 168,
+          "render_x": 930.0
+        },
+        {
+          "fraction": 0.747000000000194,
+          "logical_x": 464.999847412109,
+          "physics_frame": 7428,
+          "pixels": 168,
+          "render_x": 930.0
+        },
+        {
+          "fraction": 0.291320000000194,
+          "logical_x": 466.66650390625,
+          "physics_frame": 7429,
+          "pixels": 154,
+          "render_x": 933.5
+        },
+        {
+          "fraction": 0.751520000000194,
+          "logical_x": 466.66650390625,
+          "physics_frame": 7429,
+          "pixels": 154,
+          "render_x": 933.5
+        },
+        {
+          "fraction": 0.263800000000194,
+          "logical_x": 468.333160400391,
+          "physics_frame": 7430,
+          "pixels": 154,
+          "render_x": 936.5
+        },
+        {
+          "fraction": 0.814840000000194,
+          "logical_x": 468.333160400391,
+          "physics_frame": 7430,
+          "pixels": 154,
+          "render_x": 936.5
+        },
+        {
+          "fraction": 0.274620000000194,
+          "logical_x": 469.999816894531,
+          "physics_frame": 7431,
+          "pixels": 168,
+          "render_x": 940.0
+        },
+        {
+          "fraction": 0.794460000000194,
+          "logical_x": 469.999816894531,
+          "physics_frame": 7431,
+          "pixels": 168,
+          "render_x": 940.0
+        },
+        {
+          "fraction": 0.305180000000195,
+          "logical_x": 471.666473388672,
+          "physics_frame": 7432,
+          "pixels": 154,
+          "render_x": 943.5
+        },
+        {
+          "fraction": 0.791720000000194,
+          "logical_x": 471.666473388672,
+          "physics_frame": 7432,
+          "pixels": 154,
+          "render_x": 943.5
+        },
+        {
+          "fraction": 0.267760000000194,
+          "logical_x": 473.333129882812,
+          "physics_frame": 7433,
+          "pixels": 154,
+          "render_x": 946.5
+        },
+        {
+          "fraction": 0.823600000000194,
+          "logical_x": 473.333129882812,
+          "physics_frame": 7433,
+          "pixels": 154,
+          "render_x": 946.5
+        },
+        {
+          "fraction": 0.391560000000194,
+          "logical_x": 474.999786376953,
+          "physics_frame": 7434,
+          "pixels": 168,
+          "render_x": 950.0
+        },
+        {
+          "fraction": 0.908220000000195,
+          "logical_x": 474.999786376953,
+          "physics_frame": 7434,
+          "pixels": 168,
+          "render_x": 950.0
+        },
+        {
+          "fraction": 0.412700000000195,
+          "logical_x": 476.666442871094,
+          "physics_frame": 7435,
+          "pixels": 154,
+          "render_x": 953.5
+        },
+        {
+          "fraction": 0.859640000000195,
+          "logical_x": 476.666442871094,
+          "physics_frame": 7435,
+          "pixels": 154,
+          "render_x": 953.5
+        },
+        {
+          "fraction": 0.356020000000195,
+          "logical_x": 478.333099365234,
+          "physics_frame": 7436,
+          "pixels": 154,
+          "render_x": 956.5
+        },
+        {
+          "fraction": 0.795280000000195,
+          "logical_x": 478.333099365234,
+          "physics_frame": 7436,
+          "pixels": 154,
+          "render_x": 956.5
+        },
+        {
+          "fraction": 0.292140000000195,
+          "logical_x": 479.999755859375,
+          "physics_frame": 7437,
+          "pixels": 168,
+          "render_x": 960.0
+        },
+        {
+          "fraction": 0.820980000000195,
+          "logical_x": 479.999755859375,
+          "physics_frame": 7437,
+          "pixels": 168,
+          "render_x": 960.0
+        },
+        {
+          "fraction": 0.327620000000195,
+          "logical_x": 481.666412353516,
+          "physics_frame": 7438,
+          "pixels": 154,
+          "render_x": 963.5
+        },
+        {
+          "fraction": 0.843260000000195,
+          "logical_x": 481.666412353516,
+          "physics_frame": 7438,
+          "pixels": 154,
+          "render_x": 963.5
+        },
+        {
+          "fraction": 0.301240000000195,
+          "logical_x": 483.333068847656,
+          "physics_frame": 7439,
+          "pixels": 154,
+          "render_x": 966.5
+        },
+        {
+          "fraction": 0.791020000000195,
+          "logical_x": 483.333068847656,
+          "physics_frame": 7439,
+          "pixels": 154,
+          "render_x": 966.5
+        },
+        {
+          "fraction": 0.312780000000195,
+          "logical_x": 484.999725341797,
+          "physics_frame": 7440,
+          "pixels": 168,
+          "render_x": 970.0
+        },
+        {
+          "fraction": 0.832560000000195,
+          "logical_x": 484.999725341797,
+          "physics_frame": 7440,
+          "pixels": 168,
+          "render_x": 970.0
+        },
+        {
+          "fraction": 0.329780000000195,
+          "logical_x": 486.666381835938,
+          "physics_frame": 7441,
+          "pixels": 154,
+          "render_x": 973.5
+        },
+        {
+          "fraction": 0.825140000000195,
+          "logical_x": 486.666381835938,
+          "physics_frame": 7441,
+          "pixels": 154,
+          "render_x": 973.5
+        },
+        {
+          "fraction": 0.348820000000195,
+          "logical_x": 488.333038330078,
+          "physics_frame": 7442,
+          "pixels": 154,
+          "render_x": 976.5
+        },
+        {
+          "fraction": 0.815620000000195,
+          "logical_x": 488.333038330078,
+          "physics_frame": 7442,
+          "pixels": 154,
+          "render_x": 976.5
+        },
+        {
+          "fraction": 0.320280000000195,
+          "logical_x": 489.999694824219,
+          "physics_frame": 7443,
+          "pixels": 168,
+          "render_x": 980.0
+        },
+        {
+          "fraction": 0.803760000000195,
+          "logical_x": 489.999694824219,
+          "physics_frame": 7443,
+          "pixels": 168,
+          "render_x": 980.0
+        },
+        {
+          "fraction": 0.323720000000195,
+          "logical_x": 491.666351318359,
+          "physics_frame": 7444,
+          "pixels": 154,
+          "render_x": 983.5
+        },
+        {
+          "fraction": 0.831200000000195,
+          "logical_x": 491.666351318359,
+          "physics_frame": 7444,
+          "pixels": 154,
+          "render_x": 983.5
+        },
+        {
+          "fraction": 0.349900000000195,
+          "logical_x": 493.3330078125,
+          "physics_frame": 7445,
+          "pixels": 154,
+          "render_x": 986.5
+        },
+        {
+          "fraction": 0.829480000000195,
+          "logical_x": 493.3330078125,
+          "physics_frame": 7445,
+          "pixels": 154,
+          "render_x": 986.5
+        },
+        {
+          "fraction": 0.346200000000195,
+          "logical_x": 494.999664306641,
+          "physics_frame": 7446,
+          "pixels": 168,
+          "render_x": 990.0
+        },
+        {
+          "fraction": 0.815880000000195,
+          "logical_x": 494.999664306641,
+          "physics_frame": 7446,
+          "pixels": 168,
+          "render_x": 990.0
+        },
+        {
+          "fraction": 0.332120000000195,
+          "logical_x": 496.666320800781,
+          "physics_frame": 7447,
+          "pixels": 154,
+          "render_x": 993.5
+        },
+        {
+          "fraction": 0.835700000000195,
+          "logical_x": 496.666320800781,
+          "physics_frame": 7447,
+          "pixels": 154,
+          "render_x": 993.5
+        },
+        {
+          "fraction": 0.352000000000195,
+          "logical_x": 498.332977294922,
+          "physics_frame": 7448,
+          "pixels": 154,
+          "render_x": 996.5
+        },
+        {
+          "fraction": 0.830920000000195,
+          "logical_x": 498.332977294922,
+          "physics_frame": 7448,
+          "pixels": 154,
+          "render_x": 996.5
+        },
+        {
+          "fraction": 0.348000000000195,
+          "logical_x": 499.999633789062,
+          "physics_frame": 7449,
+          "pixels": 168,
+          "render_x": 1000.0
+        },
+        {
+          "fraction": 0.855120000000195,
+          "logical_x": 499.999633789062,
+          "physics_frame": 7449,
+          "pixels": 168,
+          "render_x": 1000.0
+        },
+        {
+          "fraction": 0.357020000000195,
+          "logical_x": 501.666290283203,
+          "physics_frame": 7450,
+          "pixels": 154,
+          "render_x": 1003.5
+        },
+        {
+          "fraction": 0.823520000000195,
+          "logical_x": 501.666290283203,
+          "physics_frame": 7450,
+          "pixels": 154,
+          "render_x": 1003.5
+        },
+        {
+          "fraction": 0.278560000000195,
+          "logical_x": 503.332946777344,
+          "physics_frame": 7451,
+          "pixels": 154,
+          "render_x": 1006.5
+        },
+        {
+          "fraction": 0.796720000000195,
+          "logical_x": 503.332946777344,
+          "physics_frame": 7451,
+          "pixels": 154,
+          "render_x": 1006.5
+        },
+        {
+          "fraction": 0.296700000000195,
+          "logical_x": 504.999603271484,
+          "physics_frame": 7452,
+          "pixels": 168,
+          "render_x": 1010.0
+        },
+        {
+          "fraction": 0.796680000000195,
+          "logical_x": 504.999603271484,
+          "physics_frame": 7452,
+          "pixels": 168,
+          "render_x": 1010.0
+        },
+        {
+          "fraction": 0.296660000000195,
+          "logical_x": 506.666259765625,
+          "physics_frame": 7453,
+          "pixels": 154,
+          "render_x": 1013.5
+        },
+        {
+          "fraction": 0.796640000000195,
+          "logical_x": 506.666259765625,
+          "physics_frame": 7453,
+          "pixels": 154,
+          "render_x": 1013.5
+        },
+        {
+          "fraction": 0.296620000000195,
+          "logical_x": 508.332916259766,
+          "physics_frame": 7454,
+          "pixels": 154,
+          "render_x": 1016.5
+        },
+        {
+          "fraction": 0.796600000000195,
+          "logical_x": 508.332916259766,
+          "physics_frame": 7454,
+          "pixels": 154,
+          "render_x": 1016.5
+        },
+        {
+          "fraction": 0.296580000000195,
+          "logical_x": 509.999572753906,
+          "physics_frame": 7455,
+          "pixels": 168,
+          "render_x": 1020.0
+        },
+        {
+          "fraction": 0.796560000000195,
+          "logical_x": 509.999572753906,
+          "physics_frame": 7455,
+          "pixels": 168,
+          "render_x": 1020.0
+        },
+        {
+          "fraction": 0.296540000000195,
+          "logical_x": 511.666229248047,
+          "physics_frame": 7456,
+          "pixels": 154,
+          "render_x": 1023.5
+        },
+        {
+          "fraction": 0.796520000000195,
+          "logical_x": 511.666229248047,
+          "physics_frame": 7456,
+          "pixels": 154,
+          "render_x": 1023.5
+        },
+        {
+          "fraction": 0.296500000000195,
+          "logical_x": 513.332885742188,
+          "physics_frame": 7457,
+          "pixels": 154,
+          "render_x": 1026.5
+        },
+        {
+          "fraction": 0.796480000000195,
+          "logical_x": 513.332885742188,
+          "physics_frame": 7457,
+          "pixels": 154,
+          "render_x": 1026.5
+        },
+        {
+          "fraction": 0.296460000000195,
+          "logical_x": 514.999572753906,
+          "physics_frame": 7458,
+          "pixels": 168,
+          "render_x": 1030.0
+        }
+      ],
+      "scene": "R1",
+      "settled_marker": {
+        "pixels": 168,
+        "x": 1030.0,
+        "y": 422.0
+      },
+      "temporary_physics_ticks": 60
+    },
+    {
+      "between_tick_pairs": 35,
+      "enabled": true,
+      "maximum_between_tick_pixels": 2.5,
+      "render_moved_between_tick_pairs": 35,
+      "rows": [
+        {
+          "fraction": 0.296180000000195,
+          "logical_x": 441.666656494141,
+          "physics_frame": 7465,
+          "pixels": 168,
+          "render_x": 881.0
+        },
+        {
+          "fraction": 0.796160000000195,
+          "logical_x": 441.666656494141,
+          "physics_frame": 7465,
+          "pixels": 154,
+          "render_x": 882.5
+        },
+        {
+          "fraction": 0.296140000000195,
+          "logical_x": 443.333312988281,
+          "physics_frame": 7466,
+          "pixels": 154,
+          "render_x": 884.5
+        },
+        {
+          "fraction": 0.296100000000195,
+          "logical_x": 444.999969482422,
+          "physics_frame": 7467,
+          "pixels": 154,
+          "render_x": 887.5
+        },
+        {
+          "fraction": 0.296060000000195,
+          "logical_x": 446.666625976562,
+          "physics_frame": 7468,
+          "pixels": 168,
+          "render_x": 891.0
+        },
+        {
+          "fraction": 0.796040000000195,
+          "logical_x": 446.666625976562,
+          "physics_frame": 7468,
+          "pixels": 154,
+          "render_x": 892.5
+        },
+        {
+          "fraction": 0.796000000000195,
+          "logical_x": 448.333282470703,
+          "physics_frame": 7469,
+          "pixels": 168,
+          "render_x": 896.0
+        },
+        {
+          "fraction": 0.795960000000196,
+          "logical_x": 449.999938964844,
+          "physics_frame": 7470,
+          "pixels": 154,
+          "render_x": 899.5
+        },
+        {
+          "fraction": 0.795920000000195,
+          "logical_x": 451.666595458984,
+          "physics_frame": 7471,
+          "pixels": 154,
+          "render_x": 902.5
+        },
+        {
+          "fraction": 0.295900000000196,
+          "logical_x": 453.333251953125,
+          "physics_frame": 7472,
+          "pixels": 154,
+          "render_x": 904.5
+        },
+        {
+          "fraction": 0.295860000000196,
+          "logical_x": 454.999908447266,
+          "physics_frame": 7473,
+          "pixels": 154,
+          "render_x": 907.5
+        },
+        {
+          "fraction": 0.295820000000196,
+          "logical_x": 456.666564941406,
+          "physics_frame": 7474,
+          "pixels": 168,
+          "render_x": 911.0
+        },
+        {
+          "fraction": 0.295780000000196,
+          "logical_x": 458.333221435547,
+          "physics_frame": 7475,
+          "pixels": 154,
+          "render_x": 914.5
+        },
+        {
+          "fraction": 0.795760000000196,
+          "logical_x": 458.333221435547,
+          "physics_frame": 7475,
+          "pixels": 168,
+          "render_x": 916.0
+        },
+        {
+          "fraction": 0.795720000000196,
+          "logical_x": 459.999877929688,
+          "physics_frame": 7476,
+          "pixels": 154,
+          "render_x": 919.5
+        },
+        {
+          "fraction": 0.295700000000196,
+          "logical_x": 461.666534423828,
+          "physics_frame": 7477,
+          "pixels": 168,
+          "render_x": 921.0
+        },
+        {
+          "fraction": 0.295660000000196,
+          "logical_x": 463.333190917969,
+          "physics_frame": 7478,
+          "pixels": 154,
+          "render_x": 924.5
+        },
+        {
+          "fraction": 0.795640000000196,
+          "logical_x": 463.333190917969,
+          "physics_frame": 7478,
+          "pixels": 168,
+          "render_x": 926.0
+        },
+        {
+          "fraction": 0.295620000000196,
+          "logical_x": 464.999847412109,
+          "physics_frame": 7479,
+          "pixels": 154,
+          "render_x": 927.5
+        },
+        {
+          "fraction": 0.795600000000196,
+          "logical_x": 464.999847412109,
+          "physics_frame": 7479,
+          "pixels": 154,
+          "render_x": 929.5
+        },
+        {
+          "fraction": 0.295580000000196,
+          "logical_x": 466.66650390625,
+          "physics_frame": 7480,
+          "pixels": 168,
+          "render_x": 931.0
+        },
+        {
+          "fraction": 0.795560000000196,
+          "logical_x": 466.66650390625,
+          "physics_frame": 7480,
+          "pixels": 154,
+          "render_x": 932.5
+        },
+        {
+          "fraction": 0.295540000000196,
+          "logical_x": 468.333160400391,
+          "physics_frame": 7481,
+          "pixels": 154,
+          "render_x": 934.5
+        },
+        {
+          "fraction": 0.795520000000196,
+          "logical_x": 468.333160400391,
+          "physics_frame": 7481,
+          "pixels": 168,
+          "render_x": 936.0
+        },
+        {
+          "fraction": 0.295500000000196,
+          "logical_x": 469.999816894531,
+          "physics_frame": 7482,
+          "pixels": 154,
+          "render_x": 937.5
+        },
+        {
+          "fraction": 0.795480000000196,
+          "logical_x": 469.999816894531,
+          "physics_frame": 7482,
+          "pixels": 154,
+          "render_x": 939.5
+        },
+        {
+          "fraction": 0.295460000000196,
+          "logical_x": 471.666473388672,
+          "physics_frame": 7483,
+          "pixels": 168,
+          "render_x": 941.0
+        },
+        {
+          "fraction": 0.795440000000196,
+          "logical_x": 471.666473388672,
+          "physics_frame": 7483,
+          "pixels": 154,
+          "render_x": 942.5
+        },
+        {
+          "fraction": 0.295420000000196,
+          "logical_x": 473.333129882812,
+          "physics_frame": 7484,
+          "pixels": 154,
+          "render_x": 944.5
+        },
+        {
+          "fraction": 0.795400000000196,
+          "logical_x": 473.333129882812,
+          "physics_frame": 7484,
+          "pixels": 168,
+          "render_x": 946.0
+        },
+        {
+          "fraction": 0.295380000000196,
+          "logical_x": 474.999786376953,
+          "physics_frame": 7485,
+          "pixels": 154,
+          "render_x": 947.5
+        },
+        {
+          "fraction": 0.795360000000196,
+          "logical_x": 474.999786376953,
+          "physics_frame": 7485,
+          "pixels": 154,
+          "render_x": 949.5
+        },
+        {
+          "fraction": 0.295340000000196,
+          "logical_x": 476.666442871094,
+          "physics_frame": 7486,
+          "pixels": 168,
+          "render_x": 951.0
+        },
+        {
+          "fraction": 0.795320000000196,
+          "logical_x": 476.666442871094,
+          "physics_frame": 7486,
+          "pixels": 154,
+          "render_x": 952.5
+        },
+        {
+          "fraction": 0.295300000000196,
+          "logical_x": 478.333099365234,
+          "physics_frame": 7487,
+          "pixels": 154,
+          "render_x": 954.5
+        },
+        {
+          "fraction": 0.795280000000196,
+          "logical_x": 478.333099365234,
+          "physics_frame": 7487,
+          "pixels": 168,
+          "render_x": 956.0
+        },
+        {
+          "fraction": 0.295260000000196,
+          "logical_x": 479.999755859375,
+          "physics_frame": 7488,
+          "pixels": 154,
+          "render_x": 957.5
+        },
+        {
+          "fraction": 0.795240000000196,
+          "logical_x": 479.999755859375,
+          "physics_frame": 7488,
+          "pixels": 154,
+          "render_x": 959.5
+        },
+        {
+          "fraction": 0.249200000000196,
+          "logical_x": 481.666412353516,
+          "physics_frame": 7489,
+          "pixels": 154,
+          "render_x": 960.5
+        },
+        {
+          "fraction": 0.073900000000196,
+          "logical_x": 483.333068847656,
+          "physics_frame": 7490,
+          "pixels": 154,
+          "render_x": 963.5
+        },
+        {
+          "fraction": 0.518980000000196,
+          "logical_x": 483.333068847656,
+          "physics_frame": 7490,
+          "pixels": 168,
+          "render_x": 965.0
+        },
+        {
+          "fraction": 0.919240000000196,
+          "logical_x": 483.333068847656,
+          "physics_frame": 7490,
+          "pixels": 154,
+          "render_x": 966.5
+        },
+        {
+          "fraction": 0.458040000000196,
+          "logical_x": 484.999725341797,
+          "physics_frame": 7491,
+          "pixels": 154,
+          "render_x": 968.5
+        },
+        {
+          "fraction": 0.0126800000001959,
+          "logical_x": 486.666381835938,
+          "physics_frame": 7492,
+          "pixels": 168,
+          "render_x": 970.0
+        },
+        {
+          "fraction": 0.427340000000196,
+          "logical_x": 486.666381835938,
+          "physics_frame": 7492,
+          "pixels": 154,
+          "render_x": 971.5
+        },
+        {
+          "fraction": 0.824360000000196,
+          "logical_x": 486.666381835938,
+          "physics_frame": 7492,
+          "pixels": 154,
+          "render_x": 972.5
+        },
+        {
+          "fraction": 0.204400000000196,
+          "logical_x": 488.333038330078,
+          "physics_frame": 7493,
+          "pixels": 168,
+          "render_x": 974.0
+        },
+        {
+          "fraction": 0.591820000000196,
+          "logical_x": 488.333038330078,
+          "physics_frame": 7493,
+          "pixels": 154,
+          "render_x": 975.5
+        },
+        {
+          "fraction": 0.944260000000196,
+          "logical_x": 488.333038330078,
+          "physics_frame": 7493,
+          "pixels": 154,
+          "render_x": 976.5
+        },
+        {
+          "fraction": 0.383340000000196,
+          "logical_x": 489.999694824219,
+          "physics_frame": 7494,
+          "pixels": 168,
+          "render_x": 978.0
+        },
+        {
+          "fraction": 0.885300000000196,
+          "logical_x": 489.999694824219,
+          "physics_frame": 7494,
+          "pixels": 154,
+          "render_x": 979.5
+        },
+        {
+          "fraction": 0.383240000000196,
+          "logical_x": 491.666351318359,
+          "physics_frame": 7495,
+          "pixels": 154,
+          "render_x": 981.5
+        },
+        {
+          "fraction": 0.881840000000196,
+          "logical_x": 491.666351318359,
+          "physics_frame": 7495,
+          "pixels": 168,
+          "render_x": 983.0
+        },
+        {
+          "fraction": 0.398260000000196,
+          "logical_x": 493.3330078125,
+          "physics_frame": 7496,
+          "pixels": 154,
+          "render_x": 984.5
+        },
+        {
+          "fraction": 0.895180000000196,
+          "logical_x": 493.3330078125,
+          "physics_frame": 7496,
+          "pixels": 154,
+          "render_x": 986.5
+        },
+        {
+          "fraction": 0.433080000000196,
+          "logical_x": 494.999664306641,
+          "physics_frame": 7497,
+          "pixels": 168,
+          "render_x": 988.0
+        },
+        {
+          "fraction": 0.903540000000196,
+          "logical_x": 494.999664306641,
+          "physics_frame": 7497,
+          "pixels": 154,
+          "render_x": 989.5
+        },
+        {
+          "fraction": 0.399200000000196,
+          "logical_x": 496.666320800781,
+          "physics_frame": 7498,
+          "pixels": 154,
+          "render_x": 991.5
+        },
+        {
+          "fraction": 0.902120000000196,
+          "logical_x": 496.666320800781,
+          "physics_frame": 7498,
+          "pixels": 168,
+          "render_x": 993.0
+        },
+        {
+          "fraction": 0.418060000000196,
+          "logical_x": 498.332977294922,
+          "physics_frame": 7499,
+          "pixels": 154,
+          "render_x": 994.5
+        },
+        {
+          "fraction": 0.910540000000196,
+          "logical_x": 498.332977294922,
+          "physics_frame": 7499,
+          "pixels": 154,
+          "render_x": 996.5
+        },
+        {
+          "fraction": 0.412320000000196,
+          "logical_x": 499.999633789062,
+          "physics_frame": 7500,
+          "pixels": 168,
+          "render_x": 998.0
+        },
+        {
+          "fraction": 0.945180000000196,
+          "logical_x": 499.999633789062,
+          "physics_frame": 7500,
+          "pixels": 154,
+          "render_x": 999.5
+        },
+        {
+          "fraction": 0.460700000000196,
+          "logical_x": 501.666290283203,
+          "physics_frame": 7501,
+          "pixels": 154,
+          "render_x": 1001.5
+        },
+        {
+          "fraction": 0.954200000000196,
+          "logical_x": 501.666290283203,
+          "physics_frame": 7501,
+          "pixels": 154,
+          "render_x": 1003.5
+        },
+        {
+          "fraction": 0.504700000000196,
+          "logical_x": 503.332946777344,
+          "physics_frame": 7502,
+          "pixels": 168,
+          "render_x": 1005.0
+        },
+        {
+          "fraction": 0.134820000000196,
+          "logical_x": 504.999603271484,
+          "physics_frame": 7503,
+          "pixels": 168,
+          "render_x": 1007.0
+        },
+        {
+          "fraction": 0.791100000000196,
+          "logical_x": 504.999603271484,
+          "physics_frame": 7503,
+          "pixels": 154,
+          "render_x": 1009.5
+        },
+        {
+          "fraction": 0.432260000000196,
+          "logical_x": 506.666259765625,
+          "physics_frame": 7504,
+          "pixels": 154,
+          "render_x": 1011.5
+        },
+        {
+          "fraction": 0.0868600000001963,
+          "logical_x": 508.332916259766,
+          "physics_frame": 7505,
+          "pixels": 154,
+          "render_x": 1013.5
+        },
+        {
+          "fraction": 0.681520000000196,
+          "logical_x": 508.332916259766,
+          "physics_frame": 7505,
+          "pixels": 154,
+          "render_x": 1015.5
+        },
+        {
+          "fraction": 0.279000000000196,
+          "logical_x": 509.999572753906,
+          "physics_frame": 7506,
+          "pixels": 154,
+          "render_x": 1017.5
+        },
+        {
+          "fraction": 0.929220000000196,
+          "logical_x": 509.999572753906,
+          "physics_frame": 7506,
+          "pixels": 154,
+          "render_x": 1019.5
+        },
+        {
+          "fraction": 0.556760000000196,
+          "logical_x": 511.666229248047,
+          "physics_frame": 7507,
+          "pixels": 154,
+          "render_x": 1021.5
+        },
+        {
+          "fraction": 0.110860000000196,
+          "logical_x": 513.332885742188,
+          "physics_frame": 7508,
+          "pixels": 154,
+          "render_x": 1023.5
+        },
+        {
+          "fraction": 0.694300000000196,
+          "logical_x": 513.332885742188,
+          "physics_frame": 7508,
+          "pixels": 154,
+          "render_x": 1025.5
+        },
+        {
+          "fraction": 0.274500000000196,
+          "logical_x": 514.999572753906,
+          "physics_frame": 7509,
+          "pixels": 154,
+          "render_x": 1027.5
+        },
+        {
+          "fraction": 0.934080000000196,
+          "logical_x": 514.999572753906,
+          "physics_frame": 7509,
+          "pixels": 154,
+          "render_x": 1029.5
+        },
+        {
+          "fraction": 0.538640000000197,
+          "logical_x": 516.666259765625,
+          "physics_frame": 7510,
+          "pixels": 154,
+          "render_x": 1031.5
+        },
+        {
+          "fraction": 0.0879400000001965,
+          "logical_x": 518.332946777344,
+          "physics_frame": 7511,
+          "pixels": 154,
+          "render_x": 1033.5
+        },
+        {
+          "fraction": 0.636160000000196,
+          "logical_x": 518.332946777344,
+          "physics_frame": 7511,
+          "pixels": 154,
+          "render_x": 1035.5
+        },
+        {
+          "fraction": 0.0919800000001965,
+          "logical_x": 519.999633789062,
+          "physics_frame": 7512,
+          "pixels": 168,
+          "render_x": 1037.0
+        },
+        {
+          "fraction": 0.701160000000197,
+          "logical_x": 519.999633789062,
+          "physics_frame": 7512,
+          "pixels": 168,
+          "render_x": 1039.0
+        },
+        {
+          "fraction": 0.182900000000197,
+          "logical_x": 521.666320800781,
+          "physics_frame": 7513,
+          "pixels": 154,
+          "render_x": 1040.5
+        }
+      ],
+      "scene": "R1",
+      "settled_marker": {
+        "pixels": 154,
+        "x": 1043.5,
+        "y": 422.0
+      },
+      "temporary_physics_ticks": 60
+    },
+    {
+      "between_tick_pairs": 38,
+      "enabled": false,
+      "maximum_between_tick_pixels": 0.0,
+      "render_moved_between_tick_pairs": 0,
+      "rows": [
+        {
+          "fraction": 0.0131900000000329,
+          "logical_x": 450.0,
+          "physics_frame": 7529,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.172410000000033,
+          "logical_x": 450.0,
+          "physics_frame": 7529,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.245500000000033,
+          "logical_x": 450.0,
+          "physics_frame": 7529,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.330190000000033,
+          "logical_x": 450.0,
+          "physics_frame": 7529,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.436630000000033,
+          "logical_x": 450.0,
+          "physics_frame": 7529,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.505890000000033,
+          "logical_x": 450.0,
+          "physics_frame": 7529,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.574710000000033,
+          "logical_x": 450.0,
+          "physics_frame": 7529,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.651940000000033,
+          "logical_x": 450.0,
+          "physics_frame": 7529,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.734220000000033,
+          "logical_x": 450.0,
+          "physics_frame": 7529,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.821110000000033,
+          "logical_x": 450.0,
+          "physics_frame": 7529,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.897510000000033,
+          "logical_x": 450.0,
+          "physics_frame": 7529,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.991680000000033,
+          "logical_x": 450.0,
+          "physics_frame": 7529,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.0779100000000328,
+          "logical_x": 460.0,
+          "physics_frame": 7530,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.148900000000033,
+          "logical_x": 460.0,
+          "physics_frame": 7530,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.233240000000033,
+          "logical_x": 460.0,
+          "physics_frame": 7530,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.319560000000033,
+          "logical_x": 460.0,
+          "physics_frame": 7530,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.404420000000033,
+          "logical_x": 460.0,
+          "physics_frame": 7530,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.490930000000033,
+          "logical_x": 460.0,
+          "physics_frame": 7530,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.571880000000033,
+          "logical_x": 460.0,
+          "physics_frame": 7530,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.655740000000033,
+          "logical_x": 460.0,
+          "physics_frame": 7530,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.735960000000033,
+          "logical_x": 460.0,
+          "physics_frame": 7530,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.827440000000033,
+          "logical_x": 460.0,
+          "physics_frame": 7530,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.898150000000033,
+          "logical_x": 460.0,
+          "physics_frame": 7530,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.984930000000033,
+          "logical_x": 460.0,
+          "physics_frame": 7530,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.0791900000000328,
+          "logical_x": 470.0,
+          "physics_frame": 7531,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.153530000000033,
+          "logical_x": 470.0,
+          "physics_frame": 7531,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.238150000000033,
+          "logical_x": 470.0,
+          "physics_frame": 7531,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.320800000000033,
+          "logical_x": 470.0,
+          "physics_frame": 7531,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.403670000000033,
+          "logical_x": 470.0,
+          "physics_frame": 7531,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.501890000000033,
+          "logical_x": 470.0,
+          "physics_frame": 7531,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.569190000000033,
+          "logical_x": 470.0,
+          "physics_frame": 7531,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.665370000000033,
+          "logical_x": 470.0,
+          "physics_frame": 7531,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.738990000000033,
+          "logical_x": 470.0,
+          "physics_frame": 7531,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.813560000000033,
+          "logical_x": 470.0,
+          "physics_frame": 7531,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.901060000000033,
+          "logical_x": 470.0,
+          "physics_frame": 7531,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.984590000000033,
+          "logical_x": 470.0,
+          "physics_frame": 7531,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.067920000000033,
+          "logical_x": 480.0,
+          "physics_frame": 7532,
+          "pixels": 81,
+          "render_x": 766.5
+        },
+        {
+          "fraction": 0.151250000000033,
+          "logical_x": 480.0,
+          "physics_frame": 7532,
+          "pixels": 81,
+          "render_x": 766.5
+        },
+        {
+          "fraction": 0.234580000000033,
+          "logical_x": 480.0,
+          "physics_frame": 7532,
+          "pixels": 81,
+          "render_x": 766.5
+        },
+        {
+          "fraction": 0.317910000000033,
+          "logical_x": 480.0,
+          "physics_frame": 7532,
+          "pixels": 81,
+          "render_x": 766.5
+        },
+        {
+          "fraction": 0.401240000000033,
+          "logical_x": 480.0,
+          "physics_frame": 7532,
+          "pixels": 81,
+          "render_x": 766.5
+        },
+        {
+          "fraction": 0.484570000000033,
+          "logical_x": 480.0,
+          "physics_frame": 7532,
+          "pixels": 81,
+          "render_x": 766.5
+        }
+      ],
+      "scene": "R0",
+      "settled_marker": {
+        "pixels": 81,
+        "x": 766.5,
+        "y": 408.5
+      },
+      "temporary_physics_ticks": 10
+    },
+    {
+      "between_tick_pairs": 38,
+      "enabled": true,
+      "maximum_between_tick_pixels": 2.0,
+      "render_moved_between_tick_pairs": 31,
+      "rows": [
+        {
+          "fraction": 0.0676800000000344,
+          "logical_x": 450.0,
+          "physics_frame": 7538,
+          "pixels": 81,
+          "render_x": 708.5
+        },
+        {
+          "fraction": 0.151010000000034,
+          "logical_x": 450.0,
+          "physics_frame": 7538,
+          "pixels": 81,
+          "render_x": 710.5
+        },
+        {
+          "fraction": 0.234340000000034,
+          "logical_x": 450.0,
+          "physics_frame": 7538,
+          "pixels": 81,
+          "render_x": 710.5
+        },
+        {
+          "fraction": 0.317670000000034,
+          "logical_x": 450.0,
+          "physics_frame": 7538,
+          "pixels": 81,
+          "render_x": 711.5
+        },
+        {
+          "fraction": 0.401000000000034,
+          "logical_x": 450.0,
+          "physics_frame": 7538,
+          "pixels": 81,
+          "render_x": 713.5
+        },
+        {
+          "fraction": 0.484330000000034,
+          "logical_x": 450.0,
+          "physics_frame": 7538,
+          "pixels": 81,
+          "render_x": 714.5
+        },
+        {
+          "fraction": 0.567660000000034,
+          "logical_x": 450.0,
+          "physics_frame": 7538,
+          "pixels": 72,
+          "render_x": 716.0
+        },
+        {
+          "fraction": 0.650990000000034,
+          "logical_x": 450.0,
+          "physics_frame": 7538,
+          "pixels": 81,
+          "render_x": 717.5
+        },
+        {
+          "fraction": 0.734320000000034,
+          "logical_x": 450.0,
+          "physics_frame": 7538,
+          "pixels": 81,
+          "render_x": 717.5
+        },
+        {
+          "fraction": 0.817650000000034,
+          "logical_x": 450.0,
+          "physics_frame": 7538,
+          "pixels": 72,
+          "render_x": 719.0
+        },
+        {
+          "fraction": 0.900980000000035,
+          "logical_x": 450.0,
+          "physics_frame": 7538,
+          "pixels": 81,
+          "render_x": 720.5
+        },
+        {
+          "fraction": 0.984310000000035,
+          "logical_x": 450.0,
+          "physics_frame": 7538,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.0676400000000346,
+          "logical_x": 460.0,
+          "physics_frame": 7539,
+          "pixels": 81,
+          "render_x": 723.5
+        },
+        {
+          "fraction": 0.150970000000035,
+          "logical_x": 460.0,
+          "physics_frame": 7539,
+          "pixels": 81,
+          "render_x": 724.5
+        },
+        {
+          "fraction": 0.234300000000035,
+          "logical_x": 460.0,
+          "physics_frame": 7539,
+          "pixels": 81,
+          "render_x": 724.5
+        },
+        {
+          "fraction": 0.317630000000035,
+          "logical_x": 460.0,
+          "physics_frame": 7539,
+          "pixels": 81,
+          "render_x": 726.5
+        },
+        {
+          "fraction": 0.400960000000035,
+          "logical_x": 460.0,
+          "physics_frame": 7539,
+          "pixels": 81,
+          "render_x": 727.5
+        },
+        {
+          "fraction": 0.484290000000035,
+          "logical_x": 460.0,
+          "physics_frame": 7539,
+          "pixels": 81,
+          "render_x": 729.5
+        },
+        {
+          "fraction": 0.567620000000035,
+          "logical_x": 460.0,
+          "physics_frame": 7539,
+          "pixels": 81,
+          "render_x": 730.5
+        },
+        {
+          "fraction": 0.650950000000035,
+          "logical_x": 460.0,
+          "physics_frame": 7539,
+          "pixels": 81,
+          "render_x": 732.5
+        },
+        {
+          "fraction": 0.734280000000035,
+          "logical_x": 460.0,
+          "physics_frame": 7539,
+          "pixels": 81,
+          "render_x": 732.5
+        },
+        {
+          "fraction": 0.817610000000035,
+          "logical_x": 460.0,
+          "physics_frame": 7539,
+          "pixels": 81,
+          "render_x": 733.5
+        },
+        {
+          "fraction": 0.900940000000035,
+          "logical_x": 460.0,
+          "physics_frame": 7539,
+          "pixels": 81,
+          "render_x": 735.5
+        },
+        {
+          "fraction": 0.984270000000035,
+          "logical_x": 460.0,
+          "physics_frame": 7539,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.0676000000000349,
+          "logical_x": 470.0,
+          "physics_frame": 7540,
+          "pixels": 81,
+          "render_x": 738.5
+        },
+        {
+          "fraction": 0.150930000000035,
+          "logical_x": 470.0,
+          "physics_frame": 7540,
+          "pixels": 81,
+          "render_x": 739.5
+        },
+        {
+          "fraction": 0.234260000000035,
+          "logical_x": 470.0,
+          "physics_frame": 7540,
+          "pixels": 81,
+          "render_x": 739.5
+        },
+        {
+          "fraction": 0.317590000000035,
+          "logical_x": 470.0,
+          "physics_frame": 7540,
+          "pixels": 81,
+          "render_x": 741.5
+        },
+        {
+          "fraction": 0.400920000000035,
+          "logical_x": 470.0,
+          "physics_frame": 7540,
+          "pixels": 81,
+          "render_x": 742.5
+        },
+        {
+          "fraction": 0.484250000000035,
+          "logical_x": 470.0,
+          "physics_frame": 7540,
+          "pixels": 81,
+          "render_x": 744.5
+        },
+        {
+          "fraction": 0.567580000000035,
+          "logical_x": 470.0,
+          "physics_frame": 7540,
+          "pixels": 81,
+          "render_x": 745.5
+        },
+        {
+          "fraction": 0.650910000000035,
+          "logical_x": 470.0,
+          "physics_frame": 7540,
+          "pixels": 81,
+          "render_x": 747.5
+        },
+        {
+          "fraction": 0.734240000000035,
+          "logical_x": 470.0,
+          "physics_frame": 7540,
+          "pixels": 81,
+          "render_x": 747.5
+        },
+        {
+          "fraction": 0.817570000000035,
+          "logical_x": 470.0,
+          "physics_frame": 7540,
+          "pixels": 81,
+          "render_x": 748.5
+        },
+        {
+          "fraction": 0.900900000000035,
+          "logical_x": 470.0,
+          "physics_frame": 7540,
+          "pixels": 81,
+          "render_x": 750.5
+        },
+        {
+          "fraction": 0.984230000000035,
+          "logical_x": 470.0,
+          "physics_frame": 7540,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.0675600000000351,
+          "logical_x": 480.0,
+          "physics_frame": 7541,
+          "pixels": 81,
+          "render_x": 753.5
+        },
+        {
+          "fraction": 0.150890000000035,
+          "logical_x": 480.0,
+          "physics_frame": 7541,
+          "pixels": 81,
+          "render_x": 754.5
+        },
+        {
+          "fraction": 0.234220000000035,
+          "logical_x": 480.0,
+          "physics_frame": 7541,
+          "pixels": 81,
+          "render_x": 754.5
+        },
+        {
+          "fraction": 0.317550000000035,
+          "logical_x": 480.0,
+          "physics_frame": 7541,
+          "pixels": 81,
+          "render_x": 756.5
+        },
+        {
+          "fraction": 0.400880000000035,
+          "logical_x": 480.0,
+          "physics_frame": 7541,
+          "pixels": 81,
+          "render_x": 757.5
+        },
+        {
+          "fraction": 0.484210000000035,
+          "logical_x": 480.0,
+          "physics_frame": 7541,
+          "pixels": 81,
+          "render_x": 759.5
+        }
+      ],
+      "scene": "R0",
+      "settled_marker": {
+        "pixels": 81,
+        "x": 766.5,
+        "y": 408.5
+      },
+      "temporary_physics_ticks": 10
+    },
+    {
+      "between_tick_pairs": 42,
+      "enabled": false,
+      "maximum_between_tick_pixels": 0.0,
+      "render_moved_between_tick_pairs": 0,
+      "rows": [
+        {
+          "fraction": 0.404520000000215,
+          "logical_x": 441.666656494141,
+          "physics_frame": 7547,
+          "pixels": 81,
+          "render_x": 710.5
+        },
+        {
+          "fraction": 0.904500000000215,
+          "logical_x": 441.666656494141,
+          "physics_frame": 7547,
+          "pixels": 81,
+          "render_x": 710.5
+        },
+        {
+          "fraction": 0.404480000000215,
+          "logical_x": 443.333312988281,
+          "physics_frame": 7548,
+          "pixels": 81,
+          "render_x": 711.5
+        },
+        {
+          "fraction": 0.904460000000215,
+          "logical_x": 443.333312988281,
+          "physics_frame": 7548,
+          "pixels": 81,
+          "render_x": 711.5
+        },
+        {
+          "fraction": 0.404440000000215,
+          "logical_x": 444.999969482422,
+          "physics_frame": 7549,
+          "pixels": 81,
+          "render_x": 714.5
+        },
+        {
+          "fraction": 0.904420000000215,
+          "logical_x": 444.999969482422,
+          "physics_frame": 7549,
+          "pixels": 81,
+          "render_x": 714.5
+        },
+        {
+          "fraction": 0.404400000000215,
+          "logical_x": 446.666625976562,
+          "physics_frame": 7550,
+          "pixels": 81,
+          "render_x": 717.5
+        },
+        {
+          "fraction": 0.904380000000215,
+          "logical_x": 446.666625976562,
+          "physics_frame": 7550,
+          "pixels": 81,
+          "render_x": 717.5
+        },
+        {
+          "fraction": 0.404360000000215,
+          "logical_x": 448.333282470703,
+          "physics_frame": 7551,
+          "pixels": 72,
+          "render_x": 719.0
+        },
+        {
+          "fraction": 0.904340000000215,
+          "logical_x": 448.333282470703,
+          "physics_frame": 7551,
+          "pixels": 72,
+          "render_x": 719.0
+        },
+        {
+          "fraction": 0.404320000000215,
+          "logical_x": 449.999938964844,
+          "physics_frame": 7552,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.904300000000215,
+          "logical_x": 449.999938964844,
+          "physics_frame": 7552,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.404280000000215,
+          "logical_x": 451.666595458984,
+          "physics_frame": 7553,
+          "pixels": 81,
+          "render_x": 724.5
+        },
+        {
+          "fraction": 0.904260000000215,
+          "logical_x": 451.666595458984,
+          "physics_frame": 7553,
+          "pixels": 81,
+          "render_x": 724.5
+        },
+        {
+          "fraction": 0.404240000000215,
+          "logical_x": 453.333251953125,
+          "physics_frame": 7554,
+          "pixels": 81,
+          "render_x": 726.5
+        },
+        {
+          "fraction": 0.904220000000215,
+          "logical_x": 453.333251953125,
+          "physics_frame": 7554,
+          "pixels": 81,
+          "render_x": 726.5
+        },
+        {
+          "fraction": 0.404200000000215,
+          "logical_x": 454.999908447266,
+          "physics_frame": 7555,
+          "pixels": 81,
+          "render_x": 729.5
+        },
+        {
+          "fraction": 0.904180000000215,
+          "logical_x": 454.999908447266,
+          "physics_frame": 7555,
+          "pixels": 81,
+          "render_x": 729.5
+        },
+        {
+          "fraction": 0.404160000000215,
+          "logical_x": 456.666564941406,
+          "physics_frame": 7556,
+          "pixels": 81,
+          "render_x": 732.5
+        },
+        {
+          "fraction": 0.904140000000215,
+          "logical_x": 456.666564941406,
+          "physics_frame": 7556,
+          "pixels": 81,
+          "render_x": 732.5
+        },
+        {
+          "fraction": 0.404120000000215,
+          "logical_x": 458.333221435547,
+          "physics_frame": 7557,
+          "pixels": 81,
+          "render_x": 733.5
+        },
+        {
+          "fraction": 0.904100000000215,
+          "logical_x": 458.333221435547,
+          "physics_frame": 7557,
+          "pixels": 81,
+          "render_x": 733.5
+        },
+        {
+          "fraction": 0.404080000000215,
+          "logical_x": 459.999877929688,
+          "physics_frame": 7558,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.904060000000215,
+          "logical_x": 459.999877929688,
+          "physics_frame": 7558,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.404040000000215,
+          "logical_x": 461.666534423828,
+          "physics_frame": 7559,
+          "pixels": 81,
+          "render_x": 739.5
+        },
+        {
+          "fraction": 0.904020000000215,
+          "logical_x": 461.666534423828,
+          "physics_frame": 7559,
+          "pixels": 81,
+          "render_x": 739.5
+        },
+        {
+          "fraction": 0.404000000000215,
+          "logical_x": 463.333190917969,
+          "physics_frame": 7560,
+          "pixels": 81,
+          "render_x": 741.5
+        },
+        {
+          "fraction": 0.903980000000215,
+          "logical_x": 463.333190917969,
+          "physics_frame": 7560,
+          "pixels": 81,
+          "render_x": 741.5
+        },
+        {
+          "fraction": 0.403960000000215,
+          "logical_x": 464.999847412109,
+          "physics_frame": 7561,
+          "pixels": 81,
+          "render_x": 744.5
+        },
+        {
+          "fraction": 0.903940000000215,
+          "logical_x": 464.999847412109,
+          "physics_frame": 7561,
+          "pixels": 81,
+          "render_x": 744.5
+        },
+        {
+          "fraction": 0.403920000000215,
+          "logical_x": 466.66650390625,
+          "physics_frame": 7562,
+          "pixels": 81,
+          "render_x": 747.5
+        },
+        {
+          "fraction": 0.903900000000215,
+          "logical_x": 466.66650390625,
+          "physics_frame": 7562,
+          "pixels": 81,
+          "render_x": 747.5
+        },
+        {
+          "fraction": 0.403880000000215,
+          "logical_x": 468.333160400391,
+          "physics_frame": 7563,
+          "pixels": 81,
+          "render_x": 748.5
+        },
+        {
+          "fraction": 0.903860000000215,
+          "logical_x": 468.333160400391,
+          "physics_frame": 7563,
+          "pixels": 81,
+          "render_x": 748.5
+        },
+        {
+          "fraction": 0.403840000000215,
+          "logical_x": 469.999816894531,
+          "physics_frame": 7564,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.903820000000215,
+          "logical_x": 469.999816894531,
+          "physics_frame": 7564,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.403800000000215,
+          "logical_x": 471.666473388672,
+          "physics_frame": 7565,
+          "pixels": 81,
+          "render_x": 754.5
+        },
+        {
+          "fraction": 0.903780000000215,
+          "logical_x": 471.666473388672,
+          "physics_frame": 7565,
+          "pixels": 81,
+          "render_x": 754.5
+        },
+        {
+          "fraction": 0.403760000000216,
+          "logical_x": 473.333129882812,
+          "physics_frame": 7566,
+          "pixels": 81,
+          "render_x": 756.5
+        },
+        {
+          "fraction": 0.903740000000215,
+          "logical_x": 473.333129882812,
+          "physics_frame": 7566,
+          "pixels": 81,
+          "render_x": 756.5
+        },
+        {
+          "fraction": 0.403720000000216,
+          "logical_x": 474.999786376953,
+          "physics_frame": 7567,
+          "pixels": 81,
+          "render_x": 759.5
+        },
+        {
+          "fraction": 0.903700000000216,
+          "logical_x": 474.999786376953,
+          "physics_frame": 7567,
+          "pixels": 81,
+          "render_x": 759.5
+        },
+        {
+          "fraction": 0.403680000000216,
+          "logical_x": 476.666442871094,
+          "physics_frame": 7568,
+          "pixels": 81,
+          "render_x": 762.5
+        },
+        {
+          "fraction": 0.903660000000216,
+          "logical_x": 476.666442871094,
+          "physics_frame": 7568,
+          "pixels": 81,
+          "render_x": 762.5
+        },
+        {
+          "fraction": 0.403640000000216,
+          "logical_x": 478.333099365234,
+          "physics_frame": 7569,
+          "pixels": 81,
+          "render_x": 763.5
+        },
+        {
+          "fraction": 0.903620000000216,
+          "logical_x": 478.333099365234,
+          "physics_frame": 7569,
+          "pixels": 81,
+          "render_x": 763.5
+        },
+        {
+          "fraction": 0.403600000000216,
+          "logical_x": 479.999755859375,
+          "physics_frame": 7570,
+          "pixels": 81,
+          "render_x": 766.5
+        },
+        {
+          "fraction": 0.903580000000216,
+          "logical_x": 479.999755859375,
+          "physics_frame": 7570,
+          "pixels": 81,
+          "render_x": 766.5
+        },
+        {
+          "fraction": 0.403560000000216,
+          "logical_x": 481.666412353516,
+          "physics_frame": 7571,
+          "pixels": 81,
+          "render_x": 769.5
+        },
+        {
+          "fraction": 0.903540000000216,
+          "logical_x": 481.666412353516,
+          "physics_frame": 7571,
+          "pixels": 81,
+          "render_x": 769.5
+        },
+        {
+          "fraction": 0.403520000000216,
+          "logical_x": 483.333068847656,
+          "physics_frame": 7572,
+          "pixels": 81,
+          "render_x": 771.5
+        },
+        {
+          "fraction": 0.903500000000216,
+          "logical_x": 483.333068847656,
+          "physics_frame": 7572,
+          "pixels": 81,
+          "render_x": 771.5
+        },
+        {
+          "fraction": 0.403480000000216,
+          "logical_x": 484.999725341797,
+          "physics_frame": 7573,
+          "pixels": 81,
+          "render_x": 774.5
+        },
+        {
+          "fraction": 0.903460000000216,
+          "logical_x": 484.999725341797,
+          "physics_frame": 7573,
+          "pixels": 81,
+          "render_x": 774.5
+        },
+        {
+          "fraction": 0.403440000000216,
+          "logical_x": 486.666381835938,
+          "physics_frame": 7574,
+          "pixels": 81,
+          "render_x": 777.5
+        },
+        {
+          "fraction": 0.903420000000216,
+          "logical_x": 486.666381835938,
+          "physics_frame": 7574,
+          "pixels": 81,
+          "render_x": 777.5
+        },
+        {
+          "fraction": 0.403400000000216,
+          "logical_x": 488.333038330078,
+          "physics_frame": 7575,
+          "pixels": 81,
+          "render_x": 778.5
+        },
+        {
+          "fraction": 0.903380000000216,
+          "logical_x": 488.333038330078,
+          "physics_frame": 7575,
+          "pixels": 81,
+          "render_x": 778.5
+        },
+        {
+          "fraction": 0.403360000000216,
+          "logical_x": 489.999694824219,
+          "physics_frame": 7576,
+          "pixels": 81,
+          "render_x": 781.5
+        },
+        {
+          "fraction": 0.903340000000216,
+          "logical_x": 489.999694824219,
+          "physics_frame": 7576,
+          "pixels": 81,
+          "render_x": 781.5
+        },
+        {
+          "fraction": 0.403320000000216,
+          "logical_x": 491.666351318359,
+          "physics_frame": 7577,
+          "pixels": 81,
+          "render_x": 784.5
+        },
+        {
+          "fraction": 0.903300000000216,
+          "logical_x": 491.666351318359,
+          "physics_frame": 7577,
+          "pixels": 81,
+          "render_x": 784.5
+        },
+        {
+          "fraction": 0.403280000000216,
+          "logical_x": 493.3330078125,
+          "physics_frame": 7578,
+          "pixels": 81,
+          "render_x": 786.5
+        },
+        {
+          "fraction": 0.903260000000216,
+          "logical_x": 493.3330078125,
+          "physics_frame": 7578,
+          "pixels": 81,
+          "render_x": 786.5
+        },
+        {
+          "fraction": 0.403240000000216,
+          "logical_x": 494.999664306641,
+          "physics_frame": 7579,
+          "pixels": 81,
+          "render_x": 789.5
+        },
+        {
+          "fraction": 0.903220000000216,
+          "logical_x": 494.999664306641,
+          "physics_frame": 7579,
+          "pixels": 81,
+          "render_x": 789.5
+        },
+        {
+          "fraction": 0.403200000000216,
+          "logical_x": 496.666320800781,
+          "physics_frame": 7580,
+          "pixels": 81,
+          "render_x": 792.5
+        },
+        {
+          "fraction": 0.903180000000216,
+          "logical_x": 496.666320800781,
+          "physics_frame": 7580,
+          "pixels": 81,
+          "render_x": 792.5
+        },
+        {
+          "fraction": 0.403160000000216,
+          "logical_x": 498.332977294922,
+          "physics_frame": 7581,
+          "pixels": 81,
+          "render_x": 793.5
+        },
+        {
+          "fraction": 0.903140000000216,
+          "logical_x": 498.332977294922,
+          "physics_frame": 7581,
+          "pixels": 81,
+          "render_x": 793.5
+        },
+        {
+          "fraction": 0.403120000000216,
+          "logical_x": 499.999633789062,
+          "physics_frame": 7582,
+          "pixels": 81,
+          "render_x": 796.5
+        },
+        {
+          "fraction": 0.903100000000216,
+          "logical_x": 499.999633789062,
+          "physics_frame": 7582,
+          "pixels": 81,
+          "render_x": 796.5
+        },
+        {
+          "fraction": 0.403080000000216,
+          "logical_x": 501.666290283203,
+          "physics_frame": 7583,
+          "pixels": 81,
+          "render_x": 799.5
+        },
+        {
+          "fraction": 0.903060000000216,
+          "logical_x": 501.666290283203,
+          "physics_frame": 7583,
+          "pixels": 81,
+          "render_x": 799.5
+        },
+        {
+          "fraction": 0.403040000000216,
+          "logical_x": 503.332946777344,
+          "physics_frame": 7584,
+          "pixels": 81,
+          "render_x": 801.5
+        },
+        {
+          "fraction": 0.903020000000216,
+          "logical_x": 503.332946777344,
+          "physics_frame": 7584,
+          "pixels": 81,
+          "render_x": 801.5
+        },
+        {
+          "fraction": 0.403000000000216,
+          "logical_x": 504.999603271484,
+          "physics_frame": 7585,
+          "pixels": 81,
+          "render_x": 804.5
+        },
+        {
+          "fraction": 0.902980000000216,
+          "logical_x": 504.999603271484,
+          "physics_frame": 7585,
+          "pixels": 81,
+          "render_x": 804.5
+        },
+        {
+          "fraction": 0.402960000000216,
+          "logical_x": 506.666259765625,
+          "physics_frame": 7586,
+          "pixels": 81,
+          "render_x": 807.5
+        },
+        {
+          "fraction": 0.902940000000216,
+          "logical_x": 506.666259765625,
+          "physics_frame": 7586,
+          "pixels": 81,
+          "render_x": 807.5
+        },
+        {
+          "fraction": 0.402920000000216,
+          "logical_x": 508.332916259766,
+          "physics_frame": 7587,
+          "pixels": 81,
+          "render_x": 808.5
+        },
+        {
+          "fraction": 0.902900000000216,
+          "logical_x": 508.332916259766,
+          "physics_frame": 7587,
+          "pixels": 81,
+          "render_x": 808.5
+        },
+        {
+          "fraction": 0.402880000000216,
+          "logical_x": 509.999572753906,
+          "physics_frame": 7588,
+          "pixels": 81,
+          "render_x": 811.5
+        },
+        {
+          "fraction": 0.902860000000216,
+          "logical_x": 509.999572753906,
+          "physics_frame": 7588,
+          "pixels": 81,
+          "render_x": 811.5
+        }
+      ],
+      "scene": "R0",
+      "settled_marker": {
+        "pixels": 81,
+        "x": 811.5,
+        "y": 408.5
+      },
+      "temporary_physics_ticks": 60
+    },
+    {
+      "between_tick_pairs": 42,
+      "enabled": true,
+      "maximum_between_tick_pixels": 2.0,
+      "render_moved_between_tick_pairs": 39,
+      "rows": [
+        {
+          "fraction": 0.402600000000216,
+          "logical_x": 441.666656494141,
+          "physics_frame": 7595,
+          "pixels": 81,
+          "render_x": 708.5
+        },
+        {
+          "fraction": 0.902580000000216,
+          "logical_x": 441.666656494141,
+          "physics_frame": 7595,
+          "pixels": 81,
+          "render_x": 710.5
+        },
+        {
+          "fraction": 0.402560000000216,
+          "logical_x": 443.333312988281,
+          "physics_frame": 7596,
+          "pixels": 81,
+          "render_x": 710.5
+        },
+        {
+          "fraction": 0.902540000000216,
+          "logical_x": 443.333312988281,
+          "physics_frame": 7596,
+          "pixels": 81,
+          "render_x": 711.5
+        },
+        {
+          "fraction": 0.402520000000216,
+          "logical_x": 444.999969482422,
+          "physics_frame": 7597,
+          "pixels": 81,
+          "render_x": 713.5
+        },
+        {
+          "fraction": 0.902500000000216,
+          "logical_x": 444.999969482422,
+          "physics_frame": 7597,
+          "pixels": 81,
+          "render_x": 714.5
+        },
+        {
+          "fraction": 0.402480000000216,
+          "logical_x": 446.666625976562,
+          "physics_frame": 7598,
+          "pixels": 72,
+          "render_x": 716.0
+        },
+        {
+          "fraction": 0.902460000000216,
+          "logical_x": 446.666625976562,
+          "physics_frame": 7598,
+          "pixels": 81,
+          "render_x": 717.5
+        },
+        {
+          "fraction": 0.402440000000216,
+          "logical_x": 448.333282470703,
+          "physics_frame": 7599,
+          "pixels": 81,
+          "render_x": 717.5
+        },
+        {
+          "fraction": 0.902420000000216,
+          "logical_x": 448.333282470703,
+          "physics_frame": 7599,
+          "pixels": 72,
+          "render_x": 719.0
+        },
+        {
+          "fraction": 0.402400000000216,
+          "logical_x": 449.999938964844,
+          "physics_frame": 7600,
+          "pixels": 81,
+          "render_x": 720.5
+        },
+        {
+          "fraction": 0.902380000000216,
+          "logical_x": 449.999938964844,
+          "physics_frame": 7600,
+          "pixels": 72,
+          "render_x": 722.0
+        },
+        {
+          "fraction": 0.402360000000216,
+          "logical_x": 451.666595458984,
+          "physics_frame": 7601,
+          "pixels": 81,
+          "render_x": 723.5
+        },
+        {
+          "fraction": 0.902340000000217,
+          "logical_x": 451.666595458984,
+          "physics_frame": 7601,
+          "pixels": 81,
+          "render_x": 724.5
+        },
+        {
+          "fraction": 0.402320000000217,
+          "logical_x": 453.333251953125,
+          "physics_frame": 7602,
+          "pixels": 81,
+          "render_x": 724.5
+        },
+        {
+          "fraction": 0.902300000000217,
+          "logical_x": 453.333251953125,
+          "physics_frame": 7602,
+          "pixels": 81,
+          "render_x": 726.5
+        },
+        {
+          "fraction": 0.402280000000217,
+          "logical_x": 454.999908447266,
+          "physics_frame": 7603,
+          "pixels": 81,
+          "render_x": 727.5
+        },
+        {
+          "fraction": 0.902260000000217,
+          "logical_x": 454.999908447266,
+          "physics_frame": 7603,
+          "pixels": 81,
+          "render_x": 729.5
+        },
+        {
+          "fraction": 0.402240000000217,
+          "logical_x": 456.666564941406,
+          "physics_frame": 7604,
+          "pixels": 81,
+          "render_x": 730.5
+        },
+        {
+          "fraction": 0.902220000000217,
+          "logical_x": 456.666564941406,
+          "physics_frame": 7604,
+          "pixels": 81,
+          "render_x": 732.5
+        },
+        {
+          "fraction": 0.402200000000217,
+          "logical_x": 458.333221435547,
+          "physics_frame": 7605,
+          "pixels": 81,
+          "render_x": 732.5
+        },
+        {
+          "fraction": 0.902180000000217,
+          "logical_x": 458.333221435547,
+          "physics_frame": 7605,
+          "pixels": 81,
+          "render_x": 733.5
+        },
+        {
+          "fraction": 0.402160000000217,
+          "logical_x": 459.999877929688,
+          "physics_frame": 7606,
+          "pixels": 81,
+          "render_x": 735.5
+        },
+        {
+          "fraction": 0.902140000000217,
+          "logical_x": 459.999877929688,
+          "physics_frame": 7606,
+          "pixels": 81,
+          "render_x": 736.5
+        },
+        {
+          "fraction": 0.402120000000217,
+          "logical_x": 461.666534423828,
+          "physics_frame": 7607,
+          "pixels": 81,
+          "render_x": 738.5
+        },
+        {
+          "fraction": 0.902100000000217,
+          "logical_x": 461.666534423828,
+          "physics_frame": 7607,
+          "pixels": 81,
+          "render_x": 739.5
+        },
+        {
+          "fraction": 0.402080000000217,
+          "logical_x": 463.333190917969,
+          "physics_frame": 7608,
+          "pixels": 81,
+          "render_x": 739.5
+        },
+        {
+          "fraction": 0.902060000000217,
+          "logical_x": 463.333190917969,
+          "physics_frame": 7608,
+          "pixels": 81,
+          "render_x": 741.5
+        },
+        {
+          "fraction": 0.402040000000217,
+          "logical_x": 464.999847412109,
+          "physics_frame": 7609,
+          "pixels": 81,
+          "render_x": 742.5
+        },
+        {
+          "fraction": 0.902020000000217,
+          "logical_x": 464.999847412109,
+          "physics_frame": 7609,
+          "pixels": 81,
+          "render_x": 744.5
+        },
+        {
+          "fraction": 0.402000000000217,
+          "logical_x": 466.66650390625,
+          "physics_frame": 7610,
+          "pixels": 81,
+          "render_x": 745.5
+        },
+        {
+          "fraction": 0.901980000000217,
+          "logical_x": 466.66650390625,
+          "physics_frame": 7610,
+          "pixels": 81,
+          "render_x": 747.5
+        },
+        {
+          "fraction": 0.401960000000217,
+          "logical_x": 468.333160400391,
+          "physics_frame": 7611,
+          "pixels": 81,
+          "render_x": 747.5
+        },
+        {
+          "fraction": 0.901940000000217,
+          "logical_x": 468.333160400391,
+          "physics_frame": 7611,
+          "pixels": 81,
+          "render_x": 748.5
+        },
+        {
+          "fraction": 0.401920000000217,
+          "logical_x": 469.999816894531,
+          "physics_frame": 7612,
+          "pixels": 81,
+          "render_x": 750.5
+        },
+        {
+          "fraction": 0.901900000000217,
+          "logical_x": 469.999816894531,
+          "physics_frame": 7612,
+          "pixels": 81,
+          "render_x": 751.5
+        },
+        {
+          "fraction": 0.401880000000217,
+          "logical_x": 471.666473388672,
+          "physics_frame": 7613,
+          "pixels": 81,
+          "render_x": 753.5
+        },
+        {
+          "fraction": 0.901860000000217,
+          "logical_x": 471.666473388672,
+          "physics_frame": 7613,
+          "pixels": 81,
+          "render_x": 754.5
+        },
+        {
+          "fraction": 0.401840000000217,
+          "logical_x": 473.333129882812,
+          "physics_frame": 7614,
+          "pixels": 81,
+          "render_x": 754.5
+        },
+        {
+          "fraction": 0.901820000000217,
+          "logical_x": 473.333129882812,
+          "physics_frame": 7614,
+          "pixels": 81,
+          "render_x": 756.5
+        },
+        {
+          "fraction": 0.401800000000217,
+          "logical_x": 474.999786376953,
+          "physics_frame": 7615,
+          "pixels": 81,
+          "render_x": 757.5
+        },
+        {
+          "fraction": 0.901780000000217,
+          "logical_x": 474.999786376953,
+          "physics_frame": 7615,
+          "pixels": 81,
+          "render_x": 759.5
+        },
+        {
+          "fraction": 0.401760000000217,
+          "logical_x": 476.666442871094,
+          "physics_frame": 7616,
+          "pixels": 81,
+          "render_x": 760.5
+        },
+        {
+          "fraction": 0.901740000000217,
+          "logical_x": 476.666442871094,
+          "physics_frame": 7616,
+          "pixels": 81,
+          "render_x": 762.5
+        },
+        {
+          "fraction": 0.401720000000217,
+          "logical_x": 478.333099365234,
+          "physics_frame": 7617,
+          "pixels": 81,
+          "render_x": 762.5
+        },
+        {
+          "fraction": 0.901700000000217,
+          "logical_x": 478.333099365234,
+          "physics_frame": 7617,
+          "pixels": 81,
+          "render_x": 763.5
+        },
+        {
+          "fraction": 0.401680000000217,
+          "logical_x": 479.999755859375,
+          "physics_frame": 7618,
+          "pixels": 81,
+          "render_x": 765.5
+        },
+        {
+          "fraction": 0.901660000000217,
+          "logical_x": 479.999755859375,
+          "physics_frame": 7618,
+          "pixels": 81,
+          "render_x": 766.5
+        },
+        {
+          "fraction": 0.401640000000217,
+          "logical_x": 481.666412353516,
+          "physics_frame": 7619,
+          "pixels": 81,
+          "render_x": 768.5
+        },
+        {
+          "fraction": 0.901620000000217,
+          "logical_x": 481.666412353516,
+          "physics_frame": 7619,
+          "pixels": 81,
+          "render_x": 769.5
+        },
+        {
+          "fraction": 0.401600000000217,
+          "logical_x": 483.333068847656,
+          "physics_frame": 7620,
+          "pixels": 81,
+          "render_x": 769.5
+        },
+        {
+          "fraction": 0.901580000000217,
+          "logical_x": 483.333068847656,
+          "physics_frame": 7620,
+          "pixels": 81,
+          "render_x": 771.5
+        },
+        {
+          "fraction": 0.401560000000217,
+          "logical_x": 484.999725341797,
+          "physics_frame": 7621,
+          "pixels": 81,
+          "render_x": 772.5
+        },
+        {
+          "fraction": 0.901540000000217,
+          "logical_x": 484.999725341797,
+          "physics_frame": 7621,
+          "pixels": 81,
+          "render_x": 774.5
+        },
+        {
+          "fraction": 0.401520000000217,
+          "logical_x": 486.666381835938,
+          "physics_frame": 7622,
+          "pixels": 81,
+          "render_x": 775.5
+        },
+        {
+          "fraction": 0.901500000000217,
+          "logical_x": 486.666381835938,
+          "physics_frame": 7622,
+          "pixels": 81,
+          "render_x": 777.5
+        },
+        {
+          "fraction": 0.401480000000217,
+          "logical_x": 488.333038330078,
+          "physics_frame": 7623,
+          "pixels": 81,
+          "render_x": 777.5
+        },
+        {
+          "fraction": 0.901460000000217,
+          "logical_x": 488.333038330078,
+          "physics_frame": 7623,
+          "pixels": 81,
+          "render_x": 778.5
+        },
+        {
+          "fraction": 0.401440000000217,
+          "logical_x": 489.999694824219,
+          "physics_frame": 7624,
+          "pixels": 81,
+          "render_x": 780.5
+        },
+        {
+          "fraction": 0.901420000000217,
+          "logical_x": 489.999694824219,
+          "physics_frame": 7624,
+          "pixels": 81,
+          "render_x": 781.5
+        },
+        {
+          "fraction": 0.401400000000217,
+          "logical_x": 491.666351318359,
+          "physics_frame": 7625,
+          "pixels": 81,
+          "render_x": 783.5
+        },
+        {
+          "fraction": 0.901380000000217,
+          "logical_x": 491.666351318359,
+          "physics_frame": 7625,
+          "pixels": 81,
+          "render_x": 784.5
+        },
+        {
+          "fraction": 0.401360000000217,
+          "logical_x": 493.3330078125,
+          "physics_frame": 7626,
+          "pixels": 81,
+          "render_x": 784.5
+        },
+        {
+          "fraction": 0.901340000000217,
+          "logical_x": 493.3330078125,
+          "physics_frame": 7626,
+          "pixels": 81,
+          "render_x": 786.5
+        },
+        {
+          "fraction": 0.401320000000217,
+          "logical_x": 494.999664306641,
+          "physics_frame": 7627,
+          "pixels": 81,
+          "render_x": 787.5
+        },
+        {
+          "fraction": 0.901300000000217,
+          "logical_x": 494.999664306641,
+          "physics_frame": 7627,
+          "pixels": 81,
+          "render_x": 789.5
+        },
+        {
+          "fraction": 0.401280000000217,
+          "logical_x": 496.666320800781,
+          "physics_frame": 7628,
+          "pixels": 81,
+          "render_x": 790.5
+        },
+        {
+          "fraction": 0.901260000000217,
+          "logical_x": 496.666320800781,
+          "physics_frame": 7628,
+          "pixels": 81,
+          "render_x": 790.5
+        },
+        {
+          "fraction": 0.401240000000217,
+          "logical_x": 498.332977294922,
+          "physics_frame": 7629,
+          "pixels": 81,
+          "render_x": 792.5
+        },
+        {
+          "fraction": 0.901220000000217,
+          "logical_x": 498.332977294922,
+          "physics_frame": 7629,
+          "pixels": 81,
+          "render_x": 793.5
+        },
+        {
+          "fraction": 0.401200000000217,
+          "logical_x": 499.999633789062,
+          "physics_frame": 7630,
+          "pixels": 81,
+          "render_x": 795.5
+        },
+        {
+          "fraction": 0.901180000000217,
+          "logical_x": 499.999633789062,
+          "physics_frame": 7630,
+          "pixels": 81,
+          "render_x": 796.5
+        },
+        {
+          "fraction": 0.401160000000217,
+          "logical_x": 501.666290283203,
+          "physics_frame": 7631,
+          "pixels": 81,
+          "render_x": 798.5
+        },
+        {
+          "fraction": 0.901140000000217,
+          "logical_x": 501.666290283203,
+          "physics_frame": 7631,
+          "pixels": 81,
+          "render_x": 798.5
+        },
+        {
+          "fraction": 0.401120000000217,
+          "logical_x": 503.332946777344,
+          "physics_frame": 7632,
+          "pixels": 81,
+          "render_x": 799.5
+        },
+        {
+          "fraction": 0.901100000000217,
+          "logical_x": 503.332946777344,
+          "physics_frame": 7632,
+          "pixels": 81,
+          "render_x": 801.5
+        },
+        {
+          "fraction": 0.401080000000217,
+          "logical_x": 504.999603271484,
+          "physics_frame": 7633,
+          "pixels": 81,
+          "render_x": 802.5
+        },
+        {
+          "fraction": 0.901060000000217,
+          "logical_x": 504.999603271484,
+          "physics_frame": 7633,
+          "pixels": 81,
+          "render_x": 804.5
+        },
+        {
+          "fraction": 0.401040000000218,
+          "logical_x": 506.666259765625,
+          "physics_frame": 7634,
+          "pixels": 81,
+          "render_x": 805.5
+        },
+        {
+          "fraction": 0.901020000000218,
+          "logical_x": 506.666259765625,
+          "physics_frame": 7634,
+          "pixels": 81,
+          "render_x": 805.5
+        },
+        {
+          "fraction": 0.401000000000218,
+          "logical_x": 508.332916259766,
+          "physics_frame": 7635,
+          "pixels": 81,
+          "render_x": 807.5
+        },
+        {
+          "fraction": 0.900980000000217,
+          "logical_x": 508.332916259766,
+          "physics_frame": 7635,
+          "pixels": 81,
+          "render_x": 808.5
+        },
+        {
+          "fraction": 0.400960000000218,
+          "logical_x": 509.999572753906,
+          "physics_frame": 7636,
+          "pixels": 81,
+          "render_x": 810.5
+        },
+        {
+          "fraction": 0.900940000000218,
+          "logical_x": 509.999572753906,
+          "physics_frame": 7636,
+          "pixels": 81,
+          "render_x": 811.5
+        }
+      ],
+      "scene": "R0",
+      "settled_marker": {
+        "pixels": 81,
+        "x": 811.5,
+        "y": 408.5
+      },
+      "temporary_physics_ticks": 60
+    }
+  ]
+}

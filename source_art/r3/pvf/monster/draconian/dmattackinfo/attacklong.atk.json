@@ -1,0 +1,140 @@
+{
+  "path": "monster/draconian/dmattackinfo/attacklong.atk",
+  "sha256": "a6b730f510257247a5476fc9f80bdbd79591139bcdf806a3a4a96650c5c8101a",
+  "bytes": 137,
+  "crc": {
+    "expected": 3959278032,
+    "actual_seed_file_number": 3959278032,
+    "actual_seed_zero": 4019520137
+  },
+  "raw_reference": "source_art/r3/pvf/monster/draconian/dmattackinfo/attacklong.atk.bin",
+  "decoded": [
+    {
+      "type": 5,
+      "index": 7389,
+      "text": "[damage bonus]"
+    },
+    {
+      "type": 2,
+      "value": 50
+    },
+    {
+      "type": 5,
+      "index": 1103,
+      "text": "[attack type]"
+    },
+    {
+      "type": 5,
+      "index": 1104,
+      "text": "[physic]"
+    },
+    {
+      "type": 5,
+      "index": 1105,
+      "text": "[weapon damage apply]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 1106,
+      "text": "[attack enemy]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 1107,
+      "text": "[elemental property]"
+    },
+    {
+      "type": 5,
+      "index": 1108,
+      "text": "[no element]"
+    },
+    {
+      "type": 5,
+      "index": 1109,
+      "text": "[damage reaction]"
+    },
+    {
+      "type": 5,
+      "index": 1120,
+      "text": "[down]"
+    },
+    {
+      "type": 5,
+      "index": 1111,
+      "text": "[push aside]"
+    },
+    {
+      "type": 2,
+      "value": 300
+    },
+    {
+      "type": 5,
+      "index": 1112,
+      "text": "[lift up]"
+    },
+    {
+      "type": 2,
+      "value": 150
+    },
+    {
+      "type": 5,
+      "index": 1122,
+      "text": "[knuck back]"
+    },
+    {
+      "type": 2,
+      "value": 1
+    },
+    {
+      "type": 5,
+      "index": 1113,
+      "text": "[attack direction]"
+    },
+    {
+      "type": 5,
+      "index": 7396,
+      "text": "[hit down]"
+    },
+    {
+      "type": 5,
+      "index": 1115,
+      "text": "[hit info]"
+    },
+    {
+      "type": 5,
+      "index": 1123,
+      "text": "[cut]"
+    },
+    {
+      "type": 5,
+      "index": 1124,
+      "text": "[blood]"
+    },
+    {
+      "type": 2,
+      "value": 300
+    },
+    {
+      "type": 4,
+      "value": 1.0
+    },
+    {
+      "type": 5,
+      "index": 1118,
+      "text": "[hit wav]"
+    },
+    {
+      "type": 7,
+      "index": 307187,
+      "text": "SPEAR_HIT"
+    }
+  ]
+}

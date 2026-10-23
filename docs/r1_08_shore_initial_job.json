@@ -1,0 +1,42 @@
+{
+  "check_script": "res://tools/r1/shore_checks.gd",
+  "elapsed_seconds": 0.273907,
+  "qa_source_sha256": "70bb86df67c3e0f4ff60c61b020d267a240c4f4cb0528524713b710b6f1cc711",
+  "render_cases_completed": 0,
+  "result": {
+    "checks": 19,
+    "failed": [
+      {
+        "check": "masonry_materials_use_nearest_sampling",
+        "details": {},
+        "pass": false
+      },
+      {
+        "check": "rendered_pier_over_water_Far",
+        "details": {
+          "distance": 0.363565623760223,
+          "pier": "(0.5529, 0.6, 0.6824, 1.0)",
+          "point": "(570.0, 146.0)",
+          "water": "(0.1961, 0.5333, 0.6627, 1.0)"
+        },
+        "pass": false
+      },
+      {
+        "check": "original_ship_timing_retained_westnearship",
+        "details": {
+          "frames": 8
+        },
+        "pass": false
+      },
+      {
+        "check": "original_ship_timing_retained_westmmidship",
+        "details": {
+          "frames": 4
+        },
+        "pass": false
+      }
+    ],
+    "walk_grid_points": 16119
+  },
+  "status": "complete"
+}

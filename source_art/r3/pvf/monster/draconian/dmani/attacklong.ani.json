@@ -1,0 +1,206 @@
+{
+  "path": "monster/draconian/dmani/attacklong.ani",
+  "sha256": "85de8186e158d024afeedd4ea1a955ac23fc3f8611ff2d30d375645d6a20baea",
+  "bytes": 407,
+  "crc": {
+    "expected": 198487089,
+    "actual_seed_file_number": 198487089,
+    "actual_seed_zero": 199034440
+  },
+  "raw_reference": "source_art/r3/pvf/monster/draconian/dmani/attacklong.ani.bin",
+  "decoded": {
+    "frames_count": 7,
+    "resources": [
+      "monster/draconian/draco_mirkius.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 25,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -24,
+              -17,
+              -7,
+              55,
+              35,
+              109
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 26,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -31,
+              -17,
+              -6,
+              55,
+              35,
+              109
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 27,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -30,
+              -17,
+              -6,
+              55,
+              35,
+              109
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 200
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 28,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 15,
+            "xyz_size": [
+              52,
+              -10,
+              47,
+              150,
+              20,
+              20
+            ]
+          },
+          {
+            "type": 14,
+            "xyz_size": [
+              -11,
+              -17,
+              -3,
+              86,
+              35,
+              76
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 29,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              2,
+              -17,
+              -5,
+              84,
+              35,
+              79
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 30,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              3,
+              -17,
+              -4,
+              81,
+              35,
+              80
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 150
+          }
+        ]
+      },
+      {
+        "resource": "monster/draconian/draco_mirkius.img",
+        "image_frame": 31,
+        "x": -243,
+        "y": -380,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -19,
+              -17,
+              -7,
+              73,
+              35,
+              99
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 80
+          }
+        ]
+      }
+    ]
+  }
+}

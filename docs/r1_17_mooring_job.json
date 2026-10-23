@@ -1,0 +1,83 @@
+{
+  "check_script": "res://tools/r1/mooring_checks.gd",
+  "elapsed_seconds": 0.614313,
+  "qa_source_sha256": "63887e660d477c08a04635f32db7c277178907125eb1b03080fbebb1fd1a7be2",
+  "render_cases_completed": 7,
+  "result": {
+    "checks": 29,
+    "failed": [],
+    "render_cases": [
+      {
+        "action": "stay",
+        "blocked_by_dock": 0,
+        "facing": 1,
+        "frame": 0,
+        "matching": 347,
+        "samples": 347,
+        "scale": 1,
+        "side": "front"
+      },
+      {
+        "action": "stay",
+        "blocked_by_dock": 0,
+        "facing": -1,
+        "frame": 0,
+        "matching": 347,
+        "samples": 347,
+        "scale": 1,
+        "side": "front"
+      },
+      {
+        "action": "stay",
+        "blocked_by_dock": 0,
+        "facing": 1,
+        "frame": 0,
+        "matching": 347,
+        "samples": 347,
+        "scale": 2,
+        "side": "front"
+      },
+      {
+        "action": "stay",
+        "blocked_by_dock": 0,
+        "facing": -1,
+        "frame": 0,
+        "matching": 347,
+        "samples": 347,
+        "scale": 2,
+        "side": "front"
+      },
+      {
+        "action": "attack1",
+        "blocked_by_dock": 0,
+        "facing": 1,
+        "frame": 3,
+        "matching": 350,
+        "samples": 350,
+        "scale": 2,
+        "side": "front"
+      },
+      {
+        "action": "damage1",
+        "blocked_by_dock": 0,
+        "facing": -1,
+        "frame": 0,
+        "matching": 327,
+        "samples": 327,
+        "scale": 2,
+        "side": "front"
+      },
+      {
+        "action": "stay",
+        "blocked_by_dock": 71,
+        "facing": 1,
+        "frame": 0,
+        "matching": 203,
+        "samples": 347,
+        "scale": 2,
+        "side": "behind"
+      }
+    ]
+  },
+  "status": "complete"
+}

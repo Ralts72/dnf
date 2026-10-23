@@ -1,0 +1,804 @@
+{
+  "schema": 1,
+  "stage": "R4/05 source preparation only",
+  "created_at_utc": "2026-10-23T10:14:09.862890+00:00",
+  "producer": "tools/r4/inspect_guard.py",
+  "producer_sha256": "88c884da43cbd47790768da890a1dedd31c252612508b2cedff26d9ebcac2a9e",
+  "reproduce": "/Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tools/r4/inspect_guard.py",
+  "scope": "Archive the bounded male Swordman Guard source evidence, without runtime edits.\n\nOnly source_art/r4/guard and docs/r4_guard_source_reference.json are written.\nEleven whitelisted PVF payloads are decoded as data and CRC checked; existing\ncharacter pictures are referenced and hashed, never exported or modified.\nNo client code, Godot, Blender, network, NPK extraction or audio guessing.",
+  "client_root": "/Users/mac/Downloads/天堂95起源单机客户端",
+  "pvf_tree": {
+    "version_raw": 3755924789,
+    "tree_bytes": 52325060,
+    "file_count": 597489,
+    "unique_paths": 597489,
+    "tree_consumed": 52325059,
+    "tree_padding": 1,
+    "tree_crc_expected": 3484566826,
+    "tree_crc_actual": 3484566826,
+    "payload_bounds_errors": [],
+    "parse_error": null
+  },
+  "encoding": "Big5",
+  "source_scripts": [
+    {
+      "pvf_path": "skill/swordman/guard.skl",
+      "bytes": 2197,
+      "sha256_decoded": "44f1220f6a871e8ede53e68d3dcfc80bd731443ed91111aafaf3e6b6dc2e394f",
+      "crc": {
+        "expected": 2525883932,
+        "actual_seed_file_number": 2525883932,
+        "actual_seed_zero": 2540062346
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/guard/pvf/skill/swordman/guard.skl.bin",
+      "readable_reference": "source_art/r4/guard/pvf/skill/swordman/guard.skl.json"
+    },
+    {
+      "pvf_path": "skill/swordman/cancelguard.skl",
+      "bytes": 202,
+      "sha256_decoded": "ad23d7b9b11ce9ada642c774f2f86f50e933508369e929cd9c5d12b85e30b191",
+      "crc": {
+        "expected": 1608052642,
+        "actual_seed_file_number": 1608052642,
+        "actual_seed_zero": 2623922106
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/guard/pvf/skill/swordman/cancelguard.skl.bin",
+      "readable_reference": "source_art/r4/guard/pvf/skill/swordman/cancelguard.skl.json"
+    },
+    {
+      "pvf_path": "skill/swordmanskill.lst",
+      "bytes": 1892,
+      "sha256_decoded": "a9d96c18fb94bad12ee41fb9fcf725ac3c2d0bfd8a586bc9aaaba052f8dae95f",
+      "crc": {
+        "expected": 1399572016,
+        "actual_seed_file_number": 1399572016,
+        "actual_seed_zero": 2383718987
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/guard/pvf/skill/swordmanskill.lst.bin",
+      "readable_reference": "source_art/r4/guard/pvf/skill/swordmanskill.lst.json"
+    },
+    {
+      "pvf_path": "character/swordman/swordman.chr",
+      "bytes": 5112,
+      "sha256_decoded": "4f9eb58249037a099616861eb4fa9c2fddf90fb14b4277e70ead85af1147c91e",
+      "crc": {
+        "expected": 2448814309,
+        "actual_seed_file_number": 2448814309,
+        "actual_seed_zero": 3111286404
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/guard/pvf/character/swordman/swordman.chr.bin",
+      "readable_reference": "source_art/r4/guard/pvf/character/swordman/swordman.chr.json"
+    },
+    {
+      "pvf_path": "character/swordman/animation/guard.ani",
+      "bytes": 214,
+      "sha256_decoded": "d9cda1052ae7eafc6a483b66810ab647d355a7593fa17dc0251024770e9c07cb",
+      "crc": {
+        "expected": 1004401756,
+        "actual_seed_file_number": 1004401756,
+        "actual_seed_zero": 2154156638
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/guard/pvf/character/swordman/animation/guard.ani.bin",
+      "readable_reference": "source_art/r4/guard/pvf/character/swordman/animation/guard.ani.json"
+    },
+    {
+      "pvf_path": "character/swordman/effect/animation/guard/dust.ani",
+      "bytes": 212,
+      "sha256_decoded": "8e70d8d40c909dffd0f7b702f6a17fa07d19e1c3b5024ce2b94da288c1f1a86e",
+      "crc": {
+        "expected": 2300484859,
+        "actual_seed_file_number": 2300484859,
+        "actual_seed_zero": 910154317
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/guard/pvf/character/swordman/effect/animation/guard/dust.ani.bin",
+      "readable_reference": "source_art/r4/guard/pvf/character/swordman/effect/animation/guard/dust.ani.json"
+    },
+    {
+      "pvf_path": "character/swordman/effect/animation/guard/spark.ani",
+      "bytes": 191,
+      "sha256_decoded": "fcae4d76971293a36e3d4426fca57aae79011eb347b5d29fd8a0e9f61f3eace5",
+      "crc": {
+        "expected": 1286351332,
+        "actual_seed_file_number": 1286351332,
+        "actual_seed_zero": 4010339398
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/guard/pvf/character/swordman/effect/animation/guard/spark.ani.bin",
+      "readable_reference": "source_art/r4/guard/pvf/character/swordman/effect/animation/guard/spark.ani.json"
+    },
+    {
+      "pvf_path": "equipment/character/swordman/weapon/hsword/lswdb/guard.ani",
+      "bytes": 112,
+      "sha256_decoded": "d85305af50366ea861500caff8292a9d71e9c72da17e087ae908a58160692993",
+      "crc": {
+        "expected": 1337144182,
+        "actual_seed_file_number": 1337144182,
+        "actual_seed_zero": 688254740
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/guard/pvf/equipment/character/swordman/weapon/hsword/lswdb/guard.ani.bin",
+      "readable_reference": "source_art/r4/guard/pvf/equipment/character/swordman/weapon/hsword/lswdb/guard.ani.json"
+    },
+    {
+      "pvf_path": "equipment/character/swordman/weapon/hsword/lswdc/guard.ani",
+      "bytes": 112,
+      "sha256_decoded": "1138d277d57214a2c0ef74496898e71ec74110e9450e3837ceae209832cfb33f",
+      "crc": {
+        "expected": 3420671272,
+        "actual_seed_file_number": 3420671272,
+        "actual_seed_zero": 3812301959
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/guard/pvf/equipment/character/swordman/weapon/hsword/lswdc/guard.ani.bin",
+      "readable_reference": "source_art/r4/guard/pvf/equipment/character/swordman/weapon/hsword/lswdc/guard.ani.json"
+    },
+    {
+      "pvf_path": "equipment/character/swordman/weapon/hsword/mswdb/guard.ani",
+      "bytes": 112,
+      "sha256_decoded": "a858b04c2febad4ccf39053ef92ba56f995b28841db1089fb3a3e8266a759707",
+      "crc": {
+        "expected": 2836368461,
+        "actual_seed_file_number": 2836368461,
+        "actual_seed_zero": 478879210
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/guard/pvf/equipment/character/swordman/weapon/hsword/mswdb/guard.ani.bin",
+      "readable_reference": "source_art/r4/guard/pvf/equipment/character/swordman/weapon/hsword/mswdb/guard.ani.json"
+    },
+    {
+      "pvf_path": "equipment/character/swordman/weapon/hsword/mswdc/guard.ani",
+      "bytes": 112,
+      "sha256_decoded": "329be163e0840baed941665f15dd1daab8693e0dfd670316e9b8922e71b9943a",
+      "crc": {
+        "expected": 424053726,
+        "actual_seed_file_number": 424053726,
+        "actual_seed_zero": 3602247289
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/guard/pvf/equipment/character/swordman/weapon/hsword/mswdc/guard.ani.bin",
+      "readable_reference": "source_art/r4/guard/pvf/equipment/character/swordman/weapon/hsword/mswdc/guard.ani.json"
+    }
+  ],
+  "source_count": 11,
+  "identity": {
+    "skill_id": 1,
+    "skill_list": "skill/swordmanskill.lst",
+    "skill_path": "skill/swordman/guard.skl",
+    "name": [
+      "格擋"
+    ],
+    "name2": [
+      "The Guard"
+    ],
+    "explain": [
+      "吸收來自前方的攻擊傷害， [格擋]施放狀態下被攻擊， 會被擊退一定距離和時間。\r\n    按住技能鍵可以持續[格擋]動作， 且MP只在[格擋]開始時消耗一次。"
+    ],
+    "command": [
+      "操作指令 : ↓↓ + X"
+    ],
+    "cooldown_ms": [
+      2000,
+      2000
+    ],
+    "consume_MP_range": [
+      3,
+      4
+    ],
+    "first5_levels": [
+      {
+        "level": 1,
+        "raw_row": [
+          200,
+          200,
+          40,
+          15,
+          10
+        ],
+        "physical_absorb_percent": 40,
+        "magical_absorb_percent": 15,
+        "knockback_time_ms": 200
+      },
+      {
+        "level": 2,
+        "raw_row": [
+          250,
+          180,
+          50,
+          20,
+          20
+        ],
+        "physical_absorb_percent": 50,
+        "magical_absorb_percent": 20,
+        "knockback_time_ms": 180
+      },
+      {
+        "level": 3,
+        "raw_row": [
+          300,
+          160,
+          60,
+          25,
+          30
+        ],
+        "physical_absorb_percent": 60,
+        "magical_absorb_percent": 25,
+        "knockback_time_ms": 160
+      },
+      {
+        "level": 4,
+        "raw_row": [
+          350,
+          140,
+          70,
+          30,
+          40
+        ],
+        "physical_absorb_percent": 70,
+        "magical_absorb_percent": 30,
+        "knockback_time_ms": 140
+      },
+      {
+        "level": 5,
+        "raw_row": [
+          400,
+          120,
+          80,
+          35,
+          50
+        ],
+        "physical_absorb_percent": 80,
+        "magical_absorb_percent": 35,
+        "knockback_time_ms": 120
+      }
+    ],
+    "level_property_index_evidence": [
+      1,
+      99,
+      "吸收物理傷害 : <int>%%\r\n吸收魔法傷害 : <int>%%\r\n被擊退的時間 : <float2>秒",
+      -1,
+      2,
+      1.0,
+      -1,
+      3,
+      1.0,
+      -1,
+      1,
+      0.0010000000474974513
+    ],
+    "unassigned_static_data": [
+      500,
+      400,
+      100,
+      400,
+      3000
+    ]
+  },
+  "source_animation": {
+    "path": "character/swordman/animation/guard.ani",
+    "frames": 2,
+    "image_frames": [
+      123,
+      124
+    ],
+    "source_offsets": [
+      [
+        -232,
+        -333
+      ],
+      [
+        -232,
+        -333
+      ]
+    ],
+    "source_duration_ms": [
+      10000,
+      10000
+    ],
+    "source_boxes_and_properties": [
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 123,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -27,
+              -5,
+              0,
+              27,
+              10,
+              88
+            ]
+          },
+          {
+            "type": 14,
+            "xyz_size": [
+              -3,
+              -4,
+              -2,
+              20,
+              7,
+              61
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 10000
+          }
+        ]
+      },
+      {
+        "resource": "character/swordman/equipment/avatar/skin/sm_body%04d.img",
+        "image_frame": 124,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -31,
+              -5,
+              0,
+              29,
+              10,
+              88
+            ]
+          },
+          {
+            "type": 14,
+            "xyz_size": [
+              -4,
+              -10,
+              0,
+              13,
+              20,
+              60
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 10000
+          }
+        ]
+      }
+    ],
+    "weapon_ani_matches": [
+      {
+        "source_ani": "equipment/character/swordman/weapon/hsword/lswdb/guard.ani",
+        "same_master_frame_order_offsets_and_duration": true,
+        "image_frames": [
+          123,
+          124
+        ],
+        "duration_ms": [
+          10000,
+          10000
+        ]
+      },
+      {
+        "source_ani": "equipment/character/swordman/weapon/hsword/lswdc/guard.ani",
+        "same_master_frame_order_offsets_and_duration": true,
+        "image_frames": [
+          123,
+          124
+        ],
+        "duration_ms": [
+          10000,
+          10000
+        ]
+      },
+      {
+        "source_ani": "equipment/character/swordman/weapon/hsword/mswdb/guard.ani",
+        "same_master_frame_order_offsets_and_duration": true,
+        "image_frames": [
+          123,
+          124
+        ],
+        "duration_ms": [
+          10000,
+          10000
+        ]
+      },
+      {
+        "source_ani": "equipment/character/swordman/weapon/hsword/mswdc/guard.ani",
+        "same_master_frame_order_offsets_and_duration": true,
+        "image_frames": [
+          123,
+          124
+        ],
+        "duration_ms": [
+          10000,
+          10000
+        ]
+      }
+    ],
+    "timing_limit": "These are long source pose holds. They do not prove a20s skill duration/startup, nor the original frame-to-contact dispatcher."
+  },
+  "existing_visuals": {
+    "new_PNGs_required": 0,
+    "exported_PNGs": 0,
+    "manifests": [
+      {
+        "path": "data/swordman_ghost_practice_r0.json",
+        "sha256": "1efb8ab2528e3fd735f6f01f4ca100f271a32371385b0d02fe6ac7f4eadb68b9",
+        "action_count": 15,
+        "guard_frames": [
+          {
+            "frame": 0,
+            "image_frame": 123,
+            "duration_ms": 10000,
+            "textures": [
+              "res://assets/r0/swordman/weapon_back/123.png",
+              "res://assets/r0/swordman/body/123.png",
+              "res://assets/r0/swordman/pants_back/123.png",
+              "res://assets/r0/swordman/shoes_back/123.png",
+              "res://assets/r0/swordman/pants/123.png",
+              "res://assets/r0/swordman/shoes/123.png",
+              "res://assets/r0/swordman/coat/123.png",
+              "res://assets/r0/swordman/hair/123.png",
+              "res://assets/r0/swordman/weapon_front/123.png"
+            ]
+          },
+          {
+            "frame": 1,
+            "image_frame": 124,
+            "duration_ms": 10000,
+            "textures": [
+              "res://assets/r0/swordman/weapon_back/124.png",
+              "res://assets/r0/swordman/body/124.png",
+              "res://assets/r0/swordman/pants_back/124.png",
+              "res://assets/r0/swordman/shoes_back/124.png",
+              "res://assets/r0/swordman/pants/124.png",
+              "res://assets/r0/swordman/shoes/124.png",
+              "res://assets/r0/swordman/coat/124.png",
+              "res://assets/r0/swordman/hair/124.png",
+              "res://assets/r0/swordman/weapon_front/124.png"
+            ]
+          }
+        ],
+        "changed": false
+      },
+      {
+        "path": "data/swordman_ghost_practice_r1.json",
+        "sha256": "af10b90636a63dffea46a5a57c5328ad6e590804dad99c3ee48a8812ec82204c",
+        "action_count": 15,
+        "guard_frames": [
+          {
+            "frame": 0,
+            "image_frame": 123,
+            "duration_ms": 10000,
+            "textures": [
+              "res://assets/r1/actors/swordman/guard_00.png"
+            ]
+          },
+          {
+            "frame": 1,
+            "image_frame": 124,
+            "duration_ms": 10000,
+            "textures": [
+              "res://assets/r1/actors/swordman/guard_01.png"
+            ]
+          }
+        ],
+        "changed": false
+      },
+      {
+        "path": "data/swordman_ghost_great_r0.json",
+        "sha256": "2fac3809b484ba749c00900357c12a912ed5bf87108b5cf68b6553801591b408",
+        "action_count": 15,
+        "guard_frames": [
+          {
+            "frame": 0,
+            "image_frame": 123,
+            "duration_ms": 10000,
+            "textures": [
+              "res://assets/r3/equipment/ordinary_greatsword/src/b/123.png",
+              "res://assets/r0/swordman/body/123.png",
+              "res://assets/r0/swordman/pants_back/123.png",
+              "res://assets/r0/swordman/shoes_back/123.png",
+              "res://assets/r0/swordman/pants/123.png",
+              "res://assets/r0/swordman/shoes/123.png",
+              "res://assets/r0/swordman/coat/123.png",
+              "res://assets/r0/swordman/hair/123.png",
+              "res://assets/r3/equipment/ordinary_greatsword/src/c/123.png"
+            ]
+          },
+          {
+            "frame": 1,
+            "image_frame": 124,
+            "duration_ms": 10000,
+            "textures": [
+              "res://assets/r3/equipment/ordinary_greatsword/src/b/124.png",
+              "res://assets/r0/swordman/body/124.png",
+              "res://assets/r0/swordman/pants_back/124.png",
+              "res://assets/r0/swordman/shoes_back/124.png",
+              "res://assets/r0/swordman/pants/124.png",
+              "res://assets/r0/swordman/shoes/124.png",
+              "res://assets/r0/swordman/coat/124.png",
+              "res://assets/r0/swordman/hair/124.png",
+              "res://assets/r3/equipment/ordinary_greatsword/src/c/124.png"
+            ]
+          }
+        ],
+        "changed": false
+      },
+      {
+        "path": "data/swordman_ghost_great_r1.json",
+        "sha256": "03c63ab0bafb0b9f480da97c1e2cc1d5a1437562c7801661723ec7e0827adc10",
+        "action_count": 15,
+        "guard_frames": [
+          {
+            "frame": 0,
+            "image_frame": 123,
+            "duration_ms": 10000,
+            "textures": [
+              "res://assets/r3/equipment/ordinary_greatsword/frames/guard_00.png"
+            ]
+          },
+          {
+            "frame": 1,
+            "image_frame": 124,
+            "duration_ms": 10000,
+            "textures": [
+              "res://assets/r3/equipment/ordinary_greatsword/frames/guard_01.png"
+            ]
+          }
+        ],
+        "changed": false
+      }
+    ],
+    "existing_unique_PNG_count": 26,
+    "existing_PNGs": [
+      {
+        "path": "res://assets/r0/swordman/weapon_back/123.png",
+        "bytes": 70,
+        "sha256_png": "c2153f77e11087fcb078ae38527fa83bef29791e3700e30cc87fec4405a66d0f"
+      },
+      {
+        "path": "res://assets/r0/swordman/body/123.png",
+        "bytes": 2804,
+        "sha256_png": "53c397d6ebe20bdbb06f64192901ce4ea9e08a2a9a500cb782ed389de9504046"
+      },
+      {
+        "path": "res://assets/r0/swordman/pants_back/123.png",
+        "bytes": 70,
+        "sha256_png": "c2153f77e11087fcb078ae38527fa83bef29791e3700e30cc87fec4405a66d0f"
+      },
+      {
+        "path": "res://assets/r0/swordman/shoes_back/123.png",
+        "bytes": 70,
+        "sha256_png": "c2153f77e11087fcb078ae38527fa83bef29791e3700e30cc87fec4405a66d0f"
+      },
+      {
+        "path": "res://assets/r0/swordman/pants/123.png",
+        "bytes": 1871,
+        "sha256_png": "894b5db32099492c13a7519abe5aa85f27a6239b0661f40b379d4def5fa78e40"
+      },
+      {
+        "path": "res://assets/r0/swordman/shoes/123.png",
+        "bytes": 724,
+        "sha256_png": "a168c7d406ba759d6faf86667c383069d19beb9ff743f7e088539350c3befd36"
+      },
+      {
+        "path": "res://assets/r0/swordman/coat/123.png",
+        "bytes": 627,
+        "sha256_png": "e9245a6a5f410fdc9d72b527dc8ec3a7421170252c22f83a384b501322d96601"
+      },
+      {
+        "path": "res://assets/r0/swordman/hair/123.png",
+        "bytes": 225,
+        "sha256_png": "a0e5b45c3de361b75979c637a369cd640f801235d9d166f4a71e1009e0ee02c1"
+      },
+      {
+        "path": "res://assets/r0/swordman/weapon_front/123.png",
+        "bytes": 899,
+        "sha256_png": "e77acbd623a1efb68df80f4459a4d067eeb999224d158fa8549c7c2bfb47186b"
+      },
+      {
+        "path": "res://assets/r0/swordman/weapon_back/124.png",
+        "bytes": 70,
+        "sha256_png": "c2153f77e11087fcb078ae38527fa83bef29791e3700e30cc87fec4405a66d0f"
+      },
+      {
+        "path": "res://assets/r0/swordman/body/124.png",
+        "bytes": 2841,
+        "sha256_png": "d6a4debf563b6673cb8e8e819f2d6f0a31d622db93a9ba0487629eee57d41967"
+      },
+      {
+        "path": "res://assets/r0/swordman/pants_back/124.png",
+        "bytes": 70,
+        "sha256_png": "c2153f77e11087fcb078ae38527fa83bef29791e3700e30cc87fec4405a66d0f"
+      },
+      {
+        "path": "res://assets/r0/swordman/shoes_back/124.png",
+        "bytes": 70,
+        "sha256_png": "c2153f77e11087fcb078ae38527fa83bef29791e3700e30cc87fec4405a66d0f"
+      },
+      {
+        "path": "res://assets/r0/swordman/pants/124.png",
+        "bytes": 1873,
+        "sha256_png": "3601c82f37957c52396bb19df9bacdff4d796d22bb6d28f8b6d9c72b1e62b1c4"
+      },
+      {
+        "path": "res://assets/r0/swordman/shoes/124.png",
+        "bytes": 731,
+        "sha256_png": "83f7402c5a5284436c6f832f322f4a6aae8c7416fbc2276ce4afc4f5410c6389"
+      },
+      {
+        "path": "res://assets/r0/swordman/coat/124.png",
+        "bytes": 641,
+        "sha256_png": "6bcdf13fa95370cf18b3d65e35461cff933044371b02d0f674efadbdf53554e5"
+      },
+      {
+        "path": "res://assets/r0/swordman/hair/124.png",
+        "bytes": 221,
+        "sha256_png": "ba5d2aeb9ab0047c001fca0c6179d9b3f4a17e673322dd49f52e21f17d33da02"
+      },
+      {
+        "path": "res://assets/r0/swordman/weapon_front/124.png",
+        "bytes": 899,
+        "sha256_png": "e77acbd623a1efb68df80f4459a4d067eeb999224d158fa8549c7c2bfb47186b"
+      },
+      {
+        "path": "res://assets/r1/actors/swordman/guard_00.png",
+        "bytes": 5742,
+        "sha256_png": "125f17c53e08c1e269ea691cf70a7dc0806ef01cbb5c840d96161403bc9f87b8"
+      },
+      {
+        "path": "res://assets/r1/actors/swordman/guard_01.png",
+        "bytes": 5592,
+        "sha256_png": "6b10bc98dc199f4088154cef75b4b9ad657f4974cf8a5723ee16c983ca411416"
+      },
+      {
+        "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/123.png",
+        "bytes": 70,
+        "sha256_png": "c2153f77e11087fcb078ae38527fa83bef29791e3700e30cc87fec4405a66d0f"
+      },
+      {
+        "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/123.png",
+        "bytes": 895,
+        "sha256_png": "29de32182939c89bec4b6d579930d9798ec0dd0f4eee1216fdfc31f7896c0093"
+      },
+      {
+        "path": "res://assets/r3/equipment/ordinary_greatsword/src/b/124.png",
+        "bytes": 70,
+        "sha256_png": "c2153f77e11087fcb078ae38527fa83bef29791e3700e30cc87fec4405a66d0f"
+      },
+      {
+        "path": "res://assets/r3/equipment/ordinary_greatsword/src/c/124.png",
+        "bytes": 895,
+        "sha256_png": "29de32182939c89bec4b6d579930d9798ec0dd0f4eee1216fdfc31f7896c0093"
+      },
+      {
+        "path": "res://assets/r3/equipment/ordinary_greatsword/frames/guard_00.png",
+        "bytes": 5821,
+        "sha256_png": "a6bcfc20fba9272ed8b304ed59811f9356efdda68bea46a2c4fdd1203b868c42"
+      },
+      {
+        "path": "res://assets/r3/equipment/ordinary_greatsword/frames/guard_01.png",
+        "bytes": 5785,
+        "sha256_png": "d394a7055351d051598a9cd5c6ae8f90ecdc016761c897452f2720cfe1fd3602"
+      }
+    ],
+    "facing": "The existing runtime uses facing1 for unflipped right-facing, facing-1 for horizontal flip. Front-only blocking is explicit skill text; no numeric facing convention is declared by Guard ANI."
+  },
+  "adaptation_boundary": {
+    "planned_runtime_hooks_implemented_by_this_tool": false,
+    "source_proven": [
+      "Front-only absorption",
+      "Hold skill key to sustain the pose",
+      "MP paid only once at start",
+      "2s source cooldown",
+      "Level1 physical40%, magical15%, knockback time200ms"
+    ],
+    "prototype_plan": {
+      "key": "C in free3D gameplay; bag C remains equipment switch",
+      "physical_absorb_percent": 40,
+      "incoming_damage_mapping": {
+        "12": 8,
+        "14": 9,
+        "24": 15
+      },
+      "formula": "max1 ceil(original_damage *0.6)",
+      "begin_cooldown_ms": 2000,
+      "contact_reaction_ms": 200,
+      "knockback_source_px": 6,
+      "hold_frame": 0,
+      "contact_frame": 1,
+      "MP_implemented": false
+    },
+    "explicitly_adapted": [
+      "C binding and eligibility/cancellation",
+      "Damage formula/rounding over existing prototype HP rules",
+      "All current melee treated as physical",
+      "Frame0 hold/frame1 impact mapping and reaction clock",
+      "6px push distance",
+      "NoMP pool and no skill levels",
+      "Single contact guard branch with existing enemy hit latch"
+    ],
+    "separate_skills": {
+      "cancelguard": "Separate required-level15 passive; explicit normal attack interruption. Not implicitly granted.",
+      "autoguard_and_reflectguard": "Separate skill list IDs3 and2, not manual Guard."
+    }
+  },
+  "FX_and_audio_limit": {
+    "optional_source_FX": [
+      {
+        "source_ani": "character/swordman/effect/animation/guard/dust.ani",
+        "frames": 7,
+        "duration_ms": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ],
+        "total_ms": 210,
+        "resources": [
+          "character/swordman/effect/guard/guarddust.img"
+        ],
+        "direct_guard_contact_dispatch_proven": false,
+        "exported": false,
+        "runtime_hooked": false
+      },
+      {
+        "source_ani": "character/swordman/effect/animation/guard/spark.ani",
+        "frames": 5,
+        "duration_ms": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "total_ms": 250,
+        "resources": [
+          "character/swordman/effect/guard/guard_ldodge.img"
+        ],
+        "direct_guard_contact_dispatch_proven": false,
+        "exported": false,
+        "runtime_hooked": false
+      }
+    ],
+    "sound_properties_in_master": [],
+    "direct_contact_FX_or_audio_dispatch_proven": false,
+    "policy": "No new pictures/audio exported or guessed; optional named FX alone do not establish original contact dispatch. Existing effect sampler keyed by source pose clock is insufficient for a held guard contact event."
+  },
+  "verification": {
+    "all11_file_CRC_match": true,
+    "raw_payload_roundtrip_exact": true,
+    "four_weapon_ANI_master_clock_and_offsets_match": true,
+    "four15action_manifests_already_have_guard": true,
+    "all_referenced_PNGs_exist_and_hashed": true,
+    "source_ANI_and_existing_PNGs_unchanged": true,
+    "Godot_or_client_executed": false
+  },
+  "runtime_R4_08_integration": {
+    "scope": "Source-only R4/05 inspection/prototype_plan above retained as historical export evidence. R4/08 additionally uses source level1 magical15%; native acceptance is recorded separately.",
+    "damage_kind_api": "resolve_hit(actor,attacker_source,raw_damage,damage_kind='physical')",
+    "physical_absorb_percent": 40,
+    "magic_absorb_percent": 15,
+    "magic_example": {
+      "raw_damage": 18,
+      "front_guard_damage": 16
+    },
+    "formula": "max1 ceil(raw_damage*(1-absorb_percent/100))",
+    "unknown_kind": "full damage and guard cancellation",
+    "source_dispatch_recovered": false,
+    "MP_parry_counter_implemented": false
+  }
+}

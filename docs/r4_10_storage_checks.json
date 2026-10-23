@@ -1,0 +1,303 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "detail": null,
+      "name": "schema6 default exact three false chapter flags",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "unknown chapter API cannot mint flags or write",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "strict v1 migration preserves receipts budget selection and never writes",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "strict v2 migration preserves receipts budget selection and never writes",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "strict v3 migration preserves receipts budget selection and never writes",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "strict v4 migration preserves receipts budget selection and never writes",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "strict v5 migration preserves receipts budget selection and never writes",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "first mutation preserves exact all five legacy backups",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "v1to4 still reject spent coins and v4 extra potion key",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "v5 validates old exact one-key chapter flags before migration",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "v6 rejects missing or extra chapter keys",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "all three chapter flags require actual booleans",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "new receipts independently permit unaccepted unearned history",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "old lakius requires first-drop evidence even in schema6",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "old40 coin four-potion budget remains strict",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "loot quest equipment invariants remain intact",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "truthy live values do not record chapter receipts",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "real stone victory commits chapter while quest remains available",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "R live false cannot revoke history or write again",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "process observes statue strictclear once without callbacks",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "simultaneous four victories share one atomic bundle",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "reward pickup equip purchase consume never revoke chapters",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "failed older purchase retains committed image and exact pending A",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "real later victories queue RAM without changing pending A",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "pending A never auto retries and R cannot erase RAM receipts",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "reload and potion consume reject queued pending without losing receipt",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "manual retry commits exact A only and schedules receipts separately",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "next process attempts B once preserving exact purchased balance",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "failed receipt B does not retry every frame",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "manual retry commits B once and settles verified RAM",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "chapter purchase equipment loot bundle roundtrips exactly",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "direct chapter failure rolls back memory with exact retry receipt",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "direct failed victory persists after R through generic retry",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "storage-ready failure has no pending and still attempts only once",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "load cannot discard verified unsaved RAM when no pending exists",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "explicit save retries unbundled verified receipt after repair",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "failed consumable still retains no deduction pending",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "generic retry cannot later deduct failed consume",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "historical clear seeds absent gallery dead and statue fully awakened",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "load never overwrites existing practice false HP awake or counters",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "configure storage resets nonempty receipts due and pending explicitly",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "backup recovers coherent flags supplies ownership and selection",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "recovery commit preserves corrupt bytes and exact valid backup",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "both invalid preserved with writes blocked",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "oversized profile rejected without mutation",
+      "passed": true
+    }
+  ],
+  "controller_sha256": "502b4af888aa4b1fe145c3cee476c4548ad3528aa2b07481486ade6e98b1d8be",
+  "count": 45,
+  "created_at": "2026-10-23T12:23:12",
+  "default_storage_initialized_or_written": false,
+  "failed": [],
+  "godot": "4.7.2-stable (official)",
+  "isolated_storage_prefix": "user://qa/chapter_1792758192_108644",
+  "schema": 1,
+  "scope": "Isolated schema6 storage only. No main, autoload, gameplay, formal profile or healing side effects. RAM receipts preserve strict observed victories across older exact pending bundles and practice reset; they are not durable until their own atomic commit.",
+  "stage": "R4/10",
+  "test_script_sha256": "3adebf6697d11a79273c9c4d8444fb4d24d9d955e85d3c96f6d4eaaf4a13627c",
+  "isolation": {
+    "scratch_project": "/var/folders/8w/qkg_4djn7wv2zndv43xkt5c00000gn/T/dnf-chapter-storage-aunq8tm3",
+    "autoloads": false,
+    "main_scene": false,
+    "copied_sources": {
+      "scripts/adventure_progress.gd": "502b4af888aa4b1fe145c3cee476c4548ad3528aa2b07481486ade6e98b1d8be",
+      "data/first_route_quest.json": "8ae4c6d7761f75a526b1060d4ebe9aac12b4d27171b7c9c713c22e93c7067c64",
+      "data/first_equipment.json": "04ec1267a4b8deb59e461b6c7c428152b5aafe15fa0a61a41f523e7bc39306d2",
+      "tools/r4/chapter_storage_checks.gd": "3adebf6697d11a79273c9c4d8444fb4d24d9d955e85d3c96f6d4eaaf4a13627c"
+    },
+    "sources_unchanged_after_test": true,
+    "human_files_before": {
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      }
+    },
+    "human_files_after": {
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      },
+      "/Users/mac/Library/Application Support/Godot/app_userdata/dnf/adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "is_file": false,
+        "sha256": null
+      }
+    },
+    "human_profile_bytes_unchanged": true
+  },
+  "execution": {
+    "returncode": 0,
+    "stdout": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\nCHAPTER_STORAGE_CHECKS 45 passed=true\n",
+    "stderr": ""
+  }
+}

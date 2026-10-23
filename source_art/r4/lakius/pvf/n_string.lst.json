@@ -1,0 +1,27 @@
+{
+  "path": "n_string.lst",
+  "bytes": 262,
+  "sha256_decoded_bytes": "dcb2b4484b4f60dab1c784d83f6a49f1c4cdae145d158e55bd4767fe3f76909d",
+  "crc": {
+    "expected": 2697374422,
+    "actual_seed_file_number": 2697374422,
+    "actual_seed_zero": 1962917806
+  },
+  "crc_matches": true,
+  "original_reference": "source_art/r4/lakius/pvf/n_string.lst.bin",
+  "decoded_reference": "source_art/r4/lakius/pvf/n_string.lst.json",
+  "decoded": {
+    "selection": "Dictionary7; complete bytes retained",
+    "tokens": [
+      {
+        "type": 2,
+        "value": 7
+      },
+      {
+        "type": 7,
+        "index": 343348,
+        "text": "Monster/Monster.kor.str"
+      }
+    ]
+  }
+}

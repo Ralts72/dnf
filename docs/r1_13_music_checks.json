@@ -1,0 +1,204 @@
+{
+  "candidate": "R1/13",
+  "capture_samples": [
+    {
+      "frames": 32768,
+      "label": "music_20_percent",
+      "peak": 0.20214407145977,
+      "rms": 0.0361260574051462
+    },
+    {
+      "frames": 32768,
+      "label": "music_muted",
+      "peak": 0.0,
+      "rms": 0.0
+    },
+    {
+      "frames": 30720,
+      "label": "music_resumed",
+      "peak": 0.192432761192322,
+      "rms": 0.0215037804817163
+    },
+    {
+      "frames": 30720,
+      "label": "after_native_loop",
+      "peak": 0.360846340656281,
+      "rms": 0.0450733217821508
+    }
+  ],
+  "checks": [
+    {
+      "check": "mapped_original_music_tag",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "native_vorbis_duration_matches_source",
+      "details": {
+        "seconds": 35.5555763244629
+      },
+      "pass": true
+    },
+    {
+      "check": "native_stream_loops_at_zero",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "separate_music_bus",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "one_persistent_music_player",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "default_twenty_percent_gain",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "native_music_mix_is_nonzero",
+      "details": {
+        "frames": 32768,
+        "label": "music_20_percent",
+        "peak": 0.20214407145977,
+        "rms": 0.0361260574051462
+      },
+      "pass": true
+    },
+    {
+      "check": "pose_pause_keeps_music_running",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "pose_pause_still_freezes_water",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "actual_f9_mutes_music",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "muted_music_mix_is_zero",
+      "details": {
+        "frames": 32768,
+        "label": "music_muted",
+        "peak": 0.0,
+        "rms": 0.0
+      },
+      "pass": true
+    },
+    {
+      "check": "muted_music_retains_position",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "music_mute_does_not_change_effects",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "actual_f9_resumes_without_restart",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "resumed_music_mix_is_nonzero",
+      "details": {
+        "frames": 30720,
+        "label": "music_resumed",
+        "peak": 0.192432761192322,
+        "rms": 0.0215037804817163
+      },
+      "pass": true
+    },
+    {
+      "check": "effects_mute_does_not_mute_music",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "independent_music_forty_percent_gain",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "r0_keeps_same_music_player",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "r0_does_not_reset_music_position",
+      "details": {
+        "after": 5.44988679885864,
+        "before": 5.05514717102051
+      },
+      "pass": true
+    },
+    {
+      "check": "r0_menu_retains_independent_volume",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "r1_keeps_same_music_player",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "r1_does_not_reset_music_position",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "paused_capture_clone_does_not_pause_music",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "capture_clone_does_not_add_music_player",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "native_loop_wraps_to_beginning",
+      "details": {
+        "length": 35.5555763244629,
+        "position": 0.228934243321419
+      },
+      "pass": true
+    },
+    {
+      "check": "loop_keeps_native_mixing",
+      "details": {},
+      "pass": true
+    },
+    {
+      "check": "header_audio_controls_do_not_overlap",
+      "details": {
+        "rects": [
+          "[P: (211.0, 17.0), S: (117.0, 28.0)]",
+          "[P: (334.0, 17.0), S: (113.0, 28.0)]",
+          "[P: (453.0, 17.0), S: (113.0, 28.0)]",
+          "[P: (572.0, 17.0), S: (72.0, 28.0)]",
+          "[P: (650.0, 8.0), S: (174.0, 28.0)]"
+        ]
+      },
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "music_bus_restored_db": 0.0,
+  "music_play_starts": 1,
+  "music_player_id": 72645348071,
+  "music_script_sha256": "8fb55989a2d495afefa2990176501e30d6a8b0a43e0cfa0a7f009c25dd21dee8",
+  "note": "BGM is independent of pose/water pause. The music bus was attenuated 80 dB during mixer checks and its original gain/effects restored. Capture frame counts are not used to infer duration on this multichannel device.",
+  "qa_source_sha256": "35f06223bdc13f5d86da2049f03ca54f89a83f2a37d3607c6b950e0c2605ba78"
+}

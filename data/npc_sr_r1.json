@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "source_data": "data/npc_sr_r0.json",
+  "canvas_size": [
+    80,
+    160
+  ],
+  "foot_anchor": [
+    34,
+    142
+  ],
+  "animations": {
+    "stay": {
+      "frames": [
+        {
+          "texture": "res://assets/r1/actors/npc_sr/stay_00.png",
+          "duration_ms": 180,
+          "img_frame": 0,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        },
+        {
+          "texture": "res://assets/r1/actors/npc_sr/stay_01.png",
+          "duration_ms": 180,
+          "img_frame": 1,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        },
+        {
+          "texture": "res://assets/r1/actors/npc_sr/stay_02.png",
+          "duration_ms": 180,
+          "img_frame": 2,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        },
+        {
+          "texture": "res://assets/r1/actors/npc_sr/stay_03.png",
+          "duration_ms": 180,
+          "img_frame": 3,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        },
+        {
+          "texture": "res://assets/r1/actors/npc_sr/stay_04.png",
+          "duration_ms": 180,
+          "img_frame": 4,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        },
+        {
+          "texture": "res://assets/r1/actors/npc_sr/stay_05.png",
+          "duration_ms": 180,
+          "img_frame": 5,
+          "source_properties": [
+            {
+              "type": 12,
+              "value": 180
+            }
+          ],
+          "source_boxes": []
+        }
+      ]
+    }
+  }
+}

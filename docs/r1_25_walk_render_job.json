@@ -1,0 +1,13 @@
+{
+  "check_script": "res://tools/r1/walk_render_checks.gd",
+  "elapsed_seconds": 1.932986,
+  "qa_source_sha256": "8829561265ebb680f719f57682bcd37c7abd1b6628a2cf8b40295e2d83994425",
+  "render_cases_completed": 96,
+  "result": {
+    "cases": 96,
+    "checks": 4,
+    "failed": [],
+    "failed_cases": 0
+  },
+  "status": "complete"
+}

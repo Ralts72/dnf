@@ -1,0 +1,74 @@
+{
+  "duration_seconds": 30.0,
+  "elapsed_seconds": 56.404942,
+  "report": {
+    "candidate": "R1/12",
+    "checks": [
+      {
+        "check": "full_1080_native_targets",
+        "pass": true
+      },
+      {
+        "check": "all_six_clips_observed",
+        "pass": true
+      },
+      {
+        "check": "full_3d_pass_active",
+        "pass": true
+      },
+      {
+        "check": "main_3d_disabled",
+        "pass": true
+      },
+      {
+        "check": "sample_duration_at_least_30_seconds",
+        "pass": true
+      },
+      {
+        "check": "p95_within_60fps_frame_budget",
+        "pass": true
+      },
+      {
+        "check": "water_clock_advances_during_observation",
+        "pass": true
+      }
+    ],
+    "clips": [
+      "stay",
+      "move",
+      "dash",
+      "attack1",
+      "attack2",
+      "hopsmash"
+    ],
+    "draw_calls_max": 319,
+    "draw_calls_min": 319,
+    "failed": 0,
+    "full_target": "(1920, 1080)",
+    "godot": "4.7.2-stable (official)",
+    "notes": [
+      "30 seconds in the current Mac session; not long-term stability or Windows validation.",
+      "Frame intervals include the offscreen full scene; the visible main 3D pass was disabled.",
+      "Six source poses, both facings, changing positions, NPC animations, ship motion, shadows and water remain active.",
+      "Direct pose movement is a rendering load only, not a collision or gameplay fidelity test."
+    ],
+    "observation": {
+      "elapsed_sample_seconds": 30.004043,
+      "fps_from_mean": 144.047253898416,
+      "frames": 4322,
+      "frames_over_16_67_ms": 0,
+      "max_ms": 10.487,
+      "mean_ms": 6.94216635816752,
+      "median_ms": 6.9005,
+      "p95_ms": 8.627,
+      "percent_over_16_67_ms": 0.0
+    },
+    "platform": "macOS",
+    "qa_source_sha256": "424690c1757af19f390c8a2ee8e6b8845726475b9c38adcd85e7c27a637de385",
+    "scene_target": "(1792, 808)",
+    "warmup_seconds": 2.0,
+    "water_elapsed_seconds": 32.0545589998914
+  },
+  "sampled_frames": 4322,
+  "status": "complete"
+}

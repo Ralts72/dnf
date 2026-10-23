@@ -1,0 +1,706 @@
+{
+  "action_names": [
+    "stay",
+    "move",
+    "dash",
+    "attack1",
+    "attack2",
+    "attack3",
+    "hopsmash",
+    "jump",
+    "jumpattack"
+  ],
+  "ambience_starts_after": 1,
+  "ambience_starts_before": 1,
+  "columns": [
+    "elapsed_s",
+    "frame_gap_ms",
+    "engine_delta_ms",
+    "previous_process_ms",
+    "previous_physics_ms",
+    "scene_cpu_ms",
+    "scene_gpu_ms",
+    "window_cpu_ms",
+    "window_gpu_ms",
+    "pre_post_draw_wall_ms",
+    "focused",
+    "action_id",
+    "source_frame",
+    "source_elapsed_ms",
+    "source_x",
+    "source_y",
+    "jump_height_px",
+    "active_fx_tracks",
+    "render_scale",
+    "draw_calls",
+    "resource_count",
+    "static_memory_bytes",
+    "pipeline_canvas",
+    "pipeline_mesh",
+    "pipeline_surface",
+    "pipeline_draw",
+    "pipeline_specialization",
+    "phase_id",
+    "frames_drawn",
+    "walk_subframe",
+    "walk_active"
+  ],
+  "derived_locomotion_actions": [
+    "move",
+    "dash"
+  ],
+  "diagnostics_active": false,
+  "events": [
+    {
+      "elapsed_s": 0.000002,
+      "name": "idle",
+      "phase": 0,
+      "type": "phase"
+    },
+    {
+      "action": "stay",
+      "elapsed_s": 0.000696,
+      "phase": 0,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 2.005879,
+      "name": "effect_first_or_repeat",
+      "phase": 1,
+      "type": "phase"
+    },
+    {
+      "elapsed_s": 2.015423,
+      "key": "Q",
+      "phase": 1,
+      "type": "key_pulse"
+    },
+    {
+      "action": "hopsmash",
+      "elapsed_s": 2.02344,
+      "phase": 1,
+      "type": "action"
+    },
+    {
+      "action": "stay",
+      "elapsed_s": 2.923338,
+      "phase": 1,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 4.014667,
+      "name": "effect_again",
+      "phase": 2,
+      "type": "phase"
+    },
+    {
+      "elapsed_s": 4.023277,
+      "key": "Q",
+      "phase": 2,
+      "type": "key_pulse"
+    },
+    {
+      "action": "hopsmash",
+      "elapsed_s": 4.031476,
+      "phase": 2,
+      "type": "action"
+    },
+    {
+      "action": "stay",
+      "elapsed_s": 4.931357,
+      "phase": 2,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 6.023061,
+      "name": "ground_attacks",
+      "phase": 3,
+      "type": "phase"
+    },
+    {
+      "elapsed_s": 6.03198,
+      "key": "X",
+      "phase": 3,
+      "type": "key_pulse"
+    },
+    {
+      "action": "attack1",
+      "elapsed_s": 6.039506,
+      "phase": 3,
+      "type": "action"
+    },
+    {
+      "action": "stay",
+      "elapsed_s": 6.638888,
+      "phase": 3,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 6.732546,
+      "key": "X",
+      "phase": 3,
+      "type": "key_pulse"
+    },
+    {
+      "action": "attack2",
+      "elapsed_s": 6.739571,
+      "phase": 3,
+      "type": "action"
+    },
+    {
+      "action": "stay",
+      "elapsed_s": 7.38888,
+      "phase": 3,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 7.431796,
+      "key": "X",
+      "phase": 3,
+      "type": "key_pulse"
+    },
+    {
+      "action": "attack3",
+      "elapsed_s": 7.439898,
+      "phase": 3,
+      "type": "action"
+    },
+    {
+      "action": "stay",
+      "elapsed_s": 7.989826,
+      "phase": 3,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 8.531105,
+      "name": "walk_right",
+      "phase": 4,
+      "type": "phase"
+    },
+    {
+      "action": "move",
+      "elapsed_s": 8.547323,
+      "phase": 4,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 10.738355,
+      "name": "run_left",
+      "phase": 5,
+      "type": "phase"
+    },
+    {
+      "action": "dash",
+      "elapsed_s": 10.748901,
+      "phase": 5,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 12.939015,
+      "name": "jump_right",
+      "phase": 6,
+      "type": "phase"
+    },
+    {
+      "action": "move",
+      "elapsed_s": 12.947578,
+      "phase": 6,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 12.947862,
+      "key": "Space",
+      "phase": 6,
+      "type": "key_pulse"
+    },
+    {
+      "action": "jump",
+      "elapsed_s": 12.956415,
+      "phase": 6,
+      "type": "action"
+    },
+    {
+      "action": "stay",
+      "elapsed_s": 14.09761,
+      "phase": 6,
+      "type": "action"
+    },
+    {
+      "action": "move",
+      "elapsed_s": 14.114121,
+      "phase": 6,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 14.339689,
+      "name": "air_attack_left",
+      "phase": 7,
+      "type": "phase"
+    },
+    {
+      "elapsed_s": 14.34793,
+      "key": "Space",
+      "phase": 7,
+      "type": "key_pulse"
+    },
+    {
+      "action": "jump",
+      "elapsed_s": 14.356202,
+      "phase": 7,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 14.692454,
+      "key": "X",
+      "phase": 7,
+      "type": "key_pulse"
+    },
+    {
+      "action": "jumpattack",
+      "elapsed_s": 14.698557,
+      "phase": 7,
+      "type": "action"
+    },
+    {
+      "action": "jump",
+      "elapsed_s": 14.981299,
+      "phase": 7,
+      "type": "action"
+    },
+    {
+      "action": "stay",
+      "elapsed_s": 15.497459,
+      "phase": 7,
+      "type": "action"
+    },
+    {
+      "action": "move",
+      "elapsed_s": 15.514702,
+      "phase": 7,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 15.747607,
+      "name": "toward_blue_door",
+      "phase": 8,
+      "type": "phase"
+    },
+    {
+      "elapsed_s": 17.647756,
+      "name": "door_approach",
+      "phase": 9,
+      "type": "phase"
+    },
+    {
+      "elapsed_s": 19.747924,
+      "name": "door_return",
+      "phase": 10,
+      "type": "phase"
+    },
+    {
+      "elapsed_s": 21.857117,
+      "name": "run_street_right",
+      "phase": 11,
+      "type": "phase"
+    },
+    {
+      "action": "dash",
+      "elapsed_s": 21.864675,
+      "phase": 11,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 24.864584,
+      "name": "run_street_left",
+      "phase": 12,
+      "type": "phase"
+    },
+    {
+      "elapsed_s": 26.76533,
+      "name": "light_quality",
+      "phase": 13,
+      "type": "phase"
+    },
+    {
+      "elapsed_s": 26.77474,
+      "key": "F6",
+      "phase": 13,
+      "type": "key_pulse"
+    },
+    {
+      "action": "stay",
+      "elapsed_s": 26.781598,
+      "phase": 13,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 26.973029,
+      "key": "Q",
+      "phase": 13,
+      "type": "key_pulse"
+    },
+    {
+      "action": "hopsmash",
+      "elapsed_s": 26.982363,
+      "phase": 13,
+      "type": "action"
+    },
+    {
+      "action": "stay",
+      "elapsed_s": 27.882566,
+      "phase": 13,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 28.773217,
+      "name": "restore_quality",
+      "phase": 14,
+      "type": "phase"
+    },
+    {
+      "elapsed_s": 28.783875,
+      "key": "F6",
+      "phase": 14,
+      "type": "key_pulse"
+    },
+    {
+      "elapsed_s": 28.973641,
+      "key": "Q",
+      "phase": 14,
+      "type": "key_pulse"
+    },
+    {
+      "action": "hopsmash",
+      "elapsed_s": 28.980826,
+      "phase": 14,
+      "type": "action"
+    },
+    {
+      "action": "stay",
+      "elapsed_s": 29.88102,
+      "phase": 14,
+      "type": "action"
+    },
+    {
+      "elapsed_s": 30.780879,
+      "name": "reset",
+      "phase": 15,
+      "type": "phase"
+    },
+    {
+      "elapsed_s": 30.789289,
+      "key": "R",
+      "phase": 15,
+      "type": "key_pulse"
+    }
+  ],
+  "frame_rows": 3813,
+  "frames_over_16_67_ms": 2,
+  "max_frame_gap_ms": 16.917,
+  "music_starts_after": 1,
+  "music_starts_before": 1,
+  "native_interpolation": true,
+  "native_window": "(1438, 809)",
+  "notes": [
+    "Visible native scene and real InputEventKey actions. No position writes or frame readback during sampling.",
+    "CPU/GPU fields come from Godot viewport timing. They can lag; correlation does not prove a stall cause.",
+    "Events and full samples buffered in memory; file writes happen after timing has stopped.",
+    "First row includes monitor startup and is excluded from subsequent steady-state statistics."
+  ],
+  "observed_actions": [
+    "stay",
+    "hopsmash",
+    "attack1",
+    "attack2",
+    "attack3",
+    "move",
+    "dash",
+    "jump",
+    "jumpattack"
+  ],
+  "phase_ranges": [
+    {
+      "end_row": 243,
+      "index": 0,
+      "name": "idle",
+      "start_row": 0
+    },
+    {
+      "end_row": 483,
+      "index": 1,
+      "name": "effect_first_or_repeat",
+      "start_row": 243
+    },
+    {
+      "end_row": 724,
+      "index": 2,
+      "name": "effect_again",
+      "start_row": 483
+    },
+    {
+      "end_row": 1025,
+      "index": 3,
+      "name": "ground_attacks",
+      "start_row": 724
+    },
+    {
+      "end_row": 1290,
+      "index": 4,
+      "name": "walk_right",
+      "start_row": 1025
+    },
+    {
+      "end_row": 1554,
+      "index": 5,
+      "name": "run_left",
+      "start_row": 1290
+    },
+    {
+      "end_row": 1722,
+      "index": 6,
+      "name": "jump_right",
+      "start_row": 1554
+    },
+    {
+      "end_row": 1891,
+      "index": 7,
+      "name": "air_attack_left",
+      "start_row": 1722
+    },
+    {
+      "end_row": 2119,
+      "index": 8,
+      "name": "toward_blue_door",
+      "start_row": 1891
+    },
+    {
+      "end_row": 2370,
+      "index": 9,
+      "name": "door_approach",
+      "start_row": 2119
+    },
+    {
+      "end_row": 2623,
+      "index": 10,
+      "name": "door_return",
+      "start_row": 2370
+    },
+    {
+      "end_row": 2984,
+      "index": 11,
+      "name": "run_street_right",
+      "start_row": 2623
+    },
+    {
+      "end_row": 3212,
+      "index": 12,
+      "name": "run_street_left",
+      "start_row": 2984
+    },
+    {
+      "end_row": 3452,
+      "index": 13,
+      "name": "light_quality",
+      "start_row": 3212
+    },
+    {
+      "end_row": 3692,
+      "index": 14,
+      "name": "restore_quality",
+      "start_row": 3452
+    },
+    {
+      "end_row": 3813,
+      "index": 15,
+      "name": "reset",
+      "start_row": 3692
+    }
+  ],
+  "pipeline_columns": [
+    "PIPELINE_COMPILATIONS_CANVAS",
+    "PIPELINE_COMPILATIONS_MESH",
+    "PIPELINE_COMPILATIONS_SURFACE",
+    "PIPELINE_COMPILATIONS_DRAW",
+    "PIPELINE_COMPILATIONS_SPECIALIZATION"
+  ],
+  "plan": [
+    {
+      "keys": [],
+      "name": "idle",
+      "seconds": 2.0
+    },
+    {
+      "keys": [],
+      "name": "effect_first_or_repeat",
+      "pulses": [
+        [
+          0,
+          81
+        ]
+      ],
+      "seconds": 2.0
+    },
+    {
+      "keys": [],
+      "name": "effect_again",
+      "pulses": [
+        [
+          0,
+          81
+        ]
+      ],
+      "seconds": 2.0
+    },
+    {
+      "keys": [],
+      "name": "ground_attacks",
+      "pulses": [
+        [
+          0,
+          88
+        ],
+        [
+          0.7,
+          88
+        ],
+        [
+          1.4,
+          88
+        ]
+      ],
+      "seconds": 2.5
+    },
+    {
+      "keys": [
+        68
+      ],
+      "name": "walk_right",
+      "seconds": 2.2
+    },
+    {
+      "keys": [
+        65,
+        4194325
+      ],
+      "name": "run_left",
+      "seconds": 2.2
+    },
+    {
+      "keys": [
+        68
+      ],
+      "name": "jump_right",
+      "pulses": [
+        [
+          0,
+          32
+        ]
+      ],
+      "seconds": 1.4
+    },
+    {
+      "keys": [
+        65
+      ],
+      "name": "air_attack_left",
+      "pulses": [
+        [
+          0,
+          32
+        ],
+        [
+          0.35,
+          88
+        ]
+      ],
+      "seconds": 1.4
+    },
+    {
+      "keys": [
+        65
+      ],
+      "name": "toward_blue_door",
+      "seconds": 1.9
+    },
+    {
+      "keys": [
+        87
+      ],
+      "name": "door_approach",
+      "seconds": 2.1
+    },
+    {
+      "keys": [
+        83
+      ],
+      "name": "door_return",
+      "seconds": 2.1
+    },
+    {
+      "keys": [
+        68,
+        4194325
+      ],
+      "name": "run_street_right",
+      "seconds": 3.0
+    },
+    {
+      "keys": [
+        65,
+        4194325
+      ],
+      "name": "run_street_left",
+      "seconds": 1.9
+    },
+    {
+      "keys": [],
+      "name": "light_quality",
+      "pulses": [
+        [
+          0,
+          4194337
+        ],
+        [
+          0.2,
+          81
+        ]
+      ],
+      "seconds": 2.0
+    },
+    {
+      "keys": [],
+      "name": "restore_quality",
+      "pulses": [
+        [
+          0,
+          4194337
+        ],
+        [
+          0.2,
+          81
+        ]
+      ],
+      "seconds": 2.0
+    },
+    {
+      "keys": [],
+      "name": "reset",
+      "pulses": [
+        [
+          0,
+          82
+        ]
+      ],
+      "seconds": 1.0
+    }
+  ],
+  "production_build_label": "R1   /   28",
+  "production_candidate": "R1/28",
+  "qa_source_sha256": "4f19166960d513f2426db8d8ec5536e63a6e909ea8bd98f76f02076a7e56fdb8",
+  "resource_end": 900.0,
+  "resource_start": 900,
+  "scene_target": "(1792, 808)",
+  "source_transitions": 278,
+  "study": "Live native input observation",
+  "tag": "r1_28_live"
+}

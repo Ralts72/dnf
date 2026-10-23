@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3]
+
+[sub_resource type="CylinderShape3D" id="ColumnBase"]
+radius = 0.46
+height = 0.65
+
+[node name="TowerHallCollisions" type="Node3D"]
+metadata/ground_policy = "Adapted low ground prisms matching the native twelve-sided plinth footprints."
+
+[node name="ColumnLeft" type="StaticBody3D" parent="."]
+position = Vector3(-5.13333333, 0.34, 0.56569233)
+collision_layer = 1
+collision_mask = 1
+
+[node name="Shape" type="CollisionShape3D" parent="ColumnLeft"]
+shape = SubResource("ColumnBase")
+
+[node name="ColumnRight" type="StaticBody3D" parent="."]
+position = Vector3(5.2, 0.34, 0.56569233)
+collision_layer = 1
+collision_mask = 1
+
+[node name="Shape" type="CollisionShape3D" parent="ColumnRight"]
+shape = SubResource("ColumnBase")

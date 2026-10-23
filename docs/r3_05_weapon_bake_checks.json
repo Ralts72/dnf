@@ -1,0 +1,806 @@
+{
+	"all_passed": true,
+	"all_png_roundtrips_exact": true,
+	"all_runtime_png_copies_exact": true,
+	"candidate": "R3/05",
+	"composite_data_sha256": "c03dd640b566c74aeb91ec28796b47ebead520a3339bd67eccc8a23a48394089",
+	"created_at": "2026-10-23T08:08:04",
+	"endpoint_full_rgba_exact": true,
+	"equipment_id": 27304,
+	"godot": "4.7.2-stable (official)",
+	"native_sources": [
+		{
+			"action": "move",
+			"actor_source_sha256": "767263d1197b1e79dabc0d32159c1be960bcbeb1dbd67f858f1c7794dd3a8598",
+			"recipe_sha256": "db75f74795087a7d0eb5e0d0491d97b935f2ea0fb5919a1aca08768e0816158d",
+			"shader_sha256": "134802b92734c3a3cdf289e8ec123320f53c3b47c2167e10e6a9338756789606"
+		},
+		{
+			"action": "dash",
+			"actor_source_sha256": "5bcb90d1591f6f929f3320220474e214e11b5c82ec0a584a57ea42d526d8c218",
+			"recipe_sha256": "816d45a20ea965365339733fff8707202257cca0f029786f415fa940340627cf",
+			"shader_sha256": "8adfbb006076fa4326a2ec32d946d5fe686534733a6a0f3e5afa18dd798fb55e"
+		}
+	],
+	"notes": [
+		"New isolated variant data and experiment paths only; originalR1 experiments and runtime assets untouched.",
+		"Upper body and equippedweapon use original character100ms frame clock; lower apparel uses authored30Hz samples.",
+		"No attackclock, movement speed, combat damage, gameplay actor or scene transform changed by the baker."
+	],
+	"qa_source_sha256": "04ac54ea3cfa6101e2fe05fa2f5a5349fdfbf4ab074dfc496bd74e958f8a2d9e",
+	"raw_layer_data_sha256": "5c1d94de45c7352000e89ddf8ab09d29ca431656e7a1dd0655d51e30720f34a3",
+	"records": [
+		{
+			"action": "move",
+			"frame": 0,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_00_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "f587f64da6b52ae068d4f1c08d4d8013a39349987917963003c18a5ffd36fde3",
+			"rgba_sha256": "dae2cc6acef00c387aa17c381e59cf1c544adeb81b6b26deba085d6d265c54cc",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "move",
+			"frame": 0,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_00_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "537aa42d01e69d94467bd3aeab8e1d7ef31fbe27b5325cb375f7092bcad1f679",
+			"rgba_sha256": "d953a54ab882297a42da47cd3dfd7c3378c7564be042bd0b34b1bcc10a2a65ad",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_00_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 0,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_00_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "2b3c1ce8b898c201a4edf9fe4def852425c264a78536888f4682f7134fbc12c8",
+			"rgba_sha256": "04052ca685f6579102a96f3744e2d76e6125fd06217b416728a403bd7f7683aa",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_00_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 1,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_01_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "cf622f02bc93ed1c05a15c36e036ecac927cfe1046c39f5b7a252f10388bd79b",
+			"rgba_sha256": "83ad9837ab5d4642c2cfc6839d0dfaf05df92cc01174aa0558599ab54aaa0cc6",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "move",
+			"frame": 1,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_01_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "c299aa8381be686ea6b100310b7e7ce0b3ba5fe8962d10b7d6e9b3037f93faac",
+			"rgba_sha256": "c63aea62e15f904125d94cb6ae92c9bf0c4a3c5af4ca9044142357d6ee9e8fd9",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_01_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 1,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_01_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "a7664660bb97e64581793cb62fc0b089e680bc1dc43c4b62f4e015b560334c7a",
+			"rgba_sha256": "49552f0be4fae86db0bbab8f32d468648453b0075566b4fdcb1a6925e745d467",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_01_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 2,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_02_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "8afdd2aca251aad9d5ae778186d90e3b731b7ead059a41d8f5eae63c21a09edc",
+			"rgba_sha256": "c7bb9a9a6890f1dc15692c1b9cfac8397a5104ea88f5d0bdd53c17c9b2caff14",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "move",
+			"frame": 2,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_02_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "10814eade8df8657c4bdc67af0347c0d6b721031eff32038dcb71633e5834157",
+			"rgba_sha256": "903441365b4bd8da2584e076863b6085e30fe7ba877603dec31a73c213f9be2f",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_02_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 2,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_02_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "25afcd9ec2b44a4a5d974fc26d64e476f38188c6028992d605a1e4e54187426a",
+			"rgba_sha256": "94ddc5469c9b66dbde9d77411949b02f9a17954993d16ad06bec8ba67b956c97",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_02_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 3,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_03_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "a0bb8a36ee0ce2f3e84888d029a85b588c4abe56ba26eede777ff9299ef2f69e",
+			"rgba_sha256": "d0f5df70d255df25bbdb980d0e98ba8d9844b871e80af79e61802894cdd848ac",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "move",
+			"frame": 3,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_03_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "b07b0c8a9f5070a683298c2eb37ddb1957d3d599e317c91df64208fe9bbd91bb",
+			"rgba_sha256": "bf1341f169b5ef85406dc8ad396615dc0db8e94f267a419d8a90e03cfda1bf0a",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_03_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 3,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_03_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "324d4c7d4eef9c468f696fefb0603c5ecd8fd63252c78dd859750f85bb302863",
+			"rgba_sha256": "eb1c93bca8f423136b9563f0564a42ad535e0a4e715b55ce0d1a185c193b6d45",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_03_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 4,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_04_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "d676c242dda51db618484ece0ab04aed66b8697f1e882ec4f29ee2437bcf4005",
+			"rgba_sha256": "9a4bc724e23d18f921bb61446546263f14db6c0dd9f1f9ed7f9dfb9640c21748",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "move",
+			"frame": 4,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_04_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "5e7a27dc86a767c12c866974d61cf8ed6b58d4ddcf71475a7d5198f30376754a",
+			"rgba_sha256": "d51c60c18d382f3519c0a2504d956b391ba2ad3860be8b4ff4214a6bb65dc580",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_04_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 4,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_04_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "43e675ac0511f695c1fab8e0b0f23726a520dd2b69b2ac30980f5f7dceb10c0d",
+			"rgba_sha256": "e5081cf8bde34ca3d70bc9b9430e5b1cc505bcf1aa30f2c9250d22ed28497c0d",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_04_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 5,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_05_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "f480e1802a61008d557e8b1cfff0241ff60b59651a01cecdff41a83b0ccb8584",
+			"rgba_sha256": "163714222da33e6ea963461399ef16cc506d1ffbb0ba5e3c4a4805e4cd0280d4",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "move",
+			"frame": 5,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_05_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "cdc38d0339193ee03c1e1009ae25af3f20a6dfc53f646dcc394383e176cecda7",
+			"rgba_sha256": "9c6d840f6b66f275a0a9ac6ac39b640b074c8bcb19141037af4a8429032d419a",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_05_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 5,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_05_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "13d450ea0f2a338b95c85bdcec07caa8243308ca35dd70b1714beaba50de0675",
+			"rgba_sha256": "37daa1c10eae6c0cc3d51c7ae2fc2d1acf94e2b6d269887333f7ae5f0522cfe1",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_05_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 6,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_06_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "99f5852d324e3ebc5f73ee909db8b875b34b655b12fd5526afb51cffba3d4815",
+			"rgba_sha256": "a2832202e113a68f963e8f35cdd3f24244600f5cf0ac5f0fa11c9a213c126874",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "move",
+			"frame": 6,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_06_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "14a146d15ea6c15d72809620f4fa29d2be2211df5e31bb8dc89c08e392288f10",
+			"rgba_sha256": "20333632ff9db4c013e005c9cb622f6fe73742f7d060bcd5e84cd4c3c45d7255",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_06_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 6,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_06_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "ba2f5cbc5ff877e1f065d17752695fbab9fc9e7ebaa9a8fac70d0aef06fd4daf",
+			"rgba_sha256": "ae61280a3658a81c7c6e15e0c25174b3c07dedb2184a3215bbc00ada9b01b92c",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_06_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 7,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_07_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "b32989c3ba4b646c9dcbfdb43bda273a505ecb97f96e21ad84205f0182f89a8e",
+			"rgba_sha256": "ab4508461984da1444fd14da8ed9341f0d31d39e04b9e55253ef11195e60c41f",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "move",
+			"frame": 7,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_07_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "baf489b4e4916ef11c766c3a64f906319078d80dcb8506b7154d62ec72ff5284",
+			"rgba_sha256": "5095eaacaca3c86d035327cbc0cd94a189fe65ad612705d4138bb954f0992f40",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_07_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "move",
+			"frame": 7,
+			"path": "res://source_art/r3/equipment_27304/walk/baked/move_07_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "e383888b051239e1fee9a15d2315f871d8bb243e1e7572ca48f9d5cf5d07bf7f",
+			"rgba_sha256": "4e7727a8de9c550edf2eb9ac0e8733d33c8884fdb6af53440570ee32573367d9",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/walk/move_07_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 0,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_00_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "9ec20034520f6cc80250cae02c1345d79b5e9ea55c428b88644b79586fc83d51",
+			"rgba_sha256": "8595af670809000cc883f31849508f141e94ff2f90f8da585ca3c68487a93e0a",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "dash",
+			"frame": 0,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_00_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "c810edc268ca5194e27d8fc98cb99ee5b6cecd6faca25b25f8fd0da630b165cb",
+			"rgba_sha256": "b77c4097982732bf5209885400c2bd2a9fc57007bdc584d24b5d6c2f9996c7e2",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_00_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 0,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_00_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "8ba381110a303684a4ed9079785af770a2dea401c0159af2918ed787c6d4d8bb",
+			"rgba_sha256": "6936c101036cd1b2d53b3d570326cab3a1f0f8281bc2bced2510a9390327a290",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_00_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 1,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_01_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "ae585c32cac5c6e8991c8ac9d9bfa67f9a253a25c743f0dbac33a99f80d42497",
+			"rgba_sha256": "94f5bef23b66b7878eda51182cf855a5a1df66dbbd30c64e9e3c2bde240ebe9f",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "dash",
+			"frame": 1,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_01_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "ac0341294041baddf9b1541da0ccd0594ba0005f4c437b6ac74f61b52d107713",
+			"rgba_sha256": "a1a2d1908c4d27c1caa398088f6f2133e69fe4a94bfbce3d32286d0a006fa7cb",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_01_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 1,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_01_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "3c4a0c580936f79308b6421cf1ff31a7287f57111ae682e686466682b5e57e2e",
+			"rgba_sha256": "ee6e05c89fc02d4b503088a75a4cea71de884fdcfea2d1d428b854c418c50e55",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_01_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 2,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_02_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "aa87296743fc4f242749dd5baa57e9e38fdffbcbbdc3b0ea12af9fa794953c03",
+			"rgba_sha256": "69417f6e4ec0385eebc1298ed743ae6e0f6d6d86c90b2884c1211d9c95901c8f",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "dash",
+			"frame": 2,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_02_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "a2a8211d352759f6e4a7666d1af1d348bcd1cbf234cf632d593a82e7a422d00a",
+			"rgba_sha256": "ad7b7c77b625c5d1767ad74a2e00bf8b0c00ca04f9ab1998cebdec614ca11b54",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_02_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 2,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_02_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "ef6bdd23f5cca5617ead430cf619f2247a6c732b16764058ca2852267f57e78d",
+			"rgba_sha256": "558eaa3d39632dc8b2fee6767bf0457fc1b450268cc303bb848746d74f112b2c",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_02_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 3,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_03_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "5f25069cb1b4517ea4e4fb81535d468d292062fe44c631bbf7d718d7a9c48056",
+			"rgba_sha256": "41e085abeccc9d20faca0dbc2b8c7b5649e691d39a23676afc68963462b9ba1e",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "dash",
+			"frame": 3,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_03_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "9e17acffbb3e939478d3d80553c9398baacc12a7a6dfdd9cbedb81fafc53337c",
+			"rgba_sha256": "ae5cdec500a0077b25f7711985f1a9c21b6003a8eb733f8586db7614be1ea7f6",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_03_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 3,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_03_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "e494977d3e4f4196a0c23a4d160a3d299e0b8d5049e095136cd0a3cd59b68971",
+			"rgba_sha256": "1e01c9709b7bb3da1b465ad9497f4ed31a5e5af4238083c116c45d0795e81af8",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_03_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 4,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_04_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "1fece8d07f87f02674834e7d246ef9340edf8a2212544d032716eadee7a3ad6f",
+			"rgba_sha256": "0f8d0cbf480a4658c81417f2c6202d251eef1a3a6f9115d3a1012eff230c85a0",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "dash",
+			"frame": 4,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_04_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "386c23e8f5a85a0172a51d73b3dc9e3509f3e9f8aa7b30f3a80560402ea5ff94",
+			"rgba_sha256": "8af9ba1b974727ed59d25fc4bec25242074243615f086dce522335f4f7aa43bf",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_04_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 4,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_04_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "ae6f71294e1c0673df3fff328a44cbce4a66eb4a6e9e4a088cccd8ae924a9bc4",
+			"rgba_sha256": "27ae84f1e3d87f1ba733fb5cfb246c34c252a80b12f166b9abd0e407e9be352a",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_04_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 5,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_05_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "a8de7254ce2a661dd9295b228fd33dbb4e1615c12b3a2b55a6bef1e358cb55c3",
+			"rgba_sha256": "839584840329080d092fa9752f390f0d707b3ecb3434ad7153035e69dbb2553c",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "dash",
+			"frame": 5,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_05_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "e3beedffd58808ec3e3ac095e48457930c4d52fdde7e8cfd6d00761be1985812",
+			"rgba_sha256": "75adabcc85e4779c3c3cdf9f31525720d94c69e7022a3e2ed975d76ec9bbdf72",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_05_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 5,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_05_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "4c8d60e74581133728a8877a6eabf9252afc889801fe7538e9ba12e870606bfc",
+			"rgba_sha256": "a02ada458ea8c930e181601de21c142b42480b9b6f3ba933a6e8665cbd4204f8",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_05_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 6,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_06_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "7fc12618e30e31e4c39b405e9c0148e6a3b7fc2322510b5e452decf893089ea1",
+			"rgba_sha256": "b513a7a9f758bdc8f9dd4ce6a02bfa6900f22ae3fce2086712d3ab1cb5bfe27a",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "dash",
+			"frame": 6,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_06_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "1d50f06354e75f4633f1a8a39812ae55b6b2dc44c2a5105cc47f19042336b817",
+			"rgba_sha256": "6d3b132fd83936018d8a64c236064df8372edd5433defd1fb33ae2cc6c4f949f",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_06_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 6,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_06_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "fcc8ece3c5d7cd7ba6f7a0609ab57c3fc3a83a1b1c19fd4f46f68fed91c67af7",
+			"rgba_sha256": "d1cefd73525d89da6f0c0b5c9e81417d3cd451e2000dd9c5c6577e87f6b787f5",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_06_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 7,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_07_0.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "e2f8224fd9368e9fff3843da070d59bc157da08716db1d04e8cb78e84c32bff5",
+			"rgba_sha256": "57cfbee7b932daaf574697556f785103d74ffadfc1e954ee257f888ff586c404",
+			"runtime_path": "",
+			"runtime_png_copy_exact": null,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 0,
+			"variant_endpoint_rgba_exact": true
+		},
+		{
+			"action": "dash",
+			"frame": 7,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_07_1.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "7b4f38e1ade40ba44005efd17e6459bb92619cc3b4cd3a80a39d87e3c5685f64",
+			"rgba_sha256": "58147ffa3e2b5a8495fdcf03dbf5ea8b14db419d308725b16cae290a54c66dd8",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_07_1.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 1,
+			"variant_endpoint_rgba_exact": null
+		},
+		{
+			"action": "dash",
+			"frame": 7,
+			"path": "res://source_art/r3/equipment_27304/dash/baked/dash_07_2.png",
+			"png_roundtrip_exact": true,
+			"png_sha256": "036f7ce05d6cc28cfb5c23d288db18545b9390d463447115be3f3d1fe2c5758d",
+			"rgba_sha256": "67cfc3f56d62cfb39b800fe5f1463d54015404fe47408968cf657215b518e57b",
+			"runtime_path": "res://assets/r3/equipment/ordinary_greatsword/dash/dash_07_2.png",
+			"runtime_png_copy_exact": true,
+			"size": [
+				320,
+				224
+			],
+			"subframe": 2,
+			"variant_endpoint_rgba_exact": null
+		}
+	],
+	"runtime_inbetween_textures": 32,
+	"sample_count": 48,
+	"schema": 1,
+	"variant_endpoints_checked": 16
+}

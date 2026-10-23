@@ -1,0 +1,16 @@
+{
+  "manifest": "docs/r3_draconian_audio_source_reference.json",
+  "manifest_sha256": "3991bacccd27615bf2a3658b2a594402677d5aabc7584bd09774130c9940abbb",
+  "runtime_data": "data/draconian_audio.json",
+  "verification": {
+    "sound_count": 1,
+    "source_bytes": 6687,
+    "all_source_ogg_bytes_preserved": true,
+    "all_noncomment_packets_identical": true,
+    "all_ogg_page_crcs_valid": true,
+    "all_timing_headers_identical": true,
+    "all_decoded_pcm_byte_identical": true,
+    "voice_dispatch_resolved": false,
+    "godot_import_or_playback_tested": false
+  }
+}

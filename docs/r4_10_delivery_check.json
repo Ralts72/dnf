@@ -1,0 +1,235 @@
+{
+  "candidate": "R4/10",
+  "verified_at_utc": "2026-10-23T12:43:40.301180+00:00",
+  "checks": {
+    "storage": 45,
+    "chapter": 22,
+    "sharan": 14,
+    "equipment": 20
+  },
+  "total_checks": 101,
+  "failed": [],
+  "native_runs": {
+    "chapter": "r63235621-173",
+    "sharan": "r62259166-169",
+    "equipment": "r62699854-171",
+    "fresh": "r63289391-174"
+  },
+  "native_durations_seconds": {
+    "chapter": 14.137369,
+    "sharan": 4.468759,
+    "equipment": 25.178744
+  },
+  "artifact_hashes_passed": 2713,
+  "manifest_sha256": "1f7b113faf0c871264e55b78d82b0b6f1b4886fccf41b9636430b3b2d46ec5f7",
+  "reports": {
+    "storage": {
+      "path": "docs/r4_10_storage_checks.json",
+      "sha256": "e710709a1000b61aec320ef9f4394946bea956ec18dedb1b68ea7f4a482d0d06"
+    },
+    "chapter": {
+      "path": "docs/r4_10_chapter_checks.json",
+      "sha256": "cd2ded811632c575bf51a6b98a9d5ab598e6ddeb8b055c6c5eb4157b811c6b33"
+    },
+    "sharan": {
+      "path": "docs/r4_10_sharan_checks.json",
+      "sha256": "3e9e6e9cb2ce0479066921a2f65fffed81a623ed3a01ca329bc3f1abe2f1c648"
+    },
+    "equipment": {
+      "path": "docs/r4_10_equipment_checks.json",
+      "sha256": "407f14ca58a5b2ea5a6a5ea21c54bca3d97aa7f4abb612dfcf2bb578de1fc922"
+    }
+  },
+  "runtime": {
+    "profile_schema": 6,
+    "chapter_flags": [
+      "lakius_cleared",
+      "stonemaster_cleared",
+      "statue_cleared"
+    ],
+    "no_new_reward_or_currency": true,
+    "new_PNG_or_audio": 0,
+    "strict_legacy_schemas": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "manual_retry_original_bundle_then_separate_chapter_commit": true,
+    "R_preserves_committed_history": true,
+    "verified_session_receipts_survive_R_until_committed": true,
+    "pending_only_does_not_unlock_historical_gate_or_story": true
+  },
+  "formal_guard": {
+    "each_native_suite_before_equals_after": true,
+    "suite_guards": {
+      "chapter": {
+        "before": {
+          "user://adventure/first_route_v1.json": {
+            "exists": true,
+            "sha256": "1ccde52175efc4e275009592e0b899b6322564ce63fbe511c9f3cac31d36cfdf"
+          },
+          "user://adventure/first_route_v1.json.bak": {
+            "exists": true,
+            "sha256": "3faeff8290aea5c277eb72cddf3f62731d8c460553481feb802d044d0dc52f52"
+          },
+          "user://adventure/first_route_v1.json.bak.tmp": {
+            "exists": false,
+            "sha256": ""
+          },
+          "user://adventure/first_route_v1.json.tmp": {
+            "exists": false,
+            "sha256": ""
+          }
+        },
+        "after": {
+          "user://adventure/first_route_v1.json": {
+            "exists": true,
+            "sha256": "1ccde52175efc4e275009592e0b899b6322564ce63fbe511c9f3cac31d36cfdf"
+          },
+          "user://adventure/first_route_v1.json.bak": {
+            "exists": true,
+            "sha256": "3faeff8290aea5c277eb72cddf3f62731d8c460553481feb802d044d0dc52f52"
+          },
+          "user://adventure/first_route_v1.json.bak.tmp": {
+            "exists": false,
+            "sha256": ""
+          },
+          "user://adventure/first_route_v1.json.tmp": {
+            "exists": false,
+            "sha256": ""
+          }
+        }
+      },
+      "sharan": {
+        "before": {
+          "user://adventure/first_route_v1.json": {
+            "exists": false,
+            "sha256": ""
+          },
+          "user://adventure/first_route_v1.json.bak": {
+            "exists": false,
+            "sha256": ""
+          },
+          "user://adventure/first_route_v1.json.bak.tmp": {
+            "exists": false,
+            "sha256": ""
+          },
+          "user://adventure/first_route_v1.json.tmp": {
+            "exists": false,
+            "sha256": ""
+          }
+        },
+        "after": {
+          "user://adventure/first_route_v1.json": {
+            "exists": false,
+            "sha256": ""
+          },
+          "user://adventure/first_route_v1.json.bak": {
+            "exists": false,
+            "sha256": ""
+          },
+          "user://adventure/first_route_v1.json.bak.tmp": {
+            "exists": false,
+            "sha256": ""
+          },
+          "user://adventure/first_route_v1.json.tmp": {
+            "exists": false,
+            "sha256": ""
+          }
+        }
+      },
+      "equipment": {
+        "before": {
+          "user://adventure/first_route_v1.json": {
+            "exists": false,
+            "sha256": ""
+          },
+          "user://adventure/first_route_v1.json.bak": {
+            "exists": false,
+            "sha256": ""
+          },
+          "user://adventure/first_route_v1.json.bak.tmp": {
+            "exists": false,
+            "sha256": ""
+          },
+          "user://adventure/first_route_v1.json.tmp": {
+            "exists": false,
+            "sha256": ""
+          }
+        },
+        "after": {
+          "user://adventure/first_route_v1.json": {
+            "exists": false,
+            "sha256": ""
+          },
+          "user://adventure/first_route_v1.json.bak": {
+            "exists": false,
+            "sha256": ""
+          },
+          "user://adventure/first_route_v1.json.bak.tmp": {
+            "exists": false,
+            "sha256": ""
+          },
+          "user://adventure/first_route_v1.json.tmp": {
+            "exists": false,
+            "sha256": ""
+          }
+        }
+      }
+    },
+    "fresh": {
+      "user://adventure/first_route_v1.json": {
+        "exists": true,
+        "sha256": "1ccde52175efc4e275009592e0b899b6322564ce63fbe511c9f3cac31d36cfdf"
+      },
+      "user://adventure/first_route_v1.json.bak": {
+        "exists": true,
+        "sha256": "3faeff8290aea5c277eb72cddf3f62731d8c460553481feb802d044d0dc52f52"
+      },
+      "user://adventure/first_route_v1.json.bak.tmp": {
+        "exists": false,
+        "sha256": ""
+      },
+      "user://adventure/first_route_v1.json.tmp": {
+        "exists": false,
+        "sha256": ""
+      }
+    },
+    "fresh_save_attempts": 0,
+    "note": "Earlier Sharan/equipment runs had absent human files. Before chapter QA the live environment had an existing primary/backup. Each suite guards its own interval; no claim of all-stage absence or attribution for the between-run change. Formal profile bytes are not included in the repository."
+  },
+  "fresh_state": {
+    "path": "docs/r4_10_fresh_state.json",
+    "loaded_scripts_all_disk_match": 12,
+    "physics_ticks": 60,
+    "actor_free": true,
+    "loaded_existing_formal_profile": true,
+    "save_attempts": 0
+  },
+  "qa_correction": {
+    "first_run": "r63031087-172",
+    "checks": 22,
+    "failed": 1,
+    "archive": "source_art/r4/experiments/chapter_retry_input_first_172",
+    "reason": "The first probe mistook global E save-retry for opening Lorian and captured after B. Revised QA uses real global E at a non-NPC point and captures exact A before the next process commits B. Production did not change; final run22/22 passes."
+  },
+  "not_counted_as_success": [
+    "Interrupted equipment run170 produced no report; it is not included in checks.",
+    "First chapter run172 failed one QA observation; only final173 is accepted."
+  ],
+  "quota": {
+    "used_percent": 35,
+    "remaining_percent": 65,
+    "reset_epoch": 1793293820,
+    "credits_balance": "62480.2337700000",
+    "reset_credits_used": false
+  },
+  "limits": [
+    "Uncommitted RAM receipts are not crash-persistent.",
+    "HP,combat,story and map connections are explicit prototype adaptations.",
+    "Current validation is macOS Godot4.7.2; Windows startup remains untested.",
+    "R4/11 Dogri is research only, no runtime assets or scene delivered."
+  ]
+}

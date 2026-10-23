@@ -1,0 +1,56 @@
+{
+  "candidate": "R1/15",
+  "baseline": "R1/14",
+  "failed": [],
+  "source_png_sha256": "5eb65316942a473f59d486a38c327ddb81f6cf16569f20a07e59c1c9ffb67a4d",
+  "source_frame": {
+    "texture": "res://assets/r0/port/westmobj00/image/000.png",
+    "img_frame": 0,
+    "resolved_img_frame": 0,
+    "source": {
+      "client": "95",
+      "npk": "sprite_map_hendonmyre.NPK",
+      "img": "sprite/map/hendonmyre/westmobj00.img",
+      "npk_entry_offset": 3557007,
+      "payload_bytes": 19697,
+      "sha256_img_payload": "345ca03fc407c96e9dfb4c5590c082ea33f23cb51ed402809deb269381ff9c5a",
+      "selection": "Explicit canonical NPK, no mod overlay inference"
+    },
+    "img_metadata": {
+      "type": 14,
+      "mode": 6,
+      "width": 443,
+      "height": 230,
+      "x": 0,
+      "y": 0,
+      "canvas_width": 443,
+      "canvas_height": 230,
+      "data_offset": 68,
+      "data_bytes": 19629,
+      "version": 2
+    },
+    "sha256_png": "5eb65316942a473f59d486a38c327ddb81f6cf16569f20a07e59c1c9ffb67a4d",
+    "export": "Raw RGBA crop; no resampling, retouching or palette edits"
+  },
+  "embedded_rgba_pixels": 101890,
+  "exact_source_rgba": true,
+  "alpha_cutoff": 0.25,
+  "unlit": true,
+  "nearest_without_mipmaps": true,
+  "meshes": 302,
+  "positions_compared": 197480,
+  "uv_pairs_compared": 190668,
+  "triangles_compared": 106730,
+  "node_transforms_and_hierarchy_unchanged": true,
+  "materials_changed": [
+    "Source_Painted_Stall"
+  ],
+  "unused_attributes_omitted_by_exporter": [],
+  "barrel_uv0_uses_existing_projected_uv1": true,
+  "complete_binary_chunk_identical": true,
+  "glb_sha256": "552875ca515f914e106049087c9005cfe2fdab435bda1349af85c18f3ea22dee",
+  "source_script_sha256": "d3b80d7d7103ee5166d91a851877a6b3ad256c14b0009885ea8b4e48ec05cc53",
+  "lossless_import_sidecar": "assets/r1/models/west_coast_port_000_18.png.import",
+  "lossless_import_sha256": "09fe09bd4e90e1133b1066e239a169650af1f2aba93b68198c3a5cb6b2f946bd",
+  "note": "Positions, indices, transforms and source colors stay exact. Stall shading and the barrel UV binding are corrected; projected UV values stay exact."
+}

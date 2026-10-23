@@ -1,0 +1,33 @@
+{
+  "check_script": "res://tools/r1/stall_color_checks.gd",
+  "elapsed_seconds": 0.364097,
+  "qa_source_sha256": "184f1c6e352789e5e8418f41b24b7ab419dd5b26f27e52a8019bd4c151b336cd",
+  "render_cases_completed": 2,
+  "result": {
+    "checks": 18,
+    "failed": [],
+    "render_cases": [
+      {
+        "clear_source_samples": 11078,
+        "light_color": "(1.0, 0.05, 0.02, 1.0)",
+        "light_energy": 8.0,
+        "matching": 8397,
+        "max_rgb_distance": 0.0,
+        "samples": 8397,
+        "scale": 1,
+        "transparent": 11078
+      },
+      {
+        "clear_source_samples": 11078,
+        "light_color": "(1.0, 0.05, 0.02, 1.0)",
+        "light_energy": 8.0,
+        "matching": 8397,
+        "max_rgb_distance": 0.0,
+        "samples": 8397,
+        "scale": 2,
+        "transparent": 11078
+      }
+    ]
+  },
+  "status": "complete"
+}

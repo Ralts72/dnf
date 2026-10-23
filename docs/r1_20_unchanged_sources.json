@@ -1,0 +1,176 @@
+{
+  "candidate": "R1/20",
+  "baseline": "candidate_19",
+  "files": [
+    {
+      "path": "assets/r0/effects/hopsmash/b-middle/000.png",
+      "sha256": "f6d8ba9f156237efb0f2845ca5e710ce548931cf1ee762ecb9ad0145bbc4c532"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/b-middle/000.png.import",
+      "sha256": "080eea086874fde0eb45835464ab55a142bdf055203f1121e18bad4024459a7d"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/b-middle/001.png",
+      "sha256": "f6fad4663e83b4c426d840f051aa4fb3acc3626616bf6e97422c02068229ce4a"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/b-middle/001.png.import",
+      "sha256": "1ce0a42e79e80b68a507515132600d4e213a257e58204aa28111c339656fce57"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/b-start/001.png",
+      "sha256": "f517799f9a53df2e370721adc0ed63dc5e4d9eb04ef9139f808be5c859852618"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/b-start/001.png.import",
+      "sha256": "ccfc5f69151a64737f0aede9fc5ec85b4be90eb92955efc11e35a10d47730337"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/d-end/000.png",
+      "sha256": "4aebe7773f39a6bc6e7bace0a7b9f770f008f368486212b59040a77d325ec0e2"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/d-end/000.png.import",
+      "sha256": "a5734a194c270adbab588b1fd1f680ecac530d8d5f51c24c232626a3de5140e8"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/d-end/001.png",
+      "sha256": "1c08a70ed709cebe456ab24b2f3d0a6206ad778f82ede6f3e159bcbedb9dbf89"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/d-end/001.png.import",
+      "sha256": "8fae25c5e722415632e2a1b00591743022ca7449caf5aa7543785159c80a7a33"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/d-end/002.png",
+      "sha256": "e6ba06c04b16d4bd09c4680e9d8a6622a3df04c39602906dad42fc6e0cd5d32d"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/d-end/002.png.import",
+      "sha256": "7afcc96e7ef16f0b20df12f771c54ba5838cc282653c339118d2c29db1b3f874"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/d-end/003.png",
+      "sha256": "e23b7529258cfdd5be825e4cb86a5d08c1ebfa5aecfac934d0c09444ac93c364"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/d-end/003.png.import",
+      "sha256": "5c77ecc95b4af6302ae808edb8e22354b74ac3abe61e504eae66e694b27d37a3"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/d-end/004.png",
+      "sha256": "51dfa881e21f91d4f22d1706f6869e4eb430a33f19b1b1ed70512fb2d7f8121f"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/d-end/004.png.import",
+      "sha256": "f73f94ec7d1ab6022d66dd41fcb218b43c08290bf5325e6a0a2fa4fcbcc648ad"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/d-end/005.png",
+      "sha256": "3ab6ec3e89c4eac2f7756b6360c8345e32c2c23c5dfba796321841add5023ad4"
+    },
+    {
+      "path": "assets/r0/effects/hopsmash/d-end/005.png.import",
+      "sha256": "c7d83bbf6974ba774fe59c7fb89bdad023462d2c5dda2a569394b0c4e186d4e5"
+    },
+    {
+      "path": "assets/r1/models/west_coast_port.glb",
+      "sha256": "ca75b6b591b354329266790e51d1a4bd1f2825b36379fe9f449f188b0bb9db97"
+    },
+    {
+      "path": "data/npc_lo_r0.json",
+      "sha256": "8c99388c3acd838681211d5b3d35a6684856741a7c1fd1e4d1b07afbcda35c8b"
+    },
+    {
+      "path": "data/npc_lo_r1.json",
+      "sha256": "9a3a771794a898e002afbc120bd3b381c10bfb69ea675b66ff888613b4be27cb"
+    },
+    {
+      "path": "data/npc_sr_r0.json",
+      "sha256": "0144316e68fd326a6e8ea2259c50319e6924ffea2cec3b06d58614d67def78cf"
+    },
+    {
+      "path": "data/npc_sr_r1.json",
+      "sha256": "1cceae02004eebb6cf79c8ba5ee7ec956ac65f19e7a268c1d8183234658489eb"
+    },
+    {
+      "path": "data/port_ambience.json",
+      "sha256": "790ab39777f7e5994752247bd6b8cbc482c9192a6647da7bd7c71bee0fbf6c22"
+    },
+    {
+      "path": "data/port_music.json",
+      "sha256": "ce527e75e452b9db4ffc1b1d7e565d40e41917f7b646aafec4058ea053b612df"
+    },
+    {
+      "path": "data/port_r0.json",
+      "sha256": "47e37ec1b7fff8f129b4fb5fd28c20f2b3991d95533177b58229293713616532"
+    },
+    {
+      "path": "data/swordman_audio.json",
+      "sha256": "fab2c861cb972a6615b8af0eb115fb277824565ad6654fe0517f06e784323106"
+    },
+    {
+      "path": "data/swordman_effects.json",
+      "sha256": "cb389677f0166223c3dde3a68d8a58caf41ba552f48fedd898e34ba1846605d9"
+    },
+    {
+      "path": "data/swordman_motion.json",
+      "sha256": "3523b6a3f5a2c9b7cc4164fb6a7bbeda59c0a2fa0001c5f5d215907ab2898983"
+    },
+    {
+      "path": "data/swordman_r0.json",
+      "sha256": "212544968be0554d753daac3eeb50071733e1c54cc44dd74f03c90dcc5f2f75d"
+    },
+    {
+      "path": "data/swordman_r1.json",
+      "sha256": "1c4b47cf4d2ce09a9f65a506f4f906d495f3088e2dd5d2f8e487bdb254ae4e18"
+    },
+    {
+      "path": "scripts/demo_walk_area.gd",
+      "sha256": "064fb33080c2b4cbaac83d19f60c6337ade1e0235848de7ea756ca011ba06394"
+    },
+    {
+      "path": "scripts/port_ambience.gd",
+      "sha256": "5d3094c90763ea42f54978d06265a437d672ef7757070ab198ffcabc31537363"
+    },
+    {
+      "path": "scripts/port_music.gd",
+      "sha256": "f4cf1e3819ba35eadf1cb4ab0071cb1b530ec632b524d2a59dcc1fc20183fc8a"
+    },
+    {
+      "path": "scripts/source_actor_audio.gd",
+      "sha256": "0559ac92fe0ef8ee7ed372a682df6413851809410b74f32081e413930c5beb71"
+    },
+    {
+      "path": "scripts/source_jump.gd",
+      "sha256": "5ca03ad47e0f653b1e13c23003fbfde5b5e91a7037d36dfc5aebe08e6429de0e"
+    },
+    {
+      "path": "shaders/contact_shadow.gdshader",
+      "sha256": "3f17332b0d781548bc458da34e9a25bee76e33c875e3b914a8b5da24f04b3b50"
+    },
+    {
+      "path": "shaders/harbor_water.gdshader",
+      "sha256": "4711e044b3c56853a0db09a12c2f1017b9b2956adf18b12a8cee7b2ed05f032a"
+    },
+    {
+      "path": "shaders/source_billboard.gdshader",
+      "sha256": "f82b408fb3bc9424a49e6c3735e1afbbdfb05576458b2d7f7a141b4670395934"
+    },
+    {
+      "path": "shaders/source_effect.gdshader",
+      "sha256": "13dfc50a77f07327df3beceaa5869a5faf1bf70353cc846c43f9479c7148b242"
+    },
+    {
+      "path": "source_art/r1/model_manifest.json",
+      "sha256": "191137fa7003382ba0e44a0eec7e0f63e6ede07973ff9254e93d05ea670c589e"
+    },
+    {
+      "path": "source_art/r1/west_coast_port.blend",
+      "sha256": "bc2637bc8180c8e67e902cd87b27a7dfa23b03d9032c443b5890b3285a836261"
+    }
+  ],
+  "unchanged_files": 42,
+  "note": "Source poses/effects and durations, motion/navigation/audio data, shaders, model and textures are unchanged. Only their presentation transforms and interpolation controls change."
+}

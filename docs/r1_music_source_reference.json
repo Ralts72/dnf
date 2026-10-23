@@ -1,0 +1,68 @@
+{
+  "candidate": "R1/13",
+  "client": "/Users/mac/Downloads/天堂95起源单机客户端",
+  "source": "music/westcoast_old.ogg",
+  "source_bytes": 582551,
+  "source_sha256": "fe2459e66566b1ba37f5fc8042030b518a2e5f23c1e20489c24c918ec41b16d2",
+  "source_pvf_sha256": "dc0e1acbc98b03b160e9ddb0643efdc7752cdf9c8969937507720a4ca2705c7b",
+  "map": {
+    "path": "map/hendonmyre/sky_westcoast2.map",
+    "sha256": "829daab07d11a1fab9831181d9b49485f21f15dcba245a4d4823a5dc2b98b98d",
+    "crc": {
+      "expected": 275517811,
+      "actual_seed_file_number": 275517811,
+      "actual_seed_zero": 1671184018
+    },
+    "sound_tags": [
+      "AMB_PORT_01",
+      "M_WESTCOAST"
+    ]
+  },
+  "audio_xml_sha256": "709e314f1b7be9864fa0f5bdfa133279d005b3ae83a17d8594563d003fe5c37d",
+  "tag": "M_WESTCOAST",
+  "xml_attributes": {
+    "ID": "M_WESTCOAST",
+    "FILE": "music\\westcoast_old.ogg",
+    "LOOP_DELAY": "0"
+  },
+  "original": "source_art/music/westcoast_old.ogg",
+  "runtime": "assets/r0/music/westcoast_old.ogg",
+  "runtime_bytes": 582559,
+  "runtime_sha256": "b8d9e833f380c59ffddb4fd0a335a81281f5656f6ab177fc4c97d5dc3bca8218",
+  "metadata_fix": {
+    "comments_fixed": 1,
+    "audio_packets": 2879,
+    "audio_packet_sha256": "358fcaf7b38b5247e2e8d5adc3a6f6cf6bcb587744a9fccd82fca35fa18fa742",
+    "all_noncomment_packets_identical": true
+  },
+  "duration_seconds": 35.555578,
+  "channels": 2,
+  "sample_rate": 44100,
+  "noncomment_packets": 2881,
+  "settings": {
+    "schema": 1,
+    "tag": "M_WESTCOAST",
+    "path": "res://assets/r0/music/westcoast_old.ogg",
+    "loop": true,
+    "loop_offset_seconds": 0.0,
+    "default_volume": 0.2,
+    "volume_levels": [
+      0.0,
+      0.1,
+      0.2,
+      0.4
+    ],
+    "intro_fade_seconds": 0.6,
+    "volume_fade_seconds": 0.15,
+    "source_reference": "docs/r1_music_source_reference.json",
+    "notes": [
+      "Music continues during pose/water pause and retains one player across R0/R1.",
+      "F9 mutes with a short fade, then pauses the stream at its current position.",
+      "Source tag/track selection is verified; gain, fades and UI behavior are sample choices."
+    ]
+  },
+  "notes": [
+    "Only the selected music whitelist is exported here; ambience mapping and export are recorded separately in docs/r1_ambience_source_reference.json.",
+    "Original bytes stay unchanged. The runtime copy only repairs one bare Vorbis comment."
+  ]
+}

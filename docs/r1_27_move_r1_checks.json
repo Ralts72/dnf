@@ -1,0 +1,1683 @@
+{
+  "action": "move",
+  "billboard_shader_sha256": "f82b408fb3bc9424a49e6c3735e1afbbdfb05576458b2d7f7a141b4670395934",
+  "checks": [
+    {
+      "check": "real_3d_box_in_front_preserves_cube",
+      "matching": 119,
+      "max_rgb_distance": 0.0,
+      "pass": true,
+      "samples": 119
+    },
+    {
+      "check": "real_3d_box_behind_preserves_actor",
+      "matching": 212,
+      "max_rgb_distance": 0.0,
+      "pass": true,
+      "samples": 212
+    },
+    {
+      "cases": 96,
+      "check": "all_96_real_R1_pose_cases_match",
+      "failed_cases": 0,
+      "pass": true
+    },
+    {
+      "cases": 97,
+      "check": "runtime_imports_selected_without_QA_texture_substitution",
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "failed_render_cases": [],
+  "notes": [
+    "Production walk sampler selects imported textures automatically. Expected pixels come from the independent native-bake reference.",
+    "Both source facings, both render qualities, all24 samples; opaque interior source points compared to actual R1 pixels.",
+    "Foreground/back box checks cover one representative derived pose, not every scene obstacle."
+  ],
+  "production_candidate": "R1/27",
+  "qa_source_sha256": "597aeba6f8e9ccf890d890a220f5a7cec7ece53795fa930578fcbc15442128f1",
+  "render_cases": [
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 0,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 148,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 0,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 148,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 0,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 148,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 0,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 148,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 0,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 137,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 0,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 137,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 1,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 149,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 1,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 149,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 1,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 156,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 1,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 156,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 1,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 161,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 1,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 161,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 2,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 165,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 2,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 165,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 2,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 164,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 2,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 164,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 2,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 166,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 2,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 166,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 3,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 174,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 3,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 174,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 3,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 173,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 3,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 173,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 3,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 170,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 3,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 170,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 4,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 151,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 4,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 151,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 4,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 145,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 4,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 145,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 4,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 139,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 4,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 139,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 5,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 151,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 5,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 151,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 5,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 148,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 5,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 148,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 5,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 149,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 5,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 149,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 6,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 156,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 6,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 156,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 6,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 156,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 6,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 156,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 6,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 152,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 6,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 152,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 7,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 152,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 7,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 152,
+      "scale": 1,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 7,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 153,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 7,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 153,
+      "scale": 1,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 7,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 150,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 7,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 150,
+      "scale": 1,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 0,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 148,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 0,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 148,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 0,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 148,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 0,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 148,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 0,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 137,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 0,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 137,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 1,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 149,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 1,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 149,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 1,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 156,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 1,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 156,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 1,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 161,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 1,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 161,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 2,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 165,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 2,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 165,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 2,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 164,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 2,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 164,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 2,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 166,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 2,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 166,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 3,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 174,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 3,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 174,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 3,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 173,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 3,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 173,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 3,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 170,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 3,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 170,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 4,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 151,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 4,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 151,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 4,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 145,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 4,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 145,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 4,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 139,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 4,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 139,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 5,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 151,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 5,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 151,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 5,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 148,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 5,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 148,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 5,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 149,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 5,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 149,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 6,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 156,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 6,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 156,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 6,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 156,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 6,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 156,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 6,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 152,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 6,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 152,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 7,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 152,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 7,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 152,
+      "scale": 2,
+      "subframe": 0
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 7,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 153,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 7,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 153,
+      "scale": 2,
+      "subframe": 1
+    },
+    {
+      "clipped": 0,
+      "facing": 1,
+      "frame": 7,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 150,
+      "scale": 2,
+      "subframe": 2
+    },
+    {
+      "clipped": 0,
+      "facing": -1,
+      "frame": 7,
+      "max_rgb_distance": 0.0,
+      "mismatches": 0,
+      "pass": true,
+      "samples": 150,
+      "scale": 2,
+      "subframe": 2
+    }
+  ],
+  "selection_cases": [
+    {
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_00.png",
+      "subframe": 0
+    },
+    {
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_00.png",
+      "subframe": 0
+    },
+    {
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_00_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_00_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_00_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_00_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_01.png",
+      "subframe": 0
+    },
+    {
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_01.png",
+      "subframe": 0
+    },
+    {
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_01_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_01_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_01_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_01_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_02.png",
+      "subframe": 0
+    },
+    {
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_02.png",
+      "subframe": 0
+    },
+    {
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_02_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_02_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_02_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_02_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_03.png",
+      "subframe": 0
+    },
+    {
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_03.png",
+      "subframe": 0
+    },
+    {
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_03_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_03_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_03_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_03_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_04.png",
+      "subframe": 0
+    },
+    {
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_04.png",
+      "subframe": 0
+    },
+    {
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_04_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_04_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_04_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_04_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_05.png",
+      "subframe": 0
+    },
+    {
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_05.png",
+      "subframe": 0
+    },
+    {
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_05_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_05_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_05_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_05_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_06.png",
+      "subframe": 0
+    },
+    {
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_06.png",
+      "subframe": 0
+    },
+    {
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_06_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_06_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_06_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_06_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_07.png",
+      "subframe": 0
+    },
+    {
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_07.png",
+      "subframe": 0
+    },
+    {
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_07_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_07_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_07_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_07_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_00.png",
+      "subframe": 0
+    },
+    {
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_00.png",
+      "subframe": 0
+    },
+    {
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_00_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_00_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_00_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 0,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_00_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_01.png",
+      "subframe": 0
+    },
+    {
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_01.png",
+      "subframe": 0
+    },
+    {
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_01_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_01_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_01_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 1,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_01_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_02.png",
+      "subframe": 0
+    },
+    {
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_02.png",
+      "subframe": 0
+    },
+    {
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_02_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_02_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_02_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 2,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_02_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_03.png",
+      "subframe": 0
+    },
+    {
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_03.png",
+      "subframe": 0
+    },
+    {
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_03_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_03_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_03_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 3,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_03_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_04.png",
+      "subframe": 0
+    },
+    {
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_04.png",
+      "subframe": 0
+    },
+    {
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_04_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_04_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_04_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 4,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_04_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_05.png",
+      "subframe": 0
+    },
+    {
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_05.png",
+      "subframe": 0
+    },
+    {
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_05_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_05_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_05_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 5,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_05_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_06.png",
+      "subframe": 0
+    },
+    {
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_06.png",
+      "subframe": 0
+    },
+    {
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_06_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_06_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_06_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_06_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_07.png",
+      "subframe": 0
+    },
+    {
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman/move_07.png",
+      "subframe": 0
+    },
+    {
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_07_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_07_1.png",
+      "subframe": 1
+    },
+    {
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_07_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 7,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_07_2.png",
+      "subframe": 2
+    },
+    {
+      "frame": 6,
+      "pass": true,
+      "path": "res://assets/r1/actors/swordman_walk/move_06_2.png",
+      "subframe": 2
+    }
+  ],
+  "study": "R1/27 original and derived locomotion poses on production R1 material"
+}

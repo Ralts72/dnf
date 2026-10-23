@@ -1,0 +1,44 @@
+{
+  "source_atk": {
+    "pvf_path": "monster/characterstatue/attackinfo/swordmanattack.atk",
+    "sha256_decoded": "c840d89e65cc14b74931ea491d1cb7817638bdd3ac24308c2a075451658be9ff",
+    "bytes": 117,
+    "crc": {
+      "expected": 2550966047,
+      "actual_seed_file_number": 2550966047,
+      "actual_seed_zero": 2657288162
+    },
+    "crc_matches": true,
+    "raw_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/attackinfo/swordmanattack.atk.bin",
+    "decoded_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/attackinfo/swordmanattack.atk.json"
+  },
+  "field": "[hit wav]",
+  "source_tag": "R_SM_GUE",
+  "audio_xml_sha256": "709e314f1b7be9864fa0f5bdfa133279d005b3ae83a17d8594563d003fe5c37d",
+  "xml_type": "RANDOM",
+  "random_children": [
+    {
+      "TAG": "SM_GUE_ATK_01",
+      "PROB": "50"
+    },
+    {
+      "TAG": "SM_GUE_ATK_02",
+      "PROB": "50"
+    }
+  ],
+  "resolved_xml_effects": [
+    {
+      "ID": "SM_GUE_ATK_01",
+      "FILE": "sounds\\char\\swordman\\sm_gue_01.ogg"
+    },
+    {
+      "ID": "SM_GUE_ATK_02",
+      "FILE": "sounds\\char\\swordman\\sm_gue_02.ogg"
+    }
+  ],
+  "exact_source_excerpt": "source_art/r4/swordman_statue/audio/audio_xml_exact_bindings.xml",
+  "excerpt_sha256": "c1d06318343878aa8f61e40def1f6ff9427442cf4ae618ae954dff6a5b2a1cbc",
+  "audio_exported": false,
+  "runtime_hooks_implemented": false,
+  "reason": "Source tag selects two50% files. No single branch is chosen or relabeled as a restored contact/voice; no SoundPack is opened in this bounded export."
+}

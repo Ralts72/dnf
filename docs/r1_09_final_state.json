@@ -1,0 +1,27 @@
+{
+  "actor_disk_sha256": "1c1afa14e11b7948591b088425f8a137b3e94706bf1c22c129f66fd50a1970f9",
+  "actor_loaded_sha256": "1c1afa14e11b7948591b088425f8a137b3e94706bf1c22c129f66fd50a1970f9",
+  "build": "R1   /   09",
+  "candidate": "R1/09",
+  "canopy_alpha": 2,
+  "canopy_filter": 0,
+  "canopy_shading": 0,
+  "canopy_visible": true,
+  "glb_sha256": "fccb793394d7b58ee4cdb6c0ac74243354bbbf2b1191bf71a53c5c20c1d4c350",
+  "grove_meshes": 27,
+  "jump_active": false,
+  "markers": false,
+  "meshes": 285,
+  "muted": false,
+  "paused": false,
+  "preview": false,
+  "probe_disabled": true,
+  "render_scale": 2,
+  "root_children": [
+    "_mcp_game_helper",
+    "WestCoastR1"
+  ],
+  "scene": "WestCoastR1",
+  "ui_input_blocked": false,
+  "volume": 0.6
+}

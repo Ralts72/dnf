@@ -1,0 +1,48 @@
+{
+  "candidate": "R1/29",
+  "source_ground_x_bounds": [
+    36,
+    852
+  ],
+  "horizontal_pose_radius_source_pixels": 176,
+  "source_margin_pixels": 8,
+  "horizontal_deadzone": [
+    184,
+    712
+  ],
+  "legal_edge_camera_offsets": [
+    -148,
+    140
+  ],
+  "maximum_camera_x_offset": 152,
+  "maximum_eased_camera_x_speed_pixels_per_second": 190,
+  "default_camera_offset": [
+    0,
+    12
+  ],
+  "maximum_vertical_offset": 40,
+  "source_ground_foot_anchor": [
+    133,
+    167
+  ],
+  "logical_viewport": [
+    896,
+    404
+  ],
+  "model_overscan_source_x": [
+    -160,
+    1056
+  ],
+  "model_policy": "Retain original302 mesh/material/accessor entries and binarydata; append14 mirrored edge meshes. Source .blend assembles baseline plus generated edge meshes in newbackground Blender.",
+  "rebuild_baseline": "source_art/r1/checkpoints/candidate_28",
+  "rebuild_helper": "tools/r1/preserve_overscan_model.py --capture-generated",
+  "backdrop": "Far remains horizontally fixed; R0 Far0 counteracts its canvas x shift.",
+  "padding_interpretation": "R0 floor and ship crops mirror original texels outside the previous view, not recovered complete source scenery.",
+  "navigation_or_actor_rule_changes": false,
+  "proofs": [
+    "docs/r1_29_model_geometry_checks.json",
+    "docs/r1_29_pose_bounds.json",
+    "docs/r1_29_horizontal_checks.json",
+    "docs/r1_29_horizontal_motion_checks.json"
+  ]
+}

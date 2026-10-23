@@ -1,0 +1,13 @@
+{
+  "check_script": "res://tools/r2/travel_checks.gd",
+  "elapsed_seconds": 11.814571,
+  "qa_source_sha256": "3063b7adb7b26beb352efd28ec5630075ff1efdb76e334366455641a5474b113",
+  "render_cases_completed": 4,
+  "result": {
+    "checks": 14,
+    "failed": [],
+    "recorded_rows": 1287,
+    "render_cases": 4
+  },
+  "status": "complete"
+}

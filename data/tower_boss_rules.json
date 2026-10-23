@@ -1,0 +1,144 @@
+{
+  "schema": 1,
+  "scope": "Adapted first Lakius boss. Source pixels, ANI names and durations are retained; HP, attack hit windows, AI, armor, stagger immunity and damage below are prototype tuning, not recovered client combat.",
+  "enemy": {
+    "monster_id": 71,
+    "name": "鲁卡斯",
+    "animation_data": "res://data/lakius_animations.json",
+    "audio_data": "res://data/lakius_audio.json",
+    "spawn": [
+      640,
+      300
+    ],
+    "hp": 220,
+    "walk_speed_px_s": 62,
+    "initial_wait_seconds": 0.45,
+    "normal_recovery_seconds": 0.22,
+    "hurt_seconds": 0.18,
+    "stagger_immunity_seconds": 0.25,
+    "heavy_recovery_seconds": 0.65,
+    "death_seconds": 0.75,
+    "maximum_hero_height_px": 35,
+    "knockback_px": 8,
+    "pattern": [
+      "normal",
+      "normal",
+      "heavy"
+    ],
+    "attacks": {
+      "normal": {
+        "action": "attack1",
+        "source_ani": "monster/draconian/dlani/attack.ani",
+        "source_frame_ms": [
+          80,
+          100,
+          150,
+          80
+        ],
+        "duration_ms": 410,
+        "active_ms": [
+          180,
+          330
+        ],
+        "range_px": 84,
+        "depth_px": 20,
+        "damage": 14,
+        "armor_until_ms": 0,
+        "contact_tag": "KNIFE_HIT"
+      },
+      "heavy": {
+        "action": "attackheart",
+        "source_ani": "monster/draconian/dlani/attackheart.ani",
+        "source_frame_ms": [
+          850,
+          200,
+          50
+        ],
+        "duration_ms": 1100,
+        "active_ms": [
+          850,
+          1050
+        ],
+        "range_px": 110,
+        "depth_px": 28,
+        "damage": 24,
+        "armor_until_ms": 850,
+        "contact_tag": "SLASH_HIT_03"
+      }
+    }
+  },
+  "player": {
+    "hp": 100,
+    "hurt_seconds": 0.22,
+    "knockback_px": 8,
+    "attacks": {
+      "attack1": {
+        "active_ms": [
+          150,
+          300
+        ],
+        "range_px": 100,
+        "depth_px": 24,
+        "damage": 18
+      },
+      "attack2": {
+        "active_ms": [
+          150,
+          350
+        ],
+        "range_px": 110,
+        "depth_px": 24,
+        "damage": 22
+      },
+      "attack3": {
+        "active_ms": [
+          100,
+          350
+        ],
+        "range_px": 145,
+        "depth_px": 28,
+        "damage": 30
+      },
+      "hopsmash": {
+        "active_ms": [
+          360,
+          780
+        ],
+        "range_px": 135,
+        "depth_px": 32,
+        "damage": 36
+      },
+      "jumpattack": {
+        "active_ms": [
+          60,
+          240
+        ],
+        "range_px": 90,
+        "depth_px": 24,
+        "damage": 18,
+        "maximum_height_px": 75
+      },
+      "hardattack": {
+        "active_ms": [
+          150,
+          450
+        ],
+        "range_px": 160,
+        "depth_px": 28,
+        "damage": 44
+      }
+    }
+  },
+  "notes": [
+    "Canonical source keys only: stay, move, attack1, damage1, damage2, down, moveback, sit, attacklong, attackheart. No fabricated dash/attack2/attack3 boss clips. attacklong540ms is retained in the source package but unused by this first boss AI.",
+    "Normal uses original410ms attack1; heavy uses original1100ms attackheart with its original850ms windup frame. The independent physics attack_clock defines new hit windows without editing ANI frame durations.",
+    "Attack start locks facing and ground position. One successful contact per attack instance. Heavy windup accepts HP damage but ignores knockback and hurt until850ms; active/recovery can be interrupted.",
+    "Normal hurt lasts0.18s, then0.25s ignores further stagger/knockback while still taking damage. Every heavy completion or active-phase interruption grants0.65s without pursuit or new attacks.",
+    "The red ground-plane warning is visible only during heavy windup and does not cover the vertical actor. Pause, menus, modal bag/dialog, inspection and travel freeze AI, warning and combat timers.",
+    "Hero hit shapes and200ms basic-attack buffer reuse adapted hall behavior. Successful hero hits add only profile.weapon_damage_bonus(), currently0/4, never the source item attack72.",
+    "route_hero_hp is the shared transient HP pool (max100). tower_boss_state is independent from first_encounter_state. Returning keeps HP/cleared and uses the authored safe boss spawn.",
+    "R uses WorldTravel.safe_reset, restores both HP pools and the normal/normal/heavy pattern, and never revokes historical chapter completion. This controller does not read or write profile files.",
+    "Only direct source attack-info contact tags KNIFE_HIT / SLASH_HIT_03 are played on actual successful contacts. No guessed attack/hurt/death voice dispatch.",
+    "Ghost Slash uses canonical hardattack18frames/950ms. Its150-450ms hit window,160px range,28px depth and44HP damage are explicit prototype adaptations; SourceSkillRuntime enforces the source6000ms cooldown. No original ACT hit schedule or attack formula is claimed."
+  ]
+}

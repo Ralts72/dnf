@@ -1,0 +1,54 @@
+{
+  "candidate": "R1/11",
+  "failed": [],
+  "raw_crops": [
+    {
+      "crop": "assets/r1/lamp_blue.png",
+      "exact_rgba": true,
+      "pixels": 112
+    },
+    {
+      "crop": "assets/r1/lamp_glass.png",
+      "exact_rgba": true,
+      "pixels": 120
+    },
+    {
+      "crop": "assets/r1/lamp_shaft.png",
+      "exact_rgba": true,
+      "pixels": 196
+    },
+    {
+      "crop": "assets/r1/lamp_collar.png",
+      "exact_rgba": true,
+      "pixels": 33
+    }
+  ],
+  "embedded_images": [
+    {
+      "material": "Source_Lamp_Blue",
+      "exact_rgba": true,
+      "pixels": 112
+    },
+    {
+      "material": "Source_Lamp_Glass",
+      "exact_rgba": true,
+      "pixels": 120
+    },
+    {
+      "material": "Source_Lamp_Shaft",
+      "exact_rgba": true,
+      "pixels": 196
+    },
+    {
+      "material": "Source_Lamp_Collar",
+      "exact_rgba": true,
+      "pixels": 33
+    }
+  ],
+  "source_blend_sha256": "44e4d1ee758dd762d658f4c4999170eb8824f8f0503b5051e4e987ee2bf4918a",
+  "glb_sha256": "74c2b2497b41112c691fcb8a8abe991894bee8314a9a38d2cca0844ccf9cf3c9",
+  "source_script_sha256": "8c9e05bb900bcc6cffb9c23452b517af1b1d4821d6d14286803ada94adcac7c7",
+  "mesh_objects": 302,
+  "packed_images": 27,
+  "note": "Pixels retain exact source RGBA; profiles, depth and cylindrical mapping are adapted, and native lamp lighting changes rendered RGB."
+}

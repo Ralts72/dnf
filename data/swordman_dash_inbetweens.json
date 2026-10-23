@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "action": "dash",
+  "source_frame_ms": 100,
+  "subframes": 3,
+  "cycle_ms": 800,
+  "lower_body_sample_rate_hz": 30,
+  "upper_body_source_rate_hz": 10,
+  "canvas_size": [
+    320,
+    224
+  ],
+  "foot_anchor": [
+    133,
+    167
+  ],
+  "frames": [
+    {
+      "source": "res://assets/r1/actors/swordman/dash_00.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_dash/dash_00_1.png",
+        "res://assets/r1/actors/swordman_dash/dash_00_2.png"
+      ]
+    },
+    {
+      "source": "res://assets/r1/actors/swordman/dash_01.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_dash/dash_01_1.png",
+        "res://assets/r1/actors/swordman_dash/dash_01_2.png"
+      ]
+    },
+    {
+      "source": "res://assets/r1/actors/swordman/dash_02.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_dash/dash_02_1.png",
+        "res://assets/r1/actors/swordman_dash/dash_02_2.png"
+      ]
+    },
+    {
+      "source": "res://assets/r1/actors/swordman/dash_03.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_dash/dash_03_1.png",
+        "res://assets/r1/actors/swordman_dash/dash_03_2.png"
+      ]
+    },
+    {
+      "source": "res://assets/r1/actors/swordman/dash_04.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_dash/dash_04_1.png",
+        "res://assets/r1/actors/swordman_dash/dash_04_2.png"
+      ]
+    },
+    {
+      "source": "res://assets/r1/actors/swordman/dash_05.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_dash/dash_05_1.png",
+        "res://assets/r1/actors/swordman_dash/dash_05_2.png"
+      ]
+    },
+    {
+      "source": "res://assets/r1/actors/swordman/dash_06.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_dash/dash_06_1.png",
+        "res://assets/r1/actors/swordman_dash/dash_06_2.png"
+      ]
+    },
+    {
+      "source": "res://assets/r1/actors/swordman/dash_07.png",
+      "intermediates": [
+        "res://assets/r1/actors/swordman_dash/dash_07_1.png",
+        "res://assets/r1/actors/swordman_dash/dash_07_2.png"
+      ]
+    }
+  ],
+  "notes": [
+    "Original ANI clock, source textures and190px/s running speed remain unchanged. R1 lower apparel only.",
+    "Authored source-pixel samples, not recovered original poses. R0 remains raw."
+  ]
+}

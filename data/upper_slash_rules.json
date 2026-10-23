@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "action": "upperslash",
+  "input_action": "upper_slash",
+  "prototype_key": "V",
+  "cooldown_seconds": 2.0,
+  "combat": {
+    "active_ms": [
+      100,
+      350
+    ],
+    "range_px": 110,
+    "depth_px": 26,
+    "damage": 24,
+    "damage_kind": "physical",
+    "launch_duration_seconds": 0.8,
+    "launch_height_px": 48,
+    "landing_recovery_seconds": 0.12,
+    "launch_ordinary_only": true,
+    "extend_existing_air": false
+  },
+  "source_reference": "res://docs/r4_upper_slash_source_reference.json",
+  "source": {
+    "skill_id": 46,
+    "skill_path": "skill/swordman/upperslash.skl",
+    "initial_level": 1,
+    "cooldown_ms": 2000,
+    "source_command": "Z",
+    "prototype_alias_of": "attack3",
+    "source_animation": "character/swordman/animation/attack3.ani",
+    "source_frame_count": 9,
+    "source_duration_ms": 550,
+    "original_skill_to_main_animation_dispatch_proven": false,
+    "force_to_pixel_mapping_proven": false
+  },
+  "notes": [
+    "V is an explicit prototype binding. Original Z remains the current Ghost Slash key; original normal combo attack3 and damage30 are unchanged.",
+    "One grounded free-control550ms one-shot starts the2s cooldown only after the actor accepts upperslash. No MP, superarmor, normal-attack cancel, After continuation, new FX or dedicated UpperSlash audio is implemented; existing Attack3 swing cues are explicitly reused.",
+    "Source ID46/default level1, physical weapon effect,2s cooldown and launch text are source evidence. Attack3 reuse is an explicit alias, not a recovered original skill-to-animation dispatcher. Source350 is never converted directly to pixels or HP.",
+    "Combat window100–350ms/range110/depth26/damage24 and ordinary-enemy launch0.8s/48px/landing recovery0.12s are chosen prototype rules. Bosses receive the selected damage but do not float; already airborne enemies are not extended or relaunched. Dormant/waking statue invulnerability remains owned by its encounter.",
+    "UpperSlashRuntime owns only eligibility, transient cooldown and HUD. Root combat controllers own accepted hit identities, physical damage, finite render-height lift and lifecycle cleanup; no Profile/schema/reward mutation is introduced.",
+    "Cooldown freezes for pause/menu/modal/preview/inspection/fade/transition/KO, continues through ordinary combat hurt and other actions, survives area/F4 changes, and clears on the existing R reset integration. R0 safely reads absent guard_active with equality rather than bool(null).",
+    "R4/09 playability choice:800ms/48px adapted lift allows one ordinary X follow-up after the unchanged550ms upper pose. No cancel or source350-to-pixel mapping is added."
+  ]
+}

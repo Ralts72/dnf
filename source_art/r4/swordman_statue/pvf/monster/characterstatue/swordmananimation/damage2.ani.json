@@ -1,0 +1,53 @@
+{
+  "path": "monster/characterstatue/swordmananimation/damage2.ani",
+  "crc": {
+    "expected": 225175132,
+    "actual_seed_file_number": 225175132,
+    "actual_seed_zero": 3867260498
+  },
+  "decoded": {
+    "frames_count": 1,
+    "resources": [
+      "monster/characterstatue/swordmanstatue.img"
+    ],
+    "globals": [],
+    "frames": [
+      {
+        "resource": "monster/characterstatue/swordmanstatue.img",
+        "image_frame": 34,
+        "x": -232,
+        "y": -333,
+        "boxes": [
+          {
+            "type": 14,
+            "xyz_size": [
+              -20,
+              -5,
+              -1,
+              20,
+              10,
+              101
+            ]
+          },
+          {
+            "type": 14,
+            "xyz_size": [
+              1,
+              -5,
+              0,
+              23,
+              9,
+              76
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "type": 12,
+            "value": 10000
+          }
+        ]
+      }
+    ]
+  }
+}

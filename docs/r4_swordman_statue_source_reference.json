@@ -1,0 +1,5605 @@
+{
+  "schema": 1,
+  "stage": "R4/08 isolated source actor asset preparation",
+  "created_at_utc": "2026-10-23T11:23:49.985905+00:00",
+  "producer": "tools/r4/export_swordman_statue.py",
+  "producer_sha256": "20a3feebd0e83dff8539a6dbbda8a000dcf1158a32fdfc1afb77cdd83b10a56e",
+  "client_root": "/Users/mac/Downloads/天堂95起源单机客户端",
+  "pvf_tree": {
+    "version_raw": 3755924789,
+    "tree_bytes": 52325060,
+    "file_count": 597489,
+    "unique_paths": 597489,
+    "tree_consumed": 52325059,
+    "tree_padding": 1,
+    "tree_crc_expected": 3484566826,
+    "tree_crc_actual": 3484566826,
+    "payload_bounds_errors": [],
+    "parse_error": null
+  },
+  "encoding": "Big5",
+  "identity": {
+    "monster_id": 84,
+    "source_name": "鬼劍士雕像",
+    "name_key": "name_2004",
+    "source_mob": "monster/characterstatue/swordmanstatue.mob",
+    "source_category": [
+      "[human]",
+      "[melee combat]",
+      "[close-passive]",
+      "[fort armor]"
+    ],
+    "direct_map": "map/hallofdoll/(1,2)b1823.map",
+    "original_map_monster_records": [
+      [
+        84,
+        1,
+        0,
+        1061,
+        275,
+        0,
+        1,
+        1,
+        "[fixed]",
+        "[normal]"
+      ],
+      [
+        84,
+        1,
+        0,
+        1066,
+        331,
+        0,
+        1,
+        1,
+        "[fixed]",
+        "[normal]"
+      ]
+    ],
+    "map_record_position_indices": [
+      3,
+      4
+    ],
+    "direct_map_source_positions": [
+      [
+        1061,
+        275
+      ],
+      [
+        1066,
+        331
+      ]
+    ],
+    "source_attack_info": "monster/characterstatue/attackinfo/swordmanattack.atk",
+    "source_attack_type": "magic",
+    "source_element": "dark"
+  },
+  "source_scripts": [
+    {
+      "pvf_path": "monster/characterstatue/swordmananimation/stay.ani",
+      "sha256_decoded": "d3bf345149aea5a0bbc5f6e80e2f36f763ea7f72c6b125bb0235291166513012",
+      "bytes": 129,
+      "crc": {
+        "expected": 910367332,
+        "actual_seed_file_number": 910367332,
+        "actual_seed_zero": 3971615813
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/stay.ani.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/stay.ani.json"
+    },
+    {
+      "pvf_path": "monster/characterstatue/swordmananimation/move.ani",
+      "sha256_decoded": "dc6c88257a863640c0ec89d76e58210756b991919f1530d34a15a3e22896b570",
+      "bytes": 439,
+      "crc": {
+        "expected": 3043389767,
+        "actual_seed_file_number": 3043389767,
+        "actual_seed_zero": 2026423667
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/move.ani.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/move.ani.json"
+    },
+    {
+      "pvf_path": "monster/characterstatue/swordmananimation/attack.ani",
+      "sha256_decoded": "a23494121ca57488d0ae565f744ddc08ec0bcc42122a6072cc546ff4248f0714",
+      "bytes": 1823,
+      "crc": {
+        "expected": 3775678874,
+        "actual_seed_file_number": 3775678874,
+        "actual_seed_zero": 2032178664
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/attack.ani.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/attack.ani.json"
+    },
+    {
+      "pvf_path": "monster/characterstatue/swordmananimation/damage1.ani",
+      "sha256_decoded": "930e4ce1f553251ccb842f9dd514aa80b8126cee0780c0959cb59432bc6b9028",
+      "bytes": 126,
+      "crc": {
+        "expected": 2529589123,
+        "actual_seed_file_number": 2529589123,
+        "actual_seed_zero": 792813079
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/damage1.ani.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/damage1.ani.json"
+    },
+    {
+      "pvf_path": "monster/characterstatue/swordmananimation/damage2.ani",
+      "sha256_decoded": "c6f0fe8349d97a7199697d9b8ea7a1c6f21960163aff658a10e20bc652b922de",
+      "bytes": 126,
+      "crc": {
+        "expected": 225175132,
+        "actual_seed_file_number": 225175132,
+        "actual_seed_zero": 3867260498
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/damage2.ani.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/damage2.ani.json"
+    },
+    {
+      "pvf_path": "monster/characterstatue/swordmananimation/down.ani",
+      "sha256_decoded": "00fdbcf11c36716383219f0602b025a53a420caf323608af2a1eba74e8ebd55a",
+      "bytes": 444,
+      "crc": {
+        "expected": 104875186,
+        "actual_seed_file_number": 104875186,
+        "actual_seed_zero": 3297907205
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/down.ani.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/down.ani.json"
+    },
+    {
+      "pvf_path": "monster/characterstatue/swordmananimation/wakeup.ani",
+      "sha256_decoded": "0f857e0a694dae8514b13981debde1192a2f89f05b4632ed8377867e9f33f082",
+      "bytes": 628,
+      "crc": {
+        "expected": 1944169310,
+        "actual_seed_file_number": 1944169310,
+        "actual_seed_zero": 1890708299
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/wakeup.ani.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/wakeup.ani.json"
+    },
+    {
+      "pvf_path": "monster/characterstatue/swordmananimation/overturn.ani",
+      "sha256_decoded": "ab2121bbe22ac7de8396692b878cab8ac9218ff2984185acd3cc0950686facee",
+      "bytes": 106,
+      "crc": {
+        "expected": 172635219,
+        "actual_seed_file_number": 172635219,
+        "actual_seed_zero": 3338201199
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/overturn.ani.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmananimation/overturn.ani.json"
+    },
+    {
+      "pvf_path": "monster/characterstatue/swordmanstatue.mob",
+      "sha256_decoded": "c80c0e33c506182027df5274068cfc27768954fe14488a9df8fc40660bcfd41e",
+      "bytes": 657,
+      "crc": {
+        "expected": 1542796133,
+        "actual_seed_file_number": 1542796133,
+        "actual_seed_zero": 3429152435
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmanstatue.mob.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/swordmanstatue.mob.json"
+    },
+    {
+      "pvf_path": "monster/characterstatue/attackinfo/swordmanattack.atk",
+      "sha256_decoded": "c840d89e65cc14b74931ea491d1cb7817638bdd3ac24308c2a075451658be9ff",
+      "bytes": 117,
+      "crc": {
+        "expected": 2550966047,
+        "actual_seed_file_number": 2550966047,
+        "actual_seed_zero": 2657288162
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/attackinfo/swordmanattack.atk.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/attackinfo/swordmanattack.atk.json"
+    },
+    {
+      "pvf_path": "monster/monster.lst",
+      "sha256_decoded": "e9c4a49752c1809e36e88c6b93ba32dfef3b9ae7813cdb14561b5ecfdeafb247",
+      "bytes": 29842,
+      "crc": {
+        "expected": 2775211196,
+        "actual_seed_file_number": 2775211196,
+        "actual_seed_zero": 2503935851
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/monster/monster.lst.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/monster/monster.lst.json"
+    },
+    {
+      "pvf_path": "monster/monster.kor.str",
+      "sha256_decoded": "b083b402fc49ce79ca2ca5e9ef961f69f18f91e53a4a90725e3a3c001ce98982",
+      "bytes": 105777,
+      "crc": {
+        "expected": 2305317670,
+        "actual_seed_file_number": 2305317670,
+        "actual_seed_zero": 923912519
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/monster/monster.kor.str.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/monster/monster.kor.str.json"
+    },
+    {
+      "pvf_path": "n_string.lst",
+      "sha256_decoded": "dcb2b4484b4f60dab1c784d83f6a49f1c4cdae145d158e55bd4767fe3f76909d",
+      "bytes": 262,
+      "crc": {
+        "expected": 2697374422,
+        "actual_seed_file_number": 2697374422,
+        "actual_seed_zero": 1962917806
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/n_string.lst.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/n_string.lst.json"
+    },
+    {
+      "pvf_path": "map/map.lst",
+      "sha256_decoded": "49c645e659ae5c92e877c22f1f12f7f741dda8fc14bb23964472315dbe95259e",
+      "bytes": 35172,
+      "crc": {
+        "expected": 3839206419,
+        "actual_seed_file_number": 3839206419,
+        "actual_seed_zero": 1776652307
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/map/map.lst.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/map/map.lst.json"
+    },
+    {
+      "pvf_path": "map/hallofdoll/(1,2)b1823.map",
+      "sha256_decoded": "1c9728fd19b36f4d0b9aa2336529272e782896a658dc5baae29153f37b5b2815",
+      "bytes": 1667,
+      "crc": {
+        "expected": 2902664841,
+        "actual_seed_file_number": 2902664841,
+        "actual_seed_zero": 2888683575
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/map/hallofdoll/(1,2)b1823.map.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/map/hallofdoll/(1,2)b1823.map.json"
+    },
+    {
+      "pvf_path": "dungeon/act2/hallofdoll.dgn",
+      "sha256_decoded": "1ab6575d76f880e7b84820e7b8c5dc4d4919086d70f372a8638bfd1e5db9924b",
+      "bytes": 602,
+      "crc": {
+        "expected": 1627941992,
+        "actual_seed_file_number": 1627941992,
+        "actual_seed_zero": 552447130
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/dungeon/act2/hallofdoll.dgn.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/dungeon/act2/hallofdoll.dgn.json"
+    },
+    {
+      "pvf_path": "dungeon/dungeon.kor.str",
+      "sha256_decoded": "0f66437cabc331b87b638273cc4ad3a0cf06653efef7aac42e462699e4d461ab",
+      "bytes": 49879,
+      "crc": {
+        "expected": 1819307047,
+        "actual_seed_file_number": 1819307047,
+        "actual_seed_zero": 3697869953
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/dungeon/dungeon.kor.str.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/dungeon/dungeon.kor.str.json"
+    }
+  ],
+  "actor_image_source": {
+    "npk": "sprite_monster_characterstatue.NPK",
+    "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+    "img": "sprite/monster/characterstatue/swordmanstatue.img",
+    "entry": {
+      "pack": "sprite_monster_characterstatue.NPK",
+      "path": "sprite/monster/characterstatue/swordmanstatue.img",
+      "offset": 471613,
+      "bytes": 152603,
+      "version": 2,
+      "frames": 41,
+      "index_bytes": 1476
+    },
+    "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+    "declared_IMG_frames": 41,
+    "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+  },
+  "source_crops": [
+    {
+      "texture": "res://assets/r4/swordman_statue/src/000.png",
+      "size": [
+        83,
+        133
+      ],
+      "sha256_png": "3aa6952d4c645d895fcc4d245315aaf2995f6d3b1a7f41fdc23437c24e584bd5",
+      "sha256_rgba": "b1b8698be0a56b1917e7723267b18275d0f07cb394db7e65320575f08fa7ec02",
+      "import_sidecar": "assets/r4/swordman_statue/src/000.png.import",
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 83,
+        "height": 133,
+        "x": 202,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 1508,
+        "data_bytes": 3944,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/025.png",
+      "size": [
+        84,
+        133
+      ],
+      "sha256_png": "8bdf15f8762bdced25d1c7fe43571e227389078e8aa86ad1c25bcc29c7fb2a8d",
+      "sha256_rgba": "34562606b66d5a5bc4a58da39663af8cd44d0f3a36563a2887e6afc3aea7fe4c",
+      "import_sidecar": "assets/r4/swordman_statue/src/025.png.import",
+      "img_frame": 25,
+      "resolved_img_frame": 25,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 133,
+        "x": 206,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 93003,
+        "data_bytes": 3521,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/026.png",
+      "size": [
+        84,
+        133
+      ],
+      "sha256_png": "3a6b89a671c3502f216ea21813282aba9a891e98ed855aaaaa20d31f8385f38f",
+      "sha256_rgba": "c08a481bdbfd8e7a9bf57b00ab59f3f7a27a268252f3bf8be8ed5ca6268547e9",
+      "import_sidecar": "assets/r4/swordman_statue/src/026.png.import",
+      "img_frame": 26,
+      "resolved_img_frame": 26,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 133,
+        "x": 204,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 96524,
+        "data_bytes": 3440,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/027.png",
+      "size": [
+        84,
+        133
+      ],
+      "sha256_png": "2a2f2b15c27c7fc39394f95126404c472bc49ee8ed6e8bc055d9bb686fae0fdd",
+      "sha256_rgba": "2aabc65d30afbb1410d122d5973652c8481487f9d5eba4e15f06a8e41453e405",
+      "import_sidecar": "assets/r4/swordman_statue/src/027.png.import",
+      "img_frame": 27,
+      "resolved_img_frame": 27,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 133,
+        "x": 203,
+        "y": 219,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 99964,
+        "data_bytes": 3904,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/028.png",
+      "size": [
+        84,
+        133
+      ],
+      "sha256_png": "4efe94606dd4519675e1411f836a99c7ff001781c09f5a2d0ebf898bc2194e30",
+      "sha256_rgba": "844766e6fb78773ddfc31eb8184f271fd4275511dc919fcdce5b05218b594d3c",
+      "import_sidecar": "assets/r4/swordman_statue/src/028.png.import",
+      "img_frame": 28,
+      "resolved_img_frame": 28,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 133,
+        "x": 204,
+        "y": 219,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 103868,
+        "data_bytes": 3840,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/029.png",
+      "size": [
+        84,
+        133
+      ],
+      "sha256_png": "ddc608fb9490cffdc961eff004e3ffe0964c30b4ccc654e4f407b90e12a046cc",
+      "sha256_rgba": "b9ffd7b746c901adb8986ef46d3f828a08abe0b57f37c472f20c08ec36c1ad4b",
+      "import_sidecar": "assets/r4/swordman_statue/src/029.png.import",
+      "img_frame": 29,
+      "resolved_img_frame": 29,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 133,
+        "x": 206,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 107708,
+        "data_bytes": 3558,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/030.png",
+      "size": [
+        84,
+        133
+      ],
+      "sha256_png": "38e4a47bc044938009dc9bb699ae412f4b7878f24e05114308c3231c458ace98",
+      "sha256_rgba": "a7de4f5d2536e8e5365314dfc9cc358a22edcea2776ce6d528f640a70f9ddb5d",
+      "import_sidecar": "assets/r4/swordman_statue/src/030.png.import",
+      "img_frame": 30,
+      "resolved_img_frame": 30,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 133,
+        "x": 209,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 111266,
+        "data_bytes": 3382,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/031.png",
+      "size": [
+        85,
+        133
+      ],
+      "sha256_png": "b2499cf7aa1ae8e5da49086720abaa668bdf5dbe491ffe53c71c298c9d2040ff",
+      "sha256_rgba": "b94c860462dbd3c067a1fd4c7e36dc2d9c3a7ad2d766bad1ff74ec26e5c89e86",
+      "import_sidecar": "assets/r4/swordman_statue/src/031.png.import",
+      "img_frame": 31,
+      "resolved_img_frame": 31,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 85,
+        "height": 133,
+        "x": 209,
+        "y": 219,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 114648,
+        "data_bytes": 3547,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/032.png",
+      "size": [
+        88,
+        133
+      ],
+      "sha256_png": "243d5b5d4339730ece144ad8029208bcd2e5b8d2811e0d05ec4ed700ffa40653",
+      "sha256_rgba": "5b654d97c22ea15e1d4207968ac30eb8356db8abf5e96ad305305906d71ea254",
+      "import_sidecar": "assets/r4/swordman_statue/src/032.png.import",
+      "img_frame": 32,
+      "resolved_img_frame": 32,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 88,
+        "height": 133,
+        "x": 205,
+        "y": 219,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 118195,
+        "data_bytes": 3526,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/007.png",
+      "size": [
+        97,
+        115
+      ],
+      "sha256_png": "75490a2fd6df956d1b3b767b081842aefd4772ae2ee6b95338b450fab7b108ab",
+      "sha256_rgba": "2d0efa954fcb21abd15268138342293b0f707b48700f16243d90c1ed2d88a442",
+      "import_sidecar": "assets/r4/swordman_statue/src/007.png.import",
+      "img_frame": 7,
+      "resolved_img_frame": 7,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 97,
+        "height": 115,
+        "x": 163,
+        "y": 224,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 30285,
+        "data_bytes": 4023,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/008.png",
+      "size": [
+        97,
+        115
+      ],
+      "sha256_png": "9d3aa0d84cead6258a17b7d12c301c4439831d6e8572e6dfb825ed12ee2f29df",
+      "sha256_rgba": "03680037ce30cad12ae651f12d5159658730887664a9b67fd477d87d1d6ef76d",
+      "import_sidecar": "assets/r4/swordman_statue/src/008.png.import",
+      "img_frame": 8,
+      "resolved_img_frame": 8,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 97,
+        "height": 115,
+        "x": 163,
+        "y": 224,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 34308,
+        "data_bytes": 4054,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/009.png",
+      "size": [
+        118,
+        115
+      ],
+      "sha256_png": "dfbc7b7fd2cfcb2511f82e0eabd8e011aab94036501e5b372ebe8dd54dbe7692",
+      "sha256_rgba": "7c9e24f66bf3136d7f75b75db871633832f30e49bd6b8b64edb9333224be661c",
+      "import_sidecar": "assets/r4/swordman_statue/src/009.png.import",
+      "img_frame": 9,
+      "resolved_img_frame": 9,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 118,
+        "height": 115,
+        "x": 143,
+        "y": 224,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 38362,
+        "data_bytes": 4115,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/010.png",
+      "size": [
+        93,
+        76
+      ],
+      "sha256_png": "b02d1acd4d3089c783bc0dd19f6f1483a9580a507138b41c1723febe76e6cb1e",
+      "sha256_rgba": "1c898328e75105040ae7b7b109cff4688357dc1cc0259536660744a189b8ddd0",
+      "import_sidecar": "assets/r4/swordman_statue/src/010.png.import",
+      "img_frame": 10,
+      "resolved_img_frame": 10,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 93,
+        "height": 76,
+        "x": 250,
+        "y": 263,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 42477,
+        "data_bytes": 2693,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/011.png",
+      "size": [
+        94,
+        75
+      ],
+      "sha256_png": "c2f5098d1d287106a9fab1e2b017a54025f01234f2a0b7623142115895e328b6",
+      "sha256_rgba": "90f4ccaca1e7e8055fc5d4f4a4b1daf30f69dbac6ebe32568f612d1f73877276",
+      "import_sidecar": "assets/r4/swordman_statue/src/011.png.import",
+      "img_frame": 11,
+      "resolved_img_frame": 11,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 94,
+        "height": 75,
+        "x": 250,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 45170,
+        "data_bytes": 2948,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/012.png",
+      "size": [
+        94,
+        75
+      ],
+      "sha256_png": "f535d13bb1ef0afde1d76c02c5b6f3b00e8f8dd13a42ffbc3e6960307109ea11",
+      "sha256_rgba": "7cc89d8c3725354c1808a878779ed30a65a30586c4ce97638670f8d58a098a7f",
+      "import_sidecar": "assets/r4/swordman_statue/src/012.png.import",
+      "img_frame": 12,
+      "resolved_img_frame": 12,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 94,
+        "height": 75,
+        "x": 250,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 48118,
+        "data_bytes": 3031,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/013.png",
+      "size": [
+        141,
+        75
+      ],
+      "sha256_png": "c51c58ecacac1f7ffc1d0aec4a203f19664d41e6eaba7a657b0401a811bf563e",
+      "sha256_rgba": "0d2de9ac43a1659fd0440a79ae4c7a40ccf6eb6a255555b2fa7fe0602cc996aa",
+      "import_sidecar": "assets/r4/swordman_statue/src/013.png.import",
+      "img_frame": 13,
+      "resolved_img_frame": 13,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 141,
+        "height": 75,
+        "x": 203,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 51149,
+        "data_bytes": 3703,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/014.png",
+      "size": [
+        138,
+        75
+      ],
+      "sha256_png": "0e0fc76be6e4ee40f26e0065966bc3cea59475a468e33be3221f69f1288e7938",
+      "sha256_rgba": "d3bcb13cd5f480cf58552a68d3aa28a7099d9271787acfccae0092e379f20384",
+      "import_sidecar": "assets/r4/swordman_statue/src/014.png.import",
+      "img_frame": 14,
+      "resolved_img_frame": 14,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 54852,
+        "data_bytes": 3531,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/015.png",
+      "size": [
+        138,
+        75
+      ],
+      "sha256_png": "c723f8fb6ebf27fd46c4975366279847474197ae5231e90931b5c1cb50c33d21",
+      "sha256_rgba": "c69a1ca6ba496ecab6b387dd1887831c51ac6e630153bf8b7871e1acef76d105",
+      "import_sidecar": "assets/r4/swordman_statue/src/015.png.import",
+      "img_frame": 15,
+      "resolved_img_frame": 15,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 58383,
+        "data_bytes": 3474,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/016.png",
+      "size": [
+        138,
+        75
+      ],
+      "sha256_png": "79b4aa06b3125f30a841f54cb80e78f127118cbbed99fdf9464033d5e7b0d001",
+      "sha256_rgba": "345108a1aa2264edcca9efe67b71ad38bcf918f91e4fed983ab3102257b193e1",
+      "import_sidecar": "assets/r4/swordman_statue/src/016.png.import",
+      "img_frame": 16,
+      "resolved_img_frame": 16,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 61857,
+        "data_bytes": 3504,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/017.png",
+      "size": [
+        138,
+        75
+      ],
+      "sha256_png": "29fe19a3ae2509411cd0e93e594e64d6c88e8cb2d5d5c94c7b52642ec21c3414",
+      "sha256_rgba": "462a57bcbda68957a349f95e4dc8c21b883435cc82a09f4d5b35e105d4ac362f",
+      "import_sidecar": "assets/r4/swordman_statue/src/017.png.import",
+      "img_frame": 17,
+      "resolved_img_frame": 17,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 65361,
+        "data_bytes": 3448,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/018.png",
+      "size": [
+        138,
+        75
+      ],
+      "sha256_png": "5a7aab125229ff89d1bbcb0958e07048f1a089910a333021ea5357d3417ea0e1",
+      "sha256_rgba": "d21d61e0aa15b9a7cb2a45e4c9e4b1e145ca65322979f687aa2e44a7f74594f7",
+      "import_sidecar": "assets/r4/swordman_statue/src/018.png.import",
+      "img_frame": 18,
+      "resolved_img_frame": 18,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 68809,
+        "data_bytes": 3477,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/019.png",
+      "size": [
+        138,
+        75
+      ],
+      "sha256_png": "5eee5994c130b8c43fc855fce40ded2ba966ee9be8bb997024e48c97bf86b2db",
+      "sha256_rgba": "cc3a19716e9c21f9fd487aa8a87f6868387a3add3a6f3d0c991b8b77e63c235b",
+      "import_sidecar": "assets/r4/swordman_statue/src/019.png.import",
+      "img_frame": 19,
+      "resolved_img_frame": 19,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 72286,
+        "data_bytes": 3427,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/020.png",
+      "size": [
+        138,
+        75
+      ],
+      "sha256_png": "55e2c8ba82bbba3629242c8b44ef9fbf75340e8e540357c290f4161763c646e2",
+      "sha256_rgba": "2d106b51919be5cc22463923483801c00390a22a87659eee0a7f165c31e3efcc",
+      "import_sidecar": "assets/r4/swordman_statue/src/020.png.import",
+      "img_frame": 20,
+      "resolved_img_frame": 20,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 75713,
+        "data_bytes": 3455,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/021.png",
+      "size": [
+        138,
+        75
+      ],
+      "sha256_png": "364e72543ef9e7650316ad29c9b2fad92d53a5d490d5e2ef75ce15a93f056811",
+      "sha256_rgba": "973c83fae2b6d570b9a3d14e80c1d5d287667461a8cf091dea9de413d19e1d08",
+      "import_sidecar": "assets/r4/swordman_statue/src/021.png.import",
+      "img_frame": 21,
+      "resolved_img_frame": 21,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 79168,
+        "data_bytes": 3460,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/022.png",
+      "size": [
+        138,
+        75
+      ],
+      "sha256_png": "ac306c447d807d55a29b2fb77d547f6eaef50d70f6f3ba6c55557db62365dd31",
+      "sha256_rgba": "3f6399d4dc92232eaf412e091fcea4d3d09f32c44d4b7fbc4bd73d7df626a2cb",
+      "import_sidecar": "assets/r4/swordman_statue/src/022.png.import",
+      "img_frame": 22,
+      "resolved_img_frame": 22,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 82628,
+        "data_bytes": 3482,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/023.png",
+      "size": [
+        138,
+        75
+      ],
+      "sha256_png": "523d0225e2868c974db26e6fb2f4be9f064ef935ee649748d6c8788df8ad41e4",
+      "sha256_rgba": "cbfe643b49745ae6586d88467c0fef4b45f1ebd962ade85a5f53f518db640c52",
+      "import_sidecar": "assets/r4/swordman_statue/src/023.png.import",
+      "img_frame": 23,
+      "resolved_img_frame": 23,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 86110,
+        "data_bytes": 3454,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/024.png",
+      "size": [
+        138,
+        75
+      ],
+      "sha256_png": "4127c743a2f72269dd33b2327931bd4d022c55fed0960a230963f35de0d8d80a",
+      "sha256_rgba": "001d10885eb5c299ccd65cf775ee353579b9d4c0505918c7705f5c948885a72c",
+      "import_sidecar": "assets/r4/swordman_statue/src/024.png.import",
+      "img_frame": 24,
+      "resolved_img_frame": 24,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 89564,
+        "data_bytes": 3439,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/033.png",
+      "size": [
+        84,
+        122
+      ],
+      "sha256_png": "000482afa5dbea26f18a30114b50e1b943e39818d858aaaebb95f230f09c9344",
+      "sha256_rgba": "3593b0fa51321bf8bf294b0ddcec7637985aa09556e7a9b52d53f1c110801720",
+      "import_sidecar": "assets/r4/swordman_statue/src/033.png.import",
+      "img_frame": 33,
+      "resolved_img_frame": 33,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 122,
+        "x": 195,
+        "y": 231,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 121721,
+        "data_bytes": 4078,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/034.png",
+      "size": [
+        81,
+        129
+      ],
+      "sha256_png": "94eee6fae10e4411b52dc503a5a1b48ded179cdc1a330d15241391d6fe3cc5f2",
+      "sha256_rgba": "a8707fc9ee0bd14a0bd9b21af31f03a84182cfbc2950ff6a1549f9466f32048d",
+      "import_sidecar": "assets/r4/swordman_statue/src/034.png.import",
+      "img_frame": 34,
+      "resolved_img_frame": 34,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 81,
+        "height": 129,
+        "x": 202,
+        "y": 223,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 125799,
+        "data_bytes": 4115,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/035.png",
+      "size": [
+        84,
+        122
+      ],
+      "sha256_png": "32393d427c20e48dd33ebe4131fa6d6dde5ea9c9d0f7ff357e957c83e5c4f746",
+      "sha256_rgba": "dc0fa5ac3cab51f639b8b8722e3585d78be31f7588349b18d583c64c4606c46c",
+      "import_sidecar": "assets/r4/swordman_statue/src/035.png.import",
+      "img_frame": 35,
+      "resolved_img_frame": 35,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 122,
+        "x": 195,
+        "y": 231,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 129914,
+        "data_bytes": 4087,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/036.png",
+      "size": [
+        84,
+        129
+      ],
+      "sha256_png": "69c60c67c877d8f47352cccd09dcc34f19014060715787eb98443a63eafaabcd",
+      "sha256_rgba": "c936f6e503ff82e32471d2cbfe940f37e1f772d974792039f93682db070e1066",
+      "import_sidecar": "assets/r4/swordman_statue/src/036.png.import",
+      "img_frame": 36,
+      "resolved_img_frame": 36,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 129,
+        "x": 199,
+        "y": 223,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 134001,
+        "data_bytes": 4187,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/037.png",
+      "size": [
+        123,
+        84
+      ],
+      "sha256_png": "fdd0473aee6a922a8a7e348c1b11009d60a6a899f3b11cbb0534fbbb1a155a84",
+      "sha256_rgba": "5e7585615873f043f83850b5f882184ebb42ef4f811639abc7bd8c50477f069a",
+      "import_sidecar": "assets/r4/swordman_statue/src/037.png.import",
+      "img_frame": 37,
+      "resolved_img_frame": 37,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 123,
+        "height": 84,
+        "x": 161,
+        "y": 266,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 138188,
+        "data_bytes": 3887,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/038.png",
+      "size": [
+        129,
+        84
+      ],
+      "sha256_png": "8d0bf6ba4adccb06dd46522f85bd4b4ebf4cc76a1528704493959a1e9b3b92a1",
+      "sha256_rgba": "0f7d849c6329cf3a42b61e2b5c27cc76ce2e9103ef381658398b5e24956d3d03",
+      "import_sidecar": "assets/r4/swordman_statue/src/038.png.import",
+      "img_frame": 38,
+      "resolved_img_frame": 38,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 129,
+        "height": 84,
+        "x": 160,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 142075,
+        "data_bytes": 4077,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/039.png",
+      "size": [
+        151,
+        44
+      ],
+      "sha256_png": "ff2aa91f6fc93635dee508a42e1318e1fb812fab2e5c4224aec63f68d5ed61e9",
+      "sha256_rgba": "644260af4863a222f20c6827d6ba75658d7f6d0a61d67d9f6b4f9057ca74abba",
+      "import_sidecar": "assets/r4/swordman_statue/src/039.png.import",
+      "img_frame": 39,
+      "resolved_img_frame": 39,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 151,
+        "height": 44,
+        "x": 159,
+        "y": 308,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 146152,
+        "data_bytes": 3219,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    },
+    {
+      "texture": "res://assets/r4/swordman_statue/src/040.png",
+      "size": [
+        151,
+        44
+      ],
+      "sha256_png": "1b27c59ce2a1dfdc6dcdb1acbab07462c1d36ac9a63a6f4e506d4d9bda0367e5",
+      "sha256_rgba": "b64d2bb1b852f285bb8c49a966aaea9e1d37659c5e0848efd29a2bf861918b10",
+      "import_sidecar": "assets/r4/swordman_statue/src/040.png.import",
+      "img_frame": 40,
+      "resolved_img_frame": 40,
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 151,
+        "height": 44,
+        "x": 159,
+        "y": 308,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 149371,
+        "data_bytes": 3232,
+        "version": 2
+      },
+      "source": {
+        "npk": "sprite_monster_characterstatue.NPK",
+        "sha256_npk": "472d16fb738aa3471572230738d3fc510e1c46969549631805c16d72156cdce7",
+        "img": "sprite/monster/characterstatue/swordmanstatue.img",
+        "entry": {
+          "pack": "sprite_monster_characterstatue.NPK",
+          "path": "sprite/monster/characterstatue/swordmanstatue.img",
+          "offset": 471613,
+          "bytes": 152603,
+          "version": 2,
+          "frames": 41,
+          "index_bytes": 1476
+        },
+        "sha256_img_payload": "e86f09f232473b4a4a3b518bcc01126f9f0f014c8cb8e390f8408a612126cc2e",
+        "declared_IMG_frames": 41,
+        "raw_reference": "source_art/r4/swordman_statue/img/sprite_monster_characterstatue.NPK/sprite/monster/characterstatue/swordmanstatue.img.bin"
+      },
+      "operation": "Exact complete source RGBA crop; no resize/repaint/alpha edits"
+    }
+  ],
+  "derived_composites": [
+    {
+      "action": "stay",
+      "frame": 0,
+      "texture": "res://assets/r4/swordman_statue/frames/stay/000.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "d2d018a947e2ba0e47e36066ebb8adf2d8f298d869b53a80f8328269928e55db",
+      "sha256_rgba": "f75bd451d3407493f091162c8d7b66f9cd9184dda65e531f9e0b045c50609f52",
+      "import_sidecar": "assets/r4/swordman_statue/frames/stay/000.png.import",
+      "duration_ms": 120,
+      "source_duration_ms": 120,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 83,
+        "height": 133,
+        "x": 202,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 1508,
+        "data_bytes": 3944,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -30,
+        -115
+      ],
+      "composite_paste_offset": [
+        67,
+        8
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/000.png",
+      "source_crop_rgba_sha256": "b1b8698be0a56b1917e7723267b18275d0f07cb394db7e65320575f08fa7ec02",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 120
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -17,
+            -5,
+            0,
+            30,
+            10,
+            97
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            13,
+            -3,
+            0,
+            13,
+            7,
+            73
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "move",
+      "frame": 0,
+      "texture": "res://assets/r4/swordman_statue/frames/move/000.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "a92c1298d09d8a6ee352982985af743df5333b5ca403bdd09ce93737c5497465",
+      "sha256_rgba": "7c730fd650872a5f81e486fbaaff72c51aac9e7d91f44a1fe870668a0c394e7a",
+      "import_sidecar": "assets/r4/swordman_statue/frames/move/000.png.import",
+      "duration_ms": 100,
+      "source_duration_ms": 100,
+      "img_frame": 25,
+      "resolved_img_frame": 25,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 133,
+        "x": 206,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 93003,
+        "data_bytes": 3521,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -26,
+        -115
+      ],
+      "composite_paste_offset": [
+        71,
+        8
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/025.png",
+      "source_crop_rgba_sha256": "34562606b66d5a5bc4a58da39663af8cd44d0f3a36563a2887e6afc3aea7fe4c",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 100
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -14,
+            -5,
+            0,
+            27,
+            10,
+            107
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "move",
+      "frame": 1,
+      "texture": "res://assets/r4/swordman_statue/frames/move/001.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "a8b9ae7f08fbeb787bf95a513722f87564c72629c746897b57c0a82bc5eb8bab",
+      "sha256_rgba": "2d7ab2ec9d3a756250ea7ebb0e1497880f08812b7062b565c47e63cb820f54c0",
+      "import_sidecar": "assets/r4/swordman_statue/frames/move/001.png.import",
+      "duration_ms": 100,
+      "source_duration_ms": 100,
+      "img_frame": 26,
+      "resolved_img_frame": 26,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 133,
+        "x": 204,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 96524,
+        "data_bytes": 3440,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -28,
+        -115
+      ],
+      "composite_paste_offset": [
+        69,
+        8
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/026.png",
+      "source_crop_rgba_sha256": "c08a481bdbfd8e7a9bf57b00ab59f3f7a27a268252f3bf8be8ed5ca6268547e9",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 100
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -12,
+            -5,
+            0,
+            25,
+            10,
+            107
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "move",
+      "frame": 2,
+      "texture": "res://assets/r4/swordman_statue/frames/move/002.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "2578798a7ccfbbd22c2eef38e8a08eb20bb36541edf05579c10ba1cddf064efb",
+      "sha256_rgba": "42d78a528a6db05acad9afcdc2e4418411fc19cd7df3fcf1639cc8d1b2e25a5a",
+      "import_sidecar": "assets/r4/swordman_statue/frames/move/002.png.import",
+      "duration_ms": 100,
+      "source_duration_ms": 100,
+      "img_frame": 27,
+      "resolved_img_frame": 27,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 133,
+        "x": 203,
+        "y": 219,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 99964,
+        "data_bytes": 3904,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -29,
+        -114
+      ],
+      "composite_paste_offset": [
+        68,
+        9
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/027.png",
+      "source_crop_rgba_sha256": "2aabc65d30afbb1410d122d5973652c8481487f9d5eba4e15f06a8e41453e405",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 100
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -14,
+            -5,
+            0,
+            27,
+            10,
+            107
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "move",
+      "frame": 3,
+      "texture": "res://assets/r4/swordman_statue/frames/move/003.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "0399d8f0306c93b086baa607edf34e2128197b149c1b804f9b47c00064d9c18d",
+      "sha256_rgba": "c3d009cdd1dd90a29496f46223a511d79df55c1b63107c083d0127829e7ff1e0",
+      "import_sidecar": "assets/r4/swordman_statue/frames/move/003.png.import",
+      "duration_ms": 100,
+      "source_duration_ms": 100,
+      "img_frame": 28,
+      "resolved_img_frame": 28,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 133,
+        "x": 204,
+        "y": 219,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 103868,
+        "data_bytes": 3840,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -28,
+        -114
+      ],
+      "composite_paste_offset": [
+        69,
+        9
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/028.png",
+      "source_crop_rgba_sha256": "844766e6fb78773ddfc31eb8184f271fd4275511dc919fcdce5b05218b594d3c",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 100
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -13,
+            -5,
+            0,
+            26,
+            10,
+            107
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "move",
+      "frame": 4,
+      "texture": "res://assets/r4/swordman_statue/frames/move/004.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "e497d713ab02e6594899a3ca155b261930af54e78df4b1b6d74af4990ad2802b",
+      "sha256_rgba": "b648e0fb6d27e22356361fdf1232b5bb3edf17d33c273e2b910564a60c2cce4a",
+      "import_sidecar": "assets/r4/swordman_statue/frames/move/004.png.import",
+      "duration_ms": 100,
+      "source_duration_ms": 100,
+      "img_frame": 29,
+      "resolved_img_frame": 29,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 133,
+        "x": 206,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 107708,
+        "data_bytes": 3558,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -26,
+        -115
+      ],
+      "composite_paste_offset": [
+        71,
+        8
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/029.png",
+      "source_crop_rgba_sha256": "b9ffd7b746c901adb8986ef46d3f828a08abe0b57f37c472f20c08ec36c1ad4b",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 100
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -14,
+            -5,
+            0,
+            27,
+            10,
+            107
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "move",
+      "frame": 5,
+      "texture": "res://assets/r4/swordman_statue/frames/move/005.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "eaf7aca5bf28338c72f37962ac51533edede882018bf2de0f1bfb9aeb48c1b05",
+      "sha256_rgba": "fff986e33d8dcefbeb9639789f62c98796aa1c9c3a485956899a4f7b3c8b0131",
+      "import_sidecar": "assets/r4/swordman_statue/frames/move/005.png.import",
+      "duration_ms": 100,
+      "source_duration_ms": 100,
+      "img_frame": 30,
+      "resolved_img_frame": 30,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 133,
+        "x": 209,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 111266,
+        "data_bytes": 3382,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -23,
+        -115
+      ],
+      "composite_paste_offset": [
+        74,
+        8
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/030.png",
+      "source_crop_rgba_sha256": "a7de4f5d2536e8e5365314dfc9cc358a22edcea2776ce6d528f640a70f9ddb5d",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 100
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -11,
+            -5,
+            0,
+            24,
+            10,
+            107
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "move",
+      "frame": 6,
+      "texture": "res://assets/r4/swordman_statue/frames/move/006.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "aa07ca6c5e6bfe74937afe4b04a65dc87a5147b3ee2d7937a3f82d5ef9a5baa9",
+      "sha256_rgba": "a85238c9a68527783534842123f17abd1aaba1ee99680de94a24e5e6d3f7a45f",
+      "import_sidecar": "assets/r4/swordman_statue/frames/move/006.png.import",
+      "duration_ms": 100,
+      "source_duration_ms": 100,
+      "img_frame": 31,
+      "resolved_img_frame": 31,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 85,
+        "height": 133,
+        "x": 209,
+        "y": 219,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 114648,
+        "data_bytes": 3547,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -23,
+        -114
+      ],
+      "composite_paste_offset": [
+        74,
+        9
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/031.png",
+      "source_crop_rgba_sha256": "b94c860462dbd3c067a1fd4c7e36dc2d9c3a7ad2d766bad1ff74ec26e5c89e86",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 100
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -11,
+            -5,
+            0,
+            24,
+            10,
+            107
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "move",
+      "frame": 7,
+      "texture": "res://assets/r4/swordman_statue/frames/move/007.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "db4b320fe819430447eb268d90312d932f65cc4b6de48d9579e570eee63d6327",
+      "sha256_rgba": "58be957d5c7fa04dd0946a691416ec81c254b8f853f369f4cdaf72bc301146dd",
+      "import_sidecar": "assets/r4/swordman_statue/frames/move/007.png.import",
+      "duration_ms": 100,
+      "source_duration_ms": 100,
+      "img_frame": 32,
+      "resolved_img_frame": 32,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 88,
+        "height": 133,
+        "x": 205,
+        "y": 219,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 118195,
+        "data_bytes": 3526,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -27,
+        -114
+      ],
+      "composite_paste_offset": [
+        70,
+        9
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/032.png",
+      "source_crop_rgba_sha256": "5b654d97c22ea15e1d4207968ac30eb8356db8abf5e96ad305305906d71ea254",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 100
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -13,
+            -5,
+            0,
+            26,
+            10,
+            107
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 0,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/000.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "716c90a1438b9f90e9f99c2bedc6ba0e852def6224faa6c9f32bd574e774ede9",
+      "sha256_rgba": "8ea8230017b33921b4c7dd262e5948c0cc11678fab83bf27861da8ebd0058407",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/000.png.import",
+      "duration_ms": 150,
+      "source_duration_ms": 150,
+      "img_frame": 7,
+      "resolved_img_frame": 7,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 97,
+        "height": 115,
+        "x": 163,
+        "y": 224,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 30285,
+        "data_bytes": 4023,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -69,
+        -109
+      ],
+      "composite_paste_offset": [
+        28,
+        14
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/007.png",
+      "source_crop_rgba_sha256": "2d0efa954fcb21abd15268138342293b0f707b48700f16243d90c1ed2d88a442",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 150
+        },
+        {
+          "type": 16,
+          "value": "atk_darklightning"
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -28,
+            -5,
+            0,
+            27,
+            10,
+            100
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            0,
+            -4,
+            1,
+            18,
+            7,
+            54
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 1,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/001.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "df978a83deab997e358aa2e1856fa4f7aa63f8c3be1fb1e3e5a830d91e4f9400",
+      "sha256_rgba": "4015a2eced76286b53ddaeb667eb84fcd32602d32a12e0fb32bd5f83f8fb9f59",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/001.png.import",
+      "duration_ms": 100,
+      "source_duration_ms": 100,
+      "img_frame": 8,
+      "resolved_img_frame": 8,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 97,
+        "height": 115,
+        "x": 163,
+        "y": 224,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 34308,
+        "data_bytes": 4054,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -69,
+        -109
+      ],
+      "composite_paste_offset": [
+        28,
+        14
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/008.png",
+      "source_crop_rgba_sha256": "03680037ce30cad12ae651f12d5159658730887664a9b67fd477d87d1d6ef76d",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 100
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -28,
+            -5,
+            0,
+            27,
+            10,
+            100
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            0,
+            -4,
+            1,
+            18,
+            7,
+            54
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 2,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/002.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "8990d7bf51ad89e0da8ccdf7f606ab1a92c998b9e5c2ed747ff0a304a9b73093",
+      "sha256_rgba": "9ea3fe7f0134422a38ded1f3ac2d5c72491d2ba9bde8c0eab3ae969d5adfa41e",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/002.png.import",
+      "duration_ms": 150,
+      "source_duration_ms": 150,
+      "img_frame": 9,
+      "resolved_img_frame": 9,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 118,
+        "height": 115,
+        "x": 143,
+        "y": 224,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 38362,
+        "data_bytes": 4115,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -89,
+        -109
+      ],
+      "composite_paste_offset": [
+        8,
+        14
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/009.png",
+      "source_crop_rgba_sha256": "7c9e24f66bf3136d7f75b75db871633832f30e49bd6b8b64edb9333224be661c",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 150
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -28,
+            -5,
+            0,
+            27,
+            10,
+            100
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            0,
+            -4,
+            1,
+            18,
+            7,
+            54
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 3,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/003.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "e4dace4ea379ed9e9bba808dbddd2e872fac70b71154cc95dab30ba993c526be",
+      "sha256_rgba": "a567c55201e59ec7f11d1874a8ff5337ec4f02c04feee6e0a5a2faeb0ae7262c",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/003.png.import",
+      "duration_ms": 50,
+      "source_duration_ms": 50,
+      "img_frame": 10,
+      "resolved_img_frame": 10,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 93,
+        "height": 76,
+        "x": 250,
+        "y": 263,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 42477,
+        "data_bytes": 2693,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        18,
+        -70
+      ],
+      "composite_paste_offset": [
+        115,
+        53
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/010.png",
+      "source_crop_rgba_sha256": "1c898328e75105040ae7b7b109cff4688357dc1cc0259536660744a189b8ddd0",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 50
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 15,
+          "xyz_size": [
+            -4,
+            -16,
+            -1,
+            208,
+            33,
+            81
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 4,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/004.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "18afd4db5c50c697d21c336f65797055d336db1eb8066604e3e77a1254fd20ba",
+      "sha256_rgba": "b8fd180ba209aa149aaa930198942044135475bd8e1b308f3f3f53a3a292fa70",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/004.png.import",
+      "duration_ms": 50,
+      "source_duration_ms": 50,
+      "img_frame": 11,
+      "resolved_img_frame": 11,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 94,
+        "height": 75,
+        "x": 250,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 45170,
+        "data_bytes": 2948,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        18,
+        -69
+      ],
+      "composite_paste_offset": [
+        115,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/011.png",
+      "source_crop_rgba_sha256": "90f4ccaca1e7e8055fc5d4f4a4b1daf30f69dbac6ebe32568f612d1f73877276",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 50
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 5,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/005.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "efdf50878debe6db0937a178a86c3420f4dc0878939c2cd9d605cf324c1cdf81",
+      "sha256_rgba": "45d9ce433bac5f10dcf01718e39d9e6fdf522bb504e81154b135d0d3d8150271",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/005.png.import",
+      "duration_ms": 50,
+      "source_duration_ms": 50,
+      "img_frame": 12,
+      "resolved_img_frame": 12,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 94,
+        "height": 75,
+        "x": 250,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 48118,
+        "data_bytes": 3031,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        18,
+        -69
+      ],
+      "composite_paste_offset": [
+        115,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/012.png",
+      "source_crop_rgba_sha256": "7cc89d8c3725354c1808a878779ed30a65a30586c4ce97638670f8d58a098a7f",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 50
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 6,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/006.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "d901f8d5f0301ca741d26057bbb63f8bb28c6131e4bc2e97395e4634473e09f9",
+      "sha256_rgba": "9d0cda88bf82fa96e4583c951e048c27c4d35743ca580eb48f828af2a64f5ab7",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/006.png.import",
+      "duration_ms": 50,
+      "source_duration_ms": 50,
+      "img_frame": 13,
+      "resolved_img_frame": 13,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 141,
+        "height": 75,
+        "x": 203,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 51149,
+        "data_bytes": 3703,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -29,
+        -69
+      ],
+      "composite_paste_offset": [
+        68,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/013.png",
+      "source_crop_rgba_sha256": "0d2de9ac43a1659fd0440a79ae4c7a40ccf6eb6a255555b2fa7fe0602cc996aa",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 50
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 7,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/007.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "a5f87c5cffe63f511c8f65e524ed87dc4ed0702e977eff5ab18847842c4b4f23",
+      "sha256_rgba": "1c83c564b21273594fc599d97677034d56ffd494a5bc706750a17f84c41a09f8",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/007.png.import",
+      "duration_ms": 50,
+      "source_duration_ms": 50,
+      "img_frame": 14,
+      "resolved_img_frame": 14,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 54852,
+        "data_bytes": 3531,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -26,
+        -69
+      ],
+      "composite_paste_offset": [
+        71,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/014.png",
+      "source_crop_rgba_sha256": "d3bcb13cd5f480cf58552a68d3aa28a7099d9271787acfccae0092e379f20384",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 50
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 8,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/008.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "ba23235d8db4ea38c8e9fb3c2feeb54b6d53a33712e326e49e8928100c8455ad",
+      "sha256_rgba": "fcc377cde8bc844a2156178e9d6ec04167e39d1ce6b6a28280d10952b0c87936",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/008.png.import",
+      "duration_ms": 50,
+      "source_duration_ms": 50,
+      "img_frame": 15,
+      "resolved_img_frame": 15,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 58383,
+        "data_bytes": 3474,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -26,
+        -69
+      ],
+      "composite_paste_offset": [
+        71,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/015.png",
+      "source_crop_rgba_sha256": "c69a1ca6ba496ecab6b387dd1887831c51ac6e630153bf8b7871e1acef76d105",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 50
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 9,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/009.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "32a6762278e3dc0f51c453d1959e918d715b45a0d6b5869aafa196b56f4be5a3",
+      "sha256_rgba": "88151ab7bc5f960a66b46935f25762548640789c591c286fe713c87d609a65a3",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/009.png.import",
+      "duration_ms": 50,
+      "source_duration_ms": 50,
+      "img_frame": 16,
+      "resolved_img_frame": 16,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 61857,
+        "data_bytes": 3504,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -26,
+        -69
+      ],
+      "composite_paste_offset": [
+        71,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/016.png",
+      "source_crop_rgba_sha256": "345108a1aa2264edcca9efe67b71ad38bcf918f91e4fed983ab3102257b193e1",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 50
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 10,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/010.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "4ee60f5746a1206f273495514ca06e6d182404c08ed27f00c79d43dfda8c9de7",
+      "sha256_rgba": "0b1d486d6e041730fb8df30d5b8feadfc89dfb49d4bc93ac549a2e70b365689b",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/010.png.import",
+      "duration_ms": 50,
+      "source_duration_ms": 50,
+      "img_frame": 17,
+      "resolved_img_frame": 17,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 65361,
+        "data_bytes": 3448,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -26,
+        -69
+      ],
+      "composite_paste_offset": [
+        71,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/017.png",
+      "source_crop_rgba_sha256": "462a57bcbda68957a349f95e4dc8c21b883435cc82a09f4d5b35e105d4ac362f",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 50
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 11,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/011.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "6a5f04f62ee0d042a87d8fcd98b3eedbb2e9785776d335c95d231c3673eb1a63",
+      "sha256_rgba": "a897d7bc41351f23989468f26faff27a28dfda17d917c75fa2db4423735f8c23",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/011.png.import",
+      "duration_ms": 50,
+      "source_duration_ms": 50,
+      "img_frame": 18,
+      "resolved_img_frame": 18,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 68809,
+        "data_bytes": 3477,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -26,
+        -69
+      ],
+      "composite_paste_offset": [
+        71,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/018.png",
+      "source_crop_rgba_sha256": "d21d61e0aa15b9a7cb2a45e4c9e4b1e145ca65322979f687aa2e44a7f74594f7",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 50
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 12,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/012.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "6695a284180da361823b4c099fc90d199451cdfaf9dc9d7622ebdec1ca587ed0",
+      "sha256_rgba": "7be44fde0fade09759e3b65cbd60eeb8ade5ce7470e42b7bd981ca0ba874f4e3",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/012.png.import",
+      "duration_ms": 50,
+      "source_duration_ms": 50,
+      "img_frame": 19,
+      "resolved_img_frame": 19,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 72286,
+        "data_bytes": 3427,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -26,
+        -69
+      ],
+      "composite_paste_offset": [
+        71,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/019.png",
+      "source_crop_rgba_sha256": "cc3a19716e9c21f9fd487aa8a87f6868387a3add3a6f3d0c991b8b77e63c235b",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 50
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 13,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/013.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "388df14b7bee1990228cbb25f2a94d418d40117ffd9388df87c95f55bba78bd4",
+      "sha256_rgba": "b10bba99a1152bd6c2e141f04d054b515df320ce0ad19b08be4349c16c2fac5d",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/013.png.import",
+      "duration_ms": 50,
+      "source_duration_ms": 50,
+      "img_frame": 20,
+      "resolved_img_frame": 20,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 75713,
+        "data_bytes": 3455,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -26,
+        -69
+      ],
+      "composite_paste_offset": [
+        71,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/020.png",
+      "source_crop_rgba_sha256": "2d106b51919be5cc22463923483801c00390a22a87659eee0a7f165c31e3efcc",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 50
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 14,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/014.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "d47ca0110645cfbee5c33e20265031a4f36edb46e3aa2cbfe25c786ffd1116c5",
+      "sha256_rgba": "d16a7ec231a7cb7fa4bfc438e035975bc6094a556961eec7f9b82fca8ee90ed5",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/014.png.import",
+      "duration_ms": 50,
+      "source_duration_ms": 50,
+      "img_frame": 21,
+      "resolved_img_frame": 21,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 79168,
+        "data_bytes": 3460,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -26,
+        -69
+      ],
+      "composite_paste_offset": [
+        71,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/021.png",
+      "source_crop_rgba_sha256": "973c83fae2b6d570b9a3d14e80c1d5d287667461a8cf091dea9de413d19e1d08",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 50
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 15,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/015.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "5154e7937e93c3d5bb2eb91aa8741176df92411190952aef91f6ac24b8888a2f",
+      "sha256_rgba": "fc4a34c85717eecbb5aeb91e6ea93bb1e3eee4f7314248cf08845b223899a00d",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/015.png.import",
+      "duration_ms": 50,
+      "source_duration_ms": 50,
+      "img_frame": 22,
+      "resolved_img_frame": 22,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 82628,
+        "data_bytes": 3482,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -26,
+        -69
+      ],
+      "composite_paste_offset": [
+        71,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/022.png",
+      "source_crop_rgba_sha256": "3f6399d4dc92232eaf412e091fcea4d3d09f32c44d4b7fbc4bd73d7df626a2cb",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 50
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 16,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/016.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "cd519500fcef88558f5f0448992878c342505074f49a3c279b739429fccaf301",
+      "sha256_rgba": "b3198c1c450652965f9b2682cc873150528f1fe69241beeb02b3dc70f82f8055",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/016.png.import",
+      "duration_ms": 50,
+      "source_duration_ms": 50,
+      "img_frame": 23,
+      "resolved_img_frame": 23,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 86110,
+        "data_bytes": 3454,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -26,
+        -69
+      ],
+      "composite_paste_offset": [
+        71,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/023.png",
+      "source_crop_rgba_sha256": "cbfe643b49745ae6586d88467c0fef4b45f1ebd962ade85a5f53f518db640c52",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 50
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "attack",
+      "frame": 17,
+      "texture": "res://assets/r4/swordman_statue/frames/attack/017.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "ffa6d1c02369092a57d89a8b2c6e9935e1e793609c659a4fae5fb768f14eacf5",
+      "sha256_rgba": "ad89ae36a1f8cf3a3ea083e532e19182e5abe8bd059b663f4bc08c4c9cfe7109",
+      "import_sidecar": "assets/r4/swordman_statue/frames/attack/017.png.import",
+      "duration_ms": 100,
+      "source_duration_ms": 100,
+      "img_frame": 24,
+      "resolved_img_frame": 24,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 138,
+        "height": 75,
+        "x": 206,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 89564,
+        "data_bytes": 3439,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -26,
+        -69
+      ],
+      "composite_paste_offset": [
+        71,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/024.png",
+      "source_crop_rgba_sha256": "001d10885eb5c299ccd65cf775ee353579b9d4c0505918c7705f5c948885a72c",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 100
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            71,
+            -5,
+            1,
+            36,
+            10,
+            59
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            47,
+            -4,
+            0,
+            27,
+            7,
+            41
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            20,
+            -4,
+            1,
+            29,
+            7,
+            22
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "damage1",
+      "frame": 0,
+      "texture": "res://assets/r4/swordman_statue/frames/damage1/000.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "6df511ff66e260a4fd23a016590ba0f409d8da430f8c8135626c0980e92448d8",
+      "sha256_rgba": "49ac0dd2295176db372178e42cfe3c366c491b8795ac1f3fed14e6ad5b304b5d",
+      "import_sidecar": "assets/r4/swordman_statue/frames/damage1/000.png.import",
+      "duration_ms": 10000,
+      "source_duration_ms": 10000,
+      "img_frame": 33,
+      "resolved_img_frame": 33,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 122,
+        "x": 195,
+        "y": 231,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 121721,
+        "data_bytes": 4078,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -37,
+        -102
+      ],
+      "composite_paste_offset": [
+        60,
+        21
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/033.png",
+      "source_crop_rgba_sha256": "3593b0fa51321bf8bf294b0ddcec7637985aa09556e7a9b52d53f1c110801720",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 10000
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -28,
+            -5,
+            0,
+            30,
+            10,
+            93
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            2,
+            -3,
+            1,
+            20,
+            8,
+            65
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "damage2",
+      "frame": 0,
+      "texture": "res://assets/r4/swordman_statue/frames/damage2/000.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "cdd7de38e55725e1fc999c7549b9fea46be8da29d2fb9a56b6732b3cb567d76e",
+      "sha256_rgba": "b8b0c11cfcaa4cf6086cb589662f8813615c5a6ad16bca92b834ef229d348b63",
+      "import_sidecar": "assets/r4/swordman_statue/frames/damage2/000.png.import",
+      "duration_ms": 10000,
+      "source_duration_ms": 10000,
+      "img_frame": 34,
+      "resolved_img_frame": 34,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 81,
+        "height": 129,
+        "x": 202,
+        "y": 223,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 125799,
+        "data_bytes": 4115,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -30,
+        -110
+      ],
+      "composite_paste_offset": [
+        67,
+        13
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/034.png",
+      "source_crop_rgba_sha256": "a8707fc9ee0bd14a0bd9b21af31f03a84182cfbc2950ff6a1549f9466f32048d",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 10000
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -20,
+            -5,
+            -1,
+            20,
+            10,
+            101
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            1,
+            -5,
+            0,
+            23,
+            9,
+            76
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "down",
+      "frame": 0,
+      "texture": "res://assets/r4/swordman_statue/frames/down/000.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "049bd0aecd6500fc9b9600adefb2df787572a282092a036e188eef78c4165082",
+      "sha256_rgba": "b2c7831bb67cefc63143cb8187267fd518b95ce598dc75a6a863c0a5ee60b42e",
+      "import_sidecar": "assets/r4/swordman_statue/frames/down/000.png.import",
+      "duration_ms": 80,
+      "source_duration_ms": 80,
+      "img_frame": 35,
+      "resolved_img_frame": 35,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 122,
+        "x": 195,
+        "y": 231,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 129914,
+        "data_bytes": 4087,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -37,
+        -102
+      ],
+      "composite_paste_offset": [
+        60,
+        21
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/035.png",
+      "source_crop_rgba_sha256": "dc0fa5ac3cab51f639b8b8722e3585d78be31f7588349b18d583c64c4606c46c",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 80
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -26,
+            -5,
+            0,
+            30,
+            10,
+            90
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            4,
+            -4,
+            1,
+            16,
+            9,
+            65
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "down",
+      "frame": 1,
+      "texture": "res://assets/r4/swordman_statue/frames/down/001.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "97fb332f15304fb23792199127843a38319d706a89fb1fadc43ce2ccbdb7583e",
+      "sha256_rgba": "e6b679200900d8b85991bb8bb6692675fc22f75a47424edc10b4b1b2036592a1",
+      "import_sidecar": "assets/r4/swordman_statue/frames/down/001.png.import",
+      "duration_ms": 80,
+      "source_duration_ms": 80,
+      "img_frame": 36,
+      "resolved_img_frame": 36,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 84,
+        "height": 129,
+        "x": 199,
+        "y": 223,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 134001,
+        "data_bytes": 4187,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -33,
+        -110
+      ],
+      "composite_paste_offset": [
+        64,
+        13
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/036.png",
+      "source_crop_rgba_sha256": "c936f6e503ff82e32471d2cbfe940f37e1f772d974792039f93682db070e1066",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 80
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -23,
+            -5,
+            0,
+            21,
+            10,
+            100
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            -2,
+            -3,
+            1,
+            24,
+            7,
+            77
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "down",
+      "frame": 2,
+      "texture": "res://assets/r4/swordman_statue/frames/down/002.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "dc03057f6059ba30dfe71e1e7b0703cd77d64e8c27ffb82c64e2e485c2fe04c4",
+      "sha256_rgba": "3780175b5761dacd3d5598bb185cb122e11a8c27331f4b2ba73354be80971f47",
+      "import_sidecar": "assets/r4/swordman_statue/frames/down/002.png.import",
+      "duration_ms": 100,
+      "source_duration_ms": 100,
+      "img_frame": 37,
+      "resolved_img_frame": 37,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 123,
+        "height": 84,
+        "x": 161,
+        "y": 266,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 138188,
+        "data_bytes": 3887,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -71,
+        -67
+      ],
+      "composite_paste_offset": [
+        26,
+        56
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/037.png",
+      "source_crop_rgba_sha256": "5e7585615873f043f83850b5f882184ebb42ef4f811639abc7bd8c50477f069a",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 100
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -57,
+            -5,
+            0,
+            85,
+            10,
+            26
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            -37,
+            -5,
+            23,
+            64,
+            8,
+            20
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "down",
+      "frame": 3,
+      "texture": "res://assets/r4/swordman_statue/frames/down/003.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "3a9c9fc8f0c3695bee3c1e16294c5291aafebcf8087ff6f38c4b7281559bc584",
+      "sha256_rgba": "fe80a37e101ae059f156c9e2e7519c7032fe21827ab7142675bfd904ffdcf3fb",
+      "import_sidecar": "assets/r4/swordman_statue/frames/down/003.png.import",
+      "duration_ms": 100,
+      "source_duration_ms": 100,
+      "img_frame": 38,
+      "resolved_img_frame": 38,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 129,
+        "height": 84,
+        "x": 160,
+        "y": 264,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 142075,
+        "data_bytes": 4077,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -72,
+        -69
+      ],
+      "composite_paste_offset": [
+        25,
+        54
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/038.png",
+      "source_crop_rgba_sha256": "0f7d849c6329cf3a42b61e2b5c27cc76ce2e9103ef381658398b5e24956d3d03",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 100
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -64,
+            -5,
+            -1,
+            100,
+            10,
+            19
+          ]
+        },
+        {
+          "type": 14,
+          "xyz_size": [
+            -44,
+            -3,
+            16,
+            81,
+            6,
+            20
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "down",
+      "frame": 4,
+      "texture": "res://assets/r4/swordman_statue/frames/down/004.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "8be23049a915a122c0203c7e105972eba26560c43df55417ede1d15fb1c46d22",
+      "sha256_rgba": "b80a7fbbc78380fdfc1709bca223f964f5c141660713b750d2af4e0397bd4914",
+      "import_sidecar": "assets/r4/swordman_statue/frames/down/004.png.import",
+      "duration_ms": 70,
+      "source_duration_ms": 70,
+      "img_frame": 39,
+      "resolved_img_frame": 39,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 151,
+        "height": 44,
+        "x": 159,
+        "y": 308,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 146152,
+        "data_bytes": 3219,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -73,
+        -25
+      ],
+      "composite_paste_offset": [
+        24,
+        98
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/039.png",
+      "source_crop_rgba_sha256": "644260af4863a222f20c6827d6ba75658d7f6d0a61d67d9f6b4f9057ca74abba",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 70
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -59,
+            -5,
+            0,
+            98,
+            10,
+            4
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "down",
+      "frame": 5,
+      "texture": "res://assets/r4/swordman_statue/frames/down/005.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "3fd831b12ef9cb26ba4b9ba875fff4328890f6d17497795d4b9d27ec90ce816d",
+      "sha256_rgba": "14761974fc91916125ce20e9ce744246a15f3c01aa254d0eb3527ae2976f55eb",
+      "import_sidecar": "assets/r4/swordman_statue/frames/down/005.png.import",
+      "duration_ms": 430,
+      "source_duration_ms": 430,
+      "img_frame": 40,
+      "resolved_img_frame": 40,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 151,
+        "height": 44,
+        "x": 159,
+        "y": 308,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 149371,
+        "data_bytes": 3232,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -73,
+        -25
+      ],
+      "composite_paste_offset": [
+        24,
+        98
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/040.png",
+      "source_crop_rgba_sha256": "b64d2bb1b852f285bb8c49a966aaea9e1d37659c5e0848efd29a2bf861918b10",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 430
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -59,
+            -5,
+            0,
+            98,
+            10,
+            4
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "wakeup",
+      "frame": 0,
+      "texture": "res://assets/r4/swordman_statue/frames/wakeup/000.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "76039d88295cc56110dc1d1105716b9fa6d3e670f0f16b941d960e87d5cdd99b",
+      "sha256_rgba": "ddd22b3b9b501126a30820c9333a4c734f81a88c7befe492d53dc9ea4fb62214",
+      "import_sidecar": "assets/r4/swordman_statue/frames/wakeup/000.png.import",
+      "duration_ms": 200,
+      "source_duration_ms": 200,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "ani_offset": [
+        -233,
+        -331
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 83,
+        "height": 133,
+        "x": 202,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 1508,
+        "data_bytes": 3944,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -31,
+        -113
+      ],
+      "composite_paste_offset": [
+        66,
+        10
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/000.png",
+      "source_crop_rgba_sha256": "b1b8698be0a56b1917e7723267b18275d0f07cb394db7e65320575f08fa7ec02",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 200
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -27,
+            -10,
+            0,
+            51,
+            20,
+            105
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "wakeup",
+      "frame": 1,
+      "texture": "res://assets/r4/swordman_statue/frames/wakeup/001.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "951cdff24082f9312784d3c9ad04dd3ebf22a2bc72adffbd5bfc92ff12f9401e",
+      "sha256_rgba": "cb7deb9da01cdf135127cfb0aa3ec1d7221320f408bc0b5219b6cb3f316c1642",
+      "import_sidecar": "assets/r4/swordman_statue/frames/wakeup/001.png.import",
+      "duration_ms": 200,
+      "source_duration_ms": 200,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "ani_offset": [
+        -235,
+        -331
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 83,
+        "height": 133,
+        "x": 202,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 1508,
+        "data_bytes": 3944,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -33,
+        -113
+      ],
+      "composite_paste_offset": [
+        64,
+        10
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/000.png",
+      "source_crop_rgba_sha256": "b1b8698be0a56b1917e7723267b18275d0f07cb394db7e65320575f08fa7ec02",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 200
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -27,
+            -10,
+            0,
+            51,
+            20,
+            105
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "wakeup",
+      "frame": 2,
+      "texture": "res://assets/r4/swordman_statue/frames/wakeup/002.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "76039d88295cc56110dc1d1105716b9fa6d3e670f0f16b941d960e87d5cdd99b",
+      "sha256_rgba": "ddd22b3b9b501126a30820c9333a4c734f81a88c7befe492d53dc9ea4fb62214",
+      "import_sidecar": "assets/r4/swordman_statue/frames/wakeup/002.png.import",
+      "duration_ms": 200,
+      "source_duration_ms": 200,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "ani_offset": [
+        -233,
+        -331
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 83,
+        "height": 133,
+        "x": 202,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 1508,
+        "data_bytes": 3944,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -31,
+        -113
+      ],
+      "composite_paste_offset": [
+        66,
+        10
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/000.png",
+      "source_crop_rgba_sha256": "b1b8698be0a56b1917e7723267b18275d0f07cb394db7e65320575f08fa7ec02",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 200
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -27,
+            -10,
+            0,
+            51,
+            20,
+            105
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "wakeup",
+      "frame": 3,
+      "texture": "res://assets/r4/swordman_statue/frames/wakeup/003.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "951cdff24082f9312784d3c9ad04dd3ebf22a2bc72adffbd5bfc92ff12f9401e",
+      "sha256_rgba": "cb7deb9da01cdf135127cfb0aa3ec1d7221320f408bc0b5219b6cb3f316c1642",
+      "import_sidecar": "assets/r4/swordman_statue/frames/wakeup/003.png.import",
+      "duration_ms": 200,
+      "source_duration_ms": 200,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "ani_offset": [
+        -235,
+        -331
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 83,
+        "height": 133,
+        "x": 202,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 1508,
+        "data_bytes": 3944,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -33,
+        -113
+      ],
+      "composite_paste_offset": [
+        64,
+        10
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/000.png",
+      "source_crop_rgba_sha256": "b1b8698be0a56b1917e7723267b18275d0f07cb394db7e65320575f08fa7ec02",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 200
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -27,
+            -10,
+            0,
+            51,
+            20,
+            105
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "wakeup",
+      "frame": 4,
+      "texture": "res://assets/r4/swordman_statue/frames/wakeup/004.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "76039d88295cc56110dc1d1105716b9fa6d3e670f0f16b941d960e87d5cdd99b",
+      "sha256_rgba": "ddd22b3b9b501126a30820c9333a4c734f81a88c7befe492d53dc9ea4fb62214",
+      "import_sidecar": "assets/r4/swordman_statue/frames/wakeup/004.png.import",
+      "duration_ms": 200,
+      "source_duration_ms": 200,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "ani_offset": [
+        -233,
+        -331
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 83,
+        "height": 133,
+        "x": 202,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 1508,
+        "data_bytes": 3944,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -31,
+        -113
+      ],
+      "composite_paste_offset": [
+        66,
+        10
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/000.png",
+      "source_crop_rgba_sha256": "b1b8698be0a56b1917e7723267b18275d0f07cb394db7e65320575f08fa7ec02",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 200
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -27,
+            -10,
+            0,
+            51,
+            20,
+            105
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "wakeup",
+      "frame": 5,
+      "texture": "res://assets/r4/swordman_statue/frames/wakeup/005.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "951cdff24082f9312784d3c9ad04dd3ebf22a2bc72adffbd5bfc92ff12f9401e",
+      "sha256_rgba": "cb7deb9da01cdf135127cfb0aa3ec1d7221320f408bc0b5219b6cb3f316c1642",
+      "import_sidecar": "assets/r4/swordman_statue/frames/wakeup/005.png.import",
+      "duration_ms": 200,
+      "source_duration_ms": 200,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "ani_offset": [
+        -235,
+        -331
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 83,
+        "height": 133,
+        "x": 202,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 1508,
+        "data_bytes": 3944,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -33,
+        -113
+      ],
+      "composite_paste_offset": [
+        64,
+        10
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/000.png",
+      "source_crop_rgba_sha256": "b1b8698be0a56b1917e7723267b18275d0f07cb394db7e65320575f08fa7ec02",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 200
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -27,
+            -10,
+            0,
+            51,
+            20,
+            105
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "wakeup",
+      "frame": 6,
+      "texture": "res://assets/r4/swordman_statue/frames/wakeup/006.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "76039d88295cc56110dc1d1105716b9fa6d3e670f0f16b941d960e87d5cdd99b",
+      "sha256_rgba": "ddd22b3b9b501126a30820c9333a4c734f81a88c7befe492d53dc9ea4fb62214",
+      "import_sidecar": "assets/r4/swordman_statue/frames/wakeup/006.png.import",
+      "duration_ms": 200,
+      "source_duration_ms": 200,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "ani_offset": [
+        -233,
+        -331
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 83,
+        "height": 133,
+        "x": 202,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 1508,
+        "data_bytes": 3944,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -31,
+        -113
+      ],
+      "composite_paste_offset": [
+        66,
+        10
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/000.png",
+      "source_crop_rgba_sha256": "b1b8698be0a56b1917e7723267b18275d0f07cb394db7e65320575f08fa7ec02",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 200
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -27,
+            -10,
+            0,
+            51,
+            20,
+            105
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "wakeup",
+      "frame": 7,
+      "texture": "res://assets/r4/swordman_statue/frames/wakeup/007.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "951cdff24082f9312784d3c9ad04dd3ebf22a2bc72adffbd5bfc92ff12f9401e",
+      "sha256_rgba": "cb7deb9da01cdf135127cfb0aa3ec1d7221320f408bc0b5219b6cb3f316c1642",
+      "import_sidecar": "assets/r4/swordman_statue/frames/wakeup/007.png.import",
+      "duration_ms": 200,
+      "source_duration_ms": 200,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "ani_offset": [
+        -235,
+        -331
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 83,
+        "height": 133,
+        "x": 202,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 1508,
+        "data_bytes": 3944,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -33,
+        -113
+      ],
+      "composite_paste_offset": [
+        64,
+        10
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/000.png",
+      "source_crop_rgba_sha256": "b1b8698be0a56b1917e7723267b18275d0f07cb394db7e65320575f08fa7ec02",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 200
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -27,
+            -10,
+            0,
+            51,
+            20,
+            105
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "wakeup",
+      "frame": 8,
+      "texture": "res://assets/r4/swordman_statue/frames/wakeup/008.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "76039d88295cc56110dc1d1105716b9fa6d3e670f0f16b941d960e87d5cdd99b",
+      "sha256_rgba": "ddd22b3b9b501126a30820c9333a4c734f81a88c7befe492d53dc9ea4fb62214",
+      "import_sidecar": "assets/r4/swordman_statue/frames/wakeup/008.png.import",
+      "duration_ms": 200,
+      "source_duration_ms": 200,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "ani_offset": [
+        -233,
+        -331
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 83,
+        "height": 133,
+        "x": 202,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 1508,
+        "data_bytes": 3944,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -31,
+        -113
+      ],
+      "composite_paste_offset": [
+        66,
+        10
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/000.png",
+      "source_crop_rgba_sha256": "b1b8698be0a56b1917e7723267b18275d0f07cb394db7e65320575f08fa7ec02",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 200
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -27,
+            -10,
+            0,
+            51,
+            20,
+            105
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "wakeup",
+      "frame": 9,
+      "texture": "res://assets/r4/swordman_statue/frames/wakeup/009.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "951cdff24082f9312784d3c9ad04dd3ebf22a2bc72adffbd5bfc92ff12f9401e",
+      "sha256_rgba": "cb7deb9da01cdf135127cfb0aa3ec1d7221320f408bc0b5219b6cb3f316c1642",
+      "import_sidecar": "assets/r4/swordman_statue/frames/wakeup/009.png.import",
+      "duration_ms": 200,
+      "source_duration_ms": 200,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "ani_offset": [
+        -235,
+        -331
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 83,
+        "height": 133,
+        "x": 202,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 1508,
+        "data_bytes": 3944,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -33,
+        -113
+      ],
+      "composite_paste_offset": [
+        64,
+        10
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/000.png",
+      "source_crop_rgba_sha256": "b1b8698be0a56b1917e7723267b18275d0f07cb394db7e65320575f08fa7ec02",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 200
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -27,
+            -10,
+            0,
+            51,
+            20,
+            105
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "wakeup",
+      "frame": 10,
+      "texture": "res://assets/r4/swordman_statue/frames/wakeup/010.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "76039d88295cc56110dc1d1105716b9fa6d3e670f0f16b941d960e87d5cdd99b",
+      "sha256_rgba": "ddd22b3b9b501126a30820c9333a4c734f81a88c7befe492d53dc9ea4fb62214",
+      "import_sidecar": "assets/r4/swordman_statue/frames/wakeup/010.png.import",
+      "duration_ms": 200,
+      "source_duration_ms": 200,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "ani_offset": [
+        -233,
+        -331
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 83,
+        "height": 133,
+        "x": 202,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 1508,
+        "data_bytes": 3944,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -31,
+        -113
+      ],
+      "composite_paste_offset": [
+        66,
+        10
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/000.png",
+      "source_crop_rgba_sha256": "b1b8698be0a56b1917e7723267b18275d0f07cb394db7e65320575f08fa7ec02",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 200
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -27,
+            -10,
+            0,
+            51,
+            20,
+            105
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "wakeup",
+      "frame": 11,
+      "texture": "res://assets/r4/swordman_statue/frames/wakeup/011.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "951cdff24082f9312784d3c9ad04dd3ebf22a2bc72adffbd5bfc92ff12f9401e",
+      "sha256_rgba": "cb7deb9da01cdf135127cfb0aa3ec1d7221320f408bc0b5219b6cb3f316c1642",
+      "import_sidecar": "assets/r4/swordman_statue/frames/wakeup/011.png.import",
+      "duration_ms": 200,
+      "source_duration_ms": 200,
+      "img_frame": 0,
+      "resolved_img_frame": 0,
+      "ani_offset": [
+        -235,
+        -331
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 83,
+        "height": 133,
+        "x": 202,
+        "y": 218,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 1508,
+        "data_bytes": 3944,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -33,
+        -113
+      ],
+      "composite_paste_offset": [
+        64,
+        10
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/000.png",
+      "source_crop_rgba_sha256": "b1b8698be0a56b1917e7723267b18275d0f07cb394db7e65320575f08fa7ec02",
+      "source_properties": [
+        {
+          "type": 12,
+          "value": 200
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -27,
+            -10,
+            0,
+            51,
+            20,
+            105
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    },
+    {
+      "action": "overturn",
+      "frame": 0,
+      "texture": "res://assets/r4/swordman_statue/frames/overturn/000.png",
+      "size": [
+        217,
+        151
+      ],
+      "sha256_png": "3fd831b12ef9cb26ba4b9ba875fff4328890f6d17497795d4b9d27ec90ce816d",
+      "sha256_rgba": "14761974fc91916125ce20e9ce744246a15f3c01aa254d0eb3527ae2976f55eb",
+      "import_sidecar": "assets/r4/swordman_statue/frames/overturn/000.png.import",
+      "duration_ms": 500,
+      "source_duration_ms": 500,
+      "img_frame": 40,
+      "resolved_img_frame": 40,
+      "ani_offset": [
+        -232,
+        -333
+      ],
+      "img_metadata": {
+        "type": 14,
+        "mode": 6,
+        "width": 151,
+        "height": 44,
+        "x": 159,
+        "y": 308,
+        "canvas_width": 500,
+        "canvas_height": 500,
+        "data_offset": 149371,
+        "data_bytes": 3232,
+        "version": 2
+      },
+      "logical_crop_offset": [
+        -73,
+        -25
+      ],
+      "composite_paste_offset": [
+        24,
+        98
+      ],
+      "source_crop": "res://assets/r4/swordman_statue/src/040.png",
+      "source_crop_rgba_sha256": "b64d2bb1b852f285bb8c49a966aaea9e1d37659c5e0848efd29a2bf861918b10",
+      "source_properties": [
+        {
+          "type": 8,
+          "value": 3.1415929794311523
+        },
+        {
+          "type": 12,
+          "value": 500
+        }
+      ],
+      "source_boxes": [
+        {
+          "type": 14,
+          "xyz_size": [
+            -59,
+            -5,
+            0,
+            98,
+            10,
+            4
+          ]
+        }
+      ],
+      "derived_artifact": true,
+      "operation": "Unmasked source RGBA copy on shared transparent canvas; ANI properties retained as metadata"
+    }
+  ],
+  "canvas_size": [
+    217,
+    151
+  ],
+  "foot_anchor": [
+    97,
+    123
+  ],
+  "full_RGBA_crop_union_relative_to_source_foot": [
+    -89,
+    -115,
+    112,
+    20
+  ],
+  "source_action_keys": [
+    "stay",
+    "move",
+    "attack",
+    "damage1",
+    "damage2",
+    "down",
+    "wakeup",
+    "overturn"
+  ],
+  "runtime_action_keys": [
+    "stay",
+    "move",
+    "attack",
+    "damage1",
+    "damage2",
+    "down",
+    "wakeup",
+    "overturn"
+  ],
+  "action_clocks": {
+    "stay": {
+      "records": 1,
+      "duration_ms": [
+        120
+      ],
+      "total_ms": 120
+    },
+    "move": {
+      "records": 8,
+      "duration_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "total_ms": 800
+    },
+    "attack": {
+      "records": 18,
+      "duration_ms": [
+        150,
+        100,
+        150,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        100
+      ],
+      "total_ms": 1200
+    },
+    "damage1": {
+      "records": 1,
+      "duration_ms": [
+        10000
+      ],
+      "total_ms": 10000
+    },
+    "damage2": {
+      "records": 1,
+      "duration_ms": [
+        10000
+      ],
+      "total_ms": 10000
+    },
+    "down": {
+      "records": 6,
+      "duration_ms": [
+        80,
+        80,
+        100,
+        100,
+        70,
+        430
+      ],
+      "total_ms": 860
+    },
+    "wakeup": {
+      "records": 12,
+      "duration_ms": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "total_ms": 2400
+    },
+    "overturn": {
+      "records": 1,
+      "duration_ms": [
+        500
+      ],
+      "total_ms": 500
+    }
+  },
+  "unimplemented_source_events": [
+    {
+      "action": "attack",
+      "frame": 0,
+      "property": {
+        "type": 16,
+        "value": "atk_darklightning"
+      }
+    },
+    {
+      "action": "overturn",
+      "frame": 0,
+      "property": {
+        "type": 8,
+        "value": 3.1415929794311523
+      }
+    }
+  ],
+  "audio": {
+    "source_atk": {
+      "pvf_path": "monster/characterstatue/attackinfo/swordmanattack.atk",
+      "sha256_decoded": "c840d89e65cc14b74931ea491d1cb7817638bdd3ac24308c2a075451658be9ff",
+      "bytes": 117,
+      "crc": {
+        "expected": 2550966047,
+        "actual_seed_file_number": 2550966047,
+        "actual_seed_zero": 2657288162
+      },
+      "crc_matches": true,
+      "raw_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/attackinfo/swordmanattack.atk.bin",
+      "decoded_reference": "source_art/r4/swordman_statue/pvf/monster/characterstatue/attackinfo/swordmanattack.atk.json"
+    },
+    "field": "[hit wav]",
+    "source_tag": "R_SM_GUE",
+    "audio_xml_sha256": "709e314f1b7be9864fa0f5bdfa133279d005b3ae83a17d8594563d003fe5c37d",
+    "xml_type": "RANDOM",
+    "random_children": [
+      {
+        "TAG": "SM_GUE_ATK_01",
+        "PROB": "50"
+      },
+      {
+        "TAG": "SM_GUE_ATK_02",
+        "PROB": "50"
+      }
+    ],
+    "resolved_xml_effects": [
+      {
+        "ID": "SM_GUE_ATK_01",
+        "FILE": "sounds\\char\\swordman\\sm_gue_01.ogg"
+      },
+      {
+        "ID": "SM_GUE_ATK_02",
+        "FILE": "sounds\\char\\swordman\\sm_gue_02.ogg"
+      }
+    ],
+    "exact_source_excerpt": "source_art/r4/swordman_statue/audio/audio_xml_exact_bindings.xml",
+    "excerpt_sha256": "c1d06318343878aa8f61e40def1f6ff9427442cf4ae618ae954dff6a5b2a1cbc",
+    "audio_exported": false,
+    "runtime_hooks_implemented": false,
+    "reason": "Source tag selects two50% files. No single branch is chosen or relabeled as a restored contact/voice; no SoundPack is opened in this bounded export."
+  },
+  "runtime_output": {
+    "path": "data/swordman_statue_r1.json",
+    "sha256": "0ab5e132c00b4acd229d1f0d0a36e2f950f74e8854c57a01b610a6cc6d5b99ce",
+    "export_sha256": "755f06c1df288bc1bd629ab981a9d305d1d58a6310e16568172bda5b789317d4"
+  },
+  "import_policy": {
+    "PNG": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "false",
+      "process/premult_alpha": "false",
+      "detect_3d/compress_to": "0"
+    },
+    "sampling": "Nearest in source actor runtime",
+    "scoped_only": true
+  },
+  "verification": {
+    "CRC_verified_source_payloads": 17,
+    "source_IMG_archives": 1,
+    "source_crops": 35,
+    "composite_records": 48,
+    "total_PNGs": 83,
+    "all_source_crop_RGBA_exact": true,
+    "all_composites_reverse_crop_RGBA_exact": true,
+    "all_PNG_roundtrips_exact": true,
+    "all_full_crops_minimum8px_canvas_margin": true,
+    "long_holds_preserved": true,
+    "wakeup_12_by200ms_offsets_preserved": true,
+    "audio_exported": false,
+    "Godot_native_import_or_playback_tested": false
+  },
+  "runtime_hooks_implemented": true,
+  "notes": [
+    "Eight original source action keys stay/move/attack/damage1/damage2/down/wakeup/overturn retain48 records. No attack1 alias, HardAttack effect action or invented frame is added.",
+    "WakeUp is12×200ms=2400ms, alternating original ANI X offsets−233/−235 and Y−331. Shared IMG0 is copied at every original offset: no static replacement, speedup or shake removal.",
+    "Canvas217×151/foot97,123 is the minimum axis-aligned union of complete selected RGBA crop rectangles plus exactly8px padding on each side. Source logical-foot anchor is retained; visible crop pixels may extend20px below it. No resize/repaint/resampling or transparent-RGB edit.",
+    "Source SwordmanAttack.atk is MAGIC with DARK element, not physical. Damage reaction/down, source push/lift values and fort-armor category remain evidence, not implemented formulas, armor or runtime damage rules.",
+    "Attack frame0 source property16 atk_darklightning is retained without executing or guessing its dispatcher/FX. Overturn property8 π is retained without applying an unproved original engine rotation; exported pictures remain unrotated source RGBA composites.",
+    "MOB directly references WakeUp/HardAttack1/2 etc motions, but original passive/wake/AI/armor/event behavior is not restored. HardAttack effect ANI/IMG assets are outside this export.",
+    "Source hit-wav R_SM_GUE resolves to a two-file50/50 RANDOM in audio.xml. Exact bindings are retained; no arbitrary fixed branch, voice assignment, SoundPack extract or runtime audio is created.",
+    "ID84, Big5 name_2004 鬼劍士雕像, direct MOB motion/attack references and HallOfDoll map entry at1061,275 are independently retained with CRC-verified PVF payloads. This is source provenance, not a restored original map or AI claim.",
+    "Only isolated new prefixes are written. No existing runtime/source/scene/manifest, client file, profile, Godot/Blender process or network is modified or invoked. Runtime hooks remain false."
+  ],
+  "runtime_integration": {
+    "stage": "R4/08",
+    "scope": "Current prototype encounter integrated; original export verification/protected files/native-false flags below describe isolated export only",
+    "manifest_sha256": "0ab5e132c00b4acd229d1f0d0a36e2f950f74e8854c57a01b610a6cc6d5b99ce",
+    "initial_manifest_sha256": "755f06c1df288bc1bd629ab981a9d305d1d58a6310e16568172bda5b789317d4",
+    "export_metadata_archive": "source_art/r4/swordman_statue/export_stage_08",
+    "native_checks_claimed_here": false,
+    "source_animation_objects_changed": false,
+    "original_AI_armor_darklightning_dispatch_recovered": false,
+    "audio_hooks_implemented": false
+  }
+}

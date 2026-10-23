@@ -1,0 +1,19 @@
+{
+  "scenes": [
+    {
+      "path": "scenes/west_coast_r0.tscn",
+      "exact": true,
+      "generated_sha256": "e5cafb9ca7012a1e8c6c3430553dd22b27c81e35f4efd67105b40553f0ade63e",
+      "current_sha256": "e5cafb9ca7012a1e8c6c3430553dd22b27c81e35f4efd67105b40553f0ade63e"
+    },
+    {
+      "path": "scenes/west_coast_r1.tscn",
+      "exact": true,
+      "generated_sha256": "c2a94dab0120b16960cb7a8f92e0b3e34a9aa07116e2aaac8a8b9147d4283654",
+      "current_sha256": "c2a94dab0120b16960cb7a8f92e0b3e34a9aa07116e2aaac8a8b9147d4283654"
+    }
+  ],
+  "walk_producer_idempotent": true,
+  "walk_files_checked": 18,
+  "qa_note": "In-memory generator capture, no scene files written."
+}

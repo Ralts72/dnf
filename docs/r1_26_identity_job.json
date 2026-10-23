@@ -1,0 +1,51 @@
+{
+  "check_script": "res://source_art/r1/experiments/dash_cycle_26/identity.gd",
+  "elapsed_seconds": 0.338199,
+  "qa_source_sha256": "3e96d08df2e31d4871aff5110b7a10ba12511c00387dd14d71d5b4064f5e2595",
+  "render_cases_completed": 0,
+  "result": {
+    "cases": [
+      {
+        "examples": [],
+        "frame": 0,
+        "mismatches": 0
+      },
+      {
+        "examples": [],
+        "frame": 1,
+        "mismatches": 0
+      },
+      {
+        "examples": [],
+        "frame": 2,
+        "mismatches": 0
+      },
+      {
+        "examples": [],
+        "frame": 3,
+        "mismatches": 0
+      },
+      {
+        "examples": [],
+        "frame": 4,
+        "mismatches": 0
+      },
+      {
+        "examples": [],
+        "frame": 5,
+        "mismatches": 0
+      },
+      {
+        "examples": [],
+        "frame": 6,
+        "mismatches": 0
+      },
+      {
+        "examples": [],
+        "frame": 7,
+        "mismatches": 0
+      }
+    ]
+  },
+  "status": "complete"
+}

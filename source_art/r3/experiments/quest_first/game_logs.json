@@ -1,0 +1,998 @@
+{
+  "source": "game",
+  "lines": [
+    {
+      "level": "info",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "[godot_ai game_helper] registered mcp capture (debugger active=true, logger=true)\n"
+    },
+    {
+      "details": {
+        "code": "Method/function failed. Returning: false",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 43,
+            "path": "res://scripts/exploration_stage.gd"
+          }
+        ],
+        "message": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "rationale": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "_internal_validate_object",
+          "line": 97,
+          "path": "./core/variant/container_type_validate.h"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 43,
+            "path": "res://scripts/exploration_stage.gd"
+          }
+        ],
+        "message": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "rationale": "",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "set",
+          "line": 520,
+          "path": "core/variant/array.cpp"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Condition \"!_p->typed.validate(value, \"set\")\" is true. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Method/function failed. Returning: false",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 43,
+            "path": "res://scripts/exploration_stage.gd"
+          }
+        ],
+        "message": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "rationale": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "_internal_validate_object",
+          "line": 97,
+          "path": "./core/variant/container_type_validate.h"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 43,
+            "path": "res://scripts/exploration_stage.gd"
+          }
+        ],
+        "message": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "rationale": "",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "set",
+          "line": 520,
+          "path": "core/variant/array.cpp"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Condition \"!_p->typed.validate(value, \"set\")\" is true. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Method/function failed. Returning: false",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 43,
+            "path": "res://scripts/exploration_stage.gd"
+          }
+        ],
+        "message": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "rationale": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "_internal_validate_object",
+          "line": 97,
+          "path": "./core/variant/container_type_validate.h"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 43,
+            "path": "res://scripts/exploration_stage.gd"
+          }
+        ],
+        "message": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "rationale": "",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "set",
+          "line": 520,
+          "path": "core/variant/array.cpp"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Condition \"!_p->typed.validate(value, \"set\")\" is true. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Method/function failed. Returning: false",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 43,
+            "path": "res://scripts/exploration_stage.gd"
+          }
+        ],
+        "message": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "rationale": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "_internal_validate_object",
+          "line": 97,
+          "path": "./core/variant/container_type_validate.h"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 43,
+            "path": "res://scripts/exploration_stage.gd"
+          }
+        ],
+        "message": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "rationale": "",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "set",
+          "line": 520,
+          "path": "core/variant/array.cpp"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Condition \"!_p->typed.validate(value, \"set\")\" is true. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Method/function failed. Returning: false",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 43,
+            "path": "res://scripts/exploration_stage.gd"
+          }
+        ],
+        "message": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "rationale": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "_internal_validate_object",
+          "line": 97,
+          "path": "./core/variant/container_type_validate.h"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 43,
+            "path": "res://scripts/exploration_stage.gd"
+          }
+        ],
+        "message": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "rationale": "",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "set",
+          "line": 520,
+          "path": "core/variant/array.cpp"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Condition \"!_p->typed.validate(value, \"set\")\" is true. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Method/function failed. Returning: false",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 43,
+            "path": "res://scripts/exploration_stage.gd"
+          }
+        ],
+        "message": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "rationale": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "_internal_validate_object",
+          "line": 97,
+          "path": "./core/variant/container_type_validate.h"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 43,
+            "path": "res://scripts/exploration_stage.gd"
+          }
+        ],
+        "message": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "rationale": "",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "set",
+          "line": 520,
+          "path": "core/variant/array.cpp"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Condition \"!_p->typed.validate(value, \"set\")\" is true. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Method/function failed. Returning: false",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 51,
+            "path": "res://scripts/west_coast_r1.gd"
+          }
+        ],
+        "message": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "rationale": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "_internal_validate_object",
+          "line": 97,
+          "path": "./core/variant/container_type_validate.h"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 51,
+            "path": "res://scripts/west_coast_r1.gd"
+          }
+        ],
+        "message": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "rationale": "",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "set",
+          "line": 520,
+          "path": "core/variant/array.cpp"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Condition \"!_p->typed.validate(value, \"set\")\" is true. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Method/function failed. Returning: false",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 51,
+            "path": "res://scripts/west_coast_r1.gd"
+          }
+        ],
+        "message": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "rationale": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "_internal_validate_object",
+          "line": 97,
+          "path": "./core/variant/container_type_validate.h"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 51,
+            "path": "res://scripts/west_coast_r1.gd"
+          }
+        ],
+        "message": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "rationale": "",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "set",
+          "line": 520,
+          "path": "core/variant/array.cpp"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Condition \"!_p->typed.validate(value, \"set\")\" is true. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Method/function failed. Returning: false",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 51,
+            "path": "res://scripts/west_coast_r1.gd"
+          }
+        ],
+        "message": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "rationale": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "_internal_validate_object",
+          "line": 97,
+          "path": "./core/variant/container_type_validate.h"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 51,
+            "path": "res://scripts/west_coast_r1.gd"
+          }
+        ],
+        "message": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "rationale": "",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "set",
+          "line": 520,
+          "path": "core/variant/array.cpp"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Condition \"!_p->typed.validate(value, \"set\")\" is true. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Method/function failed. Returning: false",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 51,
+            "path": "res://scripts/west_coast_r1.gd"
+          }
+        ],
+        "message": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "rationale": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "_internal_validate_object",
+          "line": 97,
+          "path": "./core/variant/container_type_validate.h"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 51,
+            "path": "res://scripts/west_coast_r1.gd"
+          }
+        ],
+        "message": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "rationale": "",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "set",
+          "line": 520,
+          "path": "core/variant/array.cpp"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Condition \"!_p->typed.validate(value, \"set\")\" is true. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Method/function failed. Returning: false",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 51,
+            "path": "res://scripts/west_coast_r1.gd"
+          }
+        ],
+        "message": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "rationale": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "_internal_validate_object",
+          "line": 97,
+          "path": "./core/variant/container_type_validate.h"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 51,
+            "path": "res://scripts/west_coast_r1.gd"
+          }
+        ],
+        "message": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "rationale": "",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "set",
+          "line": 520,
+          "path": "core/variant/array.cpp"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Condition \"!_p->typed.validate(value, \"set\")\" is true. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Method/function failed. Returning: false",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 51,
+            "path": "res://scripts/west_coast_r1.gd"
+          }
+        ],
+        "message": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "rationale": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'.",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "_internal_validate_object",
+          "line": 97,
+          "path": "./core/variant/container_type_validate.h"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    },
+    {
+      "details": {
+        "code": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "error_type": 0,
+        "error_type_name": "error",
+        "frames": [
+          {
+            "function": "attach_area",
+            "line": 76,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "ensure",
+            "line": 42,
+            "path": "res://scripts/adventure_progress.gd"
+          },
+          {
+            "function": "_ready",
+            "line": 51,
+            "path": "res://scripts/west_coast_r1.gd"
+          }
+        ],
+        "message": "Condition \"!_p->typed.validate(value, \"set\")\" is true.",
+        "rationale": "",
+        "resolved": {
+          "function": "attach_area",
+          "line": 76,
+          "path": "res://scripts/adventure_progress.gd"
+        },
+        "source": {
+          "function": "set",
+          "line": 520,
+          "path": "core/variant/array.cpp"
+        }
+      },
+      "level": "error",
+      "run_id": "r45099267-95",
+      "source": "game",
+      "text": "Condition \"!_p->typed.validate(value, \"set\")\" is true. (res://scripts/adventure_progress.gd:76 @ attach_area)"
+    }
+  ],
+  "total_count": 25,
+  "returned_count": 25,
+  "offset": 0,
+  "limit": 80,
+  "has_more": false,
+  "run_id": "r45099267-95",
+  "is_running": true,
+  "dropped_count": 13718,
+  "stale_run_id": false,
+  "current_run_id": "r45099267-95",
+  "helper_live": true,
+  "session_active": true,
+  "game_status": {
+    "active": true,
+    "editor_log_cursor": 17,
+    "elapsed_msec": 33122,
+    "helper_expected": true,
+    "helper_live": true,
+    "ready": true,
+    "ready_wait_msec": 20000,
+    "run_started_msec": 45099267,
+    "run_token": 95,
+    "session_active": true,
+    "status": "live"
+  },
+  "editor_errors_count": 2,
+  "editor_errors_hint": "2 editor-side errors from this run (first: adventure_progress.gd:76 @ attach_area(): Attempted to set an invalid (previously freed?) object instance into a 'TypedArray'. (res://scripts/adventure_progress.gd:76)) missing from the game log — boot-time parse/load errors occur before the game helper's logger attaches. Read logs_read(source='editor', include_details=true)."
+}

@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "scope": "Adapted SwordmanStatue wake-and-melee encounter. Source eight actions/48records and WakeUp2400ms/Down860ms retain original clocks. AI, activation, HP/damage/range/hit window and magic defense rules are prototype adaptations, not full original passive/armor/skill behavior.",
+  "enemy": {
+    "name": "鬼剑士雕像",
+    "node_name": "SwordmanStatue",
+    "animation_data": "res://data/swordman_statue_r1.json",
+    "spawn": [
+      960,
+      300
+    ],
+    "hp": 140,
+    "walk_speed_px_s": 64,
+    "attack_range_px": 108,
+    "attack_depth_px": 22,
+    "active_ms": [
+      400,
+      650
+    ],
+    "damage": 18,
+    "damage_kind": "magic",
+    "cooldown_seconds": 1.7,
+    "hurt_seconds": 0.4,
+    "death_seconds": 0.86,
+    "maximum_hero_height_px": 35,
+    "knockback_px": 8
+  },
+  "wake": {
+    "source_action": "wakeup",
+    "trigger_range_px": 240,
+    "trigger_depth_px": 60,
+    "duration_ms": 2400
+  },
+  "player": {
+    "hp": 100,
+    "hurt_seconds": 0.22,
+    "knockback_px": 8,
+    "attacks": {
+      "attack1": {
+        "active_ms": [
+          150,
+          300
+        ],
+        "range_px": 100,
+        "depth_px": 24,
+        "damage": 18
+      },
+      "attack2": {
+        "active_ms": [
+          150,
+          350
+        ],
+        "range_px": 110,
+        "depth_px": 24,
+        "damage": 22
+      },
+      "attack3": {
+        "active_ms": [
+          100,
+          350
+        ],
+        "range_px": 145,
+        "depth_px": 28,
+        "damage": 30
+      },
+      "hopsmash": {
+        "active_ms": [
+          360,
+          780
+        ],
+        "range_px": 135,
+        "depth_px": 32,
+        "damage": 36
+      },
+      "jumpattack": {
+        "active_ms": [
+          60,
+          240
+        ],
+        "range_px": 90,
+        "depth_px": 24,
+        "damage": 18,
+        "maximum_height_px": 75
+      },
+      "hardattack": {
+        "active_ms": [
+          150,
+          450
+        ],
+        "range_px": 160,
+        "depth_px": 28,
+        "damage": 44
+      }
+    }
+  },
+  "ui": {
+    "objective_dormant": "向前探索 · 靠近唤醒鬼剑士雕像",
+    "objective_waking": "雕像正在苏醒 · 等它活动后再出手",
+    "objective_active": "击退鬼剑士雕像 · 留意暗刃 / C 格挡",
+    "objective_cleared": "雕像已击退 · 向左返回人偶前廊",
+    "objective_ko": "倒下了 · 按 R 重试"
+  },
+  "source_reference": "res://docs/r4_swordman_statue_source_reference.json",
+  "notes": [
+    "Eight original keys and48source records are loaded unchanged; source attack stays attack. Awake protection/activation, pursuit64px/s, HP140,400–650ms hit window/range108/depth22/damage18 and1.7s start cooldown are explicit adaptations. A source type15 box occurs in frame3 at400–450ms, but original engine box lifetime/dispatch is unknown and is not claimed restored.",
+    "Waiting is held source stay0. At horizontal distance<=240px and ground-depth distance<=60px, source WakeUp plays all12×200ms records with its original alternating ANI offsets, driven once by physics. During dormant/waking the enemy neither pursues nor damages the hero, and hero attacks cannot damage it. No MP, armor, first-frame atk_darklightning dispatcher or HardAttack effects are restored.",
+    "Only after the full2400ms wake does awakened=true persist in independent transient statue_gallery_state. Half-wake has no persisted clock or receipt and restarts dormant on reentry. Completed wake survives reentry with authored safe enemy spawn, while HP/clear/base counters retain accepted encounter session semantics.",
+    "R resets local HP100/140, dormant/awakened=false, held stay0 and wake/death clocks; cumulative node-local wake_trigger_count remains diagnostic only. No Profile/quest/loot/coins/inventory/equipment/chapter mutation or new reward is implemented.",
+    "Source ATK is magic with dark element. The prototype passes damage_kind magic to the root-owned generic combat/Guard integration; physical armor or original magic formulas are not inferred. Other accepted hurt/KO/push/hit-latch/jump/menu/modal/pause/travel behavior stays inherited.",
+    "Defeat selects all6original Down frames for their complete80/80/100/100/70/430ms=860ms physics clock before hiding. Damage poses retain original10000ms source records, while0.4s runtime hurt remains explicitly adapted. Pause/inspection/menu/modal/fade freeze the inherited encounter and these held timelines.",
+    "Hero attack data is an exact object copy of current Gallery.player, including Ghost Slash and profile weapon bonus0/4; no source item attack value is substituted.",
+    "R_SM_GUE is a source two-file50/50 RANDOM. No arbitrary fixed branch or previous SPEAR_HIT/STONE_DMG sound is assigned. Original source audio dispatch is not restored."
+  ]
+}

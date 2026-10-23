@@ -1,0 +1,36 @@
+{
+  "path": "map/hendonmyre/animation/skyfar00.ani",
+  "sha256": "6438d79766f1d1f7d90d4412376e18e8d78b404c84dc60482d75fb84ea44f05f",
+  "crc": {
+    "expected": 1355730824,
+    "actual_seed_file_number": 1355730824,
+    "actual_seed_zero": 1136321606
+  },
+  "decoded": {
+    "frames_count": 1,
+    "resources": [
+      "map/hendonmyre/skyway.img"
+    ],
+    "globals": [
+      {
+        "type": 1,
+        "value": 0
+      }
+    ],
+    "frames": [
+      {
+        "resource": "map/hendonmyre/skyway.img",
+        "image_frame": 9,
+        "x": 0,
+        "y": 0,
+        "boxes": [],
+        "properties": [
+          {
+            "type": 12,
+            "value": 120
+          }
+        ]
+      }
+    ]
+  }
+}

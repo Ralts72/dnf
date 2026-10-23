@@ -1,0 +1,78 @@
+{
+  "run": "r52486174-130",
+  "checks": 14,
+  "failed": 0,
+  "scope": "All interaction checks passed. QA used Image.load_from_file on resPNG, producing three export-related developer warnings. Read PNG source via FileAccess bytes + Image.load_png_from_buffer instead. Production renderer already loads Texture2D normally and does not change.",
+  "game": {
+    "source": "game",
+    "lines": [
+      {
+        "level": "info",
+        "run_id": "r52486174-130",
+        "source": "game",
+        "text": "[godot_ai game_helper] registered mcp capture (debugger active=true, logger=true)\n"
+      },
+      {
+        "level": "warn",
+        "run_id": "r52486174-130",
+        "source": "game",
+        "text": "Loaded resource as image file, this will not work on export: 'res://assets/r4/sharan/portrait.png'. Instead, import the image file as an Image resource and load it normally as a resource. (res://tools/r4/sharan_checks.gd:132 @ asset_checks)"
+      },
+      {
+        "level": "warn",
+        "run_id": "r52486174-130",
+        "source": "game",
+        "text": "Loaded resource as image file, this will not work on export: 'res://assets/r4/sharan/small_face.png'. Instead, import the image file as an Image resource and load it normally as a resource. (res://tools/r4/sharan_checks.gd:132 @ asset_checks)"
+      },
+      {
+        "level": "warn",
+        "run_id": "r52486174-130",
+        "source": "game",
+        "text": "Loaded resource as image file, this will not work on export: 'res://assets/r4/sharan/popup_face.png'. Instead, import the image file as an Image resource and load it normally as a resource. (res://tools/r4/sharan_checks.gd:132 @ asset_checks)"
+      }
+    ],
+    "total_count": 4,
+    "returned_count": 4,
+    "offset": 0,
+    "limit": 30,
+    "has_more": false,
+    "run_id": "r52486174-130",
+    "is_running": true,
+    "dropped_count": 13760,
+    "stale_run_id": false,
+    "current_run_id": "r52486174-130",
+    "helper_live": true,
+    "session_active": true,
+    "game_status": {
+      "active": true,
+      "editor_log_cursor": 17,
+      "elapsed_msec": 115534,
+      "helper_expected": true,
+      "helper_live": true,
+      "ready": true,
+      "ready_wait_msec": 20000,
+      "run_started_msec": 52486173,
+      "run_token": 130,
+      "session_active": true,
+      "status": "live"
+    }
+  },
+  "editor": {
+    "source": "editor",
+    "lines": [],
+    "total_count": 17,
+    "returned_count": 0,
+    "offset": 0,
+    "limit": 30,
+    "has_more": false,
+    "run_id": "",
+    "is_running": false,
+    "dropped_count": 0,
+    "stale_run_id": false,
+    "cursor": 17,
+    "oldest_cursor": 0,
+    "next_cursor": 17,
+    "appended_total": 17,
+    "truncated": false
+  }
+}

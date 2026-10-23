@@ -1,0 +1,3804 @@
+{
+  "study": "R1/27 visible native keyboard performance study",
+  "tag": "r1_27_live_b",
+  "production_candidate": "R1/27",
+  "diagnostics_active": true,
+  "locomotion_enabled": true,
+  "walk_samples": {
+    "active_frames": 2075,
+    "derived_frames": 1377,
+    "phase_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "locomotion_samples": {
+    "move": {
+      "active_frames": 2075,
+      "derived_frames": 1377,
+      "phase_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    "dash": {
+      "active_frames": 1705,
+      "derived_frames": 1139,
+      "phase_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    }
+  },
+  "summary": {
+    "count": 7560,
+    "mean_ms": 8.40851626984127,
+    "median_ms": 8.31,
+    "p95_ms": 10.001,
+    "p99_ms": 11.847,
+    "maximum_ms": 20.54,
+    "frames_over_16_67_ms": 58,
+    "frames_over_33_33_ms": 0,
+    "frames_over_100_ms": 0,
+    "elapsed_sample_seconds": 63.568383000000004,
+    "fps_from_mean": 118.92704585548448
+  },
+  "startup_row": {
+    "elapsed_s": 0.000183,
+    "frame_gap_ms": 0.183,
+    "engine_delta_ms": 8.333,
+    "previous_process_ms": 16.143,
+    "previous_physics_ms": 0.131,
+    "scene_cpu_ms": 1.91299998760223,
+    "scene_gpu_ms": 0.0,
+    "window_cpu_ms": 0.200000002980232,
+    "window_gpu_ms": 0.0,
+    "pre_post_draw_wall_ms": 0.0,
+    "focused": true,
+    "action_id": 0,
+    "source_frame": 0,
+    "source_elapsed_ms": 8.333,
+    "source_x": 440.0,
+    "source_y": 320.0,
+    "jump_height_px": 0.0,
+    "active_fx_tracks": 0,
+    "render_scale": 2,
+    "draw_calls": 319,
+    "resource_count": 888.0,
+    "static_memory_bytes": 279611251.0,
+    "pipeline_canvas": 2,
+    "pipeline_mesh": 39,
+    "pipeline_surface": 31,
+    "pipeline_draw": 34,
+    "pipeline_specialization": 48,
+    "phase_id": 0,
+    "frames_drawn": 9466,
+    "walk_subframe": 0,
+    "walk_active": 0
+  },
+  "phases": [
+    {
+      "end_row": 241,
+      "index": 0,
+      "name": "idle",
+      "start_row": 0,
+      "frame_times": {
+        "count": 240,
+        "mean_ms": 8.336833333333333,
+        "median_ms": 8.305,
+        "p95_ms": 9.804,
+        "p99_ms": 10.326,
+        "maximum_ms": 10.906,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          440.0,
+          440.0
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 480,
+      "index": 1,
+      "name": "effect_first_or_repeat",
+      "start_row": 241,
+      "frame_times": {
+        "count": 239,
+        "mean_ms": 8.369305439330544,
+        "median_ms": 8.319,
+        "p95_ms": 9.812,
+        "p99_ms": 10.473,
+        "maximum_ms": 16.917,
+        "frames_over_16_67_ms": 1,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          440.0,
+          440.0
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 65,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 720,
+      "index": 2,
+      "name": "effect_again",
+      "start_row": 480,
+      "frame_times": {
+        "count": 240,
+        "mean_ms": 8.370416666666667,
+        "median_ms": 8.2805,
+        "p95_ms": 9.872,
+        "p99_ms": 10.286,
+        "maximum_ms": 17.212,
+        "frames_over_16_67_ms": 1,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          440.0,
+          440.0
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 64,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 1016,
+      "index": 3,
+      "name": "ground_attacks",
+      "start_row": 720,
+      "frame_times": {
+        "count": 296,
+        "mean_ms": 8.448628378378379,
+        "median_ms": 8.294,
+        "p95_ms": 9.673,
+        "p99_ms": 16.935,
+        "maximum_ms": 18.599,
+        "frames_over_16_67_ms": 4,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          440.0,
+          440.0
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 1272,
+      "index": 4,
+      "name": "walk_right",
+      "start_row": 1016,
+      "frame_times": {
+        "count": 256,
+        "mean_ms": 8.6201171875,
+        "median_ms": 8.288499999999999,
+        "p95_ms": 10.392,
+        "p99_ms": 18.825,
+        "maximum_ms": 19.621,
+        "frames_over_16_67_ms": 8,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          440.0,
+          660.000671386719
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 1535,
+      "index": 5,
+      "name": "run_left",
+      "start_row": 1272,
+      "frame_times": {
+        "count": 263,
+        "mean_ms": 8.36703422053232,
+        "median_ms": 8.28,
+        "p95_ms": 9.957,
+        "p99_ms": 10.448,
+        "maximum_ms": 17.483,
+        "frames_over_16_67_ms": 1,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          242.000549316406,
+          656.833984375
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 1703,
+      "index": 6,
+      "name": "jump_right",
+      "start_row": 1535,
+      "frame_times": {
+        "count": 168,
+        "mean_ms": 8.336630952380952,
+        "median_ms": 8.247,
+        "p95_ms": 10.231,
+        "p99_ms": 11.073,
+        "maximum_ms": 11.591,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          243.667221069336,
+          369.917449951172
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          107.5
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 1871,
+      "index": 7,
+      "name": "air_attack_left",
+      "start_row": 1703,
+      "frame_times": {
+        "count": 168,
+        "mean_ms": 8.378511904761904,
+        "median_ms": 8.276,
+        "p95_ms": 10.298,
+        "p99_ms": 12.011,
+        "maximum_ms": 18.243,
+        "frames_over_16_67_ms": 1,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          240.333770751953,
+          368.250793457031
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          107.5
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 2088,
+      "index": 8,
+      "name": "toward_blue_door",
+      "start_row": 1871,
+      "frame_times": {
+        "count": 217,
+        "mean_ms": 8.799930875576036,
+        "median_ms": 8.324,
+        "p95_ms": 15.834,
+        "p99_ms": 18.758,
+        "maximum_ms": 18.913,
+        "frames_over_16_67_ms": 9,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          50.3344879150391,
+          240.333770751953
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 2336,
+      "index": 9,
+      "name": "door_approach",
+      "start_row": 2088,
+      "frame_times": {
+        "count": 248,
+        "mean_ms": 8.496120967741936,
+        "median_ms": 8.355,
+        "p95_ms": 9.902,
+        "p99_ms": 18.579,
+        "maximum_ms": 19.781,
+        "frames_over_16_67_ms": 4,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          50.3344879150391,
+          50.3344879150391
+        ],
+        "source_y": [
+          216.0,
+          319.033325195312
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 2589,
+      "index": 10,
+      "name": "door_return",
+      "start_row": 2336,
+      "frame_times": {
+        "count": 253,
+        "mean_ms": 8.328695652173913,
+        "median_ms": 8.309,
+        "p95_ms": 9.93,
+        "p99_ms": 11.187,
+        "maximum_ms": 11.87,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          50.3344879150391,
+          50.3344879150391
+        ],
+        "source_y": [
+          216.0,
+          337.800476074219
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 2949,
+      "index": 11,
+      "name": "run_street_right",
+      "start_row": 2589,
+      "frame_times": {
+        "count": 360,
+        "mean_ms": 8.335975,
+        "median_ms": 8.299,
+        "p95_ms": 9.988,
+        "p99_ms": 10.831,
+        "maximum_ms": 11.3,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          53.5011558532715,
+          620.334350585938
+        ],
+        "source_y": [
+          337.800476074219,
+          337.800476074219
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 3177,
+      "index": 12,
+      "name": "run_street_left",
+      "start_row": 2949,
+      "frame_times": {
+        "count": 228,
+        "mean_ms": 8.336070175438596,
+        "median_ms": 8.3635,
+        "p95_ms": 9.333,
+        "p99_ms": 10.373,
+        "maximum_ms": 11.097,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          259.334442138672,
+          617.167663574219
+        ],
+        "source_y": [
+          337.800476074219,
+          337.800476074219
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 3417,
+      "index": 13,
+      "name": "light_quality",
+      "start_row": 3177,
+      "frame_times": {
+        "count": 240,
+        "mean_ms": 8.335,
+        "median_ms": 8.4515,
+        "p95_ms": 9.877,
+        "p99_ms": 10.699,
+        "maximum_ms": 11.398,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          259.334442138672,
+          259.334442138672
+        ],
+        "source_y": [
+          337.800476074219,
+          337.800476074219
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        1,
+        2
+      ],
+      "active_effect_frames": 65,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 3658,
+      "index": 14,
+      "name": "restore_quality",
+      "start_row": 3417,
+      "frame_times": {
+        "count": 241,
+        "mean_ms": 8.328680497925312,
+        "median_ms": 8.306,
+        "p95_ms": 10.04,
+        "p99_ms": 11.591,
+        "maximum_ms": 14.502,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          259.334442138672,
+          259.334442138672
+        ],
+        "source_y": [
+          337.800476074219,
+          337.800476074219
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        1,
+        2
+      ],
+      "active_effect_frames": 65,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 3779,
+      "index": 15,
+      "name": "reset",
+      "start_row": 3658,
+      "frame_times": {
+        "count": 121,
+        "mean_ms": 8.333826446280991,
+        "median_ms": 8.265,
+        "p95_ms": 10.012,
+        "p99_ms": 10.853,
+        "maximum_ms": 11.464,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          259.334442138672,
+          440.0
+        ],
+        "source_y": [
+          320.0,
+          337.800476074219
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 4019,
+      "index": 16,
+      "name": "idle",
+      "start_row": 3779,
+      "frame_times": {
+        "count": 240,
+        "mean_ms": 8.338370833333334,
+        "median_ms": 8.355,
+        "p95_ms": 9.96,
+        "p99_ms": 10.616,
+        "maximum_ms": 11.376,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          440.0,
+          440.0
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 4259,
+      "index": 17,
+      "name": "effect_first_or_repeat",
+      "start_row": 4019,
+      "frame_times": {
+        "count": 240,
+        "mean_ms": 8.371454166666666,
+        "median_ms": 8.29,
+        "p95_ms": 9.973,
+        "p99_ms": 10.822,
+        "maximum_ms": 17.566,
+        "frames_over_16_67_ms": 1,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          440.0,
+          440.0
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 65,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 4497,
+      "index": 18,
+      "name": "effect_again",
+      "start_row": 4259,
+      "frame_times": {
+        "count": 238,
+        "mean_ms": 8.43605462184874,
+        "median_ms": 8.307500000000001,
+        "p95_ms": 9.774,
+        "p99_ms": 15.458,
+        "maximum_ms": 18.029,
+        "frames_over_16_67_ms": 1,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          440.0,
+          440.0
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 64,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 4793,
+      "index": 19,
+      "name": "ground_attacks",
+      "start_row": 4497,
+      "frame_times": {
+        "count": 296,
+        "mean_ms": 8.468263513513513,
+        "median_ms": 8.298,
+        "p95_ms": 10.149,
+        "p99_ms": 17.535,
+        "maximum_ms": 17.806,
+        "frames_over_16_67_ms": 4,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          440.0,
+          440.0
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 5053,
+      "index": 20,
+      "name": "walk_right",
+      "start_row": 4793,
+      "frame_times": {
+        "count": 260,
+        "mean_ms": 8.467703846153846,
+        "median_ms": 8.344999999999999,
+        "p95_ms": 9.959,
+        "p99_ms": 18.182,
+        "maximum_ms": 18.593,
+        "frames_over_16_67_ms": 4,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          440.0,
+          660.000671386719
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 5318,
+      "index": 21,
+      "name": "run_left",
+      "start_row": 5053,
+      "frame_times": {
+        "count": 265,
+        "mean_ms": 8.329064150943395,
+        "median_ms": 8.225,
+        "p95_ms": 9.8,
+        "p99_ms": 10.595,
+        "maximum_ms": 11.563,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          242.000549316406,
+          660.000671386719
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 5487,
+      "index": 22,
+      "name": "jump_right",
+      "start_row": 5318,
+      "frame_times": {
+        "count": 169,
+        "mean_ms": 8.346520710059172,
+        "median_ms": 8.342,
+        "p95_ms": 10.346,
+        "p99_ms": 10.934,
+        "maximum_ms": 11.625,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          243.667221069336,
+          371.584106445312
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          107.5
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 5655,
+      "index": 23,
+      "name": "air_attack_left",
+      "start_row": 5487,
+      "frame_times": {
+        "count": 168,
+        "mean_ms": 8.371863095238096,
+        "median_ms": 8.227,
+        "p95_ms": 10.072,
+        "p99_ms": 12.916,
+        "maximum_ms": 17.005,
+        "frames_over_16_67_ms": 1,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          243.667083740234,
+          371.584106445312
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          107.5
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 5878,
+      "index": 24,
+      "name": "toward_blue_door",
+      "start_row": 5655,
+      "frame_times": {
+        "count": 223,
+        "mean_ms": 8.522224215246636,
+        "median_ms": 8.323,
+        "p95_ms": 10.31,
+        "p99_ms": 17.459,
+        "maximum_ms": 20.54,
+        "frames_over_16_67_ms": 5,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          53.6678085327148,
+          242.000427246094
+        ],
+        "source_y": [
+          320.0,
+          320.0
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 6125,
+      "index": 25,
+      "name": "door_approach",
+      "start_row": 5878,
+      "frame_times": {
+        "count": 247,
+        "mean_ms": 8.53195951417004,
+        "median_ms": 8.272,
+        "p95_ms": 10.319,
+        "p99_ms": 18.107,
+        "maximum_ms": 18.993,
+        "frames_over_16_67_ms": 6,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          53.6678085327148,
+          53.6678085327148
+        ],
+        "source_y": [
+          216.0,
+          319.033325195312
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 6378,
+      "index": 26,
+      "name": "door_return",
+      "start_row": 6125,
+      "frame_times": {
+        "count": 253,
+        "mean_ms": 8.336387351778656,
+        "median_ms": 8.348,
+        "p95_ms": 10.189,
+        "p99_ms": 10.779,
+        "maximum_ms": 10.873,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          53.6678085327148,
+          53.6678085327148
+        ],
+        "source_y": [
+          216.0,
+          337.800476074219
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 6738,
+      "index": 27,
+      "name": "run_street_right",
+      "start_row": 6378,
+      "frame_times": {
+        "count": 360,
+        "mean_ms": 8.334994444444444,
+        "median_ms": 8.298,
+        "p95_ms": 9.829,
+        "p99_ms": 10.641,
+        "maximum_ms": 13.024,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          56.8344764709473,
+          623.667663574219
+        ],
+        "source_y": [
+          337.800476074219,
+          337.800476074219
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 6967,
+      "index": 28,
+      "name": "run_street_left",
+      "start_row": 6738,
+      "frame_times": {
+        "count": 229,
+        "mean_ms": 8.329336244541485,
+        "median_ms": 8.381,
+        "p95_ms": 9.963,
+        "p99_ms": 10.779,
+        "maximum_ms": 11.063,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          259.501068115234,
+          620.5009765625
+        ],
+        "source_y": [
+          337.800476074219,
+          337.800476074219
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 7208,
+      "index": 29,
+      "name": "light_quality",
+      "start_row": 6967,
+      "frame_times": {
+        "count": 241,
+        "mean_ms": 8.332734439834026,
+        "median_ms": 8.332,
+        "p95_ms": 9.784,
+        "p99_ms": 10.849,
+        "maximum_ms": 11.624,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          259.501068115234,
+          259.501068115234
+        ],
+        "source_y": [
+          337.800476074219,
+          337.800476074219
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        1,
+        2
+      ],
+      "active_effect_frames": 64,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 7441,
+      "index": 30,
+      "name": "restore_quality",
+      "start_row": 7208,
+      "frame_times": {
+        "count": 233,
+        "mean_ms": 8.617849785407726,
+        "median_ms": 8.356,
+        "p95_ms": 10.665,
+        "p99_ms": 17.677,
+        "maximum_ms": 18.891,
+        "frames_over_16_67_ms": 6,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          259.501068115234,
+          259.501068115234
+        ],
+        "source_y": [
+          337.800476074219,
+          337.800476074219
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        1,
+        2
+      ],
+      "active_effect_frames": 63,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    },
+    {
+      "end_row": 7561,
+      "index": 31,
+      "name": "reset",
+      "start_row": 7441,
+      "frame_times": {
+        "count": 120,
+        "mean_ms": 8.409108333333334,
+        "median_ms": 8.2625,
+        "p95_ms": 9.831,
+        "p99_ms": 11.623,
+        "maximum_ms": 17.679,
+        "frames_over_16_67_ms": 1,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "source_bounds": {
+        "source_x": [
+          259.501068115234,
+          440.0
+        ],
+        "source_y": [
+          320.0,
+          337.800476074219
+        ],
+        "jump_height_px": [
+          0.0,
+          0.0
+        ]
+      },
+      "quality_values": [
+        2
+      ],
+      "active_effect_frames": 0,
+      "resource_bounds": [
+        888.0,
+        888.0
+      ]
+    }
+  ],
+  "timing_fields": {
+    "scene_cpu_ms": {
+      "nonzero_samples": 7560,
+      "available": true,
+      "observed": {
+        "count": 7560,
+        "mean_ms": 1.4696203701868258,
+        "median_ms": 1.49199998378754,
+        "p95_ms": 1.88199996948242,
+        "p99_ms": 2.04399991035461,
+        "maximum_ms": 3.33400011062622,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "note": "Native field; may lag the wall interval."
+    },
+    "scene_gpu_ms": {
+      "nonzero_samples": 0,
+      "available": false,
+      "observed": {
+        "count": 7560,
+        "mean_ms": 0.0,
+        "median_ms": 0.0,
+        "p95_ms": 0.0,
+        "p99_ms": 0.0,
+        "maximum_ms": 0.0,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "note": "All-zero GPU samples mean unavailable in this measurement, not a zero-cost GPU."
+    },
+    "window_cpu_ms": {
+      "nonzero_samples": 7560,
+      "available": true,
+      "observed": {
+        "count": 7560,
+        "mean_ms": 0.1993376983083272,
+        "median_ms": 0.209999993443489,
+        "p95_ms": 0.266999989748001,
+        "p99_ms": 0.312000006437302,
+        "maximum_ms": 0.625999987125397,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "note": "Native field; may lag the wall interval."
+    },
+    "window_gpu_ms": {
+      "nonzero_samples": 0,
+      "available": false,
+      "observed": {
+        "count": 7560,
+        "mean_ms": 0.0,
+        "median_ms": 0.0,
+        "p95_ms": 0.0,
+        "p99_ms": 0.0,
+        "maximum_ms": 0.0,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "note": "All-zero GPU samples mean unavailable in this measurement, not a zero-cost GPU."
+    },
+    "pre_post_draw_wall_ms": {
+      "nonzero_samples": 7560,
+      "available": true,
+      "observed": {
+        "count": 7560,
+        "mean_ms": 7.569428042328043,
+        "median_ms": 7.556,
+        "p95_ms": 9.085,
+        "p99_ms": 10.284,
+        "maximum_ms": 18.401,
+        "frames_over_16_67_ms": 37,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "note": "Native field; may lag the wall interval."
+    },
+    "previous_process_ms": {
+      "nonzero_samples": 7560,
+      "available": true,
+      "observed": {
+        "count": 7560,
+        "mean_ms": 14.356939153439154,
+        "median_ms": 10.584,
+        "p95_ms": 18.687,
+        "p99_ms": 97.97,
+        "maximum_ms": 97.97,
+        "frames_over_16_67_ms": 2725,
+        "frames_over_33_33_ms": 120,
+        "frames_over_100_ms": 0
+      },
+      "note": "Native field; may lag the wall interval."
+    },
+    "previous_physics_ms": {
+      "nonzero_samples": 7560,
+      "available": true,
+      "observed": {
+        "count": 7560,
+        "mean_ms": 0.6414042328042328,
+        "median_ms": 0.645,
+        "p95_ms": 2.254,
+        "p99_ms": 3.573,
+        "maximum_ms": 3.573,
+        "frames_over_16_67_ms": 0,
+        "frames_over_33_33_ms": 0,
+        "frames_over_100_ms": 0
+      },
+      "note": "Native field; may lag the wall interval."
+    }
+  },
+  "focused_frame_count": 7561,
+  "unfocused_frame_count": 0,
+  "pipeline_events": [],
+  "slow_frames": [
+    {
+      "row": 416,
+      "elapsed_s": 3.476323,
+      "frame_gap_ms": 16.917,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 10.414,
+      "previous_physics_ms": 0.118,
+      "scene_cpu_ms": 1.13399994373322,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.133000001311302,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.26,
+      "focused": true,
+      "action_id": 0,
+      "source_frame": 4,
+      "source_elapsed_ms": 78.311,
+      "source_x": 440.0,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 280066711.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 1,
+      "frames_drawn": 9882,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": []
+    },
+    {
+      "row": 565,
+      "elapsed_s": 4.728421,
+      "frame_gap_ms": 17.212,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 16.725,
+      "previous_physics_ms": 0.126,
+      "scene_cpu_ms": 1.59500002861023,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.209000006318092,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.469,
+      "focused": true,
+      "action_id": 6,
+      "source_frame": 5,
+      "source_elapsed_ms": 56.6379999999999,
+      "source_x": 440.0,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 1,
+      "render_scale": 2,
+      "draw_calls": 320,
+      "resource_count": 888.0,
+      "static_memory_bytes": 280238663.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 2,
+      "frames_drawn": 10031,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": []
+    },
+    {
+      "row": 720,
+      "elapsed_s": 6.027091,
+      "frame_gap_ms": 16.904,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 16.974,
+      "previous_physics_ms": 0.118,
+      "scene_cpu_ms": 1.31200003623962,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.216999992728233,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.118,
+      "focused": true,
+      "action_id": 0,
+      "source_frame": 3,
+      "source_elapsed_ms": 28.2889999999999,
+      "source_x": 440.0,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 280410359.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 3,
+      "frames_drawn": 10186,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": [
+        {
+          "elapsed_s": 6.01027,
+          "name": "ground_attacks",
+          "phase": 3,
+          "type": "phase"
+        },
+        {
+          "elapsed_s": 6.028992,
+          "key": "X",
+          "phase": 3,
+          "type": "key_pulse"
+        },
+        {
+          "action": "attack1",
+          "elapsed_s": 6.034993,
+          "phase": 3,
+          "type": "action"
+        }
+      ]
+    },
+    {
+      "row": 727,
+      "elapsed_s": 6.0938,
+      "frame_gap_ms": 17.687,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 16.974,
+      "previous_physics_ms": 0.118,
+      "scene_cpu_ms": 1.22500002384186,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.168999999761581,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.895,
+      "focused": true,
+      "action_id": 3,
+      "source_frame": 1,
+      "source_elapsed_ms": 16.664,
+      "source_x": 440.0,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 280428223.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 3,
+      "frames_drawn": 10193,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": [
+        {
+          "elapsed_s": 6.01027,
+          "name": "ground_attacks",
+          "phase": 3,
+          "type": "phase"
+        },
+        {
+          "elapsed_s": 6.028992,
+          "key": "X",
+          "phase": 3,
+          "type": "key_pulse"
+        },
+        {
+          "action": "attack1",
+          "elapsed_s": 6.034993,
+          "phase": 3,
+          "type": "action"
+        }
+      ]
+    },
+    {
+      "row": 904,
+      "elapsed_s": 7.577517,
+      "frame_gap_ms": 18.599,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 10.123,
+      "previous_physics_ms": 0.115,
+      "scene_cpu_ms": 1.47899997234344,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.215000003576279,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.999,
+      "focused": true,
+      "action_id": 5,
+      "source_frame": 3,
+      "source_elapsed_ms": 8.32699999999998,
+      "source_x": 440.0,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 280628135.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 3,
+      "frames_drawn": 10370,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": [
+        {
+          "action": "attack3",
+          "elapsed_s": 7.427895,
+          "phase": 3,
+          "type": "action"
+        }
+      ]
+    },
+    {
+      "row": 1013,
+      "elapsed_s": 8.493992,
+      "frame_gap_ms": 16.935,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 18.432,
+      "previous_physics_ms": 0.124,
+      "scene_cpu_ms": 1.11500000953674,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.136999994516373,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 15.855,
+      "focused": true,
+      "action_id": 0,
+      "source_frame": 4,
+      "source_elapsed_ms": 36.646,
+      "source_x": 440.0,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 280736391.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 3,
+      "frames_drawn": 10479,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": [
+        {
+          "elapsed_s": 8.511038,
+          "name": "walk_right",
+          "phase": 4,
+          "type": "phase"
+        },
+        {
+          "action": "move",
+          "elapsed_s": 8.527312,
+          "phase": 4,
+          "type": "action"
+        }
+      ]
+    },
+    {
+      "row": 1021,
+      "elapsed_s": 8.570439,
+      "frame_gap_ms": 19.621,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 18.432,
+      "previous_physics_ms": 0.124,
+      "scene_cpu_ms": 1.19599997997284,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.158000007271767,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 18.401,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 0,
+      "source_elapsed_ms": 49.998,
+      "source_x": 444.999969482422,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 280750975.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 4,
+      "frames_drawn": 10487,
+      "walk_subframe": 1,
+      "walk_active": 1,
+      "nearby_events": [
+        {
+          "elapsed_s": 8.511038,
+          "name": "walk_right",
+          "phase": 4,
+          "type": "phase"
+        },
+        {
+          "action": "move",
+          "elapsed_s": 8.527312,
+          "phase": 4,
+          "type": "action"
+        }
+      ]
+    },
+    {
+      "row": 1024,
+      "elapsed_s": 8.603505,
+      "frame_gap_ms": 19.065,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 18.432,
+      "previous_physics_ms": 0.124,
+      "scene_cpu_ms": 1.59200000762939,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.226999998092651,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.938,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 0,
+      "source_elapsed_ms": 83.33,
+      "source_x": 448.333282470703,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 280756055.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 4,
+      "frames_drawn": 10490,
+      "walk_subframe": 2,
+      "walk_active": 1,
+      "nearby_events": [
+        {
+          "elapsed_s": 8.511038,
+          "name": "walk_right",
+          "phase": 4,
+          "type": "phase"
+        },
+        {
+          "action": "move",
+          "elapsed_s": 8.527312,
+          "phase": 4,
+          "type": "action"
+        }
+      ]
+    },
+    {
+      "row": 1068,
+      "elapsed_s": 8.97832,
+      "frame_gap_ms": 17.755,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 18.432,
+      "previous_physics_ms": 0.124,
+      "scene_cpu_ms": 1.03699994087219,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.160999998450279,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.018,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 4,
+      "source_elapsed_ms": 58.3149999999999,
+      "source_x": 486.666381835938,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 280819439.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 4,
+      "frames_drawn": 10534,
+      "walk_subframe": 1,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 1086,
+      "elapsed_s": 9.135775,
+      "frame_gap_ms": 17.536,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 18.432,
+      "previous_physics_ms": 0.124,
+      "scene_cpu_ms": 1.48000001907349,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.207000002264977,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.589,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 6,
+      "source_elapsed_ms": 16.6419999999999,
+      "source_x": 501.666290283203,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 280838015.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 4,
+      "frames_drawn": 10552,
+      "walk_subframe": 0,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 1132,
+      "elapsed_s": 9.535881,
+      "frame_gap_ms": 16.964,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 19.043,
+      "previous_physics_ms": 0.664,
+      "scene_cpu_ms": 1.03600001335144,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.127000004053116,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 15.805,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 2,
+      "source_elapsed_ms": 16.6259999999998,
+      "source_x": 541.666564941406,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 280888843.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 4,
+      "frames_drawn": 10598,
+      "walk_subframe": 0,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 1137,
+      "elapsed_s": 9.586464,
+      "frame_gap_ms": 18.825,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 19.043,
+      "previous_physics_ms": 0.664,
+      "scene_cpu_ms": 1.48500001430511,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.209999993443489,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.71,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 2,
+      "source_elapsed_ms": 66.6239999999998,
+      "source_x": 546.666625976562,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 280896155.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 4,
+      "frames_drawn": 10603,
+      "walk_subframe": 1,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 1140,
+      "elapsed_s": 9.618653,
+      "frame_gap_ms": 17.044,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 19.043,
+      "previous_physics_ms": 0.664,
+      "scene_cpu_ms": 1.44200003147125,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.212999999523163,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.244,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 2,
+      "source_elapsed_ms": 99.9559999999998,
+      "source_x": 550.0,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 280901219.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 4,
+      "frames_drawn": 10606,
+      "walk_subframe": 2,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 1267,
+      "elapsed_s": 10.685617,
+      "frame_gap_ms": 17.922,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 18.051,
+      "previous_physics_ms": 0.725,
+      "scene_cpu_ms": 1.06599998474121,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.116999998688698,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.904,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 5,
+      "source_elapsed_ms": 66.6719999999998,
+      "source_x": 656.667358398438,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 281037235.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 4,
+      "frames_drawn": 10733,
+      "walk_subframe": 2,
+      "walk_active": 1,
+      "nearby_events": [
+        {
+          "elapsed_s": 10.717922,
+          "name": "run_left",
+          "phase": 5,
+          "type": "phase"
+        },
+        {
+          "action": "dash",
+          "elapsed_s": 10.726705,
+          "phase": 5,
+          "type": "action"
+        }
+      ]
+    },
+    {
+      "row": 1275,
+      "elapsed_s": 10.760553,
+      "frame_gap_ms": 17.483,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 18.051,
+      "previous_physics_ms": 0.725,
+      "scene_cpu_ms": 1.05099999904633,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.162000000476837,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.534,
+      "focused": true,
+      "action_id": 2,
+      "source_frame": 0,
+      "source_elapsed_ms": 41.665,
+      "source_x": 650.500610351562,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 281050819.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 5,
+      "frames_drawn": 10741,
+      "walk_subframe": 1,
+      "walk_active": 1,
+      "nearby_events": [
+        {
+          "elapsed_s": 10.717922,
+          "name": "run_left",
+          "phase": 5,
+          "type": "phase"
+        },
+        {
+          "action": "dash",
+          "elapsed_s": 10.726705,
+          "phase": 5,
+          "type": "action"
+        }
+      ]
+    },
+    {
+      "row": 1840,
+      "elapsed_s": 15.478128,
+      "frame_gap_ms": 18.243,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 10.584,
+      "previous_physics_ms": 2.347,
+      "scene_cpu_ms": 1.26400005817413,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.146999999880791,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.377,
+      "focused": true,
+      "action_id": 0,
+      "source_frame": 0,
+      "source_elapsed_ms": 16.666,
+      "source_x": 265.333648681641,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 281682823.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 7,
+      "frames_drawn": 11306,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": [
+        {
+          "action": "stay",
+          "elapsed_s": 15.478128,
+          "phase": 7,
+          "type": "action"
+        },
+        {
+          "action": "move",
+          "elapsed_s": 15.493561,
+          "phase": 7,
+          "type": "action"
+        }
+      ]
+    },
+    {
+      "row": 1924,
+      "elapsed_s": 16.193942,
+      "frame_gap_ms": 16.947,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 10.584,
+      "previous_physics_ms": 2.347,
+      "scene_cpu_ms": 1.34099996089935,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.208000004291534,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 15.784,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 7,
+      "source_elapsed_ms": 8.30499999999988,
+      "source_x": 193.667282104492,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 281774231.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 8,
+      "frames_drawn": 11390,
+      "walk_subframe": 0,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 1932,
+      "elapsed_s": 16.26987,
+      "frame_gap_ms": 18.455,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 10.584,
+      "previous_physics_ms": 2.347,
+      "scene_cpu_ms": 1.34800004959106,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.214000001549721,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.951,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 7,
+      "source_elapsed_ms": 83.3019999999999,
+      "source_x": 187.000640869141,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 281784575.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 8,
+      "frames_drawn": 11398,
+      "walk_subframe": 2,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 1966,
+      "elapsed_s": 16.561455,
+      "frame_gap_ms": 18.913,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.736,
+      "previous_physics_ms": 0.797,
+      "scene_cpu_ms": 1.41700005531311,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.223000004887581,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.699,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 2,
+      "source_elapsed_ms": 74.9569999999998,
+      "source_x": 157.000747680664,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 281822579.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 8,
+      "frames_drawn": 11432,
+      "walk_subframe": 2,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 1995,
+      "elapsed_s": 16.811345,
+      "frame_gap_ms": 17.428,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.736,
+      "previous_physics_ms": 0.797,
+      "scene_cpu_ms": 0.921999990940094,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.127000004053116,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.429,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 5,
+      "source_elapsed_ms": 24.9469999999998,
+      "source_x": 132.000839233398,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 281856123.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 8,
+      "frames_drawn": 11461,
+      "walk_subframe": 0,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 1998,
+      "elapsed_s": 16.843594,
+      "frame_gap_ms": 17.085,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.736,
+      "previous_physics_ms": 0.797,
+      "scene_cpu_ms": 1.45899999141693,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.263000011444092,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.174,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 5,
+      "source_elapsed_ms": 58.2789999999998,
+      "source_x": 128.667526245117,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 281860587.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 8,
+      "frames_drawn": 11464,
+      "walk_subframe": 1,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 2001,
+      "elapsed_s": 16.878818,
+      "frame_gap_ms": 18.505,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.736,
+      "previous_physics_ms": 0.797,
+      "scene_cpu_ms": 1.16799998283386,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.123999997973442,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.503,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 5,
+      "source_elapsed_ms": 91.6109999999998,
+      "source_x": 125.334205627441,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 281865123.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 8,
+      "frames_drawn": 11467,
+      "walk_subframe": 2,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 2004,
+      "elapsed_s": 16.91172,
+      "frame_gap_ms": 18.758,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.736,
+      "previous_physics_ms": 0.797,
+      "scene_cpu_ms": 1.42299997806549,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.210999995470047,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.727,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 6,
+      "source_elapsed_ms": 24.9429999999998,
+      "source_x": 122.000885009766,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 281869763.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 8,
+      "frames_drawn": 11470,
+      "walk_subframe": 0,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 2024,
+      "elapsed_s": 17.094896,
+      "frame_gap_ms": 18.892,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.736,
+      "previous_physics_ms": 0.797,
+      "scene_cpu_ms": 1.72200000286102,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.166999995708466,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.589,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 0,
+      "source_elapsed_ms": 8.26899999999974,
+      "source_x": 103.667617797852,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 281886859.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 8,
+      "frames_drawn": 11490,
+      "walk_subframe": 0,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 2041,
+      "elapsed_s": 17.244779,
+      "frame_gap_ms": 18.542,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.736,
+      "previous_physics_ms": 0.797,
+      "scene_cpu_ms": 1.22500002384186,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.158999994397163,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.624,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 1,
+      "source_elapsed_ms": 58.2629999999997,
+      "source_x": 88.6676788330078,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 281906043.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 8,
+      "frames_drawn": 11507,
+      "walk_subframe": 1,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 2099,
+      "elapsed_s": 17.744875,
+      "frame_gap_ms": 18.161,
+      "engine_delta_ms": 18.129,
+      "previous_process_ms": 18.261,
+      "previous_physics_ms": 0.713,
+      "scene_cpu_ms": 1.14100003242493,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.170000001788139,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.021,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 6,
+      "source_elapsed_ms": 59.0909999999997,
+      "source_x": 50.3344879150391,
+      "source_y": 313.233276367188,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 281962355.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 9,
+      "frames_drawn": 11565,
+      "walk_subframe": 1,
+      "walk_active": 1,
+      "nearby_events": [
+        {
+          "elapsed_s": 17.636182,
+          "name": "door_approach",
+          "phase": 9,
+          "type": "phase"
+        }
+      ]
+    },
+    {
+      "row": 2186,
+      "elapsed_s": 18.480294,
+      "frame_gap_ms": 19.781,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.606,
+      "previous_physics_ms": 0.692,
+      "scene_cpu_ms": 1.16299998760223,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.245000004768372,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.811,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 5,
+      "source_elapsed_ms": 90.5659999999996,
+      "source_x": 50.3344879150391,
+      "source_y": 270.699584960938,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 318,
+      "resource_count": 888.0,
+      "static_memory_bytes": 282039055.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 9,
+      "frames_drawn": 11652,
+      "walk_subframe": 2,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 2206,
+      "elapsed_s": 18.661579,
+      "frame_gap_ms": 18.579,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.606,
+      "previous_physics_ms": 0.692,
+      "scene_cpu_ms": 1.42700004577637,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.178000003099442,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.252,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 7,
+      "source_elapsed_ms": 73.8919999999996,
+      "source_x": 50.3344879150391,
+      "source_y": 260.066162109375,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 318,
+      "resource_count": 888.0,
+      "static_memory_bytes": 282056103.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 9,
+      "frames_drawn": 11672,
+      "walk_subframe": 2,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 2210,
+      "elapsed_s": 18.703489,
+      "frame_gap_ms": 19.592,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.606,
+      "previous_physics_ms": 0.692,
+      "scene_cpu_ms": 1.65600001811981,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.179000005125999,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 18.172,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 0,
+      "source_elapsed_ms": 15.5569999999996,
+      "source_x": 50.3344879150391,
+      "source_y": 258.1328125,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 318,
+      "resource_count": 888.0,
+      "static_memory_bytes": 282061439.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 9,
+      "frames_drawn": 11676,
+      "walk_subframe": 0,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 4223,
+      "elapsed_s": 35.485709,
+      "frame_gap_ms": 17.566,
+      "engine_delta_ms": 8.333,
+      "previous_process_ms": 10.598,
+      "previous_physics_ms": 0.126,
+      "scene_cpu_ms": 1.50699996948242,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.275000005960464,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.094,
+      "focused": true,
+      "action_id": 0,
+      "source_frame": 0,
+      "source_elapsed_ms": 71.6349999999999,
+      "source_x": 440.0,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 283924867.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 17,
+      "frames_drawn": 13689,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": []
+    },
+    {
+      "row": 4292,
+      "elapsed_s": 36.077858,
+      "frame_gap_ms": 18.029,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 10.598,
+      "previous_physics_ms": 0.126,
+      "scene_cpu_ms": 0.936999976634979,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.140000000596046,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.053,
+      "focused": true,
+      "action_id": 6,
+      "source_frame": 1,
+      "source_elapsed_ms": 171.655,
+      "source_x": 440.0,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 283992963.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 18,
+      "frames_drawn": 13758,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": []
+    },
+    {
+      "row": 4561,
+      "elapsed_s": 38.335925,
+      "frame_gap_ms": 17.282,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 9.878,
+      "previous_physics_ms": 0.122,
+      "scene_cpu_ms": 1.09599995613098,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.225999996066093,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.465,
+      "focused": true,
+      "action_id": 3,
+      "source_frame": 9,
+      "source_elapsed_ms": 91.6449999999999,
+      "source_x": 440.0,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 284239759.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 19,
+      "frames_drawn": 14027,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": [
+        {
+          "action": "stay",
+          "elapsed_s": 38.410438,
+          "phase": 19,
+          "type": "action"
+        }
+      ]
+    },
+    {
+      "row": 4569,
+      "elapsed_s": 38.410438,
+      "frame_gap_ms": 17.786,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 9.878,
+      "previous_physics_ms": 0.122,
+      "scene_cpu_ms": 1.22599995136261,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.177000001072884,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.091,
+      "focused": true,
+      "action_id": 0,
+      "source_frame": 0,
+      "source_elapsed_ms": 0.0,
+      "source_x": 440.0,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 284244855.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 19,
+      "frames_drawn": 14035,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": [
+        {
+          "action": "stay",
+          "elapsed_s": 38.410438,
+          "phase": 19,
+          "type": "action"
+        },
+        {
+          "elapsed_s": 38.49495,
+          "key": "X",
+          "phase": 19,
+          "type": "key_pulse"
+        },
+        {
+          "action": "attack2",
+          "elapsed_s": 38.501865,
+          "phase": 19,
+          "type": "action"
+        }
+      ]
+    },
+    {
+      "row": 4691,
+      "elapsed_s": 39.435384,
+      "frame_gap_ms": 17.806,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.541,
+      "previous_physics_ms": 0.109,
+      "scene_cpu_ms": 1.12100005149841,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.160999998450279,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.206,
+      "focused": true,
+      "action_id": 5,
+      "source_frame": 4,
+      "source_elapsed_ms": 41.657,
+      "source_x": 440.0,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 284366163.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 19,
+      "frames_drawn": 14157,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": []
+    },
+    {
+      "row": 4732,
+      "elapsed_s": 39.793801,
+      "frame_gap_ms": 17.535,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.686,
+      "previous_physics_ms": 0.121,
+      "scene_cpu_ms": 1.13999998569489,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.159999996423721,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.777,
+      "focused": true,
+      "action_id": 0,
+      "source_frame": 0,
+      "source_elapsed_ms": 41.665,
+      "source_x": 440.0,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 284395355.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 19,
+      "frames_drawn": 14198,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": [
+        {
+          "action": "stay",
+          "elapsed_s": 39.751613,
+          "phase": 19,
+          "type": "action"
+        }
+      ]
+    },
+    {
+      "row": 4818,
+      "elapsed_s": 40.519749,
+      "frame_gap_ms": 18.593,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.313,
+      "previous_physics_ms": 0.483,
+      "scene_cpu_ms": 1.48599994182587,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.209999993443489,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.278,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 2,
+      "source_elapsed_ms": 16.658,
+      "source_x": 461.666534423828,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 284475607.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 20,
+      "frames_drawn": 14284,
+      "walk_subframe": 0,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 4829,
+      "elapsed_s": 40.618385,
+      "frame_gap_ms": 17.627,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.313,
+      "previous_physics_ms": 0.483,
+      "scene_cpu_ms": 1.38999998569489,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.163000002503395,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.725,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 3,
+      "source_elapsed_ms": 16.654,
+      "source_x": 471.666473388672,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 284487327.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 20,
+      "frames_drawn": 14295,
+      "walk_subframe": 0,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 4888,
+      "elapsed_s": 41.119098,
+      "frame_gap_ms": 18.182,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.313,
+      "previous_physics_ms": 0.483,
+      "scene_cpu_ms": 1.36500000953674,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.187000006437302,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.104,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 0,
+      "source_elapsed_ms": 16.6339999999999,
+      "source_x": 521.666320800781,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 284541191.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 20,
+      "frames_drawn": 14354,
+      "walk_subframe": 0,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 4908,
+      "elapsed_s": 41.294832,
+      "frame_gap_ms": 18.395,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.313,
+      "previous_physics_ms": 0.483,
+      "scene_cpu_ms": 1.36500000953674,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.194999992847443,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.263,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 1,
+      "source_elapsed_ms": 91.6269999999998,
+      "source_x": 539.999877929688,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 284563251.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 20,
+      "frames_drawn": 14374,
+      "walk_subframe": 2,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 5649,
+      "elapsed_s": 47.477812,
+      "frame_gap_ms": 17.005,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 10.589,
+      "previous_physics_ms": 1.198,
+      "scene_cpu_ms": 1.38699996471405,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.178000003099442,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.169,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 2,
+      "source_elapsed_ms": 8.32499999999997,
+      "source_x": 247.000411987305,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 285294211.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 23,
+      "frames_drawn": 15115,
+      "walk_subframe": 0,
+      "walk_active": 1,
+      "nearby_events": [
+        {
+          "elapsed_s": 47.518537,
+          "name": "toward_blue_door",
+          "phase": 24,
+          "type": "phase"
+        }
+      ]
+    },
+    {
+      "row": 5697,
+      "elapsed_s": 47.885248,
+      "frame_gap_ms": 17.42,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 10.589,
+      "previous_physics_ms": 1.198,
+      "scene_cpu_ms": 1.49699997901917,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.216999992728233,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.237,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 6,
+      "source_elapsed_ms": 16.6419999999999,
+      "source_x": 207.000564575195,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 285339475.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 24,
+      "frames_drawn": 15163,
+      "walk_subframe": 0,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 5799,
+      "elapsed_s": 48.743894,
+      "frame_gap_ms": 17.459,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 16.831,
+      "previous_physics_ms": 0.659,
+      "scene_cpu_ms": 1.23000001907349,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.179000005125999,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.087,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 6,
+      "source_elapsed_ms": 74.9409999999997,
+      "source_x": 120.33422088623,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 285430927.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 24,
+      "frames_drawn": 15265,
+      "walk_subframe": 2,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 5855,
+      "elapsed_s": 49.221525,
+      "frame_gap_ms": 20.54,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 16.831,
+      "previous_physics_ms": 0.659,
+      "scene_cpu_ms": 1.31700003147125,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.204999998211861,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.275,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 3,
+      "source_elapsed_ms": 49.9219999999996,
+      "source_x": 73.6677322387695,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 285482319.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 24,
+      "frames_drawn": 15321,
+      "walk_subframe": 1,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 5866,
+      "elapsed_s": 49.318211,
+      "frame_gap_ms": 17.119,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 16.831,
+      "previous_physics_ms": 0.659,
+      "scene_cpu_ms": 1.22200000286102,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.130999997258186,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.252,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 4,
+      "source_elapsed_ms": 49.9179999999996,
+      "source_x": 63.6677703857422,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 285493679.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 24,
+      "frames_drawn": 15332,
+      "walk_subframe": 1,
+      "walk_active": 1,
+      "nearby_events": [
+        {
+          "elapsed_s": 49.418981,
+          "name": "door_approach",
+          "phase": 25,
+          "type": "phase"
+        }
+      ]
+    },
+    {
+      "row": 5872,
+      "elapsed_s": 49.378332,
+      "frame_gap_ms": 18.229,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 16.831,
+      "previous_physics_ms": 0.659,
+      "scene_cpu_ms": 0.929000020027161,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.194000005722046,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.932,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 5,
+      "source_elapsed_ms": 8.24899999999961,
+      "source_x": 57.0011291503906,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 285500887.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 24,
+      "frames_drawn": 15338,
+      "walk_subframe": 0,
+      "walk_active": 1,
+      "nearby_events": [
+        {
+          "elapsed_s": 49.418981,
+          "name": "door_approach",
+          "phase": 25,
+          "type": "phase"
+        }
+      ]
+    },
+    {
+      "row": 5913,
+      "elapsed_s": 49.729143,
+      "frame_gap_ms": 18.993,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.767,
+      "previous_physics_ms": 0.7,
+      "scene_cpu_ms": 1.06099998950958,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.174999997019768,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.824,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 0,
+      "source_elapsed_ms": 58.2349999999995,
+      "source_x": 53.6678085327148,
+      "source_y": 301.633178710938,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 285542683.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 25,
+      "frames_drawn": 15379,
+      "walk_subframe": 1,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 5923,
+      "elapsed_s": 49.819629,
+      "frame_gap_ms": 17.843,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.767,
+      "previous_physics_ms": 0.7,
+      "scene_cpu_ms": 1.2940000295639,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.160999998450279,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.734,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 1,
+      "source_elapsed_ms": 49.8979999999995,
+      "source_x": 53.6678085327148,
+      "source_y": 296.7998046875,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 285552899.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 25,
+      "frames_drawn": 15389,
+      "walk_subframe": 1,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 5934,
+      "elapsed_s": 49.919428,
+      "frame_gap_ms": 18.107,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.767,
+      "previous_physics_ms": 0.7,
+      "scene_cpu_ms": 1.54799997806549,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.223000004887581,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.161,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 2,
+      "source_elapsed_ms": 49.8939999999995,
+      "source_x": 53.6678085327148,
+      "source_y": 290.999755859375,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 285562627.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 25,
+      "frames_drawn": 15400,
+      "walk_subframe": 1,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 6010,
+      "elapsed_s": 50.560597,
+      "frame_gap_ms": 17.353,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 18.425,
+      "previous_physics_ms": 0.649,
+      "scene_cpu_ms": 1.5809999704361,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.226999998092651,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.624,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 0,
+      "source_elapsed_ms": 91.5349999999994,
+      "source_x": 53.6678085327148,
+      "source_y": 253.299468994141,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 318,
+      "resource_count": 888.0,
+      "static_memory_bytes": 285633731.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 25,
+      "frames_drawn": 15476,
+      "walk_subframe": 2,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 6053,
+      "elapsed_s": 50.928754,
+      "frame_gap_ms": 18.571,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 18.425,
+      "previous_physics_ms": 0.649,
+      "scene_cpu_ms": 1.61500000953674,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.224000006914139,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.476,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 4,
+      "source_elapsed_ms": 58.1869999999993,
+      "source_x": 53.6678085327148,
+      "source_y": 232.032897949219,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 318,
+      "resource_count": 888.0,
+      "static_memory_bytes": 285673467.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 25,
+      "frames_drawn": 15519,
+      "walk_subframe": 1,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 6062,
+      "elapsed_s": 51.010959,
+      "frame_gap_ms": 17.687,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 18.425,
+      "previous_physics_ms": 0.649,
+      "scene_cpu_ms": 0.879000008106232,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.252000004053116,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.483,
+      "focused": true,
+      "action_id": 1,
+      "source_frame": 5,
+      "source_elapsed_ms": 41.5169999999993,
+      "source_x": 53.6678085327148,
+      "source_y": 227.19953918457,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 318,
+      "resource_count": 888.0,
+      "static_memory_bytes": 285680955.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 25,
+      "frames_drawn": 15528,
+      "walk_subframe": 1,
+      "walk_active": 1,
+      "nearby_events": []
+    },
+    {
+      "row": 7264,
+      "elapsed_s": 61.036105,
+      "frame_gap_ms": 16.932,
+      "engine_delta_ms": 8.333,
+      "previous_process_ms": 10.087,
+      "previous_physics_ms": 0.133,
+      "scene_cpu_ms": 1.78699994087219,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.237000003457069,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.344,
+      "focused": true,
+      "action_id": 6,
+      "source_frame": 1,
+      "source_elapsed_ms": 154.989,
+      "source_x": 259.501068115234,
+      "source_y": 337.800476074219,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 286753679.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 30,
+      "frames_drawn": 16730,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": []
+    },
+    {
+      "row": 7271,
+      "elapsed_s": 61.102752,
+      "frame_gap_ms": 17.677,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 10.087,
+      "previous_physics_ms": 0.133,
+      "scene_cpu_ms": 1.11000001430511,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.138999998569489,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 15.077,
+      "focused": true,
+      "action_id": 6,
+      "source_frame": 1,
+      "source_elapsed_ms": 221.653,
+      "source_x": 259.501068115234,
+      "source_y": 337.800476074219,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 286759223.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 30,
+      "frames_drawn": 16737,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": []
+    },
+    {
+      "row": 7304,
+      "elapsed_s": 61.3947,
+      "frame_gap_ms": 17.136,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 10.087,
+      "previous_physics_ms": 0.133,
+      "scene_cpu_ms": 1.00300002098083,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.105999998748302,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.366,
+      "focused": true,
+      "action_id": 6,
+      "source_frame": 4,
+      "source_elapsed_ms": 33.3079999999999,
+      "source_x": 259.501068115234,
+      "source_y": 337.800476074219,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 1,
+      "render_scale": 2,
+      "draw_calls": 320,
+      "resource_count": 888.0,
+      "static_memory_bytes": 286798231.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 30,
+      "frames_drawn": 16770,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": []
+    },
+    {
+      "row": 7350,
+      "elapsed_s": 61.794073,
+      "frame_gap_ms": 18.358,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 17.424,
+      "previous_physics_ms": 0.119,
+      "scene_cpu_ms": 1.31599998474121,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.190999999642372,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.611,
+      "focused": true,
+      "action_id": 0,
+      "source_frame": 0,
+      "source_elapsed_ms": 116.662,
+      "source_x": 259.501068115234,
+      "source_y": 337.800476074219,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 286834475.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 30,
+      "frames_drawn": 16816,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": [
+        {
+          "action": "stay",
+          "elapsed_s": 61.676943,
+          "phase": 30,
+          "type": "action"
+        }
+      ]
+    },
+    {
+      "row": 7366,
+      "elapsed_s": 61.93672,
+      "frame_gap_ms": 18.891,
+      "engine_delta_ms": 18.769,
+      "previous_process_ms": 17.424,
+      "previous_physics_ms": 0.119,
+      "scene_cpu_ms": 1.32400000095367,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.127000004053116,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 18.078,
+      "focused": true,
+      "action_id": 0,
+      "source_frame": 2,
+      "source_elapsed_ms": 20.832,
+      "source_x": 259.501068115234,
+      "source_y": 337.800476074219,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 286851943.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 30,
+      "frames_drawn": 16832,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": []
+    },
+    {
+      "row": 7371,
+      "elapsed_s": 61.984918,
+      "frame_gap_ms": 17.378,
+      "engine_delta_ms": 17.385,
+      "previous_process_ms": 17.424,
+      "previous_physics_ms": 0.119,
+      "scene_cpu_ms": 1.31099998950958,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.25,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 16.808,
+      "focused": true,
+      "action_id": 0,
+      "source_frame": 2,
+      "source_elapsed_ms": 69.178,
+      "source_x": 259.501068115234,
+      "source_y": 337.800476074219,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 286855663.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 30,
+      "frames_drawn": 16837,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": []
+    },
+    {
+      "row": 7545,
+      "elapsed_s": 63.443738,
+      "frame_gap_ms": 17.679,
+      "engine_delta_ms": 16.666,
+      "previous_process_ms": 18.687,
+      "previous_physics_ms": 0.123,
+      "scene_cpu_ms": 1.03600001335144,
+      "scene_gpu_ms": 0.0,
+      "window_cpu_ms": 0.146999999880791,
+      "window_gpu_ms": 0.0,
+      "pre_post_draw_wall_ms": 17.059,
+      "focused": true,
+      "action_id": 0,
+      "source_frame": 1,
+      "source_elapsed_ms": 34.9649999999999,
+      "source_x": 440.0,
+      "source_y": 320.0,
+      "jump_height_px": 0.0,
+      "active_fx_tracks": 0,
+      "render_scale": 2,
+      "draw_calls": 319,
+      "resource_count": 888.0,
+      "static_memory_bytes": 287012295.0,
+      "pipeline_canvas": 2,
+      "pipeline_mesh": 39,
+      "pipeline_surface": 31,
+      "pipeline_draw": 34,
+      "pipeline_specialization": 48,
+      "phase_id": 31,
+      "frames_drawn": 17011,
+      "walk_subframe": 0,
+      "walk_active": 0,
+      "nearby_events": []
+    }
+  ],
+  "checks": [
+    {
+      "check": "all_phases_have_rows",
+      "pass": true
+    },
+    {
+      "check": "all_nine_live_actions_observed",
+      "pass": true
+    },
+    {
+      "check": "door_approach_reaches_source_y216",
+      "pass": true
+    },
+    {
+      "check": "real_input_produces_more_than_100px_jump",
+      "pass": true
+    },
+    {
+      "check": "both_effect_tracks_visible",
+      "pass": true
+    },
+    {
+      "check": "both_render_scales_sampled",
+      "pass": true
+    },
+    {
+      "check": "native_motion_interpolation_enabled",
+      "pass": true
+    },
+    {
+      "check": "each_row_tracks_a_new_drawn_frame",
+      "pass": true
+    },
+    {
+      "check": "music_does_not_restart",
+      "pass": true
+    },
+    {
+      "check": "ambience_does_not_restart",
+      "pass": true
+    },
+    {
+      "check": "all24_move_samples_observed",
+      "pass": true
+    },
+    {
+      "check": "all24_dash_samples_observed",
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "native_window": "(1438, 809)",
+  "source_transition_count": 555,
+  "resource_start": 888,
+  "resource_end": 888.0,
+  "qa_sha256": "4f19166960d513f2426db8d8ec5536e63a6e909ea8bd98f76f02076a7e56fdb8",
+  "analysis_sha256": "9b01c73d3304c9bc2d9655e1303f00ffe5702277a5a0267dec0bbe89bdd05f0e",
+  "metadata_sha256": "0d609d2136f5f7240635ace63529f06d29625791c28675f4fd7da106f765ed82",
+  "raw_samples_sha256": "a5238282ee2741c6ae09e6c4d03b6a9c06002431a356ccf231525b7624212120",
+  "notes": [
+    "All slow frames retained, including quality changes and real input actions.",
+    "Main-loop wall intervals are not proof of display presentation or GPU duration.",
+    "These are observations on the current Mac and production sample, not Windows or long-term stability.",
+    "Previous R1/19 1016.389-ms hitch remains unexplained unless independently reproduced and attributed."
+  ]
+}

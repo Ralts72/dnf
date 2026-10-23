@@ -1,0 +1,12 @@
+{
+  "check_script": "res://tools/r1/audio_checks.gd",
+  "elapsed_seconds": 6.082796,
+  "qa_source_sha256": "24aef7527b0a1dd7697f6a245fd78a8f47ea2c71625ac7597eafbefe613e9b97",
+  "render_cases_completed": 0,
+  "result": {
+    "checks": 75,
+    "failed": [],
+    "mixer_files": 12
+  },
+  "status": "complete"
+}

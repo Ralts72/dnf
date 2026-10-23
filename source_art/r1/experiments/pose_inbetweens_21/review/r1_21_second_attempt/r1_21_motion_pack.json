@@ -1,0 +1,329 @@
+{
+  "candidate": "R1/21",
+  "changed": 32,
+  "numeric_fields": 32,
+  "qa_source_sha256": "89f716a344ae21fcf1feec04dc4e00fb9e9578a22a388afcb0bd272d70a2f02b",
+  "resources": {
+    "res://assets/r1/motion/dash_00_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "f654227774f1c3b3d4f0b2a2858b3bd62e32b206e1c130cb265b57a631bd6b3c",
+      "sha256": "00cb0abf0a29b654480f312592ce8fe2e0cf17b4e16b8874f381dc88bca5cb98",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_00_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "6c870ef8ae7ded3978166d077a9194abb22389b80ee31fc55929f933cf37e5d0",
+      "sha256": "2ce65fd34e9b17f965fd729d83bd79b349dadc52bb0f85c0cafea91b68e33a4b",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_01_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "ebcfce4e6b30e83878e7c8210145c69f733f5f5b8085005fdf70ca11db98ea28",
+      "sha256": "d590c1a6a969c95bcf8435b60a070ae3f64543740af3a06199ca5d7a848f6f60",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_01_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "c216fe8b7e21ae68186f55a378468e82b487e1451b20098fcb67dd532f37e584",
+      "sha256": "a516881ea68299736ab5bece3b4fd91f65df569b1007917b134927cb39719235",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_02_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "61696b647ff57b65b51e856c7a9826e3023567b54eb2d17fefba2b7ced1fd825",
+      "sha256": "9e4fe61ecc3ccb19b8c0e62b9fcb0c33d517c6f34f5fefa9e06d845324e392b1",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_02_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "4f42891091bfa1871fc54cad073dda5df320ee4fccdbe2cd88ed287437e05b5b",
+      "sha256": "8462e0caf05a96512d9ed19f306a1cf0c7c3009099715599758bded9a67ea5ab",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_03_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "77c21889a251af58cfdd16bcafe6e79fc0f9c89febc55a60ba392278e1111869",
+      "sha256": "db5a4beff50c31b86c8d8d1ef70063c32c94cb72d9f90e4afca4a6a3905e36ad",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_03_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "6ad5455e257af5068fe93a28b32ce0e82782abb4932b605e873727114abc8202",
+      "sha256": "2d68ceb2dd1be5ed2c1e88a1896d4e421855bd9e5a880e286dc1c89a4115607d",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_04_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "2ed063da346e121285a66abf9847b9dbcf5f4744c21f25e2c5a4a86cb3a140ef",
+      "sha256": "16a5c05760bba0f9ae32922861725229045b2224d64fc6795ed53f5962d66575",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_04_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "ecf1e233ddd81ef26f851585d0c0889cf7ed5d6aaca7a3054cb182e14faa2292",
+      "sha256": "fe262b6a2b39625fc6ab44d3e8fd7fa28df04d5fbe289c6ede9536773ed44c2b",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_05_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "6bb4a52f01779c98ca2eb4849657efac308d7cda0bd0c097dd9f91231e902c06",
+      "sha256": "8bea9e2cdd534c0ee836ffb2f9b66b654bccf9d9137936ef3d15bc789003c218",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_05_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "03b63b7a061171ad1111ab76738e3cd5a3e4da0f8c3cebf1db3ccc81474950e8",
+      "sha256": "7894a55cf361ab4d8544f627464ded51b2f410ca59009b66aa6b1661ce13eb18",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_06_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "49a328afc6f109915a3922b63df09fdbfcc1f0b874e91881a4da4e8912f6adec",
+      "sha256": "dc000daf8a61688c27634c3e2d773513af6e36167b179063e347b3a2b26715f0",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_06_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "f9dd4ede999dcc25ce27c88d9deea77063a3198df85723726eae3bbcf8fcab30",
+      "sha256": "1f55197bb1af7609481f9a48dcd3bcca2af154134cf12139024e9b75330cff67",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_07_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "5db04670c79c9f4deb39d07264d7d658c04190b9ba4c8a9e07f4b9e832cdc8d2",
+      "sha256": "322ecb34cee36a30d3825b62d7601bac5f732577b49a9e148754e87254d7b795",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/dash_07_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "e75d0a12a21b8501f5aea055e4b49de52fd6a8a0043468c8ffe588cf99bd31bc",
+      "sha256": "2d6e9eed689208b322c0f9a7abe74cc915ea6ac56391b92b98d143e24fafc4bb",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_00_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "7de5c7e2254a4609ed79ff32b393d583baef63a5885013b840e20a6d1b840ae0",
+      "sha256": "cbcb85f71c3eac6bd627a3a1df762f09f6aa69b2752415b1185090dd6512cfe9",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_00_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "6763427f3f31304eb0b3d74cfbb9986442750d3f545eb4d657f11f6f046e5946",
+      "sha256": "1fda1417aa2a24e59c3a2e9f4932ba724515a1b60d9236adba8d2cc2b4e9d4eb",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_01_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "2adff5ee5f8fbbbd78a3485dbab12679ff9d987027123267e99a8168bbd15c29",
+      "sha256": "0b42cf19c793eb51027ed3b80a46031f2aad35c63398b5650cdeba1140f0ee4f",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_01_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "14463f8815bc3cc55dcd0ba9cbafc206145fda7cae71b46f1e7b3e475c018c58",
+      "sha256": "9af1b026145e0ac7527cc4df45a4bfff491691f5b2ba49a45351d3339bb574de",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_02_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "0f1b3789758c4539bfbcb2352a2e2c84426e0361f74dd92606c464297aaed054",
+      "sha256": "39af22db2dbff179dda8e1d3e89fb12c63417ba14a68fd03512907cb45cb15f0",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_02_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "e15dcb4ae6199a326f23a85927d1423aa2be400189ebfe60559f4806ef2b9639",
+      "sha256": "447e699be2b1625603bc29ca2f565fee5d484a1b6f03bde3dfd74b26048aa10b",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_03_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "faffc1e6bcb7356a3cf8b57589a55eeeea8d027de73643fe42e61cfbd1ccabca",
+      "sha256": "e31d6f504e896dbb6f11df40b917ba7e7a632876e1ca1d8038311fcc1ccb5182",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_03_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "61d3188e398fa60dfdfbde5b72a89e8063553fbdac00640d383378c54492cea1",
+      "sha256": "0e4a741dc687a5ea39a9fc303bef1ed23ed27e4ecf1336762852bf1efe85c2b1",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_04_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "cfc3d9441ab371c08ea26ff993246e0e31e4658a52dfc11244bf888d8cfbe399",
+      "sha256": "cb4dbed147e3d35c9212b9784e6bd7153078f474cd018fd773c89e10eff4aeda",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_04_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "11a56cc089827305cadd9f7e3f3fcf3313fa43f0cfa4e0fb8f96010206b88f2d",
+      "sha256": "1e455b6433eba9a5f3761155564df8f4f159e18280d2ee72bb337d088960a047",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_05_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "2b0806d5102a76c5cec13b9a4d9b52987b0a9f0b403765a396ef12c72d10e678",
+      "sha256": "eba833e814096ee2b1abe6dd2a001b81cc16526091d97b302f59cc0170f6af25",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_05_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "a5dcd1f52f3fd36d0a311d7cfa243356a960b2bfb5d048086d6d18a74760cbea",
+      "sha256": "ea0f830335b0fcc58de010ff4e9c1206e257ca34faa32ad0664fad0f1d3a40e9",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_06_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "7c4af4b3db8ff8f75eba2408c9374004cc9f599a104d4722d60aef959c2c34c3",
+      "sha256": "cf4b8a9ec2f6319663b69c04347fb023d0d1c7ec1319f8f9a92ec15e6f394519",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_06_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "10eef6d8cc39e9f2e0ea081d387db8ff59158331341b31b2966684e7270d7ddd",
+      "sha256": "656eee40f1d222e727317f1e1026aed1c8f4ef6150fca683728e3745133a0065",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_07_1.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "518b94a471d7c7bdbf394e0e4100ab35dce273ff931277d2d1308d6b52674ad2",
+      "sha256": "024144d63b839e5fc6ef68984dd5ef4641378279cb037b6f43b1218d92fe4e19",
+      "size": [
+        320,
+        224
+      ]
+    },
+    "res://assets/r1/motion/move_07_2.res": {
+      "format": 15,
+      "raw_bytes": 573440,
+      "raw_sha256": "c03a9a122757fb0d66575afe4139e60c79db4b59cc9006532a9e1f2f49cc4ef5",
+      "sha256": "14f95bd8e645e024cbf44dbff7c4b82839a111f904e78fb3e75e8b02ea310de2",
+      "size": [
+        320,
+        224
+      ]
+    }
+  },
+  "runtime_data_sha256": "2d2003e96f43671529bb2efd4836a401990940785c0be33f0e384d4cd3147f01"
+}

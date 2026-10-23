@@ -1,0 +1,148 @@
+{
+  "path": "equipment/monster/dollmaster/dollmaster.equ",
+  "crc": {
+    "expected": 825144768,
+    "actual_seed_file_number": 825144768,
+    "actual_seed_zero": 2905614673
+  },
+  "decoded": [
+    {
+      "type": 5,
+      "index": 11429,
+      "text": "[name]"
+    },
+    {
+      "type": 7,
+      "index": 238991,
+      "text": "檣⑽餌曖 獗啖霞 鼠晦"
+    },
+    {
+      "type": 5,
+      "index": 18423,
+      "text": "[equipment type]"
+    },
+    {
+      "type": 7,
+      "index": 100466,
+      "text": "[weapon]"
+    },
+    {
+      "type": 2,
+      "value": 0
+    },
+    {
+      "type": 5,
+      "index": 18050,
+      "text": "[LAYER]"
+    },
+    {
+      "type": 2,
+      "value": 100
+    },
+    {
+      "type": 5,
+      "index": 7465,
+      "text": "[waiting motion]"
+    },
+    {
+      "type": 7,
+      "index": 587,
+      "text": ""
+    },
+    {
+      "type": 5,
+      "index": 7467,
+      "text": "[move motion]"
+    },
+    {
+      "type": 7,
+      "index": 587,
+      "text": ""
+    },
+    {
+      "type": 5,
+      "index": 7469,
+      "text": "[sit motion]"
+    },
+    {
+      "type": 7,
+      "index": 587,
+      "text": ""
+    },
+    {
+      "type": 5,
+      "index": 7471,
+      "text": "[damage motion 1]"
+    },
+    {
+      "type": 7,
+      "index": 587,
+      "text": ""
+    },
+    {
+      "type": 5,
+      "index": 7473,
+      "text": "[damage motion 2]"
+    },
+    {
+      "type": 7,
+      "index": 587,
+      "text": ""
+    },
+    {
+      "type": 5,
+      "index": 7475,
+      "text": "[down motion]"
+    },
+    {
+      "type": 7,
+      "index": 587,
+      "text": ""
+    },
+    {
+      "type": 5,
+      "index": 7477,
+      "text": "[overturn motion]"
+    },
+    {
+      "type": 7,
+      "index": 587,
+      "text": ""
+    },
+    {
+      "type": 5,
+      "index": 7511,
+      "text": "[attack motion]"
+    },
+    {
+      "type": 7,
+      "index": 238992,
+      "text": "Animation/Punch.ani"
+    },
+    {
+      "type": 7,
+      "index": 238993,
+      "text": "Animation/Gem.ani"
+    },
+    {
+      "type": 5,
+      "index": 7516,
+      "text": "[/attack motion]"
+    },
+    {
+      "type": 5,
+      "index": 7521,
+      "text": "[etc motion]"
+    },
+    {
+      "type": 7,
+      "index": 587,
+      "text": ""
+    },
+    {
+      "type": 5,
+      "index": 7647,
+      "text": "[/etc motion]"
+    }
+  ]
+}

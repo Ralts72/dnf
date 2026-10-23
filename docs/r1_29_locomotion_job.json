@@ -1,0 +1,12 @@
+{
+  "check_script": "res://tools/r1/locomotion_checks.gd",
+  "elapsed_seconds": 3.972068,
+  "qa_source_sha256": "fc866ed24e92c28cb7dae703a937dd45d2497ccc5d328df30dd3dcd46d93c130",
+  "render_cases_completed": 0,
+  "result": {
+    "boundary_cases": 96,
+    "checks": 49,
+    "failed": []
+  },
+  "status": "complete"
+}

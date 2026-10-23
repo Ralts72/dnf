@@ -1,0 +1,305 @@
+{
+	"all_passed": true,
+	"checks": [
+		{
+			"detail": null,
+			"name": "accept persists active bundle",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "observed clear persists return once",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "real clear receipt saved with return bundle",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "return state does not save every frame",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "claim commits exactly40 coins",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "repeated claim rejected",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "reload completed rejects second reward",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "completed load seeds absent encounter flag",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "successful atomic save consumes temporary file",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "backup is a consistent prior bundle",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "corrupt primary recovers valid backup",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "backup recovery preserves corrupt primary before commit",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "recovered bundle can safely claim40",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "commit archives exact corrupt source bytes",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "post-recovery reload remains40 once",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "both invalid disable writes",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "both invalid files retained byte-exact",
+			"passed": true
+		},
+		{
+			"detail": {
+				"coins": 0,
+				"objective_cleared": false,
+				"quest_stage": "active",
+				"reward_granted": false,
+				"schema": []
+			},
+			"name": "malformed bundle rejected0",
+			"passed": true
+		},
+		{
+			"detail": {
+				"coins": 0,
+				"objective_cleared": false,
+				"quest_stage": "active",
+				"reward_granted": false,
+				"schema": 1.5
+			},
+			"name": "malformed bundle rejected1",
+			"passed": true
+		},
+		{
+			"detail": {
+				"coins": 0,
+				"objective_cleared": false,
+				"quest_stage": [],
+				"reward_granted": false,
+				"schema": 1
+			},
+			"name": "malformed bundle rejected2",
+			"passed": true
+		},
+		{
+			"detail": {
+				"coins": 0,
+				"objective_cleared": false,
+				"quest_stage": "active",
+				"reward_granted": "false",
+				"schema": 1
+			},
+			"name": "malformed bundle rejected3",
+			"passed": true
+		},
+		{
+			"detail": {
+				"coins": {},
+				"objective_cleared": false,
+				"quest_stage": "active",
+				"reward_granted": false,
+				"schema": 1
+			},
+			"name": "malformed bundle rejected4",
+			"passed": true
+		},
+		{
+			"detail": {
+				"coins": 40,
+				"objective_cleared": true,
+				"quest_stage": "completed",
+				"reward_granted": false,
+				"schema": 1
+			},
+			"name": "malformed bundle rejected5",
+			"passed": true
+		},
+		{
+			"detail": {
+				"coins": 80,
+				"objective_cleared": true,
+				"quest_stage": "completed",
+				"reward_granted": true,
+				"schema": 1
+			},
+			"name": "malformed bundle rejected6",
+			"passed": true
+		},
+		{
+			"detail": {
+				"coins": 0,
+				"quest_stage": "active",
+				"reward_granted": false,
+				"schema": 1
+			},
+			"name": "malformed bundle rejected7",
+			"passed": true
+		},
+		{
+			"detail": {
+				"coins": 0,
+				"objective_cleared": 1,
+				"quest_stage": "active",
+				"reward_granted": false,
+				"schema": 1
+			},
+			"name": "malformed bundle rejected8",
+			"passed": true
+		},
+		{
+			"detail": {
+				"coins": 0,
+				"objective_cleared": true,
+				"quest_stage": "active",
+				"reward_granted": false,
+				"schema": 1
+			},
+			"name": "malformed bundle rejected9",
+			"passed": true
+		},
+		{
+			"detail": {
+				"coins": 0,
+				"objective_cleared": false,
+				"quest_stage": "return",
+				"reward_granted": false,
+				"schema": 1
+			},
+			"name": "malformed bundle rejected10",
+			"passed": true
+		},
+		{
+			"detail": {
+				"coins": 40,
+				"objective_cleared": false,
+				"quest_stage": "completed",
+				"reward_granted": true,
+				"schema": 1
+			},
+			"name": "malformed bundle rejected11",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "oversized file rejected and retained",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "failed accept write rolls memory back",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "failed write does not replace blocking directory",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "latch setup accepted",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "failed clear save retains active zero-coin bundle",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "failed clear save attempts once until explicit retry",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "manual retry persists return after storage recovers",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "historical real clear receipt survives practice reset",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "historical receipt cannot reward twice",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "no reward before a real clear observation",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "numeric truthy flag cannot mint receipt or reward",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "clear before accepting moves directly to return",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "configuration rejects non-QA legacy path",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "human primary presence and bytes unchanged",
+			"passed": true
+		}
+	],
+	"controller_sha256": "c899f2192574ca5ab0c430d807a2e73b508833315b48f09da0b7585dcb80f4a5",
+	"count": 43,
+	"created_at": "2026-10-23T07:40:03",
+	"failed": [],
+	"godot": "4.7.2-stable (official)",
+	"human_primary_exists_after": false,
+	"human_primary_exists_before": false,
+	"human_primary_initialized_or_written": false,
+	"human_primary_sha256_after": "",
+	"human_primary_sha256_before": "",
+	"isolated_storage_prefix": "user://qa/first_route_1792741203_66007_143527",
+	"quest_data_sha256": "6a613b05364c27ffd64c7dbbcf6638ead47ce3d57677d4612a1cc7f816786169",
+	"schema": 1,
+	"test_script": "res://tools/r3/progress_storage_checks.gd"
+}
