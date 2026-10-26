@@ -1,0 +1,339 @@
+# Godot运行时节点与场景组织
+
+日期：2026年10月24日  
+状态：新工程建议，尚未实例化以下场景或修改现有运行时。
+
+本方案在目录建议之上明确节点的职责、生命周期与依赖。以纯单人、固定观察方向、真实高低差、分部位命中和基础剑士为第一阶段目标。
+
+## 插件目录与项目入口
+
+建议文件布局：
+
+```text
+original_game/
+├── project.godot
+├── addons/
+├── assets/                 # 原始制作资料，内含.gdignore
+├── src/                    # 自有场景、脚本与运行时资源
+├── tools/
+└── docs/
+```
+
+addons 的约定位置是 Godot 项目根下的 res://addons，与 project.godot 同级。此前方案以 src 作为整个 Godot 项目根，所以其中 src/addons 也符合这个路径；现在统一调整为入口与插件放仓库根。[官方插件安装说明](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/installing_plugins.html)
+
+src/core、src/gameplay 等是文件组织。运行时不需要生成同名的 Core、Gameplay 节点；节点按场景实例、空间关系、更新与生命周期组织。
+
+## 主场景的职责分组
+
+建议将 Main 明确分成 Systems、Session、World、UI、Pause、Transitions 和 Debug。Main 负责装配引用，SceneFlow 负责菜单、开始游戏、跨区与退出会话等流程。
+
+下图为组合示意。Session 在开始或载入游戏时创建，具体界面按需要实例化与显示。
+
+```text
+root : Window                              # 引擎创建的根窗口
+└── Main : Node                            # main.tscn，持续存在
+    ├── Systems : Node                     # 应用级服务
+    │   ├── SettingsService
+    │   ├── SaveService
+    │   ├── AudioService
+    │   ├── SceneFlow
+    │   └── PauseController
+    ├── Session : Node                     # 当前角色与会话数据
+    ├── World : Node3D                     # 世界宿主，跨区保留
+    │   ├── Levels : Node3D                # 当前地区的装载容器
+    │   │   └── CurrentLevel : Node3D      # 实际地区场景实例
+    │   └── CameraRig : Node3D
+    │       └── Camera3D
+    ├── UI : CanvasLayer                   # layer建议10
+    │   └── UIRoot : Control
+    │       ├── MainMenu
+    │       ├── HUD
+    │       ├── Screens                    # 背包、装备、图鉴等
+    │       ├── Dialogs
+    │       └── Notifications
+    ├── Pause : CanvasLayer                # layer建议20，暂停界面
+    │   └── PauseMenu : Control
+    ├── Transitions : CanvasLayer          # layer建议30
+    │   └── TransitionRoot : Control
+    │       ├── Loading
+    │       └── Fade
+    └── Debug : Node                       # 开发环境启用
+        ├── WorldGizmos : Node3D
+        └── DebugUI : CanvasLayer          # layer建议100
+            └── DebugRoot : Control
+```
+
+UI 与 HUD 是包含关系。HUD 负责战斗常显信息，Screens 负责背包等页面，Dialogs 负责对话与确认框。Pause 单独分层，方便控制遮罩、焦点和暂停期间的输入。CanvasLayer 的 layer 决定各画布层的绘制顺序，以上数字是本项目建议值。[官方CanvasLayer说明](https://docs.godotengine.org/en/stable/classes/class_canvaslayer.html)
+
+| 对象 | 主要职责 | 生命周期 |
+| --- | --- | --- |
+| Main | 入口与依赖装配 | 应用期间 |
+| Systems | 应用级服务的组织容器 | 应用期间 |
+| SceneFlow | 开始、载入、跨区、回到菜单的流程 | 应用期间 |
+| PauseController | 暂停请求、输入上下文与统一恢复 | 应用期间 |
+| Session | 当前角色、任务、图鉴与地区变化记录 | 一次游戏会话 |
+| World | 地区装载位置与镜头 | 应用期间，菜单阶段可为空 |
+| Levels | 接收当前地区实例 | 随World保留 |
+| CurrentLevel | 当前地区的空间对象与局部模拟 | 进入到离开地区 |
+| UI | 界面层宿主，切换对应子界面与数据绑定 | 应用期间 |
+| Pause | 暂停菜单与遮罩 | 应用期间，按状态显示 |
+| Transitions | 加载与转场反馈 | 应用期间 |
+| Debug | 开发观察与操作入口 | 开发环境期间 |
+
+角色档案、任务记录等数据由 Session 持有；SaveService 负责实际读写。服务没有引擎更新或节点生命周期需求时，也可以是普通对象。装备、伤害等规则不需要全部变成 Systems 下的全局节点。
+
+### Autoload的范围
+
+Main 常驻时，自己的应用服务可以由 Main 管理并向下提供，初版不必为了跨区保存数据而建立大量 Autoload。
+
+如果以后需要某个场景外的持续服务，可以明确选择 Autoload。Autoload 节点会在普通主场景之前加入根视口，不能把它误认为 Main 的普通子节点。[官方Autoload说明](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html)
+
+插件自动注册的 Autoload 按插件自身要求管理。玩家、敌人和局部战斗状态仍由对应会话或世界管理。
+
+## World与Levels的边界
+
+World 是长期存在的世界宿主，Levels 是装载容器，CurrentLevel 是可替换的具体地区。当前先按一个活动地区组织，不预设同时加载所有区域。
+
+```text
+World : Node3D
+├── Levels : Node3D
+│   └── CurrentLevel : Node3D
+│       ├── Geometry : Node3D           # 地形、建筑及实体碰撞
+│       ├── NavigationRegion3D
+│       ├── AuthoredObjects : Node3D    # 门、箱子、火盆等
+│       ├── SpawnPoints : Node3D
+│       │   ├── PlayerSpawn : Marker3D
+│       │   └── EnemySpawns
+│       ├── Triggers : Node3D           # 出口和事件Area3D
+│       ├── Actors : Node3D
+│       │   ├── Player
+│       │   └── Enemies
+│       ├── Drops : Node3D
+│       ├── Projectiles : Node3D
+│       ├── Effects : Node3D
+│       ├── LevelSystems : Node
+│       │   ├── EnvironmentSimulation
+│       │   └── EncounterController
+│       ├── Lighting : Node3D
+│       └── WorldEnvironment
+└── CameraRig : Node3D
+    └── Camera3D
+```
+
+地区固定布置与动态实例都归 CurrentLevel 管理，跨区时统一释放。角色进度和需要保留的变化先提取到 Session，进入新地区后恢复。镜头宿主保留并重新绑定玩家。
+
+EnvironmentSimulation 是温度、湿度和材料反应逻辑；WorldEnvironment 是 Godot 渲染环境配置。局部模拟与刷怪控制放在 LevelSystems，应用级服务放在 Main/Systems，角色自身状态留在角色内部。
+
+战斗命中、任务与环境模块通过初始化参数获得必要上下文。稳定ID与变化记录用于保存世界状态，Drops与环境等具体持久化范围仍待玩法设计确认。
+
+## UI HUD与Pause
+
+- HUD：生命、职业资源、技能、锁定与交互提示等常显信息。
+- Screens：背包、装备、技能、任务、图鉴等按需打开的页面。
+- Dialogs：对话、确认与选择等需要管理焦点的界面。
+- Notifications：拾取、任务变化、称号解锁等短时反馈。
+- Pause：暂停遮罩、继续、设置、返回菜单等独立菜单。
+- Transitions：地区切换、载入时的遮罩和加载反馈。
+
+UI只读取公开状态并提交操作请求。暂停菜单向PauseController请求暂停或恢复，PauseController集中修改暂停状态与输入上下文。
+
+如果背包、对话或其他界面需要暂停，也经过同一入口；是否暂停属于玩法选择。暂停理由用明确标识管理，关闭一个界面只撤销自己的请求，全部理由解除后恢复。
+
+暂停会影响节点处理与物理更新，暂停期间仍可按process_mode继续处理指定界面。信号回调仍可能执行，因此行动入口与输入上下文也需要明确。[官方暂停说明](https://docs.godotengine.org/en/stable/tutorials/scripting/pausing_games.html)
+
+| 分支 | 建议process_mode | 目的 |
+| --- | --- | --- |
+| Systems | Always | 保持暂停切换、载入与设置等应用操作 |
+| Session | Pausable | 游戏时间等会话更新跟随暂停 |
+| World | Pausable | 地区模拟与角色停止更新 |
+| UI | Always | 界面保持响应，焦点由界面状态控制 |
+| Pause | Always | 可以继续操作暂停菜单 |
+| Transitions | Always | 加载与转场可在世界暂停时工作 |
+| Debug | Always | 暂停时仍能查看状态 |
+
+process_mode与界面显示状态分别管理。Always界面也只在当前输入上下文允许时提交游戏操作。
+
+## Debug的组织
+
+Debug集中提供帧率、角色动作、资源、接触部位、锁定点和环境参数的观察入口。WorldGizmos绘制3D调试信息，DebugUI显示屏幕控件，两者都由Debug组织。
+
+调试工具读取已公开的状态快照，通过明确命令调用开发操作。切换地区时清理旧世界引用和调试图形，重新绑定新地区。正式导出按构建配置处理开发内容，生产玩法不依赖Debug节点存在。
+
+## 玩家场景
+
+玩家是可实例化的角色场景，有完整的 Player 入口脚本。以下是候选组合方式，具体组件数量以实际职责为依据。
+
+已确认地面移动、转向与出招支持任意方向，自由状态主要由左摇杆提供方向。锁定保存目标，普通走位允许转身离开；近战出招与移动施放分别使用动作阶段的朝向和位移权限。具体参数见[移动朝向与动作权限方案](移动朝向与动作权限方案.md)。VisualRoot与动作预览需要覆盖多个朝向。
+
+```text
+Player : CharacterBody3D
+├── CollisionShape3D
+├── InputController : Node
+├── Locomotion : Node
+├── ActionController : Node
+├── Combatant : Node
+├── BodyParts : Node
+├── Targeting : Node
+├── Targetable : Node
+├── Interaction : Node
+└── VisualRoot : Node3D
+    ├── ModelRoot                    # 导入模型的包装场景
+    │   ├── Skeleton3D
+    │   └── AnimationPlayer
+    ├── AnimationTree
+    ├── Attachments : Node3D
+    └── EquipmentView : Node
+```
+
+ModelRoot 内部结构随资产导出规范确定；包装场景负责适配骨架与动画引用。组件通过导出引用或初始化参数连接，不要求所有导入模型天然具有完全一样的内部节点路径。
+
+| 部分 | 负责 | 与其他部分的边界 |
+| --- | --- | --- |
+| Player | 初始化、角色生命周期、协调与最终物理移动 | 具体伤害与装备配方有独立规则 |
+| CollisionShape3D | 与墙、地面等的实体碰撞 | 身体部位命中由专门受击体报告 |
+| InputController | 键鼠或手柄输入转换为意图 | 行动是否成功由动作逻辑判断 |
+| Locomotion | 按当前动作权限处理地面、跳跃和移动请求 | 与动作位移协调后，由统一位置推进入口执行 |
+| ActionController | 动作、缓冲、派生、窗口、取消及移动朝向权限 | 输出当前阶段策略，提供攻击上下文 |
+| Combatant | 自身生命、资源、失衡等运行状态 | 使用共享结算规则 |
+| BodyParts | 部位ID、肉质、防护和部位状态 | 连接实际受击体，接触与结算分开 |
+| Targeting | 选择目标和允许锁定的部位，提供目标参考方向 | 身体转向由动作权限决定，命中按实际接触处理 |
+| Targetable | 暴露本角色可被选择的目标点 | 与实际受击部位分别配置 |
+| Interaction | 寻找与使用门、箱子、NPC等对象 | 调用对象公开交互接口 |
+| VisualRoot | 朝向、动画、模型、声音与表现 | 从动作和状态接收明确反馈 |
+| EquipmentView | 装备模型、蒙皮部件与挂点 | 装备属性及强化记录由数据层维护 |
+
+Player.gd 可以是完整入口与协调者。避免多个组件各自独立覆盖位置、速度或动作状态；为这些状态设置明确写入者。
+
+## 部位与武器怎样跟随骨骼
+
+身体的实体碰撞、部位受击体和武器攻击检测分别组织。
+
+示意的挂接结构：
+
+```text
+VisualRoot/Attachments
+├── HeadAttachment : BoneAttachment3D
+│   └── HeadHurtbox : Area3D
+│       └── CollisionShape3D
+├── TorsoAttachment : BoneAttachment3D
+│   └── TorsoHurtbox : Area3D
+│       └── CollisionShape3D
+└── RightHandAttachment : BoneAttachment3D
+    └── WeaponView : Node3D
+        ├── Mesh
+        └── AttackProbe : Node3D
+```
+
+Attachments 中的 BoneAttachment3D 可以通过外部骨架引用绑定 ModelRoot 内的 Skeleton3D，也可以在明确的模型包装流程中放到骨架之下。其作用是跟随对应骨骼的变换。[官方BoneAttachment3D说明](https://docs.godotengine.org/en/stable/classes/class_boneattachment3d.html)
+
+- HeadHurtbox 等向 BodyParts 登记 part_id 和当前状态。
+- WeaponView 表示当前武器的空间表现；背包中的武器实例数据独立保存。
+- AttackProbe 在有效攻击窗口内收集接触。扫掠检测、Area3D或组合方式通过原型验证。
+- 刚性武器与饰物使用骨骼挂点；衣甲等需要随骨架变形的部件按统一蒙皮流程适配。
+- BodyParts 管理逻辑部位，实际受击体随骨骼运动。
+
+锁定点与受击体分别配置：人形可以具有头部受击体，但只开放主体锁定点；巨兽再开放多个部位锁定点。不会因为增加头部碰撞体，就自动允许锁定人形头部。
+
+## 敌人如何复用角色能力
+
+```text
+Enemy : CharacterBody3D
+├── CollisionShape3D
+├── AIController
+├── Locomotion
+├── ActionController
+├── Combatant
+├── BodyParts
+├── Targetable
+└── VisualRoot
+```
+
+对于以角色移动为主的人形或怪物，先共用动作执行、部位、命中与反馈能力。AIController 产生移动和行动意图，动作执行层判断是否允许并执行。
+
+不同敌人通过动作配置、感知和决策、部位布局与专用组件形成差异。确有不同物理需求的敌人再选择其他根节点类型。
+
+AI 不直接修改玩家生命。命中经统一接触与结算流程处理，让玩家和敌人遵守一致的攻击范围与部位规则。
+
+## 什么内容不必成为节点
+
+| 内容 | 推荐形态 | 归属 |
+| --- | --- | --- |
+| 武器、动作、材料定义 | Resource配置 | 模块类型脚本与content具体实例 |
+| 玩家持有装备、升级记录 | 独立运行时数据对象 | 当前会话 |
+| 单次动作经过时间与命中记录 | 动作运行对象 | 对应ActionController |
+| 部位当前状态 | 角色运行数据 | 对应BodyParts |
+| 伤害计算输入与结果 | 普通数据对象、函数或规则对象 | combat模块 |
+| 温度与湿度状态 | 地区对象状态或模拟集合 | CurrentLevel与Session持久化记录 |
+| 玩家进度、任务与图鉴 | 会话数据 | Session |
+| 实体碰撞、受击体、声音播放、界面 | Node及其子类 | 对应空间与生命周期 |
+
+核心原则是需要空间、引擎回调、物理或界面能力时使用节点；配置与状态按用途分开。具体逻辑在脚本类中实现，目录中的每个文件不必都有对应树节点。
+
+## 生命周期与场景切换
+
+### 开始或载入游戏
+
+Main装配服务与场景引用，SceneFlow创建Session。Session从存档或初始定义恢复角色与地区记录，SceneFlow将具体地区实例装入World/Levels，并把角色状态绑定到UI/HUD。
+
+地区按出生点创建玩家、敌人与其他动态对象，再将World/CameraRig绑定到玩家。主菜单隐藏，HUD与必要游戏界面启用。
+
+### 跨地区
+
+Session保存需要保留的角色与地区状态，SceneFlow替换World/Levels下的CurrentLevel，然后在新地区恢复角色并重新连接镜头、HUD与调试工具。
+
+休整、死亡与普通跨区各自决定哪些状态恢复或重置。生命、资源与效果通过明确的快照规则延续。
+
+Main、Systems、Session、World、UI等宿主保持存在。地区切换在Levels容器中完成，统一回收旧地区的角色、投射物、特效与局部模拟。
+
+### 返回主菜单
+
+SceneFlow解除游戏界面绑定，关闭会话页面，卸载CurrentLevel，清空镜头与Debug的地区引用，再释放Session并显示主菜单。World、UI与应用服务宿主保留；暂停请求按结束会话流程清理。
+
+树的 parent 关系决定运行时层级及子节点生命周期；Godot 的 owner 属性主要用于场景打包与编辑器归属。两者需要分别理解。[官方Node说明](https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-property-owner)
+
+### 暂停与流程切换
+
+PauseController统一处理暂停菜单、需要暂停的界面与转场请求。恢复时保留仍有效的其他暂停理由，返回主菜单时结束当前会话相关请求。具体process_mode与界面职责见上文UI、Pause分节。
+
+## 跨场景通信
+
+- 父场景创建对象并提供必要引用。
+- 发起行动使用方法或明确命令。
+- 已发生的变化通过信号通知。
+- UI/HUD绑定当前角色的公开状态，卸载地区时解除旧绑定。
+- CameraRig接收目标引用。
+- 角色和敌人通过世界接口访问必要服务。
+
+例如怪物命中玩家：攻击检测提供部位接触，combat结算修改玩家Combatant，角色表现与UI/HUD分别响应状态变化。Pause显示暂停状态，Debug观察结算与接触信息。
+
+具体武器、敌人和UI不依赖 /root/Main 下某个长期不变的绝对路径。子场景应能在明确的上下文中复用，这是Godot官方场景组织建议的重点。[官方场景组织说明](https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html)
+
+## 场景文件与节点树的映射
+
+| 文件 | 实例化后的节点角色 |
+| --- | --- |
+| src/app/main.tscn | Main |
+| src/app/session.tscn | Session |
+| src/app/world.tscn | World宿主，含Levels与CameraRig |
+| src/levels/region_01/region_01.tscn | CurrentLevel中的具体地区实例 |
+| src/gameplay/actors/player/player.tscn | Player |
+| src/gameplay/actors/enemies/bandit/bandit.tscn | 某种Enemy |
+| src/ui/ui.tscn | UI画布层与UIRoot |
+| src/ui/hud/hud.tscn | UI/HUD |
+| src/ui/pause/pause_layer.tscn | Pause画布层与PauseMenu |
+| src/ui/transitions/transitions.tscn | Transitions |
+| src/debug/debug_root.tscn | Debug与其3D、屏幕显示分支 |
+| src/gameplay/actors/shared/hurtbox.tscn | 可复用的部位受击体 |
+| src/levels/sandbox/combat_lab.tscn | 独立战斗试验入口 |
+
+同一个PackedScene可以实例化多次，文件目录用于寻找定义，运行时节点树用于组织这些实例。
+
+编辑器里直接运行试验场时，由试验场提供最小上下文与测试数据；它不需要先经过完整主菜单流程。
+
+## 第一轮需要落地的最小组合
+
+先完成Main、必要Systems、World/Levels中的单个试验地区、基础剑士、代表性敌人、镜头、UI/HUD与最小Pause。按验证内容逐步增加Debug的部位与动作观察工具。
+
+会话、服务和UI以真实生命周期需求拆分，不必先创建全部示例节点。环境模拟与存档在相应阶段接入明确接口。初版继续只做单人。
+
+本轮仅补充新工程建议，未创建场景、移动插件或修改现有资产导入配置。
