@@ -1,113 +1,15 @@
-# Godot架构与目录建议
+# Godot工程架构
 
-日期：2026年10月24日  
-状态：面向独立原创工程的架构建议，尚未创建工程或迁移现有代码。
+更新日期：2026年10月26日  
+状态：新工程建议；尚未创建原创工程或迁移现有代码。
 
 ## 结论
 
-采用外层分工、功能内部聚合的组织方式。建议让 project.godot 与 addons 位于仓库根，src 集中自有脚本、场景和运行时资源；外层 assets 保存原始制作资料，并通过 .gdignore 排除导入。
+采用“按功能分组、模块内部保持内聚”的目录组织：项目根放project.godot与addons，自有脚本、场景和运行时资源放src，原始制作资料放assets并按用途排除导入。
 
-目录只能表达架构。真正需要确定的是模块职责、依赖方向、状态归属、数据与运行对象的边界，以及功能怎样独立验证。
+职责、依赖、状态和资源所有权比目录名更重要。优先使用Godot节点组合、明确的动作执行流程和内容数据定义；先为剑士、人形敌人、巨兽和部位规则建立小型模块。开源实例及核实快照独立放在[开源项目架构参考](../05-参考资料/开源项目架构参考.md)。
 
-对当前游戏，优先使用 Godot 场景组合、明确的动作执行流程与数据定义。Thrive 的大型模拟架构可以作为长期参考；原型先验证基础剑士、人形敌人、巨兽和部位命中。
-
-运行时节点与生命周期详见[Godot运行时节点与场景组织](Godot运行时节点与场景组织.md)。
-
-主场景分组建议为 Systems、Session、World、UI、Pause、Transitions 和 Debug；Levels 位于 World 内负责装载当前地区，HUD 位于 UI 内。此处是节点职责划分，与文件目录按功能组织相互配合。
-
-## 已核实的开源参考
-
-本轮查看了公开仓库目录、架构说明和代表性源码。以下目录均为相关部分的摘录，省略了与结论无关的内容。没有运行这些参考游戏。
-
-### Thrive 真实游戏的模块组织与模拟边界
-
-[Thrive 仓库](https://github.com/Revolutionary-Games/Thrive)是持续开发中的 Godot 演化模拟游戏。它适合观察规模增长后的模块划分；玩法代码使用 C#，其架构文档明确介绍了 ECS 与 Godot 表现层的分工。
-
-核实快照：607a682a985b7f0867b22909657d6a3d1522ceb0。
-
-```text
-Thrive/
-├── assets/
-├── simulation_parameters/
-├── shaders/
-├── src/
-│   ├── engine/
-│   ├── general/
-│   ├── saving/
-│   ├── gui_common/
-│   └── microbe_stage/
-│       ├── components/
-│       ├── systems/
-│       └── gui/
-├── test/
-└── doc/
-```
-
-该项目可以直接看到场景与代码相邻，例如 MicrobeStage.cs 与 MicrobeStage.tscn；存档、基础设施和阶段玩法各有归属。[实际阶段目录](https://github.com/Revolutionary-Games/Thrive/tree/607a682a985b7f0867b22909657d6a3d1522ceb0/src/microbe_stage)
-
-它的架构文档进一步区分组件数据、执行规则的系统和用于显示、声音、GUI 的 Godot 节点，并说明了更新顺序与并行约束。[Thrive 架构说明](https://github.com/Revolutionary-Games/Thrive/blob/607a682a985b7f0867b22909657d6a3d1522ceb0/doc/architecture.md)
-
-对本项目的启发是明确模拟状态与画面反馈的关系。当前原型采用场景组件即可；是否为环境模拟引入批量数据处理，等性能与实体数量验证后判断。
-
-### GDQuest OpenRPG GDScript功能模块与数据实例
-
-[Godot OpenRPG](https://github.com/gdquest-demos/godot-open-rpg)是仍在开发的 Godot 4 回合制 RPG 教学 Demo，不能把它当成已完成的实时动作游戏框架。它更适合阅读功能目录、数据实例与脚本类型的对应关系。[项目说明](https://github.com/gdquest-demos/godot-open-rpg/blob/d59f2f71bc046ac53239a4e590861269e7100a36/README.md)
-
-核实快照：d59f2f71bc046ac53239a4e590861269e7100a36。
-
-```text
-OpenRPG/
-├── assets/
-├── combat/battlers/          # 具体角色的场景与数据
-├── overworld/               # 地图与具体表现
-└── src/
-    ├── combat/
-    │   ├── actions/
-    │   ├── battlers/
-    │   └── ui/
-    ├── field/
-    │   ├── gamepieces/
-    │   ├── gameboard/
-    │   └── cutscenes/
-    └── common/
-```
-
-具体示例：
-
-- 动作类型放在 src/combat/actions，包含 BattlerAction 及攻击、治疗等实现。
-- BattlerStats 的类型脚本放在 src/combat/battlers。
-- 熊的具体属性实例放在 combat/battlers/bear/bear_stats.tres，并引用上述类型。
-- ui_life_bar.gd 与 ui_life_bar.tscn 放在同一功能目录。
-
-可查看[动作定义](https://github.com/gdquest-demos/godot-open-rpg/blob/d59f2f71bc046ac53239a4e590861269e7100a36/src/combat/actions/battler_action.gd)、[熊的属性实例](https://github.com/gdquest-demos/godot-open-rpg/blob/d59f2f71bc046ac53239a4e590861269e7100a36/combat/battlers/bear/bear_stats.tres)和[战斗界面目录](https://github.com/gdquest-demos/godot-open-rpg/tree/d59f2f71bc046ac53239a4e590861269e7100a36/src/combat/ui)。
-
-本项目可借鉴这些边界，实时攻击则需要自己的输入缓冲、状态转换、动作窗口、物理接触与受击处理。
-
-### 官方 TPS Demo 观察3D功能资源如何放在一起
-
-[官方 TPS Demo](https://github.com/godotengine/tps-demo)是 Godot 4 的3D射击演示。
-
-核实快照：a82f15448e9b015440d3bbdf5e10801b260c4e9f。
-
-```text
-tps-demo/
-├── player/
-│   ├── player.gd
-│   ├── player.tscn
-│   ├── player_input.gd
-│   ├── model/
-│   ├── textures/
-│   ├── audio/
-│   └── bullet/
-├── enemies/red_robot/
-├── level/
-├── menu/
-└── effects_shared/
-```
-
-它清楚地展示了角色场景、脚本、模型和专用声音的聚合。[玩家目录](https://github.com/godotengine/tps-demo/tree/a82f15448e9b015440d3bbdf5e10801b260c4e9f/player)
-
-本快照的输入与场景包含多人同步相关实现。本项目只借鉴3D资源组织，初版继续遵守纯单人范围。[实际输入文件](https://github.com/godotengine/tps-demo/blob/a82f15448e9b015440d3bbdf5e10801b260c4e9f/player/player_input.gd)
+运行时树以[运行时节点与场景](运行时节点与场景.md)为准：Systems、Session、World、UI、Pause、Transitions与Debug分工；Levels属于World，HUD属于UI。此处描述文件与模块，节点文档描述装配与生命周期。
 
 ## 推荐的整体目录
 
@@ -258,7 +160,7 @@ Player : CharacterBody3D
 - Targeting维护目标和辅助朝向，动作范围与命中结算仍各有职责。
 - VisualRoot与EquipmentView负责模型、动画和装备外观表现。
 
-这是逻辑职责示例，具体受击体需要跟随对应骨骼，而非固定在角色根部。完整场景组合与骨骼挂接见[节点组织方案](Godot运行时节点与场景组织.md)。独立更新、物理交互与编辑器组合需要使用Node；纯计算可以是普通对象或函数；配置使用Resource；状态数据可以使用独立运行时对象。
+这是逻辑职责示例，具体受击体需要跟随对应骨骼，而非固定在角色根部。完整场景组合与骨骼挂接见[节点组织方案](运行时节点与场景.md)。独立更新、物理交互与编辑器组合需要使用Node；纯计算可以是普通对象或函数；配置使用Resource；状态数据可以使用独立运行时对象。
 
 敌人通过AI提供行动意图，尽量复用动作执行、命中与受击处理。玩家与敌人的区别主要体现为控制来源、动作配置与专用行为。
 
