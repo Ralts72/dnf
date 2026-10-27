@@ -153,7 +153,7 @@ Player : CharacterBody3D
 ```
 
 - InputController把设备操作转换为移动与行动意图。
-- Locomotion与角色根节点协作处理移动、跳跃和碰撞。
+- Locomotion与角色根节点协作处理地面移动、情境跨越、招式离地及碰撞，不以通用自由跳跃为初版前提。
 - ActionController处理当前动作、派生、时序与允许的转换。
 - Combatant维护自身运行时战斗状态，并使用统一结算流程。
 - BodyParts提供实际接触部位及其状态。
